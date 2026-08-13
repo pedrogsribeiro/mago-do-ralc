@@ -54,4 +54,4 @@ Os magos não usam mapas convencionais (exceto Tecnocratas). Para viajar entre r
 * **A Vantagem da Ciência Dimensional (Tecnocracia):** Os Engenheiros do Vazio estabilizam o caos ilusório da Umbra por meio da "estrita certeza matemática" de seus instrumentos, navegando com extrema precisão tecnológica.
 
 ---
-*Voltar para o Índice:* [Umbra.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Resumos/Umbra/Umbra.md)
+*Voltar para o Índice:* [Umbra.md](Umbra.md)

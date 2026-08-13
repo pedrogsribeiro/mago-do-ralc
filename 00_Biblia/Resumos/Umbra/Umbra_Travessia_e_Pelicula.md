@@ -27,4 +27,4 @@ Para entrar na Umbra, o mago precisa realizar uma rolagem de **Arete**, e a difi
 * **Locais de Película Fina (Shallowings):** Buracos naturais na Película onde a barreira inexiste. Nestes locais (como uma falha no espaço representada pelo Antecedente *Shallowing*), magos e até humanos normais podem simplesmente atravessar caminhando para a Umbra sem a necessidade de mágika.
 
 ---
-*Voltar para o Índice:* [Umbra.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Resumos/Umbra/Umbra.md)
+*Voltar para o Índice:* [Umbra.md](Umbra.md)

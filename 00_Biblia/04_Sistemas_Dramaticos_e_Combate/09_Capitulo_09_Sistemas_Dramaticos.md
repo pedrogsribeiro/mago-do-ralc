@@ -11,7 +11,7 @@ Este documento detalha as regras de combate, tipos de dano, níveis de vitalidad
 
 ## 1. Níveis de Vitalidade e Penalidades de Dano
 
-O corpo físico de um mago [Despertos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) (ou humano [Adormecidos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Adormecidos.md)) possui 7 níveis de saúde. À medida que sofre danos, o personagem recebe penalidades em sua parada de dados de ação e na movimentação:
+O corpo físico de um mago [Despertos](../../07_PJs/Niki.md) (ou humano [Adormecidos](../../05_Faccoes/Adormecidos.md)) possui 7 níveis de saúde. À medida que sofre danos, o personagem recebe penalidades em sua parada de dados de ação e na movimentação:
 
 | Nível de Vitalidade | Penalidade de Dados | Efeito na Movimentação |
 | :--- | :---: | :--- |
@@ -33,7 +33,7 @@ Existem três naturezas de danos que afetam o padrão físico dos seres no Mundo
   * *Humanos Adormecidos:* Não podem absorver dano Letal (sofrem diretamente).
   * *Magos Despertos:* Podem **absorver dano Letal com seu Vigor** devido à coesão mágica e inconsciente de seu Padrão de Vida. Se a barra for preenchida por dano Letal, o mago começa a sangrar até a morte (1 nível de dano Letal adicional por turno de ação), exigindo primeiros socorros ou mágica imediata.
 3. **Agravado (Aggravated - A):** Danos que atacam e rompem o Padrão celular e espiritual (fogo, radiação intensa, mágika destrutiva direta, ataques de criaturas sobrenaturais).
-  * Não pode ser absorvido por Vigor comum. Exige Esferas como [Vida](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) 3 (ou técnicas protetoras específicas) para absorver e curar. A cura exige o gasto de Quintessência e repouso de dias/semanas.
+  * Não pode ser absorvido por Vigor comum. Exige Esferas como [Vida](../../07_PJs/Niki.md) 3 (ou técnicas protetoras específicas) para absorver e curar. A cura exige o gasto de Quintessência e repouso de dias/semanas.
 
 ---
 
@@ -58,7 +58,7 @@ Praticada pelos Akashayana, é o Caminho da perfeição corporal e mental. Exige
 
 * **Disputas e Provações:** Concursos pacíficos (xadrez, adivinhas, debates ideológicos) ou provações físicas de dor consensual para resolver contendas políticas sem gerar assassinato mútuo.
 * **Invasões de Servidores:** Duelos travados virtualmente na Teia Digital pelos Adeptos da Virtualidade, atacando os servidores com vírus municiados com a Quintessência pessoal dos duelistas. Danos de falhas severas causam choques elétricos no corpo físico do hacker (dano letal).
-* **Desafio da Realidade:** Duelistas competem para resolver um problema grave no Consenso de [Adormecidos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Adormecidos.md) de forma invisível e altruísta. Atos de mágica vulgar flagrante desclassificam o concorrente.
+* **Desafio da Realidade:** Duelistas competem para resolver um problema grave no Consenso de [Adormecidos](../../05_Faccoes/Adormecidos.md) de forma invisível e altruísta. Atos de mágica vulgar flagrante desclassificam o concorrente.
 * **Certámen Clássico:** Duelo formalizado de magos, realizado em Reinos do Horizonte para conter o Paradoxo. Os duelistas concentram sua Quintessência no *Locus* (sua reserva de energia) e atacam o *Locus* adversário manifestando sua maior Esfera como um *Gladius* (espada/ataque) e defendendo o seu próprio com outra Esfera como *Aegis* (escudo/defesa). A partida termina quando um dos combatentes drena toda a energia do *Locus* adversário.
 
 ---
@@ -74,5 +74,5 @@ Praticada pelos Akashayana, é o Caminho da perfeição corporal e mental. Exige
 ## 6. Cópias Literais do Livro Oficial
 
 ### Tabela de Níveis de Vitalidade (Saúde)
-![Tabela de Níveis de Vitalidade (Saúde)](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Niveis_Vitalidade.png)
+![Tabela de Níveis de Vitalidade (Saúde)](../Imagens/Tabela_Niveis_Vitalidade.png)
 

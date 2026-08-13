@@ -8,7 +8,7 @@ status: ativa
 
 **Visão Geral:** Tradição de magos focados no domínio da mente, do corpo e do espírito através de disciplinas ascéticas, meditação e artes marciais orientais.
 **Alinhamento / Filosofia:** O autoaperfeiçoamento e a união entre mente e corpo como veículos para a Ascensão. Praticantes de disciplinas como o Do.
-**Relação com os Problemas:** Afiliação primária do personagem jogador [Jhonny_D_Lee](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Jhonny_D_Lee.md).
+**Relação com os Problemas:** Afiliação primária do personagem jogador [Jhonny_D_Lee](../07_PJs/Jhonny_D_Lee.md).
 
 ## Exemplos de Personagens (Da Base à Cúpula)
 
@@ -22,7 +22,7 @@ status: ativa
     * *Resistência/Defesa:* 3 dados (Vigor) | **Força de Vontade:** 4 | **Vitalidade:** 7 níveis.
   * **Referências:** M20 Apêndice I, Págs. 618-619 | Ficha: [Cidadão Típico / Praticante Marcial](file:///c:/Users/pedrogustavo/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/06_Aliados_e_Antagonistas/Elenco_Adormecidos.md#cidadao-tipico)
 
-* **Médio (Guardião Urbano / Praticante de Campo):** *Mestre de Dojo Comunitário (Ex: [Jhonny_D_Lee](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Jhonny_D_Lee.md))*
+* **Médio (Guardião Urbano / Praticante de Campo):** *Mestre de Dojo Comunitário (Ex: [Jhonny_D_Lee](../07_PJs/Jhonny_D_Lee.md))*
   * **Aspectos & Diegese:**
     * *Protetor da Comunidade:* Mantém um dojo popular em bairro periférico, ensinando autodefesa e resgatando jovens de gangues.
     * *Harmonia de Corpo e Mente:* Combina artes marciais avançadas (Do) com manipulação de Mente e Vida para curar ferimentos e repelir agressores.

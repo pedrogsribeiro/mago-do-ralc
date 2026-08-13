@@ -11,8 +11,8 @@ Este documento consolida as regras sobre a atmosfera do Mundo das Trevas, os tip
 
 ## 1. O Mundo de Pesadelo e a Realidade Subjetiva
 
-O Mundo das Trevas é retratado como um reflexo sombrio e decadente da nossa própria realidade. A apatia das massas de [Adormecidos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Adormecidos.md) e a vigilância cibernética (conduzida por governos e manipulada pela [Tecnocracia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Tecnocracia.md)) criam uma barreira de conformidade contra a imaginação e a mágika.
-* **Efeito Rashomon (Realidade Subjetiva):** A realidade experimentada pelos [Despertos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) é flexível. Cada indivíduo ou facção percebe e molda a realidade a partir de sua própria perspectiva e crença mística.
+O Mundo das Trevas é retratado como um reflexo sombrio e decadente da nossa própria realidade. A apatia das massas de [Adormecidos](../../05_Faccoes/Adormecidos.md) e a vigilância cibernética (conduzida por governos e manipulada pela [Tecnocracia](../../05_Faccoes/Tecnocracia.md)) criam uma barreira de conformidade contra a imaginação e a mágika.
+* **Efeito Rashomon (Realidade Subjetiva):** A realidade experimentada pelos [Despertos](../../07_PJs/Niki.md) é flexível. Cada indivíduo ou facção percebe e molda a realidade a partir de sua própria perspectiva e crença mística.
 
 ---
 
@@ -22,7 +22,7 @@ Os magos buscam segurança em dois tipos de locais:
 * **Santuários:** Refúgios modestos, pequenos (uma ou duas salas) e sem anomalias mágicas ostensivas. São locais confortáveis e seguros, mas discretos.
 * **Capelas (ou Construtos/Labirintos):** Fortalezas místicas de grande escala. São comumente protegidas por selos e rituais, maiores por dentro do que por fora, e abrigam efeitos que violam diretamente as leis consensuais.
   * *Tradições:* Denominam o local como **Capela**.
-  * *[Tecnocracia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Tecnocracia.md):* Denomina como **Construto**.
+  * *[Tecnocracia](../../05_Faccoes/Tecnocracia.md):* Denomina como **Construto**.
   * *Nefandos:* Denominam como **Labirinto**.
 
 ---
@@ -39,7 +39,7 @@ Os magos buscam segurança em dois tipos de locais:
 * **Quintessência:** A energia pura original da Criação, a força vital invisível que os magos utilizam para conjurar e potencializar suas mágikas.
 * **Sorvo:** A Quintessência em sua forma condensada, física ou semifísica. Assume a forma condizente com a ressonância do local:
   * Em áreas naturais e selvagens, assume a forma de cogumelos, água pura ou plantas.
-  * Em ambientes violentos ou rituais de sacrifício, manifesta-se como [Sangue](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/06_Itens/Sangue.md) orgânico (o fluido de maior disponibilidade energética na atualidade).
+  * Em ambientes violentos ou rituais de sacrifício, manifesta-se como [Sangue](../../06_Itens/Sangue.md) orgânico (o fluido de maior disponibilidade energética na atualidade).
 
 ---
 

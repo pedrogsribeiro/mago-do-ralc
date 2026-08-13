@@ -11,11 +11,11 @@ Este documento detalha o processo de criação de personagens, a distribuição 
 
 ## 1. Passo a Passo da Criação de Personagem
 
-A criação de um mago [Despertos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) segue cinco etapas estruturadas:
+A criação de um mago [Despertos](../../07_PJs/Niki.md) segue cinco etapas estruturadas:
 
 ### Passo Um: Conceito e Identidade
 * **Identidade & Motivação:** Quem é o personagem? O que ele deseja misticamente e mundanamente?
-* **Afiliação & Facção:** Escolha a lealdade primordial (ex: Conselho das Nove Tradições, [Tecnocracia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Tecnocracia.md) ou [Orfaos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Orfaos.md)) e a seita específica (ex: Verbena, Iteração X, etc.).
+* **Afiliação & Facção:** Escolha a lealdade primordial (ex: Conselho das Nove Tradições, [Tecnocracia](../../05_Faccoes/Tecnocracia.md) ou [Orfaos](../../05_Faccoes/Orfaos.md)) e a seita específica (ex: Verbena, Iteração X, etc.).
 * **Essência do Avatar:** O alinhamento dinâmico da alma do mago (Dinâmica, Estática, Investigadora ou Primordial).
 * **Arquétipos:** Defina a **Natureza** (quem o personagem realmente é internamente) e o **Comportamento** (a máscara social que ele apresenta aos outros).
 
@@ -43,7 +43,7 @@ Priorize as três categorias (Talentos, Perícias, Conhecimentos) e distribua **
 
 ### Passo Cinco: Toques Finais
 * **Esferas (6 Pontos):** Distribua nas Esferas de controle.
-  * *Obrigatório:* O primeiro ponto deve ir para a Esfera de Afinidade de sua facção (ex: [Vida](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md), [Materia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md), [Mente](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md), [Primordio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) ou [Entropia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md)).
+  * *Obrigatório:* O primeiro ponto deve ir para a Esfera de Afinidade de sua facção (ex: [Vida](../../07_PJs/Niki.md), [Materia](../../07_PJs/Niki.md), [Mente](../../07_PJs/Niki.md), [Primordio](../../07_PJs/Niki.md) ou [Entropia](../../07_PJs/Niki.md)).
 * **Arete (Iluminação):** Começa em 1.
 * **Força de Vontade:** Começa em 5.
 * **Quintessência:** Começa em valor igual à pontuação do Antecedente Avatar.
@@ -90,8 +90,8 @@ Durante a evolução da crônica, os gastos de XP seguem a seguinte tabela padr�
 ## 4. Cópias Literais do Livro Oficial
 
 ### Tabela de Pontos de Bônus de Criação
-![Tabela de Pontos de Bônus de Criação](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Bonus_Criacao.png)
+![Tabela de Pontos de Bônus de Criação](../Imagens/Tabela_Bonus_Criacao.png)
 
 ### Tabela de Custos de Experiência (XP)
-![Tabela de Custos de Experiência (XP)](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Custos_XP.png)
+![Tabela de Custos de Experiência (XP)](../Imagens/Tabela_Custos_XP.png)
 

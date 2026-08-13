@@ -8,7 +8,7 @@ status: ativa
 
 **Visão Geral:** Agência Brasileira de Inteligência. Grupo estatal que atua no monitoramento cibernético, inteligência estratégica e controle de ameaças internas.
 **Alinhamento / Filosofia:** Proteção do Estado e manutenção da ordem civil, infiltrando-se ativamente em incidentes sobrenaturais que ameaçam a segurança nacional.
-**Relação com os Problemas:** Envolvida na guerra trilateral contra os [Povos_da_Floresta](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Povos_da_Floresta.md) e [Espiritos_das_Cidades](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Espiritos_das_Cidades.md), com base no desequilíbrio do [Problema_Legado](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Legado.md).
+**Relação com os Problemas:** Envolvida na guerra trilateral contra os [Povos_da_Floresta](Povos_da_Floresta.md) e [Espiritos_das_Cidades](Espiritos_das_Cidades.md), com base no desequilíbrio do [Problema_Legado](../01_Problemas/Problema_Legado.md).
 
 ## Exemplos de Personagens (Da Base à Cúpula)
 

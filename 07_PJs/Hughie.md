@@ -2,7 +2,7 @@
 type: pj
 summary: "Ex-militar cirurgião competente e sarcástico"
 tags: [pj, desperto]
-faccao: [Orfaos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Orfaos.md)
+faccao: [Orfaos](../05_Faccoes/Orfaos.md)
 status: ativo
 ---
 # Hughie
@@ -12,7 +12,7 @@ status: ativo
 **Comportamento:** Cientista Maluco  
 **Idade:** 40 anos  
 **Profissão:** Médico  
-**Tradição:** [Orfaos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Orfaos.md)  
+**Tradição:** [Orfaos](../05_Faccoes/Orfaos.md)  
 **Paradigma:** Matéria é tudo, basta saber reorganizar  
 **Práticas:** Curandeirismo e ciência estranha  
 **Avatar:** Origem da Matéria (Essência: Dinâmico)  
@@ -29,7 +29,7 @@ status: ativo
 
 ## Esferas e Areté
 * **Areté:** 4  
-* **Esferas:** [Vida](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) 4, [Materia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) 2  
+* **Esferas:** [Vida](Niki.md) 4, [Materia](Niki.md) 2  
 
 ## Vínculos e Antecedentes
 * Status 2  
@@ -39,7 +39,7 @@ status: ativo
 * PTSD (Transtorno de Estresse Pós-Traumático)  
 
 ## Foco e Ferramentas
-* **Ferramentas Utilizadas:** [Sangue](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/06_Itens/Sangue.md) e outro fluido, Osso/Pele/Órgão e outros restos biológicos, Misturas/poções/pós, Drogas e venenos, Energia, Trabalho e esforço, Domínio Social.  
+* **Ferramentas Utilizadas:** [Sangue](../06_Itens/Sangue.md) e outro fluido, Osso/Pele/Órgão e outros restos biológicos, Misturas/poções/pós, Drogas e venenos, Energia, Trabalho e esforço, Domínio Social.  
 
 ### Histórico na Crônica
-* **[Sessao_00](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/04_Sessoes/Sessao_00.md):** Ficha inserida e catalogada no banco de dados de PJs.
+* **[Sessao_00](../04_Sessoes/Sessao_00.md):** Ficha inserida e catalogada no banco de dados de PJs.

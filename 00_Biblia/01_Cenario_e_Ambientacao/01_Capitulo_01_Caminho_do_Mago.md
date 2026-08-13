@@ -11,11 +11,11 @@ Este documento resume a jornada do Desperto, a natureza do Avatar, do Arete e as
 
 ## 1. As Três Etapas da Jornada (O Caminho Frágil)
 
-A estrada mística percorrida pelos [Despertos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) (frequentemente chamada de "Caminho Frágil" devido à sua instabilidade e risco de Hubris/arrogância) é dividida em três fases principais:
+A estrada mística percorrida pelos [Despertos](../../07_PJs/Niki.md) (frequentemente chamada de "Caminho Frágil" devido à sua instabilidade e risco de Hubris/arrogância) é dividida em três fases principais:
 
 ### A. Consciência (O Acordar)
-* **O Despertar:** A quebra inicial das ilusões da realidade convencional (a Epifania), na qual o indivíduo percebe sua capacidade inata de moldar o Consenso. A pessoa deixa de ser um [Adormecidos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Adormecidos.md) ou Sonâmbulo e torna-se um agente ativo de mudança.
-* **Mentoria e Instrução:** A necessidade de treinamento formal ou intuitivo para evitar que os talentos mágicos saiam de controle (gerando insanidade ou o Efeito Paradoxo). O aprendizado pode ocorrer via mestres tradicionais, guias espirituais ou programas de doutrinação da [Tecnocracia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Tecnocracia.md) (que chama a mentoria de "Mediação").
+* **O Despertar:** A quebra inicial das ilusões da realidade convencional (a Epifania), na qual o indivíduo percebe sua capacidade inata de moldar o Consenso. A pessoa deixa de ser um [Adormecidos](../../05_Faccoes/Adormecidos.md) ou Sonâmbulo e torna-se um agente ativo de mudança.
+* **Mentoria e Instrução:** A necessidade de treinamento formal ou intuitivo para evitar que os talentos mágicos saiam de controle (gerando insanidade ou o Efeito Paradoxo). O aprendizado pode ocorrer via mestres tradicionais, guias espirituais ou programas de doutrinação da [Tecnocracia](../../05_Faccoes/Tecnocracia.md) (que chama a mentoria de "Mediação").
 
 ### B. Conflito (A Provação das Sombras)
 O conflito surge inevitavelmente de três fontes:
@@ -31,7 +31,7 @@ O conflito surge inevitavelmente de três fontes:
 
 ## 2. O Avatar e as Essências
 
-O **Avatar** (chamado de **Gênio** pela [Tecnocracia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Tecnocracia.md)) é a centelha divina ou espírito guia encarregado de conduzir o mago no Despertar e através das **Procuras** (testes de evolução espiritual na imaginação mística). O Avatar pode possuir quatro Essências principais (chamadas de **Eidolon** pelos Tecnocratas):
+O **Avatar** (chamado de **Gênio** pela [Tecnocracia](../../05_Faccoes/Tecnocracia.md)) é a centelha divina ou espírito guia encarregado de conduzir o mago no Despertar e através das **Procuras** (testes de evolução espiritual na imaginação mística). O Avatar pode possuir quatro Essências principais (chamadas de **Eidolon** pelos Tecnocratas):
 
 1. **Dinâmico:** Impulso de mudança desenfreada, associado ao fogo e à criação caótica.
 2. **Padrão:** Foco na forma, na estabilização de sistemas e na permanência.

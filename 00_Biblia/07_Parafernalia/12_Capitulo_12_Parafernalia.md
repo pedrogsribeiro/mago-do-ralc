@@ -29,8 +29,8 @@ As Qualidades e Defeitos são características opcionais adquiridas durante a cr
 
 Itens mágicos e relíquias de poder são classificados pelo nível de poder do Antecedente Maravilha (variando de 1 a 5 pontos) e dividem-se em cinco categorias:
 
-1. **Bugigangas (Trinkets):** Itens com funções ou aprimoramentos simplificados usando Esferas (como vidro inquebrável por Matéria ou faca superafiada). São fáceis de usar por qualquer pessoa (inclusive [Adormecidos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Adormecidos.md)) e não possuem Arete ou Quintessência próprios.
-2. **Amuletos / Matrizes:** Baterias de armazenamento de Quintessência mística (ou Utilidade Primordial na Tecnocracia). Podem armazenar até 5 pontos de Quintessência por nível do Antecedente. Exigem Esfera de [Primordio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) 2 para canalizar a energia contida no item.
+1. **Bugigangas (Trinkets):** Itens com funções ou aprimoramentos simplificados usando Esferas (como vidro inquebrável por Matéria ou faca superafiada). São fáceis de usar por qualquer pessoa (inclusive [Adormecidos](../../05_Faccoes/Adormecidos.md)) e não possuem Arete ou Quintessência próprios.
+2. **Amuletos / Matrizes:** Baterias de armazenamento de Quintessência mística (ou Utilidade Primordial na Tecnocracia). Podem armazenar até 5 pontos de Quintessência por nível do Antecedente. Exigem Esfera de [Primordio](../../07_PJs/Niki.md) 2 para canalizar a energia contida no item.
 3. **Fetiches:** Objetos que contêm um espírito preso em seu interior. Para ativá-lo, o mago realiza um teste de Força de Vontade (dificuldade 7) contra a Gnose do espírito. Em caso de sucesso, rola-se a Gnose do espírito como parada de dados para manifestar os poderes do Fetiche.
 4. **Talismãs / Dispositivos:** Itens místicos complexos e independentes (Dispositivos na Tecnocracia). Possuem sua própria classificação de Arete/Iluminação que define a parada de dados utilizada para conjurar seus Efeitos.
 
@@ -50,7 +50,7 @@ Fabricar uma Maravilha exige domínio mundano (ofícios/tecnologia) e místico. 
 ## 4. Dispositivos da Tecnocracia (Hardware)
 
 * **Terno de Trabalho de Elite da Falconi (Dispositivo):** Terno empresarial de alta-costura reforçado por Matéria. Reduz a dificuldade de todos os testes sociais do usuário em -3 devido à elegância extrema, e concede +2 dados de absorção contra danos contundentes e letais sem peso extra. É imune a rasgos, manchas e odores. Pode reter um elo empático mental via Mente 2.
-* **IVAE (Informação Visual e Análise de Espectro - Dispositivo):** Lentes ou implantes cibernéticos (conhecidos como "Rastro de Dados") que projetam gráficos de interface verdes no campo de visão do agente. Fornece análises de trajetórias de balas, espectros de ondas e conexões de dados. Exige [Mente](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) 1 e treinamento prévio para decodificar a sobrecarga de informações sem causar fadiga ocular extrema.
+* **IVAE (Informação Visual e Análise de Espectro - Dispositivo):** Lentes ou implantes cibernéticos (conhecidos como "Rastro de Dados") que projetam gráficos de interface verdes no campo de visão do agente. Fornece análises de trajetórias de balas, espectros de ondas e conexões de dados. Exige [Mente](../../07_PJs/Niki.md) 1 e treinamento prévio para decodificar a sobrecarga de informações sem causar fadiga ocular extrema.
 * **Armadura Alanson R-25 (Dispositivo):** Armadura militar tática de Iteração X pesando 15 kg.
   * *Blindagem:* Concede +7 dados de absorção contra danos contundentes, letais e agravados (mas reduz paradas de Destreza em 2 dados).
   * *Servo-motores:* Concede +2 dados em testes baseados em Força física.

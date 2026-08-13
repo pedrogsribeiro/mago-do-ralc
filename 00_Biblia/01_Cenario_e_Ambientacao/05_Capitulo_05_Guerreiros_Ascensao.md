@@ -11,7 +11,7 @@ Este documento resume a história mística das facções Despertas, a Guerra da 
 
 ## 1. Cronologia e Eras do Mundo Desperto
 
-A história da mágika e da humanidade é dividida em grandes períodos pelos cronistas [Despertos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md):
+A história da mágika e da humanidade é dividida em grandes períodos pelos cronistas [Despertos](../../07_PJs/Niki.md):
 * **Era Desperta (Origens):** O estilhaçamento cósmico da Unidade primordial (Big Bang / OM) e a encarnação dos Puros em corpos humanos. A mágika existia em harmonia original.
 * **Era Predatória (Queda do Éden):** A humanidade cai na bestialidade, tornando-se caça para monstros umbrais, demônios e infernais.
 * **Era Lendária (Tribal / Alvorecer dos Impérios):** Fundações das primeiras civilizações (Mesopotâmia, Egito, China, África, Índia). Magos atuavam como reis-sacerdotes e líderes espirituais.
@@ -24,7 +24,7 @@ A história da mágika e da humanidade é dividida em grandes períodos pelos cr
 ## 2. A Fundação da Ordem da Razão (Tecnocracia)
 
 Em resposta à tirania dos feiticeiros tradicionais e aos perigos sobrenaturais que assolavam a Europa medieval, os artesãos e pensadores científicos decidiram se unir.
-* **Convenção da Torre Branca (1º a 25 de março de 1325):** Reuniu delegados da Europa, Oriente Médio, Índia e África (Mali) para fundar a **Ordem da Razão**. A união visava proteger os [Adormecidos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Adormecidos.md) e normatizar a realidade com base na ciência e no progresso.
+* **Convenção da Torre Branca (1º a 25 de março de 1325):** Reuniu delegados da Europa, Oriente Médio, Índia e África (Mali) para fundar a **Ordem da Razão**. A união visava proteger os [Adormecidos](../../05_Faccoes/Adormecidos.md) e normatizar a realidade com base na ciência e no progresso.
 * **As Oito Convenções Originais:**
   1. *Gabrielitas:* Ordem de inquisidores sagrados da Igreja Católica (Cabala do Pensamento Puro).
   2. *Alta Guilda:* Comerciantes e financistas (futuro Sindicato).
@@ -35,7 +35,7 @@ Em resposta à tirania dos feiticeiros tradicionais e aos perigos sobrenaturais 
   7. *Artífices:* Inventores e ferreiros mecânicos (Iteração X).
   8. *Solificati:* Alquimistas (deixaram a Ordem em 1335).
 
-* **Secularização e a [Tecnocracia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Tecnocracia.md) (Século XIX):** Com a Revolução Industrial e a Grande Exposição de Londres (1851), a Ordem da Razão expurgou suas crenças religiosas medievais (Gabrielitas e Cabala do Pensamento Puro foram dissolvidos) e se reestruturou formalmente como a **União Tecnocrática**, adotando a hipertecnologia e o capitalismo corporativo como novos paradigmas para governar o Consenso.
+* **Secularização e a [Tecnocracia](../../05_Faccoes/Tecnocracia.md) (Século XIX):** Com a Revolução Industrial e a Grande Exposição de Londres (1851), a Ordem da Razão expurgou suas crenças religiosas medievais (Gabrielitas e Cabala do Pensamento Puro foram dissolvidos) e se reestruturou formalmente como a **União Tecnocrática**, adotando a hipertecnologia e o capitalismo corporativo como novos paradigmas para governar o Consenso.
 
 ---
 
@@ -45,7 +45,7 @@ Paralelamente, as seitas místicas perseguidas pela Ordem da Razão decidiram fo
 * **Fundação (1457 a 1466 d.C.):** Nightshade (Verbena), Sh'zar (Culto do Êxtase), Valoran (Coro Celestial) e Baldric La Salle (Ordem de Hermes) reúnem líderes de todo o mundo nas ruínas de Mistridge para assinar o pacto.
 * **A Grande Traição (1470 d.C.):** **Heylel Teomim** (alquimista Solificati da Primeira Cabala do Conselho) trai as Tradições e entrega seus companheiros à Ordem da Razão. Heylel é capturado pelas Tradições, julgado no Horizonte e executado via Gilgul (destruição eterna do Avatar/alma). Isso causou a debandada e fragmentação dos Solificati e gerou desconfiança nas fileiras do Conselho.
 * **As Nove Tradições:**
-  1. **Ahl-i-Batin:** Mestres da Mente e da Geometria Sagrada (Mente). *Nota: Deixaram o conselho no final do século XX, tornando-se [Orfaos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Orfaos.md).*
+  1. **Ahl-i-Batin:** Mestres da Mente e da Geometria Sagrada (Mente). *Nota: Deixaram o conselho no final do século XX, tornando-se [Orfaos](../../05_Faccoes/Orfaos.md).*
   2. **Irmandade Akáshica (Akashayana):** Monges guerreiros do equilíbrio corporal e mental (Mente/Vida).
   3. **Chakravanti (Eutanatos):** Magos da roda da morte, reencarnação e destino (Entropia).
   4. **Coro Celestial (Choeur Céleste):** Cantores messiânicos da canção do Criador (Primórdio).
@@ -65,7 +65,7 @@ Além do embate central entre Tradições e Tecnocracia, a realidade enfrenta am
 Magos que voluntariamente realizaram o pacto de queda de sua alma com divindades do Vazio e do Esquecimento.
 * Buscam reverter a Criação ao caos original.
 * Fortemente associados a genocídios, tortura, escravidão industrial e manipulação entrópica degenerativa.
-* Utilizam o [Sangue](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/06_Itens/Sangue.md) e o sofrimento de inocentes como fontes corruptas de [Sorvo](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) e Quintessência.
+* Utilizam o [Sangue](../../06_Itens/Sangue.md) e o sofrimento de inocentes como fontes corruptas de [Sorvo](../../07_PJs/Niki.md) e Quintessência.
 
 ### B. Os Loucos (Desauridos / Marauders)
 Magos cujo Avatar Desperto sofreu Silêncio permanente e insanidade mística irrecuperável.

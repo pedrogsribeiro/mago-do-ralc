@@ -12,19 +12,19 @@ Este compêndio reúne todas as diretrizes narrativas, mecânicas de Película, 
 
 ## 📚 Módulos de Consulta Especializada
 
-### 🌌 1. [Umbra_Camadas_e_Vidare.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Resumos/Umbra/Umbra_Camadas_e_Vidare.md)
+### 🌌 1. [Umbra_Camadas_e_Vidare.md](Umbra_Camadas_e_Vidare.md)
 * **Conteúdo:** Mapeamento narrativo da Penumbra, Alta Umbra (Astral), Umbra Média (Espiritual) e Baixa Umbra (Submundo dos Mortos).
 * **Destaque:** As 3 lentes do *Vidare* (Astral, Spiritus, Mortem) e o impacto da perspectiva mental subjetiva do mago na percepção da realidade umbral.
 
-### 🚪 2. [Umbra_Travessia_e_Pelicula.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Resumos/Umbra/Umbra_Travessia_e_Pelicula.md)
+### 🚪 2. [Umbra_Travessia_e_Pelicula.md](Umbra_Travessia_e_Pelicula.md)
 * **Conteúdo:** Tabela oficial de Dificuldade da Película (Gauntlet) por local (Nodos, Zonas Urbanas, Centros Urbanos e Laboratórios Tecnocráticos).
 * **Destaque:** Métodos e Esferas de travessia (*Passar para o Lado*, *Projeção Astral*, *Jornada Agama* e *Shallowings*).
 
-### 🧭 3. [Umbra_Navegacao_e_Rotas.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Resumos/Umbra/Umbra_Navegacao_e_Rotas.md)
+### 🧭 3. [Umbra_Navegacao_e_Rotas.md](Umbra_Navegacao_e_Rotas.md)
 * **Conteúdo:** Testes por camada, trilhas místicas (Caminhos da Lua, Teias de Padrão, Zona Nula, Wyck, Monte Qaf, Songlines), encantos de orientação dos espíritos e feitiços/rotinas de magos.
 * **Destaque:** Mérito *Afinidade Umbral* e a vantagem da *Ciência Dimensional* da Tecnocracia.
 
-### ⚔️ 4. [Umbra_Combate_e_Espiritos.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Resumos/Umbra/Umbra_Combate_e_Espiritos.md)
+### ⚔️ 4. [Umbra_Combate_e_Espiritos.md](Umbra_Combate_e_Espiritos.md)
 * **Conteúdo:** Perfis de espíritos (Gnose, Fúria, Força de Vontade, Essência), esferas de percepção e comunicação.
 * **Destaque:** Regras de combate direto, contra-ataque de Fúria, imunidade a armas físicas e rolagens de absorção por mágica de Espírito ou pelo Antecedente Avatar.
 

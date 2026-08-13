@@ -8,7 +8,7 @@ status: ativa
 
 **Visão Geral:** A União Tecnocrática. Uma organização global de tecnomantes Iluminados dedicados a impor a ordem, a razão e o controle científico sobre o Consenso da humanidade.
 **Alinhamento / Filosofia:** Proteção das Massas contra o sobrenatural (Pogrom), eliminação de Transgressores da Realidade e estabelecimento de uma realidade consensual previsível e segura através da tecnologia.
-**Relação com os Problemas:** Historicamente opositora das Tradições e Disparates. No Brasil, monitora agências estatais de inteligência como a [ABIN](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/ABIN.md) para garantir a contenção de atividades místicas desviantes.
+**Relação com os Problemas:** Historicamente opositora das Tradições e Disparates. No Brasil, monitora agências estatais de inteligência como a [ABIN](ABIN.md) para garantir a contenção de atividades místicas desviantes.
 
 ## Exemplos de Personagens (Da Base à Cúpula)
 

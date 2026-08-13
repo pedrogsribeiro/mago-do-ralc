@@ -46,4 +46,4 @@ A Fúria de um espírito destrói padrões fundamentais do mago:
 3. **Adormecidos:** Humanos normais não possuem defesas místicas e recebem o dano da Fúria integralmente sem direito a absorção.
 
 ---
-*Voltar para o Índice:* [Umbra.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Resumos/Umbra/Umbra.md)
+*Voltar para o Índice:* [Umbra.md](Umbra.md)

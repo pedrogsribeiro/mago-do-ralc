@@ -9,8 +9,8 @@ status: ativo
 **Conceito:** Um Desperto extremista utilizando o trauma da pandemia como motor de Quintessência para aniquilar outros magos.
 
 ## Rostos Relacionados
-* **Rosto (+):** [Joana_Pipoquinha](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Joana_Pipoquinha.md) (Espírito da filha do vilão, odeia magos)
-* **Rosto (-):** [Lizander_Filho_do_Raio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Lizander_Filho_do_Raio.md) (Mestre de Forças fanático)
+* **Rosto (+):** [Joana_Pipoquinha](../02_NPCs/Joana_Pipoquinha.md) (Espírito da filha do vilão, odeia magos)
+* **Rosto (-):** [Lizander_Filho_do_Raio](../02_NPCs/Lizander_Filho_do_Raio.md) (Mestre de Forças fanático)
 
 ## Eventos e Evolução
-* **[Sessao_00](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/04_Sessoes/Sessao_00.md):** Inicialização do problema e registro de seus rostos principais.
+* **[Sessao_00](../04_Sessoes/Sessao_00.md):** Inicialização do problema e registro de seus rostos principais.

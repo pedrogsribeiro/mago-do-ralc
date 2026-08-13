@@ -15,13 +15,13 @@
 * Referências diretas às páginas do Livro Básico de M20 (Apêndice I, Págs. 618-641) e links locais para o acervo de SRD do workspace.
 
 ## 3. Diretrizes de Eficiência de Contexto e Economia de Tokens
-* **Navegação Via ÍNDICE MESTRE (`INDEX.md`):** Sempre consulte o arquivo [`INDEX.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/INDEX.md) na raiz do workspace como primeiro passo para localizar NPCs, Regras, Facções, Lugares ou Sessões. Evite usar `list_dir` recursivo ou varreduras cegas.
+* **Navegação Via ÍNDICE MESTRE (`INDEX.md`):** Sempre consulte o arquivo [`INDEX.md`](../INDEX.md) na raiz do workspace como primeiro passo para localizar NPCs, Regras, Facções, Lugares ou Sessões. Evite usar `list_dir` recursivo ou varreduras cegas.
 * **Leitura Parcial de Metadados (YAML Frontmatter):** Ao investigar arquivos, use `view_file` limitando o intervalo de linhas (ex: linhas 1 a 15) para checar o cabeçalho YAML (`type`, `summary`, `tags`). Leia o arquivo completo apenas se o resumo demonstrar relevância direta para a dúvida do usuário.
 * **Busca Direcionada via Grep:** Prefira `grep_search` filtrando por tags do YAML (ex: `type: npc`, `tags: [paradoxo]`) com o parâmetro `Includes` restrito à pasta relevante para evitar consumo excessivo de tokens.
 * **Padrão YAML Obrigatório:** Todo documento novo ou atualizado deve manter o cabeçalho YAML Frontmatter no topo com `type`, `summary` e `tags`.
 
 ## 4. Taxonomia de Carga Narrativa (Sistema Player-Faced Total)
-Nas narrativas e regras deste workspace, a oposição é classificada em 4 Níveis de Carga Narrativa conforme os estudos em [`08_Estudos_Player_Faced`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/):
+Nas narrativas e regras deste workspace, a oposição é classificada em 4 Níveis de Carga Narrativa conforme os estudos em [`08_Estudos_Player_Faced`](../08_Estudos_Player_Faced):
 
 * **Nível 1 (Obstáculo Passivo):** Tarefas estáticas ou ambientais (arrombar, saltar, hackear sistemas sem IA). Resolvido em 1 rolagem contra Dificuldade 6 + Limiar de Sucessos.
 * **Nível 2 (Oposição Rápida / Menor):** Interações sociais, furtivas ou de confronto instantâneo com NPCs menores (guardas, informantes, patrulhas). Resolvido em 1 rolagem do PJ contra Dificuldade 5 a 8.

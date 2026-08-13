@@ -59,5 +59,5 @@ As ações dos personagens dividem-se em categorias de resolução mecânica:
 ## 5. Cópias Literais do Livro Oficial
 
 ### Tabela de Dificuldades e Sucessos
-![Tabela de Dificuldades e Sucessos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Dificuldades_Sucessos.png)
+![Tabela de Dificuldades e Sucessos](../Imagens/Tabela_Dificuldades_Sucessos.png)
 

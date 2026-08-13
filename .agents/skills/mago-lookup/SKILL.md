@@ -10,7 +10,7 @@ Esta skill orienta os agentes a realizarem pesquisas ultra-eficientes no workspa
 ## Fluxo de Trabalho de Busca (3 Passos)
 
 1. **Passo 1: Consultar o ÍNDICE MESTRE (`INDEX.md`)**
-   - Em vez de listar diretórios ou fazer varreduras profundas, abra o arquivo [`INDEX.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/INDEX.md).
+   - Em vez de listar diretórios ou fazer varreduras profundas, abra o arquivo [`INDEX.md`](../../../INDEX.md).
    - Localize o nome do NPC, PJ, Lugar ou Facção na tabela correspondente.
    - Copie o link direto `file:///...` do documento.
 
@@ -23,4 +23,4 @@ Esta skill orienta os agentes a realizarem pesquisas ultra-eficientes no workspa
 
 ## Diretrizes para Respostas do Agente
 - Sempre inclua o link Markdown formatado no padrão `file:///` para a nota da entidade citada.
-- Responda primeiro com a **Descrição Diegética** (conceito, comportamento em cena, características) antes dos dados mecânicos, respeitando o padrão das diretrizes do workspace em [`AGENTS.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/.agents/AGENTS.md).
+- Responda primeiro com a **Descrição Diegética** (conceito, comportamento em cena, características) antes dos dados mecânicos, respeitando o padrão das diretrizes do workspace em [`AGENTS.md`](../../AGENTS.md).

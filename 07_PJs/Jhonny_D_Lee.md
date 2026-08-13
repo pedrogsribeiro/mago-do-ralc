@@ -2,7 +2,7 @@
 type: pj
 summary: "Ator Marcial Ascendente"
 tags: [pj, desperto]
-faccao: [Irmaos_de_Akasha](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Irmaos_de_Akasha.md)
+faccao: [Irmaos_de_Akasha](../05_Faccoes/Irmaos_de_Akasha.md)
 status: ativo
 ---
 # Jhonny D. Lee
@@ -26,7 +26,7 @@ status: ativo
 
 ## Esferas e Areté
 * **Areté:** 3  
-* **Esferas:** [Vida](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) 3  
+* **Esferas:** [Vida](Niki.md) 3  
 
 ## Vínculos e Antecedentes
 * Lenda 3  
@@ -39,4 +39,4 @@ status: ativo
 * **Ferramentas Utilizadas:** Corpo, Pós e Digitação (Acupressão/Digitopressão), Cantos, Alimentos, Geometria Sagrada, Domínio Social, Dinheiro e Riqueza.  
 
 ### Histórico na Crônica
-* **[Sessao_00](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/04_Sessoes/Sessao_00.md):** Ficha inserida e catalogada no banco de dados de PJs.
+* **[Sessao_00](../04_Sessoes/Sessao_00.md):** Ficha inserida e catalogada no banco de dados de PJs.

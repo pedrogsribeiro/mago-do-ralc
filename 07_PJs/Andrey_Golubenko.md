@@ -2,7 +2,7 @@
 type: pj
 summary: "Cultivador e Assassino"
 tags: [pj, desperto]
-faccao: [Independentes](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Independentes.md)
+faccao: [Independentes](../05_Faccoes/Independentes.md)
 status: ativo
 ---
 # Andrey Golubenko
@@ -26,7 +26,7 @@ status: ativo
 
 ## Esferas e Areté
 * **Areté:** 2  
-* **Esferas:** [Entropia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) 2  
+* **Esferas:** [Entropia](Niki.md) 2  
 
 ## Vínculos e Antecedentes
 * Aliados 2  
@@ -35,12 +35,12 @@ status: ativo
 * Mentor 2  
 
 ## Foco e Ferramentas
-* **Ferramentas Utilizadas:** Fumaça de Cigarro, Moeda de Prata do Pai, Isqueiro de Prata, Faca de Combate de Prata, Moedas de Prata, Crânio da Primeira Vítima, [Sangue](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/06_Itens/Sangue.md).  
+* **Ferramentas Utilizadas:** Fumaça de Cigarro, Moeda de Prata do Pai, Isqueiro de Prata, Faca de Combate de Prata, Moedas de Prata, Crânio da Primeira Vítima, [Sangue](../06_Itens/Sangue.md).  
 
 ## Rotinas de Magia (Entropia)
 * **Marlboro Provável:** Trago o cigarro e solto muita fumaça para ver números e probabilidades sobre uma determinada situação.
 * **Cara ou Caveira:** Jogo a moeda de prata do meu pai para saber se a morte se aproxima da pessoa. Caveira indica sim, cara indica não.
-* **Moedas de Sangue:** Corto a ponta do meu dedo e sujo as moedas de [Sangue](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/06_Itens/Sangue.md) para aumentar a chance de acerto.
+* **Moedas de Sangue:** Corto a ponta do meu dedo e sujo as moedas de [Sangue](../06_Itens/Sangue.md) para aumentar a chance de acerto.
 
 ### Histórico na Crônica
-* **[Sessao_00](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/04_Sessoes/Sessao_00.md):** Ficha e rotinas inseridas e catalogadas no banco de dados de PJs.
+* **[Sessao_00](../04_Sessoes/Sessao_00.md):** Ficha e rotinas inseridas e catalogadas no banco de dados de PJs.

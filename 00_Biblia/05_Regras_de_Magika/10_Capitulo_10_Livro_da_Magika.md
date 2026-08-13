@@ -16,7 +16,7 @@ Lançar um Efeito místico (ou rotina/procedimento) envolve quatro passos básic
 2. **Determinação da Categoria (Vulgar vs. Coincidente):**
    * *Mágika Coincidente:* Um efeito que parece plausível ou possível aos olhos de uma testemunha comum (ex: um app GPS encontrando um segredo, ou esquivar de um golpe de forma incrivelmente ágil).
    * *Mágika Vulgar Sem Testemunhas:* Efeitos que violam as leis físicas evidentes, mas ocorrem sem nenhum humano comum por perto (ex: levitar no próprio quarto trancado).
-   * *Mágika Vulgar Com Testemunhas:* Efeitos que violam o Consenso flagrantemente diante de observadores [Adormecidos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Adormecidos.md) (ex: atirar bolas de fogo no centro de uma avenida).
+   * *Mágika Vulgar Com Testemunhas:* Efeitos que violam o Consenso flagrantemente diante de observadores [Adormecidos](../../05_Faccoes/Adormecidos.md) (ex: atirar bolas de fogo no centro de uma avenida).
 3. **Rolagem de Arete:** Rola-se a parada de dados de Arete do mago contra a dificuldade correspondente.
 4. **Resolução dos Resultados:** O número de sucessos obtidos define o grau de eficácia, duração ou dano provocado pelo Efeito.
 
@@ -56,7 +56,7 @@ A dificuldade de um teste de Arete é calculada com base na Esfera de maior nív
 * **Feito Incomparável (10 a 20 Sucessos):** Explodir estruturas maciças, comandar pequenas multidões.
 
 ### Dano e Cura Mágicos:
-O número de sucessos líquidos obtidos na rolagem de Arete determina o volume de dano infligido (ou níveis de vitalidade curados pela Esfera de [Vida](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md)):
+O número de sucessos líquidos obtidos na rolagem de Arete determina o volume de dano infligido (ou níveis de vitalidade curados pela Esfera de [Vida](../../07_PJs/Niki.md)):
 
 | Sucessos Líquidos | Dano / Cura Gerados | Duração Equivalente (se não for instantâneo) |
 | :---: | :---: | :--- |
@@ -69,8 +69,8 @@ O número de sucessos líquidos obtidos na rolagem de Arete determina o volume d
 
 * *Bônus de Forças:* Qualquer ataque baseado puramente na Esfera de Forças adiciona **+1 sucesso automático ao dano**.
 * *Dano Letal:* É a natureza padrão da maioria dos ataques mágicos.
-* *Dano Contundente:* É infligido por ataques puramente mentais (Esfera da [Mente](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md)).
-* *Dano Agravado:* Gerado por calor/fogo/eletricidade extremos (Forças), ou se o mago gastar 1 ponto de Quintessência usando [Primordio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md) 2 para alimentar o ataque místico de qualquer Esfera.
+* *Dano Contundente:* É infligido por ataques puramente mentais (Esfera da [Mente](../../07_PJs/Niki.md)).
+* *Dano Agravado:* Gerado por calor/fogo/eletricidade extremos (Forças), ou se o mago gastar 1 ponto de Quintessência usando [Primordio](../../07_PJs/Niki.md) 2 para alimentar o ataque místico de qualquer Esfera.
 
 ---
 
@@ -113,18 +113,18 @@ O Silêncio ocorre quando o Avatar do mago se fragmenta ou se rebela devido à s
 ## 6. Cópias Literais do Livro Oficial (Páginas 502 a 508)
 
 ````carousel
-![Página 502 - Base de Rolagem, Paradoxo e Feitos Mágicos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Magika_Paradoxo_502.png)
+![Página 502 - Base de Rolagem, Paradoxo e Feitos Mágicos](../Imagens/Tabela_Magika_Paradoxo_502.png)
 <!-- slide -->
-![Página 503 - Modificadores de Dificuldade Mágica](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Magika_Paradoxo_503.png)
+![Página 503 - Modificadores de Dificuldade Mágica](../Imagens/Tabela_Magika_Paradoxo_503.png)
 <!-- slide -->
-![Página 504 - Danos e Duração por Sucesso, Correspondência](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Magika_Paradoxo_504.png)
+![Página 504 - Danos e Duração por Sucesso, Correspondência](../Imagens/Tabela_Magika_Paradoxo_504.png)
 <!-- slide -->
-![Página 505 - Ilusões e Película Umbral](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Magika_Paradoxo_505.png)
+![Página 505 - Ilusões e Película Umbral](../Imagens/Tabela_Magika_Paradoxo_505.png)
 <!-- slide -->
-![Página 506 - Reação do Paradoxo e Silêncio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Magika_Paradoxo_506.png)
+![Página 506 - Reação do Paradoxo e Silêncio](../Imagens/Tabela_Magika_Paradoxo_506.png)
 <!-- slide -->
-![Página 507 - Escape Mental e Cores da Aura](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Magika_Paradoxo_507.png)
+![Página 507 - Escape Mental e Cores da Aura](../Imagens/Tabela_Magika_Paradoxo_507.png)
 <!-- slide -->
-![Página 508 - Quantidades de Quintessência e Efeitos Mágicos Comuns](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/Imagens/Tabela_Magika_Paradoxo_508.png)
+![Página 508 - Quantidades de Quintessência e Efeitos Mágicos Comuns](../Imagens/Tabela_Magika_Paradoxo_508.png)
 ````
 

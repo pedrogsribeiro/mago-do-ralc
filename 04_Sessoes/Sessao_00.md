@@ -12,27 +12,27 @@ Inicialização oficial da crônica de "Mago: A Ascensão". Criação dos arquiv
 
 ## 2. Entidades Envolvidas
 * **Problemas:**
-  * [Problema_Legado](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Legado.md)
-  * [Problema_Presente](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Presente.md)
-  * [Problema_Futuro](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Futuro.md)
+  * [Problema_Legado](../01_Problemas/Problema_Legado.md)
+  * [Problema_Presente](../01_Problemas/Problema_Presente.md)
+  * [Problema_Futuro](../01_Problemas/Problema_Futuro.md)
 * **NPCs (Rostos):**
-  * [Elizabeth_Barcelos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Elizabeth_Barcelos.md) (Legado +)
-  * [Bernardino](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Bernardino.md) (Legado -)
-  * [Angela](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Angela.md) (Presente +)
-  * [Carlito_Heizenberg](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Carlito_Heizenberg.md) (Presente -)
-  * [Joana_Pipoquinha](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Joana_Pipoquinha.md) (Futuro +)
-  * [Lizander_Filho_do_Raio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Lizander_Filho_do_Raio.md) (Futuro -)
+  * [Elizabeth_Barcelos](../02_NPCs/Elizabeth_Barcelos.md) (Legado +)
+  * [Bernardino](../02_NPCs/Bernardino.md) (Legado -)
+  * [Angela](../02_NPCs/Angela.md) (Presente +)
+  * [Carlito_Heizenberg](../02_NPCs/Carlito_Heizenberg.md) (Presente -)
+  * [Joana_Pipoquinha](../02_NPCs/Joana_Pipoquinha.md) (Futuro +)
+  * [Lizander_Filho_do_Raio](../02_NPCs/Lizander_Filho_do_Raio.md) (Futuro -)
 * **PJs (Personagens Jogadores):**
-  * [Jhonny_D_Lee](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Jhonny_D_Lee.md)
-  * [Andrey_Golubenko](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Andrey_Golubenko.md)
-  * [Hughie](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Hughie.md)
-  * [Niki](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md)
+  * [Jhonny_D_Lee](../07_PJs/Jhonny_D_Lee.md)
+  * [Andrey_Golubenko](../07_PJs/Andrey_Golubenko.md)
+  * [Hughie](../07_PJs/Hughie.md)
+  * [Niki](../07_PJs/Niki.md)
 
 
 ## 3. Impacto nos Problemas (Issues)
-* **[Problema_Legado](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Legado.md):** Inicializado. O desequilíbrio na guerra espiritual pós-pandemia está ativo sob a tensão entre a ciência tradicional e a negação influenciada.
-* **[Problema_Presente](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Presente.md):** Inicializado. A rede de tráfico de sangue e refino de droga sintética de quintessência residual entra em operação sob o comando de Carlito Heizenberg.
-* **[Problema_Futuro](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Futuro.md):** Inicializado. A ameaça latente de extermínio de Despertos por Lizander Filho do Raio está mapeada, tendo o espírito de sua filha Joana Pipoquinha como ponto de ancoragem e oposição.
+* **[Problema_Legado](../01_Problemas/Problema_Legado.md):** Inicializado. O desequilíbrio na guerra espiritual pós-pandemia está ativo sob a tensão entre a ciência tradicional e a negação influenciada.
+* **[Problema_Presente](../01_Problemas/Problema_Presente.md):** Inicializado. A rede de tráfico de sangue e refino de droga sintética de quintessência residual entra em operação sob o comando de Carlito Heizenberg.
+* **[Problema_Futuro](../01_Problemas/Problema_Futuro.md):** Inicializado. A ameaça latente de extermínio de Despertos por Lizander Filho do Raio está mapeada, tendo o espírito de sua filha Joana Pipoquinha como ponto de ancoragem e oposição.
 
 ## 4. Pontas Soltas e Conexões (Hooks)
 * Como a rede de logística do Appetito Delivery Pastafariano afeta a distribuição da droga de Carlito Heizenberg?

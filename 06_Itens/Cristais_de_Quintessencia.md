@@ -2,7 +2,7 @@
 type: item
 summary: "Documento referente a Cristais de Quintessência."
 tags: [item, recurso]
-portador_atual: [Despertos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md)
+portador_atual: [Despertos](../07_PJs/Niki.md)
 tipo: cristal
 ---
 # Cristais de Quintessência

@@ -2,7 +2,7 @@
 type: lugar
 summary: "Uma fábrica industrial de produção de macarrão e massas alimentícias. Galpão com maquinário pesado de moagem e empacotamento, exalando odor contínuo de sêmola e trigo."
 tags: [local]
-controle_atual: [Pastafarianos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Pastafarianos.md)
+controle_atual: [Pastafarianos](../05_Faccoes/Pastafarianos.md)
 risco: medio
 ---
 # Fábrica Pasta da Nona
@@ -15,4 +15,4 @@ risco: medio
 * Problema ancorado aqui: Conexão indireta com a rede de distribuição sob influência do Appetito Delivery Pastafariano.
 
 ### Histórico de Exploração
-* **[Sessao_00](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/04_Sessoes/Sessao_00.md):** Indexada como local de interesse inicial sob controle presumido da facção Pastafariana.
+* **[Sessao_00](../04_Sessoes/Sessao_00.md):** Indexada como local de interesse inicial sob controle presumido da facção Pastafariana.

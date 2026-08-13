@@ -2,7 +2,7 @@
 type: lugar
 summary: "Instalação secreta de alta segurança abrigando servidores robustos, sistemas de refrigeração e estações de monitoramento de tráfego de dados."
 tags: [local]
-controle_atual: [ABIN](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/ABIN.md)
+controle_atual: [ABIN](../05_Faccoes/ABIN.md)
 risco: alto
 ---
 # Sede / Data Center
@@ -15,4 +15,4 @@ risco: alto
 * Problema ancorado aqui: Monitoramento de ameaças espirituais e Despertos.
 
 ### Histórico de Exploração
-* **[Sessao_00](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/04_Sessoes/Sessao_00.md):** Indexado como ponto estratégico e base cibernética potencial na guerra trilateral.
+* **[Sessao_00](../04_Sessoes/Sessao_00.md):** Indexado como ponto estratégico e base cibernética potencial na guerra trilateral.

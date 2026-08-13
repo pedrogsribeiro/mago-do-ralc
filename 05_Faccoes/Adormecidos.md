@@ -8,7 +8,7 @@ status: ativa
 
 **Visão Geral:** A grande maioria da população humana que não despertou para a magia e permanece inconsciente da realidade sobrenatural e da guerra espiritual que ocorre ao seu redor.
 **Alinhamento / Filosofia:** Foco na vida cotidiana, ciência convencional, política profana e estabilidade social.
-**Relação com os Problemas:** Servem de massa de manobra, fonte de Quintessência involuntária (através de sangue de falecidos ou traumas da pandemia) e são a principal audiência/vítima de influenciadores como [Bernardino](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Bernardino.md) e cientistas como [Elizabeth_Barcelos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Elizabeth_Barcelos.md).
+**Relação com os Problemas:** Servem de massa de manobra, fonte de Quintessência involuntária (através de sangue de falecidos ou traumas da pandemia) e são a principal audiência/vítima de influenciadores como [Bernardino](../02_NPCs/Bernardino.md) e cientistas como [Elizabeth_Barcelos](../02_NPCs/Elizabeth_Barcelos.md).
 
 ## Exemplos de Personagens (Da Base à Cúpula)
 
@@ -22,7 +22,7 @@ status: ativa
     * *Resistência/Defesa:* 2 dados (Vigor) | **Força de Vontade:** 3 | **Vitalidade:** 7 níveis.
   * **Referências:** M20 Apêndice I, Pág. 618 | Ficha: [Cidadão Típico](file:///c:/Users/pedrogustavo/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/06_Aliados_e_Antagonistas/Elenco_Adormecidos.md#cidadao-tipico)
 
-* **Médio (Profissional Crítico):** *Infectologista / Médica de UTI (Ex: [Elizabeth_Barcelos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Elizabeth_Barcelos.md))*
+* **Médio (Profissional Crítico):** *Infectologista / Médica de UTI (Ex: [Elizabeth_Barcelos](../02_NPCs/Elizabeth_Barcelos.md))*
   * **Aspectos & Diegese:**
     * *Observadora Meticulosa:* Mente científica afiada que nota anomalias celulares e estatísticas impossíveis nos relatórios de saúde pública.
     * *Ceticismo Abalado:* Sente que a realidade esconde padrões ocultos após vivenciar crises severas pós-pandemia.
@@ -32,7 +32,7 @@ status: ativa
     * *Resistência/Defesa:* 3 dados (Vigor) | **Força de Vontade:** 6 | **Vitalidade:** 7 níveis.
   * **Referências:** M20 Apêndice I, Págs. 618-619 | Ficha: [Cidadão Típico Avançado (Profissional)](file:///c:/Users/pedrogustavo/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/06_Aliados_e_Antagonistas/Elenco_Adormecidos.md#cidadao-tipico)
 
-* **Poderoso (Formador de Opinião / Líder de Massa):** *Influenciador Digital (Ex: [Bernardino](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Bernardino.md))*
+* **Poderoso (Formador de Opinião / Líder de Massa):** *Influenciador Digital (Ex: [Bernardino](../02_NPCs/Bernardino.md))*
   * **Aspectos & Diegese:**
     * *Modelador de Crenças:* Movimenta milhões de seguidores, propagando discursos acalorados, teorias da conspiração e pânico moral.
     * *Âncora de Consenso:* Capaz de reforçar ou fragilizar a Película do Consenso em escala regional através da fé ou desinformação das massas.

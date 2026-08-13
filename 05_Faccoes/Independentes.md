@@ -8,7 +8,7 @@ status: ativa
 
 **Visão Geral:** Magos e entidades que operam fora das grandes estruturas políticas das Tradições ou da Tecnocracia, focando em interesses individuais, comerciais ou de sobrevivência local.
 **Alinhamento / Filosofia:** Pragmatismo, autossuficiência e flexibilidade de atuação.
-**Relação com os Problemas:** Serve de filiação temporária para indivíduos como [Carlito_Heizenberg](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Carlito_Heizenberg.md) e [Lizander_Filho_do_Raio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Lizander_Filho_do_Raio.md).
+**Relação com os Problemas:** Serve de filiação temporária para indivíduos como [Carlito_Heizenberg](../02_NPCs/Carlito_Heizenberg.md) e [Lizander_Filho_do_Raio](../02_NPCs/Lizander_Filho_do_Raio.md).
 
 ## Exemplos de Personagens (Da Base à Cúpula)
 
@@ -22,18 +22,18 @@ status: ativa
     * *Resistência/Defesa:* 2 dados (Vigor) | **Força de Vontade:** 3 | **Vitalidade:** 7 níveis.
   * **Referências:** M20 Apêndice I, Pág. 618 | Ficha: [Bandido Comum / Fixer](file:///c:/Users/pedrogustavo/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/06_Aliados_e_Antagonistas/Elenco_Adormecidos.md#bandido-comum)
 
-* **Médio (Operativo / Mercenário Místico):** *Refinador de Quintessência (Ex: [Carlito_Heizenberg](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Carlito_Heizenberg.md))*
+* **Médio (Operativo / Mercenário Místico):** *Refinador de Quintessência (Ex: [Carlito_Heizenberg](../02_NPCs/Carlito_Heizenberg.md))*
   * **Aspectos & Diegese:**
     * *Químico da Quintessência:* Produz e distribui substâncias sintéticas mágicas (drogas residuais) utilizando sangue e energia de traumatizados.
     * *Laboratório Clandestino:* Opera em galpões periféricos camuflados, utilizando tecnologia improvisada e alquimia pragmática.
-    * *Gatilho do [Problema_Presente](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Presente.md):* Alimenta o tráfego místico de rua que desperta o interesse de vigilantes e gangues da cidade.
+    * *Gatilho do [Problema_Presente](../01_Problemas/Problema_Presente.md):* Alimenta o tráfego místico de rua que desperta o interesse de vigilantes e gangues da cidade.
   * **Bloco Mecânico:**
     * *Ações Principais:* Ofícios/Química (8 dados), Tecnologia (6 dados), Manha (6 dados).
     * *Arete / Esferas:* Arete 2 a 3 (Prímórdio 2, Matéria 3).
     * *Resistência/Defesa:* 3 dados (Vigor) | **Força de Vontade:** 6 | **Vitalidade:** 7 níveis.
   * **Referências:** M20 Apêndice I, Págs. 626-628 | Ficha: [Mago Desperto / Conjurador Pragmatico](file:///c:/Users/pedrogustavo/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/06_Aliados_e_Antagonistas/11_Capitulo_11_Aliados_Antagonistas.md#4-inimigos-e-renegados-despertos)
 
-* **Poderoso (Colecionador / Veterano Mercenário):** *Caçador de Avatares (Ex: [Lizander_Filho_do_Raio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Lizander_Filho_do_Raio.md))*
+* **Poderoso (Colecionador / Veterano Mercenário):** *Caçador de Avatares (Ex: [Lizander_Filho_do_Raio](../02_NPCs/Lizander_Filho_do_Raio.md))*
   * **Aspectos & Diegese:**
     * *Predador de Despertos:* Mago veterano e temido que rastreia e caça magos vulneráveis para colheita forçada de Quintessência e Avatares.
     * *Dor como Combustível:* Motivado por traumas pessoais da pandemia; enxerga a destruição de outros conjuradores como acerto de contas.

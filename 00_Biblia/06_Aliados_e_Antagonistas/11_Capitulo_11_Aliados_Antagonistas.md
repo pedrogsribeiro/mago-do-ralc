@@ -39,7 +39,7 @@ Humanos normais sem poderes místicos, mas que reagem à presença do sobrenatur
 
 ## 3. Operativos Extraordinários e Criações Tecnocráticas
 
-Coadjuvantes de suporte que trabalham diretamente para a [Tecnocracia](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Tecnocracia.md). Eles não contam como testemunhas de mágica vulgar se a mágica executada utilizar procedimentos tecnológicos plausíveis (tecnomágica):
+Coadjuvantes de suporte que trabalham diretamente para a [Tecnocracia](../../05_Faccoes/Tecnocracia.md). Eles não contam como testemunhas de mágica vulgar se a mágica executada utilizar procedimentos tecnológicos plausíveis (tecnomágica):
 
 * **Cientista Extraordinário:** Gênios acadêmicos não iluminados que trabalham nos laboratórios da União, auxiliando no desenvolvimento e manutenção de Hipertecnologia.
 * **Agente de Campo Extraordinário:** Apoio tático da NOM ou Iteração X enviado para dar suporte físico a operações Iluminadas.

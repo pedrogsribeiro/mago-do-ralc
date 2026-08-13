@@ -2,8 +2,8 @@
 type: npc
 summary: "Joana, 'minha pipoquinha'. Espírito da filha falecida do vilão (Lizander). Ela odeia magos devido ao papel que a magia desempenhou em sua tragédia familiar."
 tags: [npc, espirito]
-faccao: [Espiritos_das_Cidades](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Espiritos_das_Cidades.md)
-problema_relacionado: [Problema_Futuro](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Futuro.md)
+faccao: [Espiritos_das_Cidades](../05_Faccoes/Espiritos_das_Cidades.md)
+problema_relacionado: [Problema_Futuro](../01_Problemas/Problema_Futuro.md)
 status: ativo
 ---
 # Joana Pipoquinha
@@ -14,8 +14,8 @@ status: ativo
 
 ### Conexões Lógicas
 * Aliados: Espíritos urbanos, inimigos de Lizander.
-* Inimigos: [Lizander_Filho_do_Raio](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Lizander_Filho_do_Raio.md)
+* Inimigos: [Lizander_Filho_do_Raio](Lizander_Filho_do_Raio.md)
 * Visto por último em: Sem registro
 
 ### Histórico na Crônica
-* **[Sessao_00](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/04_Sessoes/Sessao_00.md):** Indexada no banco de dados como rosto de oposição do [Problema_Futuro](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Futuro.md).
+* **[Sessao_00](../04_Sessoes/Sessao_00.md):** Indexada no banco de dados como rosto de oposição do [Problema_Futuro](../01_Problemas/Problema_Futuro.md).

@@ -2,8 +2,8 @@
 type: npc
 summary: "Bernardo Batista Bertrand, 'Bernardino'. Influenciador digital contra vacinas, ex-participante de reality show (BBB) e herdeiro de família tradicional brasileira."
 tags: [npc, adormecido]
-faccao: [Adormecidos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Adormecidos.md)
-problema_relacionado: [Problema_Legado](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Legado.md)
+faccao: [Adormecidos](../05_Faccoes/Adormecidos.md)
+problema_relacionado: [Problema_Legado](../01_Problemas/Problema_Legado.md)
 status: ativo
 ---
 # Bernardino
@@ -14,8 +14,8 @@ status: ativo
 
 ### Conexões Lógicas
 * Aliados: Grupos conspiracionistas, alas conservadoras.
-* Inimigos: [Elizabeth_Barcelos](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/02_NPCs/Elizabeth_Barcelos.md)
+* Inimigos: [Elizabeth_Barcelos](Elizabeth_Barcelos.md)
 * Visto por último em: Sem registro
 
 ### Histórico na Crônica
-* **[Sessao_00](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/04_Sessoes/Sessao_00.md):** Indexado no banco de dados como rosto opositor do [Problema_Legado](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Legado.md).
+* **[Sessao_00](../04_Sessoes/Sessao_00.md):** Indexado no banco de dados como rosto opositor do [Problema_Legado](../01_Problemas/Problema_Legado.md).

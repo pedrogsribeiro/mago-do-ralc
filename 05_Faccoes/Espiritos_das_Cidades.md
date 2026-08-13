@@ -8,7 +8,7 @@ status: ativa
 
 **Visão Geral:** Coletivo de entidades espirituais urbanas nascidas do concreto, da poluição, do fluxo de dados, da internet e da atividade humana concentrada nas metrópoles.
 **Alinhamento / Filosofia:** Expansão urbana, industrialização e apropriação de fluxos energéticos gerados pela aglomeração humana.
-**Relação com os Problemas:** Fortalecidos após a pandemia de 2019-2022, empurrando o desequilíbrio do [Problema_Legado](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Legado.md) contra os [Povos_da_Floresta](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Povos_da_Floresta.md) e a [ABIN](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/ABIN.md).
+**Relação com os Problemas:** Fortalecidos após a pandemia de 2019-2022, empurrando o desequilíbrio do [Problema_Legado](../01_Problemas/Problema_Legado.md) contra os [Povos_da_Floresta](Povos_da_Floresta.md) e a [ABIN](ABIN.md).
 
 ## Exemplos de Personagens (Da Base à Cúpula)
 
@@ -36,7 +36,7 @@ status: ativa
   * **Aspectos & Diegese:**
     * *Personificação da Metrópole:* Entidade gigantesca ancestral que sintetiza o ruído, os viadutos, o asfalto e a ambição de milhões de habitantes.
     * *Soberano da Alta Penumbra:* Governa reinos urbanos inteiros, alterando a Película local e a pressão espiritual sobre magos e vampiros.
-    * *Fome de Expansão:* Empurra o desequilíbrio do [Problema_Legado](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/01_Problemas/Problema_Legado.md) contra os [Povos_da_Floresta](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Povos_da_Floresta.md), buscando concretar mananciais remanescentes.
+    * *Fome de Expansão:* Empurra o desequilíbrio do [Problema_Legado](../01_Problemas/Problema_Legado.md) contra os [Povos_da_Floresta](Povos_da_Floresta.md), buscando concretar mananciais remanescentes.
   * **Bloco Mecânico:**
     * *Paradas Principais:* Gnose 9 | Fúria 7 | Força de Vontade 10 | **Essência:** 60+.
     * *Encantos Primordiais:* Dominância Territorial Metropolitana, *Terremoto de Concreto*, *Convocação de Enxame Urbano*.

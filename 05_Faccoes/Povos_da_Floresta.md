@@ -8,7 +8,7 @@ status: ativa
 
 **Visão Geral:** Facção que congrega os espíritos da natureza, ecologistas radicais e Despertos alinhados com a preservação do meio ambiente e o equilíbrio natural primordial.
 **Alinhamento / Filosofia:** Preservação da vida selvagem, oposição ao avanço descontrolado das cidades e repressão à poluição mágica e espiritual.
-**Relação com os Problemas:** Em combate direto e trilateral contra a [ABIN](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/ABIN.md) e os [Espiritos_das_Cidades](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Espiritos_das_Cidades.md) pelo controle territorial e energético.
+**Relação com os Problemas:** Em combate direto e trilateral contra a [ABIN](ABIN.md) e os [Espiritos_das_Cidades](Espiritos_das_Cidades.md) pelo controle territorial e energético.
 
 ## Exemplos de Personagens (Da Base à Cúpula)
 
@@ -37,7 +37,7 @@ status: ativa
   * **Aspectos & Diegese:**
     * *Espírito Ancestral das Águas:* Entidade milenar que personifica as bacias hidrográficas e matas ciliares remanescentes da região.
     * *Soberano da Penumbra Média:* Manipula tempestades locais, raízes e a tempestade de avatares para manter intrusos e tecnocratas afastados.
-    * *Resistência Primordial:* Lidera o front espiritual contra a expansão desenfreada dos [Espiritos_das_Cidades](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/05_Faccoes/Espiritos_das_Cidades.md) e a especulação industrial.
+    * *Resistência Primordial:* Lidera o front espiritual contra a expansão desenfreada dos [Espiritos_das_Cidades](Espiritos_das_Cidades.md) e a especulação industrial.
   * **Bloco Mecânico:**
     * *Paradas Principais:* Gnose 9 | Fúria 6 | Força de Vontade 9 | **Essência:** 50+.
     * *Encantos Primordiais:* Dominância das Águas, *Convocação de Ventanias*, *Despertar da Floresta*.

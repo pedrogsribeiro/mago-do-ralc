@@ -8,6 +8,6 @@ tags: [mago, m20, regra]
 
 > [!NOTE]
 > Este arquivo foi cindido em dois documentos separados para facilitar a recuperação de regras específicas e otimizar futuros acessos por agentes de IA:
-> * [Regras_Combate.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/04_Sistemas_Dramaticos_e_Combate/Regras_Combate.md) (Iniciativa, Corpo-a-Corpo, Armas de Fogo e Manobras Marciais).
-> * [Regras_Do.md](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/04_Sistemas_Dramaticos_e_Combate/Regras_Do.md) (A disciplina mística de Do dos Akashayana e Pele de Ferro).
+> * [Regras_Combate.md](04_Sistemas_Dramaticos_e_Combate/Regras_Combate.md) (Iniciativa, Corpo-a-Corpo, Armas de Fogo e Manobras Marciais).
+> * [Regras_Do.md](04_Sistemas_Dramaticos_e_Combate/Regras_Do.md) (A disciplina mística de Do dos Akashayana e Pele de Ferro).
 

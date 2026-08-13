@@ -8,7 +8,7 @@ status: ativa
 
 **Visão Geral:** Despertos que não pertencem a nenhuma das nove Tradições do Conselho nem à União da Tecnocracia. Desenvolvem suas magias de forma intuitiva, individual e eclética.
 **Alinhamento / Filosofia:** Pragmatismo urbano, sobrevivência e individualismo místico.
-**Relação com os Problemas:** Serve de filiação para os personagens jogadores [Hughie](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Hughie.md) e [Niki](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md).
+**Relação com os Problemas:** Serve de filiação para os personagens jogadores [Hughie](../07_PJs/Hughie.md) e [Niki](../07_PJs/Niki.md).
 
 ## Exemplos de Personagens (Da Base à Cúpula)
 
@@ -23,7 +23,7 @@ status: ativa
     * *Resistência/Defesa:* 2 dados (Vigor) | **Força de Vontade:** 4 | **Vitalidade:** 7 níveis.
   * **Referências:** M20 Apêndice I, Pág. 618 | Ficha: [Cidadão Típico / Neófito](file:///c:/Users/pedrogustavo/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/06_Aliados_e_Antagonistas/Elenco_Adormecidos.md#cidadao-tipico)
 
-* **Médio (Sobrevivente das Ruas):** *Guia do Subterrâneo (Ex: [Hughie](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Hughie.md) / [Niki](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/07_PJs/Niki.md))*
+* **Médio (Sobrevivente das Ruas):** *Guia do Subterrâneo (Ex: [Hughie](../07_PJs/Hughie.md) / [Niki](../07_PJs/Niki.md))*
   * **Aspectos & Diegese:**
     * *Gambiarra Mística:* Concatena rituais ecléticos improvisados, misturando fios de alta tensão, trincos eletrônicos e redes sociais.
     * *Navegador Periurbano:* Conhece túneis de metrô desativados, casas abandonadas e rotas de fuga contra varreduras de Ternos Pretos.
