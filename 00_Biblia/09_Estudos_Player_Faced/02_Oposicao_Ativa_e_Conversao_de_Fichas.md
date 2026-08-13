@@ -29,12 +29,13 @@ Em vez de 4 rolagens por troca de combate (*Ataque $\rightarrow$ Esquiva $\right
 
 ## 🧮 2. Matriz de Conversão Direta (Ficha Clássica M20 $\rightarrow$ Fator de Ameaça)
 
-| Parada do NPC no Livro (Atrib + Hab) | Nível da Ameaça | Dificuldade para o PJ Atacar / Interagir | Dificuldade para o PJ Esquivar / Resistir | Relógio de Vitalidade (Impactos) |
-| :---: | :---: | :---: | :---: | :---: |
-| **3 a 4 dados** | Amador / Capanga / Suporte | **Diff 5** | **Diff 5** | **3 Impactos** |
-| **5 a 6 dados** | Treinado / Agente Padronizado | **Diff 6** | **Diff 6** | **5 Impactos** |
-| **7 a 8 dados** | Elite / Terno Preto / Especialista | **Diff 7** | **Diff 7** | **6 Impactos** |
-| **9 ou + dados** | Lendário / Hit-Mark X / Mestre | **Diff 8** | **Diff 8** | **7 Impactos** + Armadura Fixa |
+| Parada do NPC no Livro (Atrib + Hab) | Nível da Ameaça | Dificuldade para o PJ Atacar / Interagir | Dificuldade para o PJ Esquivar / Resistir | Relógio de Vitalidade (Impactos) | Resistência a Dano Fixo (RD) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **3 a 4 dados** | Amador / Capanga / Suporte | **Diff 5** | **Diff 5** | **3 Impactos** | **RD 0** (Sem Armadura) |
+| **5 a 6 dados** | Treinado / Agente Padronizado | **Diff 6** | **Diff 6** | **5 Impactos** | **RD 0 ou 1** (Kevlar / Fibra) |
+| **7 a 8 dados** | Elite / Terno Preto / Especialista | **Diff 7** | **Diff 7** | **6 Impactos** | **RD 1** (Anula 1 Impacto Parcial) |
+| **9 ou + dados** | Lendário / Hit-Mark X / Mestre | **Diff 8** | **Diff 8** | **7 Impactos** | **RD 2** (Anula 1 Impacto de Todos Acertos) |
+
 
 ---
 

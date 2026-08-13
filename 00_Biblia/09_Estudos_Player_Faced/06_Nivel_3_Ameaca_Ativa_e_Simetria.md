@@ -76,3 +76,23 @@ Simulamos o desempenho de **PJs Ineptos (3d)**, **HÁBEIS (5d)** e **MESTRES (7d
 3. **Preservação de Recursos:** Personagens treinados vencem confrontos mantendo a maioria de seus recursos (HP/Vontade), enquanto novatos saem seriamente feridos/desgastados.
 4. **Redução de Tempo na Mesa:** O tempo real de resolução é reduzido em **85%** em relação ao M20 clássico.
 
+---
+
+## 🛡️ 5. Resistência a Dano (RD / Limiar de Armadura / Threshold)
+
+Inspirado no modelo de armadura de *Year Zero Engine / Tatangá*, o Nível 3 incorpora a **Resistência a Dano Fixo (RD)** sem rolar dados de absorção para o NPC:
+
+### Níveis de RD e Efeito nos Impactos:
+* **RD 0 (Sem Armadura):** Sofre impactos normais ($\ge 2s = 2$ Impactos; $1s = 1$ Impacto).
+* **RD 1 (Armadura Leve / Kevlar / Escudo Fraco):** Anula o impacto de **Acertos Parciais (1 Sucesso)**. O PJ cumpre o objetivo secundário, mas não causa avanço no relógio a menos que use armas com a propriedade `[Perfurante]`.
+* **RD 2 (Armadura Pesada / Titânio / Primium / Hit-Mark):** Reduz em **1 Impacto TODO acerto** ($\ge 2s = 1$ Impacto; $1s = 0$ Impactos).
+
+### Prova Estatística de Impacto da RD (50.000 Simulações):
+
+| Nível de Armadura do NPC | Taxa de Vitória do PJ | Duração Média do Combate | Recurso Restante do Vencedor |
+| :--- | :---: | :---: | :---: |
+| **RD 0 (Sem Armadura)** | **$91,2\%$** | 4,81 rodadas | 4,92 / 7 |
+| **RD 1 (Armadura Leve)** | **$86,0\%$** | 5,42 rodadas | 4,88 / 7 |
+| **RD 2 (Armadura Pesada - Hit-Mark)** | **$59,2\%$** | **9,44 rodadas** | 3,73 / 7 (Combate altamente desgastante!) |
+
+
