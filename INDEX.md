@@ -125,14 +125,15 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 
 | Estudo | Tópico e Foco Mecânico | Arquivo |
 | :--- | :--- | :--- |
-| **Estudo 01** | Rolagens de Obstáculo, 4 Faixas de Resolução e Matemática d10 | [`01_Testes_Obstaculo_e_Matematica_Base.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/01_Testes_Obstaculo_e_Matematica_Base.md) |
-| **Estudo 02** | Oposição Ativa, Matriz de Conversão Ficha $\rightarrow$ Fator de Ameaça e Relógios | [`02_Oposicao_Ativa_e_Conversao_de_Fichas.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/02_Oposicao_Ativa_e_Conversao_de_Fichas.md) |
-| **Estudo 03** | Chefes, Movimentos Telegrafados, Decisões Táticas e Provas Matemáticas | [`03_Chefes_e_Movimentos_Telegrafados.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/03_Chefes_e_Movimentos_Telegrafados.md) |
-| **Estudo 04** | Taxonomia dos 4 Níveis e Oposição Rápida / Menor | [`04_Taxonomia_e_Oposicao_Rapida.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/04_Taxonomia_e_Oposicao_Rapida.md) |
-| **Estudo 05** | Artigo Técnico: Matemática, Algoritmos Python e Provas Monte Carlo | [`05_Artigo_Matematica_e_Algoritmos_Player_Faced.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/05_Artigo_Matematica_e_Algoritmos_Player_Faced.md) |
-| **Estudo 06** | Nível 3 — Ameaça Ativa e a Simetria das 4 Características | [`06_Nivel_3_Ameaca_Ativa_e_Simetria.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/06_Nivel_3_Ameaca_Ativa_e_Simetria.md) |
-| **Estudo 07** | Adaptação de Entidades Espirituais (Umbróides) e a Umbra | [`07_Entidades_Espirituais_e_Umbroides.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/07_Entidades_Espirituais_e_Umbroides.md) |
-| **Estudo 08** | Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas e Espíritos) | [`08_Guia_Pratico_Conversao_de_Fichas_NPC.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/08_Guia_Pratico_Conversao_de_Fichas_NPC.md) |
+| **Estudo 01** | Rolagens de Obstáculo, 4 Faixas de Resolução e Matemática d10 | [`01_Testes_Obstaculo_e_Matematica_Base.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/01_Testes_Obstaculo_e_Matematica_Base.md) |
+| **Estudo 02** | Oposição Ativa, Matriz de Conversão Ficha $\rightarrow$ Fator de Ameaça e Relógios | [`02_Oposicao_Ativa_e_Conversao_de_Fichas.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/02_Oposicao_Ativa_e_Conversao_de_Fichas.md) |
+| **Estudo 03** | Chefes, Movimentos Telegrafados, Decisões Táticas e Provas Matemáticas | [`03_Chefes_e_Movimentos_Telegrafados.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/03_Chefes_e_Movimentos_Telegrafados.md) |
+| **Estudo 04** | Taxonomia dos 4 Níveis e Oposição Rápida / Menor | [`04_Taxonomia_e_Oposicao_Rapida.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/04_Taxonomia_e_Oposicao_Rapida.md) |
+| **Estudo 05** | Artigo Técnico: Matemática, Algoritmos Python e Provas Monte Carlo | [`05_Artigo_Matematica_e_Algoritmos_Player_Faced.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/05_Artigo_Matematica_e_Algoritmos_Player_Faced.md) |
+| **Estudo 06** | Nível 3 — Ameaça Ativa e a Simetria das 4 Características | [`06_Nivel_3_Ameaca_Ativa_e_Simetria.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/06_Nivel_3_Ameaca_Ativa_e_Simetria.md) |
+| **Estudo 07** | Adaptação de Entidades Espirituais (Umbróides) e a Umbra | [`07_Entidades_Espirituais_e_Umbroides.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/07_Entidades_Espirituais_e_Umbroides.md) |
+| **Estudo 08** | Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas e Espíritos) | [`08_Guia_Pratico_Conversao_de_Fichas_NPC.md`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/08_Guia_Pratico_Conversao_de_Fichas_NPC.md) |
+
 
 
 

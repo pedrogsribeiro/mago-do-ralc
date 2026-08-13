@@ -21,7 +21,8 @@
 * **Padrão YAML Obrigatório:** Todo documento novo ou atualizado deve manter o cabeçalho YAML Frontmatter no topo com `type`, `summary` e `tags`.
 
 ## 4. Taxonomia de Carga Narrativa (Sistema Player-Faced Total)
-Nas narrativas e regras deste workspace, a oposição é classificada em 4 Níveis de Carga Narrativa conforme os estudos em [`09_Estudos_Player_Faced`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/00_Biblia/09_Estudos_Player_Faced/):
+Nas narrativas e regras deste workspace, a oposição é classificada em 4 Níveis de Carga Narrativa conforme os estudos em [`08_Estudos_Player_Faced`](file:///d:/OneDrive/Documentos/RPG%20a%20la%20Carte/Mago,%20presencial/08_Estudos_Player_Faced/):
+
 * **Nível 1 (Obstáculo Passivo):** Tarefas estáticas ou ambientais (arrombar, saltar, hackear sistemas sem IA). Resolvido em 1 rolagem contra Dificuldade 6 + Limiar de Sucessos.
 * **Nível 2 (Oposição Rápida / Menor):** Interações sociais, furtivas ou de confronto instantâneo com NPCs menores (guardas, informantes, patrulhas). Resolvido em 1 rolagem do PJ contra Dificuldade 5 a 8.
 * **Nível 3 (Ameaça Ativa):** Combates sérios ou hacks ativos contra opositores estruturados (Hit-Marks, Agentes de Elite). Utiliza Fator de Ameaça, Dano Fixo e Relógios de Vitalidade/Intrusão.
