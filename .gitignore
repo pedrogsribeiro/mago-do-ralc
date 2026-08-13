@@ -1,0 +1,7 @@
+# Ignore large base PDFs and export binaries
+*.pdf
+pdf-forge-exports/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
