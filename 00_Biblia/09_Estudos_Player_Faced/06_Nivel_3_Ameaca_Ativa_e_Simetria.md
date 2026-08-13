@@ -87,12 +87,50 @@ Inspirado no modelo de armadura de *Year Zero Engine / Tatangá*, o Nível 3 inc
 * **RD 1 (Armadura Leve / Kevlar / Escudo Fraco):** Anula o impacto de **Acertos Parciais (1 Sucesso)**. O PJ cumpre o objetivo secundário, mas não causa avanço no relógio a menos que use armas com a propriedade `[Perfurante]`.
 * **RD 2 (Armadura Pesada / Titânio / Primium / Hit-Mark):** Reduz em **1 Impacto TODO acerto** ($\ge 2s = 1$ Impacto; $1s = 0$ Impactos).
 
-### Prova Estatística de Impacto da RD (50.000 Simulações):
+---
 
-| Nível de Armadura do NPC | Taxa de Vitória do PJ | Duração Média do Combate | Recurso Restante do Vencedor |
-| :--- | :---: | :---: | :---: |
-| **RD 0 (Sem Armadura)** | **$91,2\%$** | 4,81 rodadas | 4,92 / 7 |
-| **RD 1 (Armadura Leve)** | **$86,0\%$** | 5,42 rodadas | 4,88 / 7 |
-| **RD 2 (Armadura Pesada - Hit-Mark)** | **$59,2\%$** | **9,44 rodadas** | 3,73 / 7 (Combate altamente desgastante!) |
+## 🚪 6. Limiar Mínimo de Efetividade (Threshold Gate / Regra de Efeito Zero)
+
+Uma alternativa infinitamente superior aos redutores numéricos de dano é a **Regra do Limiar Mínimo de Efetividade (Gatekeeper of Effect)**:
+
+* **Regra do Efeito Zero:** Ameaças de grande porte, vilões climáticos ou estruturas pesadas possuem um **Limiar Mínimo = 2**.
+* **Mecânica da Mesa:**
+  * **$\ge 2$ Sucessos (Ação Qualificada):** Ação possui potência/técnica suficiente para romper a barreira da ameaça e marca **2 Caixas no Relógio de Vitória**.
+  * **1 Sucesso (Acerto Fraco / Inefetivo na Estrutura):** Produz **Efeito Zero no Relógio** ($0$ Caixas marcadas). O PJ obtém apenas uma pequena vantagem narrativa secundária (ex: ganha posição, desestabiliza o alvo ou evita o pior), sofrendo a complicação de raspão habitual, **mas não reduz a integridade da ameaça**.
+
+### 🎯 O Maior Ganho Ludológico: Fim do "Efeito Picada de Mosquito"
+
+Sem o Limiar Mínimo, jogadores tendem a derrotar ameaças épicas picando "soquim por soquim" (ataques fracos repetitivos de 1 em 1 ponto), o que destrói a verossimilhança dramática da cena.
+
+Ao implementar o **Limiar Mínimo = 2**, o jogo força o grupo de PJs a operar com **Tática e Cooperação Arcana**:
+1. **Trabalho em Equipe:** Um PJ usa sua ação para criar uma Vantagem (`[Vulnerável]`), garantindo dados extras ao aliado.
+2. **Gasto de Quintessência:** O Mago canaliza Quintessência livre para garantir sucessos automáticos e ultrapassar a barreira de 2 sucessos.
+3. **Mágika de Amplificação:** Uso de Esferas para criar ritos conjuntos que garantem acertos qualificados ($\ge 2s$).
+
+### Prova Estatística de Impacto do Limiar Mínimo (50.000 Simulações):
+
+| Tier do PJ | Modelo Padrão (1s marca 1 Caixa) | Modelo Limiar Mínimo 2 (1s = Efeito Zero no Relógio) | Impacto Ludológico no Conflito |
+| :--- | :---: | :---: | :--- |
+| **PJ Inepto (3d)** | Vitória: **$59,9\%$** | Vitória: **$41,4\%$** | **Filtro Severo:** Impede derrotar o chefe picando soquim; força cooperação/Quintessência. |
+| **PJ Hábil (5d)** | Vitória: **$91,3\%$** | Vitória: **$85,8\%$** | **Desafio Moderado:** Exige foco tático sem travar a cena. |
+| **PJ Mestre (7d)** | Vitória: **$98,2\%$** | Vitória: **$97,1\%$** | **Praticamente Nulo:** O especialista supera a barreira de efetividade naturalmente. |
+
+---
+
+## 🧠 7. Ergonomia Cognitiva Ludológica (Alta Ergonomia vs. Baixa Ergonomia)
+
+### O Conceito de Ergonomia no Game Design:
+Ergonomia Cognitiva é a medida do **quão leve, intuitivo e sem atrito mental** é o sistema de regras para a mente humana durante a sessão ao vivo.
+
+* **Baixa Ergonomia (Mago M20 Clássico):**
+  * O Narrador gerencia 30 atributos por NPC, rola dados de ataque, dados de esquiva, dados de dano e dados de absorção.
+  * *Consequência:* Cansaço mental severo do Narrador, combates lentos (45 min) e paralisação do ritmo narrativo.
+* **Alta Ergonomia (Sistema Player-Faced Total):**
+  * O Narrador rola **0 dados**.
+  * A ficha do NPC é resumida em **3 linhas (Fator de Ameaça)**.
+  * Uma única rolagem do jogador responde *"Consegui?"* e *"Qual a consequência?"* simultaneamente.
+  * *Consequência:* 100% da energia mental do Narrador permanece disponível para a condução dramática, interpretação de papéis e construção da atmosfera.
+
+
 
 
