@@ -134,6 +134,20 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Estudo 07** | Adaptação de Entidades Espirituais (Umbróides) e a Umbra | [`07_Entidades_Espirituais_e_Umbroides.md`](08_estudos_player_faced/07_entidades_espirituais_e_umbroides.md) |
 | **Estudo 08** | Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas e Espíritos) | [`08_Guia_Pratico_Conversao_de_Fichas_NPC.md`](08_estudos_player_faced/08_guia_pratico_conversao_de_fichas_npc.md) |
 
+---
+
+## ⚡ 10. Arco 01 da Crônica: O Sangue da Metrópole (The Alexandrian Node Graph)
+
+| Nó Investigativo | Tópico e Foco em Cena | Arquivo |
+| :--- | :--- | :--- |
+| **Visão Geral** | Índice e Matriz Alexandrian das 3 Pistas Mestre | [`00_visao_geral_e_matriz_de_pistas.md`](09_arco_01_o_sangue_da_metropole/00_visao_geral_e_matriz_de_pistas.md) |
+| **Nó A (Set)** | O Incidente Inicial: Explosão do Delivery de Sangue | [`01_no_a_set_de_filmagem.md`](09_arco_01_o_sangue_da_metropole/01_no_a_set_de_filmagem.md) |
+| **Nó B (Fábrica)** | A Refinaria Alquímica de Carlito Heizenberg & Pastafarianos | [`02_no_b_fabrica_pasta_da_nona.md`](09_arco_01_o_sangue_da_metropole/02_no_b_fabrica_pasta_da_nona.md) |
+| **Nó C (CAPS)** | O Surto de Viciados, Enfermeira Ângela e Joana Pipoquinha | [`03_no_c_caps_zona_sul.md`](09_arco_01_o_sangue_da_metropole/03_no_c_caps_zona_sul.md) |
+| **Nó D (Data Center)**| Infiltração na ABIN, Lives de Bernardino e Vacinas | [`04_no_d_data_center_e_abin.md`](09_arco_01_o_sangue_da_metropole/04_no_d_data_center_e_abin.md) |
+| **Nó E (Santuário)** | O Clímax (Nível 4 Chefe): O Ritual de Raios de Lizander | [`05_no_e_santuario_de_lizander.md`](09_arco_01_o_sangue_da_metropole/05_no_e_santuario_de_lizander.md) |
+
+
 
 
 
