@@ -138,14 +138,3 @@ Destinado a líderes de convenção, arqui-inimigos, rituais cósmicos e catást
   * `[Consequência: 4 (Paradoxo e Deformação de Padrão)]`
   * `[Relógio do Evento: 5 Caixas]`
 
----
-
-## ⏳ 6. Gestão Macro da Crônica no Domínio 1
-
-Quando os Antagonistas Conscientes são o motor da crônica, o Narrador estabelece um **Relógio Macro de Investigação / Conspiração** (15 a 50 sucessos).
-
-### Exemplo de Estrutura de Conspiração Tecnocrata:
-* **Objetivo Macro:** *"Desmantelar a Operação do Sindicato na Bolsa de Valores e Santuários"* (Relógio: 30 Sucessos).
-* **Gatilho 1 (10 Sucessos):** *A NOM percebe auditorias anômalas e congela as contas bancárias dos aliados dos PJs.*
-* **Gatilho 2 (20 Sucessos):** *A Iteração X mobiliza uma equipe tática de Hit-Marks para atacar o Santuário.*
-* **Gatilho 3 (30 Sucessos):** *Confronto Climático (Nível 3) contra a diretoria corporativa do Sindicato.*
