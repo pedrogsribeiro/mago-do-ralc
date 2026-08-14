@@ -66,6 +66,8 @@ Ameaças artificiais que não possuem sentimentos e executam protocolos diretos 
 ---
 
 ### Domínio 3: Entidades Efêmeras e a Geografia Hostil da Umbra
+> 📖 *Detalhamento completo e catálogo de perfis nos 3 Níveis em: [`Estudo 13: Domínio 3 — Entidades Efêmeras e a Umbra`](13_dominio_3_entidades_efemeras_e_umbra.md)*
+
 Ameaças imateriais da Penumbra e Reinos Umbrais que operam através de Corpus, Gnose, Força de Vontade e Encantos (*Charms*):
 * **Espíritos da Natureza e Elementais:** Entes de Fogo, Raios, Água, Rochas e Ventos.
 * **Espíritos Urbanos da Civilização:** Manifestações de Concreto, Fumaça, Eletricidade, Fibra Óptica e Poluição.

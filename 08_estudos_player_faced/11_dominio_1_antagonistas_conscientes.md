@@ -1,138 +1,132 @@
 ---
 type: regra
-summary: "Estudo 11 do Sistema Player-Faced: Instanciação completa do Domínio 1 (Antagonistas Conscientes) nos Níveis 1, 2 e 3, com conversão 1:1 de perfis oficiais do M20 e princípio de fluidez multinível."
-tags: [srd, design, player-faced, antagonistas, faccoes, tecnocracia, nefandi, conversao-1-1, regras]
+summary: "Estudo 11 do Sistema Player-Faced: Instanciação completa do Domínio 1 (Antagonistas Conscientes) nos Níveis 1, 2 e 3, com conversão 1:1 de perfis de NPCs oficiais, assimetria dimensional e o Princípio da Fluidez."
+tags: [srd, design, player-faced, antagonistas, faccoes, tecnocracia, nefandi, conversao-1-1, dimensoes, regras]
 ---
 
 # Estudo 11: Domínio 1 — Antagonistas Conscientes e Facções
 
-Este documento estabelece a instanciação prática, a conversão direta 1:1 dos perfis oficiais do livro básico de *Mago: A Ascensão 20 Anos (M20)* e o catálogo operacional do **Domínio 1: Antagonistas Conscientes** sob o **Motor Player-Faced Total**.
+Este documento estabelece a instanciação prática e o catálogo operacional do **Domínio 1: Antagonistas Conscientes** sob o **Motor Player-Faced Total** para *Mago: A Ascensão 20 Anos*.
 
-Antagonistas conscientes são indivíduos e grupos dotados de agência, inteligência, motivações ideológicas e capacidade de agir em múltiplas dimensões (Física, Social, Intelectual e Mística).
+Antagonistas conscientes são indivíduos e grupos dotados de agência, inteligência, motivações ideológicas e capacidade de agir em múltiplas dimensões (Física, Social, Mental e Mística).
 
 ---
 
 ## 🏛️ 1. O Domínio 1 sob a Ótica Player-Faced
 
-No paradigma *Player-Faced*, os antagonistas não exigem fichas de duas páginas com dezenas de perícias e paradas de absorção. O Narrador os instancia de acordo com o peso e o foco dramático da cena:
+No paradigma *Player-Faced*, os antagonistas são sintetizados em blocos de parâmetros que expressam sua oposição ao mundo:
 
 ```
 +---------------------------------------------------------------------------------------------------------+
 |                               OS 3 NÍVEIS DE ANTAGONISTAS CONSCIENTES                                   |
 |                                                                                                         |
-|  [ Nível 1: Desafio Rápido ]   ==> Capangas, burocratas, informantes ou interações pontuais (1 rolagem) |
-|  [ Nível 2: Ameaça Ativa ]     ==> Confrontos táticos diretos, interrogatórios e tiroteios (4 Fatores)   |
-|  [ Nível 3: Alto Impacto ]     ==> Mestres de convenção, rituais cósmicos e purgas globais (Telegrafo) |
+|  [ Nível 1: Desafio Rápido ]   ==> Fator único de OPOSIÇÃO na dimensão relevante (com Meta de Sucessos).|
+|  [ Nível 2: Ameaça Ativa ]     ==> Ficha focada na dimensão primária de conflito (com brechas táticas). |
+|  [ Nível 3: Alto Impacto ]     ==> Matriz completa das 4 Dimensões + Evento Telegrafado de Crise.       |
 +---------------------------------------------------------------------------------------------------------+
 ```
 
 ---
 
-## 🔄 2. O Princípio da Fluidez do NPC: O Mesmo Antagonista nos 3 Níveis
+## 🔄 2. O Princípio da Fluidez do NPC: A Mesma Ameaça nos 3 Níveis
 
-Uma das maiores forças do sistema é que **o nível não é uma etiqueta fixa na criatura, mas sim a escala da interação dramática na cena**. Um mesmo antagonista importante pode se manifestar nos Níveis 1, 2 ou 3 conforme a abordagem dos jogadores:
+O nível define a escala dramática da interação na cena. Cada antagonista de elite possui uma matriz dimensional completa e responde em qualquer nível:
 
 ### Estudo de Caso: *Diretor Regional da NOM — Dr. Alistair Vance*
 
+```yaml
+---
+ameaca: Dr. Alistair Vance (Diretor Regional da NOM)
+nivel_padrao: Nível 3 (Antagonista de Elite / Crise)
+
+matriz_dimensional:
+  dimensao_social:       [Oposição: 8] [Ameaça: 7] [Consequência: 4 (Dano Social/Status)] [Relógio: 6]
+  dimensao_mental:       [Oposição: 8] [Ameaça: 6] [Consequência: 3 (Exposição de Dados)]  [Relógio: 4]
+  dimensao_fisica:       [Oposição: 6] [Ameaça: 5] [Consequência: 2 (Pistola Leve)]       [Relógio: 3]
+  dimensao_mistica:      [Oposição: 5] [Ameaça: 4] [Consequência: 2 (Dreno Tecnológico)]  [Relógio: 3]
+---
+```
+
 * **Como Nível 1 (Desafio Rápido / Interação Pontual):**
-  * *Cenário:* Os PJs estão disfarçados de garçons em uma festa beneficente e querem clonar o cartão magnético de Alistair sem serem vistos.
-  * *Mecânica:* Destreza + Furto contra **Dificuldade 7** (Oposição) | **Meta: 2 Sucessos** (Complexidade). Resolvido em 1 única rolagem.
+  * *Cenário:* Infiltração em evento social para clonar credenciais de Vance sem ser notado.
+  * *Parâmetros da Oposição:* **Oposição Social: 8** | **Meta: 2 Sucessos**.
 * **Como Nível 2 (Ameaça Ativa / Duelo Tático):**
-  * *Cenário:* Os PJs são encurralados por Alistair e seus guarda-costas em uma sala de conferência blindada. Alistair conduz um interrogatório psicológico violento enquanto seus agentes miram armas.
-  * *Mecânica (Ficha Sintética):* `[Oposição Social: 8]` `[Ameaça Social: 7]` `[Consequência: 3 de Estresse Mental/Exposição]` `[Relógio: 4 Caixas]`. Combate turno a turno na Iniciativa clássica sem dados para o Narrador.
+  * *Cenário:* Interrogatório psicológico fechado conduzido diretamente por Vance.
+  * *Parâmetros da Oposição (Dimensão Social):* `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 4]` `[Relógio: 6]`. Iniciativa: $1d10 + 7$.
 * **Como Nível 3 (Evento de Alto Impacto / Crise Telegrafada):**
-  * *Cenário:* Encurralado em seu escritório mestre, Alistair aciona o *Protocolo de Apagão Panóptico*. As telas da cidade exibem os rostos dos PJs e o sistema inicia a deleção de todas as suas identidades civis e bloqueio de bens em 30 segundos.
-  * *Mecânica:* Ameaça Telegrafada pura com as 3 Opções do Triângulo Tático (Interromper, Defender 100%, Troca Direta) e Relógio de Crise de 6 caixas.
+  * *Cenário:* Vance aciona o *Protocolo de Apagão Panóptico*, iniciando a purga de dados e bloqueio de bens em 30 segundos.
+  * *Parâmetros da Oposição:* Todas as 4 dimensões ativas na crise, com **Ameaça Social 7** e **Oposição Mental 8** ancorando o Triângulo Tático.
 
 ---
 
-## 🔮 3. Regra Fundamental: Ações Mundanas vs. Rolagens de Arete
+## 🎯 3. Nível 1: Desafios Rápidos (Capangas e Atritos Menores)
 
-* **Ações Mundanas (Atributo + Habilidade):** A Dificuldade do teste do jogador é determinada diretamente pela **Oposição** do NPC (variando de 5 a 8).
-* **Ações Mágikas (Arete / Esferas):** A Dificuldade da rolagem de Arete segue estritamente as regras próprias de *Mago M20* (Esfera Mais Alta $+ 3$ para Coincidente / $+ 4$ Vulgar sem testemunhas / $+ 5$ com testemunhas).
-  * *A Oposição NUNCA altera o número-alvo do dado de Arete.* Ela define apenas o **Limiar de Resistência** (quando a mágika tenta alterar o padrão direto do NPC) ou o **Relógio de Caixas** que os sucessos do feitiço devem preencher.
+O obstáculo opera em uma única dimensão com fator de Oposição e Meta de Sucessos:
 
----
-
-## 🎯 4. Nível 1: Desafios Rápidos (Capangas e Atritos Menores)
-
-* **Mecânica Mundana:** Dificuldade (5 a 8) pelas condições/oposição e Meta de Sucessos (1 a 5) pela complexidade.
-* **Mecânica Mágika:** Rolagem de Arete pelas regras padrão de M20.
-* **Resolução Trinomial:**
-  * **$\ge \text{Meta}$ de Sucessos:** **Sucesso Pleno** (superado limpo).
-  * **$1$ até $\text{Meta} - 1$ Sucessos:** **Sucesso com Custo** (cumpre o objetivo, mas gera complicação diegética).
-  * **0 Sucessos:** **Falha** (o perigo se manifesta).
-
-### Exemplos Prontos de Nível 1:
-1. **Segurança Terceirizado de Portaria:** Dificuldade 6 | Meta: 2 Sucessos (Física para nocautear; Social para enganar).
-2. **Recepcionista de Hospital/Cartório:** Dificuldade 6 | Meta: 2 Sucessos (Social para obter registros; Intelectual para distrair).
-3. **Policial Militar em Blitz:** Dificuldade 7 | Meta: 2 Sucessos (Social para evitar revista no porta-malas).
-4. **Informante de Beco Assustado:** Dificuldade 5 | Meta: 1 Sucesso (Social para arrancar fofoca; Mental para ler intenções).
-5. **Decodificar Terminal Local da NOM na Pressa:** Dificuldade 7 | Meta: 4 Sucessos (Tarefa de alta complexidade resolvida em 1 rolagem).
+### Catálogo de Oposições de Nível 1:
+1. **Segurança Terceirizado de Portaria:** Oposição Física 6 / Social 5 | Meta: 2 Sucessos. *(NPC Oficial M20)*
+2. **Recepcionista de Hospital/Cartório:** Oposição Social 6 / Burocrática 6 | Meta: 2 Sucessos.
+3. **Policial Militar em Blitz:** Oposição Social 7 / Percepção 6 | Meta: 2 Sucessos. *(NPC Oficial M20)*
+4. **Informante de Beco Assustado:** Oposição Social 5 | Meta: 1 Sucesso. *(NPC Oficial M20)*
+5. **Terminal Local da NOM (Criptografia Leve):** Oposição Mental 7 | Meta: 4 Sucessos.
 
 ---
 
-## ⚔️ 5. Nível 2: Ameaças Ativas e Conversão 1:1 do Livro M20
+## ⚔️ 4. Nível 2: Ameaças Ativas e Conversão 1:1 de NPCs do Livro M20
 
-Abaixo está o catálogo de conversão direta 1:1 dos arquétipos oficiais de antagonistas conscientes do livro de Mago M20 para a Ficha Sintética Player-Faced (`[Oposição, Ameaça, Consequência, Relógio]`), com Iniciativa Derivada ($1d10 + (\text{Oposição} + \text{Ameaça} - 8)$).
-
----
-
-### Tabela Mestre de Conversão 1:1 (Perfis Oficiais M20)
-
-| Arquétipo Oficial M20 | Parada Clássica M20 | Oposição (Diff PJ Agir) | Ameaça (Diff PJ Defender) | Consequência (Dano Fixo) | Relógio (Sucessos) | Bônus Iniciativa |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Capanga / Mafioso Mortal** | 4 a 5 dados | **Diff 6** | **Diff 5** | **2 (Pistola .38)** | **3 Caixas** | $+3$ |
-| **Policial / Detetive Civil** | 6 dados | **Diff 6** | **Diff 6** | **3 (Pistola .40)** | **3 Caixas** | $+4$ |
-| **Agente Tático SWAT / BOPE** | 7 dados, Colete | **Diff 7** | **Diff 7** | **3 (Fuzil 5.56)** | **4 Caixas** | $+6$ |
-| **Agente de Campo / MIB (NOM)** | 8 dados, Kevlar, Arete 3 | **Diff 7** | **Diff 7** | **3 (Pesada/Taser)** | **4 Caixas** | $+6$ |
-| **Soldado Cibernético (Iteração X)** | 9 dados, Blindagem 3 | **Diff 8** | **Diff 8** | **4 Agravado (Plasma)** | **6 Caixas** | $+8$ |
-| **Geneticista / Bio-Médico (Progenitores)**| 8 dados Medicina, Arete 3 | **Diff 6 (Fís) / 8 (Bio)**| **Diff 7 (Toxinas)** | **3 Agravado** | **3 Caixas** | $+5$ |
-| **Liquidatário (Sindicato)** | 8 dados Finanças, Hipnose | **Diff 8 (Social)** | **Diff 7 (Chantagem)** | **3 Social/Bens** | **4 Caixas** | $+7$ |
-| **Explorador (Engenheiros do Vazio)** | 7 dados, Traje Espacial | **Diff 7** | **Diff 7** | **3 (Rifle de Pulso)**| **4 Caixas** | $+6$ |
-| **Acólito Nefandi / Cultista do Vazio** | 6 dados, Rituais | **Diff 6 (Fís) / 7 (Míst)**| **Diff 7 (Corrupção)** | **3 Agravado** | **4 Caixas** | $+5$ |
-| **Mestre Nefandi (Caído)** | Arete 5, Esferas 4 | **Diff 8 (Mística)** | **Diff 8 (Entropia)** | **5 Agravado** | **6 Caixas** | $+8$ |
-| **Desaurido (Marauder)** | Arete 4, Quiet Dinâmico | **Diff 7** | **Diff 7** | **4 (Distorção)** | **5 Caixas** | $+6$ |
-| **Mestre Hermético Antagonista** | Arete 4, Forças/Primórdio | **Diff 8 (Mística)** | **Diff 7 (Raios/Fogo)**| **4 Agravado** | **5 Caixas** | $+7$ |
+Antagonistas de Nível 2 operam primariamente em sua dimensão principal de combate, apresentando brechas claras em dimensões secundárias quando houver assimetria.
 
 ---
 
-### Brechas Táticas e Assimetria Multidimensional
+### Tabela de Perfis de NPCs (Origem Oficial M20)
 
-Cada perfil converte seus pontos fracos em brechas táticas claras para os jogadores:
-* **Soldado da Iteração X:** Invencível no combate físico direto (Opo 8 / Ame 8), mas possui **Ponto Cego Social (Opo 4 / Ame 4 / Relógio 2)** caso os magos explorem sua rigidez de programação lógica.
-* **Geneticista dos Progenitores:** Letal com toxinas celulares (Ame 7 Agravado), mas frágil fisicamente em combate corporal direto **(Opo 5 / Ame 5 / Relógio 3)**.
-* **Liquidatário do Sindicato:** Opressor em tribunais e chantagens financeiras (Opo 8), mas vulnerável a ataques místicos sutis de Mente ou Ilusões **(Opo 5 / Relógio 2)**.
-* **Mestre Nefandi:** Supremo em duelos mágikos de Entropia (Opo 8), mas vulnerável caso seja forçado a um combate físico à queima-roupa desarmado **(Opo 6 / Relógio 4)**.
+| Arquétipo de NPC | Origem no Livro | Dimensão Primária (Opo / Ame / Cons / Rel) | Dimensão Secundária / Brecha Tática | Bônus Inic. |
+| :--- | :--- | :--- | :--- | :---: |
+| **Capanga / Mafioso Mortal** | *(NPC Oficial M20)* | **Física:** `[Opo 6]` `[Ame 5]` `[Cons 2]` `[Rel 3]` | **Social:** `[Opo 4]` `[Ame 4]` `[Rel 2]` | $+3$ |
+| **Policial / Detetive Civil** | *(NPC Oficial M20)* | **Física:** `[Opo 6]` `[Ame 6]` `[Cons 3]` `[Rel 3]` | **Mental:** `[Opo 6]` `[Ame 5]` `[Rel 3]` | $+4$ |
+| **Agente Tático SWAT / BOPE** | *(NPC Oficial M20)* | **Física:** `[Opo 7]` `[Ame 7]` `[Cons 3]` `[Rel 4]` | **Mística:** `[Opo 4]` `[Ame 4]` `[Rel 2]` | $+6$ |
+| **Agente de Campo / MIB (NOM)** | *(NPC Oficial M20)* | **Física:** `[Opo 7]` `[Ame 7]` `[Cons 3]` `[Rel 4]` | **Social:** `[Opo 7]` `[Ame 6]` `[Rel 4]` | $+6$ |
+| **Soldado Cibernético (Iteração X)**| *(NPC Oficial M20)* | **Física:** `[Opo 8]` `[Ame 8]` `[Cons 4 Agr]` `[Rel 6]`| **Social/Enganação:** `[Opo 4]` `[Ame 4]` `[Rel 2]` | $+8$ |
+| **Geneticista (Progenitores)** | *(NPC Oficial M20)* | **Mental/Bio:** `[Opo 8]` `[Ame 7 Toxina]` `[Cons 3 Agr]` `[Rel 3]` | **Física (Corpo a Corpo):** `[Opo 5]` `[Ame 5]` `[Rel 3]` | $+5$ |
+| **Liquidatário (Sindicato)** | *(NPC Oficial M20)* | **Social:** `[Opo 8]` `[Ame 7]` `[Cons 3 Social]` `[Rel 4]` | **Física:** `[Opo 5]` `[Ame 5]` `[Rel 3]` | $+7$ |
+| **Explorador (Engenheiros do Vazio)**| *(NPC Oficial M20)* | **Física:** `[Opo 7]` `[Ame 7]` `[Cons 3]` `[Rel 4]` | **Mental/Umbral:** `[Opo 7]` `[Ame 6]` `[Rel 4]` | $+6$ |
+| **Acólito Nefandi / Cultista** | *(NPC Oficial M20)* | **Mística:** `[Opo 7]` `[Ame 7]` `[Cons 3 Agr]` `[Rel 4]` | **Física:** `[Opo 6]` `[Ame 5]` `[Rel 3]` | $+5$ |
+| **Desaurido (Marauder)** | *(NPC Oficial M20)* | **Mística:** `[Opo 7]` `[Ame 7]` `[Cons 4]` `[Rel 5]` | **Mental (Caos):** `[Opo 8]` `[Ame 7]` `[Rel 4]` | $+6$ |
+| **Mestre Hermético Antagonista** | *(NPC Oficial M20)* | **Mística:** `[Opo 8]` `[Ame 7]` `[Cons 4 Agr]` `[Rel 5]` | **Física (Desarmado):** `[Opo 5]` `[Ame 5]` `[Rel 3]` | $+7$ |
 
 ---
 
-## 🌪️ 6. Nível 3: Eventos de Alto Impacto e Mestres Antagonistas
+## 🌪️ 5. Nível 3: Eventos de Alto Impacto e Mestres Antagonistas (4 Dimensões)
 
-Destinado a líderes de convenção, arqui-inimigos, rituais cósmicos e catástrofes provocadas por antagonistas conscientes. Operam sob a regra de **Ameaça Telegrafada** e **Triângulo Tático** (Opção A: Interromper, Opção B: Defender 100%, Opção C: Troca Direta).
+Grandes antagonistas e eventos climáticos apresentam a **matriz completa das 4 dimensões**, permitindo interações táticas em qualquer frente durante a crise.
 
-### Catálogo de Cenários de Alto Impacto (Nível 3)
+---
 
-#### 1. Diretor Regional da NOM: "O Apagão Panóptico e a Purga de Identidade"
-* **Diegese da Telegrafia:** *"O Diretor ajeita a gravata cinza e digita um código no console mestre. As câmeras de trânsito de toda a avenida começam a girar em direção a vocês. No telão do prédio, os rostos e nomes civis de cada um aparecem classificados como 'Terroristas Biológicos Armados'. Em 30 segundos, a ordem de execução sumária da polícia e a queima de todos os seus bens e identidades civis será concluída mundialmente. O que vocês fazem?"*
-* **Mecânica Oculta (Atrás do Escudo):**
-  * `[Oposição: 8 (Hackear o Mainframe / Desacreditar o Diretor)]`
-  * `[Ameaça: 7 (Resistir à Caçada Social e Bloqueio de Recursos)]`
-  * `[Consequência: 4 (Dano Social Severo: Perda permanente de Identidade, Recursos e Santuário)]`
-  * `[Relógio do Evento: 6 Caixas]`
+### Catálogo de Mestres e Crises de Nível 3
 
-#### 2. Barão Nefandi: "A Inversão do Avatar e Ruptura de Qlippoth"
-* **Diegese da Telegrafia:** *"O Barão corta as próprias palmas e ergue as mãos sobre o círculo de espelhos negros. O reflexo de vocês começa a sangrar pelos olhos e a gravidade na capela se inverte. O ar fica denso com cheiro de enxofre e matéria em decomposição. Vocês sentem suas mentes sendo puxadas para o Vazio. No fim do turno, uma onda de corrupção entrópica devorará a carne e o Avatar de quem permanecer no círculo. O que vocês fazem?"*
-* **Mecânica Oculta (Atrás do Escudo):**
-  * `[Oposição: 8 (Contramágica Arcana / Quebra Física do Círculo)]`
-  * `[Ameaça: 8 (Esquiva Mística / Resistência de Força de Vontade)]`
-  * `[Consequência: 5 Agravado (Dano Místico e Risco de Cicatriz no Avatar)]`
-  * `[Relógio do Evento: 7 Caixas | Limiar Mínimo: 2 Sucessos por Golpe]`
+#### 1. Diretor Regional da NOM: "O Apagão Panóptico e a Purga de Identidade" *(NPC Oficial M20)*
+* **Matriz Dimensional:**
+  * **Dimensão Social (Autoridade Institucional):** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 4 (Perda de Identidade/Bens)]` `[Relógio: 6]`
+  * **Dimensão Mental (Mainframe e Criptografia):** `[Oposição: 8]` `[Ameaça: 6]` `[Consequência: 3 (Rastreamento Global)]` `[Relógio: 5]`
+  * **Dimensão Física (Guarda-Costas Blindados):** `[Oposição: 7]` `[Ameaça: 7]` `[Consequência: 3 Letal]` `[Relógio: 4]`
+  * **Dimensão Mística (Contramedidas Estáticas):** `[Oposição: 6]` `[Ameaça: 5]` `[Consequência: 2 Paradoxo]` `[Relógio: 3]`
+* **Diegese da Telegrafia:** *"O Diretor digita um código no console mestre. As câmeras de toda a avenida começam a girar em direção ao grupo. No telão do prédio, rostos e nomes civis aparecem classificados como 'Terroristas Biológicos'. Em 30 segundos, a ordem de execução sumária e a deleção de todas as identidades civis será concluída mundialmente."*
+* **Mecânica Oculta da Crise:** Relógio de Crise de 6 Caixas (resolvido pelas opções do Triângulo Tático).
 
-#### 3. Marauder (Desaurido): "O Vórtice do Quiet Dinâmico"
-* **Diegese da Telegrafia:** *"A maga Desaurida começa a gargalhar enquanto chora lágrimas douradas. As paredes de concreto ao redor se transformam em vidro líquido e o chão começa a ondular como ondas do mar. Os carros na rua começam a flutuar e o céu ganha a cor de um televisor fora do ar. A bolha de realidade distorcida dela vai expandir por três quarteirões no próximo turno, apagando a física convencional e transformando tudo em matéria de sonho caótico. O que vocês fazem?"*
-* **Mecânica Oculta (Atrás do Escudo):**
-  * `[Oposição: 7 (Ancorar a Realidade com Primórdio / Conter a Mente da Desaurida)]`
-  * `[Ameaça: 7 (Navegar no Caos Físico / Estabilidade Mental)]`
-  * `[Consequência: 4 (Paradoxo e Deformação de Padrão)]`
-  * `[Relógio do Evento: 5 Caixas]`
+#### 2. Mestre Nefandi: "A Inversão do Avatar e Ruptura de Qlippoth" *(NPC Oficial M20)*
+* **Matriz Dimensional:**
+  * **Dimensão Mística (Feitiçaria Qlippótica):** `[Oposição: 8]` `[Ameaça: 8]` `[Consequência: 5 Agravado (Corrupção de Avatar)]` `[Relógio: 6]`
+  * **Dimensão Mental (Guerra Psicológica e Loucura):** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 4 (Dano de Vontade/Quiet)]` `[Relógio: 5]`
+  * **Dimensão Física (Corpo Flagelado):** `[Oposição: 6]` `[Ameaça: 6]` `[Consequência: 3 Letal]` `[Relógio: 4]`
+  * **Dimensão Social (Culto Ocultista Fanático):** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 3]` `[Relógio: 5]`
+* **Diegese da Telegrafia:** *"O Mestre Nefandi corta as palmas sobre o círculo de espelhos negros. O reflexo de todos sangra pelos olhos e a gravidade se inverte. No fim do turno, uma onda de corrupção entrópica devorará a carne e a essência do Avatar de quem permanecer no círculo."*
+* **Mecânica Oculta da Crise:** Relógio de Crise de 6 Caixas (Limiar Mínimo: 2 Sucessos).
+
+#### 3. Desaurido (Marauder): "O Vórtice do Quiet Dinâmico" *(NPC Oficial M20)*
+* **Matriz Dimensional:**
+  * **Dimensão Mística (Quiet Dinâmico e Caos):** `[Oposição: 8]` `[Ameaça: 8]` `[Consequência: 4 (Paradoxo e Deformação)]` `[Relógio: 6]`
+  * **Dimensão Mental (Alucinação Compartilhada):** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 3]` `[Relógio: 5]`
+  * **Dimensão Física (Anomalia de Gravidade/Matéria):** `[Oposição: 7]` `[Ameaça: 7]` `[Consequência: 4]` `[Relógio: 4]`
+  * **Dimensão Social (Delírio Contagioso):** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 2]` `[Relógio: 3]`
+* **Diegese da Telegrafia:** *"A maga Desaurida gargalha enquanto as paredes de concreto viram vidro líquido e o chão ondula. A bolha de realidade distorcida vai expandir por três quarteirões no próximo turno, apagando a física convencional."*
+* **Mecânica Oculta da Crise:** Relógio de Crise de 6 Caixas.

@@ -93,19 +93,17 @@ Simulação estatística para um PJ com 5 Dados enfrentando uma Ação Telegrafa
 
 ## 🔮 5. Aplicação Autoral Multidimensional em *Mago: A Ascensão (M20)*
 
-Como o Nível 2 já nos provou, o conflito em Mago não é apenas físico. O Nível 3 (Ameaça Telegrafada) deve ser expandido para englobar todas as **Dimensões de Conflito**, sempre mantendo a imersão diegética:
+O conflito em Mago abrange múltiplas frentes e dimensões. O Nível 3 (Ameaça Telegrafada) engloba todas as **Dimensões de Conflito**, expressando suas consequências através das 5 formas de impacto (Vitalidade, Força de Vontade, Antecedentes, Condições Diegéticas e Gatilhos de Cenário):
 
-### A. Dimensão Mística e Física (O Combate Direto)
-* **Telegrafamento de Esferas:** O ar se ioniza, espelhos Penumbrais tremem e a eletricidade oscila. O vilão canaliza a *Quintessência*, permitindo que os PJs usem *Prime* ou a Percepção passiva para notar que um rito Vulgar massivo será disparado no fim do turno.
-* **Telegrafamento de Paradoxo:** O Consenso local começa a ranger. Os PJs sentem o peso da realidade prestes a colapsar, avisando-os de que a próxima ação na área poderá atrair um Espírito do Paradoxo.
+| Dimensão de Conflito | Exemplo Diegético de Crise Telegrafada | Forma de Impacto Primária | Relógio / Resolução |
+| :--- | :--- | :--- | :---: |
+| **Combate Físico / Estrutural** | Desabamento de galpão, Canhão de Plasma de Hit-Mark X armado | Vitalidade (Dano Físico / Agravado) | 3 a 5 turnos / Caixas de Crise |
+| **Social / Institucional** | Coletiva de imprensa da NWO incriminando os PJs como bioterroristas | Força de Vontade e Antecedentes (Exposição) | Relógio de Exposição Pública (6 caixas) |
+| **Mental / Tecnológico** | Rotina de deleção de dados civis e contas bancárias dos PJs em 60 segundos | Condição / Força de Vontade / Antecedentes | Relógio de Contenção de Rede (4 caixas) |
+| **Místico / Umbral** | Ruptura de Nó místico, fenda dimensional devorando a estrutura | Efeitos Místicos (Dano Agravado / Estase) | Relógio de Estabilização Arcana (5 caixas) |
 
-### B. Dimensão Social e Ideológica (O Debate e a Exposição)
-* **A Armadilha Retórica:** *"O promotor de justiça abaixa os óculos, cruza os braços e olha para o júri (ou para a câmera do celular). Ele puxa um documento com o selo da sua fundação. A linguagem corporal dele e o sorriso de canto de boca deixam claro: a próxima frase dele vai incriminar o seu Santuário publicamente. O que você faz?"*
-* **Ação e Reação:** Os PJs não estão sofrendo Dano Agravado, estão sofrendo **Dano Social (Exposição/Paradoxo)**. Eles podem usar *Mente* para confundir o alvo, *Tempo* para apagar a gravação, ou Habilidades Sociais pesadas para interrompê-lo antes que conclua a fala.
-
-### C. Dimensão Intelectual e Tecnológica (O Hacking e o Enigma)
-* **O Protocolo de Purga:** *"Enquanto você digita no terminal da ABIN, a tela pisca em vermelho. Um contador de 10 segundos aparece com a frase 'Protocolo de Purgação Termal Iniciado'. Os servidores ao seu redor começam a zumbir violentamente. O fogo vai engolir a sala inteira em um instante. O que você faz?"*
-* **Ação e Reação:** O desafio telegrafado não é um vilão com uma espada, mas o próprio ambiente/sistema. Os PJs precisam decidir se usam o turno para tentar hackear a interrupção (Opção A), criar um escudo com *Matéria* (Opção B) ou ignorar o fogo e baixar os últimos arquivos antes de queimar (Opção C).
+* **Ação e Reação:** O desafio telegrafado manifesta-se através do próprio ambiente ou sistema em colapso. Os PJs decidem como alocar suas ações para neutralizar o evento, proteger-se ou cumprir objetivos antes do esgotamento do tempo.
+* **Soberania Mágika do Mago:** Ameaças místicas infligem prioritariamente Efeitos Místicos (traduzidos em dano de vitalidade, estresse de força de vontade, degradação de antecedentes, condições de estado ou gatilhos de cenário). Drenagem de Quintessência e imposição direta de Paradoxo ocorrem exclusivamente em casos ultra-raros e específicos: contra ameaças com a Esfera de **Primórdio (Prime 3+)** ou em embates diretos contra **Espíritos de Paradoxo**, exigindo cuidadoso dimensionamento dramático do Storyteller.
 
 ---
 

@@ -37,7 +37,7 @@ São **8 rolagens de dados por turno para 2 personagens**, além do esforço men
 Para comprovar a hipótese, o sistema foi reestruturado utilizando as seguintes bases:
 1. **Regra de Bronze do Fate Core:** Tudo no cenário (um feitiço, uma porta, um inimigo) pode ser modelado usando uma taxonomia de oposição unificada.
 2. **Transferência Player-Faced (Influência PBTA/OSR):** O Narrador passa a rolar **Zero Dados**. As consequências do perigo são sempre ativadas pelos resultados das rolagens dos próprios jogadores (A Matemática Trinomial: $\ge 2s$ = Sucesso Pleno, $1s$ = Parcial com Custo, $0s$ = Falha Simples).
-3. **Compressão Simétrica do NPC:** A longa lista de atributos é descartada em prol de uma Ficha Sintética estruturada em apenas 4 variáveis (Imposição, Pressão, Impacto/Dano Fixo e Relógio de Vitalidade).
+3. **Compressão Simétrica do NPC:** A longa lista de atributos é descartada em prol de uma Ficha Sintética estruturada em apenas 4 variáveis (Oposição, Ameaça, Consequência e Relógio).
 
 ---
 
@@ -46,7 +46,7 @@ Para comprovar a hipótese, o sistema foi reestruturado utilizando as seguintes 
 A transição para o modelo Player-Faced Total nos Níveis 2 (Ameaça Ativa) e 3 (Ameaça Telegrafada) gera impactos quantificáveis na fluidez da mesa:
 
 ### ⏱️ Ganho de Tempo e Agilidade (Redução de 75% a 85%)
-Ao eliminar as rolagens defensivas do NPC (absorvidas pelo Dano Fixo, RD e Relógios de Cena), o ciclo muda radicalmente:
+Ao eliminar as rolagens defensivas do NPC (absorvidas pelo Dano Fixo, Limiar de Sucessos e Relógios de Cena), o ciclo muda radicalmente:
 * **Turno Player-Faced:** O PJ declara a ação e rola **1 única vez**. Se o NPC atacar, o PJ rola **1 única vez** para se defender contra um perigo telegrafado.
 * **Métrica:** Redução de 8 rolagens para apenas **2 rolagens de dados por turno**.
 * **Impacto Prático:** Uma cena de infiltração tática ou um combate que levaria **45 minutos** no M20 clássico passa a ser resolvida em **10 a 15 minutos** de intensidade focada nas decisões dos jogadores.

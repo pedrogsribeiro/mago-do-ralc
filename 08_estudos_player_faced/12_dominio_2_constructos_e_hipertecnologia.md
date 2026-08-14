@@ -1,116 +1,124 @@
 ---
 type: regra
-summary: "Estudo 12 do Sistema Player-Faced: Instanciação completa do Domínio 2 (Constructos, Autômatos e Hipertecnologia) nos Níveis 1, 2 e 3, cobrindo Hit-Marks, Golens, Clones e Panóptico."
-tags: [srd, design, player-faced, constructos, hit-marks, hipertecnologia, automatos, regras]
+summary: "Estudo 12 do Sistema Player-Faced: Instanciação completa do Domínio 2 (Constructos e Hipertecnologia) nos Níveis 1, 2 e 3, com conversão de perfis oficiais do M20, matriz dimensional e Princípio da Fluidez."
+tags: [srd, design, player-faced, constructos, hit-marks, hipertecnologia, automatos, dimensoes, regras]
 ---
 
 # Estudo 12: Domínio 2 — Constructos, Autômatos e Hipertecnologia
 
-Este documento estabelece a instanciação prática e o catálogo operacional do **Domínio 2: Constructos e Hipertecnologia Autônoma** sob o **Motor Player-Faced Total** para *Mago: A Ascensão 20 Anos*. 
+Este documento estabelece a instanciação prática e o catálogo operacional do **Domínio 2: Constructos e Hipertecnologia Autônoma** sob o **Motor Player-Faced Total** para *Mago: A Ascensão 20 Anos*.
 
-Constructos são ameaças artificiais, mecânicas ou biológicas desprovidas de psicologia convencional. Operam por diretrizes lógicas implacáveis, possuem blindagem material densa e são naturalmente imunes a ataques sociais ou manipulações mentais que visem emoções mundanas.
+Constructos são ameaças artificiais, mecânicas ou biológicas desprovidas de psicologia convencional. Operam por diretrizes lógicas implacáveis, possuem blindagem material densa e são naturalmente imunes a abordagens sociais convencionais (**Efeito Zero** na Dimensão Social, exceto para comandos de voz com credenciais mestras ou reprogramação lógica).
 
 ---
 
 ## 🏛️ 1. O Domínio 2 sob a Ótica Player-Faced
 
-A conversão de autômatos elimina o rastreio de regras dispersas de blindagem, estamina cibernética e tabelas de dano de armas pesadas:
+No paradigma *Player-Faced*, constructos e sistemas de segurança operam sob parâmetros calibrados por dimensão:
 
 ```
 +---------------------------------------------------------------------------------------------------------+
 |                               OS 3 NÍVEIS DE CONSTRUCTOS E HIPERTECNOLOGIA                              |
 |                                                                                                         |
-|  [ Nível 1: Desafio Rápido ]   ==> Drones de ronda, travas biométricas, câmeras com IA (1 rolagem)     |
-|  [ Nível 2: Ameaça Ativa ]     ==> Hit-Marks Série V, Golens de Pedra, Clones Quiméricos (4 Fatores)    |
-|  [ Nível 3: Alto Impacto ]     ==> Hit-Mark Série X, Titã Biológico, Lockdown Panóptico (Telegrafo)    |
+|  [ Nível 1: Desafio Rápido ]   ==> Fator único de OPOSIÇÃO na dimensão relevante (com Meta de Sucessos).|
+|  [ Nível 2: Ameaça Ativa ]     ==> Ficha focada na dimensão primária de combate (com brechas técnicas). |
+|  [ Nível 3: Alto Impacto ]     ==> Matriz completa das 4 Dimensões + Evento Telegrafado de Crise.       |
 +---------------------------------------------------------------------------------------------------------+
 ```
 
 ---
 
-## 🔮 2. Regra Fundamental: Blindagens, Imunidades e Arete
+## 🔄 2. O Princípio da Fluidez do Constructo: A Mesma Ameaça nos 3 Níveis
 
-* **Imunidade Psicológica Natural:** Manipulações sociais convencionais (blefe, intimidação, charme) produzem **Efeito Zero** contra máquinas e autômatos puros. Apenas *Mente 3+* (para IA avançada) ou *Forças/Matéria/Computador* podem afetá-los mental/sistematicamente.
-* **Ações Mundanas (Atributo + Habilidade):** Rolam contra a **Oposição** do constructo (Diff 5 a 8).
-* **Ações Mágikas (Arete):** Rolam pela Dificuldade Mágika padrão de M20. A blindagem do constructo atua como o seu **Relógio de Caixas** ou como um **Limiar de Dano** (ex: dano de armas leves mundanas não arranha blindagem de titânio).
+O nível define a escala dramática da interação na cena. Cada constructo de elite possui uma matriz dimensional completa e responde em qualquer nível:
+
+### Estudo de Caso: *Hit-Mark Série V (Androide de Extermínio da Iteração X)*
+
+```yaml
+---
+ameaca: Hit-Mark Série V (Iteração X)
+nivel_padrao: Nível 2 / 3 (Constructo Pesado de Combate)
+
+matriz_dimensional:
+  dimensao_fisica:       [Oposição: 8] [Ameaça: 8] [Consequência: 4 Letal/Agravado (Plasma)] [Relógio: 6]
+  dimensao_mental:       [Oposição: 6] [Ameaça: 6] [Consequência: 2 (Sobrecarga de Sensores)] [Relógio: 3]
+  dimensao_mistica:      [Oposição: 6] [Ameaça: 5] [Consequência: 2 (Dreno de Quintessência)] [Relógio: 3]
+  dimensao_social:       [Efeito Zero] (Imune a manipulação emocional; Oposição 8 para Protocolo de Voz)
+---
+```
+
+* **Como Nível 1 (Desafio Rápido / Interação Pontual):**
+  * *Cenário:* Hit-Mark em modo de recarga/sentinela; passagem furtiva ou corte de alimentação.
+  * *Parâmetros da Oposição:* **Oposição Física: 8** (Sensores Termais) ou **Mental: 6** (Bypass) | **Meta: 2 Sucessos**.
+* **Como Nível 2 (Ameaça Ativa / Duelo Tático):**
+  * *Cenário:* Combate aberto no pátio com canhão de plasma acionado.
+  * *Parâmetros da Oposição (Dimensão Física):* `[Oposição: 8]` `[Ameaça: 8]` `[Consequência: 4 Letal/Agravado]` `[Relógio: 6]`. Iniciativa: $1d10 + 8$.
+* **Como Nível 3 (Evento de Alto Impacto / Crise Telegrafada):**
+  * *Cenário:* Hit-Mark danificado trava sapatas e inicia a sobrecarga do canhão de antimatéria.
+  * *Parâmetros da Oposição:* Sobrecarga telegrafada com **Ameaça Física 8** (Plasma de Área), **Oposição Mental 6** (Sobrecarga de Circuitos) e **Relógio de Crise de 6 Caixas**.
 
 ---
 
 ## 🎯 3. Nível 1: Desafios Rápidos (Sistemas e Drones Menores)
 
-Destinado a mecanismos autônomos de segurança periférica ou drones descartáveis resolvidos em um único teste.
+O obstáculo opera em uma única dimensão com fator de Oposição e Meta de Sucessos:
 
-* **Mecânica Mundana:** Dificuldade (5 a 8) pelas condições ambientais e Meta de Sucessos (1 a 5) pela complexidade técnica.
-* **Mecânica Mágika:** Rolagem de Arete pelas regras padrão de M20.
-
-### Exemplos Prontos de Nível 1:
-1. **Drone de Vigilância Aérea da NOM:** Dificuldade 6 | Meta: 2 Sucessos (Destreza + Armas de Fogo para abater à distância; Forças/Correspondência para cegar sensores).
-2. **Scanner Biométrico e Quântico de Entrada:** Dificuldade 7 | Meta: 3 Sucessos (Inteligência + Computadores para bypass de credenciais).
-3. **Cão Cibernético de Patrulha (Iteração X):** Dificuldade 6 | Meta: 2 Sucessos (Furtividade para evitar detecção termal; Matéria para travar articulações).
-4. **Fechadura Rúnica Hermética em Portão de Ferro:** Dificuldade 6 | Meta: 2 Sucessos (Raciocínio + Ocultismo para alinhar símbolos; Forças para sobrecarregar a runa).
+### Catálogo de Oposições de Nível 1:
+1. **Drone de Vigilância Aérea da NOM:** Oposição Física 6 (Sensores) / Mental 5 | Meta: 2 Sucessos. *(Constructo Oficial M20)*
+2. **Scanner Biométrico e Quântico de Entrada:** Oposição Mental 7 / Mística 6 | Meta: 3 Sucessos. *(Constructo Oficial M20)*
+3. **Cão Cibernético de Patrulha (Iteração X):** Oposição Física 6 / Mental 5 | Meta: 2 Sucessos. *(Constructo Oficial M20)*
+4. **Fechadura Rúnica Hermética em Portão de Ferro:** Oposição Mística 6 / Física 7 | Meta: 2 Sucessos.
 
 ---
 
 ## ⚔️ 4. Nível 2: Ameaças Ativas (Fichas Sintéticas Simétricas)
 
-Destinado a androides de combate, golens de guarda e sistemas de contenção ativa que operam turno a turno na iniciativa.
-
-### Catálogo de Perfis Prontos (Nível 2)
-
-#### A. Hit-Mark Série V (Androide de Extermínio da Iteração X)
-*Aspecto Diegético:* Chassi de titânio disfarçado sob pele sintética, canhão de plasma embutido no antebraço e sensores termais.
-* **Domínio Físico (Supremacia Mecânica):** `[Oposição: 8]` `[Ameaça: 8]` `[Consequência: 4 Letal/Agravado (Plasma/Balística Pesada)]` `[Relógio: 6 Caixas]`
-* **Domínio Tecnológico / Entrópico (Brecha Tática):** `[Oposição: 6]` `[Ameaça: 6]` `[Consequência: 2]` `[Relógio: 3]` *(Vulnerável a sobrecargas elétricas com Forças, corrosão com Matéria ou quebra de circuitos com Entropia).*
-* **Domínio Social:** Imune (Efeito Zero).
-* *Iniciativa:* $1d10 + (8 + 8 - 8) = \mathbf{1d10 + 8}$.
-
-#### B. Golem de Pedra Hermético (Guardião de Capela)
-*Aspecto Diegético:* Escultura maciça de basalto animada por encantamentos de Forças 3 / Matéria 3 / Primórdio 2.
-* **Domínio Físico (Blindagem de Rocha):** `[Oposição: 8]` `[Ameaça: 6]` `[Consequência: 4 Contundente/Letal]` `[Relógio: 7 Caixas | Limiar Mínimo: 2 Sucessos]` *(Ataques mundanos leves produzem Efeito Zero).*
-* **Domínio Místico (Brecha no Padrão de Animação):** `[Oposição: 6]` `[Ameaça: 5]` `[Consequência: 2]` `[Relógio: 3]` *(Dispersar a Quintessência com Primórdio ou quebrar o selo rúnico com Forças/Matéria).*
-* **Domínio Mental / Social:** Imune (Efeito Zero).
-* *Iniciativa:* $1d10 + (8 + 6 - 8) = \mathbf{1d10 + 6}$.
-
-#### C. Aberração Quimérica dos Progenitores (Predador Bioengenheirado)
-*Aspecto Diegético:* Organismo sintético de tecido muscular hipertrofiado com garras quitinosas e cuspe de toxina celular necrosante.
-* **Domínio Físico (Velocidade e Veneno):** `[Oposição: 7]` `[Ameaça: 8]` `[Consequência: 3 Agravado (Toxina Celular)]` `[Relógio: 5 Caixas]`
-* **Domínio Biológico / Térmico (Brecha Fisiológica):** `[Oposição: 5]` `[Ameaça: 5]` `[Consequência: 2]` `[Relógio: 3]` *(Extremamente vulnerável a fogo com Forças, choque osmótico com Vida ou alterações celulares).*
-* *Iniciativa:* $1d10 + (7 + 8 - 8) = \mathbf{1d10 + 7}$.
-
-#### D. Torreta Automatizada de Defesa Panóptica
-*Aspecto Diegético:* Torreta retrátil de teto com mira laser infravermelha e metralhadora giratória de alta cadência.
-* **Domínio Bélico (Fixo):** `[Oposição: 7]` `[Ameaça: 8]` `[Consequência: 4 Letal]` `[Relógio: 4 Caixas]`
-* **Domínio Digital / Furtivo (Ponto Cego):** `[Oposição: 5]` `[Ameaça: 5]` `[Consequência: 1]` `[Relógio: 2]` *(Cegamento de sensores ou hackeamento do cabo de fibra óptica local).*
-* *Iniciativa:* $1d10 + (7 + 8 - 8) = \mathbf{1d10 + 7}$.
+Constructos de Nível 2 operam com foco em sua dimensão física primária, apresentando brechas técnicas claras em dimensões secundárias.
 
 ---
 
-## 🌪️ 5. Nível 3: Eventos de Alto Impacto e Telegrafias
+### Tabela de Perfis de Constructos (Origem Oficial M20)
 
-Destinado a constructos climáticos, armas de extermínio em massa e protocolos automáticos de destruição de bases.
+| Constructo Oficial | Origem no Livro | Dimensão Primária (Opo / Ame / Cons / Rel) | Dimensão Secundária / Brecha Tática | Bônus Inic. |
+| :--- | :--- | :--- | :--- | :---: |
+| **Hit-Mark Série V** | *(Oficial M20)* | **Física:** `[Opo 8]` `[Ame 8]` `[Cons 4 Agr]` `[Rel 6]` | **Mental/Entrópica:** `[Opo 6]` `[Ame 6]` `[Rel 3]` | $+8$ |
+| **Golem de Pedra Hermético** | *(Oficial M20)* | **Física:** `[Opo 8]` `[Ame 6]` `[Cons 4]` `[Rel 7]` | **Mística (Padrão/Selo):** `[Opo 6]` `[Ame 5]` `[Rel 3]` | $+6$ |
+| **Aberração Quimérica** | *(Oficial M20)* | **Física:** `[Opo 7]` `[Ame 8]` `[Cons 3 Agr]` `[Rel 5]` | **Fisiológica/Fogo:** `[Opo 5]` `[Ame 5]` `[Rel 3]` | $+7$ |
+| **Torreta Panóptica Fixa** | *(Oficial M20)* | **Física:** `[Opo 7]` `[Ame 8]` `[Cons 4 Letal]` `[Rel 4]`| **Digital/Furtiva:** `[Opo 5]` `[Ame 5]` `[Rel 2]` | $+7$ |
 
-### Catálogo de Cenários de Alto Impacto (Nível 3)
+---
 
-#### 1. Hit-Mark Série X: "Protocolo de Varredura e Canhão de Antimatéria"
-* **Diegese da Telegrafia:** *"A pele sintética do Hit-Mark racha e se abre no tórax, revelando um núcleo de fusão resfriado a hélio líquido. Um som agudo de turbina em aceleração preenche o galpão e o ar ao redor dele começa a distorcer em azul brilhante. As travas magnéticas nos pés dele se cravam no concreto. Em questão de segundos, uma rajada de antimatéria e plasma pesado vaporizará uma linha reta de 50 metros, desintegrando o que estiver no caminho. O que vocês fazem?"*
-* **Mecânica Oculta (Atrás do Escudo):**
-  * `[Oposição: 8 (Hackear os Servos / Sobrecarga de Matéria/Entropia)]`
-  * `[Ameaça: 8 (Esquiva com Cobertura Reforçada / Barreira de Forças)]`
-  * `[Consequência: 6 Agravado (Desintegração de Padrão Físico)]`
-  * `[Relógio do Evento: 7 Caixas | Limiar Mínimo: 2 Sucessos por Ataque]`
+## 🌪️ 5. Nível 3: Eventos de Alto Impacto e Hipertecnologia (4 Dimensões)
 
-#### 2. O Titã Bioquímico: "Ruptura Celular e Nuvem Necrosante"
-* **Diegese da Telegrafia:** *"A carcaça da monstruosidade dos Progenitores começa a inchar grotescamente. As veias pulsam em roxo fluorescente através da pele translúcida e o vapor que sai de sua respiração derrete o linóleo do chão. O coração mutante está entrando em taquicardia terminal. No final do turno, o monstro vai explodir, inundando a ala inteira do laboratório com uma névoa ácida e viral que dissolve carne e destrói padrões biológicos. O que vocês fazem?"*
-* **Mecânica Oculta (Atrás do Escudo):**
-  * `[Oposição: 7 (Esterilizar com Fogo/Vida / Selar Comportas de Vidro)]`
-  * `[Ameaça: 8 (Proteção Respiratória / Escudo Místico de Matéria)]`
-  * `[Consequência: 5 Agravado (Dano Celular Necrosante Contínuo)]`
-  * `[Relógio do Evento: 6 Caixas]`
+Constructos e instalações de Nível 3 possuem a **matriz completa das 4 dimensões** para gerenciar crises multifacetadas.
 
-#### 3. O Lockdown Panóptico: "Purga Molecular e Incineração do Nódulo"
-* **Diegese da Telegrafia:** *"O computador central da base emite um bipe contínuo. Paredes blindadas de 30 centímetros de chumbo descem bloqueando todas as saídas. As luzes ficam estroboscópicas e bicos no teto começam a emitir um gás ionizado. A contagem regressiva nos monitores marca 10 segundos para a despressurização e purgação termal total da instalação. O que vocês fazem?"*
-* **Mecânica Oculta (Atrás do Escudo):**
-  * `[Oposição: 8 (Hackear o Mainframe / Correspondência para Abrir Fenda Espacial)]`
-  * `[Ameaça: 7 (Resistir à Asfixia e Queimaduras Térmicas)]`
-  * `[Consequência: 4 Agravado (Incineração Ambiental)]`
-  * `[Relógio do Evento: 6 Caixas]`
+---
+
+### Catálogo de Constructos e Crises de Nível 3
+
+#### 1. Hit-Mark Série X: "Protocolo de Varredura e Canhão de Antimatéria" *(Oficial M20)*
+* **Matriz Dimensional:**
+  * **Dimensão Física (Chassi Pesado e Canhão Antimatéria):** `[Oposição: 8]` `[Ameaça: 8]` `[Consequência: 6 Agravado (Desintegração)]` `[Relógio: 7]`
+  * **Dimensão Mental (IA Tática e Firewalls):** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 3 (Bloqueio de Dados)]` `[Relógio: 5]`
+  * **Dimensão Mística (Campos de Força Tecnocráticos):** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 3 Paradoxo]` `[Relógio: 4]`
+  * **Dimensão Social (Protocolo de Autorização de Nível Alfa):** `[Oposição: 8]` `[Ameaça: 4]` `[Relógio: 3]` *(Exige código mestre)*
+* **Diegese da Telegrafia:** *"O Hit-Mark racha a blindagem do peito expondo o reator de fusão a hélio líquido. O ar distorce em azul brilhante e as travas magnéticas se cravam no piso. Em segundos, uma rajada de antimatéria e plasma pesado vaporizará uma linha reta de 50 metros."*
+* **Mecânica Oculta da Crise:** Relógio de Crise de 7 Caixas (Limiar Mínimo: 2 Sucessos).
+
+#### 2. Titã Bioquímico: "Ruptura Celular e Nuvem Necrosante" *(Oficial M20)*
+* **Matriz Dimensional:**
+  * **Dimensão Física (Massa Muscular e Bílis Ácida):** `[Oposição: 7]` `[Ameaça: 8]` `[Consequência: 5 Agravado (Ácido)]` `[Relógio: 6]`
+  * **Dimensão Mística (Corrupção de Padrão Biológico):** `[Oposição: 7]` `[Ameaça: 7]` `[Consequência: 4 Agravado]` `[Relógio: 5]`
+  * **Dimensão Mental (Instinto Primitivo):** `[Oposição: 5]` `[Ameaça: 4]` `[Consequência: 1]` `[Relógio: 3]`
+  * **Dimensão Social:** Imune (Efeito Zero).
+* **Diegese da Telegrafia:** *"A carcaça da monstruosidade incha com veias roxas fluorescentes e vapor corrosivo derretendo o piso. O coração mutante entra em taquicardia terminal. No final do turno, o monstro explodirá em uma névoa viral que dissolve tecidos celulares."*
+* **Mecânica Oculta da Crise:** Relógio de Crise de 6 Caixas.
+
+#### 3. Lockdown Panóptico: "Purga Molecular da Instalação" *(Oficial M20)*
+* **Matriz Dimensional:**
+  * **Dimensão Mental (Mainframe de Contenção e IA Central):** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 4 (Bloqueio Total)]` `[Relógio: 6]`
+  * **Dimensão Física (Comportas de Chumbo e Gás Ionizado):** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 4 Agravado (Calor)]` `[Relógio: 6]`
+  * **Dimensão Mística (Barreira de Estática Tecnocrática):** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 3 Paradoxo]` `[Relógio: 5]`
+  * **Dimensão Social (Comandos de Voz da Diretoria):** `[Oposição: 8]` `[Ameaça: 5]` `[Relógio: 3]`
+* **Diegese da Telegrafia:** *"Paredes de chumbo descem selando as saídas e bicos no teto liberam gás ionizado. A contagem regressiva nos monitores marca 10 segundos para a despressurização e purgação termal total da instalação."*
+* **Mecânica Oculta da Crise:** Relógio de Crise de 6 Caixas.

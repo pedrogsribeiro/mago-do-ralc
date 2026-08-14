@@ -138,6 +138,7 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Estudo 10** | Ontologia Completa e Catálogo de Obstáculos de Mago sob a Regra de Bronze | [`10_Ontologia_e_Catalogo_de_Obstaculos_de_Mago.md`](08_estudos_player_faced/10_ontologia_e_catalogo_de_obstaculos_de_mago.md) |
 | **Estudo 11** | Domínio 1: Antagonistas Conscientes nos 3 Níveis (Tecnocracia, Nefandi, etc.) | [`11_Dominio_1_Antagonistas_Conscientes.md`](08_estudos_player_faced/11_dominio_1_antagonistas_conscientes.md) |
 | **Estudo 12** | Domínio 2: Constructos e Hipertecnologia nos 3 Níveis (Hit-Marks, Golens, etc.) | [`12_Dominio_2_Constructos_e_Hipertecnologia.md`](08_estudos_player_faced/12_dominio_2_constructos_e_hipertecnologia.md) |
+| **Estudo 13** | Domínio 3: Entidades Efêmeras e a Umbra nos 3 Níveis (Gafflings, Perdições, Película) | [`13_Dominio_3_Entidades_Efemeras_e_Umbra.md`](08_estudos_player_faced/13_dominio_3_entidades_efemeras_e_umbra.md) |
 
 ---
 

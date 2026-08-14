@@ -5,3 +5,8 @@ pdf-forge-exports/
 # Ignore OS files
 .DS_Store
 Thumbs.db
+
+# Scratch and temporary calculations
+scratch/
+08_estudos_player_faced/scratch/
+

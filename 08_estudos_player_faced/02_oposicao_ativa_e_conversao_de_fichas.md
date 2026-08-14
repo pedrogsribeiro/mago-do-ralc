@@ -29,12 +29,12 @@ Em vez de 4 rolagens por troca de combate (*Ataque $\rightarrow$ Esquiva $\right
 
 ## 🧮 2. Matriz de Conversão Direta (Ficha Clássica M20 $\rightarrow$ Fator de Ameaça)
 
-| Parada do NPC no Livro (Atrib + Hab) | Nível da Ameaça | Dificuldade para o PJ Atacar / Interagir | Dificuldade para o PJ Esquivar / Resistir | Relógio de Vitalidade (Impactos) | Resistência a Dano Fixo (RD) |
+| Parada do NPC no Livro (Atrib + Hab) | Nível da Ameaça | Oposição (Diff PJ Agir) | Ameaça (Diff PJ Defender) | Relógio de Caixas | Limiar de Sucessos |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **3 a 4 dados** | Amador / Capanga / Suporte | **Diff 5** | **Diff 5** | **3 Impactos** | **RD 0** (Sem Armadura) |
-| **5 a 6 dados** | Treinado / Agente Padronizado | **Diff 6** | **Diff 6** | **5 Impactos** | **RD 0 ou 1** (Kevlar / Fibra) |
-| **7 a 8 dados** | Elite / Terno Preto / Especialista | **Diff 7** | **Diff 7** | **6 Impactos** | **RD 1** (Anula 1 Impacto Parcial) |
-| **9 ou + dados** | Lendário / Hit-Mark X / Mestre | **Diff 8** | **Diff 8** | **7 Impactos** | **RD 2** (Anula 1 Impacto de Todos Acertos) |
+| **3 a 4 dados** | Amador / Capanga / Suporte | **Diff 5** | **Diff 5** | **3 Caixas** | **Padrão** (1s marca 1 caixa) |
+| **5 a 6 dados** | Treinado / Agente Padronizado | **Diff 6** | **Diff 6** | **4 Caixas** | **Padrão** (1s marca 1 caixa) |
+| **7 a 8 dados** | Elite / Terno Preto / Especialista | **Diff 7** | **Diff 7** | **5 Caixas** | **Limiar 2** (1s = Efeito Zero no Relógio) |
+| **9 ou + dados** | Lendário / Hit-Mark X / Mestre | **Diff 8** | **Diff 8** | **6 a 7 Caixas** | **Limiar 2 ou 3** (Super-Blindagem) |
 
 
 ---
