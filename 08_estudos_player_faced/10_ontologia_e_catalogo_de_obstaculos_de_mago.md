@@ -55,6 +55,8 @@ NPCs com motivações ideológicas, paradigmas próprios e capacidade de agir em
 ---
 
 ### Domínio 2: Constructos, Autômatos e Hipertecnologia Autônoma
+> 📖 *Detalhamento completo e catálogo de perfis nos 3 Níveis em: [`Estudo 12: Domínio 2 — Constructos e Hipertecnologia`](12_dominio_2_constructos_e_hipertecnologia.md)*
+
 Ameaças artificiais que não possuem sentimentos e executam protocolos diretos de destruição ou contenção:
 * **Hit-Marks (Androides de Extermínio da Iteração X):** Séries IV a X com blindagem de *Matéria 3*, canhões de plasma internos e sensores termais.
 * **Constructos Biológicos e Clones Descartáveis (Progenitores):** Aberrações quiméricas, clones descartáveis e bio-parasitas.
