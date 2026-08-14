@@ -125,14 +125,16 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 
 | Estudo | Tópico e Foco Mecânico | Arquivo |
 | :--- | :--- | :--- |
+| **Estudo 00** | Manifesto: Problemática, Estimativas de Tempo e Ergonomia Cognitiva | [`00_Manifesto_Ergonomia_e_Carga_Cognitiva.md`](08_estudos_player_faced/00_manifesto_ergonomia_e_carga_cognitiva.md) |
 | **Estudo 01** | Rolagens de Obstáculo, 4 Faixas de Resolução e Matemática d10 | [`01_Testes_Obstaculo_e_Matematica_Base.md`](08_estudos_player_faced/01_testes_obstaculo_e_matematica_base.md) |
 | **Estudo 02** | Oposição Ativa, Matriz de Conversão Ficha $\rightarrow$ Fator de Ameaça e Relógios | [`02_Oposicao_Ativa_e_Conversao_de_Fichas.md`](08_estudos_player_faced/02_oposicao_ativa_e_conversao_de_fichas.md) |
-| **Estudo 03** | Chefes, Movimentos Telegrafados, Decisões Táticas e Provas Matemáticas | [`03_Chefes_e_Movimentos_Telegrafados.md`](08_estudos_player_faced/03_chefes_e_movimentos_telegrafados.md) |
-| **Estudo 04** | Taxonomia dos 4 Níveis e Oposição Rápida / Menor | [`04_Taxonomia_e_Oposicao_Rapida.md`](08_estudos_player_faced/04_taxonomia_e_oposicao_rapida.md) |
+| **Estudo 03** | Nível 3: Ameaça Telegrafada, Decisões Táticas e Provas Matemáticas | [`03_Chefes_e_Movimentos_Telegrafados.md`](08_estudos_player_faced/03_chefes_e_movimentos_telegrafados.md) |
+| **Estudo 04** | Taxonomia dos 3 Níveis e Nível 1 (Desafio Rápido e Oposição Pontual) | [`04_Taxonomia_e_Oposicao_Rapida.md`](08_estudos_player_faced/04_taxonomia_e_oposicao_rapida.md) |
 | **Estudo 05** | Artigo Técnico: Matemática, Algoritmos Python e Provas Monte Carlo | [`05_Artigo_Matematica_e_Algoritmos_Player_Faced.md`](08_estudos_player_faced/05_artigo_matematica_e_algoritmos_player_faced.md) |
-| **Estudo 06** | Nível 3 — Ameaça Ativa e a Simetria das 4 Características | [`06_Nivel_3_Ameaca_Ativa_e_Simetria.md`](08_estudos_player_faced/06_nivel_3_ameaca_ativa_e_simetria.md) |
-| **Estudo 07** | Adaptação de Entidades Espirituais (Umbróides) e a Umbra | [`07_Entidades_Espirituais_e_Umbroides.md`](08_estudos_player_faced/07_entidades_espirituais_e_umbroides.md) |
+| **Estudo 06** | Nível 2 — Ameaça Ativa e a Simetria das 4 Características | [`06_Nivel_3_Ameaca_Ativa_e_Simetria.md`](08_estudos_player_faced/06_nivel_3_ameaca_ativa_e_simetria.md) |
+| **Estudo 07** | Adaptação de Entidades Espirituais (Umbróides) e a Umbra nos 3 Níveis | [`07_Entidades_Espirituais_e_Umbroides.md`](08_estudos_player_faced/07_entidades_espirituais_e_umbroides.md) |
 | **Estudo 08** | Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas e Espíritos) | [`08_Guia_Pratico_Conversao_de_Fichas_NPC.md`](08_estudos_player_faced/08_guia_pratico_conversao_de_fichas_npc.md) |
+| **Estudo 09** | Ontologia Completa e Catálogo de Obstáculos de Mago sob a Regra de Bronze | [`09_Ontologia_e_Catalogo_de_Obstaculos_de_Mago.md`](08_estudos_player_faced/09_ontologia_e_catalogo_de_obstaculos_de_mago.md) |
 
 ---
 
@@ -145,7 +147,7 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Nó B (Fábrica)** | A Refinaria Alquímica de Carlito Heizenberg & Pastafarianos | [`02_no_b_fabrica_pasta_da_nona.md`](09_arco_01_o_sangue_da_metropole/02_no_b_fabrica_pasta_da_nona.md) |
 | **Nó C (CAPS)** | O Surto de Viciados, Enfermeira Ângela e Joana Pipoquinha | [`03_no_c_caps_zona_sul.md`](09_arco_01_o_sangue_da_metropole/03_no_c_caps_zona_sul.md) |
 | **Nó D (Data Center)**| Infiltração na ABIN, Lives de Bernardino e Vacinas | [`04_no_d_data_center_e_abin.md`](09_arco_01_o_sangue_da_metropole/04_no_d_data_center_e_abin.md) |
-| **Nó E (Santuário)** | O Clímax (Nível 4 Chefe): O Ritual de Raios de Lizander | [`05_no_e_santuario_de_lizander.md`](09_arco_01_o_sangue_da_metropole/05_no_e_santuario_de_lizander.md) |
+| **Nó E (Santuário)** | O Clímax (Nível 3 Chefe): O Ritual de Raios de Lizander | [`05_no_e_santuario_de_lizander.md`](09_arco_01_o_sangue_da_metropole/05_no_e_santuario_de_lizander.md) |
 
 
 

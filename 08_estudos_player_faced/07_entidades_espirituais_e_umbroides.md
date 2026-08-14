@@ -27,10 +27,10 @@ Os 4 Graus Espirituais clássicos de Mago M20 são convertidos diretamente para 
 +---------------------------------------------------------------------------------------------------+
 |               GRAUS ESPIRITUAIS E NÍVEIS DE CARGA NARRATIVA PLAYER-FACED                          |
 |                                                                                                   |
-|  1. GAFFLING (Espírito Menor / Inseto)  ==> Nível 2 (Oposição Rápida): Diff 5, Relógio 3          |
-|  2. JAGGLING (Guardião / Elementar)     ==> Nível 3 (Ameaça Ativa): Diff 6-7, Relógio 5, Dano 4    |
-|  3. INCARNA (Lorde de Paradoxo / Totem) ==> Nível 4 (Ameaça Telegrafada): Diff 8, Relógio 7-8     |
-|  4. CELESTIA (Entidade Cósmica/Deus)    ==> Obstáculo Ambiental (Pacificado apenas por Rituais)  |
+|  1. GAFFLING (Espírito Menor / Inseto)  ==> Nível 1 (Desafio Rápido): Diff 5-6, 1 Rolagem          |
+|  2. JAGGLING (Guardião / Elementar)     ==> Nível 2 (Ameaça Ativa): Diff 6-7, Relógio 5, Dano 4    |
+|  3. INCARNA (Lorde de Paradoxo / Totem) ==> Nível 3 (Ameaça Telegrafada): Diff 8, Fases Telegraf.  |
+|  4. CELESTIA (Entidade Cósmica/Deus)    ==> Obstáculo Cósmico (Pacificado apenas por Rituais)     |
 +---------------------------------------------------------------------------------------------------+
 ```
 
@@ -95,15 +95,14 @@ Os **Encantos Espirituais (Charms)** de *Mago M20* não são rolagens burocráti
 
 ```
 +---------------------------------------------------------------------------------------------------+
-|                  COMO OS ENCANTOS ESPIRITUAIS ATUAM NOS 4 NÍVEIS DE CARGA                        |
+|                  COMO OS ENCANTOS ESPIRITUAIS ATUAM NOS 3 NÍVEIS DE CARGA                        |
 |                                                                                                   |
-|  NÍVEL 1 (Obstáculo Passivo)    ==> Encantos Utilitários de Terreno (Bruma, Rastreio Espiritual).|
-|  NÍVEL 2 (Oposição Rápida)     ==> Encantos Instantâneos (Susto, Alucinação Menor, Fogo Fátuo).|
-|  NÍVEL 3 (Ameaça Ativa)         ==> Encantos de Mudança de Estado / Gatilho de Reação:           |
+|  NÍVEL 1 (Desafio Rápido)       ==> Encantos Utilitários ou Instantâneos (Bruma, Susto, Fogo Fátuo)|
+|  NÍVEL 2 (Ameaça Ativa)         ==> Encantos de Mudança de Estado / Gatilho de Reação:           |
 |                                     - Materializar: Alterna Campo Semântico (Permite Dano Físico) |
 |                                     - Possessão: Cria Relógio Duplo (Hospedeiro vs. Espírito)     |
 |                                     - Rajada Elemental: Altera Tipo de Dano Fixo (Agravado)      |
-|  NÍVEL 4 (Ameaça Telegrafada)   ==> Encantos Climáticos / Golpes de Fase Telegrafados:           |
+|  NÍVEL 3 (Ameaça Telegrafada)   ==> Encantos Climáticos / Golpes de Fase Telegrafados:           |
 |                                     - Rito de Invocação Cósmica / Tempestade Efêmera em 2 turnos |
 +---------------------------------------------------------------------------------------------------+
 ```

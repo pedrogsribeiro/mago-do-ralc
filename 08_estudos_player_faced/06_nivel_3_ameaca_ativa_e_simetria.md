@@ -1,14 +1,18 @@
 ---
 type: regra
-summary: "Estudo 6 do Sistema Player-Faced: Definição formal do Nível 3 (Ameaça Ativa), simetria das 4 características, mecânica de rodada e aplicação universal."
-tags: [srd, design, player-faced, nivel-3, ameaca-ativa, simetria, relogios, regras]
+summary: "Estudo 6 do Sistema Player-Faced: Definição formal do Nível 2 (Ameaça Ativa), simetria das 4 características, mecânica de rodada, prova multidimensional e aplicação universal."
+tags: [srd, design, player-faced, nivel-2, ameaca-ativa, simetria, relogios, regras]
 ---
 
-# Estudo 06: Nível 3 — Ameaça Ativa e a Simetria das 4 Características
+# Estudo 06: Nível 2 — Ameaça Ativa e a Simetria das 4 Características
 
-Este documento estabelece o funcionamento formal do **Nível 3 (Ameaça Ativa)** no sistema *Player-Faced Total* para *Mago: A Ascensão 20 Anos*. O Nível 3 é utilizado para confrontos estruturados de múltiplos turnos (combates sérios, debates políticos cruciais, duelos virtuais ou perseguições), eliminando 100% das rolag## 🌐 1. As 4 Dimensões de Conflito em Mago M20
+Este documento estabelece o funcionamento formal do **Nível 2 (Ameaça Ativa)** no sistema *Player-Faced Total* para *Mago: A Ascensão 20 Anos*. O Nível 2 é utilizado para confrontos estruturados de múltiplos turnos (combates sérios, debates políticos cruciais, duelos virtuais ou perseguições), eliminando 100% das rolagens do Narrador enquanto mantém a profundidade tática e a tensão dramática.
 
-O Nível 3 não é um "sistema de combate físico". Ele é um **Motor Universal de Conflito** aplicável às 4 Dimensões do jogo:
+---
+
+## 🌐 1. As 4 Dimensões de Conflito em Mago M20
+
+O Nível 2 opera como um **Motor Universal de Conflito** estruturado nas 4 Dimensões do jogo:
 
 ```
 +-----------------------------------------------------------------------------------------+
@@ -29,7 +33,7 @@ Toda ficha complexa de NPC do livro M20 é sintetizada por **Aspectos Diegético
 
 ```
 +-----------------------------------------------------------------------------------------+
-|                  SIMETRIA DA FICHA DE AMEAÇA ATIVA (NÍVEL 3)                            |
+|                  SIMETRIA DA FICHA DE AMEAÇA ATIVA (NÍVEL 2)                            |
 |                                                                                         |
 |  Item 1: Como o NPC se defende do PJ    ==> Dificuldade de Imposição do PJ (5 a 8)     |
 |  Item 2: Como o PJ se defende do NPC    ==> Dificuldade de Pressão sobre o PJ (5 a 8)   |
@@ -40,7 +44,17 @@ Toda ficha complexa de NPC do livro M20 é sintetizada por **Aspectos Diegético
 
 ---
 
-## 📊 3. Prova Matemática Multidimensional (50.000 Simulações por Categoria)
+## ⏱️ 3. A Ordem de Ação (A Iniciativa Clássica Permanece Intacta)
+
+Um ponto fundamental na transição para o modelo *Player-Faced Total* é que **a regra de Iniciativa não sofre nenhuma alteração em relação ao M20 Clássico**. A economia de ações e a ordem cronológica do combate continuam idênticas.
+
+* **A Rolagem de Iniciativa:** PJs e NPCs (rolados pelo Narrador) determinam a Iniciativa normalmente no início do combate (ex: $1d10 + Destreza + Raciocínio$).
+* **O Turno dos PJs:** Na sua vez da Iniciativa, o jogador declara e rola sua ação (ofensiva, social, mística ou técnica) contra a *Dificuldade de Imposição* da Ameaça.
+* **O Turno da Ameaça (NPC, Constructo, Objeto ou Efeito):** Quando chega a vez da ameaça agir na ordem de Iniciativa, **o Narrador não rola dados de ataque**. Ele simplesmente descreve a ação ofensiva do NPC e aponta o alvo. Imediatamente, o PJ alvo rola sua Defesa (Esquiva, Vigor ou Contramágica) contra a *Dificuldade de Pressão*. Se o PJ falhar na rolagem, ele sofre automaticamente a consequência (o *Impacto Fixo* da ameaça).
+
+---
+
+## 📊 4. Prova Matemática Multidimensional (50.000 Simulações por Categoria)
 
 Simulamos o desempenho de **PJs Ineptos (3d)**, **HÁBEIS (5d)** e **MESTRES (7d)** enfrentando 3 Antagonistas reais do livro de M20 em diferentes dimensões de conflito:
 
@@ -70,17 +84,17 @@ Simulamos o desempenho de **PJs Ineptos (3d)**, **HÁBEIS (5d)** e **MESTRES (7d
 
 ---
 
-## 💡 4. Conclusão da Análise Multidimensional
+## 💡 5. Conclusão da Análise Multidimensional
 
 1. **Recompensa à Inteligência Tática:** A simulação prova que os jogadores são recompensados ao identificar o **Ponto Fraco no Campo Semântico** da ameaça (ex: usar a via Social contra o Terno Preto ou a via Intelectual contra o Mestre Hermético).
-3. **Preservação de Recursos:** Personagens treinados vencem confrontos mantendo a maioria de seus recursos (HP/Vontade), enquanto novatos saem seriamente feridos/desgastados.
-4. **Redução de Tempo na Mesa:** O tempo real de resolução é reduzido em **85%** em relação ao M20 clássico.
+2. **Preservação de Recursos:** Personagens treinados vencem confrontos mantendo a maioria de seus recursos (HP/Vontade), enquanto novatos saem seriamente feridos/desgastados.
+3. **Redução de Tempo na Mesa:** O tempo real de resolução é reduzido em **85%** em relação ao M20 clássico.
 
 ---
 
-## 🛡️ 5. Resistência a Dano (RD / Limiar de Armadura / Threshold)
+## 🛡️ 6. Resistência a Dano (RD / Limiar de Armadura / Threshold)
 
-Inspirado no modelo de armadura de *Year Zero Engine / Tatangá*, o Nível 3 incorpora a **Resistência a Dano Fixo (RD)** sem rolar dados de absorção para o NPC:
+Inspirado no modelo de armadura de *Year Zero Engine / Tatangá*, o Nível 2 incorpora a **Resistência a Dano Fixo (RD)** sem rolar dados de absorção para o NPC:
 
 ### Níveis de RD e Efeito nos Impactos:
 * **RD 0 (Sem Armadura):** Sofre impactos normais ($\ge 2s = 2$ Impactos; $1s = 1$ Impacto).
@@ -89,7 +103,7 @@ Inspirado no modelo de armadura de *Year Zero Engine / Tatangá*, o Nível 3 inc
 
 ---
 
-## 🚪 6. Limiar Mínimo de Efetividade (Threshold Gate / Regra de Efeito Zero)
+## 🚪 7. Limiar Mínimo de Efetividade (Threshold Gate / Regra de Efeito Zero)
 
 Uma alternativa infinitamente superior aos redutores numéricos de dano é a **Regra do Limiar Mínimo de Efetividade (Gatekeeper of Effect)**:
 
@@ -117,7 +131,7 @@ Ao implementar o **Limiar Mínimo = 2**, o jogo força o grupo de PJs a operar c
 
 ---
 
-## 🧠 7. Ergonomia Cognitiva Ludológica (Alta Ergonomia vs. Baixa Ergonomia)
+## 🧠 8. Ergonomia Cognitiva Ludológica (Alta Ergonomia vs. Baixa Ergonomia)
 
 ### O Conceito de Ergonomia no Game Design:
 Ergonomia Cognitiva é a medida do **quão leve, intuitivo e sem atrito mental** é o sistema de regras para a mente humana durante a sessão ao vivo.
@@ -130,7 +144,3 @@ Ergonomia Cognitiva é a medida do **quão leve, intuitivo e sem atrito mental**
   * A ficha do NPC é resumida em **3 linhas (Fator de Ameaça)**.
   * Uma única rolagem do jogador responde *"Consegui?"* e *"Qual a consequência?"* simultaneamente.
   * *Consequência:* 100% da energia mental do Narrador permanece disponível para a condução dramática, interpretação de papéis e construção da atmosfera.
-
-
-
-

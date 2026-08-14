@@ -45,7 +45,7 @@ Este é o **Nó D (Infiltração Digital & Espionagem Federal)**. A instalação
 ```yaml
 ---
 ameaca: ICE Firewall Tecnocrático (Algoritmo Defensivo de Dados)
-nivel: 3 (Ameaça Ativa - Domínio Intelectual/Cibernético)
+nivel: 2 (Ameaça Ativa - Domínio Intelectual/Cibernético)
 
 aspectos_diegaticos:
   - "[Criptografia Trinária NOM]": Barreira lógica inviolável a ferramentas de hacking comuns.
@@ -65,7 +65,7 @@ bloco_mecanico:
 ```yaml
 ---
 ameaca: Bernardino (Agitador de Mídia e Negacionismo)
-nivel: 2 (Oposição Rápida - Domínio Social)
+nivel: 1 (Desafio Rápido - Domínio Social)
 
 aspectos_diegaticos:
   - "[Manipulação de Massas em Live]": Capaz de atiçar Adormecidos furiosos contra os PJs.

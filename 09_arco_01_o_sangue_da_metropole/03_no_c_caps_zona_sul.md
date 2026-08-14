@@ -45,7 +45,7 @@ Este é o **Nó C (Centro de Crise Médica & Contato Efêmero)**. O Centro de At
 ```yaml
 ---
 ameaca: Pacientes em Overdose de Quintessência (Fúria Efêmera)
-nivel: 3 (Ameaça Ativa - Dilema Ético)
+nivel: 2 (Ameaça Ativa - Dilema Ético)
 
 aspectos_diegaticos:
   - "[Adormecidos Inocentes em Transe]": Não podem ser mortos sem grave complicação moral/Paradoxo.
@@ -66,7 +66,7 @@ bloco_mecanico:
 ```yaml
 ---
 ameaca: Joana Pipoquinha (Espírito de Criança / Efêmera Triste)
-nivel: 2 (Oposição Rápida - Diálogo)
+nivel: 1 (Desafio Rápido - Diálogo)
 
 aspectos_diegaticos:
   - "[Ressentimento com Mágika]": Oculta a voz se os magos exibirem mágika vulgar ostensiva.

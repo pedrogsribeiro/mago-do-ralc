@@ -58,7 +58,7 @@ Seguindo a **Regra das 3 Pistas de The Alexandrian**, a investigação deste loc
 ```yaml
 ---
 ameaca: Agente de Campo da ABIN (Operativo Federal)
-nivel: 3 (Ameaça Ativa)
+nivel: 2 (Ameaça Ativa)
 
 aspectos_diegaticos:
   - "[Colete Tático Nível IIIA]": Proteção contra tiros leves (RD 1 Físico).
@@ -78,7 +78,7 @@ bloco_mecanico:
 ```yaml
 ---
 ameaca: Espírito da Fuligem (Gaffling Urbano da Penumbra)
-nivel: 2 (Oposição Rápida)
+nivel: 1 (Desafio Rápido)
 
 aspectos_diegaticos:
   - "[Matéria Efêmera Desmaterializada]": Imune a danos físicos mundanos.

@@ -41,12 +41,12 @@ Este é o **Nó B (Centro Logístico & Laboratório Alquímico)**. Antiga instal
 
 ## ⚔️ 3. Oposições Player-Faced do Nó B
 
-### A. Carlito Heizenberg (Alquimista Desperto da Droga)
+### A. Carlito Heizenberg (Alquimista do Sangue)
 
 ```yaml
 ---
 ameaca: Carlito Heizenberg (Alquimista Renegado de Sangue)
-nivel: 3 (Ameaça Ativa)
+nivel: 2 (Ameaça Ativa)
 
 aspectos_diegaticos:
   - "[Mestre em Destilação Alquímica de Primórdio]": Usa frascos de Quintessência corrosiva como projéteis.
@@ -68,7 +68,7 @@ bloco_mecanico:
 ```yaml
 ---
 ameaca: Cultistas Pastafarianos (Membros da Frota de Entregas)
-nivel: 2 (Oposição Rápida)
+nivel: 1 (Desafio Rápido)
 
 aspectos_diegaticos:
   - "[Fanatismo do Molho Sagrado]": Atacam com porretes e cortadores de pizza pesados.

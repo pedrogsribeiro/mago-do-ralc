@@ -21,11 +21,10 @@
 * **Padrão YAML Obrigatório:** Todo documento novo ou atualizado deve manter o cabeçalho YAML Frontmatter no topo com `type`, `summary` e `tags`.
 
 ## 4. Taxonomia de Carga Narrativa (Sistema Player-Faced Total)
-Nas narrativas e regras deste workspace, a oposição é classificada em 4 Níveis de Carga Narrativa conforme os estudos em [`08_Estudos_Player_Faced`](../08_estudos_player_faced):
+Nas narrativas e regras deste workspace, a oposição é classificada em **3 Níveis de Carga Narrativa** conforme os estudos em [`08_estudos_player_faced`](../08_estudos_player_faced):
 
-* **Nível 1 (Obstáculo Passivo):** Tarefas estáticas ou ambientais (arrombar, saltar, hackear sistemas sem IA). Resolvido em 1 rolagem contra Dificuldade 6 + Limiar de Sucessos.
-* **Nível 2 (Oposição Rápida / Menor):** Interações sociais, furtivas ou de confronto instantâneo com NPCs menores (guardas, informantes, patrulhas). Resolvido em 1 rolagem do PJ contra Dificuldade 5 a 8.
-* **Nível 3 (Ameaça Ativa):** Combates sérios ou hacks ativos contra opositores estruturados (Hit-Marks, Agentes de Elite). Utiliza Fator de Ameaça, Dano Fixo e Relógios de Vitalidade/Intrusão.
-* **Nível 4 (Ameaça Telegrafada / Chefe):** Confrontos climáticos com vilões ou rituais de grande escala. Utiliza Movimentos Telegrafados Declarados no início da rodada e dilemas táticos de interrupção/defesa.
+* **Nível 1 (Desafio Rápido / Oposição Pontual):** Tarefas estáticas/ambientais (arrombar, saltar, decodificar) ou atritos instantâneos com NPCs menores (guardas, informantes, patrulhas). Resolvido em **1 única rolagem do PJ** contra Dificuldade 5 a 8 ($\ge 2$ Sucessos Plenos, 1 Sucesso Parcial com custo, 0 Falha).
+* **Nível 2 (Ameaça Ativa):** Combates sérios, perseguições estruturadas ou hacks ativos contra opositores estruturados (Hit-Marks, Agentes de Elite). Utiliza 4 Dimensões Simétricas, Dano Fixo, Relógios de Vitalidade (3 a 7 Impactos) e Regra do Efeito Zero.
+* **Nível 3 (Ameaça Telegrafada / Chefe Climático):** Confrontos climáticos com vilões de arco, rituais de grande escala ou catástrofes. Utiliza Fases + Movimentos Telegrafados Declarados no início da rodada com escolhas táticas de Interrupção, Mitigação ou Ataque Total.
 
 

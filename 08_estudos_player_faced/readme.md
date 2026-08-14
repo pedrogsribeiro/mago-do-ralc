@@ -11,11 +11,13 @@ Este documento reúne o índice navegável e resumos de todos os arquivos contid
 
 ## 📄 Arquivos Nesta Pasta
 
+- [`00_Manifesto_Ergonomia_e_Carga_Cognitiva.md`](00_manifesto_ergonomia_e_carga_cognitiva.md): Estudo 00 do Sistema Player-Faced: Manifesto sobre o gargalo cognitivo do M20 clássico, a hipótese de design e as estimativas métricas de ganho de tempo e ergonomia mental.
 - [`01_Testes_Obstaculo_e_Matematica_Base.md`](01_testes_obstaculo_e_matematica_base.md): Estudo 1 do Sistema Player-Faced: Regras para rolagens de obstáculo/ambiente e análise probabilística trinomial para Mago M20.
 - [`02_Oposicao_Ativa_e_Conversao_de_Fichas.md`](02_oposicao_ativa_e_conversao_de_fichas.md): Estudo 2 do Sistema Player-Faced: Matriz de conversão direta de fichas clássicas de M20 para Fatores de Ameaça e Relógios de Cena.
-- [`03_Chefes_e_Movimentos_Telegrafados.md`](03_chefes_e_movimentos_telegrafados.md): Estudo 3 do Sistema Player-Faced: Mecânica de Movimentos Telegrafados para Chefes, análise estatística de escolhas táticas e categorias de telegrafos.
-- [`04_Taxonomia_e_Oposicao_Rapida.md`](04_taxonomia_e_oposicao_rapida.md): Estudo 4 do Sistema Player-Faced: Taxonomia dos 4 Níveis de Carga Narrativa e mecânica detalhada da Oposição Rápida / Menor.
+- [`03_Chefes_e_Movimentos_Telegrafados.md`](03_chefes_e_movimentos_telegrafados.md): Estudo 3 do Sistema Player-Faced: Fundamentação bibliográfica da mecânica de Ações Telegrafadas (Nível 3), opções táticas, prova matemática e aplicação mística em Mago M20.
+- [`04_Taxonomia_e_Oposicao_Rapida.md`](04_taxonomia_e_oposicao_rapida.md): Estudo 4 do Sistema Player-Faced: Taxonomia Oficial dos 3 Níveis de Carga Narrativa e mecânica detalhada do Nível 1 (Desafio Rápido e Oposição Pontual).
 - [`05_Artigo_Matematica_e_Algoritmos_Player_Faced.md`](05_artigo_matematica_e_algoritmos_player_faced.md): Artigo acadêmico e técnico sobre a matemática, algoritmos de simulação Monte Carlo e prova probabilística do sistema Player-Faced em Mago M20.
-- [`06_Nivel_3_Ameaca_Ativa_e_Simetria.md`](06_nivel_3_ameaca_ativa_e_simetria.md): Estudo 6 do Sistema Player-Faced: Definição formal do Nível 3 (Ameaça Ativa), simetria das 4 características, mecânica de rodada e aplicação universal.
-- [`07_Entidades_Espirituais_e_Umbroides.md`](07_entidades_espirituais_e_umbroides.md): Estudo 07: Adaptação de Entidades Espirituais (Umbróides) e a Umbra no Sistema Player-Faced Total.
-- [`08_Guia_Pratico_Conversao_de_Fichas_NPC.md`](08_guia_pratico_conversao_de_fichas_npc.md): Estudo 08: Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas da Noite e Espíritos) para o Sistema Player-Faced Total nos 4 Níveis.
+- [`06_Nivel_3_Ameaca_Ativa_e_Simetria.md`](06_nivel_3_ameaca_ativa_e_simetria.md): Estudo 6 do Sistema Player-Faced: Definição formal do Nível 2 (Ameaça Ativa), simetria das 4 características, mecânica de rodada, prova multidimensional e aplicação universal.
+- [`07_Entidades_Espirituais_e_Umbroides.md`](07_entidades_espirituais_e_umbroides.md): Estudo 07: Adaptação de Entidades Espirituais (Umbróides) e a Umbra no Sistema Player-Faced Total nos 3 Níveis.
+- [`08_Guia_Pratico_Conversao_de_Fichas_NPC.md`](08_guia_pratico_conversao_de_fichas_npc.md): Estudo 08: Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas da Noite e Espíritos) para o Sistema Player-Faced Total nos 3 Níveis.
+- [`09_Ontologia_e_Catalogo_de_Obstaculos_de_Mago.md`](09_ontologia_e_catalogo_de_obstaculos_de_mago.md): Estudo 09: Ontologia completa e catálogo de obstáculos específicos de Mago: A Ascensão sob a ótica da Regra de Bronze do Fate Core.

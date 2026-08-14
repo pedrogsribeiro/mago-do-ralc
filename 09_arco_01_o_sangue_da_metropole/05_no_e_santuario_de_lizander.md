@@ -55,12 +55,12 @@ Quando o Relógio de Lizander chega a **3 Caixas**, o espírito de sua filha [Jo
 
 ---
 
-## ⚔️ 4. Ficha de Chefe Nível 4: Lizander Filho do Raio
+## ⚔️ 4. Ficha de Chefe Nível 3: Lizander Filho do Raio
 
 ```yaml
 ---
 ameaca: Lizander Filho do Raio (Mestre de Forças Fanático)
-nivel: 4 (Ameaça Telegrafada / Chefe Climático)
+nivel: 3 (Ameaça Telegrafada / Chefe Climático)
 
 aspectos_diegaticos:
   - "[Mestre da Eletricidade e Primórdio]": Domina arcos elétricos, plasma e tempestades efêmeras.

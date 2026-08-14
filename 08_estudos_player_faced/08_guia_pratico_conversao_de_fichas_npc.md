@@ -29,10 +29,9 @@ Este guia instrui qualquer Narrador a pegar qualquer ficha de antagonista ou NPC
 
 Antes de olhar os atributos do NPC, o Narrador decide a **importância dramática** da cena:
 
-* **Nível 1 (Obstáculo Passivo):** O NPC é estático ou irrelevante (ex: arrombar porta trancada por um porteiro dormindo). Resolvido em 1 rolagem ($Diff 6 + \text{Limiar de Sucessos}$).
-* **Nível 2 (Oposição Rápida / Menor):** NPCs menores em cenas rápidas (ex: subornar um guarda, nocautear um capanga, ultrapassar patrulha). Resolvido em **1 única rolagem do PJ** ($Diff 5 \text{ a } 8$).
-* **Nível 3 (Ameaça Ativa):** Confrontos estruturados de múltiplos turnos (ex: Hit-Marks, Ternos Pretos, Jagglings Espirituais, Mestres Herméticos). Utiliza a **Ficha Sintética dos 4 Elementos Simétricos**.
-* **Nível 4 (Ameaça Telegrafada / Chefe Climático) — [Visão Preliminar / Placeholder]:** Vilões climáticos, Incarnas arcanos ou Ritos de Grande Escala. Utiliza **Movimentos Telegrafados Declarados no início do turno**, Múltiplas Fases e Relógios Épicos de Chefe. *(Estrutura formal a ser detalhada no Estudo 09)*.
+* **Nível 1 (Desafio Rápido / Oposição Pontual):** O obstáculo/NPC é estático ou menor (ex: arrombar porta, despistar guarda, subornar informante). Resolvido em **1 única rolagem do PJ** ($Diff 5 \text{ a } 8$).
+* **Nível 2 (Ameaça Ativa):** Confrontos estruturados de múltiplos turnos (ex: Hit-Marks, Ternos Pretos, Jagglings Espirituais, Mestres Herméticos). Utiliza a **Ficha Sintética dos 4 Elementos Simétricos** + Relógio de Vitalidade.
+* **Nível 3 (Ameaça Telegrafada / Chefe Climático):** Vilões climáticos, Incarnas arcanos ou Ritos de Grande Escala. Utiliza **Movimentos Telegrafados Declarados no início do turno**, Múltiplas Fases e Relógios Épicos de Chefe.
 
 ---
 
