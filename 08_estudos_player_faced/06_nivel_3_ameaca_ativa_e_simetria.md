@@ -35,10 +35,10 @@ Toda ficha complexa de NPC do livro M20 é sintetizada por **Aspectos Diegético
 +-----------------------------------------------------------------------------------------+
 |                  SIMETRIA DA FICHA DE AMEAÇA ATIVA (NÍVEL 2)                            |
 |                                                                                         |
-|  Item 1: Como o NPC se defende do PJ    ==> Dificuldade de Imposição do PJ (5 a 8)     |
-|  Item 2: Como o PJ se defende do NPC    ==> Dificuldade de Pressão sobre o PJ (5 a 8)   |
-|  Item 3: O dano/estresse que o PJ sofre ==> Severidade do Impacto (2 a 5 Fixos)         |
-|  Item 4: O dano/estresse que o NPC sofre==> Relógios de Resolução por Domínio (3 a 7)   |
+|  Item 1: Como o NPC se defende do PJ    ==> Dificuldade de Oposição ao PJ (5 a 8)      |
+|  Item 2: Como o PJ se defende do NPC    ==> Dificuldade da Ameaça sobre o PJ (5 a 8)   |
+|  Item 3: O dano/estresse que o PJ sofre ==> Consequência do Impacto (2 a 5 Fixos)      |
+|  Item 4: O dano/estresse que o NPC sofre==> Relógios de Resolução por Domínio (3 a 7)  |
 +-----------------------------------------------------------------------------------------+
 ```
 
@@ -49,8 +49,8 @@ Toda ficha complexa de NPC do livro M20 é sintetizada por **Aspectos Diegético
 Um ponto fundamental na transição para o modelo *Player-Faced Total* é que **a regra de Iniciativa não sofre nenhuma alteração em relação ao M20 Clássico**. A economia de ações e a ordem cronológica do combate continuam idênticas.
 
 * **A Rolagem de Iniciativa:** PJs e NPCs (rolados pelo Narrador) determinam a Iniciativa normalmente no início do combate (ex: $1d10 + Destreza + Raciocínio$).
-* **O Turno dos PJs:** Na sua vez da Iniciativa, o jogador declara e rola sua ação (ofensiva, social, mística ou técnica) contra a *Dificuldade de Imposição* da Ameaça.
-* **O Turno da Ameaça (NPC, Constructo, Objeto ou Efeito):** Quando chega a vez da ameaça agir na ordem de Iniciativa, **o Narrador não rola dados de ataque**. Ele simplesmente descreve a ação ofensiva do NPC e aponta o alvo. Imediatamente, o PJ alvo rola sua Defesa (Esquiva, Vigor ou Contramágica) contra a *Dificuldade de Pressão*. Se o PJ falhar na rolagem, ele sofre automaticamente a consequência (o *Impacto Fixo* da ameaça).
+* **O Turno dos PJs:** Na sua vez da Iniciativa, o jogador declara e rola sua ação (ofensiva, social, mística ou técnica) contra a *Dificuldade de Oposição* da Ameaça.
+* **O Turno da Ameaça (NPC, Constructo, Objeto ou Efeito):** Quando chega a vez da ameaça agir na ordem de Iniciativa, **o Narrador não rola dados de ataque**. Ele simplesmente descreve a ação ofensiva do NPC e aponta o alvo. Imediatamente, o PJ alvo rola sua Defesa (Esquiva, Vigor ou Contramágica) contra a *Dificuldade da Ameaça*. Se o PJ falhar na rolagem, ele sofre automaticamente a *Consequência* (o dano ou estresse fixo).
 
 ---
 
@@ -59,27 +59,27 @@ Um ponto fundamental na transição para o modelo *Player-Faced Total* é que **
 Simulamos o desempenho de **PJs Ineptos (3d)**, **HÁBEIS (5d)** e **MESTRES (7d)** enfrentando 3 Antagonistas reais do livro de M20 em diferentes dimensões de conflito:
 
 ### 1. Cientista Extraordinário (NOM / Tecnocracia)
-* **Domínio Intelectual (Diff Imp: 7, Diff Pres: 6, Dano: 3, Relógio: 5):**
+* **Domínio Intelectual (Opo: 7, Ame: 6, Cons: 3, Relógio: 5):**
   * *PJ Inepto (3d):* Taxa de Vitória **$81,4\%$** | Rodadas Médias: **5,16 r** | Recurso Restante: **4,05 / 7**
   * *PJ Hábil (5d):* Taxa de Vitória **$98,2\%$** | Rodadas Médias: **4,25 r** | Recurso Restante: **5,36 / 7**
   * *PJ Mestre (7d):* Taxa de Vitória **$99,8\%$** | Rodadas Médias: **3,77 r** | Recurso Restante: **6,05 / 7**
-* **Domínio Físico (Diff Imp: 5, Diff Pres: 5, Dano: 2, Relógio: 3 — Ponto Fraco!):**
+* **Domínio Físico (Opo: 5, Ame: 5, Cons: 2, Relógio: 3 — Ponto Fraco!):**
   * *PJ Inepto (3d):* Taxa de Vitória **$99,9\%$** | Rodadas Médias: **2,61 r** (Nocaute em 2 turnos).
 
 ### 2. Agente Terno Preto (Tecnocracia)
-* **Domínio Físico (Diff Imp: 7, Diff Pres: 7, Dano: 4, Relógio: 5):**
+* **Domínio Físico (Opo: 7, Ame: 7, Cons: 4, Relógio: 5):**
   * *PJ Inepto (3d):* Taxa de Vitória **$67,4\%$** | Rodadas Médias: **4,74 r** (Combate altamente perigoso para um novato).
   * *PJ Hábil (5d):* Taxa de Vitória **$93,4\%$** | Rodadas Médias: **4,17 r** | Recurso Restante: **5,15 / 7**
   * *PJ Mestre (7d):* Taxa de Vitória **$98,7\%$** | Rodadas Médias: **3,75 r** | Recurso Restante: **5,84 / 7**
-* **Domínio Social (Diff Imp: 6, Diff Pres: 6, Dano: 3, Relógio: 3 — Brecha Tática!):**
+* **Domínio Social (Opo: 6, Ame: 6, Cons: 3, Relógio: 3 — Brecha Tática!):**
   * *PJ Inepto (3d):* Taxa de Vitória **$97,3\%$** | Rodadas Médias: **2,92 r** (Desarmado ideologicamente com facilidade).
 
 ### 3. Mestre Hermético Antagonista (Ordem de Hermes)
-* **Domínio Místico (Diff Imp: 8, Diff Pres: 7, Dano: 4, Relógio: 6 — Supremacia Arcana!):**
+* **Domínio Místico (Opo: 8, Ame: 7, Cons: 4, Relógio: 6 — Supremacia Arcana!):**
   * *PJ Inepto (3d):* Taxa de Vitória **$34,2\%$** (Um Mago novato tentando duelo mágico direto é massacrado!).
   * *PJ Hábil (5d):* Taxa de Vitória **$75,7\%$** | Rodadas Médias: **5,64 r** | Recurso Restante: **4,17 / 7**
   * *PJ Mestre (7d):* Taxa de Vitória **$92,0\%$** | Rodadas Médias: **5,15 r** | Recurso Restante: **4,95 / 7**
-* **Domínio Intelectual (Diff Imp: 7, Diff Pres: 6, Dano: 3, Relógio: 4 — Brecha no Ritual!):**
+* **Domínio Intelectual (Opo: 7, Ame: 6, Cons: 3, Relógio: 4 — Brecha no Ritual!):**
   * *PJ Inepto (3d):* Taxa de Vitória **$87,9\%$** | Rodadas Médias: **4,27 r** (Apontar falhas lógicas no ritual é muito mais viável!).
 
 ---

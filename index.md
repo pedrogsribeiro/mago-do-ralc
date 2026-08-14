@@ -133,8 +133,9 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Estudo 05** | Artigo Técnico: Matemática, Algoritmos Python e Provas Monte Carlo | [`05_Artigo_Matematica_e_Algoritmos_Player_Faced.md`](08_estudos_player_faced/05_artigo_matematica_e_algoritmos_player_faced.md) |
 | **Estudo 06** | Nível 2 — Ameaça Ativa e a Simetria das 4 Características | [`06_Nivel_3_Ameaca_Ativa_e_Simetria.md`](08_estudos_player_faced/06_nivel_3_ameaca_ativa_e_simetria.md) |
 | **Estudo 07** | Adaptação de Entidades Espirituais (Umbróides) e a Umbra nos 3 Níveis | [`07_Entidades_Espirituais_e_Umbroides.md`](08_estudos_player_faced/07_entidades_espirituais_e_umbroides.md) |
-| **Estudo 08** | Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas e Espíritos) | [`08_Guia_Pratico_Conversao_de_Fichas_NPC.md`](08_estudos_player_faced/08_guia_pratico_conversao_de_fichas_npc.md) |
-| **Estudo 09** | Ontologia Completa e Catálogo de Obstáculos de Mago sob a Regra de Bronze | [`09_Ontologia_e_Catalogo_de_Obstaculos_de_Mago.md`](08_estudos_player_faced/09_ontologia_e_catalogo_de_obstaculos_de_mago.md) |
+| **Estudo 08** | Simulação Prática de Mesa (Macro-Crônica e Níveis 1 a 3) | [`08_Simulacao_Pratica_da_Mesa.md`](08_estudos_player_faced/08_simulacao_pratica_da_mesa.md) |
+| **Estudo 09** | Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas e Espíritos) | [`09_Guia_Pratico_Conversao_de_Fichas_NPC.md`](08_estudos_player_faced/09_guia_pratico_conversao_de_fichas_npc.md) |
+| **Estudo 10** | Ontologia Completa e Catálogo de Obstáculos de Mago sob a Regra de Bronze | [`10_Ontologia_e_Catalogo_de_Obstaculos_de_Mago.md`](08_estudos_player_faced/10_ontologia_e_catalogo_de_obstaculos_de_mago.md) |
 
 ---
 

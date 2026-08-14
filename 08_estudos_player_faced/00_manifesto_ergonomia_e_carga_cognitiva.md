@@ -55,3 +55,15 @@ Ao eliminar as rolagens defensivas do NPC (absorvidas pelo Dano Fixo, RD e Reló
 A substituição das fichas exaustivas pela Simetria de 4 Dimensões limpa a interface visual do Narrador.
 * **Métrica:** A carga de rastreio de variáveis (Tracking) cai de $\approx 50$ itens para apenas **4 atributos mecânicos diretos** (Diff do PJ atacar, Diff do PJ se defender, Dano que o PJ recebe, Caixas do Relógio) atrelados a campos semânticos (Aspectos descritivos).
 * **Impacto Prático:** O Mestre não realiza mais subtrações de dados na própria cabeça, eliminando a fadiga de processamento matemático de fundo. **100% dessa energia cognitiva recuperada é redirecionada** para interpretar o vilão com maestria, gerenciar o drama dos personagens e descrever o cenário de forma imersiva.
+
+---
+
+## 🎭 4. A Justificativa de Design: O Narrador Também Joga
+
+A reestruturação proposta neste manifesto e as transformações da Crônica e Cenas em Relógios (Obstáculos de Nível 3) não visam apenas "facilitar" o fluxo mecânico para os jogadores. O objetivo mais profundo é **devolver o jogo ao Narrador**.
+
+No sistema tradicional, o Mestre acaba rebaixado à função de "servidor" ou crupiê: ele queima a maior parte do seu tempo de atenção rolando dados irrelevantes, anotando pontinhos de absorção e simulando física de NPCs secundários, como se prestasse um *serviço computacional* invisível para que apenas os jogadores se divirtam.
+
+Ao abraçar a Telegrafia e transferir o peso da rolagem, o Narrador se liberta. Ele **volta a jogar**. Ao estabelecer Fichas Sintéticas e desenhar Relógios de Gatilho, ele adota a filosofia do *"Jogar para ver o que acontece"* (*Play to find out*). 
+
+O Narrador deixa de ser o controlador exaustivo do futuro e passa a ser o arquiteto do caos criativo. Ele cria o problema, amarra o Gatilho e apenas senta para assistir. Ele não precisa rolar para saber *como* o prédio vai cair, mas se diverte genuinamente descobrindo de que forma criativa o mundo das trevas vai engolir a imprudência dos personagens na cena seguinte. O prazer do Narrador muda do microgerenciamento numérico para a surpresa dramática e a improvisação pura.
