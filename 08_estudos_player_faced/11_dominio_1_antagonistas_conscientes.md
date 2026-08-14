@@ -1,116 +1,115 @@
 ---
 type: regra
-summary: "Estudo 11 do Sistema Player-Faced: Instanciação completa do Domínio 1 (Antagonistas Conscientes) nos Níveis 1, 2 e 3, cobrindo Tecnocracia, Nefandi, Desauridos, Mortais e Conspirações."
-tags: [srd, design, player-faced, antagonistas, faccoes, tecnocracia, nefandi, regras]
+summary: "Estudo 11 do Sistema Player-Faced: Instanciação completa do Domínio 1 (Antagonistas Conscientes) nos Níveis 1, 2 e 3, com conversão 1:1 de perfis oficiais do M20 e princípio de fluidez multinível."
+tags: [srd, design, player-faced, antagonistas, faccoes, tecnocracia, nefandi, conversao-1-1, regras]
 ---
 
 # Estudo 11: Domínio 1 — Antagonistas Conscientes e Facções
 
-Este documento estabelece a instanciação prática e o catálogo operacional do **Domínio 1: Antagonistas Conscientes** sob o **Motor Player-Faced Total** para *Mago: A Ascensão 20 Anos*. 
+Este documento estabelece a instanciação prática, a conversão direta 1:1 dos perfis oficiais do livro básico de *Mago: A Ascensão 20 Anos (M20)* e o catálogo operacional do **Domínio 1: Antagonistas Conscientes** sob o **Motor Player-Faced Total**.
 
-Antagonistas conscientes são indivíduos e grupos dotados de agência, inteligência, paradigmas e capacidade de agir e reagir em múltiplas dimensões (Física, Social, Intelectual e Mística).
+Antagonistas conscientes são indivíduos e grupos dotados de agência, inteligência, motivações ideológicas e capacidade de agir em múltiplas dimensões (Física, Social, Intelectual e Mística).
 
 ---
 
 ## 🏛️ 1. O Domínio 1 sob a Ótica Player-Faced
 
-No paradigma *Player-Faced*, antagonistas conscientes não exigem fichas completas de duas páginas. O Narrador os traduz conforme o peso dramático da cena:
+No paradigma *Player-Faced*, os antagonistas não exigem fichas de duas páginas com dezenas de perícias e paradas de absorção. O Narrador os instancia de acordo com o peso e o foco dramático da cena:
 
 ```
 +---------------------------------------------------------------------------------------------------------+
 |                               OS 3 NÍVEIS DE ANTAGONISTAS CONSCIENTES                                   |
 |                                                                                                         |
-|  [ Nível 1: Desafio Rápido ]   ==> Capangas, recepcionistas, guardas de ronda e informantes (1 rolagem) |
-|  [ Nível 2: Ameaça Ativa ]     ==> Agentes MIB, ciborgues de choque, investigadores e acólitos (4 Fatores)|
-|  [ Nível 3: Alto Impacto ]     ==> Diretores da NOM, Mestres Nefandi, Marauders e Conspirações (Telegrafo) |
+|  [ Nível 1: Desafio Rápido ]   ==> Capangas, burocratas, informantes ou interações pontuais (1 rolagem) |
+|  [ Nível 2: Ameaça Ativa ]     ==> Confrontos táticos diretos, interrogatórios e tiroteios (4 Fatores)   |
+|  [ Nível 3: Alto Impacto ]     ==> Mestres de convenção, rituais cósmicos e purgas globais (Telegrafo) |
 +---------------------------------------------------------------------------------------------------------+
 ```
 
 ---
 
-## 🔮 2. Regra Fundamental: Ações Mundanas vs. Rolagens de Arete
+## 🔄 2. O Princípio da Fluidez do NPC: O Mesmo Antagonista nos 3 Níveis
 
-Um princípio absoluto do design Player-Faced para Mago é que **as características de Oposição das ameaças NUNCA alteram a Dificuldade de uma rolagem de Arete**:
+Uma das maiores forças do sistema é que **o nível não é uma etiqueta fixa na criatura, mas sim a escala da interação dramática na cena**. Um mesmo antagonista importante pode se manifestar nos Níveis 1, 2 ou 3 conforme a abordagem dos jogadores:
 
-* **Ações Mundanas (Atributo + Habilidade):** A Dificuldade do teste é determinada diretamente pela **Oposição** do obstáculo ou NPC (variando de 5 a 8).
-* **Ações Mágikas (Arete / Esferas):** A Dificuldade da rolagem de Arete segue estritamente as regras próprias de *Mago M20* (Esfera Mais Alta + 3 para Coincidente / +4 para Vulgar sem testemunhas / +5 com testemunhas, ajustada por Focos, Quintessência, etc.).
-  * *Como a Oposição afeta a Mágika?* A Oposição NÃO altera a Dificuldade do dado de Arete; ela define o **Limiar de Resistência** (quando a mágika tenta alterar diretamente o padrão de uma entidade consciente resistente) ou o **Relógio** de caixas que os sucessos mágikos precisam esgotar.
+### Estudo de Caso: *Diretor Regional da NOM — Dr. Alistair Vance*
+
+* **Como Nível 1 (Desafio Rápido / Interação Pontual):**
+  * *Cenário:* Os PJs estão disfarçados de garçons em uma festa beneficente e querem clonar o cartão magnético de Alistair sem serem vistos.
+  * *Mecânica:* Destreza + Furto contra **Dificuldade 7** (Oposição) | **Meta: 2 Sucessos** (Complexidade). Resolvido em 1 única rolagem.
+* **Como Nível 2 (Ameaça Ativa / Duelo Tático):**
+  * *Cenário:* Os PJs são encurralados por Alistair e seus guarda-costas em uma sala de conferência blindada. Alistair conduz um interrogatório psicológico violento enquanto seus agentes miram armas.
+  * *Mecânica (Ficha Sintética):* `[Oposição Social: 8]` `[Ameaça Social: 7]` `[Consequência: 3 de Estresse Mental/Exposição]` `[Relógio: 4 Caixas]`. Combate turno a turno na Iniciativa clássica sem dados para o Narrador.
+* **Como Nível 3 (Evento de Alto Impacto / Crise Telegrafada):**
+  * *Cenário:* Encurralado em seu escritório mestre, Alistair aciona o *Protocolo de Apagão Panóptico*. As telas da cidade exibem os rostos dos PJs e o sistema inicia a deleção de todas as suas identidades civis e bloqueio de bens em 30 segundos.
+  * *Mecânica:* Ameaça Telegrafada pura com as 3 Opções do Triângulo Tático (Interromper, Defender 100%, Troca Direta) e Relógio de Crise de 6 caixas.
 
 ---
 
-## 🎯 3. Nível 1: Desafios Rápidos (Capangas e Oposição Pontual)
+## 🔮 3. Regra Fundamental: Ações Mundanas vs. Rolagens de Arete
 
-Destinado a antagonistas descartáveis, obstáculos sociais de rotina ou capangas que servem apenas para drenar recursos ou atrasar os magos.
+* **Ações Mundanas (Atributo + Habilidade):** A Dificuldade do teste do jogador é determinada diretamente pela **Oposição** do NPC (variando de 5 a 8).
+* **Ações Mágikas (Arete / Esferas):** A Dificuldade da rolagem de Arete segue estritamente as regras próprias de *Mago M20* (Esfera Mais Alta $+ 3$ para Coincidente / $+ 4$ Vulgar sem testemunhas / $+ 5$ com testemunhas).
+  * *A Oposição NUNCA altera o número-alvo do dado de Arete.* Ela define apenas o **Limiar de Resistência** (quando a mágika tenta alterar o padrão direto do NPC) ou o **Relógio de Caixas** que os sucessos do feitiço devem preencher.
 
-* **Mecânica Mundana:** O Narrador estabelece a **Dificuldade (5 a 7)** pelas condições/oposição e a **Meta de Sucessos (1 a 5)** pela complexidade da tarefa. O jogador rola Atributo + Habilidade.
-* **Mecânica Mágika:** O jogador rola Arete pela Dificuldade Mágika padrão de M20.
-* **Resolução Trinomial Adaptativa:**
-  * **Atingir a Meta Integral ($\ge \text{Meta}$):** **Sucesso Pleno** — O obstáculo é superado sem atrito (o guarda é nocauteado em silêncio, o burocrata carimba a autorização, o informante entrega o endereço).
-  * **Sucesso Parcial ($1$ até $\text{Meta} - 1$):** **Sucesso com Custo** — O objetivo é alcançado, mas surge uma complicação diegética (o guarda cai fazendo barulho, o burocrata pede propina ou anota a placa, o informante avisa que está sendo vigiado).
-  * **0 Sucessos (Falha):** O objetivo falha e a situação escala (o alarme toca, a segurança é chamada ou o NPC foge).
+---
+
+## 🎯 4. Nível 1: Desafios Rápidos (Capangas e Atritos Menores)
+
+* **Mecânica Mundana:** Dificuldade (5 a 8) pelas condições/oposição e Meta de Sucessos (1 a 5) pela complexidade.
+* **Mecânica Mágika:** Rolagem de Arete pelas regras padrão de M20.
+* **Resolução Trinomial:**
+  * **$\ge \text{Meta}$ de Sucessos:** **Sucesso Pleno** (superado limpo).
+  * **$1$ até $\text{Meta} - 1$ Sucessos:** **Sucesso com Custo** (cumpre o objetivo, mas gera complicação diegética).
+  * **0 Sucessos:** **Falha** (o perigo se manifesta).
 
 ### Exemplos Prontos de Nível 1:
-1. **Segurança Terceirizado de Portaria:** Dificuldade 6 | Meta: 2 Sucessos (Física para nocautear furtivo; Social para enganar com crachá falso).
-2. **Recepcionista de Hospital/Cartório:** Dificuldade 6 | Meta: 2 Sucessos (Social para obter ficha médica confidencial; Intelectual para distrair com burocracia).
-3. **Policial Militar em Blitz:** Dificuldade 7 | Meta: 2 Sucessos (Social para evitar revista no porta-malas cheio de artefatos).
+1. **Segurança Terceirizado de Portaria:** Dificuldade 6 | Meta: 2 Sucessos (Física para nocautear; Social para enganar).
+2. **Recepcionista de Hospital/Cartório:** Dificuldade 6 | Meta: 2 Sucessos (Social para obter registros; Intelectual para distrair).
+3. **Policial Militar em Blitz:** Dificuldade 7 | Meta: 2 Sucessos (Social para evitar revista no porta-malas).
 4. **Informante de Beco Assustado:** Dificuldade 5 | Meta: 1 Sucesso (Social para arrancar fofoca; Mental para ler intenções).
-5. **Decodificar Criptografia da ABIN na Pressa:** Dificuldade 7 | Meta: 4 Sucessos (Tarefa de alta complexidade resolvida em 1 rolagem técnica estendida).
+5. **Decodificar Terminal Local da NOM na Pressa:** Dificuldade 7 | Meta: 4 Sucessos (Tarefa de alta complexidade resolvida em 1 rolagem).
 
 ---
 
-## ⚔️ 4. Nível 2: Ameaças Ativas (Fichas Sintéticas Simétricas)
+## ⚔️ 5. Nível 2: Ameaças Ativas e Conversão 1:1 do Livro M20
 
-Destinado a agentes operacionais treinados, duelos táticos, interrogatórios de alta pressão e confrontos diretos onde o perigo é iminente.
-
-### Regras de Operação no Nível 2:
-* **As 4 Características:** 
-  * `[Oposição]`: Dificuldade para o PJ agir em **ações mundanas** (Atributo + Habilidade).
-  * `[Ameaça]`: Dificuldade para o PJ se defender contra o perigo (Esquiva, Vigor, Autocontrole).
-  * `[Consequência]`: Dano ou estresse fixo sofrido pelo PJ caso falhe em se defender da Ameaça.
-  * `[Relógio]`: Quantidade de sucessos necessários para neutralizar o NPC (seja por dano físico, persuasão social ou dano de padrão mágiko).
-* **Iniciativa Derivada:** $1d10 + (\text{Oposição} + \text{Ameaça} - 8)$.
-* **Assimetria Multidimensional (Brechas Táticas):** Cada perfil possui seu domínio primário e pontos fracos exploráveis em outros domínios.
+Abaixo está o catálogo de conversão direta 1:1 dos arquétipos oficiais de antagonistas conscientes do livro de Mago M20 para a Ficha Sintética Player-Faced (`[Oposição, Ameaça, Consequência, Relógio]`), com Iniciativa Derivada ($1d10 + (\text{Oposição} + \text{Ameaça} - 8)$).
 
 ---
 
-### Catálogo de Perfis Prontos (Nível 2)
+### Tabela Mestre de Conversão 1:1 (Perfis Oficiais M20)
 
-#### A. Tecnocracia: Agente de Campo / Terno Preto (Nova Ordem Mundial)
-* **Domínio Físico (Primário):** `[Oposição: 7]` `[Ameaça: 7]` `[Consequência: 3 (Pistola Pesada)]` `[Relógio: 4]`
-* **Domínio Social (Secundário):** `[Oposição: 6]` `[Ameaça: 6]` `[Consequência: 2 (Intimidação Institucional)]` `[Relógio: 3]`
-* **Domínio Intelectual/Místico (Brecha Tática):** `[Oposição: 5]` `[Ameaça: 5]` `[Consequência: 1]` `[Relógio: 2]`
-* *Iniciativa:* $1d10 + (7 + 7 - 8) = \mathbf{1d10 + 6}$.
-
-#### B. Tecnocracia: Soldado Cibernético de Choque (Iteração X)
-* **Domínio Físico (Supremacia):** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 4 (Canhão de Pulso / Lâmina de Titânio)]` `[Relógio: 6]`
-* **Domínio Místico (Blindagem Tecnológica):** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 3]` `[Relógio: 4]`
-* **Domínio Social (Ponto Cego Absoluto):** `[Oposição: 4]` `[Ameaça: 4]` `[Consequência: 0]` `[Relógio: 2]` *(Não compreende ironia, psicologia reversa ou apelos morais).*
-* *Iniciativa:* $1d10 + (8 + 7 - 8) = \mathbf{1d10 + 7}$.
-
-#### C. Nefandi: Acólito do Vazio (Cultista Corrompido)
-* **Domínio Místico (Entropia e Sangue):** `[Oposição: 7]` `[Ameaça: 7]` `[Consequência: 3 Agravado (Corrupção de Padrão)]` `[Relógio: 4]`
-* **Domínio Social (Fanatismo Perturbador):** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 2 (Abalo Psíquico)]` `[Relógio: 4]`
-* **Domínio Físico (Fragilidade Mortal):** `[Oposição: 5]` `[Ameaça: 5]` `[Consequência: 2 (Adaga Ritual)]` `[Relógio: 3]`
-* *Iniciativa:* $1d10 + (7 + 7 - 8) = \mathbf{1d10 + 6}$.
-
-#### D. Instituições Mortais: Investigador da ABIN / Delegado Federal
-* **Domínio Intelectual (Investigação e Dados):** `[Oposição: 7]` `[Ameaça: 7]` `[Consequência: 3 (Rastreamento / Mandado de Prisão)]` `[Relógio: 4]`
-* **Domínio Social (Autoridade da Lei):** `[Oposição: 6]` `[Ameaça: 6]` `[Consequência: 2]` `[Relógio: 3]`
-* **Domínio Místico (Ponto Cego Completo):** `[Oposição: 4]` `[Ameaça: 4]` `[Consequência: 0]` `[Relógio: 1]` *(Adormecido puro; vulnerável a efeitos arcanos sutis).*
-* *Iniciativa:* $1d10 + (7 + 7 - 8) = \mathbf{1d10 + 6}$.
+| Arquétipo Oficial M20 | Parada Clássica M20 | Oposição (Diff PJ Agir) | Ameaça (Diff PJ Defender) | Consequência (Dano Fixo) | Relógio (Sucessos) | Bônus Iniciativa |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Capanga / Mafioso Mortal** | 4 a 5 dados | **Diff 6** | **Diff 5** | **2 (Pistola .38)** | **3 Caixas** | $+3$ |
+| **Policial / Detetive Civil** | 6 dados | **Diff 6** | **Diff 6** | **3 (Pistola .40)** | **3 Caixas** | $+4$ |
+| **Agente Tático SWAT / BOPE** | 7 dados, Colete | **Diff 7** | **Diff 7** | **3 (Fuzil 5.56)** | **4 Caixas** | $+6$ |
+| **Agente de Campo / MIB (NOM)** | 8 dados, Kevlar, Arete 3 | **Diff 7** | **Diff 7** | **3 (Pesada/Taser)** | **4 Caixas** | $+6$ |
+| **Soldado Cibernético (Iteração X)** | 9 dados, Blindagem 3 | **Diff 8** | **Diff 8** | **4 Agravado (Plasma)** | **6 Caixas** | $+8$ |
+| **Geneticista / Bio-Médico (Progenitores)**| 8 dados Medicina, Arete 3 | **Diff 6 (Fís) / 8 (Bio)**| **Diff 7 (Toxinas)** | **3 Agravado** | **3 Caixas** | $+5$ |
+| **Liquidatário (Sindicato)** | 8 dados Finanças, Hipnose | **Diff 8 (Social)** | **Diff 7 (Chantagem)** | **3 Social/Bens** | **4 Caixas** | $+7$ |
+| **Explorador (Engenheiros do Vazio)** | 7 dados, Traje Espacial | **Diff 7** | **Diff 7** | **3 (Rifle de Pulso)**| **4 Caixas** | $+6$ |
+| **Acólito Nefandi / Cultista do Vazio** | 6 dados, Rituais | **Diff 6 (Fís) / 7 (Míst)**| **Diff 7 (Corrupção)** | **3 Agravado** | **4 Caixas** | $+5$ |
+| **Mestre Nefandi (Caído)** | Arete 5, Esferas 4 | **Diff 8 (Mística)** | **Diff 8 (Entropia)** | **5 Agravado** | **6 Caixas** | $+8$ |
+| **Desaurido (Marauder)** | Arete 4, Quiet Dinâmico | **Diff 7** | **Diff 7** | **4 (Distorção)** | **5 Caixas** | $+6$ |
+| **Mestre Hermético Antagonista** | Arete 4, Forças/Primórdio | **Diff 8 (Mística)** | **Diff 7 (Raios/Fogo)**| **4 Agravado** | **5 Caixas** | $+7$ |
 
 ---
 
-## 🌪️ 5. Nível 3: Eventos de Alto Impacto e Mestres Antagonistas
+### Brechas Táticas e Assimetria Multidimensional
 
-Destinado a líderes de convenção, arqui-inimigos, rituais cósmicos e catástrofes provocadas por antagonistas conscientes. Operam sob a regra de **Ameaça Telegrafada** e **Triângulo Tático**.
-
-### As 3 Decisões Táticas dos Jogadores:
-* **Opção A (Interromper):** O PJ atua diretamente contra o causador para quebrar o rito ou desarmar o golpe (exige bater a Oposição e atingir o Limiar de Dano).
-* **Opção B (Defesa Absoluta):** O PJ sacrifica o avanço do turno para proteger a si mesmo ou aliados contra a Ameaça telegrafada (anula a Consequência com sucessos).
-* **Opção C (Troca Direta / Sacrifício):** O PJ ignora a defesa, assume o dano fixo no próprio corpo e garante avanço crítico no Relógio do objetivo.
+Cada perfil converte seus pontos fracos em brechas táticas claras para os jogadores:
+* **Soldado da Iteração X:** Invencível no combate físico direto (Opo 8 / Ame 8), mas possui **Ponto Cego Social (Opo 4 / Ame 4 / Relógio 2)** caso os magos explorem sua rigidez de programação lógica.
+* **Geneticista dos Progenitores:** Letal com toxinas celulares (Ame 7 Agravado), mas frágil fisicamente em combate corporal direto **(Opo 5 / Ame 5 / Relógio 3)**.
+* **Liquidatário do Sindicato:** Opressor em tribunais e chantagens financeiras (Opo 8), mas vulnerável a ataques místicos sutis de Mente ou Ilusões **(Opo 5 / Relógio 2)**.
+* **Mestre Nefandi:** Supremo em duelos mágikos de Entropia (Opo 8), mas vulnerável caso seja forçado a um combate físico à queima-roupa desarmado **(Opo 6 / Relógio 4)**.
 
 ---
+
+## 🌪️ 6. Nível 3: Eventos de Alto Impacto e Mestres Antagonistas
+
+Destinado a líderes de convenção, arqui-inimigos, rituais cósmicos e catástrofes provocadas por antagonistas conscientes. Operam sob a regra de **Ameaça Telegrafada** e **Triângulo Tático** (Opção A: Interromper, Opção B: Defender 100%, Opção C: Troca Direta).
 
 ### Catálogo de Cenários de Alto Impacto (Nível 3)
 
@@ -137,4 +136,3 @@ Destinado a líderes de convenção, arqui-inimigos, rituais cósmicos e catást
   * `[Ameaça: 7 (Navegar no Caos Físico / Estabilidade Mental)]`
   * `[Consequência: 4 (Paradoxo e Deformação de Padrão)]`
   * `[Relógio do Evento: 5 Caixas]`
-
