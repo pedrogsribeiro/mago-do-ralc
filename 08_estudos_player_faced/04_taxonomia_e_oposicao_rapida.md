@@ -33,17 +33,21 @@ No **Nível 1**, o obstáculo é resolvido instantaneamente pelo jogador. Englob
 
 * **Princípio da Transição Suave:** Para que os jogadores sintam zero impacto mecânico ou choque de transição em relação ao Mago M20 clássico, a escala de Dificuldade para **ações mundanas (Atributo + Habilidade)** permanece centrada na **Dificuldade 6 Padrão do M20**, variando de 5 a 8. Os jogadores rolam suas paradas habituais sem notar que o Narrador deixou de rolar dados.
 * **Ações Mágikas (Arete):** Se o jogador decidir resolver o desafio usando feitiços de Arete, a Dificuldade é definida exclusivamente pelas regras de Mágika de M20 (Esfera Mais Alta $+3/+4/+5$), não sendo modificada pela Dificuldade do obstáculo.
-* **Resolução:** Resolvida em **1 Única Rolagem do Jogador**.
-* **Competência do Opositor ou Complexidade da Tarefa:** Traduzida exclusivamente na **Dificuldade do Dado d10 (Diff 5 a 8)** para ações mundanas.
+* **A Regra de Ouro do Nível 1 (Condições vs. Complexidade):**
+  * **As Condições / Oposição mudam a DIFICULDADE (número-alvo no dado, Diff 5 a 8):** Estresse ambiental, chuva torrencial, ferramentas inadequadas ou a sagacidade do NPC menor.
+  * **A Complexidade da Tarefa muda a QUANTIDADE DE SUCESSOS (A Meta / Relógio de Nível 1):**
+    * **1 Sucesso:** Tarefa simples / rotineira (pular cerca baixa na pressa, notar alguém suspeito).
+    * **2 Sucessos (Padrão):** O limiar de referência para a maioria das tarefas (arrombar fechadura comercial, blefar com guarda de portaria).
+    * **3 a 5 Sucessos (Alta Complexidade):** Tarefas intrincadas que exigem perícia extraordinária (desarmar bomba em 5 segundos, invadir firewall militar criptografado, estabilizar hemorragia arterial sob tiroteio). O jogador precisa atingir a meta estipulada pelo ST para obter Sucesso Pleno; obter menos sucessos gera um Sucesso Parcial com custo proporcional.
 
-### Tabela de Equivalência de Dificuldade do Nível 1:
+### Tabela de Equivalência de Dificuldade e Metas do Nível 1:
 
-| Perfil do Desafio / NPC | Exemplo de Tarefa Estática | Exemplo de NPC Menor | Parada Clássica Equivalente | Dificuldade para o PJ |
-| :---: | :---: | :---: | :---: | :---: |
-| **Fácil / Inepto** | Fechadura simples, pular mureta | Porteiro distraído, pedestre comum | 2 a 3 Dados | **Diff 5** |
-| **Médio / Padronizado** | Trava eletrônica comercial, muro alto | Segurança corporativo, inspetor civil | 4 a 5 Dados | **Diff 6 (Padrão)** |
-| **Difícil / Treinado** | Firewall criptografado, salto na chuva | Agente da ABIN, Policial veterano | 6 a 7 Dados | **Diff 7** |
-| **Muito Difícil / Mestre** | Sistema de segurança militar | Chefe de Segurança, Especialista da NOM | 8 ou + Dados | **Diff 8** |
+| Perfil do Desafio / NPC | Exemplo de Tarefa Estática | Meta Padrão | Dificuldade para o PJ |
+| :---: | :---: | :---: | :---: |
+| **Fácil / Inepto** | Fechadura simples, pular mureta | **1 a 2 Sucessos** | **Diff 5** |
+| **Médio / Padronizado** | Trava eletrônica comercial, muro alto | **2 Sucessos (Padrão)** | **Diff 6 (Padrão)** |
+| **Difícil / Treinado** | Firewall criptografado, salto na chuva | **2 a 3 Sucessos** | **Diff 7** |
+| **Muito Difícil / Mestre** | Sistema militar, enigma de alta segurança | **3 a 5 Sucessos** | **Diff 8** |
 
 ---
 

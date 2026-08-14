@@ -42,18 +42,19 @@ Um princípio absoluto do design Player-Faced para Mago é que **as característ
 
 Destinado a antagonistas descartáveis, obstáculos sociais de rotina ou capangas que servem apenas para drenar recursos ou atrasar os magos.
 
-* **Mecânica Mundana:** O Narrador estabelece a **Dificuldade (5 a 7)** baseada na competência do NPC. O jogador rola Atributo + Habilidade.
+* **Mecânica Mundana:** O Narrador estabelece a **Dificuldade (5 a 7)** pelas condições/oposição e a **Meta de Sucessos (1 a 5)** pela complexidade da tarefa. O jogador rola Atributo + Habilidade.
 * **Mecânica Mágika:** O jogador rola Arete pela Dificuldade Mágika padrão de M20.
-* **Resolução Trinomial:**
-  * **$\ge 2$ Sucessos (Sucesso Pleno):** O obstáculo é superado sem atrito (o guarda é nocauteado em silêncio, o burocrata carimba a autorização, o informante entrega o endereço).
-  * **1 Sucesso (Sucesso com Custo):** O objetivo é alcançado, mas surge uma complicação diegética (o guarda cai fazendo barulho, o burocrata pede propina ou anota a placa, o informante avisa que está sendo vigiado).
+* **Resolução Trinomial Adaptativa:**
+  * **Atingir a Meta Integral ($\ge \text{Meta}$):** **Sucesso Pleno** — O obstáculo é superado sem atrito (o guarda é nocauteado em silêncio, o burocrata carimba a autorização, o informante entrega o endereço).
+  * **Sucesso Parcial ($1$ até $\text{Meta} - 1$):** **Sucesso com Custo** — O objetivo é alcançado, mas surge uma complicação diegética (o guarda cai fazendo barulho, o burocrata pede propina ou anota a placa, o informante avisa que está sendo vigiado).
   * **0 Sucessos (Falha):** O objetivo falha e a situação escala (o alarme toca, a segurança é chamada ou o NPC foge).
 
 ### Exemplos Prontos de Nível 1:
-1. **Segurança Terceirizado de Portaria:** Dificuldade 6 (Física para nocautear furtivo; Social para enganar com crachá falso).
-2. **Recepcionista de Hospital/Cartório:** Dificuldade 6 (Social para obter ficha médica confidencial; Intelectual para distrair com burocracia).
-3. **Policial Militar em Blitz:** Dificuldade 7 (Social para evitar revista no porta-malas cheio de artefatos).
-4. **Informante de Beco Assustado:** Dificuldade 5 (Social para arrancar fofoca; Mental para ler intenções).
+1. **Segurança Terceirizado de Portaria:** Dificuldade 6 | Meta: 2 Sucessos (Física para nocautear furtivo; Social para enganar com crachá falso).
+2. **Recepcionista de Hospital/Cartório:** Dificuldade 6 | Meta: 2 Sucessos (Social para obter ficha médica confidencial; Intelectual para distrair com burocracia).
+3. **Policial Militar em Blitz:** Dificuldade 7 | Meta: 2 Sucessos (Social para evitar revista no porta-malas cheio de artefatos).
+4. **Informante de Beco Assustado:** Dificuldade 5 | Meta: 1 Sucesso (Social para arrancar fofoca; Mental para ler intenções).
+5. **Decodificar Criptografia da ABIN na Pressa:** Dificuldade 7 | Meta: 4 Sucessos (Tarefa de alta complexidade resolvida em 1 rolagem técnica estendida).
 
 ---
 
