@@ -46,13 +46,11 @@ Toda ficha complexa de NPC do livro M20 é sintetizada por **Aspectos Diegético
 
 ## ⏱️ 3. A Ordem de Ação (A Iniciativa Clássica Permanece Intacta)
 
-Um ponto fundamental na transição para o modelo *Player-Faced Total* é que **a regra de Iniciativa não sofre nenhuma alteração em relação ao M20 Clássico**. A economia de ações e a ordem cronológica do combate continuam idênticas.
+Um ponto fundamental na transição para o modelo *Player-Faced Total* é que **a cronologia de turnos e a regra de Iniciativa não sofrem nenhuma alteração em relação ao M20 Clássico**. Os jogadores continuam fazendo em seus turnos exatamente o que sempre fizeram pelas regras do livro básico de M20 (declarando e rolando suas ações mundanas ou mágikas normalmente).
 
-* **A Rolagem de Iniciativa:** PJs e NPCs (rolados pelo Narrador com o Bônus Derivado: $1d10 + (\text{Oposição} + \text{Ameaça} - 8)$) determinam a Iniciativa normalmente no início do combate.
-* **O Turno dos PJs:** Na sua vez da Iniciativa, o jogador declara e rola sua ação:
-  * *Ação Mundana (Física, Social, Técnica):* Rola Atributo + Habilidade contra a **Dificuldade de Oposição** da Ameaça.
-  * *Ação Mágika (Feitiço com Arete):* Rola sua parada de **Arete pela Dificuldade Mágika padrão de M20** (Esfera Mais Alta $+ 3/+4/+5$). A Oposição da ameaça não altera a Dificuldade do Arete; os sucessos obtidos no feitiço são aplicados diretamente para esgotar o Relógio do alvo.
-* **O Turno da Ameaça (NPC, Constructo, Objeto ou Efeito):** Quando chega a vez da ameaça agir na ordem de Iniciativa, **o Narrador não rola dados de ataque**. Ele simplesmente descreve a ação ofensiva do NPC e aponta o alvo. Imediatamente, o PJ alvo rola sua Defesa (Esquiva, Vigor ou Contramágica com Arete) contra a **Dificuldade da Ameaça**. Se o PJ falhar na rolagem, ele sofre automaticamente a **Consequência** (o dano ou estresse fixo).
+* **A Rolagem de Iniciativa:** PJs e Ameaças (com o Bônus Derivado: $1d10 + (\text{Oposição} + \text{Ameaça} - 8)$) determinam a ordem de ação normalmente.
+* **O Turno dos PJs:** Na sua vez da Iniciativa, os jogadores agem normalmente conforme as regras padrão do M20 (rolando contra a Oposição para ações mundanas ou usando as regras próprias de Arete para Mágika).
+* **O Turno da Ameaça (O que realmente muda):** Quando chega a vez da ameaça (NPC, constructo, objeto ou efeito ambiental) agir na ordem de Iniciativa, **o Narrador não rola dados de ataque**. Ele simplesmente descreve a ofensiva diegética e aponta o alvo. Imediatamente, o jogador alvo rola sua Defesa (Esquiva, Vigor ou Contramágica) contra a **Dificuldade da Ameaça**. Se o jogador falhar na rolagem, ele sofre automaticamente a **Consequência** (o dano ou estresse fixo).
 
 ---
 
