@@ -31,9 +31,10 @@ O Narrador (ST) controla a velocidade e o foco da sessão escolhendo o nível de
 
 No **Nível 1**, o obstáculo é resolvido instantaneamente pelo jogador. Engloba tanto **tarefas técnicas/ambientais** (arrombar porta, saltar muro, decodificar arquivo) quanto **atritos com NPCs menores** (guarda de portaria, informante hesitante, motorista em perseguição). A cena **não justifica a abertura de Relógios de Vitalidade nem combate turno a turno**.
 
-* **Princípio da Transição Suave:** Para que os jogadores sintam zero impacto mecânico ou choque de transição em relação ao Mago M20 clássico, a escala de Dificuldade permanece centrada na **Dificuldade 6 Padrão do M20**, variando de 5 a 8. Os jogadores rolam suas paradas habituais (Atributo + Habilidade) sem notar que o Narrador deixou de rolar dados.
+* **Princípio da Transição Suave:** Para que os jogadores sintam zero impacto mecânico ou choque de transição em relação ao Mago M20 clássico, a escala de Dificuldade para **ações mundanas (Atributo + Habilidade)** permanece centrada na **Dificuldade 6 Padrão do M20**, variando de 5 a 8. Os jogadores rolam suas paradas habituais sem notar que o Narrador deixou de rolar dados.
+* **Ações Mágikas (Arete):** Se o jogador decidir resolver o desafio usando feitiços de Arete, a Dificuldade é definida exclusivamente pelas regras de Mágika de M20 (Esfera Mais Alta $+3/+4/+5$), não sendo modificada pela Dificuldade do obstáculo.
 * **Resolução:** Resolvida em **1 Única Rolagem do Jogador**.
-* **Competência do Opositor ou Complexidade da Tarefa:** Traduzida exclusivamente na **Dificuldade do Dado d10 (Diff 5 a 8)**.
+* **Competência do Opositor ou Complexidade da Tarefa:** Traduzida exclusivamente na **Dificuldade do Dado d10 (Diff 5 a 8)** para ações mundanas.
 
 ### Tabela de Equivalência de Dificuldade do Nível 1:
 

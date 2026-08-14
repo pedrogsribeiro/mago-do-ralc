@@ -136,6 +136,7 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Estudo 08** | Simulação Prática de Mesa (Macro-Crônica e Níveis 1 a 3) | [`08_Simulacao_Pratica_da_Mesa.md`](08_estudos_player_faced/08_simulacao_pratica_da_mesa.md) |
 | **Estudo 09** | Guia Prático de Conversão de Fichas de NPCs (Mortais, Criaturas e Espíritos) | [`09_Guia_Pratico_Conversao_de_Fichas_NPC.md`](08_estudos_player_faced/09_guia_pratico_conversao_de_fichas_npc.md) |
 | **Estudo 10** | Ontologia Completa e Catálogo de Obstáculos de Mago sob a Regra de Bronze | [`10_Ontologia_e_Catalogo_de_Obstaculos_de_Mago.md`](08_estudos_player_faced/10_ontologia_e_catalogo_de_obstaculos_de_mago.md) |
+| **Estudo 11** | Domínio 1: Antagonistas Conscientes nos 3 Níveis (Tecnocracia, Nefandi, etc.) | [`11_Dominio_1_Antagonistas_Conscientes.md`](08_estudos_player_faced/11_dominio_1_antagonistas_conscientes.md) |
 
 ---
 

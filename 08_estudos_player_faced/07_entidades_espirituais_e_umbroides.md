@@ -43,17 +43,17 @@ Toda entidade umbróide é sintetizada em uma ficha Player-Faced com **Aspectos 
 ```yaml
 ---
 ameaca: Jaggling da Tempestade (Elementar de Ar e Raios)
-rank_espiritual: Jaggling (Nível 3 - Ameaça Ativa)
+rank_espiritual: Jaggling (Nível 2 - Ameaça Ativa)
 
 aspectos_diegaticos:
   - "[Matéria Efêmera Desmaterializada]": Imune a ataques físicos mundanos (Efeito Zero sem Espírito 3, Primórdio 2 ou Fetiches).
   - "[Aura de Relâmpagos Efêmeros]": Causa estresse eletrostático nos magos ao redor.
 
 bloco_mecanico:
-  imposicao: Diff 7 (Mágico/Espiritual) | Diff 5 (Se usar Fetiche de Banimento)
-  pressao: Diff 6 (Resistir à Fúria dos Relâmpagos)
-  impacto: 4 Danos Agravados / Drenagem de 2 Pontos de Quintessência
-  relogio_essencia: 5 Caixas de Essência Espiritual
+  oposicao: Diff 7 (Ação Mundana com Fetiche) | Limiar de Resistência para Mágika Direta
+  ameaca: Diff 6 (Para o PJ se esquivar ou resistir aos relâmpagos)
+  consequencia: 4 Danos Agravados / Drenagem de 2 Pontos de Quintessência
+  relogio: 5 Caixas de Essência Espiritual
 ---
 ```
 
@@ -61,14 +61,16 @@ bloco_mecanico:
 
 ## 🛡️ 4. Regras de Defesa e Resolução contra Espíritos
 
-### A. Ataque do Mago (Imposição)
-* **Com Espírito 3, Primórdio 2 ou Fetiche (`[Ruína Espiritual]`):** O Mago rola normalmente contra a **Dificuldade de Imposição**. $\ge 2s$ avança 2 Caixas de Essência; $1s$ avança 1 Caixa.
-* **SEM Esfera de Espírito ou Fetiche (Ataque Físico Puro):** Produz **Efeito Zero Absoluto** no Relógio de Essência, embora o espírito possa reagir normalmente.
+### A. Ataque do Mago
+* **Ação Mundana Armada (com Fetiche `[Ruína Espiritual]`):** O Mago rola Destreza + Armas Brancas contra a **Oposição** do espírito. $\ge 2s$ marca 2 Caixas; $1s$ marca 1 Caixa.
+* **Ação Mágika (Arete com Espírito 3 ou Primórdio 2):** O Mago rola sua parada de **Arete pela Dificuldade Mágika padrão de M20** (a Oposição do espírito não altera a Diff do Arete). Cada sucesso de Arete deduz caixas do Relógio de Essência.
+* **SEM Esfera de Espírito ou Fetiche (Ataque Físico Puro):** Produz **Efeito Zero Absoluto** no Relógio de Essência, embora o espírito possa contra-atacar normalmente.
 
-### B. Defesa do Mago contra a Fúria (Pressão)
-* **Com a Esfera de Espírito:** O Mago rola Arete/Espírito contra a **Dificuldade de Pressão** ($Diff 6$).
-* **SEM a Esfera de Espírito (Defesa Desesperada):** O Mago é forçado a rolar seu **Antecedente Avatar** com Dificuldade $+1$ ($Diff 7-8$).
-* **Adormecidos:** Não possuem defesas místicas e recebem o dano de Fúria integralmente sem rolagem de defesa.
+### B. Defesa do Mago contra a Fúria Espiritual
+* **Defesa Mundana (Esquiva Física / Vigor):** O Mago rola Destreza + Esquiva contra a **Dificuldade da Ameaça** ($Diff 6$).
+* **Defesa Mística / Contramágica (Arete + Espírito):** O Mago rola Arete por suas regras próprias de Mágika/Contramágica. Cada sucesso anula 1 nível da Consequência do espírito.
+* **SEM Esfera de Espírito (Defesa de Vontade / Avatar):** O Mago é forçado a resistir com Força de Vontade ou Avatar contra a Ameaça para não ter sua mente abalada.
+* **Adormecidos:** Não possuem percepção mística e recebem a Consequência integralmente sem rolagem de defesa.
 
 ---
 

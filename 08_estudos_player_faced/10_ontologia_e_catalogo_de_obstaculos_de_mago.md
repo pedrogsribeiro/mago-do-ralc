@@ -1,10 +1,10 @@
 ---
 type: regra
-summary: "Estudo 09 do Sistema Player-Faced: Ontologia completa e catálogo de obstáculos específicos de Mago: A Ascensão sob a ótica da Regra de Bronze do Fate Core."
+summary: "Estudo 10 do Sistema Player-Faced: Ontologia completa e catálogo mestre de obstáculos específicos de Mago: A Ascensão sob a ótica da Regra de Bronze do Fate Core."
 tags: [srd, design, player-faced, obstaculos, catalogo, ontologia, fate-fractal, regras]
 ---
 
-# Estudo 09: Ontologia e Catálogo de Obstáculos Específicos de Mago: A Ascensão
+# Estudo 10: Ontologia e Catálogo de Obstáculos Específicos de Mago: A Ascensão
 
 Este documento estabelece o levantamento abrangente de todos os tipos específicos de obstáculos, ameaças e antagonistas diegéticos presentes em *Mago: A Ascensão 20 Anos*, fundamentados na **Regra de Bronze do Fate Core** (*o Fractal de Fate: tudo no cenário pode ser tratado como um personagem com agência, defesas e ações ativas*).
 
@@ -37,6 +37,8 @@ A aplicação da **Regra de Bronze** unifica essa dispersão:
 ---
 
 ### Domínio 1: Antagonistas Conscientes e Facções da Guerra da Ascensão
+> 📖 *Detalhamento completo e catálogo de perfis nos 3 Níveis em: [`Estudo 11: Domínio 1 — Antagonistas Conscientes`](11_dominio_1_antagonistas_conscientes.md)*
+
 NPCs com motivações ideológicas, paradigmas próprios e capacidade de agir em múltiplas dimensões (física, social, mental e mística):
 * **A Tecnocracia (As 5 Convenções):**
   * *Nova Ordem Mundial (NOM):* Homens de Preto (MIB), analistas de mídia, investigadores psicológicos e agentes de desinformação.
