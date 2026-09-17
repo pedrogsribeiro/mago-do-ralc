@@ -1,18 +1,14 @@
 ---
 type: regra
-summary: "Estudo 6 do Sistema Player-Faced: Definição formal do Nível 2 (Ameaça Ativa), simetria das 4 características, mecânica de rodada, prova multidimensional e aplicação universal."
-tags: [srd, design, player-faced, nivel-2, ameaca-ativa, simetria, relogios, regras]
+summary: "Estudo 6 do Sistema Player-Faced: Definição formal do Nível 3 (Ameaça Ativa), simetria das 4 características, mecânica de rodada e aplicação universal."
+tags: [srd, design, player-faced, nivel-3, ameaca-ativa, simetria, relogios, regras]
 ---
 
-# Estudo 06: Nível 2 — Ameaça Ativa e a Simetria das 4 Características
+# Estudo 06: Nível 3 — Ameaça Ativa e a Simetria das 4 Características
 
-Este documento estabelece o funcionamento formal do **Nível 2 (Ameaça Ativa)** no sistema *Player-Faced Total* para *Mago: A Ascensão 20 Anos*. O Nível 2 é utilizado para confrontos estruturados de múltiplos turnos (combates sérios, debates políticos cruciais, duelos virtuais ou perseguições), eliminando 100% das rolagens do Narrador enquanto mantém a profundidade tática e a tensão dramática.
+Este documento estabelece o funcionamento formal do **Nível 3 (Ameaça Ativa)** no sistema *Player-Faced Total* para *Mago: A Ascensão 20 Anos*. O Nível 3 é utilizado para confrontos estruturados de múltiplos turnos (combates sérios, debates políticos cruciais, duelos virtuais ou perseguições), eliminando 100% das rolag## 🌐 1. As 4 Dimensões de Conflito em Mago M20
 
----
-
-## 🌐 1. As 4 Dimensões de Conflito em Mago M20
-
-O Nível 2 opera como um **Motor Universal de Conflito** estruturado nas 4 Dimensões do jogo:
+O Nível 3 não é um "sistema de combate físico". Ele é um **Motor Universal de Conflito** aplicável às 4 Dimensões do jogo:
 
 ```
 +-----------------------------------------------------------------------------------------+
@@ -21,7 +17,7 @@ O Nível 2 opera como um **Motor Universal de Conflito** estruturado nas 4 Dimen
 |  1. DIMENSÃO FÍSICO-CORPORAL    ==> Combates, tiros, atletismo, perseguições físicas.   |
 |  2. DIMENSÃO SOCIAL-IDEOLÓGICA  ==> Debates, lábia, intimidação, política, autoridade.  |
 |  3. DIMENSÃO INTELECTUAL-TÉCNICA==> Hacking, enigmas, ciência, criptografia, pesquisa.  |
-|  4. DIMENSÃO MÍSTICO-ARCANA     ==> Duelos de Esferas, contramágica, rituais e Umbra.   |
+|  4. DIMENSÃO MÍSTICO-ARCANA     ==> Duelos de Esferas, contramágica, disputa de Nódulos. |
 +-----------------------------------------------------------------------------------------+
 ```
 
@@ -33,117 +29,94 @@ Toda ficha complexa de NPC do livro M20 é sintetizada por **Aspectos Diegético
 
 ```
 +-----------------------------------------------------------------------------------------+
-|                  SIMETRIA DA FICHA DE AMEAÇA ATIVA (NÍVEL 2)                            |
+|                  SIMETRIA DA FICHA DE AMEAÇA ATIVA (NÍVEL 3)                            |
 |                                                                                         |
-|  Item 1: Como o NPC se defende do PJ    ==> Dificuldade de Oposição ao PJ (5 a 8)      |
-|  Item 2: Como o PJ se defende do NPC    ==> Dificuldade da Ameaça sobre o PJ (5 a 8)   |
-|  Item 3: O impacto que o PJ sofre       ==> Consequência (5 Formas de Impacto)          |
-|  Item 4: O dano/estresse que o NPC sofre==> Relógios de Resolução por Domínio (3 a 7)  |
+|  Item 1: Como o NPC se defende do PJ    ==> Dificuldade de Imposição do PJ (5 a 8)     |
+|  Item 2: Como o PJ se defende do NPC    ==> Dificuldade de Pressão sobre o PJ (5 a 8)   |
+|  Item 3: O dano/estresse que o PJ sofre ==> Severidade do Impacto (2 a 5 Fixos)         |
+|  Item 4: O dano/estresse que o NPC sofre==> Relógios de Resolução por Domínio (3 a 7)   |
 +-----------------------------------------------------------------------------------------+
 ```
 
-### A Tipologia Unificada da `[Consequência]` por Dimensão
-
-A Consequência conecta-se diretamente às formas de desgaste e registros já existentes na ficha do jogador de *Mago M20*:
-
-1. **Vitalidade (Dano Físico e Místico):** Redução direta de caixas de Vitalidade do PJ (Contundente, Letal ou Agravado).
-   * *Aplicações:* Balística, lâminas, descargas elétricas e ataques celulares de Vida/Entropia.
-2. **Força de Vontade Temporária:** Redução de 1 a 3 pontos de Força de Vontade temporária do PJ.
-   * *Aplicações:* Humilhação social, intimidação moral, estresse cognitivo, choque psíquico e terror sobrenatural.
-3. **Antecedentes:** Degradação temporária ou bloqueio de recursos do PJ.
-   * *Aplicações:* Congelamento de Recursos bancários, isolamento de Contatos, exposição de Santuário ou dano estrutural em Fetiches.
-4. **Condições Diegéticas de Estado:** Imposição de estados táticos no PJ.
-   * *Aplicações:* Caído, Desarmado, Atordoado por 1 rodada, Exposto publicamente, Aprisionado em Estase de Tempo ou Deslocado no Espaço.
-5. **Gatilhos de Cenário:** Alteração do estado do ambiente ou escalação do conflito.
-   * *Aplicações:* Desabamento de estruturas, acionamento de alarmes da rede, entrada da polícia/imprensa na sala ou rasgo na Película penumbral.
-
-> 🔮 **Diretriz sobre a Dimensão Mística:** A oposição mística atua prioritariamente através de **Efeitos Místicos** traduzidos nas 5 formas fundamentais (Dano, Vontade, Antecedentes, Condições ou Gatilhos de Cenário). 
-> 
-> * **Exceções Específicas e Ultra-Raras:**
->   * **Dreno de Quintessência:** Ocorre exclusivamente contra ameaças dotadas da Esfera de **Primórdio (Prime 3+)** ou artefatos/constructos desenhados especificamente para sifonar energia do Avatar.
->   * **Impacto em Paradoxo:** Ocorre exclusivamente em confrontos diretos contra **Espíritos de Paradoxo** ou anomalias onde a própria realidade pune o mago.
->   * Por se tratarem de recursos vitais da soberania do jogador, o Storyteller deve dimensionar essas duas consequências com rigor e parcimônia em momentos culminantes da Crônica.
-
 ---
 
-## ⏱️ 3. A Ordem de Ação (A Iniciativa Clássica Permanece Intacta)
-
-Um ponto fundamental na transição para o modelo *Player-Faced Total* é que **a cronologia de turnos e a regra de Iniciativa não sofrem nenhuma alteração em relação ao M20 Clássico**. Os jogadores continuam fazendo em seus turnos exatamente o que sempre fizeram pelas regras do livro básico de M20 (declarando e rolando suas ações mundanas ou mágikas normalmente).
-
-* **A Rolagem de Iniciativa:** PJs e Ameaças (com o Bônus Derivado: $1d10 + (\text{Oposição} + \text{Ameaça} - 8)$) determinam a ordem de ação normalmente.
-* **O Turno dos PJs:** Na sua vez da Iniciativa, os jogadores agem normalmente conforme as regras padrão do M20 (rolando contra a Oposição para ações mundanas ou usando as regras próprias de Arete para Mágika).
-* **O Turno da Ameaça (O que realmente muda):** Quando chega a vez da ameaça (NPC, constructo, objeto ou efeito ambiental) agir na ordem de Iniciativa, **o Narrador não rola dados de ataque**. Ele simplesmente descreve a ofensiva diegética e aponta o alvo. Imediatamente, o jogador alvo rola sua Defesa (Esquiva, Vigor ou Contramágica) contra a **Dificuldade da Ameaça**. Se o jogador falhar na rolagem, ele sofre automaticamente a **Consequência** (o dano ou estresse fixo).
-
----
-
-## 📊 4. Prova Matemática Multidimensional (50.000 Simulações por Categoria)
+## 📊 3. Prova Matemática Multidimensional (50.000 Simulações por Categoria)
 
 Simulamos o desempenho de **PJs Ineptos (3d)**, **HÁBEIS (5d)** e **MESTRES (7d)** enfrentando 3 Antagonistas reais do livro de M20 em diferentes dimensões de conflito:
 
 ### 1. Cientista Extraordinário (NOM / Tecnocracia)
-* **Domínio Intelectual (Opo: 7, Ame: 6, Cons: 3, Relógio: 5):**
+* **Domínio Intelectual (Diff Imp: 7, Diff Pres: 6, Dano: 3, Relógio: 5):**
   * *PJ Inepto (3d):* Taxa de Vitória **$81,4\%$** | Rodadas Médias: **5,16 r** | Recurso Restante: **4,05 / 7**
   * *PJ Hábil (5d):* Taxa de Vitória **$98,2\%$** | Rodadas Médias: **4,25 r** | Recurso Restante: **5,36 / 7**
   * *PJ Mestre (7d):* Taxa de Vitória **$99,8\%$** | Rodadas Médias: **3,77 r** | Recurso Restante: **6,05 / 7**
-* **Domínio Físico (Opo: 5, Ame: 5, Cons: 2, Relógio: 3 — Ponto Fraco!):**
+* **Domínio Físico (Diff Imp: 5, Diff Pres: 5, Dano: 2, Relógio: 3 — Ponto Fraco!):**
   * *PJ Inepto (3d):* Taxa de Vitória **$99,9\%$** | Rodadas Médias: **2,61 r** (Nocaute em 2 turnos).
 
 ### 2. Agente Terno Preto (Tecnocracia)
-* **Domínio Físico (Opo: 7, Ame: 7, Cons: 4, Relógio: 5):**
+* **Domínio Físico (Diff Imp: 7, Diff Pres: 7, Dano: 4, Relógio: 5):**
   * *PJ Inepto (3d):* Taxa de Vitória **$67,4\%$** | Rodadas Médias: **4,74 r** (Combate altamente perigoso para um novato).
   * *PJ Hábil (5d):* Taxa de Vitória **$93,4\%$** | Rodadas Médias: **4,17 r** | Recurso Restante: **5,15 / 7**
   * *PJ Mestre (7d):* Taxa de Vitória **$98,7\%$** | Rodadas Médias: **3,75 r** | Recurso Restante: **5,84 / 7**
-* **Domínio Social (Opo: 6, Ame: 6, Cons: 3, Relógio: 3 — Brecha Tática!):**
+* **Domínio Social (Diff Imp: 6, Diff Pres: 6, Dano: 3, Relógio: 3 — Brecha Tática!):**
   * *PJ Inepto (3d):* Taxa de Vitória **$97,3\%$** | Rodadas Médias: **2,92 r** (Desarmado ideologicamente com facilidade).
 
 ### 3. Mestre Hermético Antagonista (Ordem de Hermes)
-* **Domínio Místico (Opo: 8, Ame: 7, Cons: 4, Relógio: 6 — Supremacia Arcana!):**
+* **Domínio Místico (Diff Imp: 8, Diff Pres: 7, Dano: 4, Relógio: 6 — Supremacia Arcana!):**
   * *PJ Inepto (3d):* Taxa de Vitória **$34,2\%$** (Um Mago novato tentando duelo mágico direto é massacrado!).
   * *PJ Hábil (5d):* Taxa de Vitória **$75,7\%$** | Rodadas Médias: **5,64 r** | Recurso Restante: **4,17 / 7**
   * *PJ Mestre (7d):* Taxa de Vitória **$92,0\%$** | Rodadas Médias: **5,15 r** | Recurso Restante: **4,95 / 7**
-* **Domínio Intelectual (Opo: 7, Ame: 6, Cons: 3, Relógio: 4 — Brecha no Ritual!):**
+* **Domínio Intelectual (Diff Imp: 7, Diff Pres: 6, Dano: 3, Relógio: 4 — Brecha no Ritual!):**
   * *PJ Inepto (3d):* Taxa de Vitória **$87,9\%$** | Rodadas Médias: **4,27 r** (Apontar falhas lógicas no ritual é muito mais viável!).
 
 ---
 
-## 💡 5. Conclusão da Análise Multidimensional
+## 💡 4. Conclusão da Análise Multidimensional
 
 1. **Recompensa à Inteligência Tática:** A simulação prova que os jogadores são recompensados ao identificar o **Ponto Fraco no Campo Semântico** da ameaça (ex: usar a via Social contra o Terno Preto ou a via Intelectual contra o Mestre Hermético).
-2. **Preservação de Recursos:** Personagens treinados vencem confrontos mantendo a maioria de seus recursos (HP/Vontade), enquanto novatos saem seriamente feridos/desgastados.
-3. **Redução de Tempo na Mesa:** O tempo real de resolução é reduzido em **85%** em relação ao M20 clássico.
+3. **Preservação de Recursos:** Personagens treinados vencem confrontos mantendo a maioria de seus recursos (HP/Vontade), enquanto novatos saem seriamente feridos/desgastados.
+4. **Redução de Tempo na Mesa:** O tempo real de resolução é reduzido em **85%** em relação ao M20 clássico.
 
 ---
 
-## 🚪 6. O Limiar de Sucessos (Blindagens, Barreiras e Regra do Efeito Zero)
+## 🛡️ 5. Resistência a Dano (RD) e Resolução de Impactos
 
-O sistema substitui redutores de dano e cálculos de absorção pelo **Limiar de Sucessos (Threshold of Effect)**:
+Para garantir a premissa de que **nada muda para o jogador**, a forma como os "Impactos" afetam o Relógio do NPC depende da Dimensão do Conflito:
 
-* **Limiar Padrão (Sem Blindagem Especial):**
-  * Cada sucesso líquido avança o Relógio da Ameaça ($1s = 1$ Caixa; $\ge 2s = 2$ Caixas).
-* **Limiar 2 (Armadura Leve / Kevlar / Inimigo de Elite):**
-  * **$\ge 2$ Sucessos (Ação Qualificada):** Rompe a proteção e marca **2 Caixas no Relógio**.
-  * **1 Sucesso (Acerto Superficial):** Produz **Efeito Zero no Relógio** ($0$ Caixas marcadas). O PJ obtém apenas uma vantagem posicional secundária (ex: ganha terreno ou desestabiliza o alvo), mas não reduz a integridade da ameaça.
-* **Limiar 3 (Super-Blindagens / Titânio / Golens / Hit-Marks):**
-  * Exige **$\ge 3$ Sucessos** para romper a couraça material ou mística e marcar caixas no Relógio.
+* **Em Combates Físicos e Místicos:** O jogador rola o Dano de suas armas ou feitiços **normalmente** (como previsto no M20). O Relógio de Vitalidade do NPC atua como a trilha de vida clássica. A Resistência a Dano Fixo (RD) atua subtraindo o dano final rolado pelo PJ (ex: RD 2 reduz 2 caixas de dano recebido, simulando a Absorção).
+* **Em Conflitos Sociais e Intelectuais (Testes Estendidos):** Como não há "rolagem de dano" no Hacking ou na Política, a progressão é ditada diretamente pelos sucessos líquidos do jogador:
 
----
-
-### 🎯 O Ganho Ludológico: Fim do "Efeito Picada de Mosquito"
-
-O **Limiar de Sucessos** impede que ameaças pesadas sejam derrotadas por ataques fracos e repetitivos, estimulando **Tática e Cooperação Arcana**:
-1. **Trabalho em Equipe:** Criação de vantagens de combate para fornecer dados extras ao atacante principal.
-2. **Canalização de Quintessência:** O Mago investe Quintessência livre para garantir sucessos automáticos e ultrapassar o Limiar.
-3. **Mágika de Amplificação:** Combinações de Esferas (Forças, Matéria, Primórdio) para desferir feitiços de alta potência ($\ge 2s$).
+### Tabela de Progressão Social/Mental (RD e Impactos):
+* **RD 0 (Despreparado):** Sofre impactos normais da ação ($\ge 2$ sucessos líquidos = 2 Impactos/Caixas preenchidas; 1 sucesso líquido = 1 Impacto).
+* **RD 1 (Argumentação Firme / Firewall Leve):** Anula o impacto de **Acertos Parciais (1 Sucesso)**. O PJ obtém uma vantagem menor (como desestabilizar), mas não causa avanço no Relógio principal.
+* **RD 2 (Fanatismo Dogmático / Criptografia Pesada):** Reduz em **1 Impacto TODO acerto** ($\ge 2s = 1$ Impacto; $1s = 0$ Impactos).
 
 ---
 
-### Prova Estatística de Impacto do Limiar de Sucessos (50.000 Simulações):
+## 🚪 6. Limiar Mínimo de Efetividade (Threshold Gate / Regra de Efeito Zero)
 
-| Tier do PJ | Limiar Padrão (1s marca 1 Caixa) | Limiar 2 (1s = Efeito Zero no Relógio) | Impacto Ludológico no Conflito |
+Uma alternativa infinitamente superior aos redutores numéricos de dano é a **Regra do Limiar Mínimo de Efetividade (Gatekeeper of Effect)**:
+
+* **Regra do Efeito Zero:** Ameaças de grande porte, vilões climáticos ou estruturas pesadas possuem um **Limiar Mínimo = 2**.
+* **Mecânica da Mesa:**
+  * **$\ge 2$ Sucessos (Ação Qualificada):** Ação possui potência/técnica suficiente para romper a barreira da ameaça e marca **2 Caixas no Relógio de Vitória**.
+  * **1 Sucesso (Acerto Fraco / Inefetivo na Estrutura):** Produz **Efeito Zero no Relógio** ($0$ Caixas marcadas). O PJ obtém apenas uma pequena vantagem narrativa secundária (ex: ganha posição, desestabiliza o alvo ou evita o pior), sofrendo a complicação de raspão habitual, **mas não reduz a integridade da ameaça**.
+
+### 🎯 O Maior Ganho Ludológico: Fim do "Efeito Picada de Mosquito"
+
+Sem o Limiar Mínimo, jogadores tendem a derrotar ameaças épicas picando "soquim por soquim" (ataques fracos repetitivos de 1 em 1 ponto), o que destrói a verossimilhança dramática da cena.
+
+Ao implementar o **Limiar Mínimo = 2**, o jogo força o grupo de PJs a operar com **Tática e Cooperação Arcana**:
+1. **Trabalho em Equipe:** Um PJ usa sua ação para criar uma Vantagem (`[Vulnerável]`), garantindo dados extras ao aliado.
+2. **Gasto de Quintessência:** O Mago canaliza Quintessência livre para garantir sucessos automáticos e ultrapassar a barreira de 2 sucessos.
+3. **Mágika de Amplificação:** Uso de Esferas para criar ritos conjuntos que garantem acertos qualificados ($\ge 2s$).
+
+### Prova Estatística de Impacto do Limiar Mínimo (50.000 Simulações):
+
+| Tier do PJ | Modelo Padrão (1s marca 1 Caixa) | Modelo Limiar Mínimo 2 (1s = Efeito Zero no Relógio) | Impacto Ludológico no Conflito |
 | :--- | :---: | :---: | :--- |
-| **PJ Inepto (3d)** | Vitória: **$59,9\%$** | Vitória: **$41,4\%$** | **Filtro Severo:** Exige cooperação tática ou auxílio místico. |
-| **PJ Hábil (5d)** | Vitória: **$91,3\%$** | Vitória: **$85,8\%$** | **Desafio Moderado:** Exige foco sem travar a cena. |
-| **PJ Mestre (7d)** | Vitória: **$98,2\%$** | Vitória: **$97,1\%$** | **Fluidez Total:** O especialista supera a barreira de efetividade naturalmente. |
+| **PJ Inepto (3d)** | Vitória: **$59,9\%$** | Vitória: **$41,4\%$** | **Filtro Severo:** Impede derrotar o chefe picando soquim; força cooperação/Quintessência. |
+| **PJ Hábil (5d)** | Vitória: **$91,3\%$** | Vitória: **$85,8\%$** | **Desafio Moderado:** Exige foco tático sem travar a cena. |
+| **PJ Mestre (7d)** | Vitória: **$98,2\%$** | Vitória: **$97,1\%$** | **Praticamente Nulo:** O especialista supera a barreira de efetividade naturalmente. |
 
 ---
 
@@ -153,10 +126,14 @@ O **Limiar de Sucessos** impede que ameaças pesadas sejam derrotadas por ataque
 Ergonomia Cognitiva é a medida do **quão leve, intuitivo e sem atrito mental** é o sistema de regras para a mente humana durante a sessão ao vivo.
 
 * **Baixa Ergonomia (Mago M20 Clássico):**
-  * O Narrador gerencia cerca de 50 atributos por NPC, rola dados de ataque, dados de esquiva, dados de dano e dados de absorção.
-  * *Resultado:* Cansaço mental do Narrador, combates lentos e perda de ritmo dramático.
+  * O Narrador gerencia 30 atributos por NPC, rola dados de ataque, dados de esquiva, dados de dano e dados de absorção.
+  * *Consequência:* Cansaço mental severo do Narrador, combates lentos (45 min) e paralisação do ritmo narrativo.
 * **Alta Ergonomia (Sistema Player-Faced Total):**
   * O Narrador rola **0 dados**.
-  * A oposição é sintetizada em **4 Fatores Simétricos** (`[Oposição, Ameaça, Consequência, Relógio]`).
-  * Uma única rolagem do jogador responde simultaneamente ao sucesso e às consequências.
-  * *Resultado:* Energia mental do Narrador 100% preservada para a condução da história, interpretação dos antagonistas e descrição do mundo.
+  * A ficha do NPC é resumida em **3 linhas (Fator de Ameaça)**.
+  * Uma única rolagem do jogador responde *"Consegui?"* e *"Qual a consequência?"* simultaneamente.
+  * *Consequência:* 100% da energia mental do Narrador permanece disponível para a condução dramática, interpretação de papéis e construção da atmosfera.
+
+
+
+

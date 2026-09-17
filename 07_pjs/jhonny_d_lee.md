@@ -22,7 +22,7 @@ status: ativo
 ## Habilidades
 * **Talentos:** Prontidão 2, Artes 2, Esportes 3, Briga 4, Intimidação 1, Manha 1  
 * **Perícias:** Armas de Fogo 1, Artes Marciais 4, Armas Brancas 2, Furtividade 2  
-* **Conhecimentos:** Cosmologia 1, Medicina 2, Ocultismo 2  
+* **Conhecimentos:** Acadêmicos (Linguística: Chinês Fluente - acessado via Vidas Passadas) 2, Cosmologia 1, Medicina 2, Ocultismo 2  
 
 ## Esferas e Areté
 * **Areté:** 3  
@@ -33,10 +33,11 @@ status: ativo
 * Recursos 2  
 * Fama 1  
 * Avatar 3  
-* Vidas Passadas 2  
+* **Vidas Passadas 2:** Revelado em jogo — Jhonny é a **reencarnação do Defensor**, uma entidade/guerreiro protetor ancestral que reencarna periodicamente na Terra em épocas de grave desequilíbrio cósmico/espiritual. Ao canalizar essa memória, recuperou a fala e a compreensão fluente do **idioma Chinês**.
 
 ## Foco e Ferramentas
 * **Ferramentas Utilizadas:** Corpo, Pós e Digitação (Acupressão/Digitopressão), Cantos, Alimentos, Geometria Sagrada, Domínio Social, Dinheiro e Riqueza.  
 
 ### Histórico na Crônica
 * **[Sessao_00](../04_sessoes/sessao_00.md):** Ficha inserida e catalogada no banco de dados de PJs.
+* **[Sessao_01](../04_sessoes/sessao_01_framework.md):** No Centro de Treinamento do Sr. Hu, Lee realizou uma rolagem bem-sucedida de **Vidas Passadas**, descobrindo sua identidade cármica como a reencarnação do **Defensor cíclico da Terra**, acessando instantaneamente a fluência do idioma Chinês preservada nessa encarnação prévia.

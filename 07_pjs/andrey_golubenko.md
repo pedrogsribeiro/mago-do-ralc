@@ -33,9 +33,10 @@ status: ativo
 * Contatos 2  
 * Recursos 1  
 * Mentor 2  
+* **Pai:** [Vladmir Golubenko](../02_npcs/vladmir_golubenko.md) (Magnata / Dono do Golub Esporte Clube)
 
 ## Foco e Ferramentas
-* **Ferramentas Utilizadas:** Fumaça de Cigarro, Moeda de Prata do Pai, Isqueiro de Prata, Faca de Combate de Prata, Moedas de Prata, Crânio da Primeira Vítima, [Sangue](../06_itens/sangue.md).  
+* **Ferramentas Utilizadas:** Fumaça de Cigarro, Moeda de Prata do Pai ([Vladmir Golubenko](../02_npcs/vladmir_golubenko.md)), Isqueiro de Prata, Faca de Combate de Prata, Moedas de Prata, Crânio da Primeira Vítima, [Sangue](../06_itens/sangue.md).  
 
 ## Rotinas de Magia (Entropia)
 * **Marlboro Provável:** Trago o cigarro e solto muita fumaça para ver números e probabilidades sobre uma determinada situação.

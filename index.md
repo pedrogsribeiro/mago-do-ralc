@@ -31,6 +31,8 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Elizabeth Barcelos** | Adormecida | Pesquisadora infectologista da vacina da pandemia de 2019-2022 | [`Elizabeth_Barcelos.md`](02_npcs/elizabeth_barcelos.md) |
 | **Joana Pipoquinha** | Espírito | Espírito da filha falecida de Lizander que odeia mágika | [`Joana_Pipoquinha.md`](02_npcs/joana_pipoquinha.md) |
 | **Lizander (Filho do Raio)** | Desperto | Mestre de Forças extremista usando trauma da pandemia para alimentar Quintessência | [`Lizander_Filho_do_Raio.md`](02_npcs/lizander_filho_do_raio.md) |
+| **Madame Clotilde** | Desperta | Cartomante de circo Verbena (Arete 4), Mentora de Lily e Nina | [`Madame_Clotilde.md`](02_npcs/madame_clotilde.md) |
+| **Vladmir Golubenko** | Adormecido | Magnata (1,90 m, frio), dono do Golub Esporte Clube e pai de Andrey | [`Vladmir_Golubenko.md`](02_npcs/vladmir_golubenko.md) |
 
 ---
 
@@ -38,6 +40,7 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 
 | Local | Descrição Diegética | Arquivo |
 | :--- | :--- | :--- |
+| **Circo Itinerante** | Circo urbano itinerante e tenda mística de Madame Clotilde | [`Circo_Itinerante.md`](03_lugares/circo_itinerante.md) |
 | **Fábrica Pasta da Nona** | Instalação industrial abandonada reutilizada como laboratório ou refúgio | [`Fabrica_Pasta_da_Nona.md`](03_lugares/fabrica_pasta_da_nona.md) |
 | **Sets de Filmagem SP** | Estúdios e sets urbanos de São Paulo usados pela mídia e entretenimento | [`Sao_Paulo_Sets_de_Filmagem.md`](03_lugares/sao_paulo_sets_de_filmagem.md) |
 | **Sede Data Center** | Centro de dados corporativo de alta segurança sob vigilância da Tecnocracia/ABIN | [`Sede_Data_Center.md`](03_lugares/sede_data_center.md) |
@@ -57,6 +60,7 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Pastafarianos** | Grupo satírico/místico manipulador do Paradoxo e crença popular | [`Pastafarianos.md`](05_faccoes/pastafarianos.md) |
 | **Povos da Floresta** | Xamãs e guardiões da Umbra Profunda e espíritos da natureza | [`Povos_da_Floresta.md`](05_faccoes/povos_da_floresta.md) |
 | **Tecnocracia** | União Tecnocrática dedicada ao controle do Consenso e erradicação do misticismo | [`Tecnocracia.md`](05_faccoes/tecnocracia.md) |
+| **Verbena** | Tradição mística de sangue, vida, bruxaria primal e ciclos naturais | [`Verbena.md`](05_faccoes/verbena.md) |
 
 ---
 
@@ -76,6 +80,7 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | :--- | :--- | :--- |
 | **Sessão 00** | Criação de personagens, alinhamento de expectativas e premissa | [`Sessao_00.md`](04_sessoes/sessao_00.md) |
 | **Sessão 01** | Framework de introdução e abertura dos arcos dramáticos | [`Sessao_01_Framework.md`](04_sessoes/sessao_01_framework.md) |
+| **Sessão 02** | O Segredo do Macarrão da Nona: Triangulação, Fábrica e Carlito | [`Sessao_02_Fabrica_Pasta_da_Nona.md`](04_sessoes/sessao_02_fabrica_pasta_da_nona.md) |
 
 ---
 

@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mago M20 — Painel do Cenário Minimalista</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #090b10;
+      --panel-bg: #11141d;
+      --card-bg: #161a26;
+      --card-hover: #1c2233;
+      --border: #232838;
+      --border-light: #2f364c;
+      
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      --presente: #f43f5e;
+      --presente-bg: rgba(244, 63, 94, 0.08);
+      --presente-border: rgba(244, 63, 94, 0.3);
+      
+      --futuro: #8b5cf6;
+      --futuro-bg: rgba(139, 92, 246, 0.08);
+      --futuro-border: rgba(139, 92, 246, 0.3);
+      
+      --legado: #f59e0b;
+      
+      --pos: #10b981;
+      --pos-bg: rgba(16, 185, 129, 0.12);
+      
+      --neg: #ef4444;
+      --neg-bg: rgba(239, 68, 68, 0.12);
+      
+      --neu: #06b6d4;
+      --neu-bg: rgba(6, 182, 212, 0.12);
+      
+      --local: #38bdf8;
+      --local-bg: rgba(56, 189, 248, 0.1);
+      
+      --radius: 10px;
+      --radius-sm: 6px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0.75rem 1rem 2rem;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    /* TOP BAR COMPACT */
+    .top-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.5rem 0.8rem;
+      background: var(--panel-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .nav-title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .nav-badge {
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 0.15rem 0.45rem;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 4px;
+      color: var(--text-muted);
+    }
+
+    .nav-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex: 1;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+
+    .search-input {
+      background: #0d1017;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.35rem 0.7rem;
+      color: #fff;
+      font-size: 0.78rem;
+      width: 220px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-input:focus {
+      border-color: var(--neu);
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      padding: 0.3rem 0.6rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .filter-btn:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: #fff;
+    }
+    .filter-btn.active {
+      background: var(--neu-bg);
+      border-color: var(--neu);
+      color: #fff;
+    }
+
+    /* THREE-COLUMN GRID */
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 280px minmax(420px, 1fr) 260px;
+      gap: 0.75rem;
+      align-items: start;
+    }
+
+    @media (max-width: 1024px) {
+      .grid-layout {
+        grid-template-columns: 1fr;
+      }
+      .center-col {
+        order: -1;
+      }
+    }
+
+    /* PANELS */
+    .col-panel {
+      background: var(--panel-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .col-header {
+      padding: 0.6rem 0.85rem;
+      background: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text);
+    }
+
+    .col-header span.tag-count {
+      font-size: 0.68rem;
+      font-weight: 600;
+      color: var(--text-dim);
+      background: rgba(255, 255, 255, 0.05);
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+    }
+
+    .col-body {
+      padding: 0.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+      max-height: calc(100vh - 110px);
+      overflow-y: auto;
+    }
+
+    /* COMPACT CARDS (ROSTOS & LOCAIS) */
+    .mini-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.55rem 0.65rem;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .mini-card:hover {
+      background: var(--card-hover);
+      border-color: var(--border-light);
+      transform: translateX(2px);
+    }
+
+    .mini-card.highlighted {
+      border-color: var(--neu) !important;
+      background: #1c263d !important;
+    }
+    .mini-card.dimmed {
+      opacity: 0.28;
+    }
+
+    .card-row-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.4rem;
+    }
+
+    .card-name {
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: #fff;
+      white-space: normal;
+      line-height: 1.2;
+    }
+
+    .badge {
+      font-size: 0.62rem;
+      font-weight: 600;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .badge-pos {
+      background: var(--pos-bg);
+      color: #6ee7b7;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .badge-neg {
+      background: var(--neg-bg);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.3);
+    }
+
+    .badge-neu {
+      background: var(--neu-bg);
+      color: #7dd3fc;
+      border: 1px solid rgba(6, 182, 212, 0.3);
+    }
+
+    .badge-local {
+      background: var(--local-bg);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    .card-sub {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      line-height: 1.35;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.65rem;
+      color: var(--text-dim);
+      padding-top: 0.25rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.03);
+    }
+
+    /* CENTER COLUMN: OS DOIS PROBLEMAS CENTRAIS */
+    .center-col {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .problem-card {
+      background: var(--panel-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.7rem;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .problem-card.prob-pres {
+      border-top: 3px solid var(--presente);
+      background: linear-gradient(180deg, var(--presente-bg) 0%, var(--panel-bg) 35%);
+    }
+
+    .problem-card.prob-fut {
+      border-top: 3px solid var(--futuro);
+      background: linear-gradient(180deg, var(--futuro-bg) 0%, var(--panel-bg) 35%);
+    }
+
+    .problem-card.prob-leg {
+      border-top: 3px solid var(--legado);
+      background: linear-gradient(180deg, rgba(245, 158, 11, 0.08) 0%, var(--panel-bg) 35%);
+    }
+
+    .problem-card.highlighted {
+      box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+    }
+
+    .prob-meta-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .prob-type {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+
+    .prob-pres .prob-type { color: var(--presente); }
+    .prob-fut .prob-type { color: var(--futuro); }
+    .prob-leg .prob-type { color: var(--legado); }
+
+    .prob-status {
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-muted);
+    }
+
+    .prob-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.25;
+    }
+
+    .prob-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* DUO DE ROSTOS DO PROBLEMA */
+    .faces-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+      background: #0b0d14;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.55rem;
+    }
+
+    .face-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.5rem 0.6rem;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .face-box:hover {
+      background: var(--card-hover);
+      border-color: var(--border-light);
+    }
+
+    .face-box.face-pos {
+      border-left: 3px solid var(--pos);
+    }
+
+    .face-box.face-neg {
+      border-left: 3px solid var(--neg);
+    }
+
+    .face-box-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.3rem;
+    }
+
+    .face-box-name {
+      font-weight: 600;
+      font-size: 0.78rem;
+      color: #fff;
+    }
+
+    .face-box-badge {
+      font-size: 0.58rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 0.1rem 0.3rem;
+      border-radius: 3px;
+    }
+
+    .face-box-desc {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      line-height: 1.3;
+    }
+
+    /* LOCAIS CONECTADOS TAGS */
+    .prob-locations {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.68rem;
+      color: var(--text-dim);
+    }
+
+    .loc-chip {
+      background: rgba(56, 189, 248, 0.08);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      border-radius: 4px;
+      padding: 0.15rem 0.45rem;
+      color: #7dd3fc;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .loc-chip:hover {
+      background: rgba(56, 189, 248, 0.2);
+      color: #fff;
+    }
+
+    /* TOGGLE PROBLEMA LEGADO */
+    .toggle-legado-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.45rem;
+      background: transparent;
+      border: 1px dashed var(--border);
+      border-radius: var(--radius-sm);
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 0.72rem;
+      font-weight: 600;
+      transition: all 0.15s;
+    }
+    .toggle-legado-bar:hover {
+      border-color: var(--legado);
+      color: var(--legado);
+    }
+
+    .legado-block {
+      display: none;
+    }
+    .legado-block.open {
+      display: flex;
+    }
+
+    /* MODAL COMPACTO */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-card {
+      background: #121622;
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius);
+      width: 100%;
+      max-width: 540px;
+      max-height: 85vh;
+      overflow-y: auto;
+      padding: 1.25rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      font-size: 1.1rem;
+      cursor: pointer;
+      padding: 0.2rem;
+      line-height: 1;
+    }
+    .modal-close:hover {
+      color: #fff;
+    }
+
+    .m-header-type {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--neu);
+      letter-spacing: 0.5px;
+    }
+
+    .m-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 0.2rem;
+    }
+
+    .m-lead {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-left: 2px solid var(--neu);
+      padding-left: 0.6rem;
+      font-style: italic;
+    }
+
+    .m-field {
+      font-size: 0.78rem;
+      color: var(--text);
+      line-height: 1.45;
+    }
+    .m-field strong {
+      color: #fff;
+      display: inline-block;
+      min-width: 90px;
+    }
+
+    .m-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      padding-top: 0.4rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .m-tag {
+      background: #0d1017;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.15rem 0.4rem;
+      font-size: 0.65rem;
+      color: var(--text-dim);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR MINIMALISTA -->
+  <div class="top-nav">
+    <div class="nav-title">
+      <span>Mago M20</span>
+      <span class="nav-badge">Conflitos Centrais</span>
+    </div>
+
+    <div class="nav-controls">
+      <input type="text" id="searchInput" class="search-input" placeholder="Buscar rostos, locais, esferas...">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="presente">Droga de Sangue</button>
+      <button class="filter-btn" data-filter="futuro">Tempestade</button>
+      <button class="filter-btn" data-filter="despertos">Despertos</button>
+      <button class="filter-btn" data-filter="abin">ABIN</button>
+      <button class="filter-btn" data-filter="adormecidos">Adormecidos</button>
+    </div>
+  </div>
+
+  <!-- GRID PRINCIPAL (3 COLUNAS: ROSTOS | PROBLEMAS NO CENTRO | LOCAIS) -->
+  <div class="grid-layout">
+
+    <!-- COLUNA ESQUERDA: ROSTOS -->
+    <div class="col-panel">
+      <div class="col-header">
+        <span>🎭 Rostos</span>
+        <span class="tag-count" id="count-rostos">10</span>
+      </div>
+      <div class="col-body" id="stack-rostos">
+        <!-- Injetado por JS -->
+      </div>
+    </div>
+
+    <!-- COLUNA CENTRAL: OS DOIS PROBLEMAS NO CENTRO -->
+    <div class="center-col">
+
+      <!-- PROBLEMA PRESENTE -->
+      <div class="problem-card prob-pres" id="prob-presente" data-problema="presente">
+        <div class="prob-meta-top">
+          <span class="prob-type">🩸 Problema Presente</span>
+          <span class="prob-status">Ativo • Sessão 01</span>
+        </div>
+        
+        <h2 class="prob-title">Tráfico da Droga Sintética de Sangue</h2>
+        <p class="prob-desc">
+          Refino de Quintessência residual extraída de cadáveres da pandemia. A substância gera surtos psicóticos de degradação e atrai efêmeros da fuligem.
+        </p>
+
+        <!-- OS DOIS ROSTOS DO PROBLEMA PRESENTE -->
+        <div class="faces-container">
+          <div class="face-box face-pos" onclick="openModal('angela')">
+            <div class="face-box-title">
+              <span class="face-box-name">Ângela</span>
+              <span class="face-box-badge badge-pos">+ Protetora</span>
+            </div>
+            <p class="face-box-desc">Enfermeira do CAPS (Desperta). Desintoxica viciados e caça a refinaria.</p>
+          </div>
+
+          <div class="face-box face-neg" onclick="openModal('carlito_heizenberg')">
+            <div class="face-box-title">
+              <span class="face-box-name">Carlito Heizenberg</span>
+              <span class="face-box-badge badge-neg">- Alquimista</span>
+            </div>
+            <p class="face-box-desc">Desperto que criou a fórmula e usa o Appetito Delivery como fachada.</p>
+          </div>
+        </div>
+
+        <div class="prob-locations">
+          <span>Locais:</span>
+          <span class="loc-chip" onclick="openModal('centro_de_treinamento_sr_hu')">🥋 Centro do Sr. Hu (Reunião Atual)</span>
+          <span class="loc-chip" onclick="openModal('casa_do_dr_hughie')">Casa de Hughie (Portão)</span>
+          <span class="loc-chip" onclick="openModal('fabrica_pasta_da_nona')">Fábrica Pasta da Nona</span>
+          <span class="loc-chip" onclick="openModal('caps_zona_sul')">CAPS Zona Sul</span>
+        </div>
+      </div>
+
+      <!-- PROBLEMA FUTURO -->
+      <div class="problem-card prob-fut" id="prob-futuro" data-problema="futuro">
+        <div class="prob-meta-top">
+          <span class="prob-type">⚡ Problema Futuro</span>
+          <span class="prob-status">Iminente • Clímax</span>
+        </div>
+
+        <h2 class="prob-title">Extermínio Extremista via Trauma da Pandemia</h2>
+        <p class="prob-desc">
+          Lizander canaliza a dor coletiva como dínamo para alimentar uma supertempestade de Forças e aniquilar todos os magos da metrópole.
+        </p>
+
+        <!-- OS DOIS ROSTOS DO PROBLEMA FUTURO -->
+        <div class="faces-container">
+          <div class="face-box face-pos" onclick="openModal('joana_pipoquinha')">
+            <div class="face-box-title">
+              <span class="face-box-name">Joana Pipoquinha</span>
+              <span class="face-box-badge badge-pos">+ Espírito</span>
+            </div>
+            <p class="face-box-desc">Filha falecida de Lizander. Tenta avisar e sabotar os planos do pai.</p>
+          </div>
+
+          <div class="face-box face-neg" onclick="openModal('lizander_filho_do_raio')">
+            <div class="face-box-title">
+              <span class="face-box-name">Lizander (Filho do Raio)</span>
+              <span class="face-box-badge badge-neg">- Ameaça</span>
+            </div>
+            <p class="face-box-desc">Mestre de Forças fanático que deflagra o ritual de raios no Santuário.</p>
+          </div>
+        </div>
+
+        <div class="prob-locations">
+          <span>Locais:</span>
+          <span class="loc-chip" onclick="openModal('santuario_lizander')">Santuário de Lizander</span>
+          <span class="loc-chip" onclick="openModal('sede_data_center')">Data Center ABIN</span>
+          <span class="loc-chip" onclick="openModal('caps_zona_sul')">CAPS Zona Sul</span>
+        </div>
+      </div>
+
+      <!-- TOGGLE PARA PROBLEMA LEGADO -->
+      <button class="toggle-legado-bar" id="toggleLegadoBtn">
+        <span>📜 Mostrar / Ocultar 3º Conflito: <strong>Problema Legado</strong></span>
+      </button>
+
+      <div class="problem-card prob-leg legado-block" id="legadoBlock" data-problema="legado">
+        <div class="prob-meta-top">
+          <span class="prob-type">🏛️ Problema Legado</span>
+          <span class="prob-status">Contexto Histórico</span>
+        </div>
+        <h2 class="prob-title">Dano Colateral & Negacionismo Pós-Pandemia</h2>
+        <p class="prob-desc">
+          Desequilíbrio espiritual na guerra entre ABIN, espíritos urbanos e floresta, agravado por manipulação da informação e fake news.
+        </p>
+        <div class="faces-container">
+          <div class="face-box face-pos" onclick="openModal('elizabeth_barcelos')">
+            <div class="face-box-title">
+              <span class="face-box-name">Dra. Elizabeth Barcelos</span>
+              <span class="face-box-badge badge-pos">+ Ciência</span>
+            </div>
+            <p class="face-box-desc">Pesquisadora infectologista da vacina.</p>
+          </div>
+          <div class="face-box face-neg" onclick="openModal('bernardino')">
+            <div class="face-box-title">
+              <span class="face-box-name">Bernardino</span>
+              <span class="face-box-badge badge-neg">- Negacionista</span>
+            </div>
+            <p class="face-box-desc">Influenciador digital antivax e manipulador.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- COLUNA DIREITA: LOCAIS -->
+    <div class="col-panel">
+      <div class="col-header">
+        <span>📍 Locais</span>
+        <span class="tag-count" id="count-locais">5</span>
+      </div>
+      <div class="col-body" id="stack-locais">
+        <!-- Injetado por JS -->
+      </div>
+    </div>
+
+  </div>
+
+  <!-- MODAL DE DETALHES -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModalDirect()">✕</button>
+      <div>
+        <span class="m-header-type" id="mType">NPC</span>
+        <h3 class="m-title" id="mTitle">Nome</h3>
+      </div>
+      <p class="m-lead" id="mLead">Conceito</p>
+      <div id="mFields" style="display:flex; flex-direction:column; gap:0.4rem;"></div>
+      <div class="m-tags" id="mTags"></div>
+    </div>
+  </div>
+
+  <script>
+    const DATA = {
+      rostos: [
+        {
+          id: 'angela',
+          nome: 'Ângela',
+          tipo: 'Desperta',
+          papel: '+ Protetora',
+          natureza: 'pos',
+          problema: 'presente',
+          faccao: 'Independentes / CAPS',
+          conceito: 'Enfermeira do CAPS Zona Sul, Desperta. Trata dependentes da droga de sangue.',
+          esferas: 'Primórdio, Vida',
+          paradigma: 'Cura Energética & Ciência Médica',
+          motivacao: 'Salvar dependentes e localizar a fonte de refino da droga de Quintessência.',
+          locais: ['caps_zona_sul', 'sao_paulo_sets_de_filmagem'],
+          tags: ['desperta', 'presente', 'caps', 'vida', 'primordio']
+        },
+        {
+          id: 'carlito_heizenberg',
+          nome: 'Carlito Heizenberg',
+          tipo: 'Desperto',
+          papel: '- Alquimista',
+          natureza: 'neg',
+          problema: 'presente',
+          faccao: 'Independentes / Submundo',
+          conceito: 'Alquimista criador da droga sintética de sangue com Quintessência residual.',
+          esferas: 'Matéria, Primórdio',
+          paradigma: 'Transmutação Química Urbana',
+          motivacao: 'Monetizar Quintessência no crime e alimentar dízimos de poder.',
+          locais: ['fabrica_pasta_da_nona', 'caps_zona_sul'],
+          tags: ['desperto', 'presente', 'vilao', 'alquimia']
+        },
+        {
+          id: 'joana_pipoquinha',
+          nome: 'Joana Pipoquinha',
+          tipo: 'Espírito',
+          papel: '+ Oposição',
+          natureza: 'pos',
+          problema: 'futuro',
+          faccao: 'Espíritos das Cidades',
+          conceito: 'Espírito da filha falecida de Lizander. Odeia mágica pela tragédia sofrida.',
+          esferas: 'Penumbra / Efêmero',
+          paradigma: 'Eco da Penumbra Urbana',
+          motivacao: 'Sabotar rituais mágicos na cidade e impedir o clímax destrutivo do pai.',
+          locais: ['santuario_lizander', 'caps_zona_sul'],
+          tags: ['espirito', 'futuro', 'penumbra']
+        },
+        {
+          id: 'lizander_filho_do_raio',
+          nome: 'Lizander (Filho do Raio)',
+          tipo: 'Desperto',
+          papel: '- Ameaça Extrema',
+          natureza: 'neg',
+          problema: 'futuro',
+          faccao: 'Independentes / Fanático',
+          conceito: 'Mestre de Forças fanático que usa o trauma coletivo para expurgar magos.',
+          esferas: 'Forças (4-5), Primórdio',
+          paradigma: 'Forças Naturais & Purificação Apocalíptica',
+          motivacao: 'Exterminar todos os Despertos em um juízo de raios sobre São Paulo.',
+          locais: ['santuario_lizander', 'sede_data_center'],
+          tags: ['desperto', 'futuro', 'chefe', 'forcas']
+        },
+        {
+          id: 'elizabeth_barcelos',
+          nome: 'Dra. Elizabeth Barcelos',
+          tipo: 'Adormecida',
+          papel: '+ Ciência',
+          natureza: 'pos',
+          problema: 'legado',
+          faccao: 'Saúde Pública',
+          conceito: 'Pesquisadora infectologista da vacina de 2019-2022.',
+          esferas: 'Não aplicável (Mortal)',
+          paradigma: 'Medicina e Epidemiologia',
+          motivacao: 'Neutralizar fake news e reparar os traumas da pandemia.',
+          locais: ['sede_data_center', 'caps_zona_sul'],
+          tags: ['adormecidos', 'legado', 'vacina']
+        },
+        {
+          id: 'bernardino',
+          nome: 'Bernardino (Bertrand)',
+          tipo: 'Adormecido',
+          papel: '- Negacionismo',
+          natureza: 'neg',
+          problema: 'legado',
+          faccao: 'Mídia Digital',
+          conceito: 'Influenciador antivax, ex-BBB e herdeiro que explora o medo em lives.',
+          esferas: 'Não aplicável (Mortal)',
+          paradigma: 'Manipulação de Redes & Pânico Moral',
+          motivacao: 'Ganho político e engajamento promovendo histeria pública.',
+          locais: ['sao_paulo_sets_de_filmagem', 'sede_data_center'],
+          tags: ['adormecidos', 'legado', 'midia']
+        },
+        {
+          id: 'agente_jefferson',
+          nome: 'Agente Jefferson',
+          tipo: 'ABIN',
+          papel: 'Tático / Campo',
+          natureza: 'neu',
+          problema: 'presente',
+          faccao: 'ABIN (Governo)',
+          conceito: 'Operativo tático enviado para apreender material místico do acidente.',
+          esferas: 'Treinamento Tático',
+          paradigma: 'Segurança Nacional & Acobertamento',
+          motivacao: 'Impedir vazamento do sobrenatural para a polícia comum.',
+          locais: ['sao_paulo_sets_de_filmagem', 'sede_data_center'],
+          tags: ['abin', 'governo', 'tatico', 'presente']
+        },
+        {
+          id: 'agente_rupert',
+          nome: 'Agente Rupert',
+          tipo: 'ABIN',
+          papel: 'Forense / Tech',
+          natureza: 'neu',
+          problema: 'presente',
+          faccao: 'ABIN (Governo)',
+          conceito: 'Parceiro de Jefferson, especialista em quebra de sigilo e bloqueio digital.',
+          esferas: 'Forense & Dispositivos EMP',
+          paradigma: 'Inteligência Governamental',
+          motivacao: 'Rastrear comunicações criptografadas de Despertos e fornecedores.',
+          locais: ['sao_paulo_sets_de_filmagem', 'sede_data_center'],
+          tags: ['abin', 'governo', 'tatico', 'presente']
+        },
+        {
+          id: 'vito',
+          nome: 'Vito (Don Vito)',
+          tipo: 'Adormecido',
+          papel: 'Crime Organizado',
+          natureza: 'neu',
+          problema: 'presente',
+          faccao: 'Crime Organizado',
+          conceito: 'Veterano do submundo que controla rotas e pedágios na metrópole.',
+          esferas: 'Não aplicável (Mortal)',
+          paradigma: 'Lei do Silêncio e Territorialidade',
+          motivacao: 'Cobrar pedágio do tráfico e evitar chamar atenção da polícia.',
+          locais: ['fabrica_pasta_da_nona', 'sao_paulo_sets_de_filmagem'],
+          tags: ['adormecidos', 'crime', 'submundo', 'presente']
+        },
+        {
+          id: 'erick',
+          nome: 'Erick',
+          tipo: 'Informante',
+          papel: 'Olheiro de Rua',
+          natureza: 'neu',
+          problema: 'presente',
+          faccao: 'Submundo',
+          conceito: 'Homem esguio, 1,90m, caolho. Olheiro bem conectado entre motoboys.',
+          esferas: 'Percepção de Rua',
+          paradigma: 'Sobrevivência Urbana',
+          motivacao: 'Vender informações valiosas e ficar longe do tiroteio.',
+          locais: ['casa_do_dr_hughie', 'fabrica_pasta_da_nona'],
+          tags: ['submundo', 'informante', 'presente']
+        },
+        {
+          id: 'sr_hu',
+          nome: 'Sr. Hu',
+          tipo: 'Desperto',
+          papel: '+ Mentor Akashico',
+          natureza: 'pos',
+          problema: 'presente',
+          faccao: 'Irmãos de Akasha',
+          conceito: 'Mestre sênior dos Irmãos de Akasha. Proprietário do centro de treinamento onde o grupo está refugiado.',
+          esferas: 'Mente, Vida, Primórdio',
+          paradigma: 'Disciplina do Do & Iluminação Interior',
+          motivacao: 'Proteger seus discípulos e manter o dojô como refúgio pacificado.',
+          locais: ['centro_de_treinamento_sr_hu'],
+          tags: ['akashico', 'mentor', 'dojo', 'mente', 'vida']
+        }
+      ],
+
+      locais: [
+        {
+          id: 'centro_de_treinamento_sr_hu',
+          nome: 'Centro de Treinamento do Sr. Hu',
+          tipo: 'Dojô Akashayano (Refúgio Atual)',
+          controle: 'Irmãos de Akasha (Sr. Hu)',
+          risco: 'Baixo (Refúgio Neutro)',
+          problemas: ['presente'],
+          descricao: 'Dojô tradicional de Do. Local onde os PJs estão reunidos com a droga do baú em mãos.',
+          detalhes: 'Ponto seguro onde o grupo delibera sobre como analisar ou descartar a droga e rastrear os traficantes.',
+          tags: ['dojo', 'sr_hu', 'akashico', 'refugio', 'reuniao-atual']
+        },
+        {
+          id: 'casa_do_dr_hughie',
+          nome: 'Casa do Dr. Hughie (Portão)',
+          tipo: 'Residência / Consultório',
+          controle: 'Cabala (Hughie)',
+          risco: 'Baixo / Imediato',
+          problemas: ['presente'],
+          descricao: 'Casa do médico Hughie. Ponto onde o motoboy bateu no portão e os PJs pegaram o baú com a droga.',
+          detalhes: 'Local do impacto inicial da moto antes de o grupo se abrigar no centro de treinamento.',
+          tags: ['hughie', 'acidente', 'portao', 'bau', 'droga', 'no-a']
+        },
+        {
+          id: 'fabrica_pasta_da_nona',
+          nome: 'Fábrica Pasta da Nona',
+          tipo: 'Galpão / Refinaria',
+          controle: 'Pastafarianos & Carlito',
+          risco: 'Médio / Alto',
+          problemas: ['presente'],
+          descricao: 'Fábrica de macarrão usada como cobertura para refinar sangue de mortos (Nó B).',
+          detalhes: 'Ponto de carregamento dos motoboys do Appetito Delivery e laboratório de Carlito.',
+          tags: ['fabrica', 'pastafarianos', 'no-b']
+        },
+        {
+          id: 'caps_zona_sul',
+          nome: 'Hospital CAPS Zona Sul',
+          tipo: 'Saúde Pública',
+          controle: 'Público / Ângela',
+          risco: 'Alto (Incêndio)',
+          problemas: ['presente', 'futuro'],
+          descricao: 'Clínica onde os dependentes em colapso espiritual dão entrada (Nó C).',
+          detalhes: 'Clímax do Ato III: capangas ateiam fogo e a voz de Joana ecoa no rádio.',
+          tags: ['caps', 'hospital', 'no-c']
+        },
+        {
+          id: 'sede_data_center',
+          nome: 'Data Center da ABIN',
+          tipo: 'Bunker Tecnológico',
+          controle: 'ABIN & Tecnocracia',
+          risco: 'Alto',
+          problemas: ['presente', 'futuro', 'legado'],
+          descricao: 'Servidores subterrâneos com monitoramento de tráfego de dados e anomalias (Nó D).',
+          detalhes: 'Incursão digital ou física para interceptar rotas de entrega e dossiês.',
+          tags: ['data-center', 'abin', 'no-d']
+        },
+        {
+          id: 'santuario_lizander',
+          nome: 'Santuário de Lizander',
+          tipo: 'Para-Raios Urbano',
+          controle: 'Lizander',
+          risco: 'Extremo (Chefe)',
+          problemas: ['futuro'],
+          descricao: 'Topo de arranha-céu isolado na serra, transformado em antena de raios (Nó E).',
+          detalhes: 'Cenário do confronto final contra Lizander para impedir o juízo de relâmpagos.',
+          tags: ['santuario', 'lizander', 'no-e']
+        }
+      ]
+    };
+
+    /* RENDERIZAÇÃO COMPACTA */
+    function render() {
+      const query = document.getElementById('searchInput').value.toLowerCase().trim();
+      const rStack = document.getElementById('stack-rostos');
+      const lStack = document.getElementById('stack-locais');
+
+      rStack.innerHTML = '';
+      lStack.innerHTML = '';
+
+      // Rostos
+      const filteredRostos = DATA.rostos.filter(npc => {
+        const matchFilter = (
+          activeFilter === 'all' ||
+          (activeFilter === 'presente' && npc.problema === 'presente') ||
+          (activeFilter === 'futuro' && npc.problema === 'futuro') ||
+          (activeFilter === 'despertos' && npc.tipo.toLowerCase().includes('despert')) ||
+          (activeFilter === 'abin' && npc.tags.includes('abin')) ||
+          (activeFilter === 'adormecidos' && npc.tags.includes('adormecidos'))
+        );
+        const matchSearch = !query || npc.nome.toLowerCase().includes(query) || npc.conceito.toLowerCase().includes(query) || npc.tags.some(t => t.includes(query));
+        return matchFilter && matchSearch;
+      });
+
+      document.getElementById('count-rostos').innerText = filteredRostos.length;
+
+      filteredRostos.forEach(npc => {
+        const card = document.createElement('div');
+        card.className = 'mini-card card-rosto';
+        card.dataset.id = npc.id;
+        card.dataset.problema = npc.problema;
+
+        const badgeClass = npc.natureza === 'pos' ? 'badge-pos' : (npc.natureza === 'neg' ? 'badge-neg' : 'badge-neu');
+
+        card.innerHTML = `
+          <div class="card-row-top">
+            <span class="card-name">${npc.nome}</span>
+            <span class="badge ${badgeClass}">${npc.papel}</span>
+          </div>
+          <div class="card-sub">${npc.conceito}</div>
+          <div class="card-footer">
+            <span>🏛️ ${npc.faccao}</span>
+            <span>➜ Detalhes</span>
+          </div>
+        `;
+
+        card.addEventListener('mouseenter', () => highlightConnections(npc));
+        card.addEventListener('mouseleave', resetHighlights);
+        card.addEventListener('click', () => openModal(npc.id));
+
+        rStack.appendChild(card);
+      });
+
+      // Locais
+      const filteredLocais = DATA.locais.filter(loc => {
+        const matchFilter = (
+          activeFilter === 'all' ||
+          (activeFilter === 'presente' && loc.problemas.includes('presente')) ||
+          (activeFilter === 'futuro' && loc.problemas.includes('futuro')) ||
+          (activeFilter === 'abin' && loc.controle.toLowerCase().includes('abin')) ||
+          activeFilter === 'despertos' || activeFilter === 'adormecidos'
+        );
+        const matchSearch = !query || loc.nome.toLowerCase().includes(query) || loc.descricao.toLowerCase().includes(query) || loc.tags.some(t => t.includes(query));
+        return matchFilter && matchSearch;
+      });
+
+      document.getElementById('count-locais').innerText = filteredLocais.length;
+
+      filteredLocais.forEach(loc => {
+        const card = document.createElement('div');
+        card.className = 'mini-card card-local';
+        card.dataset.id = loc.id;
+        card.dataset.problemas = loc.problemas.join(' ');
+
+        card.innerHTML = `
+          <div class="card-row-top">
+            <span class="card-name">${loc.nome}</span>
+            <span class="badge badge-local">${loc.tipo}</span>
+          </div>
+          <div class="card-sub">${loc.descricao}</div>
+          <div class="card-footer">
+            <span>⚠️ Risco: ${loc.risco}</span>
+            <span>🏛️ ${loc.controle}</span>
+          </div>
+        `;
+
+        card.addEventListener('mouseenter', () => highlightLocalConnections(loc));
+        card.addEventListener('mouseleave', resetHighlights);
+        card.addEventListener('click', () => openModal(loc.id));
+
+        lStack.appendChild(card);
+      });
+    }
+
+    /* CONEXÕES HOVER */
+    function highlightConnections(npc) {
+      const prob = document.querySelector(`.problem-card[data-problema="${npc.problema}"]`);
+      if (prob) prob.classList.add('highlighted');
+
+      if (npc.locais) {
+        document.querySelectorAll('.card-local').forEach(c => {
+          if (npc.locais.includes(c.dataset.id)) c.classList.add('highlighted');
+          else c.classList.add('dimmed');
+        });
+      }
+    }
+
+    function highlightLocalConnections(loc) {
+      loc.problemas.forEach(p => {
+        const prob = document.querySelector(`.problem-card[data-problema="${p}"]`);
+        if (prob) prob.classList.add('highlighted');
+      });
+
+      document.querySelectorAll('.card-rosto').forEach(c => {
+        const npc = DATA.rostos.find(n => n.id === c.dataset.id);
+        if (npc && npc.locais && npc.locais.includes(loc.id)) c.classList.add('highlighted');
+        else c.classList.add('dimmed');
+      });
+    }
+
+    function resetHighlights() {
+      document.querySelectorAll('.problem-card, .mini-card').forEach(el => {
+        el.classList.remove('highlighted', 'dimmed');
+      });
+    }
+
+    // Hover nos problemas centrais
+    document.querySelectorAll('.problem-card').forEach(prob => {
+      prob.addEventListener('mouseenter', () => {
+        const pId = prob.dataset.problema;
+        document.querySelectorAll('.card-rosto').forEach(c => {
+          if (c.dataset.problema === pId) c.classList.add('highlighted');
+          else c.classList.add('dimmed');
+        });
+        document.querySelectorAll('.card-local').forEach(c => {
+          if (c.dataset.problemas && c.dataset.problemas.includes(pId)) c.classList.add('highlighted');
+          else c.classList.add('dimmed');
+        });
+      });
+      prob.addEventListener('mouseleave', resetHighlights);
+    });
+
+    /* FILTROS */
+    let activeFilter = 'all';
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.dataset.filter;
+        render();
+      });
+    });
+
+    document.getElementById('searchInput').addEventListener('input', render);
+
+    /* TOGGLE PROBLEMA LEGADO */
+    const toggleLegado = document.getElementById('toggleLegadoBtn');
+    const legadoBlock = document.getElementById('legadoBlock');
+    toggleLegado.addEventListener('click', () => {
+      legadoBlock.classList.toggle('open');
+    });
+
+    /* MODAL */
+    const modalOverlay = document.getElementById('modalOverlay');
+    const mType = document.getElementById('mType');
+    const mTitle = document.getElementById('mTitle');
+    const mLead = document.getElementById('mLead');
+    const mFields = document.getElementById('mFields');
+    const mTags = document.getElementById('mTags');
+
+    function openModal(id) {
+      const npc = DATA.rostos.find(n => n.id === id);
+      if (npc) {
+        mType.innerText = `ROSTO • ${npc.tipo.toUpperCase()}`;
+        mType.style.color = npc.natureza === 'pos' ? '#6ee7b7' : (npc.natureza === 'neg' ? '#fca5a5' : '#7dd3fc');
+        mTitle.innerText = npc.nome;
+        mLead.innerText = npc.conceito;
+
+        mFields.innerHTML = `
+          <div class="m-field"><strong>Papel:</strong> ${npc.papel} (Problema ${npc.problema.toUpperCase()})</div>
+          <div class="m-field"><strong>Facção:</strong> ${npc.faccao}</div>
+          <div class="m-field"><strong>Esferas:</strong> ${npc.esferas}</div>
+          <div class="m-field"><strong>Paradigma:</strong> ${npc.paradigma}</div>
+          <div class="m-field"><strong>Motivação:</strong> ${npc.motivacao}</div>
+        `;
+
+        mTags.innerHTML = npc.tags.map(t => `<span class="m-tag">#${t}</span>`).join('');
+        modalOverlay.classList.add('active');
+        return;
+      }
+
+      const loc = DATA.locais.find(l => l.id === id);
+      if (loc) {
+        mType.innerText = `LOCAL • RISCO ${loc.risco.toUpperCase()}`;
+        mType.style.color = '#38bdf8';
+        mTitle.innerText = loc.nome;
+        mLead.innerText = loc.descricao;
+
+        mFields.innerHTML = `
+          <div class="m-field"><strong>Tipo:</strong> ${loc.tipo}</div>
+          <div class="m-field"><strong>Controle:</strong> ${loc.controle}</div>
+          <div class="m-field"><strong>Conflito:</strong> ${loc.detalhes}</div>
+          <div class="m-field"><strong>Problemas:</strong> ${loc.problemas.join(', ').toUpperCase()}</div>
+        `;
+
+        mTags.innerHTML = loc.tags.map(t => `<span class="m-tag">#${t}</span>`).join('');
+        modalOverlay.classList.add('active');
+        return;
+      }
+    }
+
+    function closeModalDirect() {
+      modalOverlay.classList.remove('active');
+    }
+    function closeModal(e) {
+      if (e.target === modalOverlay) modalOverlay.classList.remove('active');
+    }
+    window.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeModalDirect();
+    });
+
+    render();
+  </script>
+</body>
+</html>

@@ -24,10 +24,10 @@ No sistema **Player-Faced Total**, a investigação opera sem rolagens travadas:
 
 | Nó de Destino | Pista 1 (Vinda de...) | Pista 2 (Vinda de...) | Pista 3 (Vinda de...) |
 | :--- | :--- | :--- | :--- |
-| **Nó B: Refinaria Pasta da Nona** | **Do Nó A (Set):** Descriptografia do GPS no celular do entregador acidentado. | **Do Nó C (CAPS):** Notas fiscais de remessas de sangue recolhidas da clínica. | **Do Nó D (Data Center):** Logs de tráfego de dados e vendas do app *Appetito Delivery*. |
-| **Nó C: Hospital CAPS Zona Sul** | **Do Nó A (Set):** Frascos de plástico quebrados com etiqueta do CAPS da Zona Sul. | **Do Nó B (Fábrica):** Manifesto de entregas de Carlito apontando o CAPS como ponto de teste da droga. | **Do Nó D (Data Center):** Pesquisas confidenciais da Dra. Elizabeth Barcelos sobre surtos no CAPS. |
+| **Nó B: Refinaria Pasta da Nona** | **Do Nó A (Portão de Hughie):** Descriptografia do GPS no celular do entregador acidentado. | **Do Nó C (CAPS):** Notas fiscais de remessas de sangue recolhidas da clínica. | **Do Nó D (Data Center):** Logs de tráfego de dados e vendas do app *Appetito Delivery*. |
+| **Nó C: Hospital CAPS Zona Sul** | **Do Nó A (Portão de Hughie):** Frascos apreendidos no baú da moto com etiqueta do CAPS da Zona Sul. | **Do Nó B (Fábrica):** Manifesto de entregas de Carlito apontando o CAPS como ponto de teste da droga. | **Do Nó D (Data Center):** Pesquisas confidenciais da Dra. Elizabeth Barcelos sobre surtos no CAPS. |
 | **Nó E: Santuário de Lizander (Clímax)** | **Do Nó B (Fábrica):** Registros de dízimo de Quintessência em sangue destinados ao "Filho do Raio". | **Do Nó C (CAPS):** Aparição do espírito [Joana Pipoquinha](../02_npcs/joana_pipoquinha.md) revelando onde seu pai se esconde. | **Do Nó D (Data Center):** Análise de anomalias de energia elétrica interceptadas pela ABIN/Tecnocracia. |
-| **Nó D: Data Center & ABIN** | **Do Nó A (Set):** Rastreador de sinal digital da ABIN apreendendo o material do acidente. | **Do Nó B (Fábrica):** Servidores de rede criptografados da ordem Pastafariana vinculados a Bernardino. | **Do Nó C (CAPS):** Prontuários médicos de doadores da vacina que Bernardino atacou em suas lives. |
+| **Nó D: Data Center & ABIN** | **Do Nó A (Portão de Hughie):** Notificações e rastreador digital apreendido com o entregador no portão. | **Do Nó B (Fábrica):** Servidores de rede criptografados da ordem Pastafariana vinculados a Bernardino. | **Do Nó C (CAPS):** Prontuários médicos de doadores da vacina que Bernardino atacou em suas lives. |
 
 ---
 

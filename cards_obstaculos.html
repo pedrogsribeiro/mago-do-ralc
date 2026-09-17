@@ -1,0 +1,2160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards de Obstáculos & Aliados/Antagonistas - Mago M20 (Player-Faced)</title>
+  
+  <!-- Typography from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700;800&family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #08090d;
+      --bg-card: rgba(18, 20, 29, 0.75);
+      --bg-card-hover: rgba(28, 32, 48, 0.85);
+      --border-color: rgba(255, 255, 255, 0.1);
+      --border-glow: rgba(0, 243, 255, 0.3);
+      
+      --text-main: #f0f3fe;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      
+      /* Level Colors */
+      --lvl1-color: #38bdf8; /* Passivo - Sky */
+      --lvl2-color: #4ade80; /* Oposição Rápida - Green */
+      --lvl3-color: #fbbf24; /* Ameaça Ativa - Amber */
+      --lvl4-color: #f43f5e; /* Ameaça Telegrafada - Crimson */
+      
+      /* Dimension Colors */
+      --dim-fisica: #ef4444;
+      --dim-social: #a855f7;
+      --dim-intelectual: #06b6d4;
+      --dim-mistica: #ec4899;
+      
+      /* Elenco Group Colors */
+      --el-cronica: #f43f5e;
+      --el-tecnocracia: #3b82f6;
+      --el-despertos: #10b981;
+      --el-adormecidos: #64748b;
+      --el-bestiario: #eab308;
+
+      --accent-purple: #8b5cf6;
+      --accent-cyan: #06b6d4;
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      
+      --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(139, 92, 246, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(6, 182, 212, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 50% 50%, rgba(244, 63, 94, 0.04) 0%, transparent 60%);
+      background-attachment: fixed;
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 2rem 1rem 4rem;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    /* HEADER */
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .badge-header {
+      display: inline-block;
+      padding: 0.35rem 1rem;
+      background: rgba(139, 92, 246, 0.15);
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      border-radius: 50px;
+      color: #c084fc;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.6rem;
+      font-weight: 900;
+      letter-spacing: -1px;
+      background: linear-gradient(135deg, #ffffff 30%, #c084fc 70%, #38bdf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* QUICK RULES BAR */
+    .rules-banner {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .rule-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .rule-icon {
+      font-size: 1.3rem;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 0.4rem;
+      border-radius: var(--radius-sm);
+    }
+
+    .rule-text h4 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #f1f5f9;
+    }
+
+    .rule-text p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* CONTROLS & FILTERS */
+    .controls-wrapper {
+      background: rgba(15, 18, 28, 0.85);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.25rem;
+      margin-bottom: 2rem;
+      position: sticky;
+      top: 0.75rem;
+      z-index: 100;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .search-bar-container {
+      margin-bottom: 1rem;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.85rem 1.25rem;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-md);
+      color: #fff;
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: var(--transition-fast);
+    }
+
+    .search-input:focus {
+      border-color: var(--accent-purple);
+      box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.2);
+    }
+
+    .filter-groups-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      align-items: center;
+    }
+
+    .filter-label {
+      font-size: 0.725rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-dim);
+      min-width: 110px;
+    }
+
+    .btn-filter {
+      padding: 0.35rem 0.75rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50px;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition-fast);
+    }
+
+    .btn-filter:hover {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+    }
+
+    .btn-filter.active {
+      background: var(--accent-purple);
+      border-color: var(--accent-purple);
+      color: #fff;
+      box-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
+    }
+
+    .btn-filter[data-lvl="1"].active { background: var(--lvl1-color); border-color: var(--lvl1-color); color: #000; }
+    .btn-filter[data-lvl="2"].active { background: var(--lvl2-color); border-color: var(--lvl2-color); color: #000; }
+    .btn-filter[data-lvl="3"].active { background: var(--lvl3-color); border-color: var(--lvl3-color); color: #000; }
+    .btn-filter[data-lvl="4"].active { background: var(--lvl4-color); border-color: var(--lvl4-color); color: #fff; }
+
+    /* CARDS GRID */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* CARD STYLING */
+    .card {
+      background: var(--bg-card);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 1.35rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+      transition: var(--transition-fast);
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--border-color);
+      transition: var(--transition-fast);
+    }
+
+    .card[data-lvl="1"]::before { background: var(--lvl1-color); }
+    .card[data-lvl="2"]::before { background: var(--lvl2-color); }
+    .card[data-lvl="3"]::before { background: var(--lvl3-color); }
+    .card[data-lvl="4"]::before { background: var(--lvl4-color); }
+
+    .card:hover {
+      transform: translateY(-4px);
+      background: var(--bg-card-hover);
+      border-color: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    /* CARD HEADER */
+    .card-top-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+
+    .tags-left {
+      display: flex;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+    }
+
+    .level-badge {
+      font-size: 0.725rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+    }
+
+    .card[data-lvl="1"] .level-badge { background: rgba(56, 189, 248, 0.15); color: var(--lvl1-color); border: 1px solid rgba(56, 189, 248, 0.3); }
+    .card[data-lvl="2"] .level-badge { background: rgba(74, 222, 128, 0.15); color: var(--lvl2-color); border: 1px solid rgba(74, 222, 128, 0.3); }
+    .card[data-lvl="3"] .level-badge { background: rgba(251, 191, 36, 0.15); color: var(--lvl3-color); border: 1px solid rgba(251, 191, 36, 0.3); }
+    .card[data-lvl="4"] .level-badge { background: rgba(244, 63, 94, 0.15); color: var(--lvl4-color); border: 1px solid rgba(244, 63, 94, 0.3); }
+
+    .elenco-tag {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .elenco-tag[data-elenco="cronica"] { background: rgba(244, 63, 94, 0.2); color: #fda4af; border: 1px solid rgba(244, 63, 94, 0.4); }
+    .elenco-tag[data-elenco="tecnocracia"] { background: rgba(59, 130, 246, 0.2); color: #93c5fd; border: 1px solid rgba(59, 130, 246, 0.4); }
+    .elenco-tag[data-elenco="despertos"] { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.4); }
+    .elenco-tag[data-elenco="adormecidos"] { background: rgba(100, 116, 139, 0.2); color: #cbd5e1; border: 1px solid rgba(100, 116, 139, 0.4); }
+    .elenco-tag[data-elenco="bestiario"] { background: rgba(234, 179, 8, 0.2); color: #fde047; border: 1px solid rgba(234, 179, 8, 0.4); }
+
+    .dim-tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-muted);
+    }
+
+    .dim-tag[data-dim="fisica"] { color: var(--dim-fisica); border-color: rgba(239, 68, 68, 0.3); background: rgba(239, 68, 68, 0.1); }
+    .dim-tag[data-dim="social"] { color: var(--dim-social); border-color: rgba(168, 85, 247, 0.3); background: rgba(168, 85, 247, 0.1); }
+    .dim-tag[data-dim="intelectual"] { color: var(--dim-intelectual); border-color: rgba(6, 182, 212, 0.3); background: rgba(6, 182, 212, 0.1); }
+    .dim-tag[data-dim="mistica"] { color: var(--dim-mistica); border-color: rgba(236, 72, 153, 0.3); background: rgba(236, 72, 153, 0.1); }
+
+    .card-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.25;
+      margin-bottom: 0.3rem;
+    }
+
+    .card-subtitle {
+      font-size: 0.825rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* STATS GRID ON CARD */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem;
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: var(--radius-sm);
+      padding: 0.65rem 0.75rem;
+      margin: 0.85rem 0;
+      font-family: 'Fira Code', monospace;
+    }
+
+    .stat-box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .stat-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      letter-spacing: 0.5px;
+    }
+
+    .stat-val {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #38bdf8;
+    }
+
+    /* CARD BODY & SECTIONS */
+    .card-section {
+      margin-bottom: 0.75rem;
+    }
+
+    .card-section-title {
+      font-size: 0.725rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-bottom: 0.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .card-desc {
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      line-height: 1.4;
+    }
+
+    .example-box {
+      background: rgba(139, 92, 246, 0.06);
+      border-left: 3px solid var(--accent-purple);
+      padding: 0.6rem 0.75rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-size: 0.8rem;
+      color: #e2e8f0;
+      margin-top: 0.4rem;
+    }
+
+    .example-box strong {
+      color: #c084fc;
+    }
+
+    /* CARD FOOTER BUTTONS */
+    .card-footer {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.85rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .btn-card {
+      flex: 1;
+      padding: 0.5rem 0.75rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.775rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      transition: var(--transition-fast);
+    }
+
+    .btn-card:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-card-primary {
+      background: rgba(139, 92, 246, 0.2);
+      border-color: rgba(139, 92, 246, 0.4);
+      color: #c084fc;
+    }
+
+    .btn-card-primary:hover {
+      background: rgba(139, 92, 246, 0.4);
+      color: #fff;
+    }
+
+    /* MODAL STYLING */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition-fast);
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .modal-box {
+      background: #0f121d;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-lg);
+      width: 100%;
+      max-width: 620px;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 1.75rem;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+      position: relative;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .modal-close:hover {
+      background: rgba(244, 63, 94, 0.4);
+    }
+
+    /* DICE SIMULATOR IN MODAL */
+    .dice-sim {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      margin-top: 1rem;
+    }
+
+    .dice-inputs {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .input-field {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .input-field label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .input-field input, .input-field select {
+      padding: 0.5rem;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-sm);
+      color: #fff;
+      font-family: inherit;
+    }
+
+    .btn-roll {
+      width: 100%;
+      padding: 0.75rem;
+      background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+      border: none;
+      border-radius: var(--radius-sm);
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+
+    .btn-roll:hover {
+      opacity: 0.9;
+    }
+
+    .roll-result {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: var(--radius-sm);
+      text-align: center;
+    }
+
+    .dice-display {
+      display: flex;
+      gap: 0.4rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0.5rem 0;
+    }
+
+    .die {
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      font-family: 'Fira Code', monospace;
+      font-weight: 700;
+      font-size: 0.95rem;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .die.success { background: rgba(74, 222, 128, 0.25); border-color: #4ade80; color: #4ade80; }
+    .die.botch { background: rgba(244, 63, 94, 0.25); border-color: #f43f5e; color: #f43f5e; }
+
+    .result-badge {
+      display: inline-block;
+      padding: 0.35rem 0.85rem;
+      border-radius: 50px;
+      font-weight: 800;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+
+    .res-pleno { background: rgba(74, 222, 128, 0.2); color: #4ade80; border: 1px solid #4ade80; }
+    .res-parcial { background: rgba(251, 191, 36, 0.2); color: #fbbf24; border: 1px solid #fbbf24; }
+    .res-falha { background: rgba(148, 163, 184, 0.2); color: #94a3b8; border: 1px solid #94a3b8; }
+    .res-botch { background: rgba(244, 63, 94, 0.2); color: #f43f5e; border: 1px solid #f43f5e; }
+
+    footer {
+      text-align: center;
+      margin-top: 3.5rem;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 2rem; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .controls-wrapper { position: static; }
+      .filter-label { min-width: 100%; margin-bottom: 0.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  
+  <!-- HEADER -->
+  <header>
+    <div class="badge-header">Sistema Player-Faced M20 • Mago Presencial Ralc</div>
+    <h1>Cards de Aliados, Antagonistas & Obstáculos</h1>
+    <p class="subtitle">Catálogo completo de NPCs, Operativos da Tecnocracia, Entidades Sobrenaturais e Criaturas adaptadas para o modelo Player-Faced (0 rolagens do Narrador).</p>
+  </header>
+
+  <!-- QUICK RULES BANNER -->
+  <div class="rules-banner">
+    <div class="rule-item">
+      <div class="rule-icon">🎲</div>
+      <div class="rule-text">
+        <h4>Resolução em 4 Faixas</h4>
+        <p><strong>≥2s:</strong> Sucesso Pleno | <strong>1s:</strong> Parcial (Com Custo) | <strong>0s:</strong> Falha | <strong>&lt;0s:</strong> Botch/Paradoxo.</p>
+      </div>
+    </div>
+    <div class="rule-item">
+      <div class="rule-icon">⚖️</div>
+      <div class="rule-text">
+        <h4>Fatores Simétricos</h4>
+        <p><strong>Imposição / Pressão (Diff):</strong> Defesa do NPC vs. Defesa do PJ.<br><strong>Severidade / Relógio:</strong> Dano Fixo vs. Caixas de Conflito.</p>
+      </div>
+    </div>
+    <div class="rule-item">
+      <div class="rule-icon">⚡</div>
+      <div class="rule-text">
+        <h4>Zero Rolagens do Narrador</h4>
+        <p>Toda a ficção avança por meio da agência das rolagens dos jogadores.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTROLS & FILTERS -->
+  <div class="controls-wrapper">
+    <div class="search-bar-container">
+      <input type="text" id="searchInput" class="search-input" placeholder="🔍 Buscar por nome, facção, esfera, habilidade ou palavra-chave (ex: Ângela, ABIN, Hit-Mark, Lizander, Pelourinho, CAPS)...">
+    </div>
+    
+    <div class="filter-groups-stack">
+      <!-- ROW 1: ELENCO -->
+      <div class="filter-row">
+        <span class="filter-label">Grupo do Elenco:</span>
+        <button class="btn-filter active" data-elenco="all">Todos</button>
+        <button class="btn-filter" data-elenco="cronica">NPCs da Crônica (02_npcs)</button>
+        <button class="btn-filter" data-elenco="tecnocracia">Tecnocracia / NOM</button>
+        <button class="btn-filter" data-elenco="despertos">Despertos & Sobrenaturais</button>
+        <button class="btn-filter" data-elenco="adormecidos">Adormecidos (As Massas)</button>
+        <button class="btn-filter" data-elenco="bestiario">Bestiário / Animais</button>
+      </div>
+
+      <!-- ROW 2: NÍVEL -->
+      <div class="filter-row">
+        <span class="filter-label">Nível de Carga:</span>
+        <button class="btn-filter active" data-lvl="all">Todos</button>
+        <button class="btn-filter" data-lvl="1">Nível 1 (Passivo)</button>
+        <button class="btn-filter" data-lvl="2">Nível 2 (Oposição Rápida)</button>
+        <button class="btn-filter" data-lvl="3">Nível 3 (Ameaça Ativa)</button>
+        <button class="btn-filter" data-lvl="4">Nível 4 (Telegrafado)</button>
+      </div>
+
+      <!-- ROW 3: DIMENSÃO -->
+      <div class="filter-row">
+        <span class="filter-label">Dimensão:</span>
+        <button class="btn-filter active" data-dim="all">Todas</button>
+        <button class="btn-filter" data-dim="fisica">Física</button>
+        <button class="btn-filter" data-dim="social">Social</button>
+        <button class="btn-filter" data-dim="intelectual">Intelectual</button>
+        <button class="btn-filter" data-dim="mistica">Mística</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARDS CONTAINER -->
+  <div class="cards-grid" id="cardsGrid">
+
+    <!-- ==================== SEÇÃO 1: NPCS CHAVE DA CRÔNICA (02_npcs) ==================== -->
+
+    <!-- CARD 1: Ângela -->
+    <div class="card" data-lvl="2" data-dim="social" data-elenco="cronica">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="cronica">Crônica</span>
+          </div>
+          <span class="dim-tag" data-dim="social">Social / Mística</span>
+        </div>
+        <h3 class="card-title">Ângela</h3>
+        <div class="card-subtitle">Enfermeira do CAPS • Desperta • Protetora de Dependentes Químicos</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade Interação (d10)</span>
+          <span class="stat-val">Diff 6 (Padrão)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Relógio de Aliança</span>
+          <span class="stat-val">3 Caixas (Suporte)</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🔮 Esferas & Habilidades</div>
+        <div class="card-desc">Vida 2, Primórdio 2 • Paradigma Científico-Espiritual. Especialista em Desintoxicação de Quintessência.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Os PJs procuram o CAPS para investigar a droga de sangue. Convencê-la a liberar prontuários sigilosos exige <em>Carisma + Empatia (Diff 6)</em>.<br>
+        • <strong>1 Sucesso:</strong> Libera os dados, mas exige que os PJs acompanhem um paciente em crise.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Ângela (CAPS)', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 1)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 2: Bernardino -->
+    <div class="card" data-lvl="2" data-dim="social" data-elenco="cronica">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="cronica">Crônica</span>
+          </div>
+          <span class="dim-tag" data-dim="social">Social / Ideológica</span>
+        </div>
+        <h3 class="card-title">Bernardino (Bernardo B. Bertrand)</h3>
+        <div class="card-subtitle">Influenciador Digital Anti-Vacina • Ex-BBB • Adormecido</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imposição Social</span>
+          <span class="stat-val">Diff 7 (Lábia Digital)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Relógio de Influência</span>
+          <span class="stat-val">3 Caixas</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">📢 Oposição Ideológica</div>
+        <div class="card-desc">Explora o medo da pós-pandemia para engajamento. Rosto antagônico do <em>Problema Legado</em>.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Desarmar um discurso conspiracionista de Bernardino durante uma transmissão ao vivo.<br>
+        • <strong>≥2 Sucessos:</strong> Desmascara a farsa no ar.<br>
+        • <strong>1 Sucesso:</strong> Refuta o argumento, mas a base de seguidores dele inicia ataques de cancelamento contra o PJ.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Bernardino (Live)', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 2)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 3: Carlito Heizenberg -->
+    <div class="card" data-lvl="3" data-dim="mistica" data-elenco="cronica">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="cronica">Crônica</span>
+          </div>
+          <span class="dim-tag" data-dim="mistica">Mística / Intelectual</span>
+        </div>
+        <h3 class="card-title">Carlito Heizenberg</h3>
+        <div class="card-subtitle">Alquimista do Sangue • Traficante de Quintessência Residual • Desperto</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imposição / Pressão</span>
+          <span class="stat-val">Diff 7 / Diff 6</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio</span>
+          <span class="stat-val">3 Dano Fixo / 5 Caixas</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🧪 Alquimia Sombria</div>
+        <div class="card-desc">Esferas: Matéria 3, Primórdio 2. Sintetiza a droga mágica refinada a partir do sangue de mortos recentes.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Brecha Tática:</strong> Se atacado no <em>Domínio Intelectual</em> (Destruir a fórmula alquímica no laboratório), a Dificuldade cai para <strong>Diff 6</strong>!
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Carlito Heizenberg', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 3)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 4: Elizabeth Barcelos -->
+    <div class="card" data-lvl="1" data-dim="intelectual" data-elenco="cronica">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 1 • Passivo</span>
+            <span class="elenco-tag" data-elenco="cronica">Crônica</span>
+          </div>
+          <span class="dim-tag" data-dim="intelectual">Intelectual</span>
+        </div>
+        <h3 class="card-title">Elizabeth Barcelos</h3>
+        <div class="card-subtitle">Infectologista Pesquisadora • Adormecida • Suporte Científico</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade Suporte (d10)</span>
+          <span class="stat-val">Diff 6 (Padrão)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Limiar de Sucessos</span>
+          <span class="stat-val">2 Sucessos</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🔬 Análise Laboratorial</div>
+        <div class="card-desc">Fornece análises biológicas cruciais sobre contaminações pós-pandemia e anomalias celulares da droga.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Enviar uma amostra da droga sintética para análise sigilosa sem levantar suspeitas no laboratório central.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Elizabeth Barcelos', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 4)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 5: Joana Pipoquinha -->
+    <div class="card" data-lvl="2" data-dim="mistica" data-elenco="cronica">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="cronica">Crônica</span>
+          </div>
+          <span class="dim-tag" data-dim="mistica">Mística / Arcana</span>
+        </div>
+        <h3 class="card-title">Joana Pipoquinha</h3>
+        <div class="card-subtitle">Espírito Urbano (Filha de Lizander) • Odeia Magos</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imposição / Pressão</span>
+          <span class="stat-val">Diff 6 / Diff 6</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Relógio de Essência</span>
+          <span class="stat-val">3 Caixas (Imune Físico)</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">👻 Sabotagem Espiritual</div>
+        <div class="card-desc">Imune a dano físico mundano. Rastreia e vigia magos para sabotá-los em vingança contra a tragédia de sua vida.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Acalmar o espírito de Joana com <em>Espírito + Empatia (Diff 6)</em> para obter informações sobre os planos de Lizander.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Joana Pipoquinha', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 5)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 6: Lizander Filho do Raio -->
+    <div class="card" data-lvl="4" data-dim="mistica" data-elenco="cronica">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 4 • Telegrafado</span>
+            <span class="elenco-tag" data-elenco="cronica">Crônica</span>
+          </div>
+          <span class="dim-tag" data-dim="mistica">Mística / Física</span>
+        </div>
+        <h3 class="card-title">Lizander "Filho do Raio"</h3>
+        <div class="card-subtitle">Mestre de Forças Fanático • Extremista Anti-Magos • Antagonista Principal</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imposição / Pressão</span>
+          <span class="stat-val">Diff 8 / Diff 7</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Relógio de Vitalidade</span>
+          <span class="stat-val">8 Caixas (Mestre)</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">📢 Intenção Declarada (Telegrafo)</div>
+        <div class="card-desc"><em>"Lizander canaliza a Quintessência da dor pós-pandemia. Final do turno: Tempestade de Relâmpagos de 5 Agravados em área."</em></div>
+      </div>
+
+      <div class="example-box">
+        <strong>Respostas Táticas dos PJs:</strong><br>
+        • <strong>Opção A (Interromper):</strong> Teste Diff 8 (Mágika ou Ataque Físico) para quebrar a concentração.<br>
+        • <strong>Opção B (Defender 100%):</strong> Mágika de Proteção/Esquiva em Diff 7.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Lizander Filho do Raio', 8, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 6)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+
+    <!-- ==================== SEÇÃO 2: ELENCO TECNOCRACIA ==================== -->
+
+    <!-- CARD 7: Cientista Extraordinário -->
+    <div class="card" data-lvl="3" data-dim="intelectual" data-elenco="tecnocracia">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="tecnocracia">Tecnocracia</span>
+          </div>
+          <span class="dim-tag" data-dim="intelectual">Intelectual</span>
+        </div>
+        <h3 class="card-title">Cientista Extraordinário (NOM)</h3>
+        <div class="card-subtitle">Pesquisador Tecnocrático Não-Iluminado</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pres (Intel)</span>
+          <span class="stat-val">Diff 7 / Diff 6</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio</span>
+          <span class="stat-val">3 Dano Fixo / 5 Caixas</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🧪 Domínio Intelectual</div>
+        <div class="card-desc">Operativo especializado em bioengenharia e procedimentos laboratoriais avançados.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Ponto Fraco Físico:</strong> Se atacado no <em>Domínio Físico</em> (Confronto direto no laboratório), Diff Imposição cai para <strong>Diff 5</strong> e o Relógio cai para <strong>3 Caixas</strong> (Nocaute rápido em 2 turnos!).
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Cientista Extraordinário', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 7)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 8: Agente de Campo Extraordinário -->
+    <div class="card" data-lvl="2" data-dim="fisica" data-elenco="tecnocracia">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="tecnocracia">Tecnocracia</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Social</span>
+        </div>
+        <h3 class="card-title">Agente de Campo Extraordinário</h3>
+        <div class="card-subtitle">Operativo Humano Treinado • Trama Balística Leve</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade PJ (d10)</span>
+          <span class="stat-val">Diff 7 (Treinado)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Resolução</span>
+          <span class="stat-val">1 Rolagem Única</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🔫 Equipamento Tático</div>
+        <div class="card-desc">Armamento corporativo de última geração, comunicador e colete oculto (RD 1 contra 1s).</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Exemplo Prático:</strong> Render silenciosamente um agente de vigilância no estacionamento da NOM.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Agente de Campo', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 8)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 9: Ciborgue Metálico Comum -->
+    <div class="card" data-lvl="3" data-dim="fisica" data-elenco="tecnocracia">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="tecnocracia">Tecnocracia</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Técnica</span>
+        </div>
+        <h3 class="card-title">Ciborgue Metálico (Iteração X)</h3>
+        <div class="card-subtitle">Implantes Subcutâneos • Portas USB Ósseas</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 6 / Diff 6</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio / RD</span>
+          <span class="stat-val">3 Dano / 5 Caixas / RD 1</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🦾 Módulos Adaptáveis</div>
+        <div class="card-desc">Pode ser configurado para <em>Módulo de Combate</em> (Garras Força +1), <em>Investigação</em> (Visão UV/IR) ou <em>Infiltração</em> (IVAE).</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Conflito Tático:</strong> O ciborgue acessa o tráfego de dados da cidade em tempo real.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Ciborgue Metálico', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 9)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 10: Victor (Clones Progenitores) -->
+    <div class="card" data-lvl="3" data-dim="fisica" data-elenco="tecnocracia">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="tecnocracia">Tecnocracia</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Corporal</span>
+        </div>
+        <h3 class="card-title">Victor (Clone Progenitor)</h3>
+        <div class="card-subtitle">Geno-Engenharia • Imunidade à Dor • Contramágika Biológica</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 7 / Diff 7</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio</span>
+          <span class="stat-val">4 Dano Fixo / 6 Caixas</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🧬 Biometria Avançada</div>
+        <div class="card-desc"><strong>Imunidade à Dor:</strong> Não sofre penalidades por ferimentos. Possui <strong>2 dados de Contramágika inata</strong> biológica.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Um assassino biológico que avança sem vacilar mesmo após levar tiros.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Victor (Clone)', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 10)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 11: HIT Mark V ("Rusty") -->
+    <div class="card" data-lvl="3" data-dim="fisica" data-elenco="tecnocracia">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="tecnocracia">Tecnocracia</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Corporal</span>
+        </div>
+        <h3 class="card-title">HIT Mark V ("Rusty")</h3>
+        <div class="card-subtitle">Chassi Cibernético Clássico • Ligas de Primium • Metralhadora</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 8 / Diff 7</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio / RD</span>
+          <span class="stat-val">4 Letal / 7 Caixas / RD 2</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🛡️ Primium Heavy Armor</div>
+        <div class="card-desc">RD 2 reduz em 1 Impacto todo acerto. Possui <strong>5 dados de Contramágika de Primium</strong>. Braço com Metralhadora de fita.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Hacking do Hardware:</strong> Exige 10 min de contato físico e teste estendido de Hipertecnologia (Diff 5, 5 sucessos).
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('HIT Mark V', 8, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 11)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 12: HIT Mark X -->
+    <div class="card" data-lvl="4" data-dim="fisica" data-elenco="tecnocracia">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 4 • Telegrafado</span>
+            <span class="elenco-tag" data-elenco="tecnocracia">Tecnocracia</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Corporal</span>
+        </div>
+        <h3 class="card-title">HIT Mark X ("Soldado Invisível")</h3>
+        <div class="card-subtitle">Biomecânico • Autodestruição Tática • Camuflagem Social</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Limiar Mínimo / RD</span>
+          <span class="stat-val">Limiar 2 / RD 2</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Relógio / Autodestruição</span>
+          <span class="stat-val">8 Caixas / 8 Dano Letal</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">💣 Protocolo de Extermínio</div>
+        <div class="card-desc">Ao zerar a vitalidade, ativa autodestruição explosiva em 4 metros. Garras de nanotubos orgânicos.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Reprogramação Arcana:</strong> Exige Mágika Vulgar direta (Matéria 3 / Mente 3 / Forças 2) + Hacking físico.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('HIT Mark X', 8, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 12)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 13: Terno Preto -->
+    <div class="card" data-lvl="3" data-dim="social" data-elenco="tecnocracia">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="tecnocracia">Tecnocracia</span>
+          </div>
+          <span class="dim-tag" data-dim="social">Social / Física</span>
+        </div>
+        <h3 class="card-title">Terno Preto (Agente NOM)</h3>
+        <div class="card-subtitle">Agente Iluminado • Aura de Medo • Dissolução Corporal</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 7 / Diff 7</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio</span>
+          <span class="stat-val">4 Dano Fixo / 6 Caixas</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">👁️ Aura de Terror</div>
+        <div class="card-desc">Exige teste de <em>Força de Vontade (Diff 5 + 1 por Terno Preto)</em> para agir. Dissolve-se em líquido inodoro ao morrer.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Equipamento:</strong> Terno de trama balística (RD 1), pistola de energia e sedã de luxo blindado.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Terno Preto (NOM)', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 13)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+
+    <!-- ==================== SEÇÃO 3: ELENCO DESPERTOS & SOBRENATURAIS ==================== -->
+
+    <!-- CARD 14: Hacktivista Desperto -->
+    <div class="card" data-lvl="2" data-dim="intelectual" data-elenco="despertos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="despertos">Despertos</span>
+          </div>
+          <span class="dim-tag" data-dim="intelectual">Intelectual / Mística</span>
+        </div>
+        <h3 class="card-title">Hacktivista Desperto</h3>
+        <div class="card-subtitle">Adeptos da Virtualidade / Tradições • Suporte Hacker</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Interação (d10)</span>
+          <span class="stat-val">Diff 6 (Padrão)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Relógio de Suporte</span>
+          <span class="stat-val">3 Caixas (Dados)</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🌐 Esferas & Paradigma</div>
+        <div class="card-desc">Correspondência/Dados 3, Forças 2. Foco: <em>Tudo são Dados</em>. Altera redes e extrai sigilos com facilidade.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Obter um passe de acesso clonado para a intranet de um laboratório corporativo.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Hacktivista Desperto', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 14)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 15: Músico Xamã Urbano -->
+    <div class="card" data-lvl="2" data-dim="mistica" data-elenco="despertos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="despertos">Despertos</span>
+          </div>
+          <span class="dim-tag" data-dim="mistica">Mística / Social</span>
+        </div>
+        <h3 class="card-title">Músico Xamã Urbano</h3>
+        <div class="card-subtitle">Oradores dos Sonhos / Verbena • Mediador de Espíritos</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Interação (d10)</span>
+          <span class="stat-val">Diff 6 (Padrão)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Relógio de Suporte</span>
+          <span class="stat-val">3 Caixas (Ritual)</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🎵 Esferas & Paradigma</div>
+        <div class="card-desc">Espírito 3, Forças 2. Foco: <em>A Criação é Divina e está Viva</em>. Usa música para acalmar espíritos de asfalto e concreto.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Negociar a passagem segura pela Penumbra de um viaduto dominado por espíritos de poluição.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Músico Xamã', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 15)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 16: Pelourinho (Desaurida Hostil) -->
+    <div class="card" data-lvl="4" data-dim="mistica" data-elenco="despertos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 4 • Telegrafado</span>
+            <span class="elenco-tag" data-elenco="despertos">Desauridos</span>
+          </div>
+          <span class="dim-tag" data-dim="mistica">Mística / Física</span>
+        </div>
+        <h3 class="card-title">Pelourinho (Desaurida Marauder)</h3>
+        <div class="card-subtitle">Mente Colapsada no Dinamismo • Imune a Paradoxo</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 8 / Diff 7</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio</span>
+          <span class="stat-val">5 Letal / 7 Caixas</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🌀 Delírio Dinâmico</div>
+        <div class="card-desc">Chicote de carne (5 Letal), Sino de Silêncio Místico (extingue som em 10m) e Gaiola de Borboletas. <strong>100% Imune a Paradoxo</strong>.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Intenção Declarada:</strong> <em>"Pelourinho balança o Sino Silencioso. Final do turno: Extingue toda comunicação mística e causa 4 Danos de Entropia."</em>
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Pelourinho (Desaurida)', 8, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 16)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 17: Colmeia (Desaurido Co-localizado) -->
+    <div class="card" data-lvl="3" data-dim="intelectual" data-elenco="despertos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="despertos">Desauridos</span>
+          </div>
+          <span class="dim-tag" data-dim="intelectual">Intelectual / Mística</span>
+        </div>
+        <h3 class="card-title">Colmeia (Desaurido Múltiplo)</h3>
+        <div class="card-subtitle">Identidade Compartilhada em Múltiplos Corpos Físicos</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 7 / Diff 7</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Relógio de Conflito</span>
+          <span class="stat-val">6 Caixas (Arete 7)</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🐝 Mente Fragmentada</div>
+        <div class="card-desc">Mantém dezenas de corpos em escritórios separados compartilhando o mesmo Arete (Correspondência 5, Mente 5).</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Desafio Tático:</strong> Destruir um corpo não afeta o Desaurido; é preciso cortar o elo de Mente na Penumbra.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Colmeia (Desaurido)', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 17)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 18: Cultista Widderslainte -->
+    <div class="card" data-lvl="2" data-dim="mistica" data-elenco="despertos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="despertos">Nefandi</span>
+          </div>
+          <span class="dim-tag" data-dim="mistica">Mística / Social</span>
+        </div>
+        <h3 class="card-title">Cultista Widderslainte</h3>
+        <div class="card-subtitle">Nefandus Nato • Praticante de Maleficia • Mácula do Vazio</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade PJ (d10)</span>
+          <span class="stat-val">Diff 6 (Padrão)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Resolução</span>
+          <span class="stat-val">1 Rolagem Única</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🌑 Mágika Nefândica</div>
+        <div class="card-desc">Esferas: Entropia 2, Espírito 2, Vida 2 corrompidas pelo Vazio. Armado com faca ritualística escura.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Interromper um ritual menor de corrupção psíquica em um galpão abandonado.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Cultista Widderslainte', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 18)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 19: Infiltrado na NOM (Homem de Cinza) -->
+    <div class="card" data-lvl="3" data-dim="social" data-elenco="despertos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="despertos">Nefandi</span>
+          </div>
+          <span class="dim-tag" data-dim="social">Social / Mística</span>
+        </div>
+        <h3 class="card-title">Homem de Cinza (Infiltrado NOM)</h3>
+        <div class="card-subtitle">Nefandus Corporativo • Subversor Interno da Tecnocracia</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 7 / Diff 7</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio / RD</span>
+          <span class="stat-val">4 Dano / 6 Caixas / RD 2</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🏢 Dupla Identidade</div>
+        <div class="card-desc">Opera como Terno Preto de alto escalão na NOM, mas pratica Maleficia no interior para levar a cidade ao Esquecimento.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Desafio Político:</strong> Expô-lo para a própria Tecnocracia sem ser executado no processo.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Homem de Cinza (Nefandus)', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 19)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 20: Coração-da-Floresta Ancestral -->
+    <div class="card" data-lvl="1" data-dim="mistica" data-elenco="despertos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 1 • Passivo</span>
+            <span class="elenco-tag" data-elenco="despertos">Espíritos</span>
+          </div>
+          <span class="dim-tag" data-dim="mistica">Mística / Ambiental</span>
+        </div>
+        <h3 class="card-title">Coração-da-Floresta Ancestral</h3>
+        <div class="card-subtitle">Grand Naturae • Árvore Titânica Secular (45m de altura)</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade Ritual (d10)</span>
+          <span class="stat-val">Diff 7 (Cósmico)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Limiar de Pacificação</span>
+          <span class="stat-val">4 Sucessos (Ritual)</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🌲 Percepção Mística</div>
+        <div class="card-desc">Escuta tudo no território. Atrai alcateias e manipula ventos contra transgressores ecológicos. Pacificado apenas por Ritos.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Apaziguar a fúria da floresta após a destruição de uma clareira por construtoras mundanas.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Coração da Floresta', 7, 4)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 20)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+
+    <!-- ==================== SEÇÃO 4: ELENCO ADORMECIDOS (AS MASSAS) ==================== -->
+
+    <!-- CARD 21: Cidadão Típico -->
+    <div class="card" data-lvl="1" data-dim="social" data-elenco="adormecidos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 1 • Passivo</span>
+            <span class="elenco-tag" data-elenco="adormecidos">Adormecidos</span>
+          </div>
+          <span class="dim-tag" data-dim="social">Social</span>
+        </div>
+        <h3 class="card-title">Cidadão Típico</h3>
+        <div class="card-subtitle">Recepcionista, Estudante, Assistente de Laboratório</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade Interação</span>
+          <span class="stat-val">Diff 5 (Fácil)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Limiar de Sucessos</span>
+          <span class="stat-val">2 Sucessos</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🧠 Racionalização de Mágika</div>
+        <div class="card-desc">Foge ou entra em pânico diante do sobrenatural. Exibições vulgares na sua presença geram acúmulo imediato de Paradoxo.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Convencer a secretária do cartório a liberar uma certidão sem agendamento.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Cidadão Típico', 5, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 21)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 22: Bandido Comum -->
+    <div class="card" data-lvl="2" data-dim="fisica" data-elenco="adormecidos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="adormecidos">Adormecidos</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Corporal</span>
+        </div>
+        <h3 class="card-title">Bandido Comum</h3>
+        <div class="card-subtitle">Assaltante de Rua, Gangster Local, Capanga</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade PJ (d10)</span>
+          <span class="stat-val">Diff 5 (Inepto)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Resolução</span>
+          <span class="stat-val">1 Rolagem Única</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🔪 Armas Improvisadas</div>
+        <div class="card-desc">Tacos de bilhar, facas ou garrafas quebradas (Dano 2 a 3 Contundente/Letal). Foge após sofrer o primeiro ferimento sério.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Desarmar um assaltante num beco escuro perto do CAPS.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Bandido Comum', 5, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 22)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 23: Durão Profissional -->
+    <div class="card" data-lvl="3" data-dim="fisica" data-elenco="adormecidos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="adormecidos">Adormecidos</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Corporal</span>
+        </div>
+        <h3 class="card-title">Durão Profissional</h3>
+        <div class="card-subtitle">Mercenário, Segurança de Elite, Atirador da Máfia</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 6 / Diff 6</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio / RD</span>
+          <span class="stat-val">3 Letal / 4 Caixas / RD 1</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🔫 Armamento Pesado</div>
+        <div class="card-desc">Pistolas pesadas ou submetralhadoras (Dano Letal 3 a 4). Colete Kevlar Leve (RD 1). Força de Vontade 6.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Troca de tiros nos corredores de uma boate onde o sangue de mortos é comercializado.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Durão Profissional', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 23)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 24: Policial de Rua & Tático SWAT -->
+    <div class="card" data-lvl="2" data-dim="fisica" data-elenco="adormecidos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 -> Nível 3</span>
+            <span class="elenco-tag" data-elenco="adormecidos">Adormecidos</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Social</span>
+        </div>
+        <h3 class="card-title">Policial de Rua (Ronda / SWAT)</h3>
+        <div class="card-subtitle">Patrulha Comum ou Escalação para Tático de Choque</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Ronda / SWAT</span>
+          <span class="stat-val">Diff 6 / Diff 7</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / RD SWAT</span>
+          <span class="stat-val">4 Letal / RD 2 (Choque)</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🚨 Escalação de Força</div>
+        <div class="card-desc">Ronda comum chama reforço em tiroteios. A SWAT chega com fuzis de assalto (Dano Letal 4) e blindados.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Despistar uma blitz policial ou conter uma invasão de táticos de Choque.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Policial de Rua', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 24)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 25: Agente do Governo (FBI / CIA / NSA) -->
+    <div class="card" data-lvl="2" data-dim="intelectual" data-elenco="adormecidos">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="adormecidos">Adormecidos</span>
+          </div>
+          <span class="dim-tag" data-dim="intelectual">Intelectual / Social</span>
+        </div>
+        <h3 class="card-title">Agente Federal (FBI / CIA / NSA)</h3>
+        <div class="card-subtitle">Investigador de Inteligência Governamental</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade PJ (d10)</span>
+          <span class="stat-val">Diff 7 (Treinado)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Resolução</span>
+          <span class="stat-val">1 Rolagem Única</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🕵️ Vigilância & Direito</div>
+        <div class="card-desc">Dispositivos de escuta, acesso a escutas telefônicas e intimidação legal corporativa. Força de Vontade 7.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Passar ileso por um interrogatório federal sem levantar suspeitas sobrenaturais.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Agente Federal', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 25)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+
+    <!-- ==================== SEÇÃO 5: ELENCO BESTIÁRIO & ANIMAIS ==================== -->
+
+    <!-- CARD 26: Gato Doméstico / Familiar Menor -->
+    <div class="card" data-lvl="1" data-dim="mistica" data-elenco="bestiario">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 1 • Passivo</span>
+            <span class="elenco-tag" data-elenco="bestiario">Bestiário</span>
+          </div>
+          <span class="dim-tag" data-dim="mistica">Furtividade / Mística</span>
+        </div>
+        <h3 class="card-title">Gato Doméstico / Familiar</h3>
+        <div class="card-subtitle">Animal de Pequeno Porte • Companheiro de Avatar</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade Interação</span>
+          <span class="stat-val">Diff 5 (Fácil)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Furtividade / Escalar</span>
+          <span class="stat-val">4 Dados de Habilidade</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🐾 Atributos & Ataques</div>
+        <div class="card-desc">Força 1, Destreza 3, Vigor 3. Garras causam 1 dado de dano Letal. Se for Familiar, ganha +2 em estatísticas e intelecto humano.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Usar o Familiar para espionar uma reunião fechada através de uma janela.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Gato Familiar', 5, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 26)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 27: Cachorro Grande / Lobo da Penumbra -->
+    <div class="card" data-lvl="2" data-dim="fisica" data-elenco="bestiario">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 2 • Oposição Rápida</span>
+            <span class="elenco-tag" data-elenco="bestiario">Bestiário</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Corporal</span>
+        </div>
+        <h3 class="card-title">Cachorro Grande / Lobo</h3>
+        <div class="card-subtitle">Pastor Alemão, Dogue Alemão ou Lobo Selvagem</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade PJ (d10)</span>
+          <span class="stat-val">Diff 6 (Padrão)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Mordida Letal</span>
+          <span class="stat-val">5 Dados de Dano</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🐺 Rastreio por Olfato</div>
+        <div class="card-desc">Força 4, Destreza 3, Vigor 3. Habilidade de <em>Sobrevivência (Rastrear) 4 dados</em>. Intimidação 2 a 3.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Esquivar ou subjugar cães de guarda de um depósito militarizado.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Cão de Guarda / Lobo', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 27)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 28: Felino Selvagem (Tigre / Leão) -->
+    <div class="card" data-lvl="3" data-dim="fisica" data-elenco="bestiario">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="bestiario">Bestiário</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Corporal</span>
+        </div>
+        <h3 class="card-title">Felino Selvagem (Tigre / Leão)</h3>
+        <div class="card-subtitle">Besta Predadora • Garras e Mordida Devastadoras</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 6 / Diff 6</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio</span>
+          <span class="stat-val">4 Letal / 5 Caixas</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🐅 Fúria Predatória</div>
+        <div class="card-desc">Força 5, Destreza 4, Vigor 4. Mordida inflige 7 dados de dano Letal no Storyteller clássico (Severidade 4 Fixo no Player-Faced).</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Enfrentar um totem mutacionado pela proliferação de drogas na Penumbra.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Felino Selvagem', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 28)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 29: Crocodilo Escamoso -->
+    <div class="card" data-lvl="3" data-dim="fisica" data-elenco="bestiario">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 3 • Ameaça Ativa</span>
+            <span class="elenco-tag" data-elenco="bestiario">Bestiário</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Corporal</span>
+        </div>
+        <h3 class="card-title">Crocodilo Escamoso</h3>
+        <div class="card-subtitle">Couro Rígido • Mordida de Aprisionamento</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Diff Imp / Pressão</span>
+          <span class="stat-val">Diff 7 / Diff 6</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Severidade / Relógio / RD</span>
+          <span class="stat-val">5 Letal / 5 Caixas / RD 1</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🐊 Couro Escamoso</div>
+        <div class="card-desc">Força 6, Vigor 6. Couro espesso concede <strong>RD 1</strong> (Anula 1s de acerto fraco). Tapa de cauda causa dano contundente pesado.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Atravessar um canal subterrâneo de esgoto onde crocodilos mutantes habitam.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Crocodilo Escamoso', 7, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 29)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+    <!-- CARD 30: Bando de Pássaros (Regra de Assédio) -->
+    <div class="card" data-lvl="1" data-dim="fisica" data-elenco="bestiario">
+      <div class="card-header">
+        <div class="card-top-tags">
+          <div class="tags-left">
+            <span class="level-badge">Nível 1 • Passivo</span>
+            <span class="elenco-tag" data-elenco="bestiario">Bestiário</span>
+          </div>
+          <span class="dim-tag" data-dim="fisica">Física / Ambiental</span>
+        </div>
+        <h3 class="card-title">Bando de Pássaros (Assédio)</h3>
+        <div class="card-subtitle">Tentilhões, Pombos, Corvos em Revoada Hostil</div>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <span class="stat-label">Dificuldade Dispersar</span>
+          <span class="stat-val">Diff 6 (Padrão)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Efeito Mecânico</span>
+          <span class="stat-val">-1 Dado nas Paradas</span>
+        </div>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-title">🦅 Regra de Assédio Ambiental</div>
+        <div class="card-desc">Não causa dano de corte direto, mas sua perturbação visual e asas caóticas impõem <strong>-1 dado em todas as rolagens dos PJs</strong> na área.</div>
+      </div>
+
+      <div class="example-box">
+        <strong>Contexto Dramático:</strong> Tentar mirar ou conjurar mágika sob o ataque barulhento de dezenas de pombos psíquicos.
+      </div>
+
+      <div class="card-footer">
+        <button class="btn-card btn-card-primary" onclick="openRollModal('Bando de Pássaros', 6, 2)">🎲 Testar Rolagem</button>
+        <button class="btn-card" onclick="copyMarkdown(this, 30)">📋 Copiar Markdown</button>
+      </div>
+    </div>
+
+  </div> <!-- /cards-grid -->
+
+  <footer>
+    <p>Mago: A Ascensão 20 Anos • Sistema Player-Faced Total • Mago Presencial Ralc</p>
+  </footer>
+
+</div> <!-- /container -->
+
+<!-- MODAL SIMULADOR DE DADOS -->
+<div class="modal-overlay" id="rollModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeRollModal()">✕</button>
+    <h3 id="modalTitle" style="font-family:'Outfit'; font-size:1.4rem; margin-bottom:0.4rem; color:#fff;">Simulador de Rolagem</h3>
+    <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">Role dados d10 no modelo Player-Faced com aplicação da regra de 1s anulando sucessos.</p>
+
+    <div class="dice-sim">
+      <div class="dice-inputs">
+        <div class="input-field">
+          <label for="dicePool">Parada de Dados (d10)</label>
+          <input type="number" id="dicePool" value="5" min="1" max="15">
+        </div>
+        <div class="input-field">
+          <label for="targetDiff">Dificuldade (Diff)</label>
+          <select id="targetDiff">
+            <option value="5">Diff 5 (Fácil)</option>
+            <option value="6" selected>Diff 6 (Padrão)</option>
+            <option value="7">Diff 7 (Adverso)</option>
+            <option value="8">Diff 8 (Extremo)</option>
+          </select>
+        </div>
+      </div>
+
+      <button class="btn-roll" onclick="executeRoll()">🎲 ROLAR DADOS</button>
+
+      <div class="roll-result" id="rollResult" style="display:none;">
+        <div style="font-size:0.8rem; color:var(--text-muted);">Resultados dos Dados:</div>
+        <div class="dice-display" id="diceDisplay"></div>
+        <div id="resultText"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // FILTRAGEM DE CARDS MULTIDIMENSIONAL
+  const btnFilters = document.querySelectorAll('.btn-filter');
+  const searchInput = document.getElementById('searchInput');
+  const cards = document.querySelectorAll('.card');
+
+  let activeElenco = 'all';
+  let activeLvl = 'all';
+  let activeDim = 'all';
+
+  btnFilters.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const parent = btn.parentElement;
+      parent.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      if (btn.dataset.elenco) activeElenco = btn.dataset.elenco;
+      if (btn.dataset.lvl) activeLvl = btn.dataset.lvl;
+      if (btn.dataset.dim) activeDim = btn.dataset.dim;
+
+      filterCards();
+    });
+  });
+
+  searchInput.addEventListener('input', filterCards);
+
+  function filterCards() {
+    const query = searchInput.value.toLowerCase().trim();
+
+    cards.forEach(card => {
+      const cardElenco = card.dataset.elenco;
+      const cardLvl = card.dataset.lvl;
+      const cardDim = card.dataset.dim;
+      const cardContent = card.textContent.toLowerCase();
+
+      const matchElenco = (activeElenco === 'all' || cardElenco === activeElenco);
+      const matchLvl = (activeLvl === 'all' || cardLvl === activeLvl);
+      const matchDim = (activeDim === 'all' || cardDim === activeDim);
+      const matchSearch = (query === '' || cardContent.includes(query));
+
+      if (matchElenco && matchLvl && matchDim && matchSearch) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // MODAL SIMULADOR DE DADOS
+  const modal = document.getElementById('rollModal');
+  const modalTitle = document.getElementById('modalTitle');
+  const targetDiffSelect = document.getElementById('targetDiff');
+  const rollResultBox = document.getElementById('rollResult');
+
+  function openRollModal(title, diff, requiredS) {
+    modalTitle.textContent = `Testar Rolagem: ${title}`;
+    targetDiffSelect.value = diff;
+    rollResultBox.style.display = 'none';
+    modal.classList.add('active');
+  }
+
+  function closeRollModal() {
+    modal.classList.remove('active');
+  }
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeRollModal();
+  });
+
+  function executeRoll() {
+    const pool = parseInt(document.getElementById('dicePool').value) || 5;
+    const diff = parseInt(document.getElementById('targetDiff').value) || 6;
+    
+    let rolls = [];
+    let successes = 0;
+    let ones = 0;
+
+    for (let i = 0; i < pool; i++) {
+      let val = Math.floor(Math.random() * 10) + 1;
+      rolls.push(val);
+      if (val >= diff) successes++;
+      if (val === 1) ones++;
+    }
+
+    let netSuccesses = successes - ones;
+
+    // EXIBIR DADOS
+    const diceDisplay = document.getElementById('diceDisplay');
+    diceDisplay.innerHTML = '';
+    
+    rolls.forEach(val => {
+      const die = document.createElement('div');
+      die.className = 'die';
+      if (val >= diff) die.classList.add('success');
+      if (val === 1) die.classList.add('botch');
+      die.textContent = val;
+      diceDisplay.appendChild(die);
+    });
+
+    // CLASSIFICAÇÃO EM 4 FAIXAS
+    const resultText = document.getElementById('resultText');
+    let badgeClass = '';
+    let statusTitle = '';
+    let statusDesc = '';
+
+    if (netSuccesses >= 2) {
+      badgeClass = 'res-pleno';
+      statusTitle = 'SUCESSO TOTAL (PLENO)';
+      statusDesc = `Conseguiu <strong>${netSuccesses} Sucessos Líquidos</strong>. Objetivo cumprido limpo sem custos!`;
+    } else if (netSuccesses === 1) {
+      badgeClass = 'res-parcial';
+      statusTitle = 'SUCESSO PARCIAL (COM CUSTO)';
+      statusDesc = `Conseguiu <strong>1 Sucesso Líquido</strong>. Objetivo cumprido, mas surge um custo, atraso ou complicação!`;
+    } else if (netSuccesses === 0 && ones === 0) {
+      badgeClass = 'res-falha';
+      statusTitle = 'FALHA SIMPLES';
+      statusDesc = `<strong>0 Sucessos</strong>. Ação falha e o Narrador aplica um contra-ataque ou complicação dramática.`;
+    } else {
+      badgeClass = 'res-botch';
+      statusTitle = 'FALHA CRÍTICA (BOTCH)';
+      statusDesc = `<strong>${netSuccesses} Sucessos (com 1s)</strong>. Desastre total, dano severo ou acúmulo de Paradoxo!`;
+    }
+
+    resultText.innerHTML = `
+      <div class="result-badge ${badgeClass}">${statusTitle}</div>
+      <p style="font-size:0.85rem; color:#cbd5e1; margin-top:0.5rem;">${statusDesc}</p>
+    `;
+
+    rollResultBox.style.display = 'block';
+  }
+
+  // COPIAR MARKDOWN DO CARD
+  function copyMarkdown(btn, cardId) {
+    const card = btn.closest('.card');
+    const title = card.querySelector('.card-title').textContent;
+    const subtitle = card.querySelector('.card-subtitle').textContent;
+    const lvl = card.querySelector('.level-badge').textContent;
+    const elenco = card.querySelector('.elenco-tag') ? card.querySelector('.elenco-tag').textContent : '';
+    const dim = card.querySelector('.dim-tag').textContent;
+    
+    let stats = [];
+    card.querySelectorAll('.stat-box').forEach(sb => {
+      const l = sb.querySelector('.stat-label').textContent;
+      const v = sb.querySelector('.stat-val').textContent;
+      stats.push(`* **${l}:** ${v}`);
+    });
+
+    const desc = card.querySelector('.card-desc') ? card.querySelector('.card-desc').textContent : '';
+    const example = card.querySelector('.example-box') ? card.querySelector('.example-box').textContent : '';
+
+    const mdText = ````yaml
+---
+nome: "${title}"
+conceito: "${subtitle}"
+categoria: "${lvl} | ${elenco} | ${dim}"
+---
+### 🎲 Stat Block Player-Faced
+${stats.join('\n')}
+
+**Mecânica / Habilidades:** ${desc}
+**Contexto Dramático:** ${example}
+````;
+
+    navigator.clipboard.writeText(mdText).then(() => {
+      const originalText = btn.textContent;
+      btn.textContent = '✅ Copiado!';
+      btn.style.background = 'rgba(74, 222, 128, 0.3)';
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.style.background = '';
+      }, 1800);
+    });
+  }
+</script>
+
+</body>
+</html>

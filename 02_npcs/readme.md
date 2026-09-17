@@ -17,3 +17,8 @@ Este documento reúne o índice navegável e resumos de todos os arquivos contid
 - [`Elizabeth_Barcelos.md`](elizabeth_barcelos.md): Pesquisadora infectologista que participou ativamente da descoberta da vacina contra a pandemia de 2019-2022.
 - [`Joana_Pipoquinha.md`](joana_pipoquinha.md): Joana, 'minha pipoquinha'. Espírito da filha falecida do vilão (Lizander). Ela odeia magos devido ao papel que a magia desempenhou em sua tragédia familiar.
 - [`Lizander_Filho_do_Raio.md`](lizander_filho_do_raio.md): Lizander, o 'Filho do Raio'. Mestre de Forças fanático e extremista que usa o trauma da pandemia como motor de Quintessência para aniquilar outros magos.
+- [`Agente_Jefferson.md`](agente_jefferson.md): Agente Jefferson. NPC de campo registrado na crônica.
+- [`Agente_Rupert.md`](agente_rupert.md): Agente Rupert. NPC de campo registrado na crônica.
+- [`Vito.md`](vito.md): Vito. Mafioso e chefe do crime organizado registrado na crônica.
+- [`Erick.md`](erick.md): Erick. Homem esguio, alto (1,90m) e caolho registrado na crônica.
+- [`Sr_Hu.md`](sr_hu.md): Mestre sênior dos Irmãos de Akasha e proprietário do Centro de Treinamento de Do onde o grupo está refugiado.

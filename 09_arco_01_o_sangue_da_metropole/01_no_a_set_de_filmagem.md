@@ -1,53 +1,47 @@
 ---
 type: no_investigativo
-summary: "Nó A do Arco 01: O Set de Filmagem. Incidente inicial com a explosão do delivery de sangue e revelação das 3 pistas primárias."
-tags: [no_a, set_de_filmagem, inicio, investigacao, cronica, arco_01]
+summary: "Nó A do Arco 01: O Portão do Dr. Hughie. O motoboy bateu no portão da casa do médico, os PJs saquearam o baú e encontraram a droga de sangue."
+tags: [no_a, portao_de_hughie, inicio, investigacao, cronica, arco_01, sessao_01]
 ---
-# Nó A: O Set de Filmagem — O Sangue da Metrópole
+# Nó A: O Portão do Dr. Hughie — O Sangue da Metrópole
 
-Este é o **Nó de Entrada (Incidente Inicial)** do Arco 01. Ele conecta a Situação Compartilhada dos 4 PJs com o estopim da trama: o acidente do entregador do *Appetito Delivery* carregando a droga sintética de sangue.
-
----
-
-## 🎬 1. Posicionamento dos Jogadores no Local
-
-* [Jhonny D. Lee](../07_pjs/jhonny_d_lee.md): No centro do set, gravando uma cena de combate marcial para um comercial de TV sob os holofotes.
-* [Andrey Golubenko](../07_pjs/andrey_golubenko.md): Nos bastidores urbanos, rastreando uma distorção mística/digital no sinal de celular.
-* [Hughie](../07_pjs/hughie.md): Na multidão de curiosos Adormecidos do lado de fora das grades, observando a gravação.
-* [Niki](../07_pjs/niki.md): Seguindo a moto do entregador do *Appetito Delivery* que apresentava comportamento errático.
+Este é o **Nó de Entrada Real da Crônica (Sessão 01 Jogada)**. Ele estabelece o ponto de partida efetivo do grupo com a droga em mãos no refúgio do médico Hughie.
 
 ---
 
-## 💥 2. O Incidente Inicial (Minuto 01)
+## 🚪 1. O Ocorrido na Sessão 01 de Jogo
 
-A moto do entregador atravessa o bloqueio do set desgovernada e se chocará contra o **gerador principal de energia**.
-
-* **O Impacto:** O gerador explode em uma onda de chamas azuis e faíscas eletrostáticas. A explosão espalha cacos de frascos plásticos contendo o **Néctar de Sangue** ([Sangue](../06_itens/sangue.md)), liberando um vapor de Quintessência espessa.
-* **O Efeito na Penumbra:** A névoa mística rompe a Película local, atraindo [Espíritos da Fuligem Urbana](../05_faccoes/espiritos_das_cidades.md) na Penumbra Média.
+* **Local:** Portão da residência/consultório do [Dr. Hughie](../07_pjs/hughie.md).
+* **O Impacto:** Um entregador do *Appetito Delivery* perde o controle da moto e colide com violência contra o portão de ferro da casa de Hughie.
+* **A Ação do Grupo:** Os personagens saíram para verificar/socorrer a cena, revistaram a moto e abriram o **baú de entregas** do motoboy.
+* **O Que Encontraram:**
+  * Frascos com a droga sintética refinada a partir de sangue de mortos.
+  * O smartphone do motoboy com mensagens criptografadas e rotas.
+* **Estado Atual (Fim da Sessão 01 / Início da Sessão 02):** Após pegarem o material do baú, os jogadores se deslocaram e **estão reunidos no Centro de Treinamento Akashayano do Sr. Hu**, com a droga em mãos e o smartphone do motoboy, sem saber o que fazer com a substância enquanto deliberam sobre o próximo passo.
 
 ---
 
-## 🔍 3. As 3 Pistas Encontradas no Nó A
+## 🔍 2. As 3 Pistas Extraídas do Baú da Moto
 
-Seguindo a **Regra das 3 Pistas de The Alexandrian**, a investigação deste local fornece 3 caminhos independentes:
+A posse da droga e do material no baú abre diretamente as 3 ramificações do **Ato II**:
 
 ### Pista 1A (Conduz ao Nó B: Fábrica Pasta da Nona)
-* **Onde encontrar:** No smartphone trincado no bolso do entregador acidentado.
-* **Desafio Player-Faced (Intelectual - Diff 6):**
-  * *$\ge 2$ Sucessos:* O PJ descriptografa o GPS completo, revelando a rota de saída da **Fábrica Pasta da Nona** ([Fabrica Pasta da Nona](../03_lugares/fabrica_pasta_da_nona.md)) + a chave de acesso do portão dos fundos (`[Vantagem Tática]`).
-  * *1 Sucesso:* Obtém o endereço da Fábrica Pasta da Nona, mas o celular ativa um alarme de autodestruição que alerta Carlito Heizenberg.
+* **Onde encontrar:** No smartphone trincado do entregador recolhido no baú.
+* **Desafio Player-Faced (Intelectual/Computação - Diff 6):**
+  * *$\ge 2$ Sucessos:* O grupo descriptografa o histórico de GPS e mensagens, revelando que a carga partiu dos fundos da **Fábrica Pasta da Nona** ([Fabrica Pasta da Nona](../03_lugares/fabrica_pasta_da_nona.md)), descobrindo a senha de abertura do depósito (`[Vantagem Tática]`).
+  * *1 Sucesso:* Descobre o endereço da Fábrica, mas o celular emite um aviso de 'Falha de Entrega' aos servidores de Carlito.
 
 ### Pista 2A (Conduz ao Nó C: Hospital CAPS Zona Sul)
-* **Onde encontrar:** Nos cacos de frascos plásticos da droga espalhados pelo chão.
-* **Desafio Player-Faced (Intelectual/Percepção - Diff 5):**
-  * *$\ge 2$ Sucessos:* O PJ analisa os frascos e identifica o carimbo médico de triagem de doadores de sangue do **CAPS da Zona Sul**, notando que o sangue pertencia a vítimas de um surto recente.
-  * *1 Sucesso:* Descobre a etiqueta do CAPS Zona Sul, mas se contamina levemente com o odor da droga (*sofrendo 1 de Estresse de Vontade*).
+* **Onde encontrar:** Na análise médica/química dos frascos de sangue feita por Hughie (*Vida 4 / Medicina 4*).
+* **Desafio Player-Faced (Medicina/Percepção - Diff 5):**
+  * *$\ge 2$ Sucessos:* Hughie identifica que o sangue possui carimbo biológico de descarte de necrotério e sorologia ligada ao surto recente no **CAPS da Zona Sul**, revelando onde estão testando os efeitos.
+  * *1 Sucesso:* Descobre a ligação com o CAPS Zona Sul, mas inalar o vapor da amostra causa tontura mística passageira (*1 de Estresse de Vontade*).
 
 ### Pista 3A (Conduz ao Nó D: Data Center & ABIN)
-* **Onde encontrar:** Na van preta sem placas que encosta segundos após a explosão para recolher o material.
-* **Desafio Player-Faced (Físico/Furtividade - Diff 7):**
-  * *$\ge 2$ Sucessos:* O PJ observa os agentes federais da [ABIN](../05_faccoes/abin.md) operando um scanner militar de radiofrequência vinculado ao **Data Center Corporativo** ([Sede Data Center](../03_lugares/sede_data_center.md)), descobrindo que a ABIN está acobertando a live de [Bernardino](../02_npcs/bernardino.md).
-  * *1 Sucesso:* Descobre a conexão com o Data Center, mas atrai a atenção dos agentes da ABIN para uma perseguição.
+* **Onde encontrar:** Em um chip rastreador militar oculto sob a fita isolante do baú ou na van de vigilância nos arredores.
+* **Desafio Player-Faced (Percepção/Furtividade - Diff 6):**
+  * *$\ge 2$ Sucessos:* O grupo intercepta o sinal de beacon do baú e descobre que ele enviava telemetria para o **Data Center Corporativo** ([Sede Data Center](../03_lugares/sede_data_center.md)), sob vigilância da [ABIN](../05_faccoes/abin.md).
+  * *1 Sucesso:* Localizam a frequência do rastreador antes que os agentes localizem a casa de Hughie, mas precisam desligá-lo às pressas.
 
 ---
 

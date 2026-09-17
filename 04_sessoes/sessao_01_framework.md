@@ -30,21 +30,24 @@ graph TD
 
 ---
 
-## 1. O Conceito da Situação Compartilhada
+## 1. O Conceito da Situação Compartilhada (Jogada na Sessão 01)
 
-* **Vínculo:** **Território Compartilhado + Presença Independente no Local**.
-* **Posicionamento dos PJs no Set de Filmagem ([Sao_Paulo_Sets_de_Filmagem.md](../03_lugares/sao_paulo_sets_de_filmagem.md)):**
-  * [Jhonny_D_Lee.md](../07_pjs/jhonny_d_lee.md) está gravando no centro das atenções como protagonista/dublê de artes marciais.
-  * [Andrey_Golubenko.md](../07_pjs/andrey_golubenko.md) está nos arredores rastreando uma anomalia de sinal digital que o conduziu até o perímetro.
-  * [Hughie.md](../07_pjs/hughie.md) está na multidão de Adormecidos do lado de fora das grades, observando a gravação por oportunidade de rua.
-  * [Niki.md](../07_pjs/niki.md) está seguindo um entregador do Appetito Delivery a partir do bairro por comportamento estranho.
+* **Local do Incidente:** **Casa / Clínica do Dr. Hughie**.
+* **O Ocorrido em Jogo:**
+  * Os personagens estavam reunidos ou próximos à residência/consultório do médico Hughie.
+  * Um motoboy do **Appetito Delivery** colidiu violentamente contra o **portão da casa de Hughie**.
+  * Os personagens socorreram/abordaram a cena e abriram o baú de entregas da moto.
+* **Situação Atual do Grupo (Gancho Ativo / Ponto de Partida):** Após recolherem a carga do baú da moto acidentada no portão de Hughie, os personagens se deslocaram e **estão reunidos no Centro de Treinamento Akashayano do Sr. Hu** ([centro_de_treinamento_sr_hu.md](../03_lugares/centro_de_treinamento_sr_hu.md)), com a droga em mãos, sem saber exatamente o que fazer com ela e decidindo o próximo passo.
+  * **Revelação Mística de Jhonny D. Lee:** No dojô, Lee realizou uma rolagem bem-sucedida de **Vidas Passadas**. Ele descobriu que é a **reencarnação de um lendário Defensor** que surge ciclicamente na Terra quando grandes ameaças se erguem. Através desse contato com a memória ancestral, Lee recuperou a habilidade e fluência no **idioma Chinês** pertencente àquela vida pregressa.
 
 ---
 
-## 2. O Gancho Inicial (Minuto 01)
+## 2. O Gancho do Portão e o Baú da Moto
 
-### O Gancho Principal:
-O entregador do **Appetito Delivery** seguido por Niki invade o set desgovernado e colide contra o **gerador principal de energia**. A moto explode em uma onda de luz neon azulada, espalhando cacos de frascos de droga sintética de [Sangue.md](../06_itens/sangue.md) e liberando uma névoa de Quintessência que atrai entes efêmeros da fuligem ([Espiritos_das_Cidades.md](../05_faccoes/espiritos_das_cidades.md)) na Penumbra.
+### O Conteúdo do Baú:
+* Frascos contendo o líquido carmesim espesso (**droga sintética de Quintessência residual**).
+* Smartphone trincado do entregador com rotas e mensagens criptografadas de entrega.
+* Notas e códigos de rastreio vinculados a entregas suspeitas.
 
 ### Ganchos Intermediários Imediatos:
 * **Chegada da ABIN:** Um veículo sem placas da [ABIN.md](../05_faccoes/abin.md) encosta para apreender a mochila de entregas antes da chegada da polícia civil.

@@ -139,4 +139,4 @@ relogio_duplo_possessao:
 
 ## 💡 Conclusão do Guia
 
-Com este documento, qualquer Narrador consegue traduzir qualquer ficha dos manuais de *Mago: A Ascensão*, *Vampiro*, *Lobisomem* ou *Cthulhu/WoD* em **menos de 60 segundos**, mantendo o equilíbrio matemático rigoroso e a alta ergonomia cognitiva na mesa!
+Com este documento, qualquer Narrador consegue traduzir qualquer ficha dos manuais de *Mago: A Ascensão*, *Vampiro*, *Lobisomem* ou qualquer outro jogo do Mundo das Trevas em **menos de 60 segundos**, mantendo o equilíbrio matemático rigoroso e a alta ergonomia cognitiva na mesa!
