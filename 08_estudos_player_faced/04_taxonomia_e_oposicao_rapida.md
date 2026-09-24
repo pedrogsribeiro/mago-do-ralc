@@ -65,6 +65,13 @@ A leitura continua sendo a de M20:
 * **0 sucessos:** falha simples.
 * **Botch:** falha crítica conforme a regra aplicável.
 
+Essa leitura vale tanto para testes pontuais quanto para ações dentro de conflitos persistentes. A diferença é o que acontece **depois**:
+
+* em um **teste simples**, o resultado resolve aquela ação;
+* contra um Obstáculo com **Integridade/Relógio**, um sucesso também produz Impacto mecânico sobre sua estrutura.
+
+Assim, **1 sucesso continua sendo sucesso marginal e, em princípio, reduz 1 ponto/caixa da Integridade ou Relógio**, além de mover a ficção. Um Limiar de Efetividade legítimo pode reduzir o Impacto que atravessa, mas não transforma retroativamente o sucesso em falha.
+
 Uma consequência, custo, atraso ou exposição pode acompanhar um resultado marginal quando a ficção justificar, mas **não é uma obrigação mecânica automática**.
 
 ---
