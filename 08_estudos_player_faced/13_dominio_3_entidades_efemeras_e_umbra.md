@@ -151,3 +151,135 @@ A ontologia geral funciona aqui desde que preserve a diversidade:
 Todos podem ser vistos como Obstáculos.
 
 Eles **não precisam funcionar do mesmo jeito**.
+
+
+---
+
+## 10. Procedimentos de M20 acionados por este domínio
+
+| Situação | Procedimentos principais |
+| :--- | :--- |
+| Espírito em interação breve | percepção, comunicação, oposição social/mística |
+| Espírito em conflito | iniciativa, esquiva, Fúria, dano, absorção, Essência |
+| Travessia da Película | Arete, dificuldade local da Película, requisito de Espírito |
+| Navegação umbral | testes simples/estendidos, Cosmologia, Enigmas, Esportes, perigos |
+| Tempestade de Avatar | perigo ambiental/místico e dano |
+| Possessão/Encantos | Gnose, Encantos, estados e resistência |
+| Materialização | mudança de estado e de quais ações passam a afetar a entidade |
+
+Isso mostra por que “Umbra” não é um único subsistema.
+
+---
+
+## 11. Teste 1 — Espírito com agência
+
+Considere um espírito ativo em cena.
+
+A ficha original já fornece:
+
+* Força de Vontade;
+* Fúria;
+* Gnose;
+* Essência;
+* Encantos.
+
+A interface player-facing pode organizar rapidamente:
+
+    ESPÍRITO
+
+    Lentes:
+    Físico: depende de materialização
+    Social: conforme natureza/tabu
+    Mental: alienígena ou simples
+    Mágicko: principal campo de atuação
+
+    Características:
+    [Efêmera]
+    [Encantos específicos]
+    [Tabus/fraquezas]
+
+    Recursos:
+    Vontade
+    Fúria
+    Gnose
+    Essência
+
+### Gate
+
+**PASSA como representação.**
+
+Não há ganho em substituir essa ficha por Oposição/Ameaça/Relógio.
+
+O que permanece aberto é a tradução de:
+
+* rolagem de Fúria do ST;
+* esquiva/absorção por Força de Vontade;
+* certos Encantos que exigem rolagens próprias.
+
+---
+
+## 12. Teste 2 — A Película
+
+A Película não possui agência.
+
+M20 já define sua espessura diretamente como **dificuldade local**.
+
+Para atravessá-la:
+
+* o personagem precisa do nível apropriado de Espírito;
+* o jogador rola Arete;
+* a dificuldade é a graduação local da Película;
+* 1 sucesso líquido já permite cruzar.
+
+### Gate
+
+**PASSA SEM CONVERSÃO MECÂNICA.**
+
+Esse é um caso importante porque mostra que o olhar player-facing não precisa alterar nada.
+
+A Película já é um Obstáculo passivo cuja incerteza está inteiramente no lado do jogador.
+
+A contribuição do livro é apenas colocá-la na gramática geral de Obstáculos e ajudar o ST a enxergar onde ela se encaixa.
+
+---
+
+## 13. Teste 3 — Tempestade de Avatar / perigo umbral
+
+Uma Tempestade de Avatar ou ambiente umbral hostil não é NPC e não deve receber Gnose, Ameaça ou relógio por analogia.
+
+Ela deve ser tratada como **perigo ambiental/místico**:
+
+* existe uma condição de exposição;
+* existe um procedimento de resistência, navegação ou dano;
+* estados podem se agravar;
+* a ficção pode telegrafar escalada.
+
+Exemplo:
+
+> a travessia começa sob turbulência leve; os estilhaços atingem o grupo; se a rota não for corrigida, a corrente leva os magos para uma região ainda mais hostil.
+
+### Gate
+
+**PASSA como classificação.**
+
+A tradução concreta depende das regras de viagem, navegação e dano aplicáveis, e não da ficha espiritual.
+
+---
+
+## 14. Gate do Estudo 13
+
+O capítulo cumpre sua proposta quando distingue corretamente:
+
+* **espírito** → Obstáculo com agência e ficha espiritual canônica;
+* **Película** → barreira passiva já praticamente player-facing;
+* **Tempestade/ambiente umbral** → perigo ambiental ou dramático;
+* **Encanto persistente** → ação, efeito ou estado;
+* **Materialização** → mudança de estado que altera quais interações são possíveis.
+
+Com isso, o domínio realmente espelha a diversidade do conteúdo original em vez de nivelar toda a Umbra como “ameaça mística”.
+
+A principal dívida restante é operacional, não ontológica:
+
+> **como retirar as rolagens do ST de Fúria, Vontade e Encantos sem alterar a experiência do jogador?**
+
+Essa questão precisa ser resolvida no programa de tradução dos procedimentos transversais, não escondida dentro deste domínio.
