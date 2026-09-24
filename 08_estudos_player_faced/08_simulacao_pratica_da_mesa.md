@@ -119,7 +119,19 @@ Elas dizem ao ST que um ataque institucional provavelmente encontrará oposiçã
 
 # PARTE II — TESTE INTEGRADO DE MESA
 
-## 5. Cena A — Obstáculo passivo simples
+## 5. Regra transversal do sucesso marginal
+
+A mesma leitura de M20 vale em situações pontuais e persistentes:
+
+* **1 sucesso** é sucesso marginal e move a ficção;
+* se existir **Integridade/Relógio**, esse sucesso também produz **1 Impacto/1 caixa** sobre o Obstáculo;
+* um Limiar de Efetividade legítimo pode reduzir o Impacto final, como soak ou resistência equivalente.
+
+Portanto, o Relógio não cria uma faixa nova de “sucesso sem efeito”. Ele apenas registra mecanicamente o efeito acumulado dos sucessos sobre uma estrutura persistente.
+
+---
+
+## 6. Cena A — Obstáculo passivo simples
 
 **Situação:** Niki precisa abrir uma fechadura biométrica para acessar um depósito.
 
@@ -140,7 +152,7 @@ Se abrir a porta por si só não altera o problema da Crônica, ela não gera Pr
 
 ---
 
-## 6. Cena B — NPC tentando se esconder
+## 7. Cena B — NPC tentando se esconder
 
 **Situação:** um agente da NOM tenta ocultar-se e observar a cabala.
 
@@ -162,7 +174,7 @@ Entretanto, o Estudo 05 mostrou que a transformação probabilística ainda poss
 
 ---
 
-## 7. Cena C — PJ atacando NPC ativo
+## 8. Cena C — PJ atacando NPC ativo
 
 **Situação:** Andrey ataca um agente treinado.
 
@@ -194,7 +206,7 @@ O que permanece em validação é a calibração probabilística de Oposição, 
 
 ---
 
-## 8. Cena D — NPC atacando PJ
+## 9. Cena D — NPC atacando PJ
 
 **Situação:** no turno do agente, ele dispara contra Andrey.
 
@@ -215,7 +227,7 @@ A dívida restante é de calibração: converter a parada de ataque original par
 
 ---
 
-## 9. Cena E — Movimento telegrafado por escalada
+## 10. Cena E — Movimento telegrafado por escalada
 
 **Situação:** uma criatura agarra Hughie.
 
@@ -241,7 +253,7 @@ A ficha achatada já comporta a sequência: Ameaça define a resistência à aç
 
 ---
 
-## 10. Cena F — Espírito
+## 11. Cena F — Espírito
 
 **Situação:** um Gaffling desmaterializado bloqueia a passagem.
 
@@ -299,7 +311,7 @@ Ela não diz aos jogadores onde ir nem impede que encontrem uma solução inespe
 
 ---
 
-# 12. Gate do Estudo 08
+# 13. Gate do Estudo 08
 
 O teste integrado produz um resultado misto.
 
@@ -325,7 +337,7 @@ O teste integrado produz um resultado misto.
 
 ---
 
-## 13. Conclusão
+## 14. Conclusão
 
 O Estudo 08 **não valida ainda um Motor Player-Faced completo**.
 
