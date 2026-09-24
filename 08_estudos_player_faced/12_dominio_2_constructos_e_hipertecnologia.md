@@ -143,7 +143,7 @@ Isso preserva a formulação de telegrafia construída no Estudo 03.
 | :--- | :--- |
 | Objeto passivo | ataque/dano contra objeto, Durability, Structure |
 | Sistema ativo | testes simples/resistidos/estendidos, hacking, gatilhos, consequência |
-| Constructo-agente | iniciativa, ataque/defesa, dano, soak, Vitalidade, poderes |
+| Constructo-agente | iniciativa, Oposição, Ameaça, Consequência, Limiar de Efetividade, Vitalidade, poderes |
 | Sistema hipertecnológico | Arete/Iluminação, Quintessência, contramágika, procedimentos |
 | Veículo | condução, perseguição, colisão, dano estrutural |
 
@@ -244,7 +244,7 @@ A interface do ST pode resumir:
     Vitalidade especial
 
 Oposição resistida pode usar provisoriamente a conversão estudada.
-Dano, soak e contramágika ainda aguardam tradução validada.
+A ficha achatada já oferece **Consequência** para o dano causado e **Limiar de Efetividade** para a resistência do constructo. O que permanece pendente é calibrar esses valores contra as paradas originais de dano e soak, além de traduzir contramágika quando necessário.
 
 ### Gate
 
