@@ -98,20 +98,20 @@ Os Atos são **organização do problema para o ST**, não capítulos que os jog
 
 ## 4. Características da Crônica
 
-As lentes Física, Social, Mental/Técnica e Mágicka ajudam o ST a entender onde o problema é mais resistente.
+As dimensões Física, Social, Mental/Técnica e Mágicka podem receber **valores diferentes** para mostrar onde o problema realmente oferece mais ou menos resistência. Elas não são apenas adjetivos de preparação.
 
 Exemplo:
 
 ```
 O SANGUE DA METRÓPOLE
 
-Físico/Logístico: Forte
-Social/Institucional: Muito Forte
-Mental/Técnico: Forte
-Mágicko: Médio, com âncoras vulneráveis
+Físico/Logístico: valor alto
+Social/Institucional: valor muito alto
+Mental/Técnico: valor alto
+Mágicko: valor médio, com âncoras vulneráveis
 ```
 
-Essas características não substituem regras.
+Esses valores não substituem regras. **0** significa que aquela dimensão não constitui uma resistência significativa do Obstáculo; um valor baixo significa que ela existe, mas é vulnerável.
 
 Elas dizem ao ST que um ataque institucional provavelmente encontrará oposição maior que uma investigação mística, por exemplo. A dificuldade real continua vindo dos NPCs, sistemas, regras mágickas e circunstâncias que M20 usaria.
 
