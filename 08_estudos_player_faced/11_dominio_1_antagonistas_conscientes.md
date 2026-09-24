@@ -94,16 +94,16 @@ Sem agência de jogador relevante, o ST decide o resultado em função da ficç�
 
 ## 5. Consequência, dano e resistência
 
-Ainda não se deve converter automaticamente:
+A ficha achatada já prevê o ciclo de combate do antagonista:
 
-* ataque do NPC em dano fixo;
-* armadura/soak em RD fixa;
-* Vitalidade em relógio reduzido;
-* defesa épica em Efeito Zero.
+* **Ameaça** representa sua capacidade ofensiva;
+* **Consequência** registra o dano/estresse causado;
+* **Limiar de Efetividade** representa sua resistência ao Impacto — a generalização da antiga RD fixa;
+* **Integridade/Relógio** acompanha a resolução do Obstáculo.
 
-Essas transformações precisam da auditoria própria de dano/absorção aberta nos estudos anteriores.
+Portanto, ataque, dano e soak **não são lacunas de arquitetura**. O que ainda precisa ser validado é a conversão numérica das paradas originais para esses campos.
 
-Até lá, preserva-se o procedimento nativo correspondente de M20 sempre que necessário.
+Vitalidade e outros recursos não devem ser comprimidos arbitrariamente quando sua função canônica ainda importa.
 
 ---
 
@@ -149,10 +149,10 @@ Antagonistas conscientes podem mobilizar vários procedimentos transversais do E
 | Ações múltiplas | Preservadas |
 | Ataque do PJ | Preservado |
 | Defesa ativa do NPC | Conversão ainda em calibração |
-| Ataque do NPC | Lacuna quando não há defesa ativa equivalente do PJ |
+| Ataque do NPC | **Ameaça** da ficha achatada; calibração pendente |
 | Dano do PJ | Preservado |
-| Dano do NPC | Ainda não traduzido |
-| Soak/armadura do NPC | Ainda não traduzido |
+| Dano do NPC | **Consequência** da ficha achatada; calibração pendente |
+| Soak/armadura do NPC | **Limiar de Efetividade**; calibração pendente |
 | Vitalidade | Preservada por enquanto |
 | Força de Vontade | Preservada |
 | Arete/Esferas | Preservados |
@@ -199,7 +199,7 @@ Vitalidade humana
 armadura leve
 ```
 
-**Gate:** funciona bem como interface de consulta e oposição pontual. Combate integral depende das lacunas de ataque do NPC, dano e soak.
+**Gate:** funciona como interface de consulta e oposição pontual. A estrutura de combate já está coberta pela ficha achatada; falta calibrar Ameaça, Consequência e Limiar de Efetividade.
 
 ---
 
@@ -346,4 +346,4 @@ Ele agora entrega:
 * mapa explícito dos procedimentos já resolvidos e das lacunas;
 * facção como possível Obstáculo macro.
 
-O domínio só poderá fornecer fichas finais prontas quando as dívidas de ataque do NPC, dano, soak e subsistemas sobrenaturais forem fechadas.
+O domínio poderá fornecer fichas finais prontas quando **Ameaça, Consequência e Limiar de Efetividade** estiverem calibrados e os subsistemas sobrenaturais pertinentes forem fechados.
