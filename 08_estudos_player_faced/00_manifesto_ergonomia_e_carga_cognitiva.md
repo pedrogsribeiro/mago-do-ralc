@@ -1,12 +1,12 @@
 ---
 type: regra
-summary: "Estudo 00 do Sistema Player-Faced: Manifesto sobre o gargalo cognitivo do M20 clássico, a hipótese de design e as estimativas métricas de ganho de tempo e ergonomia mental do Narrador."
+summary: "Estudo 00 do Sistema Player-Faced: problema de carga cognitiva do Storyteller, hipótese de compressão operacional e princípios de preservação da experiência de M20 para os jogadores."
 tags: [srd, design, player-faced, ergonomia, problematica, estimativas, manifesto, regras]
 ---
 
 # Estudo 00: A Problemática do M20 Clássico e o Manifesto de Ergonomia Cognitiva
 
-Este documento estabelece a premissa central de *Game Design* que originou a criação do **Motor Player-Faced Total** para *Mago: A Ascensão 20 Anos*. Ele detalha a problemática da sobrecarga do Narrador no sistema original e formaliza as estimativas métricas de ganho de tempo e redução de carga mental alcançadas pela nossa hipótese de design.
+Este documento estabelece a premissa central de *game design* que originou a pesquisa do **Motor Player-Faced** para *Mago: A Ascensão 20 Anos*: reduzir drasticamente a carga operacional do Storyteller **sem exigir que os jogadores reaprendam M20 ou tenham sua experiência mecânica descaracterizada**. Ele identifica o problema, formula hipóteses de solução e registra estimativas iniciais que precisam ser validadas pelos estudos posteriores.
 
 ---
 
@@ -31,31 +31,25 @@ São **8 rolagens de dados por turno para 2 personagens**, além do esforço men
 
 ## 💡 2. A Hipótese de Design e a Solução
 
-**A Hipótese Central:** *É possível diminuir a carga cognitiva do Storyteller e acelerar a experiência (diminuindo tanto o número de rolagens de dados quanto a quantidade de variáveis gerenciadas) sem perder a profundidade da experiência dos jogadores nem quebrar a matemática das rolagens do d10.*
+**A Hipótese Central:** *É possível diminuir a carga cognitiva do Storyteller e o número de operações que ele executa, preservando para os jogadores a ficha, as decisões, os recursos, as rolagens e o comportamento probabilístico reconhecível de M20.*
 
-### Como a Solução foi Alcançada (A Raiz do Design)
-Para comprovar a hipótese, o sistema foi reestruturado usando como referências modernas de *game design* princípios presentes em **Fate Básico / Fate Core** e nos jogos **Powered by the Apocalypse (PbtA)**, além de influências da tradição OSR. Essas referências funcionam como matrizes de ergonomia e estrutura de resolução, sem importar integralmente seus sistemas para M20.
+### Hipóteses de Solução (A Raiz do Design)
+A pesquisa parte de referências modernas de *game design* presentes em **Fate Básico / Fate Core** e nos jogos **Powered by the Apocalypse (PbtA)**, além de influências da tradição OSR. Elas servem como referências de ergonomia e estrutura, sem importar integralmente seus sistemas para M20.
 
-1. **Regra de Bronze do Fate Básico / Fate Core:** A ideia de que elementos muito diferentes da ficção podem ser descritos por uma gramática mecânica comum inspira uma taxonomia unificada de oposição. Um feitiço, uma porta, um inimigo ou outro obstáculo podem ser modelados de maneira consistente sem exigir um subsistema completamente diferente para cada caso.
-2. **Resolução centrada na ação do jogador — referência Powered by the Apocalypse:** A tradição PbtA demonstra como a resolução pode manter o foco na ação do jogador e devolver rapidamente consequências à ficção. Aqui, porém, a leitura dos sucessos continua ancorada nos **graus de sucesso de M20**: **1 sucesso é marginal**, permitindo ao Storyteller qualificar o resultado de acordo com a situação; **2 sucessos produzem um resultado moderado e mais seguro**, e sucessos adicionais elevam a qualidade da ação. A hipótese player-facing radicaliza apenas a distribuição das rolagens ao fazer o Narrador rolar **Zero Dados**, sem importar como regra obrigatória a faixa PbtA de “sucesso com complicação”.
-3. **Compressão Simétrica do NPC:** A longa lista de atributos é descartada em prol de uma Ficha Sintética estruturada em apenas 4 variáveis (Oposição, Ameaça, Consequência e Relógio).
+1. **Regra de Bronze do Fate Básico / Fate Core:** elementos muito diferentes da ficção podem compartilhar uma gramática de representação. Isso inspira uma taxonomia comum para portas, inimigos, feitiços, fenômenos e outras fontes de oposição sem exigir que cada uma carregue uma ficha completa.
+2. **Incerteza ancorada na agência do jogador — referência PbtA:** quando uma ação de NPC ou obstáculo interfere diretamente em algo sob agência de um PJ, a hipótese é fazer a incerteza nascer da rolagem do jogador. **O NPC continua agindo, ocupando iniciativa e produzindo causalidade ficcional.** Se não houver agência de jogador envolvida, o Storyteller decide o resultado em função da ficção e da história, em vez de simular o mundo rolando contra si mesmo.
+3. **Leitura dos resultados permanece M20:** **1 sucesso continua sendo sucesso** — marginal, suficiente para mover a ficção. Dois ou mais sucessos representam resultados progressivamente mais sólidos conforme os graus de sucesso de M20. Não se importa como regra obrigatória a faixa PbtA de “sucesso com complicação”.
+4. **Compressão do lado do Storyteller:** fichas extensas de NPCs podem ser reduzidas a poucos parâmetros operacionais, desde que essa compressão seja calibrada contra o comportamento matemático das fichas originais. A forma exata dessa compressão é objeto dos estudos seguintes; não é assumida pronta neste manifesto.
 
 ---
 
-## 📈 3. Estimativas de Ganho Cognitivo e de Tempo de Mesa
+## 📈 3. Hipóteses de Ganho Cognitivo e de Tempo de Mesa
 
-A transição para o modelo Player-Faced Total nos Níveis 2 (Ameaça Ativa) e 3 (Ameaça Telegrafada) gera impactos quantificáveis na fluidez da mesa:
+A motivação operacional é reduzir quatro fontes de trabalho do Storyteller: consulta de fichas extensas, montagem de paradas, rolagens próprias e atualização contínua de estados secundários.
 
-### ⏱️ Ganho de Tempo e Agilidade (Redução de 75% a 85%)
-Ao eliminar as rolagens defensivas do NPC (absorvidas pelo Dano Fixo, Limiar de Sucessos e Relógios de Cena), o ciclo muda radicalmente:
-* **Turno Player-Faced:** O PJ declara a ação e rola **1 única vez**. Se o NPC atacar, o PJ rola **1 única vez** para se defender contra um perigo telegrafado.
-* **Métrica:** Redução de 8 rolagens para apenas **2 rolagens de dados por turno**.
-* **Impacto Prático:** Uma cena de infiltração tática ou um combate que levaria **45 minutos** no M20 clássico passa a ser resolvida em **10 a 15 minutos** de intensidade focada nas decisões dos jogadores.
+As primeiras versões da pesquisa estimaram reduções de **75% a 85% no número de rolagens/tempo de resolução** e de cerca de **90% no rastreio de variáveis**. Esses números devem ser tratados como **hipóteses de magnitude**, não como resultados demonstrados. Simulações probabilísticas não medem tempo real de mesa nem carga cognitiva; esses ganhos exigem playtests cronometrados e comparação com mesas usando M20 sem a camada player-facing.
 
-### 🧠 Ganho de Ergonomia Mental (Redução de 90% do Rastreio)
-A substituição das fichas exaustivas pela Simetria de 4 Dimensões limpa a interface visual do Narrador.
-* **Métrica:** A carga de rastreio de variáveis (Tracking) cai de $\approx 50$ itens para apenas **4 atributos mecânicos diretos** (Diff do PJ atacar, Diff do PJ se defender, Dano que o PJ recebe, Caixas do Relógio) atrelados a campos semânticos (Aspectos descritivos).
-* **Impacto Prático:** O Mestre não realiza mais subtrações de dados na própria cabeça, eliminando a fadiga de processamento matemático de fundo. **100% dessa energia cognitiva recuperada é redirecionada** para interpretar o vilão com maestria, gerenciar o drama dos personagens e descrever o cenário de forma imersiva.
+O critério de sucesso desta pesquisa não é alcançar uma porcentagem específica. É obter uma redução operacional grande o bastante para ser útil ao Storyteller **sem transferir custo, novas regras ou distorções relevantes para os jogadores**.
 
 ---
 
@@ -65,6 +59,6 @@ A reestruturação proposta neste manifesto e as transformações da Crônica e 
 
 No sistema tradicional, o Mestre acaba rebaixado à função de "servidor" ou crupiê: ele queima a maior parte do seu tempo de atenção rolando dados irrelevantes, anotando pontinhos de absorção e simulando física de NPCs secundários, como se prestasse um *serviço computacional* invisível para que apenas os jogadores se divirtam.
 
-Ao abraçar a Telegrafia e transferir o peso da rolagem, o Narrador se liberta. Ele **volta a jogar**. Ao estabelecer Fichas Sintéticas e desenhar Relógios de Gatilho, ele adota a filosofia do *"Jogar para ver o que acontece"* (*Play to find out*). 
+Ao deslocar a aleatoriedade relevante para as interações com os jogadores e comprimir o que existe atrás do escudo, o Narrador recupera atenção para intenção, interpretação, descrição e consequência. Ele **continua jogando por meio dos NPCs**: declara suas ações, ocupa a iniciativa, escolhe objetivos e produz pressão sobre a cena. O que se pretende retirar é a obrigação de operar uma segunda máquina probabilística completa para cada entidade.
 
-O Narrador deixa de ser o controlador exaustivo do futuro e passa a ser o arquiteto do caos criativo. Ele cria o problema, amarra o Gatilho e apenas senta para assistir. Ele não precisa rolar para saber *como* o prédio vai cair, mas se diverte genuinamente descobrindo de que forma criativa o mundo das trevas vai engolir a imprudência dos personagens na cena seguinte. O prazer do Narrador muda do microgerenciamento numérico para a surpresa dramática e a improvisação pura.
+A telegrafia surge, nos estudos posteriores, como forma de tornar consequências excepcionais causalmente legíveis: uma ameaça pode avisar, preparar-se ou já produzir um efeito menor que estabelece o estado para uma escalada maior. O prazer do Narrador desloca-se do microgerenciamento numérico para a condução ativa da ficção, sem retirar a agência dos jogadores.
