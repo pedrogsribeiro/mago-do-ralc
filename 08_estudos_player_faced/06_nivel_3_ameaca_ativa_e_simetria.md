@@ -94,6 +94,15 @@ Consequência é o campo que preserva explicitamente o **dano causado** pelo NPC
 
 Representa quanto progresso significativo ainda é necessário para resolver aquele Obstáculo naquela frente. Sua relação com Vitalidade, Essência ou outros recursos precisa respeitar o conteúdo original; não se presume que todo recurso canônico seja simplesmente comprimido em menos caixas.
 
+A leitura de sucessos continua valendo dentro dessa estrutura:
+
+* **1 sucesso** continua sendo sucesso marginal e normalmente produz **1 Impacto/1 caixa** sobre o Relógio, além de mover a ficção;
+* sucessos adicionais produzem efeito proporcional conforme a regra da ação e o tipo de Obstáculo;
+* **0 sucessos** não produz Impacto;
+* um **Limiar de Efetividade** pode reduzir o Impacto final quando representa resistência real.
+
+Portanto, relógio não transforma 1 sucesso em “resultado narrativo sem dano”. O sucesso afeta a história **e** a estrutura persistente do Obstáculo, salvo quando uma resistência legítima absorve esse Impacto.
+
 ### Limiar de Efetividade
 
 É a generalização da antiga **RD fixa**.
@@ -144,7 +153,7 @@ M20 já dispõe de ações simples, resistidas, estendidas e estendidas-resistid
 
 Quando a situação for simples, **1 sucesso continua sendo sucesso** e move a ficção.
 
-Quando M20 pedir vários sucessos acumulados — debate prolongado, invasão complexa, perseguição, pesquisa, ritual ou tarefa semelhante — o Storyteller pode usar um relógio como **interface de acompanhamento dos sucessos exigidos**, desde que o relógio represente a mesma lógica da tarefa original.
+Quando M20 pedir vários sucessos acumulados — debate prolongado, invasão complexa, perseguição, pesquisa, ritual ou tarefa semelhante — o Storyteller pode usar um relógio como **interface de acompanhamento dos sucessos exigidos**, desde que o relógio represente a mesma lógica da tarefa original. Nesse caso, **1 sucesso também reduz o relógio em 1**, além de produzir seu avanço ficcional marginal.
 
 Um resultado marginal de 1 sucesso não deve ser apagado automaticamente por uma “RD social” apenas para tornar o oponente mais épico. Qualquer limiar de efetividade precisa decorrer:
 
