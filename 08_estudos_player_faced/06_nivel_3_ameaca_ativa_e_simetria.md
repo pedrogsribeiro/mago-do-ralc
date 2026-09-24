@@ -24,7 +24,7 @@ Para reduzir consulta de ficha, uma ameaça pode ser descrita em quatro grandes 
 3. **Intelectual-técnica:** hacking, ciência, investigação, criptografia, engenharia.
 4. **Místico-arcana:** Arete, Esferas, contramágica, rituais, interação espiritual.
 
-Essas dimensões são uma **ferramenta de indexação para o Storyteller**, não quatro subsistemas simétricos. O objetivo é responder rapidamente:
+Essas dimensões são uma **ferramenta de indexação para o Storyteller**, não quatro subsistemas simétricos e nem uma interface obrigatória para toda criatura. O Estudo 07 mostra um limite importante: espíritos já possuem em M20 uma ficha compacta própria (Força de Vontade, Fúria, Gnose e Essência), e substituí-la por quatro novas dimensões pode aumentar, em vez de reduzir, a carga. O objetivo é responder rapidamente:
 
 > “Qual competência deste NPC realmente importa para a ação que está acontecendo agora?”
 
@@ -140,7 +140,7 @@ A principal contribuição deste estudo não é criar quatro versões simétrica
 
 É fornecer ao Storyteller um **mapa compacto de competências e vulnerabilidades**.
 
-Para uma ameaça persistente, o ST deve conseguir identificar rapidamente:
+Para uma ameaça persistente de ficha extensa, o ST deve conseguir identificar rapidamente:
 
 * em que ela é excepcional;
 * em que é competente;
@@ -148,7 +148,7 @@ Para uma ameaça persistente, o ST deve conseguir identificar rapidamente:
 * em que é vulnerável;
 * quais recursos, imunidades ou limitações realmente constam de sua natureza ou ficha.
 
-Quando o jogador escolhe uma abordagem, o ST consulta apenas a competência pertinente e aplica a conversão adequada. Isso reduz a necessidade de carregar dezenas de números sem substituir a diversidade mecânica de M20 por um único minijogo universal.
+Quando o jogador escolhe uma abordagem, o ST consulta apenas a competência pertinente e aplica a conversão adequada. Para entidades que já possuem uma ficha canônica curta e funcional, como os espíritos estudados no Estudo 07, a melhor solução pode ser preservar essa ficha e comprimir apenas as rolagens do ST. Isso reduz a necessidade de carregar dezenas de números sem substituir a diversidade mecânica de M20 por um único minijogo universal.
 
 ---
 
