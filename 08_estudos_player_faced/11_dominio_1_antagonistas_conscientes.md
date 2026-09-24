@@ -21,9 +21,11 @@ A função da camada player-facing é aliviar o Storyteller sem transformar pers
 
 Físico, Social, Mental/Técnico e Mágicko não são categorias canônicas de M20 nem quatro sistemas simétricos.
 
-São uma pergunta de preparação:
+São uma pergunta de preparação e dimensionamento:
 
-> **onde este antagonista é forte, médio ou vulnerável em relação às abordagens prováveis do grupo?**
+> **quanto este antagonista realmente resiste, ameaça e produz impacto em cada frente que o grupo pode explorar?**
+
+Cada dimensão pode receber valores mecânicos próprios na ficha achatada. Um antagonista pode ter Social baixo e Mágicko alto; outro pode ter Mágicko 0 e Físico alto. Essas duas fichas produzem experiências completamente diferentes.
 
 Exemplo:
 
@@ -36,7 +38,9 @@ Mental/Técnico: Excepcional
 Mágicko: Fraco/Médio
 ```
 
-Essa leitura ajuda o ST a encontrar rapidamente a **parada original relevante** quando os jogadores escolhem uma abordagem.
+Essa leitura ajuda o ST a encontrar rapidamente a **parada original relevante** e os valores achatados daquela dimensão quando os jogadores escolhem uma abordagem.
+
+**Valor 0** indica ausência real daquela capacidade/resistência; não deve ser usado apenas para indicar fraqueza.
 
 ---
 
