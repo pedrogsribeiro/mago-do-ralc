@@ -1,127 +1,153 @@
 ---
 type: regra
-summary: "Estudo 13 do Sistema Player-Faced: Instanciação completa do Domínio 3 (Entidades Efêmeras e Umbra) nos Níveis 1, 2 e 3, com conversão de espíritos oficiais do M20, matriz dimensional e Princípio da Fluidez."
-tags: [srd, design, player-faced, umbra, espiritos, efemera, perdições, banes, pelicula, dimensoes, regras]
+summary: "Estudo 13: entidades efêmeras e Umbra sob o olhar de Obstáculos, preservando Vontade, Fúria, Gnose, Essência e Encantos."
+tags: [srd, design, player-faced, umbra, espiritos, efemera, gnose, furia, essencia, regras]
 ---
 
-# Estudo 13: Domínio 3 — Entidades Efêmeras e a Geografia Hostil da Umbra
+# Estudo 13: Entidades Efêmeras e a Geografia Hostil da Umbra
 
-Este documento estabelece a instanciação prática e o catálogo operacional do **Domínio 3: Entidades Efêmeras e a Geografia da Umbra** sob o **Motor Player-Faced Total** para *Mago: A Ascensão 20 Anos*.
+Este estudo aplica a ontologia de Obstáculos ao material umbral sem apagar a estrutura própria que M20 já fornece aos espíritos.
 
-Ameaças umbrais operam através de Corpus, Essência e Encantos (*Charms*). São seres de energia mística imateriais no mundo físico que impõem regras estritas de interação: ataques físicos mundanos causam **Efeito Zero** (imunidade total) sem o uso da Esfera de *Espírito 3*, *Primórdio 2* ou armas e fetiches encantados (`[Ruína Espiritual]`).
+A descoberta do Estudo 07 continua normativa para esta pesquisa:
 
----
+> **espíritos já possuem uma ficha compacta: Força de Vontade, Fúria, Gnose e Essência.**
 
-## 🏛️ 1. O Domínio 3 sob a Ótica Player-Faced
-
-No paradigma *Player-Faced*, entidades efêmeras e barreiras dimensionais operam sob parâmetros calibrados por dimensão:
-
-```
-+---------------------------------------------------------------------------------------------------------+
-|                               OS 3 NÍVEIS DE ENTIDADES EFÊMERAS E DA UMBRA                              |
-|                                                                                                         |
-|  [ Nível 1: Desafio Rápido ]   ==> Fator único de OPOSIÇÃO na dimensão relevante (com Meta de Sucessos).|
-|  [ Nível 2: Ameaça Ativa ]     ==> Ficha focada na dimensão mística primária (com tabus e brechas).    |
-|  [ Nível 3: Alto Impacto ]     ==> Matriz completa das 4 Dimensões + Evento Telegrafado de Crise.       |
-+---------------------------------------------------------------------------------------------------------+
-```
+Essas características permanecem a fonte mecânica.
 
 ---
 
-## 🔄 2. O Princípio da Fluidez da Entidade: A Mesma Ameaça nos 3 Níveis
+## 1. Espíritos como Obstáculos com agência
 
-O nível define a escala dramática da interação na cena. Cada entidade umbral de grande porte possui uma matriz dimensional completa e responde em qualquer nível:
+Um espírito pode:
 
-### Estudo de Caso: *Jaggling da Tempestade (Elementar de Raios e Ozônio)*
+* agir;
+* negociar;
+* atacar;
+* fugir;
+* possuir;
+* usar Encantos;
+* defender território;
+* preparar consequências de alto impacto.
 
-```yaml
----
-ameaca: Jaggling da Tempestade (Elementar de Raios)
-nivel_padrao: Nível 2 / 3 (Entidade Mística de Alta Potência)
-
-matriz_dimensional:
-  dimensao_mistica:      [Oposição: 7] [Ameaça: 6] [Consequência: 4 Agravado (Descarga Efêmera)] [Relógio: 10 Caixas (Limiar 2)]
-  dimensao_fisica:       [Efeito Zero sem Espírito/Fetiche] | Se Materializado: [Oposição: 7] [Ameaça: 6] [Consequência: 4 Letal] [Relógio: 7 Caixas (Limiar 2)]
-  dimensao_mental:       [Oposição: 6] [Ameaça: 5] [Consequência: -2 Força de Vontade (Sobrecarga Neural)] [Relógio: 5 Caixas]
-  dimensao_social:       [Oposição: 7] [Ameaça: 4] [Consequência: Gatilho Fúria Tempestuosa] [Relógio: 4 Caixas (Oferenda de Quintessência)]
----
-```
-
-* **Como Nível 1 (Desafio Rápido / Interação Pontual):**
-  * *Cenário:* Travessia da Penumbra sem perturbar o elemental ou realização de oferenda rápida de Quintessência.
-  * *Parâmetros da Oposição:* **Oposição Social/Ritual: 7** | **Meta: 2 Sucessos**.
-* **Como Nível 2 (Ameaça Ativa / Duelo Espiritual):**
-  * *Cenário:* Confronto direto na Penumbra com rajadas de relâmpagos efêmeros.
-  * *Parâmetros da Oposição (Dimensão Mística):* `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 4 Agravado]` `[Relógio: 10 Caixas (Limiar 2)]`. Iniciativa: $1d10 + 5$.
-* **Como Nível 3 (Evento de Alto Impacto / Crise Telegrafada):**
-  * *Cenário:* O Jaggling se ancora ao transformador central e inicia a *Sobrecarga de Tempestade Penumbral*.
-  * *Parâmetros da Oposição:* Crise telegrafada com **Ameaça Mística 6** (Descargas em Área), **Oposição Mística 7** (Dissipar Vórtice) e **Relógio de Crise de 10 Caixas (Limiar 2)**.
+Logo, ele é um Obstáculo com agência — mas não precisa ser traduzido para Oposição/Ameaça/Consequência/Relógio.
 
 ---
 
-## 🎯 3. Nível 1: Desafios Rápidos (Gafflings e Travessia da Película)
+## 2. Os três níveis continuam úteis
 
-O obstáculo opera em uma única dimensão com fator de Oposição e Meta de Sucessos:
+### Nível 1
+Interação breve: percepção, negociação, passagem, oferenda, atravessar vigilância.
 
-### Catálogo de Oposições de Nível 1:
-1. **Gaffling de Poeira / Sentinela Espiritual:** Oposição Mística 5 / Furtividade 5 | Meta: 1 Sucesso. *(Espírito Oficial M20)*
-2. **Romper a Película Urbana (Gauntlet 7):** Oposição Mística 7 | Meta: 2 Sucessos. *(Regra Oficial M20)*
-3. **Rastrear Trilha de Ressonância na Penumbra:** Oposição Mística 6 / Percepção 6 | Meta: 2 Sucessos.
-4. **Pequena Perdição de Ódio (Bane Menor):** Oposição Mística 6 / Social 6 | Meta: 2 Sucessos. *(Espírito Oficial M20)*
-5. **Romper a Película em Laboratório Tecnocrata Rígido (Gauntlet 8):** Oposição Mística 8 | Meta: 3 Sucessos. *(Regra Oficial M20)*
+### Nível 2
+A entidade permanece ativa e usa repetidamente Vontade, Fúria, Gnose, Essência e Encantos.
 
----
+### Nível 3
+Um Encanto, ritual, possessão ou fenômeno umbral prepara consequência excepcional e usa telegrafia.
 
-## ⚔️ 4. Nível 2: Ameaças Ativas (Fichas Sintéticas Simétricas)
-
-Entidades de Nível 2 operam com foco em sua dimensão mística primária, apresentando tabus e brechas claras em dimensões secundárias.
+O nível mede carga da cena, não poder ontológico da entidade.
 
 ---
 
-### Tabela de Perfis de Espíritos (Origem Oficial M20)
+## 3. Dimensões como lente, não ficha
 
-| Espírito Oficial | Origem no Livro | Dimensão Primária (Opo / Ame / Cons / Rel) | Dimensão Secundária / Brecha Tática | Bônus Inic. |
-| :--- | :--- | :--- | :--- | :---: |
-| **Gaffling de Combate** | *(Espírito Oficial M20)* | **Mística:** `[Opo 5]` `[Ame 5]` `[Cons 2]` `[Rel 3]` | **Social (Domar):** `[Opo 4]` `[Ame 3]` `[Rel 2]` | $+2$ |
-| **Jaggling da Tempestade** | *(Espírito Oficial M20)* | **Mística:** `[Opo 7]` `[Ame 6]` `[Cons 4 Agr]` `[Rel 5]` | **Física/Aterramento de Cobre:** `[Opo 5]` `[Rel 3]` | $+5$ |
-| **Perdição de Sangue (Bane)** | *(Espírito Oficial M20)* | **Mística:** `[Opo 7]` `[Ame 7]` `[Cons 3 Agr]` `[Rel 5]` | **Fogo/Purificação:** Dano Dobrado no Relógio | $+6$ |
-| **Aranha da Teia Digital** | *(Espírito Oficial M20)* | **Mental/Digital:** `[Opo 7]` `[Ame 6]` `[Cons 3 Dreno]` `[Rel 4]` | **PEM / Corte de Fibra:** `[Ame 4]` `[Rel 2]` | $+5$ |
-| **Espírito de Concreto** | *(Espírito Oficial M20)* | **Mística/Física:** `[Opo 8]` `[Ame 6]` `[Cons 4]` `[Rel 6]` | **Entropia/Matéria:** Ignora blindagem | $+6$ |
-| **A Própria Película Ativa** | *(Mecânica Oficial M20)* | **Mística:** `[Opo 8]` `[Ame 6]` `[Cons 2 Paradoxo]` `[Rel 4]` | **Ponto Focal / Nodo:** `[Opo 6]` `[Rel 2]` | $+6$ |
+Pode ser útil ao ST anotar:
+
+* fisicamente impossível de afetar enquanto desmaterializado;
+* socialmente negociável por oferenda;
+* misticamente muito poderoso;
+* mentalmente simples ou alienígena.
+
+Isso orienta abordagem.
+
+A regra real continua vindo de:
+
+* Vontade;
+* Fúria;
+* Gnose;
+* Essência;
+* Encantos;
+* estado material/desmaterializado;
+* regras de Película e Umbra.
 
 ---
 
-## 🌪️ 5. Nível 3: Eventos de Alto Impacto e Lordes Umbrais (4 Dimensões)
+## 4. Efeito Zero legítimo
 
-Grandes entidades, Incarnas e fenômenos cósmicos da Umbra possuem a **matriz completa das 4 dimensões** para representar seu impacto em todas as esferas da realidade.
+Ataque físico mundano contra efêmera desmaterializada é um exemplo forte de Efeito Zero porque a impossibilidade vem da regra e da ficção.
+
+Isso não autoriza criar “Limiar 2” genérico para Jagglings ou “Limiar 3” para Incarnas sem base equivalente.
 
 ---
 
-### Catálogo de Entidades e Crises de Nível 3
+## 5. Fúria, dano e absorção
 
-#### 1. Lorde de Paradoxo: "O Julgamento da Teia de Paradoxo" *(Oficial M20)*
-* **Matriz Dimensional:**
-  * **Dimensão Mística (Agulhas Temporais e Fios de Paradoxo):** `[Oposição: 8]` `[Ameaça: 8]` `[Consequência: 5 Agravado (Banimento para Reino de Paradoxo)]` `[Relógio: 7]`
-  * **Dimensão Mental (Imposição de Estase Lógica):** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: 3 (Paralisia Mental)]` `[Relógio: 5]`
-  * **Dimensão Física (Corpo Incorpóreo Imaterial):** Imune a ataques mundanos (Efeito Zero).
-  * **Dimensão Social (Pacto de Absolvição / Redenção Arcana):** `[Oposição: 8]` `[Ameaça: 6]` `[Relógio: 4 (Oferenda de Quintessência/Vontade)]`
-* **Diegese da Telegrafia:** *"A Penumbra racha e uma figura imensa de fios prateados e agulhas de relógio desce. As agulhas giram no sentido anti-horário e o tempo congela. Em 10 segundos, as agulhas perfurarão o peito do alvo, banindo corpo e alma para um Reino de Paradoxo isolado."*
-* **Mecânica Oculta da Crise:** Relógio de Crise de 7 Caixas (Limiar Mínimo: 2 Sucessos).
+Fúria gera dano por rolagem.
+Força de Vontade pode participar de defesa/absorção conforme a regra espiritual.
 
-#### 2. Grande Perdição Tóxica: "A Erupção de Miasma Penumbral" *(Oficial M20)*
-* **Matriz Dimensional:**
-  * **Dimensão Mística (Miasma Corruptor de Essência):** `[Oposição: 7]` `[Ameaça: 8]` `[Consequência: 5 Agravado (Corrupção de Padrão)]` `[Relógio: 6]`
-  * **Dimensão Física (Lodo Ácido Materializado):** `[Oposição: 7]` `[Ameaça: 7]` `[Consequência: 4 Agravado]` `[Relógio: 6]`
-  * **Dimensão Mental (Aura de Terror e Loucura):** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 3 (Estresse/Fobia)]` `[Relógio: 4]`
-  * **Dimensão Social:** Imune (Efeito Zero para diplomacia; apenas exorcismo puro).
-* **Diegese da Telegrafia:** *"O chão do esgoto borbulha em lodo negro e um tumor de carne pútrida e olhos múltiplos emerge. Bolsas de gás sulfúrico inflam no dorso. No fim do turno, o monstro vomitará uma torrente de lodo ácido espiritual que dissolverá padrões biológicos e espirituais em 30 metros."*
-* **Mecânica Oculta da Crise:** Relógio de Crise de 6 Caixas.
+Essas operações entram na dívida geral de **dano e soak**.
 
-#### 3. Tempestade de Avatar: "O Rompimento e Estilhaços de Essência" *(Oficial M20)*
-* **Matriz Dimensional:**
-  * **Dimensão Mística (Cacos Cósmicos de Avatar):** `[Oposição: 8]` `[Ameaça: 8]` `[Consequência: 4 Agravado (Cicatriz no Avatar / Perda de Quintessência)]` `[Relógio: 6]`
-  * **Dimensão Física (Turbulência Gravitacional):** `[Oposição: 7]` `[Ameaça: 7]` `[Consequência: 3 Letal]` `[Relógio: 5]`
-  * **Dimensão Mental (Eco de Gritos de Almas Rompidas):** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: 2 (Trauma)]` `[Relógio: 4]`
-  * **Dimensão Social:** Não aplicável (Fenômeno Cósmico).
-* **Diegese da Telegrafia:** *"Um trovão sem som estala na Película danificada. Uma tempestade de cacos brilhantes de vidro místico e fragmentos de Avatares começa a girar em um tornado violento. No próximo instante, a ventania cortará os laços da alma de quem estiver na travessia."*
-* **Mecânica Oculta da Crise:** Relógio de Crise de 6 Caixas.
+Até a matemática ser estudada, não se converte automaticamente:
+
+* Fúria em dano fixo;
+* Vontade em RD;
+* Essência em relógio menor.
+
+---
+
+## 6. Essência permanece Essência
+
+Se a entidade possui 10, 25 ou 60 pontos de Essência, isso não deve ser comprimido para 4, 7 ou 15 caixas apenas por conveniência.
+
+Se o ST usar um relógio visual, ele precisa representar a mesma reserva/progresso relevante.
+
+---
+
+## 7. Encantos como ações e estados
+
+Encantos podem:
+
+* alterar materialidade;
+* criar novas possibilidades;
+* bloquear ações;
+* produzir estado;
+* iniciar possessão;
+* causar dano;
+* iniciar movimento telegrafado.
+
+Eles devem ser preservados semanticamente.
+
+Exemplo de telegrafia por escalada:
+
+> o espírito estabelece contato parcial com o hospedeiro agora; enquanto o vínculo persistir, avança para possessão completa.
+
+---
+
+## 8. A Umbra também contém Obstáculos sem agência
+
+Nem tudo na Umbra é espírito.
+
+Exemplos:
+* Película;
+* Tempestade de Avatar;
+* ambiente hostil;
+* geometria impossível;
+* regiões sem ar ou matéria compatível;
+* correntes de efêmera.
+
+Esses casos devem ser traduzidos a partir de seus subsistemas originais de viagem, perigo e mágika, e não convertidos em “NPC espiritual”.
+
+---
+
+## 9. Resultado
+
+A ontologia geral funciona aqui desde que preserve a diversidade:
+
+* espírito = Obstáculo com agência e ficha espiritual canônica;
+* Película = barreira;
+* tempestade = perigo ambiental/místico;
+* reino hostil = ambiente;
+* Encanto persistente = efeito/estado.
+
+Todos podem ser vistos como Obstáculos.
+
+Eles **não precisam funcionar do mesmo jeito**.
