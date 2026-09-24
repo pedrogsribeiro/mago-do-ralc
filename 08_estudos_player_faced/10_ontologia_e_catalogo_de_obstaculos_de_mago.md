@@ -104,31 +104,92 @@ A própria Crônica pode ser tratada como Obstáculo de escala macro: progresso,
 
 ---
 
-## 4. Mapa inicial de subsistemas que precisam responder “como fica?”
+## 4. Duas camadas diferentes de tradução
 
-A pesquisa não deve assumir que o combate é o único problema. O livro básico espalha complexidade por vários sistemas.
+Para o livro cumprir sua promessa, é preciso separar duas coisas que a versão anterior deste estudo misturava.
 
-Prioridades de tradução:
+### Camada A — Famílias de Obstáculos
 
-1. **Ações resistidas e NPCs** — já em estudo.
-2. **Dano e absorção** — ainda aberto.
-3. **Objetos: Durability + Structure** — provavelmente já muito compatíveis.
-4. **Quedas e impactos.**
-5. **Fogo, calor e explosões.**
-6. **Radiação, venenos, toxinas, drogas e doenças.**
-7. **Fome, sede, sufocamento e vácuo.**
-8. **Veículos, colisões e perseguições.**
-9. **Teia Digital, hacking e ICE.**
-10. **Umbra, Película, espíritos e Encantos.**
-11. **Paradoxo e suas manifestações.**
-12. **Quiet/Silêncio.**
-13. **Zonas de Realidade e Consenso.**
-14. **Mágika sustentada, wards, armadilhas e contramágika.**
-15. **Maravilhas, Fetiches, Talismãs e Dispositivos.**
-16. **Duelos mágickos e Certámen.**
-17. **Crônica/Atos como Obstáculos macro.**
+Responde:
 
-A lista deve ser auditada contra o sumário completo do M20 para verificar lacunas.
+> **“Que tipo de coisa os personagens estão tentando superar, alterar, sobreviver ou resolver?”**
+
+As famílias principais levantadas até aqui são:
+
+1. agentes conscientes;
+2. constructos, objetos e sistemas;
+3. entidades espirituais e geografia umbral;
+4. mágika autônoma e efeitos persistentes;
+5. ameaças sistêmicas da realidade;
+6. riscos ambientais e físicos;
+7. tecnologia, veículos e Teia Digital;
+8. Crônica e Atos em escala macro.
+
+### Camada B — Procedimentos transversais de M20
+
+Responde:
+
+> **“Que regra de M20 está sendo acionada nesta interação e o que acontece com ela no olhar player-faced?”**
+
+Esses procedimentos atravessam várias famílias e não devem ser confundidos com Obstáculos:
+
+1. **testes simples e graus de sucesso;**
+2. **testes resistidos;**
+3. **testes estendidos e estendidos-resistidos;**
+4. **trabalho em equipe e testes complementares;**
+5. **retries e mudança de tática;**
+6. **ações múltiplas e economia de ações;**
+7. **iniciativa, declaração e ordem de resolução;**
+8. **movimento, perseguição e posição;**
+9. **ataque e defesa ativa;**
+10. **dano, tipos de dano e absorção;**
+11. **Vitalidade, penalidades por ferimento e cura;**
+12. **Força de Vontade e sucessos automáticos;**
+13. **Arete, Esferas e conjuração;**
+14. **contramágika;**
+15. **Quintessência e Paradoxo;**
+16. **Quiet/Silêncio;**
+17. **Zonas de Realidade e Consenso;**
+18. **veículos, colisões e perseguições;**
+19. **Teia Digital, hacking e ICE;**
+20. **Umbra, Película, espíritos e Encantos;**
+21. **objetos, Durability e Structure;**
+22. **Maravilhas, Fetiches, Talismãs e Dispositivos;**
+23. **Certámen e outros duelos estruturados;**
+24. **perigos ambientais: quedas, fogo, explosões, radiação, toxinas, doenças, fome, sede, sufocamento e vácuo.**
+
+A futura auditoria precisa cruzar as duas camadas.
+
+Exemplo:
+
+```
+OBSTÁCULO: HIT Mark
+Família: constructo-agente
+
+Procedimentos acionados na cena:
+- iniciativa
+- ataque/defesa
+- dano/soak
+- Vitalidade
+- contramágika
+- hacking
+- autodestruição telegrafada
+```
+
+Outro:
+
+```
+OBSTÁCULO: incêndio
+Família: risco ambiental
+
+Procedimentos acionados:
+- exposição
+- dano agravado
+- eventual resistência/absorção
+- propagação/estado
+```
+
+Essa separação impede que uma solução criada para um procedimento seja automaticamente aplicada a todas as famílias.
 
 ---
 
@@ -169,13 +230,30 @@ Agência é um atributo de alguns Obstáculos, não da categoria inteira.
 
 ---
 
-## 7. Próximo programa de pesquisa
+## 7. Gate deste estudo
+
+A proposta do capítulo é válida se ele entregar duas coisas:
+
+1. uma ontologia suficientemente ampla para o ST reconhecer **que tipo de Obstáculo** está diante dele;
+2. um mapa suficientemente completo dos **procedimentos de M20** que podem ser acionados contra esse Obstáculo.
+
+Com a separação entre famílias e procedimentos transversais, o Estudo 10 passa a cumprir essa função.
+
+Ele **não resolve** os subsistemas listados. Ele cria o mapa que impede que algum deles seja esquecido durante a tradução player-faced.
+
+A consequência metodológica é importante:
+
+> cada estudo posterior deve dizer explicitamente **qual família de Obstáculo está tratando** e **quais procedimentos de M20 está traduzindo, preservando ou deixando intactos**.
+
+---
+
+## 8. Próximo programa de pesquisa
 
 O catálogo deixa de ser uma coleção de fichas prontas e passa a orientar uma **auditoria sistemática do M20**.
 
 O objetivo do livro comercial pode então oferecer ao ST duas coisas:
 
 * uma linguagem unificada para enxergar tudo como Obstáculo;
-* traduções específicas dos subsistemas que realmente precisam de simplificação.
+* traduções específicas dos procedimentos que realmente precisam de simplificação.
 
 Isso preserva a riqueza de M20 sem aceitar como inevitável a soma histórica de subsistemas e operações que recaem sobre o Storyteller.
