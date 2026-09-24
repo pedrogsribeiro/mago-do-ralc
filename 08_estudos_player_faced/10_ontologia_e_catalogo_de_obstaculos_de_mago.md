@@ -1,111 +1,181 @@
 ---
 type: regra
-summary: "Estudo 10 do Sistema Player-Faced: Ontologia completa e catálogo mestre de obstáculos específicos de Mago: A Ascensão sob a ótica da Regra de Bronze do Fate Core."
+summary: "Estudo 10: ontologia de Obstáculos em M20 e mapa dos subsistemas que precisam de tradução player-facing sem exigir ficha universal."
 tags: [srd, design, player-faced, obstaculos, catalogo, ontologia, fate-fractal, regras]
 ---
 
-# Estudo 10: Ontologia e Catálogo de Obstáculos Específicos de Mago: A Ascensão
+# Estudo 10: Ontologia de Obstáculos e Mapa dos Subsistemas de M20
 
-Este documento estabelece o levantamento abrangente de todos os tipos específicos de obstáculos, ameaças e antagonistas diegéticos presentes em *Mago: A Ascensão 20 Anos*, fundamentados na **Regra de Bronze do Fate Core** (*o Fractal de Fate: tudo no cenário pode ser tratado como um personagem com agência, defesas e ações ativas*).
+Este estudo generaliza a ideia central da pesquisa:
+
+> **qualquer elemento relevante da ficção pode ser tratado pelo Storyteller como um Obstáculo.**
+
+A referência ao Fate Básico/Fate Core está na gramática de representação: portas, NPCs, incêndios, espíritos, rituais ou até uma Crônica inteira podem receber apenas os parâmetros necessários para serem administrados com clareza.
+
+Isso **não significa que todos usem a mesma ficha ou o mesmo subsistema**.
+
+A função deste estudo é responder à pergunta:
+
+> **“E este subsistema de M20 — como fica sob o olhar player-faced?”**
 
 ---
 
-## 🏛️ 1. Fundamentação: A Regra de Bronze e a Ontologia Viva de Mago
+## 1. Regra de representação
 
-No *Storyteller* clássico de Mago M20, regras de perigo costumam ficar dispersas em capítulos separados (combate físico no Cap. 9, feitiços no Cap. 10, espíritos na Umbra, itens no Cap. 12). 
+Um Obstáculo pode ter, conforme sua natureza:
 
-A aplicação da **Regra de Bronze** unifica essa dispersão:
-> **A Regra de Bronze:** Em Mago, qualquer elemento da realidade — um feitiço sustentado, um robô de extermínio, um espírito de poluição, um incêndio ou o próprio Paradoxo acumulado — pode ser tratado mecanicamente como uma entidade ativa que impõe oposição, possui resistência e atua contra os jogadores.
+* **competência/oposição**, se algo resiste ativamente;
+* **resistência**, se algo precisa primeiro ser superado;
+* **integridade/progresso**, se pode ser degradado ou concluído;
+* **consequência**, se permanecer ativo produz efeito;
+* **estado**, se muda de comportamento conforme a situação;
+* **ações**, se possui agência;
+* **gatilhos/telegrafia**, se prepara consequências de alto impacto.
+
+Nenhum desses campos é obrigatório para todo Obstáculo.
 
 ---
 
-## 📋 2. Catálogo dos 6 Domínios de Obstáculos em Mago M20
+## 2. Casos clássicos já naturalmente compatíveis
+
+### Objetos e estruturas
+M20 já fornece uma estrutura particularmente próxima do olhar por Obstáculos:
+
+* **Durability:** resistência fixa do material — funciona como uma espécie de soak permanente.
+* **Structure:** integridade funcional; quando o dano a supera, o objeto deixa de funcionar/quebra.
+
+Isso já é, na prática:
 
 ```
-+---------------------------------------------------------------------------------------------------------+
-|                                    A ONTOLOGIA DOS OBSTÁCULOS EM MAGO                                   |
-|                                                                                                         |
-|  [ 1. Antagonistas Conscientes ]       ==> Tecnocracia, Nefandi, Desauridos, Caídos e Conspirações      |
-|  [ 2. Constructos & Hipertecnologia ]  ==> Hit-Marks, Golens, Aberrações Bioquímicas e Trava Panóptica |
-|  [ 3. Entidades da Umbra ]             ==> Gafflings, Perdições (Banes), Celestiais e a Própria Película|
-|  [ 4. Mágika Autônoma & ICE Digital ]  ==> Feitiços Sustentados, Gatilhos Rúnicos e Gelo da Teia Digital|
-|  [ 5. Ameaças Sistêmicas da Realidade ]==> Paradoxo, Espíritos de Paradoxo, Silêncio/Quiet e Consenso   |
-|  [ 6. Catástrofes Ambientais & Físicas]==> Radiação Mística, Colapso de Nodos e Armadilhas Naturais     |
-+---------------------------------------------------------------------------------------------------------+
+Resistência + Integridade
 ```
 
----
+sem exigir que o ST role defesa ou soak pelo objeto.
 
-### Domínio 1: Antagonistas Conscientes e Facções da Guerra da Ascensão
-> 📖 *Detalhamento completo e catálogo de perfis nos 3 Níveis em: [`Estudo 11: Domínio 1 — Antagonistas Conscientes`](11_dominio_1_antagonistas_conscientes.md)*
+Objetos, portas, paredes, veículos parados, máquinas e estruturas devem portanto ser estudados a partir de **Durability + Structure**, não convertidos automaticamente para a antiga ficha Oposição/Ameaça/Consequência/Relógio.
 
-NPCs com motivações ideológicas, paradigmas próprios e capacidade de agir em múltiplas dimensões (física, social, mental e mística):
-* **A Tecnocracia (As 5 Convenções):**
-  * *Nova Ordem Mundial (NOM):* Homens de Preto (MIB), analistas de mídia, investigadores psicológicos e agentes de desinformação.
-  * *Iteração X:* Soldados cibernéticos, atiradores de elite com mira neural e mecatrônicos.
-  * *Progenitores:* Geneticistas bélicos, infectologistas de campo e médicos com toxinas celulares.
-  * *Sindicato:* Liquidatários econômicos, auditores predatórios e chantagistas corporativos.
-  * *Engenheiros do Vazio:* Exploradores espaciais com armaduras de contenção dimensional.
-* **Nefandi e Caídos (Os Servos do Vazio e Qlippoth):** Magos que inverteram seus Avatares e buscam a Des-Criação através de feitiços vis, rituais de dor e pactos cósmicos.
-* **Desauridos (Marauders — O Caos Vivo):** Magos imersos em loucura mística permanente (*Quiet Dinâmico*) cuja bolha de realidade deforma o mundo físico ao redor.
-* **Tradicionalistas Rivais e Órfãos Hostis:** Conflitos territoriais por Nodos de Quintessência e disputas dogmáticas severas entre as 9 Tradições.
-* **Instituições Mortais dos Adormecidos:** ABIN (inteligência estatal), forças táticas da polícia, conglomerados e histeria pública.
-* **Outros Habitantes Sobrenaturais:** Vampiros urbanos, matilhas de Lobisomens (Garou) e Inquisidores caçadores de bruxas.
+### Espíritos
+M20 já os compacta em **Força de Vontade, Fúria, Gnose e Essência**. Preserva-se essa ficha e traduzem-se apenas as operações do ST.
 
 ---
 
-### Domínio 2: Constructos, Autômatos e Hipertecnologia Autônoma
-> 📖 *Detalhamento completo e catálogo de perfis nos 3 Níveis em: [`Estudo 12: Domínio 2 — Constructos e Hipertecnologia`](12_dominio_2_constructos_e_hipertecnologia.md)*
+## 3. Catálogo de grandes famílias de Obstáculos
 
-Ameaças artificiais que não possuem sentimentos e executam protocolos diretos de destruição ou contenção:
-* **Hit-Marks (Androides de Extermínio da Iteração X):** Séries IV a X com blindagem de *Matéria 3*, canhões de plasma internos e sensores termais.
-* **Constructos Biológicos e Clones Descartáveis (Progenitores):** Aberrações quiméricas, clones descartáveis e bio-parasitas.
-* **Autômatos Herméticos e Golens:** Esculturas animadas por encantamentos de *Forças/Matéria/Primórdio*.
-* **Sistemas de Segurança Panóptica:** Câmeras com bio-rastreio, travas quânticas, drones de patrulha e lasers de varredura molecular.
+### A. Agentes conscientes
+Mortais, magos, Tecnocratas, Nefandi, Desauridos e outros seres dotados de intenção.
 
----
+Precisam preservar:
+* iniciativa;
+* ações;
+* competências relevantes;
+* recursos/poderes próprios.
 
-### Domínio 3: Entidades Efêmeras e a Geografia Hostil da Umbra
-> 📖 *Detalhamento completo e catálogo de perfis nos 3 Níveis em: [`Estudo 13: Domínio 3 — Entidades Efêmeras e a Umbra`](13_dominio_3_entidades_efemeras_e_umbra.md)*
+### B. Constructos, objetos e sistemas
+Hit-Marks, golens, drones, portas, sistemas de segurança, veículos, máquinas e instalações.
 
-Ameaças imateriais da Penumbra e Reinos Umbrais que operam através de Corpus, Gnose, Força de Vontade e Encantos (*Charms*):
-* **Espíritos da Natureza e Elementais:** Entes de Fogo, Raios, Água, Rochas e Ventos.
-* **Espíritos Urbanos da Civilização:** Manifestações de Concreto, Fumaça, Eletricidade, Fibra Óptica e Poluição.
-* **Perdições (Banes):** Espíritos de corrupção, podridão, ódio e decadência que buscam possuir corpos mortais.
-* **A Própria Película (The Gauntlet):** A barreira metafísica que resiste ativamente à travessia física ou mágica dos magos.
-* **Reinos Umbrais Hostis e Tempestades de Avatar:** Zonas dimensionais onde a gravidade inverte ou o ar consome o padrão místico.
+A primeira pergunta deve ser:
+> isto é uma **criatura/agente**, um **objeto com Durability + Structure**, ou um sistema híbrido?
 
----
+Nem todo constructo deve virar NPC sintético.
 
-### Domínio 4: Feitiços Sustentados, Encantamentos Autônomos e ICE Virtual
-Mágika já conjurada que permanece ativa no ambiente operando como uma barreira ou armadilha viva:
-* **Glebas e Zonas de Feitiço Persistente:**
-  * *Barreiras de Dilatação Temporal (Tempo 3/4):* Salas em loop ou desaceleração temporal.
-  * *Campos de Labirinto Espacial (Correspondência 3/4):* Corredores sem saída geométrica.
-  * *Névoas Tóxicas Biológicas (Vida 3/4):* Patógenos místicos sustentados no ar.
-  * *Campos de Supressão Mística (Primórdio 4/5):* Círculos de anulação mágica e drenagem de Quintessência.
-* **Armadilhas Rúnicas e Gatilhos Condicionais:** Feitiços programados com gatilhos de intrusão (*Mente/Forças*).
-* **ICE (Gelo de Segurança) na Teia Digital:** Programas de segurança cibernética que enviam bio-feedback elétrico mortal contra invasores virtuais.
+### C. Entidades espirituais e Umbra
+Preservam Vontade/Fúria/Gnose/Essência e Encantos; Efeito Zero é válido quando uma impossibilidade real existe, como ataque mundano contra efêmera desmaterializada.
 
----
+### D. Mágika autônoma e efeitos persistentes
+Feitiços sustentados, armadilhas, barreiras, wards, efeitos de Tempo, Correspondência, Vida, Primórdio e ICE.
 
-### Domínio 5: Ameaças Sistêmicas da Realidade (O Próprio Tecido do Jogo)
-O próprio universo reagindo ativamente contra as violações dos magos:
-* **O Paradoxo e suas Manifestações:**
-  * *Bordoadas de Paradoxo:* Choques diretos da realidade causando dano físico ou defeitos místicos.
-  * *Espíritos de Paradoxo:* Entes punitivos conjurados para capturar o mago e arrastá-lo a Reinos de Paradoxo.
-  * *Falhas de Realidade / Anomalias:* Quebras da física local (gravidade instável, fogo frio, sangramento de paredes).
-* **O Silêncio (Quiet — A Loucura Mágica):**
-  * *Silêncio de Negação:* Auto-sabotagem mental e falha involuntária de magias.
-  * *Silêncio de Morosidade:* Pesadelos internos que tomam forma física na cena.
-  * *Silêncio de Caos:* O Avatar assume controle parcial e conjura efeitos aleatórios.
-* **Zonas de Realidade Rígidas e Construtos de Consenso:** Laboratórios ou locais sagrados onde certas mágikas sofrem aumentos severos de Dificuldade.
-* **Nodos Corrompidos e Linhas Ley Envenenadas:** Fontes de poder que contaminam quem tenta canalizar sua energia.
+Precisam ser traduzidos **a partir das regras mágickas que os criaram**, não por uma dificuldade genérica.
+
+### E. Ameaças sistêmicas da realidade
+Paradoxo, Quiet/Silêncio, Zonas de Realidade, Consenso, Nodos corrompidos e outras reações do cenário.
+
+Esses subsistemas merecem estudos específicos porque já possuem procedimentos próprios.
+
+### F. Riscos ambientais e físicos
+Queda, fogo, calor, explosão, fome, sede, sufocamento, radiação, venenos, toxinas, doenças, vácuo e colapso estrutural.
+
+Em muitos casos eles já são fortemente player-facing no M20: o ambiente não rola, o PJ resiste, absorve ou sofre consequências automáticas.
+
+### G. Tecnologia, veículos e Teia Digital
+Veículos, perseguições, acidentes, sistemas tecnológicos, hacking, combate virtual e ICE merecem tradução própria.
+
+### H. Crônica e Atos
+A própria Crônica pode ser tratada como Obstáculo de escala macro: progresso, características, marcos e condições de resolução.
 
 ---
 
-### Domínio 6: Catástrofes Ambientais e Riscos Físicos Extremos
-Perigos dramáticos físicos que ganham vida e forçam decisões rápidas sob pressão:
-* **Incêndios Vorazes e Explosões em Cadeia:** Fogo consumindo oxigênio e estruturas.
-* **Radiação Ionizante e Toxinas Químicas:** Áreas de contaminação com dano celular contínuo.
-* **Colapsos Estruturais, Desabamentos e Vácuo:** Escombros e despressurização de cabines.
+## 4. Mapa inicial de subsistemas que precisam responder “como fica?”
+
+A pesquisa não deve assumir que o combate é o único problema. O livro básico espalha complexidade por vários sistemas.
+
+Prioridades de tradução:
+
+1. **Ações resistidas e NPCs** — já em estudo.
+2. **Dano e absorção** — ainda aberto.
+3. **Objetos: Durability + Structure** — provavelmente já muito compatíveis.
+4. **Quedas e impactos.**
+5. **Fogo, calor e explosões.**
+6. **Radiação, venenos, toxinas, drogas e doenças.**
+7. **Fome, sede, sufocamento e vácuo.**
+8. **Veículos, colisões e perseguições.**
+9. **Teia Digital, hacking e ICE.**
+10. **Umbra, Película, espíritos e Encantos.**
+11. **Paradoxo e suas manifestações.**
+12. **Quiet/Silêncio.**
+13. **Zonas de Realidade e Consenso.**
+14. **Mágika sustentada, wards, armadilhas e contramágika.**
+15. **Maravilhas, Fetiches, Talismãs e Dispositivos.**
+16. **Duelos mágickos e Certámen.**
+17. **Crônica/Atos como Obstáculos macro.**
+
+A lista deve ser auditada contra o sumário completo do M20 para verificar lacunas.
+
+---
+
+## 5. Princípio de tradução
+
+Para cada subsistema:
+
+1. **Descrever a regra original de M20.**
+2. **Identificar quem rola e por quê.**
+3. **Separar o que o jogador precisa continuar percebendo/fazendo.**
+4. **Identificar o trabalho que existe apenas do lado do ST.**
+5. **Perguntar se esse trabalho pode ser removido ou comprimido.**
+6. **Comparar matematicamente quando houver transformação probabilística.**
+7. **Preservar o subsistema original quando ele já for suficientemente player-facing.**
+
+Às vezes a melhor tradução será:
+
+> **nenhuma mudança necessária.**
+
+Isso é uma conclusão válida.
+
+---
+
+## 6. Obstáculos não precisam ser agentes
+
+A formulação antiga dizia que tudo poderia ser tratado como “personagem com agência”. Isso é forte demais.
+
+Uma queda não age.
+Uma porta não age.
+Uma Crônica não age por si mesma.
+Um veneno pode continuar produzindo efeitos, mas não possui intenção.
+
+O que todos compartilham é apenas isto:
+
+> **podem ser representados como algo que impõe resistência, exige progresso, produz consequência ou muda de estado.**
+
+Agência é um atributo de alguns Obstáculos, não da categoria inteira.
+
+---
+
+## 7. Próximo programa de pesquisa
+
+O catálogo deixa de ser uma coleção de fichas prontas e passa a orientar uma **auditoria sistemática do M20**.
+
+O objetivo do livro comercial pode então oferecer ao ST duas coisas:
+
+* uma linguagem unificada para enxergar tudo como Obstáculo;
+* traduções específicas dos subsistemas que realmente precisam de simplificação.
+
+Isso preserva a riqueza de M20 sem aceitar como inevitável a soma histórica de subsistemas e operações que recaem sobre o Storyteller.
