@@ -34,9 +34,10 @@ São **8 rolagens de dados por turno para 2 personagens**, além do esforço men
 **A Hipótese Central:** *É possível diminuir a carga cognitiva do Storyteller e acelerar a experiência (diminuindo tanto o número de rolagens de dados quanto a quantidade de variáveis gerenciadas) sem perder a profundidade da experiência dos jogadores nem quebrar a matemática das rolagens do d10.*
 
 ### Como a Solução foi Alcançada (A Raiz do Design)
-Para comprovar a hipótese, o sistema foi reestruturado utilizando as seguintes bases:
-1. **Regra de Bronze do Fate Core:** Tudo no cenário (um feitiço, uma porta, um inimigo) pode ser modelado usando uma taxonomia de oposição unificada.
-2. **Transferência Player-Faced (Influência PBTA/OSR):** O Narrador passa a rolar **Zero Dados**. As consequências do perigo são sempre ativadas pelos resultados das rolagens dos próprios jogadores (A Matemática Trinomial: $\ge 2s$ = Sucesso Pleno, $1s$ = Parcial com Custo, $0s$ = Falha Simples).
+Para comprovar a hipótese, o sistema foi reestruturado usando como referências modernas de *game design* princípios presentes em **Fate Básico / Fate Core** e nos jogos **Powered by the Apocalypse (PbtA)**, além de influências da tradição OSR. Essas referências funcionam como matrizes de ergonomia e estrutura de resolução, sem importar integralmente seus sistemas para M20.
+
+1. **Regra de Bronze do Fate Básico / Fate Core:** A ideia de que elementos muito diferentes da ficção podem ser descritos por uma gramática mecânica comum inspira uma taxonomia unificada de oposição. Um feitiço, uma porta, um inimigo ou outro obstáculo podem ser modelados de maneira consistente sem exigir um subsistema completamente diferente para cada caso.
+2. **Resolução centrada na ação do jogador — referência Powered by the Apocalypse:** A tradição PbtA demonstra como a resolução pode manter o foco na ação do jogador e devolver rapidamente consequências à ficção. Aqui, porém, a leitura dos sucessos continua ancorada nos **graus de sucesso de M20**: **1 sucesso é marginal**, permitindo ao Storyteller qualificar o resultado de acordo com a situação; **2 sucessos produzem um resultado moderado e mais seguro**, e sucessos adicionais elevam a qualidade da ação. A hipótese player-facing radicaliza apenas a distribuição das rolagens ao fazer o Narrador rolar **Zero Dados**, sem importar como regra obrigatória a faixa PbtA de “sucesso com complicação”.
 3. **Compressão Simétrica do NPC:** A longa lista de atributos é descartada em prol de uma Ficha Sintética estruturada em apenas 4 variáveis (Oposição, Ameaça, Consequência e Relógio).
 
 ---
