@@ -87,7 +87,9 @@ Um sistema pode ser:
 * mágickamente protegido;
 * socialmente inacessível sem credencial.
 
-Essas descrições ajudam o ST a dimensionar **como os jogadores podem atacá-lo**, sem exigir quatro relógios ou quatro fichas.
+Essas dimensões podem receber **valores próprios** e ajudam o ST a dimensionar como os jogadores podem atacá-lo. Não exigem quatro fichas completas: cada dimensão só recebe os campos da ficha achatada que realmente fizerem sentido.
+
+Um sistema pode ter, por exemplo, **Físico alto, Mental/Técnico alto, Social 0 e Mágicko baixo**. Social 0 significa que persuasão simplesmente não constitui uma frente de oposição daquele sistema; Mágicko baixo significa que existe proteção mágicka, mas ela é vulnerável.
 
 Exemplo:
 
