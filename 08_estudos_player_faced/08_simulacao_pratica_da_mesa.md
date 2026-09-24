@@ -180,17 +180,17 @@ A defesa resistida do NPC pode ser **aproximada** pelo modelo Dificuldade + Limi
 
 Andrey continua rolando seu ataque e seu dano.
 
-### O que ainda falta
+### Resistência do NPC
 
-A **absorção do NPC** ainda não possui tradução validada.
+A ficha achatada já prevê essa etapa como **Limiar de Efetividade**, nome geral da antiga RD fixa. O ataque do PJ pode ser bem-sucedido e ainda ter seu Impacto reduzido pelo Limiar, espelhando a função da absorção sem exigir uma rolagem do ST.
 
-Transformá-la em RD fixa mudaria a variância sem estudo suficiente.
+A arquitetura está definida; o valor numérico do Limiar ainda precisa ser calibrado contra paradas de soak reais.
 
 ### Resultado do teste
 
-**FUNCIONA ATÉ A ETAPA DE SOAK.**
+**A ESTRUTURA DO COMBATE ESTÁ COMPLETA NA FICHA ACHATADA.**
 
-O motor integrado ainda não está fechado para combate completo.
+O que permanece em validação é a calibração probabilística de Oposição, Ameaça, Consequência e Limiar.
 
 ---
 
@@ -198,33 +198,20 @@ O motor integrado ainda não está fechado para combate completo.
 
 **Situação:** no turno do agente, ele dispara contra Andrey.
 
-O NPC continua:
+A ficha achatada já previa esta situação:
 
-* ocupando iniciativa;
-* escolhendo alvo;
-* declarando ataque;
-* executando sua ação.
+* o NPC mantém sua iniciativa, intenção e ação;
+* **Ameaça** representa sua capacidade ofensiva;
+* o jogador faz a defesa/resistência pertinente;
+* se a Ameaça se concretiza, aplica-se a **Consequência**, que inclui o dano causado.
 
-Mas M20 originalmente exigiria uma **rolagem de ataque do NPC**.
-
-### Caso 1 — Andrey declarou defesa ativa
-
-Existe agência mecânica clara do jogador. Sua rolagem defensiva pode carregar parte da incerteza, desde que a conversão preserve a relação entre ataque e defesa do sistema original.
-
-**HIPÓTESE PLAUSÍVEL, AINDA NÃO VALIDADA.**
-
-### Caso 2 — Andrey não declarou defesa
-
-Aqui aparece uma lacuna estrutural.
-
-Se o ST simplesmente decidir que o ataque acertou, a aleatoriedade original desaparece.
-Se o jogador ganhar uma rolagem defensiva gratuita, sua economia de ações muda.
+Portanto, ataque e dano do NPC **não são lacunas arquiteturais**.
 
 ### Resultado do teste
 
-**AINDA NÃO RESOLVIDO.**
+**PASSA COMO ESTRUTURA PLAYER-FACED.**
 
-Esse é um dos problemas centrais que a pesquisa precisa responder antes de afirmar equivalência em combate.
+A dívida restante é de calibração: converter a parada de ataque original para Ameaça e a parada de dano original para Consequência com fidelidade suficiente.
 
 ---
 
@@ -250,7 +237,7 @@ Hughie pode tentar escapar, receber ajuda, usar mágika, aceitar o risco ou agir
 
 Ela não cria menu novo para o jogador e preserva causalidade.
 
-Entretanto, as rolagens concretas do agarrão, dano e eventual mordida continuam dependentes das soluções de ataque/dano/soak ainda abertas.
+A ficha achatada já comporta a sequência: Ameaça define a resistência à ação, Consequência define o impacto atual e o Limiar de Efetividade resolve a resistência do alvo quando pertinente.
 
 ---
 
