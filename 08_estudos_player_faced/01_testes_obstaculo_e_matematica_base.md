@@ -14,10 +14,10 @@ Este documento estabelece a base mecânica e probabilística para o modelo **100
 
 Toda ação de superar um obstáculo estático, perigo ambiental, intrusão digital ou teste de atributo é resolvida em uma única rolagem do jogador com a seguinte interpretação de resultados:
 
-* **$\ge 2$ Sucessos Líquidos:** **Sucesso Total (Pleno)** — O objetivo é cumprido de forma limpa, sem custos colaterais, atrasos ou complicações.
-* **1 Sucesso Líquido:** **Sucesso Parcial (Com Custo / Complicação)** — O objetivo primário é atingido, mas surge um custo, complicação, atraso, alerta ou dano de raspão (*Zona PbtA 7-9*).
-* **0 Sucessos Líquidos (sem 1s desacompanhados):** **Falha Simples** — O objetivo falha e o Narrador faz uma complicação dramática (*Hard Move*).
-* **$< 0$ Sucessos Líquidos (com 1s):** **Falha Crítica (Botch)** — Desastre, dano severo, revelação imediata ou acúmulo de Paradoxo.
+* **$\ge 2$ Sucessos Líquidos:** **Sucesso Pleno / Sólido** — O objetivo é cumprido com segurança e qualidade compatíveis com os graus de sucesso de M20.
+* **1 Sucesso Líquido:** **Sucesso Marginal que Move a Ficção** — O objetivo é alcançado no nível mínimo suficiente para a história continuar. O Storyteller pode qualificar o resultado conforme a situação — efeito reduzido, exposição, atraso, posição pior, informação incompleta ou outro custo ficcional — mas a complicação **não é obrigatória nem constitui uma nova faixa mecânica importada de PbtA**. O ponto central é preservar a regra de M20 de que 1 sucesso continua sendo sucesso.
+* **0 Sucessos Líquidos (sem 1s desacompanhados):** **Falha Simples** — O objetivo não é alcançado; o Storyteller descreve a consequência apropriada segundo a ficção.
+* **$< 0$ Sucessos Líquidos (com 1s):** **Falha Crítica (Botch)** — Desastre, dano severo, revelação imediata ou acúmulo de Paradoxo, conforme as regras e a situação em M20.
 
 ---
 
@@ -25,7 +25,7 @@ Toda ação de superar um obstáculo estático, perigo ambiental, intrusão digi
 
 Simulação trinomial exata considerando a regra clássica de Storyteller (dados de valor $1$ anulam sucessos):
 
-| Parada de Dados ($N$) | Perfil do Personagem | Falha Crítica (Botch) | Falha Simples | Sucesso Parcial (1 Sucesso) | Sucesso Total ($\ge 2$ Sucessos) | Taxa Total de Sucesso ($\ge 1$) |
+| Parada de Dados ($N$) | Perfil do Personagem | Falha Crítica (Botch) | Falha Simples | Sucesso Marginal (1 Sucesso) | Sucesso Total ($\ge 2$ Sucessos) | Taxa Total de Sucesso ($\ge 1$) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **2 Dados** | Inexperiente / Penalizado | $9,0\%$ | $26,1\%$ | **$40,0\%$** | $24,9\%$ | $64,9\%$ |
 | **3 Dados** | Mediano / Treinado | $6,1\%$ | $20,0\%$ | **$31,6\%$** | $42,4\%$ | $73,9\%$ |
@@ -39,14 +39,14 @@ Simulação trinomial exata considerando a regra clássica de Storyteller (dados
 
 Para uma parada típica de 4 Dados (Atributo 3 + Habilidade 1):
 
-| Dificuldade ($D$) | Conceito | Falha Crítica | Falha Simples | Sucesso Parcial (1s) | Sucesso Total ($\ge 2s$) |
+| Dificuldade ($D$) | Conceito | Falha Crítica | Falha Simples | Sucesso Marginal (1s) | Sucesso Total ($\ge 2s$) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Diff 5** | Favorável / Fácil | $1,7\%$ | $11,8\%$ | $19,5\%$ | **$67,0\%$** |
 | **Diff 6** | Padrão | $3,7\%$ | $16,3\%$ | $24,8\%$ | **$55,3\%$** |
 | **Diff 7** | Exigente / Adverso | $6,7\%$ | $21,8\%$ | **$29,6\%$** | $41,9\%$ |
 | **Diff 8** | Extremamente Difícil | $12,5\%$ | $28,0\%$ | **$31,2\%$** | $28,3\%$ |
 
-* **Insight de Design:** Aumentar a dificuldade de 6 para 7 não impede a ação; em vez disso, transfere os resultados da faixa de *Sucesso Total* para a faixa de *Sucesso Parcial com Custo ($29,6\%$)*, aumentando a tensão e o custo dramático da vitória.
+* **Insight de Design:** Aumentar a dificuldade de 6 para 7 reduz a frequência de resultados sólidos e aumenta a proporção de resultados marginais. Como **1 sucesso continua sendo sucesso em M20**, essa faixa é especialmente importante para manter a ficção em movimento: o personagem consegue o mínimo necessário, e o Storyteller interpreta a qualidade concreta desse êxito segundo a situação.
 
 ---
 
