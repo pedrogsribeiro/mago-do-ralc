@@ -1,6 +1,6 @@
 ---
 type: regra
-summary: "Artigo acadêmico e técnico sobre a matemática, algoritmos de simulação Monte Carlo e prova probabilística do sistema Player-Faced em Mago M20."
+summary: "Estudo técnico sobre a matemática do player-facing em M20, limites da conversão por dificuldade e refinamento por dificuldade + limiar oculto."
 tags: [srd, artigo, design, probabilidade, algoritmos, python, monte-carlo, estatistica, player-faced]
 ---
 
@@ -15,9 +15,9 @@ tags: [srd, artigo, design, probabilidade, algoritmos, python, monte-carlo, esta
 
 ## 📄 Abstract (Resumo)
 
-Este artigo apresenta a formalização matemática e a comprovação estatística da conversão do sistema de RPG *Storyteller (Mago: A Ascensão 20 Anos)* para um modelo de resolução **100% Player-Faced** (onde apenas os jogadores rolam dados). 
+Este artigo formaliza matematicamente a tentativa de converter oposições de *Mago: A Ascensão 20 Anos* para resolução player-facing. A primeira hipótese testada — representar a competência do NPC apenas pela **Dificuldade do d10 do jogador** — mostrou-se insuficiente para reproduzir a distribuição de uma rolagem resistida clássica.
 
-Demonstra-se como as rolagens contestadas clássicas do Storyteller sofrem de um vício estocástico denominado **Gargalo de Variância Dupla**, resultando em até $60,5\%$ de taxas de empate/falha em confrontos simétricos. O modelo Player-Faced proposto elimina essa redundância estocástica ajustando a Perícia do Opositor como uma variável de **Dificuldade do Dado d10 (Diff 5 a 8)**. São fornecidos os algoritmos completos em Python para simulação de Monte Carlo e cálculo trinomial exato.
+A pesquisa posterior refinou a hipótese para **Dificuldade + Limiar oculto**, reduzindo fortemente o erro, mas ainda identificando viés sistemático na curva de competência dos PJs. Portanto, este estudo deve ser lido como **etapa de calibração**, não como prova final de equivalência.
 
 ---
 
@@ -32,31 +32,33 @@ A margem de vitória do jogador é dada por $D = X_{PJ} - X_{NPC}$. A variância
 
 $$\sigma^2_{Total} = \text{Var}(X_{PJ}) + \text{Var}(X_{NPC})$$
 
-### O Efeito Prático na Mesa de Jogo:
-Como a variância se dobra, a probabilidade de a margem $D$ situar-se em $D \le 0$ (empate ou vitória do NPC) quando dois personagens iguais ($N=4$ dados) competem é de **$60,5\%$**. Isso cria o fenômeno do "travamento narrativo" (*stalemate*), onde os jogadores passam múltiplos turnos rolando dados sem que a história avance.
+### O Efeito Matemático e a Questão de Design
+Como a variância da diferença soma as variâncias das duas rolagens, disputas simétricas produzem muitos empates e resultados em que o PJ não supera o NPC. Para duas paradas de 4 dados em Dificuldade 6, a margem $D \le 0$ ocorre em aproximadamente **60,5\%** dos casos segundo o modelo adotado.
+
+Esse número descreve uma propriedade estatística; ele **não prova por si só “travamento narrativo”** nem autoriza chamar a variância do NPC de redundante. A questão correta é se essa segunda fonte de variância é importante para a experiência de M20 ou se pode ser comprimida sem distorção perceptível.
 
 ---
 
 ## 📐 2. Formalização do Modelo Player-Faced
 
-No modelo **Player-Faced Total**, a rolagem do NPC é eliminada. A competência do NPC é absorvida diretamente na **Dificuldade do Dado do Jogador ($D_{PF} \in [5, 8]$)**, preservando o **Princípio da Transição Suave** (onde o dado padrão do Mago M20 permanece centrado em Diff 6).
+No modelo player-facing investigado, a rolagem do NPC é eliminada quando a incerteza pode ser ancorada na agência de um jogador. O NPC continua agindo na ficção e na iniciativa.
 
-Toda ação é avaliada em uma função de resolução discreta de 4 faixas:
+A leitura dos resultados permanece ancorada nos graus de sucesso de M20:
 
-$$R(S) = \begin{cases} 
-\text{Sucesso Total (Pleno)}, & \text{se } S \ge 2 \\
-\text{Sucesso Parcial (Com Custo)}, & \text{se } S = 1 \\
-\text{Falha Simples}, & \text{se } S = 0 \text{ (sem 1s isolados)} \\
-\text{Falha Crítica (Botch)}, & \text{se } S < 0 \text{ (com 1s)}
-\end{cases}$$
+$R(S) = \begin{cases}
+\text{Sucesso sólido}, & \text{se } S \ge 2 \\
+\text{Sucesso marginal que move a ficção}, & \text{se } S = 1 \\
+\text{Falha simples}, & \text{se } S = 0 \\
+\text{Falha crítica}, & \text{quando a regra de botch de M20 for satisfeita}
+\end{cases}$
 
-Onde $S = S_{sucessos} - S_{uns}$ é o número líquido de sucessos obtidos pelo jogador.
+**1 sucesso não exige automaticamente custo ou complicação.** O Storyteller interpreta a qualidade marginal do êxito de acordo com a ficção.
 
 ---
 
-## 💻 3. Algoritmos de Simulação e Prova Estatística (Código Python)
+## 💻 3. Algoritmos de Simulação e Auditoria Estatística
 
-Abaixo estão registrados os quatro algoritmos fundamentais desenvolvidos para analisar e comprovar este sistema.
+Os algoritmos abaixo registram etapas da pesquisa. Eles são úteis para entender o comportamento das hipóteses, mas os algoritmos 3–5 simulam o **motor proposto**, não um baseline completo de M20, e portanto não constituem prova de equivalência.
 
 ### Algoritmo 1: Cálculo Trinomial Exato de Probabilidades Storyteller
 
@@ -98,7 +100,7 @@ def exact_storyteller(N, D=6):
 
 # Exemplo de execução para 4 dados em Dificuldade 6:
 b, f, p, ful = exact_storyteller(4, 6)
-print(f"Botch: {b*100:.1f}%, Falha: {f*100:.1f}%, Parcial (1s): {p*100:.1f}%, Total (>=2s): {ful*100:.1f}%")
+print(f"Botch: {b*100:.1f}%, Falha: {f*100:.1f}%, Marginal (1s): {p*100:.1f}%, Total (>=2s): {ful*100:.1f}%")
 ```
 
 ---
@@ -216,7 +218,7 @@ def sim_active_threat_level3(p_atk_dice=5, p_def_dice=5, threat_diff_atk=7, thre
             if a_net >= 2:
                 clock -= 2  # Sucesso Total: 2 Impactos no Relógio
             elif a_net == 1:
-                clock -= 1  # Sucesso Parcial: 1 Impacto no Relógio, 1 Dano de raspão no PJ
+                clock -= 1  # Sucesso Marginal: 1 Impacto no Relógio, 1 Dano de raspão no PJ
                 hp -= 1
             else:
                 # Turno da Ameaça: PJ resiste à Dificuldade de Pressão (Diff_Def)
@@ -226,7 +228,7 @@ def sim_active_threat_level3(p_atk_dice=5, p_def_dice=5, threat_diff_atk=7, thre
                 if d_net >= 2:
                     pass  # Esquiva Plena: 0 Dano
                 elif d_net == 1:
-                    hp -= 1  # Esquiva Parcial: 1 Dano de raspão
+                    hp -= 1  # Esquiva Marginal: 1 Dano de raspão
                 else:
                     hp -= threat_damage  # Falha: Recebe Dano Fixo em cheio
                     
@@ -311,7 +313,7 @@ def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock
 
 ### 4.1. Resolução em Oposição Rápida (Nível 2)
 
-| Parada do PJ | Perfil do NPC Opositor | Dificuldade $D_{PF}$ | Sucesso Total ($\ge 2s$) | Sucesso Parcial (1s) | Taxa Ativa ($\ge 1s$) | Falha / Complicação |
+| Parada do PJ | Perfil do NPC Opositor | Dificuldade $D_{PF}$ | Sucesso Total ($\ge 2s$) | Sucesso Marginal (1s) | Taxa Ativa ($\ge 1s$) | Falha / Complicação |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **3 Dados** | Inepto (2d) | **Diff 5** | $54,1\%$ | $27,0\%$ | **$81,1\%$** | $18,9\%$ |
 | **4 Dados** | Médio (4d) | **Diff 6** | $55,2\%$ | $24,9\%$ | **$80,1\%$** | $19,9\%$ |
@@ -338,8 +340,36 @@ def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock
 
 ---
 
-## 💡 5. Conclusões Ludológicas
+## 💡 5. Conclusões e Estado Atual da Hipótese
 
-1. **Eficiência de Tempo:** O modelo Player-Faced reduz o tempo médio de resolução de combates e testes sociais em **85%**, eliminando as rolagens redundantes do Narrador.
-2. **Ergonomia Cognitiva do Narrador:** O Narrador deixa de gerenciar atributos e paradas de dados de NPCs, focando unicamente na condução dramática e na aplicação de consequências.
-3. **Preservação da Experiência do Jogador (Transição Suave):** Como a Dificuldade permanece centrada em **Diff 6**, os jogadores mantêm a mesma percepção tática de suas fichas de Mago M20, vivenciando o jogo de forma mais fluida, dinâmica e perigosa.
+1. **A conversão por Dificuldade isolada foi rejeitada como equivalência suficiente.** Auditoria exata posterior encontrou grandes diferenças de distribuição e de taxa de sucesso.
+2. **Dificuldade + Limiar oculto é muito mais promissor.** Para PJs de 2–10 dados contra NPCs de 2–12 dados, o melhor ajuste global reduziu fortemente a distância entre as distribuições, mas ainda apresentou erro residual e viés.
+3. **Viés observado:** com a conversão global, PJs de paradas menores tendem a ser levemente prejudicados e PJs de paradas maiores tendem a ser levemente favorecidos; parte dos sucessos sólidos também migra para resultados marginais.
+4. **A equivalência matemática continua aberta.** Uma transformação determinística de dois números não pode reproduzir perfeitamente toda a variância de uma segunda rolagem independente. O critério futuro deve combinar distância probabilística, preservação da curva de competência e playtest perceptual.
+5. **Ganhos de tempo e carga cognitiva ainda são hipóteses.** Simulação não mede tempo real de mesa; a magnitude desses ganhos precisa de playtests controlados.
+6. **A experiência do jogador não pode ser declarada preservada apenas porque os mesmos d10 e dificuldades familiares continuam visíveis.** A promessa exige preservar de forma suficientemente próxima as relações de competência e risco de M20.
+
+
+---
+
+## 6. Refinamento Posterior: Dificuldade + Limiar Oculto
+
+A auditoria exata posterior testou PJs de 2 a 10 dados contra NPCs de 2 a 12 dados. A hipótese “parada do NPC → Dificuldade” apresentou erro agregado muito alto. A inclusão de um **Limiar oculto** aproximou muito melhor a estrutura subtrativa da rolagem resistida.
+
+Melhor ajuste global encontrado até aqui:
+
+| NPC | Diff PJ | Limiar |
+| :---: | :---: | :---: |
+| 2d | 6 | 1 |
+| 3d | 6 | 1 |
+| 4d | 7 | 1 |
+| 5d | 6 | 2 |
+| 6d | 6 | 2 |
+| 7d | 7 | 2 |
+| 8d | 7 | 2 |
+| 9d | 6 | 3 |
+| 10d | 7 | 3 |
+| 11d | 7 | 3 |
+| 12d | 7 | 3 |
+
+Esse resultado é **experimental**. Ele deve propagar para estudos posteriores como baseline provisório, nunca como equivalência já homologada.
