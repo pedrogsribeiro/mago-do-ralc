@@ -1,193 +1,200 @@
 ---
 type: regra
-summary: "Estudo 07: Problemática Completa da Interação com Espíritos, Dualidade Tellurian vs. Umbra e Dimensionamento da Oposição nos 3 Níveis."
-tags: [estudo, game-design, player-faced, umbra, tellurian, espiritos, umbrood, gaffling, jaggling, incarna, materializacao, slumber, regras]
+summary: "Estudo 07: aplicação do player-facing a espíritos e Umbra preservando a ficha espiritual já compacta de M20, suas imunidades, recursos e Encantos."
+tags: [estudo, game-design, player-faced, umbra, espiritos, umbrood, gaffling, jaggling, incarna, materializacao, slumber, regras]
 ---
 
-# Estudo 07: Entidades Espirituais, a Dualidade Tellurian-Umbra e os 3 Tipos de Oposição
+# Estudo 07: Entidades Espirituais, Umbra e o Limite da Compressão
 
-Este documento dimensiona as características mecânicas de **Entidades Espirituais (Umbróides / Umbrood)** no sistema **Player-Faced Total** para *Mago: A Ascensão 20 Anos*. Ele estabelece os parâmetros da oposição (Dificuldade de Oposição, Dificuldade de Ameaça, Consequência, Integridade e Limiares) considerando a dualidade entre Mundo Físico (Tellurian) e Umbra nos **3 Tipos de Oposição (Níveis 1, 2 e 3)**.
+Este estudo aplica a pesquisa player-facing às **entidades espirituais (Umbrood)** de *Mago: A Ascensão 20 Anos*.
 
----
-
-## 🌌 1. A Dualidade de Planos da Oposição (Tellurian vs. Umbra)
-
-A natureza da oposição espiritual varia conforme o plano em que a entidade se manifesta:
-
-```
-┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                   COMPORTAMENTO DA OPOSIÇÃO NOS DOIS PLANOS                                           │
-├───────────────────────────────────────────────────┬───────────────────────────────────────────────────────────────────┤
-│ NO MUNDO FÍSICO (TELLURIAN)                       │ NA PENUMBRA / UMBRA PROFUNDA                                      │
-├───────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────┤
-│ • Estado Desmaterializado: A entidade possui      │ • A entidade atua em seu meio natural com acesso pleno à Gnose.   │
-│   imunidade absoluta a dano físico mundano        │ • Sem barreira de Película protegendo os padrões.                 │
-│   (Efeito Zero sem canalização mística).          │ • Todo dano sofrido atinge diretamente a Essência primordial.     │
-│ • Estado Materializado: A entidade converte sua   │ • A aniquilação total da Essência dentro do Reino de Origem       │
-│   Essência em carne, aceitando dano físico.       │   resulta em Morte Espiritual Definitiva (*Spirit-Death*).        │
-│ • Zerar a integridade na Tellurian destrói o corpo│                                                                   │
-│   e ejeta o espírito em Dormência (*Slumber*).    │                                                                   │
-└───────────────────────────────────────────────────┴───────────────────────────────────────────────────────────────────┘
-```
+A principal descoberta é que espíritos exigem uma estratégia diferente dos NPCs humanos: **M20 já lhes fornece uma ficha extremamente compacta**. Um espírito opera essencialmente por quatro características — **Força de Vontade, Fúria, Gnose e Essência** — além de Encantos e propriedades ficcionais. Portanto, o objetivo não é substituir essas estatísticas por outro conjunto genérico, mas reduzir as rolagens do Storyteller preservando o funcionamento reconhecível dessas quatro características.
 
 ---
 
-## 🧬 2. A Física da Oposição: A Essência nos Três Estados de Realidade
+## 🌌 1. O que M20 Já Simplifica
 
-A integridade do espírito deriva diretamente de sua mecânica canônica de Essência nos três estados em que pode ser encontrado:
+Segundo a base de regras do próprio workspace:
 
-```
-┌───────────────────────────┬───────────────────┬──────────────────────────────────────────────────────────────────────┐
-│ ESTADO DO ESPÍRITO        │ FÓRMULA DA VIDA   │ COMPORTAMENTO CANÔNICO DA ESSÊNCIA EM M20                            │
-├───────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────────────┤
-│ 1. MATERIALIZADO          │ Essência - Custo  │ O espírito pagou Essência para ter carne. Sua Vitalidade física é    │
-│    (Na Tellurian)         │ de Materializar   │ menor, e zerá-la destrói o corpo e causa Dormência (*Slumber*).      │
-├───────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────────────┤
-│ 2. DESMATERIALIZADO       │ Essência Total    │ O espírito possui sua reserva 100% íntegra na Penumbra. Se atingido  │
-│    (Na Penumbra)          │ (Sem dedução)     │ através da Película, zerar a Essência o expulsa em *Slumber*.        │
-├───────────────────────────┼───────────────────┼──────────────────────────────────────────────────────────────────────┤
-│ 3. NO REINO NATIVO        │ Essência Total +  │ O espírito atua em sua fonte primordial. É nutrido pelo ambiente,    │
-│    (Umbra Profunda)       │ Efêmera do Domínio│ possui maior integridade e sua derrota gera *Spirit-Death*.          │
-└───────────────────────────┴───────────────────┴──────────────────────────────────────────────────────────────────────┘
-```
+* **Força de Vontade:** iniciativa, esquiva e contra-ataque.
+* **Fúria:** capacidade ofensiva e dano.
+* **Gnose:** inteligência espiritual, rituais e Encantos.
+* **Essência:** saúde e reserva energética.
 
-1. **A Essência como Medidor de Integridade:**
-   * A Essência ($Essence$) quantifica a massa de efêmera e o poder total da entidade.
-   * *Gafflings (10 Essência):* Materializado: 7 Vitalidade $\rightarrow$ **Relógio 4-5 cx**. Penumbra: **Relógio 6-7 cx**. Reino Nativo: **Relógio 7-8 cx**.
-   * *Jagglings (25 Essência):* Materializado: 20 Vitalidade $\rightarrow$ **Relógio 7-8 cx**. Penumbra: **Relógio 10-12 cx**. Reino Nativo: **Relógio 14-16 cx**.
-   * *Incarnas (60+ Essência):* Materializado: **2 Fases de 8-10 cx**. Penumbra: **2 Fases de 15 cx**. Reino Nativo: **2 Fases de 20-25 cx**.
-2. **Materialização (A Essência como Vitalidade Física):**
-   * Ao materializar-se, a reserva restante torna-se Vitalidade física. A densidade de efêmera e absorção de Gnose é representada pelo **Limiar 2** em Jagglings.
-3. **Colapso Material (*Slumber*):**
-   * Zerar o Relógio de Integridade na Tellurian extingue o corpo material. A entidade é banida para a Penumbra em estado de **Dormência (*Slumber*)**, encerrando a ameaça na cena física.
-4. **Morte Espiritual Permanente (*Spirit-Death*):**
-   * Ocorre exclusivamente quando a Essência é destruída dentro do Reino Umbral nativo da entidade ou através de ritos de dissolução de Padrão efêmero de Nível 3.
+Isso significa que o problema de ergonomia não é o mesmo encontrado em um mago, agente tecnocrata ou mortal com dezenas de Atributos e Habilidades.
+
+### Consequência de design
+
+A camada player-facing deve ser **mínima**:
+
+1. manter as quatro características espirituais como fonte normativa;
+2. converter apenas as rolagens do espírito que o ST deixará de realizar;
+3. preservar Essência e Encantos quando eles tiverem função mecânica própria;
+4. evitar traduzir automaticamente tudo para Oposição/Ameaça/Consequência/Relógio.
+
+A melhor compressão possível pode ser simplesmente uma **interface mais rápida para as quatro estatísticas já existentes**, em vez de uma nova ficha.
 
 ---
 
-## 🎯 3. Dimensionamento da Oposição nos 3 Níveis
+## 👁️ 2. Interação, Materialidade e Efeito Zero
 
-O Narrador dimensiona as características da ameaça conforme o nível dramático da cena:
+Aqui o conceito de **Efeito Zero** encontra um caso canônico claro.
 
-```
-                                  [ OS 3 NÍVEIS DE OPOSIÇÃO ESPIRITUAL ]
-                                                    │
-         ┌──────────────────────────────────────────┼──────────────────────────────────────────┐
-         ▼                                          ▼                                          ▼
-┌──────────────────────────┐               ┌──────────────────────────┐               ┌──────────────────────────┐
-│ NÍVEL 1: DESAFIO RÁPIDO  │               │ NÍVEL 2: AMEAÇA ATIVA    │               │ NÍVEL 3: CRISE TELEGRAF. │
-│ (Atrito / Resolução Ágil)│               │ (Combate Estruturado)    │               │ (Ritos / Selamento / 4D) │
-└──────────────────────────┘               └──────────────────────────┘               └──────────────────────────┘
-```
+Um espírito desmaterializado não é afetado por ataques físicos mundanos. Para percebê-lo, tocá-lo ou feri-lo, os personagens precisam possuir meios compatíveis com as regras de Espírito, Primórdio, armas encantadas ou outros recursos apropriados.
+
+Portanto:
+
+> **Efeito Zero representa impossibilidade real estabelecida pela ficção ou pelas regras, não uma camada de resistência acrescentada para tornar a ameaça mais difícil.**
+
+Quando o espírito usa **Materializar**, ele passa a interagir com o mundo físico conforme as regras do Encanto. A mudança de estado deve alterar quais ações são possíveis, sem inventar um “Limiar 2” genérico apenas por ele ser um espírito poderoso.
 
 ---
 
-### ⚡ Nível 1: Desafio Rápido e Oposição Pontual
-Dimensionado para espíritos menores (Gafflings) ou interações breves que não exigem combate turno a turno.
+## 🎯 3. Os 3 Níveis de Carga Narrativa para Espíritos
 
-* **Parâmetros da Oposição:**
-  * `[Oposição: Diff 5 a 6]`
-  * `[Meta: 1 a 2 Sucessos]`
-* **Comportamento na Tellurian:** Oposição para superar a vigília, distração ou influência de um Gaffling penumbral.
-* **Comportamento na Umbra:** Oposição para atravessar uma zona de efêmera densa ou obter passagem com um espírito menor.
+A taxonomia continua útil como quantidade de atenção do Storyteller.
 
----
+### Nível 1 — Desafio Rápido / Oposição Pontual
 
-### ⚔️ Nível 2: Ameaça Ativa (Combate Estruturado)
-Dimensionado para entidades espirituais (Gafflings de combate ou Jagglings) ativas na cena.
+Um espírito participa de uma interação breve: perceber sua presença, convencê-lo, atravessar sua vigilância, obter passagem ou resistir a uma influência pontual.
 
-#### 1. Espírito Materializado no Mundo Físico (Tellurian)
-* `[Oposição: Diff 6 a 7]` (Dificuldade para interagir ou atingir a entidade)
-* `[Ameaça: Diff 6]` (Dificuldade imposta para os PJs se defenderem dos ataques do espírito)
-* `[Consequência: 4 Dano Letal / Agravado]` (Impacto dos ataques físicos e garras materiais)
-* `[Relógio de Integridade Materializada]:`
-  * *Gaffling Materializado (10 - 3 = 7 Vitalidade):* **Relógio de 4 a 5 Caixas** (Limiar Padrão).
-  * *Jaggling Materializado (25 - 5 = 20 Vitalidade):* **Relógio de 7 a 8 Caixas** com **Limiar 2** (Efêmera densa: ações com apenas 1 sucesso causam Efeito Zero no Relógio).
-* *Desfecho ao zerar o Relógio:* Destruição do corpo físico e banimento da entidade para a Penumbra em **Dormência (*Slumber*)**.
+O ST identifica qual característica espiritual seria relevante na resolução original e aplica a transformação player-facing apropriada **somente se M20 pedir oposição ativa**.
 
-#### 2. Espírito Desmaterializado na Penumbra (Atuando através da Película)
-* `[Oposição: Diff 7]`
-* `[Ameaça: Diff 6]`
-* `[Consequência: -2 Força de Vontade ou Condição Atordoado / Abalado]`
-* `[Relógio de Integridade Penumbral]:`
-  * *Gaffling na Penumbra (10 Essência total):* **Relógio de 6 a 7 Caixas** (Limiar Padrão).
-  * *Jaggling na Penumbra (25 Essência total):* **Relógio de 10 a 12 Caixas** com **Limiar 2**.
-* `[Aspecto Especial: Matéria Efêmera Desmaterializada]` $\rightarrow$ Ataques mundanos desprovidos de propriedades espirituais causam **Efeito Zero Absoluto**.
-* *Desfecho ao zerar o Relógio:* Dissipação da presença local da entidade, que recua para a Umbra Profunda em Dormência.
+Uma ação simples continua podendo ser resolvida com 1 sucesso.
 
-#### 3. Combate Ocorrido no Reino Nativo (Umbra Profunda)
-* `[Oposição: Diff 7 a 8]`
-* `[Ameaça: Diff 7]`
-* `[Consequência: 4 Dano Agravado / -2 Força de Vontade]`
-* `[Relógio de Essência Nativa (Plena Potência)]:`
-  * *Gaffling no Domínio Nativo:* **Relógio de 7 a 8 Caixas**.
-  * *Jaggling no Domínio Nativo (Essência + Nutrição do Reino):* **Relógio de 14 a 16 Caixas** com **Limiar 2**.
-* *Desfecho ao zerar o Relógio:* Morte Espiritual Definitiva (*Spirit-Death*) e dissolução do padrão efêmero.
+### Nível 2 — Ameaça Ativa
 
----
+O espírito permanece em cena, age em iniciativa e usa suas capacidades repetidamente.
 
-### 🌋 Nível 3: Ameaça Telegrafada e Crise Climática
-Dimensionado para grandes entidades (Incarnas, Lordes de Paradoxo, Grandes Perdições) ou eventos de **Morte Espiritual Definitiva (*Spirit-Death*)** e **Selamento de Nódulos**.
+Ele continua sendo representado por:
 
-* **Matriz 4D da Grande Entidade Espiritual:**
-  * **Dimensão Física:** `[Oposição: 8]` `[Ameaça: 8]` `[Consequência: 6 Agravado]` `[Limiar 3]`
-  * **Dimensão Mística:** `[Oposição: 8]` `[Ameaça: 7]` `[Consequência: Efeito Místico Tempestade de Efêmera]`
-  * **Dimensão Mental:** `[Oposição: 7]` `[Ameaça: 6]` `[Consequência: -2 Força de Vontade / Terror]`
-  * **Dimensão Social:** `[Oposição: 8]` `[Ameaça: 5]` `[Consequência: Gatilho Convocação de Horda Penumbral]`
-* **Relógio de Crise Multifásico:**
-  * *Incarna Materializado:* 2 Fases de 8 a 10 Caixas com **Limiar 3**.
-  * *Incarna na Penumbra:* 2 Fases de 15 Caixas com **Limiar 3**.
-  * *Incarna no Trono do Reino Nativo (60+ Essência + Domínio):* 2 Fases de 20 a 25 Caixas com **Limiar 3**.
-* **Triângulo Tático da Oposição:**
-  * *Interrupção:* Ações direcionadas a avançar o Relógio da Crise (Rito de Banimento ou dano no núcleo).
-  * *Defesa Total:* Ações focadas em mitigar a Ameaça e reduzir a Consequência das rajadas da entidade.
-  * *Troca Direta:* Aceitar a Consequência integral para desferir impacto máximo no Relógio de Crise.
+* Força de Vontade;
+* Fúria;
+* Gnose;
+* Essência;
+* Encantos relevantes.
+
+A camada player-facing precisa responder, operação por operação:
+
+* como substituir uma rolagem de Força de Vontade defensiva;
+* como resolver a ofensiva baseada em Fúria sem o ST rolar;
+* como preservar efeitos de Gnose/Encantos;
+* como manter Essência como saúde/recurso sem convertê-la arbitrariamente em um relógio menor.
+
+### Nível 3 — Ação Espiritual Telegrafada / Alto Impacto
+
+Grandes Encantos, rituais, possessões, tempestades efêmeras ou ações de consequência excepcional podem usar a lógica de telegrafia já estabelecida:
+
+* preparação visível;
+* ação efetiva que cria estado;
+* escalada enquanto o estado persiste.
+
+Exemplo: uma entidade pode primeiro **possuir parcialmente** um hospedeiro, produzindo efeitos imediatos, e tornar legível que uma tomada completa ocorrerá se o vínculo não for rompido.
+
+A telegrafia nasce do comportamento e do Encanto, não de uma “fase de chefe” genérica.
 
 ---
 
-## 🧮 4. Tabela Síntese de Parâmetros da Oposição Espiritual
+## ⚔️ 4. Ataque e Defesa Espiritual
 
-```
-┌───────────────────────────┬───────────────────┬─────────────┬───────────┬─────────────────┬──────────────────────────┐
-│ GRAU DO ESPÍRITO (M20)    │ PLANO / ESTADO    │ OPOSIÇÃO    │ AMEAÇA    │ CONSEQUÊNCIA    │ RELÓGIO E LIMIAR         │
-├───────────────────────────┼───────────────────┼─────────────┼───────────┼─────────────────┼──────────────────────────┤
-│ Gaffling Materializado    │ Tellurian (Carne) │ Diff 5 a 6  │ Diff 5    │ 2 Dano / -1 FV  │ Relógio 4 a 5 Caixas     │
-│ (10 Essência - 3 = 7 HP)  │                   │             │           │                 │ (Limiar Padrão)          │
-├───────────────────────────┼───────────────────┼─────────────┼───────────┼─────────────────┼──────────────────────────┤
-│ Gaffling na Penumbra      │ Penumbra (Incorp) │ Diff 6      │ Diff 5    │ -1 FV / Susto   │ Relógio 6 a 7 Caixas     │
-│ (10 Essência integral)    │                   │             │           │                 │ (Limiar Padrão)          │
-├───────────────────────────┼───────────────────┼─────────────┼───────────┼─────────────────┼──────────────────────────┤
-│ Gaffling no Reino Nativo  │ Umbra Profunda    │ Diff 6      │ Diff 5    │ 2 Agravado      │ Relógio 7 a 8 Caixas     │
-│ (10 Essência + Domínio)   │                   │             │           │                 │ (Limiar Padrão)          │
-├───────────────────────────┼───────────────────┼─────────────┼───────────┼─────────────────┼──────────────────────────┤
-│ Jaggling Materializado    │ Tellurian (Carne) │ Diff 6 a 7  │ Diff 6    │ 4 Dano Letal    │ Relógio 7 a 8 Caixas     │
-│ (25 Essência - 5 = 20 HP) │                   │             │           │                 │ (Limiar 2)               │
-├───────────────────────────┼───────────────────┼─────────────┼───────────┼─────────────────┼──────────────────────────┤
-│ Jaggling Desmaterializado │ Penumbra (Incorp) │ Diff 7      │ Diff 6    │ -2 FV / Choque  │ Relógio 10 a 12 Caixas   │
-│ (Atua pela Película)      │                   │             │           │                 │ (Efeito Zero a mundano)  │
-├───────────────────────────┼───────────────────┼─────────────┼───────────┼─────────────────┼──────────────────────────┤
-│ Jaggling no Reino Nativo  │ Umbra Profunda    │ Diff 7 a 8  │ Diff 7    │ 4 Dano Agravado │ Relógio 14 a 16 Caixas   │
-│ (25 Essência + Domínio)   │ (Plena Potência)  │             │           │                 │ (Limiar 2 — Spirit-Death)│
-├───────────────────────────┼───────────────────┼─────────────┼───────────┼─────────────────┼──────────────────────────┤
-│ Incarna Maior / Crise 4D  │ Tellurian / Umbra │ Diff 8      │ Diff 7 a 8│ 6 Agravado /    │ Relógio Multifásico      │
-│ (60+ Essência)            │                   │             │           │ -3 FV / Efeitos │ (2 Fases de 8 a 25 / L.3)│
-└───────────────────────────┴───────────────────┴─────────────┴───────────┴─────────────────┴──────────────────────────┘
-```
+As regras do workspace estabelecem:
+
+* espíritos usam **Força de Vontade** para esquiva;
+* usam **Fúria** para causar dano;
+* espíritos absorvem dano com **Força de Vontade**;
+* magos podem absorver dano espiritual por meios específicos, como contramágika com Espírito ou Avatar em determinadas condições.
+
+Isso cria três problemas de conversão diferentes.
+
+### 4.1. Esquiva / oposição do espírito
+
+É estruturalmente semelhante à dívida já estudada para rolagens resistidas. A parada de Força de Vontade do espírito pode ser testada contra o modelo provisório **Dificuldade + Limiar oculto**, mas precisa ser calibrada especificamente se as condições/dificuldades forem diferentes do baseline usado nos Estudos 02 e 05.
+
+### 4.2. Fúria e dano causado pelo espírito
+
+Não deve ser substituído automaticamente por “4 de dano fixo”.
+
+A rolagem de Fúria possui distribuição própria e precisa ser tratada no estudo de **dano e consequência** aberto pelo Estudo 06.
+
+### 4.3. Absorção do espírito
+
+A Força de Vontade usada como soak também possui variância. Transformá-la em RD fixa exige validação matemática própria.
+
+Portanto, este estudo reforça a necessidade de não tratar **dano fixo + RD fixa** como equivalência já solucionada.
 
 ---
 
-## 🔮 5. Encantos Espirituais como Gatilhos de Estado da Oposição
+## 🧬 5. Essência: Saúde e Recurso, não Relógio Arbitrário
 
-Os Encantos da oposição atuam como modificadores táticos dos 4 Fatores:
+Essência possui função dupla em M20:
 
-1. **Materializar:** Abre a oposição para dano físico convencional, ativa o **Limiar 2** e converte a integridade em Vitalidade biológica na Tellurian.
-2. **Possessão:** Cria um **Relógio Duplo**:
-   * *Relógio A (Hospedeiro Físico):* `[Oposição: Diff 5]` `[Relógio: 7 Caixas de Vitalidade do Humano]`.
-   * *Relógio B (Entidade Espiritual):* `[Oposição: Diff 7]` `[Relógio: 14 Caixas de Essência]`.
-3. **Rajada (*Blast*):** Eleva a Consequência da Ameaça para **Dano Agravado** ou impõe a perda de **2 Pontos de Força de Vontade**.
+* representa integridade/saúde espiritual;
+* pode estar ligada ao uso de poderes e à existência da entidade.
+
+Por isso, transformar “10 Essência” em “4–5 caixas”, “25 Essência” em “7–8 caixas” ou valores semelhantes precisa de justificativa matemática e experiencial que ainda não existe.
+
+Até essa validação:
+
+> **Essência permanece Essência.**
+
+Um relógio pode ser usado pelo ST como interface visual se representar exatamente a mesma quantidade/progresso que a regra original exige. Ele não deve comprimir a reserva para acelerar o confronto apenas porque isso produz uma duração considerada melhor.
+
+O mesmo princípio vale para Vitalidade quando um espírito materializado possuir uma forma física definida pelas regras aplicáveis.
 
 ---
 
-## 💡 6. Conclusão
+## 🔮 6. Encantos são Ações e Mudanças de Estado
 
-O dimensionamento da oposição espiritual fornece ao Narrador todos os parâmetros numéricos necessários (`[Oposição]`, `[Ameaça]`, `[Consequência]`, `[Relógio]` e `[Limiar]`), mantendo as decisões, rolagens e táticas inteiramente nas mãos dos jogadores.
+Encantos não devem ser reduzidos a simples modificadores dos quatro parâmetros genéricos do antigo modelo.
+
+Eles podem:
+
+* permitir Materialização;
+* produzir ataque;
+* criar estado;
+* alterar mobilidade;
+* possuir ou controlar;
+* mudar quais tipos de ação conseguem afetar a entidade;
+* iniciar movimentos telegrafados.
+
+O Storyteller precisa preservar **o que o Encanto faz** e comprimir somente a operação matemática que for onerosa.
+
+Isso é especialmente importante porque Encantos são parte relevante da identidade ficcional dos espíritos. Uma ficha curta que apaga seus Encantos pode ser cognitivamente leve, mas empobrece justamente a experiência que se pretende preservar.
+
+---
+
+## 🧭 7. As Quatro Dimensões não Substituem as Quatro Características Espirituais
+
+O Estudo 06 introduziu físico, social, intelectual e místico como **mapa de competências** para fichas extensas.
+
+Para espíritos, isso não deve substituir automaticamente:
+
+* Força de Vontade;
+* Fúria;
+* Gnose;
+* Essência.
+
+Pode ser útil ao ST dizer que determinada entidade é socialmente negociável, intelectualmente alienígena ou fisicamente incapaz de agir enquanto desmaterializada. Mas esses rótulos são **campos semânticos**, não novas estatísticas.
+
+A regra efetiva vem da natureza do espírito, de suas quatro características e de seus Encantos.
+
+---
+
+## 💡 8. Resultado do Estudo
+
+O caso espiritual produz uma correção importante para todo o projeto:
+
+> **compressão não é um valor em si. O objetivo é remover operações desnecessárias do Storyteller preservando informação que já está compacta e funcional.**
+
+Para NPCs humanos, isso pode exigir reduzir uma ficha enorme.
+
+Para espíritos, o M20 já fez grande parte dessa redução.
+
+Assim, o caminho mais promissor é:
+
+* preservar a ficha espiritual canônica;
+* retirar ou transformar apenas as rolagens que recaem sobre o ST;
+* manter as decisões e rolagens dos jogadores segundo M20;
+* aplicar Efeito Zero apenas quando houver impossibilidade real;
+* usar telegrafia para Encantos e ações de alto impacto quando sua causalidade justificar;
+* adiar qualquer compressão de Fúria, soak ou Essência até que dano, absorção e recursos sejam auditados matematicamente.
