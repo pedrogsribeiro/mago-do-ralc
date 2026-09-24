@@ -50,14 +50,16 @@ O nível mede carga da cena, não poder ontológico da entidade.
 
 ## 3. Dimensões como lente, não ficha
 
-Pode ser útil ao ST anotar:
+Pode ser útil ao ST atribuir **valores diferentes por dimensão**, derivados da natureza e das estatísticas do espírito:
 
-* fisicamente impossível de afetar enquanto desmaterializado;
-* socialmente negociável por oferenda;
-* misticamente muito poderoso;
-* mentalmente simples ou alienígena.
+* Físico pode ser **0** enquanto a entidade está desmaterializada para interações mundanas;
+* Social pode ser baixo, médio ou alto conforme natureza, tabu e capacidade de negociação;
+* Mental pode representar simplicidade, astúcia ou alienação;
+* Mágicko pode ser muito alto quando Gnose, Encantos e natureza espiritual tornam essa sua principal frente.
 
-Isso orienta abordagem.
+Isso orienta abordagem sem substituir Vontade, Fúria, Gnose, Essência e Encantos.
+
+Novamente, **0 não é “baixo”**: indica ausência daquela forma de interação/resistência nas condições atuais. Materializar pode, por exemplo, mudar o valor físico de 0 para um valor efetivo.
 
 A regra real continua vindo de:
 
