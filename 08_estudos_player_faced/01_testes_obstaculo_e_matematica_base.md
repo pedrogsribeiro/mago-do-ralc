@@ -54,12 +54,19 @@ Para uma parada típica de 4 Dados (Atributo 3 + Habilidade 1):
 
 Para manter a arbitragem Player-Faced rápida e consistente, o Narrador divide qualquer teste de obstáculo em **duas variáveis independentes**:
 
-1. **Quantidade de Sucessos Requeridos (Limiar / Relógio):** Define a **COMPLEXIDADE E ESCALA DO OBJETIVO**.
-   - **2 Sucessos (Padrão):** Superar um obstáculo rotineiro ou invadir um sistema individual (ex: PC comum de escritório).
-   - **4 a 6 Sucessos Acumulados (Relógio de Progresso):** Superar uma infraestrutura militar ou invadir a rede central da NOM / Apple.
+1. **Quantidade de Sucessos Requeridos (Limiar / Relógio):** Define a **COMPLEXIDADE E ESCALA DO OBJETIVO** quando M20 já trataria a tarefa como exigente, estendida ou dependente de vários graus de sucesso.
+   - **1 Sucesso:** continua sendo suficiente para concluir uma **ação simples** em M20, ainda que de forma marginal.
+   - **2+ Sucessos:** qualificam a qualidade, alcance ou solidez do resultado quando a ficção ou a regra pertinente distingue graus de sucesso.
+   - **Vários sucessos acumulados:** podem representar tarefas estendidas, rituais, invasões complexas ou outros objetivos que M20 já trataria como resolução prolongada. Relógios são uma ferramenta de acompanhamento do Storyteller, não uma justificativa para transformar automaticamente toda ação simples em uma meta de 2 sucessos.
 
 2. **Dificuldade do Dado d10 (Diff 4 a 9):** Define as **CONDIÇÕES E ESTRESSE DO AMBIENTE**.
    - **Dificuldade 6 (Padrão):** Ambiente controlado, ferramentas adequadas.
    - **Dificuldade 8 (+2 Diff / Péssimas Condições):** Tentativa realizada no meio de um tiroteio, com um celular de tela quebrada sob fuga de carro.
    - **Dificuldade 4 (-2 Diff / Excelentes Condições):** Tentativa realizada dentro de um Santuário/Nódulo místico, com terminal dedicado e auxílio de *Correspondência 2*.
 
+
+---
+
+## 5. Limite deste Estudo e Próxima Pergunta
+
+Este estudo trata **obstáculos sem oposição ativa própria**. Sua matemática não demonstra que a competência de um NPC possa ser substituída apenas pela Dificuldade do PJ. Quando existe oposição ativa, a equivalência precisa ser testada contra a distribuição de uma rolagem resistida de M20. Essa pergunta é objeto do Estudo 02 e dos estudos matemáticos posteriores.
