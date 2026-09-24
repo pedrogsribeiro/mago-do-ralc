@@ -189,15 +189,16 @@ def sim_telegraphed_decision(choice='A', player_pool=5, n_sims=10000):
 
 ---
 
-### Algoritmo 4: Simulador de Ameaça Ativa Simétrica (Nível 3 — Monte Carlo)
+### Algoritmo 4: Simulador Histórico de Ameaça Ativa Simétrica (Monte Carlo)
 
 ```python
 import numpy as np
 
 def sim_active_threat_level3(p_atk_dice=5, p_def_dice=5, threat_diff_atk=7, threat_diff_def=7, threat_damage=4, threat_clock=6, n_sims=50000):
     """
-    Simula 50.000 confrontos de Nível 3 (Ameaça Ativa) entre um PJ e uma Ameaça Simétrica 
-    baseada nas 4 características (Diff_Atk, Diff_Def, Dano_Fixo, Relógio_Resistência).
+    Simula 50.000 confrontos usando uma versão histórica da hipótese de ameaça ativa
+    baseada em Diff_Atk, Diff_Def, Dano_Fixo e Relógio_Resistência.
+    Este modelo não deve ser tratado como equivalência validada com M20.
     """
     np.random.seed(42)
     wins = 0
@@ -254,7 +255,7 @@ print(f"HP Restante do Vencedor: {res3['avg_hp_remaining']:.2f} de 7")
 
 ---
 
-### Algoritmo 5: Simulador Multidimensional em 4 Domínios (Físico, Social, Intelectual, Místico)
+### Algoritmo 5: Simulador Histórico em 4 Domínios (Físico, Social, Intelectual, Místico)
 
 ```python
 import numpy as np
@@ -309,7 +310,7 @@ def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock
 
 ---
 
-## 📊 4. Tabela Geral de Resultados Comparativos
+## 📊 4. Resultados Históricos das Hipóteses Simuladas
 
 ### 4.1. Resolução em Oposição Rápida (Nível 2)
 
@@ -322,7 +323,7 @@ def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock
 
 ---
 
-### 4.2. Simulação Multidimensional em Ameaças Ativas (Nível 3)
+### 4.2. Simulação Histórica em Ameaças Ativas
 
 | Antagonista do Livro M20 | Domínio de Conflito | Tier do PJ | Dificuldades (Imp / Pres) | Taxa de Vitória | Rodadas Médias | Recurso Restante |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -373,3 +374,19 @@ Melhor ajuste global encontrado até aqui:
 | 12d | 7 | 3 |
 
 Esse resultado é **experimental**. Ele deve propagar para estudos posteriores como baseline provisório, nunca como equivalência já homologada.
+
+
+---
+
+## 7. Propagação do Estudo 06
+
+O Estudo 06 refinou uma premissa importante deste artigo: as quatro dimensões (física, social, intelectual e mística) são úteis como **mapa de competência do NPC**, mas não implicam um motor universal simétrico.
+
+Dano físico, absorção, mágika, oposição social, hacking e testes estendidos possuem procedimentos próprios em M20. Consequentemente:
+
+* **dano fixo** não é assumido como equivalente a uma parada de dano;
+* **RD fixa** não é assumida como equivalente a uma parada de absorção;
+* **relógios** não são automaticamente equivalentes a Vitalidade, Essência, Força de Vontade ou outros recursos;
+* **Efeito Zero** deve decorrer de impossibilidade ficcional ou regra efetiva, não de um simples status de “chefe”.
+
+Os algoritmos históricos deste artigo continuam úteis para estudar comportamento interno de hipóteses antigas, mas qualquer validação futura precisa comparar cada subsistema comprimido contra o procedimento original correspondente de M20.
