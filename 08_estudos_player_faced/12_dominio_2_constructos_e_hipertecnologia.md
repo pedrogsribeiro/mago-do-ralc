@@ -137,22 +137,154 @@ Isso preserva a formulação de telegrafia construída no Estudo 03.
 
 ---
 
-## 6. O que ainda precisa de tradução específica
+## 6. Procedimentos de M20 acionados por este domínio
 
-* dano contra objetos;
-* veículos em movimento e colisões;
-* armaduras e soak;
-* sistemas digitais e ICE;
-* armas autônomas;
-* Maravilhas/Talismãs/Dispositivos com Arete e Quintessência.
+| Situação | Procedimentos principais |
+| :--- | :--- |
+| Objeto passivo | ataque/dano contra objeto, Durability, Structure |
+| Sistema ativo | testes simples/resistidos/estendidos, hacking, gatilhos, consequência |
+| Constructo-agente | iniciativa, ataque/defesa, dano, soak, Vitalidade, poderes |
+| Sistema hipertecnológico | Arete/Iluminação, Quintessência, contramágika, procedimentos |
+| Veículo | condução, perseguição, colisão, dano estrutural |
 
-Durability + Structure resolve uma parte importante do domínio, mas não substitui esses subsistemas.
+Isso deixa claro por que “constructos e hipertecnologia” não podem ser comprimidos por uma única tabela.
 
 ---
 
-## 7. Resultado
+## 7. Teste 1 — Porta blindada
 
-A principal contribuição deste domínio é fornecer um caso em que a filosofia “tudo é Obstáculo” se conecta diretamente a uma mecânica já existente em M20.
+A porta não possui agência.
+
+Se o grupo tenta destruí-la fisicamente, a referência correta é a regra de objetos:
+
+* o ataque do PJ continua normal;
+* o dano continua vindo do jogador;
+* **Durability** reduz o que efetivamente atravessa o material;
+* **Structure** mede quanto dano funcional a porta suporta.
+
+### Gate
+
+**PASSA.**
+
+Esse caso já é quase naturalmente player-facing. Não há motivo para criar Oposição, Ameaça ou um relógio genérico no lugar de Durability + Structure.
+
+Se o personagem usa Matéria, Entropia ou outra mágika que altera a resistência do material, aplica-se a regra mágicka correspondente.
+
+---
+
+## 8. Teste 2 — Scanner biométrico com lockdown
+
+Aqui existem dois objetos diferentes no mesmo Obstáculo de cena:
+
+1. o **hardware físico**, que pode possuir Durability + Structure;
+2. o **sistema de segurança**, que pode exigir testes técnicos, credenciais ou mágika para ser contornado.
+
+Se o scanner apenas compara uma assinatura, ele não precisa “rolar contra o hacker”.
+
+O ST consulta a regra pertinente para a dificuldade/complexidade da intrusão. Se houver uma oposição ativa real — por exemplo, uma IA ou operador tentando impedir a invasão — entra a lógica de oposição resistida.
+
+O lockdown pode produzir estados em sequência: normal → intrusão detectada → portas seladas → purga iniciada.
+
+Esses estados podem ser telegrafados sem transformar o sistema numa criatura fictícia.
+
+### Gate
+
+**PASSA como Obstáculo híbrido.**
+
+A classificação objeto + sistema evita duas distorções antigas:
+
+* tratar todo terminal como NPC;
+* reduzir toda segurança a uma única “Oposição Mental”.
+
+Hacking/ICE completo continua dependendo da auditoria específica desse subsistema.
+
+---
+
+## 9. Teste 3 — HIT Mark V
+
+O HIT Mark é constructo-agente.
+
+Sua ficha de M20 já demonstra isso:
+
+* possui atributos;
+* Habilidades;
+* iniciativa;
+* Vitalidade;
+* soak elevado;
+* armas;
+* contramágika;
+* sensores;
+* objetivos operacionais.
+
+Logo, Durability + Structure **não substitui sua ficha de personagem** apenas porque ele é mecânico.
+
+A interface do ST pode resumir:
+
+    HIT MARK V
+
+    Natureza: constructo-agente
+
+    Lentes:
+    Físico: excepcionalmente resistente
+    Social: quase inexistente
+    Mental/Técnico: programado
+    Mágicko: forte defesa por Primium
+
+    Características:
+    [Primium]
+    [Contramágika 5d]
+    [Sensores especiais]
+    [Armas integradas]
+
+    Fontes relevantes:
+    Briga 5d
+    Percepção/Prontidão 6d
+    soak total 9d
+    dano das armas conforme ficha
+    Vitalidade especial
+
+Oposição resistida pode usar provisoriamente a conversão estudada.
+Dano, soak e contramágika ainda aguardam tradução validada.
+
+### Gate
+
+**PASSA como classificação e compressão informacional.**
+
+**NÃO está mecanicamente fechado para combate player-faced completo.**
+
+---
+
+## 10. Maravilhas e dispositivos
+
+Maravilhas exigem ainda outra distinção.
+
+Um Talismã ou Dispositivo pode ser simultaneamente:
+
+* um objeto físico;
+* uma reserva de Quintessência;
+* uma fonte própria de Arete/Iluminação;
+* um conjunto de Efeitos mágickos.
+
+Portanto, “destruir o objeto” e “usar o poder do item” são problemas diferentes.
+
+A parte física pode usar Durability + Structure quando aplicável.
+A ativação continua usando Arete/Iluminação, Quintessência, Esferas e Paradoxo conforme as regras próprias.
+
+Isso confirma novamente que Obstáculo é uma linguagem de organização, não um molde mecânico único.
+
+---
+
+## 11. Gate do Estudo 12
+
+O capítulo cumpre sua proposta quando consegue classificar corretamente:
+
+* **objeto/estrutura** → Durability + Structure;
+* **sistema ativo** → procedimentos técnicos, estados e gatilhos;
+* **constructo-agente** → protocolo de NPC;
+* **dispositivo mágicko/hipertecnológico** → objeto físico + subsistema mágico próprio;
+* **veículo** → aguarda tradução específica de veículos.
+
+A principal contribuição deste domínio é mostrar um caso em que a filosofia “tudo é Obstáculo” se conecta diretamente a uma mecânica já existente em M20.
 
 A melhor simplificação para muitos objetos não é convertê-los.
 
