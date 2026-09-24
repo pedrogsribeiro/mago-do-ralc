@@ -1,80 +1,100 @@
 ---
 type: regra
-summary: "Estudo 4 do Sistema Player-Faced: Taxonomia dos 4 Níveis de Carga Narrativa e mecânica detalhada da Oposição Rápida / Menor."
+summary: "Estudo 4 do Sistema Player-Faced: taxonomia de 3 níveis de carga narrativa e oposição rápida calibrada como hipótese de compressão de M20."
 tags: [srd, design, player-faced, taxonomia, oposicao-rapida, oposicao-menor, regras]
 ---
 
 # Estudo 04: Taxonomia de Carga Narrativa e Oposição Rápida
 
-Este documento estabelece a **Taxonomia Oficial dos 4 Níveis de Carga Narrativa** do sistema *Player-Faced* para *Mago: A Ascensão 20 Anos* e detalha as regras e análises probabilísticas para o **Nível 2: Oposição Rápida (Oposição Menor)**.
+Este estudo organiza a carga de preparação e resolução do Storyteller em **três níveis operacionais**. A taxonomia não cria três sistemas diferentes para os jogadores; ela define quanto detalhe o ST precisa manter atrás do escudo para cada situação.
 
 ---
 
-## 🏛️ 1. Taxonomia dos 4 Níveis de Carga Narrativa
+## 🏛️ 1. Taxonomia dos 3 Níveis de Carga Narrativa
 
-O Narrador (ST) controla a velocidade e o foco da sessão escolhendo o nível de oposição apropriado para cada obstáculo ou NPC:
+### Nível 1 — Desafio Rápido / Oposição Pontual
+Situações resolvidas sem estrutura persistente: obstáculos ambientais, ações técnicas, interações breves com NPCs menores, furtividade pontual, uma abordagem social curta ou outro atrito que não justifique abrir uma ameaça estruturada.
 
-```
-+-----------------------------------------------------------------------------------------+
-|                       TAXONOMIA DE CARGA NARRATIVA DO ST                                |
-|                                                                                         |
-|  Nível 1: OBSTÁCULO PASSIVO     ==> Tarefas ambientais/técnicas (Arrombar, Pular, Hack)   |
-|  Nível 2: OPOSIÇÃO RÁPIDA       ==> Interações sociais/furtivas com NPCs menores          |
-|             (ou OPOSIÇÃO MENOR)                                                         |
-|  Nível 3: AMEAÇA ATIVA          ==> Combates sérios / Hackers ativos (com Relógios)     |
-|  Nível 4: AMEAÇA TELEGRAFADA    ==> Chefes climáticos / Rituais (com Intenções Declaradas)|
-+-----------------------------------------------------------------------------------------+
-```
+Obstáculo passivo e NPC ativo continuam ontologicamente diferentes, mas possuem carga operacional semelhante para o Storyteller.
+
+### Nível 2 — Ameaça Ativa
+NPCs, constructos, fenômenos ou outras ameaças que permanecem em cena, possuem ações próprias, ocupam iniciativa e exigem acompanhamento persistente.
+
+### Nível 3 — Ameaça Telegrafada / Alto Impacto
+Ações ou estados de consequência excepcional cuja cadeia causal precisa ser legível e oferecer janela significativa de agência: preparação, ação efetiva que estabelece estado, escalada, ritual, controle de zona ou mudança de fase.
 
 ---
 
-## ⚡ 2. Funcionamento da Oposição Rápida (Nível 2)
+## ⚡ 2. Funcionamento da Oposição Rápida
 
-Na **Oposição Rápida**, existe um opositor ativo (guarda de portaria, informante hesitante, motorista em perseguição), mas a cena **não justifica a abertura de Relógios de Vitalidade nem combate turno a turno**.
+Na oposição pontual existe um agente real — guarda, informante, motorista, hacker, espírito — mas a cena não merece estrutura persistente.
 
-* **Princípio da Transição Suave:** Para que os jogadores sintam zero impacto mecânico ou choque de transição em relação ao Mago M20 clássico, a escala de Dificuldade permanece centrada na **Dificuldade 6 Padrão do M20**, variando de 5 a 8. Os jogadores rolam suas paradas habituais (Atributo + Habilidade) sem notar que o Narrador deixou de rolar dados.
-* **Resolução:** Resolvida em **1 Única Rolagem do Jogador**.
-* **Competência do NPC:** Traduzida exclusivamente na **Dificuldade do Dado d10 (Diff 5 a 8)**.
+O NPC continua agindo ficcionalmente. Quando sua ação disputa diretamente algo sob agência de um PJ, a incerteza é ancorada na rolagem do jogador. Quando não há agência de jogador envolvida, o Storyteller decide o desfecho conforme a ficção e as capacidades estabelecidas.
 
-### Tabela de Equivalência de Perícia do NPC:
+### 2.1. Conversão matemática
 
-| Nível de Perícia do NPC | Exemplo de NPC | Parada Equivalente no Livro | Dificuldade para o PJ (Ações Mundanas) |
-| :---: | :---: | :---: | :---: |
-| **Inepto / Fraco** | Porteiro distraído, pedestre comum | 2 a 3 Dados | **Diff 5** |
-| **Médio / Padronizado** | Segurança corporativo, inspetor civil | 4 a 5 Dados | **Diff 6 (Padrão)** |
-| **Treinado / Agente** | Agente da ABIN, Policial veterano | 6 a 7 Dados | **Diff 7** |
-| **Perito / Mestre** | Chefe de Segurança, Especialista da NOM | 8 ou + Dados | **Diff 8** |
+A hipótese inicial deste estudo usava somente a Dificuldade do dado para representar a competência do NPC. Auditorias exatas posteriores mostraram que isso não preserva adequadamente uma rolagem resistida de M20.
 
-> **Nota de Ouro (Mágika e Redução de Dificuldade):** A premissa do sistema é que **nada muda para a visão do jogador**. Se o PJ usar *Arete/Mágika* diretamente contra o alvo, a Dificuldade do dado de Arete permanece a oficial do M20 (ex: Esfera + 3). No entanto, o jogador pode usar a Mágika para *potencializar* sua ação mundana (ex: usar Forças para abafar seus passos). Nesse caso, a Mágika segue a regra clássica do M20 e **diminui a Dificuldade** da perícia na tabela de Oposição Rápida (ex: A dificuldade do Perito cai de Diff 8 para Diff 6).
+O refinamento atual usa **Dificuldade + Limiar oculto**, ainda como hipótese experimental:
 
----
+| Parada relevante do NPC | Diff do PJ | Limiar oculto |
+| :---: | :---: | :---: |
+| 2d | 6 | 1 |
+| 3d | 6 | 1 |
+| 4d | 7 | 1 |
+| 5d | 6 | 2 |
+| 6d | 6 | 2 |
+| 7d | 7 | 2 |
+| 8d | 7 | 2 |
+| 9d | 6 | 3 |
+| 10d | 7 | 3 |
+| 11d | 7 | 3 |
+| 12d | 7 | 3 |
 
-## 📊 3. Análise Probabilística Comparativa
-
-Simulação comparativa entre a **Rolagem Contestada Clássica M20** (ambos rolam) vs **Oposição Rápida Player-Faced** (apenas o PJ rola em Diff 5-8):
-
-| Parada do PJ | Perfil do NPC | Sucesso Total ($\ge 2s$) | Sucesso Parcial (1s com Custo) | Taxa Total de Sucesso ($\ge 1s$) | Falha Simples / Complicação |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **4 Dados** | Inepto (Diff 5) | **$67,2\%$** | $19,3\%$ | **$86,5\%$** | $13,6\%$ |
-| **4 Dados** | Médio (Diff 6) | **$55,3\%$** | $24,8\%$ | **$80,1\%$** | $19,9\%$ |
-| **4 Dados** | Treinado (Diff 7) | **$41,9\%$** | $29,6\%$ | **$71,5\%$** | $28,5\%$ |
-| **4 Dados** | Perito (Diff 8) | **$27,6\%$** | $32,7\%$ | **$60,3\%$** | $39,7\%$ |
-
-### Insight de Agência e Ritmo:
-No Storyteller clássico, rolagens contestadas resultam em empates e falhas mútuas em $60\%$ das vezes. Na **Oposição Rápida Player-Faced**, um personagem competente (4 dados) contra um oponente médio (Diff 6) mantém **$80,1\%$ de taxa de sucesso ativo**, onde os $24,8\%$ de acertos parciais criam **custos e ganchos narrativos imediatos** para a cena avançar sem travar.
+Essa tabela reduz muito o erro da hipótese “apenas dificuldade”, mas não reproduz perfeitamente a variância de uma segunda rolagem independente. Ela deve permanecer sujeita a revisão enquanto a curva de competência dos PJs não estiver suficientemente preservada.
 
 ---
 
-## 🎬 4. Três Cenários de Aplicação Prática
+## 🎲 3. Leitura dos Resultados
 
-### Cenário A: Infiltração Social (*Manipulação + Manha*)
-* *PJ (Hughie - 5 dados) tenta enganar o Porteiro do Data Center.*
-* **Porteiro Inepto (Diff 5):** **$75,9\%$** Sucesso Pleno (Libera sem perguntas), **$14,4\%$** Parcial (Libera, mas anota o nome no registro), **$9,7\%$** Falha.
+A leitura continua sendo a de M20:
 
-### Cenário B: Nocaute Furtivo Silencioso (*Destreza + Briga*)
-* *PJ (Jhonny D. Lee - 8 dados) tenta nocautear silenciosamente um sentinela.*
-* **Sentinela Comum (Diff 6):** **$82,2\%$** Sucesso Pleno (Nocaute limpo), **$10,6\%$** Parcial (Nocauteia, mas derruba a lanterna fazendo barulho).
+* **1 sucesso líquido:** sucesso marginal; faz a ficção andar.
+* **2 sucessos:** resultado moderado/seguro.
+* **3+ sucessos:** qualidade progressivamente maior.
+* **0 sucessos:** falha simples.
+* **Botch:** falha crítica conforme a regra aplicável.
 
-### Cenário C: Perseguição de Carros (*Condução + Percepção*)
-* *PJ (Andrey - 5 dados) tenta despistar uma viatura discreta da ABIN.*
-* **Motorista Treinado da ABIN (Diff 7):** **$51,0\%$** Sucesso Pleno (Despista limpo), **$25,4\%$** Parcial (Despista, mas raspa a lateral do veículo em um poste), **$23,6\%$** Falha (A ABIN emparelha o carro).
+Uma consequência, custo, atraso ou exposição pode acompanhar um resultado marginal quando a ficção justificar, mas **não é uma obrigação mecânica automática**.
+
+---
+
+## 🪄 4. Mágika e Oposição Pontual
+
+Quando o PJ usa Arete/Mágika diretamente, permanecem válidas as dificuldades e regras próprias de M20 para o efeito mágico. A compressão da oposição não autoriza substituir a lógica de Arete, Esferas, vulgaridade, testemunhas, Paradoxo ou outros componentes de M20 por uma dificuldade genérica.
+
+Quando a mágika altera uma ação mundana, aplica-se primeiro a regra mágica pertinente e depois se determina como o efeito modifica a ação mundana. A intenção é preservar a experiência de M20 para o jogador, não criar um atalho universal de “mágika reduz Diff”.
+
+---
+
+## 🎬 5. Exemplos de Uso
+
+### Infiltração social
+Hughie tenta enganar um porteiro. O porteiro é um agente ficcional real, mas a cena não merece estrutura persistente. A parada relevante do porteiro é convertida para a oposição experimental; Hughie faz sua rolagem normal. Um sucesso já permite a entrada em nível marginal, e o ST qualifica a qualidade desse êxito pela ficção.
+
+### Percepção contra furtividade
+Um agente tenta se ocultar. O agente continua sendo quem realiza a ação na ficção. O PJ rola para perceber contra a oposição comprimida do agente. Se ninguém relevante estiver em posição de perceber, o ST decide se a ocultação funciona sem rolar contra si mesmo.
+
+### Perseguição curta
+Um motorista da ABIN tenta manter contato com o carro dos PJs. Enquanto a situação não justificar uma perseguição estruturada, uma única resolução pode decidir uma mudança relevante de posição. Se a perseguição se tornar o foco da cena, ela sobe para Nível 2.
+
+---
+
+## 6. Critério de Transição
+
+O nível muda quando muda a **carga necessária para representar a situação**, não porque a entidade pertence a uma categoria fixa.
+
+O mesmo NPC pode ser:
+* Nível 1 em uma interação de poucos segundos;
+* Nível 2 quando se torna ameaça persistente;
+* Nível 3 quando executa uma ação de alto impacto que exige estado, preparação ou escalada legível.
