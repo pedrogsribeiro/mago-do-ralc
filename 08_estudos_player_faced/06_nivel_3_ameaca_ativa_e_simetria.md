@@ -28,7 +28,16 @@ Essas dimensões são uma **ferramenta de indexação para o Storyteller**, não
 
 > “Qual competência deste NPC realmente importa para a ação que está acontecendo agora?”
 
-Um mesmo antagonista pode ter paradas muito diferentes em cada dimensão. A conversão player-facing deve partir da **parada efetivamente relevante**, e não de um “nível geral” do NPC.
+Um mesmo Obstáculo pode ter **valores radicalmente diferentes em cada dimensão**. Isso não é apenas uma anotação qualitativa.
+
+Exemplos conceituais:
+
+* **Social baixo / Mágicko alto:** existe resistência social, mas ela é pequena; a principal força do Obstáculo está no campo mágicko.
+* **Mágicko 0 / Físico alto:** não existe resistência mágicka relevante a ser vencida naquele eixo, enquanto a frente física é fortemente protegida.
+
+**Zero não é sinônimo de “baixo”.** Zero indica ausência de capacidade, resistência ou atuação relevante naquela dimensão. Um valor baixo indica que a dimensão existe e pode opor-se aos PJs, apenas com pouca força.
+
+A conversão player-facing deve partir da **dimensão e da parada efetivamente relevantes**, e não de um “nível geral” do NPC.
 
 As regras próprias de cada domínio continuam valendo. Combate físico conserva ataque, dano e absorção; mágika conserva Arete, Esferas, vulgaridade, Paradoxo e demais procedimentos; ações sociais e intelectuais seguem o tipo de teste que M20 pediria para aquela situação.
 
@@ -44,7 +53,22 @@ A pesquisa já havia definido uma ficha operacional compacta para ameaças persi
 4. **Integridade / Relógio:** quanto progresso efetivo ainda é necessário para resolver o Obstáculo naquela frente.
 5. **Limiar de Efetividade:** resistência que reduz ou impede o Impacto produzido por uma ação bem-sucedida. Este campo nasceu como **RD fixa** para dano físico e foi renomeado para permitir o mesmo conceito em resistências sociais, mentais, técnicas e mágickas.
 
-As quatro dimensões — Físico, Social, Mental/Técnico e Mágicko — são uma lente do ST para dimensionar esses valores conforme a abordagem. Elas não substituem os subsistemas de M20.
+As quatro dimensões — Físico, Social, Mental/Técnico e Mágicko — formam uma **matriz de aplicação da ficha achatada**. Cada dimensão pode possuir seus próprios valores de **Oposição, Ameaça, Consequência, Integridade e Limiar de Efetividade**, conforme o que realmente existe na ficha, na ficção e no subsistema original.
+
+Exemplo estrutural:
+
+| Dimensão | Oposição | Ameaça | Consequência | Integridade | Limiar |
+| :--- | :---: | :---: | :--- | :---: | :---: |
+| Físico | alto | alto | alta | alta | alto |
+| Social | baixo | baixo | baixa | baixa | baixo |
+| Mental/Técnico | médio | médio | média | média | médio |
+| Mágicko | 0 | 0 | — | — | — |
+
+Os termos acima são apenas ilustrativos; os valores numéricos precisam vir da conversão/calibração apropriada.
+
+Nem todo campo precisa existir em toda dimensão. Uma dimensão pode ter apenas Oposição, por exemplo, sem possuir Ameaça própria. **0 significa ausência real daquele vetor**, não “fracasso automático” nem “dificuldade mínima”.
+
+As dimensões, portanto, não substituem os subsistemas de M20: elas dizem **qual versão da ficha achatada é acionada pela abordagem escolhida**.
 
 ### Oposição
 
@@ -153,7 +177,7 @@ Assim:
 
 A principal contribuição deste estudo não é criar quatro versões simétricas de combate.
 
-É fornecer ao Storyteller um **mapa compacto de competências e vulnerabilidades**.
+É fornecer ao Storyteller uma **matriz compacta de competências, resistências e vulnerabilidades por dimensão**.
 
 Para uma ameaça persistente de ficha extensa, o ST deve conseguir identificar rapidamente:
 
