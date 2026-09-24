@@ -1,50 +1,160 @@
 ---
 type: regra
-summary: "Estudo 09: método provisório de conversão de NPCs para player-facing preservando agência, competências relevantes e subsistemas nativos de M20."
-tags: [estudo, game-design, player-faced, conversao, npcs, fichas, competencias]
+summary: "Estudo 09: protocolo de conversão de fichas de NPCs para uma interface player-facing do Storyteller, com exemplos reais e gate de completude."
+tags: [estudo, game-design, player-faced, conversao, npcs, fichas, competencias, validacao]
 ---
 
-# Estudo 09: Guia de Conversão de NPCs para o Olhar Player-Faced
+# Estudo 09: Protocolo de Conversão de Fichas de NPCs
 
-Este estudo transforma uma ficha de NPC em uma **interface operacional mais leve para o Storyteller**. Ele não promete conversão 1:1 instantânea nem substitui todos os subsistemas de M20 por quatro números.
+Este estudo testa uma promessa concreta:
 
-O NPC continua sendo personagem: possui intenção, ações, iniciativa, recursos, armas, mágika e capacidades especiais. A compressão busca retirar **consulta e rolagens desnecessárias do ST**.
+> **o Storyteller deve conseguir pegar uma ficha oficial de NPC de M20 e extrair dela uma interface operacional menor, preservando para os jogadores a experiência reconhecível do sistema.**
+
+A ficha original continua sendo a **fonte normativa**. A conversão não recria o NPC do zero e não o reduz a um “nível de ameaça” genérico.
+
+O teste deste capítulo é simples: depois da conversão, o ST deve saber rapidamente:
+
+1. o que o NPC consegue fazer;
+2. onde ele é forte ou vulnerável;
+3. qual característica/parada original sustenta cada ação;
+4. o que já pode ser resolvido player-facing;
+5. quais operações ainda dependem de uma solução não validada.
 
 ---
 
-## 1. Fluxo de conversão
+# 1. O que significa converter
 
-### Passo 1 — Determine a carga da cena
-* **Nível 1:** oposição pontual.
-* **Nível 2:** ameaça persistente.
-* **Nível 3:** ação ou estado de alto impacto que exige telegrafia.
+Converter não significa substituir toda a ficha.
 
-O mesmo NPC pode aparecer em níveis diferentes em cenas diferentes.
+A interface player-facing deve funcionar como uma **camada de consulta rápida** construída a partir dela.
 
-### Passo 2 — Registre somente campos semânticos úteis
-Anote capacidades que realmente mudam o que pode ser feito:
+A informação pode ser dividida em quatro grupos:
 
-* blindagem pesada;
+### A. Identidade operacional
+O que define o NPC na ficção e muda possibilidades.
+
+Exemplos:
 * autoridade institucional;
-* mente condicionada;
-* acesso a Correspondência;
-* fraqueza a prata;
-* corpo incorpóreo.
+* blindagem de Primium;
+* treinamento de infiltração;
+* Aura de Medo;
+* incorporeidade;
+* contramágika inata;
+* autodestruição.
 
-Esses campos ajudam o ST a selecionar a regra correta. Eles não substituem uma mecânica que M20 já precise preservar.
+### B. Competências relevantes
+As paradas originais que provavelmente entrarão em oposição com os PJs.
 
-### Passo 3 — Consulte a competência relevante
-**Não use a maior parada do NPC.**
+### C. Recursos e estados
+Vitalidade, Força de Vontade, Arete, Quintessência, armadura, penalidades, munição e outros recursos que realmente importam.
 
-Se o PJ tenta enganá-lo, consulte a competência que M20 usaria para perceber/resistir à mentira.
-Se tenta acertá-lo, consulte a defesa aplicável.
-Se o NPC ataca, consulte sua competência ofensiva.
-Se disputa mágika, consulte Arete/Esferas e o procedimento mágico pertinente.
+### D. Procedimentos especiais
+Mágika, hacking, regeneração, contramágika, venenos, autodestruição, possessão e outros subsistemas particulares.
 
-As quatro lentes — física, social, mental/técnica e mágicka — servem apenas para o ST localizar rapidamente **onde a ficha é forte ou fraca**.
+A compressão só é boa se retirar consulta **sem apagar nenhuma dessas funções importantes**.
 
-### Passo 4 — Comprima apenas a operação que precisa desaparecer
-Para rolagens resistidas comuns, o baseline experimental corrente é **Dificuldade + Limiar oculto**. A tabela ainda não é homologação final e deve ser refinada matematicamente.
+---
+
+# 2. As quatro dimensões como índice da ficha
+
+Físico, Social, Mental/Técnico e Mágicko são uma **lente de preparação do ST**.
+
+Elas respondem:
+
+> “em quais tipos de confronto este NPC tende a ser forte ou vulnerável para este grupo?”
+
+Não são quatro atributos novos.
+
+Exemplo:
+
+```
+AGENTE DO GOVERNO
+
+Físico: competente
+Social: forte
+Mental/Técnico: forte
+Mágicko: praticamente inexistente
+```
+
+Quando o jogador escolhe uma abordagem, o ST volta à competência original que sustenta aquela situação.
+
+Se o personagem mente para o agente, importa a capacidade perceptiva/social pertinente.
+Se tenta fugir dele, importam as capacidades físicas e de perseguição.
+Se tenta hackear seu equipamento, importam as capacidades técnicas e o sistema atacado.
+
+---
+
+# 3. Os três níveis de carga
+
+O nível não pertence permanentemente ao NPC.
+
+### Nível 1 — Oposição pontual
+Só uma competência importa naquele momento.
+
+### Nível 2 — Ameaça ativa
+O NPC permanece em cena, possui turnos e executa ações repetidamente.
+
+### Nível 3 — Alto impacto
+Alguma ação ou estado produz consequência excepcional e exige causalidade legível por telegrafia.
+
+O mesmo HIT Mark pode ser Nível 1 enquanto os PJs tentam passar por seus sensores, Nível 2 quando entra em combate e Nível 3 quando inicia sua autodestruição.
+
+---
+
+# 4. Procedimento de extração
+
+## Passo 1 — Leia a ficha original antes de converter
+
+Identifique:
+
+* Atributos;
+* Habilidades;
+* Iniciativa;
+* Vitalidade;
+* Vigor/armadura/absorção;
+* ataques e dano;
+* Força de Vontade;
+* Arete e Esferas, quando houver;
+* poderes e regras especiais.
+
+Nenhum número é convertido ainda.
+
+## Passo 2 — Marque o que muda possibilidades
+
+Esses elementos ficam escritos literalmente na interface.
+
+Exemplos:
+
+```
+[Armadura pesada de Primium]
+[Contramágika inata 5d]
+[Autodestruição ao ser capturado]
+[Não possui treinamento social]
+```
+
+## Passo 3 — Organize as competências prováveis
+
+Não use “a maior parada da ficha”.
+
+Registre apenas as paradas que provavelmente serão usadas na cena ou que caracterizam uma força/fraqueza importante.
+
+## Passo 4 — Identifique quais rolagens pertenciam ao ST
+
+Marque cada operação:
+
+* oposição resistida;
+* ataque;
+* dano;
+* absorção;
+* mágika;
+* poder especial.
+
+Só essas operações são candidatas à transformação player-facing.
+
+## Passo 5 — Aplique apenas transformações já sustentadas pela pesquisa
+
+### Oposição resistida comum
+O baseline experimental atual é **Dificuldade + Limiar oculto**:
 
 | Parada relevante do NPC | Diff experimental | Limiar oculto |
 | :---: | :---: | :---: |
@@ -60,67 +170,305 @@ Para rolagens resistidas comuns, o baseline experimental corrente é **Dificulda
 | 11d | 7 | 3 |
 | 12d | 7 | 3 |
 
-O jogador faz a rolagem que sua ficha normalmente pediria. **1 sucesso líquido continua sendo sucesso marginal e move a ficção.**
+Essa tabela **ainda é provisória** porque o Estudo 05 encontrou viés residual entre PJs fracos e fortes.
+
+### Demais operações
+Ataque do NPC, dano, soak e certos poderes especiais ainda precisam de tradução específica.
+
+O estudo registra a lacuna em vez de inventar equivalência.
 
 ---
 
-## 2. O que ainda não pode ser convertido pela mesma tabela
+# 5. Ficha de interface provisória
 
-### Dano e absorção
-Dano fixo e RD fixa ainda não foram demonstrados como equivalentes às paradas de dano e soak de M20.
+A interface mínima pode assumir esta forma:
 
-### Vitalidade e outros recursos
-Um relógio não é automaticamente equivalente a Vitalidade, Essência, Quintessência, Força de Vontade ou outra reserva.
+```
+NOME
 
-### Mágika
-Arete, Esferas, Paradoxo, contramágika, vulgaridade, testemunhas, alcance, duração e demais regras mágickas continuam sendo os procedimentos de M20 até que uma tradução específica seja estudada e validada.
+LENTES DO ST
+Físico:
+Social:
+Mental/Técnico:
+Mágicko:
 
-### Espíritos
-Espíritos já possuem uma ficha compacta em M20: **Força de Vontade, Fúria, Gnose e Essência**. O player-facing deve preservar essa estrutura e converter apenas as rolagens do ST que realmente se deseja remover.
+CARACTERÍSTICAS QUE MUDAM A FICÇÃO
+- [...]
+- [...]
 
----
+COMPETÊNCIAS PROVÁVEIS
+- ação/oposição: parada original → conversão, se aplicável
+- ação/oposição: parada original → conversão, se aplicável
 
-## 3. Ações do NPC
+RECURSOS PRESERVADOS
+- Vitalidade:
+- Força de Vontade:
+- Armadura / soak:
+- Arete / Esferas:
+- outros:
 
-NPC achatado não significa NPC passivo.
+AÇÕES E PODERES
+- [...]
 
-* ele mantém seu turno;
-* declara ações;
-* escolhe alvos;
-* muda de posição;
-* usa poderes;
-* foge;
-* prepara planos;
-* cria movimentos telegrafados.
+TELEGRAFIA POSSÍVEL
+- [...]
 
-Quando a ação disputa diretamente algo sob agência de um PJ, a incerteza pode ser ancorada na rolagem do jogador.
+LACUNAS DA CONVERSÃO
+- [...]
+```
 
-Quando nenhum jogador possui agência relevante sobre o evento, **o ST decide o resultado ficcionalmente**, em vez de rolar contra si mesmo.
-
----
-
-## 4. Telegrafia
-
-Ação de alto impacto pode aparecer como:
-
-* aviso;
-* preparação;
-* ação efetiva que estabelece estado;
-* escalada de um estado existente.
-
-Exemplo: **agarrar e apertar causando contundente agora → morder causando agravado se o agarrão persistir.**
-
-Interromper, mitigar ou aceitar o risco são famílias analíticas para o ST, não um menu mostrado aos jogadores.
+O objetivo é o ST consultar muito menos informação durante a cena **sem perder a ficha que explica de onde aquilo veio**.
 
 ---
 
-## 5. Objetivo do guia
+# 6. Teste 1 — Bandido Comum
 
-O objetivo futuro é que o ST consiga olhar uma ficha clássica e extrair rapidamente:
+A ficha original possui, entre outras coisas:
 
-1. quais competências realmente importam para a cena;
-2. quais delas precisam de conversão player-facing;
-3. quais regras nativas devem permanecer intactas;
-4. quais capacidades especiais mudam possibilidades ou impossibilidades.
+* Força 3;
+* Destreza 2;
+* Vigor 2;
+* Briga 2;
+* Armas Brancas 2;
+* Esportes 2;
+* Furtividade 2;
+* Prontidão 2;
+* Força de Vontade 3;
+* sete níveis normais de Vitalidade;
+* nenhum ponto de armadura;
+* ataques mundanos simples.
 
-A velocidade da conversão deve ser medida em playtest. Não se assume mais que “qualquer ficha é convertida em menos de 60 segundos” nem que a equivalência matemática já está encerrada.
+### Interface extraída
+
+```
+BANDIDO COMUM
+
+LENTES
+Físico: médio
+Social: baixo/médio
+Mental/Técnico: baixo
+Mágicko: nenhum
+
+CARACTERÍSTICAS
+[Brigão de rua]
+[Sem proteção sobrenatural]
+
+COMPETÊNCIAS PROVÁVEIS
+Furtividade: Destreza 2 + Furtividade 2 = 4d
+Percepção/alerta: Percepção 2 + Prontidão 2 = 4d
+Briga: Destreza 2 + Briga 2 = 4d
+
+RECURSOS
+Vigor 2
+Força de Vontade 3
+Vitalidade normal de mortal
+sem armadura
+```
+
+Para uma oposição de Furtividade 4d contra a percepção do PJ, o baseline experimental permite testar **Diff 7 + Limiar 1** do lado do jogador.
+
+### Gate
+
+**PASSA para oposição pontual.**
+
+Ainda **não passa como conversão integral de combate**, porque ataque ofensivo, dano e soak não foram fechados.
+
+---
+
+# 7. Teste 2 — Agente do Governo
+
+A ficha original apresenta:
+
+* atributos mentais e sociais relativamente altos;
+* Percepção 3–4;
+* Investigação 3–5;
+* Prontidão 3;
+* Armas de Fogo 3–4;
+* Força de Vontade 7;
+* Vigor 3–4;
+* colete oculto;
+* armas de fogo.
+
+A interface consegue mostrar imediatamente que o agente é muito mais perigoso em **investigação, vigilância e autoridade** do que um bandido comum.
+
+Exemplo:
+
+```
+AGENTE DO GOVERNO
+
+LENTES
+Físico: competente
+Social: forte
+Mental/Técnico: forte
+Mágicko: nenhum
+
+CARACTERÍSTICAS
+[Autoridade federal]
+[Treinamento investigativo]
+[Colete oculto]
+
+COMPETÊNCIAS EXEMPLARES
+Investigação: pode chegar a 8–9d conforme o perfil
+Percepção/Prontidão: 6–7d
+Armas de Fogo: 5–7d
+
+RECURSOS
+Força de Vontade 7
+Vigor 3–4
+armadura leve
+Vitalidade humana
+```
+
+### Gate
+
+**PASSA como ferramenta de leitura das assimetrias do NPC.**
+
+A conversão probabilística de uma oposição específica é possível provisoriamente porque parte da parada efetiva correspondente.
+
+O combate completo continua sujeito às lacunas já identificadas.
+
+---
+
+# 8. Teste 3 — HIT Mark V
+
+O HIT Mark demonstra se o método preserva um NPC realmente complexo.
+
+A ficha original inclui:
+
+* Força 5;
+* Destreza 2;
+* Vigor 5;
+* Briga 3;
+* Prontidão 3;
+* grande reserva de absorção por Primium;
+* vários níveis de Vitalidade;
+* contramágika inata 5d;
+* metralhadora integrada;
+* garras;
+* sensores especiais;
+* regras tecnocráticas específicas.
+
+### Interface extraída
+
+```
+HIT MARK V
+
+LENTES
+Físico: excepcionalmente resistente; ofensiva forte, agilidade limitada
+Social: quase inexistente
+Mental/Técnico: funcional e programado
+Mágicko: forte defesa por Primium
+
+CARACTERÍSTICAS
+[Chassi de Primium]
+[Contramágika inata 5d]
+[Sensores infravermelhos/ultravioletas]
+[Metralhadora integrada]
+[Garras cibernéticas]
+
+COMPETÊNCIAS / FONTES
+Briga: Destreza 2 + Briga 3 = 5d
+Percepção/alerta: Percepção 3 + Prontidão 3 = 6d
+soak total: 9d
+contramágika: 5d
+dano da metralhadora: 8d
+dano das garras: 8d
+
+RECURSOS
+Vitalidade especial do modelo
+Primium / armadura
+```
+
+### O que o teste revela
+
+A interface é **muito menor que a ficha completa**, mas ainda preserva exatamente por que o HIT Mark é perigoso.
+
+Ao mesmo tempo, ela mostra os limites atuais da pesquisa:
+
+* 5d e 6d de oposição comum podem ser submetidos ao baseline experimental;
+* 9d de soak ainda não podem virar uma RD arbitrária;
+* 8d de dano ainda não podem virar “4 de dano fixo” sem demonstração;
+* contramágika 5d precisa preservar o subsistema mágicko;
+* sensores especiais continuam sendo características concretas, não um número abstrato.
+
+### Gate
+
+**PASSA como método de compressão informacional.**
+
+**NÃO PASSA ainda como substituição completa das operações do ST.**
+
+Isso é exatamente o tipo de NPC que deverá ser usado para validar dano, soak e contramágika antes do fechamento do método.
+
+---
+
+# 9. Magos antagonistas
+
+Magos exigem cuidado adicional.
+
+Um mago antagonista deve preservar:
+
+* Arete;
+* Esferas;
+* paradigma/foco quando relevante;
+* Quintessência;
+* Força de Vontade;
+* efeitos sustentados;
+* Paradoxo e regras especiais;
+* capacidades mundanas pertinentes.
+
+As lentes ajudam a localizar força e fraqueza, mas **não substituem a ficha mágicka**.
+
+A conversão de um mago só estará completa quando os estudos específicos de mágika player-facing demonstrarem quais operações do ST podem ser retiradas sem alterar a experiência dos jogadores.
+
+---
+
+# 10. Espíritos não entram neste mesmo molde
+
+O Estudo 07 demonstrou que M20 já oferece uma ficha espiritual compacta:
+
+* Força de Vontade;
+* Fúria;
+* Gnose;
+* Essência;
+* Encantos.
+
+Portanto, “converter um espírito como NPC comum” adicionaria abstração desnecessária.
+
+Eles usam o mesmo princípio geral — preservar a fonte, remover somente operações onerosas —, mas seu protocolo específico pertence aos Estudos 07/13.
+
+---
+
+# 11. Gate do Estudo 09
+
+A proposta deste capítulo é válida **se entendida como método de extração e compressão da ficha**, e ainda não como conversão mecânica total.
+
+### Entrega adequadamente
+* identificação de competências relevantes;
+* leitura de forças e vulnerabilidades;
+* redução da quantidade de informação consultada;
+* preservação de capacidades especiais;
+* seleção da parada original que sustenta cada oposição;
+* aplicação provisória da conversão de oposição resistida;
+* classificação da carga da cena;
+* identificação de movimentos telegrafados.
+
+### Ainda impede chamar o método de conversão completa
+* ataque do NPC quando não existe uma rolagem defensiva equivalente do jogador;
+* dano do NPC;
+* soak/armadura do NPC;
+* alguns efeitos de contramágika;
+* vários subsistemas sobrenaturais.
+
+---
+
+## 12. Critério para o futuro capítulo final
+
+O futuro guia comercial poderá realmente dizer:
+
+> “Pegue qualquer NPC de M20 e converta para player-facing”
+
+somente quando cada operação removida possuir uma resposta validada.
+
+Até lá, este estudo cumpre outra função igualmente importante:
+
+> **mostrar exatamente como comprimir a ficha sem perder sua identidade e localizar, com precisão, quais operações ainda precisam ser resolvidas pelo restante da pesquisa.**
