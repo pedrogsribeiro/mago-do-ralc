@@ -84,13 +84,13 @@ Isso não autoriza criar “Limiar 2” genérico para Jagglings ou “Limiar 3�
 Fúria gera dano por rolagem.
 Força de Vontade pode participar de defesa/absorção conforme a regra espiritual.
 
-Essas operações entram na dívida geral de **dano e soak**.
+Essas operações podem ser mapeadas para a ficha achatada sem apagar a ficha espiritual:
 
-Até a matemática ser estudada, não se converte automaticamente:
+* **Fúria** alimenta a **Ameaça/Consequência** ofensiva da entidade;
+* **Força de Vontade** pode alimentar seu **Limiar de Efetividade** quando estiver exercendo função de absorção/resistência;
+* **Essência** continua sendo o recurso canônico da entidade e não deve ser comprimida arbitrariamente.
 
-* Fúria em dano fixo;
-* Vontade em RD;
-* Essência em relógio menor.
+A arquitetura, portanto, existe; o que falta é calibrar matematicamente a tradução de Fúria e Vontade para esses campos.
 
 ---
 
@@ -212,9 +212,9 @@ Não há ganho em substituir essa ficha por Oposição/Ameaça/Relógio.
 
 O que permanece aberto é a tradução de:
 
-* rolagem de Fúria do ST;
-* esquiva/absorção por Força de Vontade;
-* certos Encantos que exigem rolagens próprias.
+* calibração de **Fúria → Ameaça/Consequência**;
+* calibração de **Força de Vontade → Oposição/Limiar de Efetividade**, conforme a função;
+* certos Encantos que exigem procedimentos próprios.
 
 ---
 
@@ -280,6 +280,6 @@ Com isso, o domínio realmente espelha a diversidade do conteúdo original em ve
 
 A principal dívida restante é operacional, não ontológica:
 
-> **como retirar as rolagens do ST de Fúria, Vontade e Encantos sem alterar a experiência do jogador?**
+> **como calibrar Fúria, Vontade e Encantos dentro de Oposição, Ameaça, Consequência e Limiar de Efetividade sem alterar a experiência do jogador?**
 
 Essa questão precisa ser resolvida no programa de tradução dos procedimentos transversais, não escondida dentro deste domínio.
