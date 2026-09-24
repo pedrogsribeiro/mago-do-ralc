@@ -1,195 +1,351 @@
 ---
 type: regra
-summary: "Estudo 08: integração prática do player-facing e hipótese da Crônica como Obstáculo, com Atos, características do ST e progresso por sucessos significativos."
-tags: [estudo, simulacao, player-faced, obstaculo, cronica, atos, progresso, regras]
+summary: "Estudo 08: teste integrado de mesa do player-facing e experimento da Crônica como Obstáculo, registrando o que funciona, o que depende de calibração e onde o motor ainda quebra."
+tags: [estudo, simulacao, player-faced, obstaculo, cronica, atos, progresso, integracao, regras]
 ---
 
-# Estudo 08: Simulação Integrada e a Crônica como Obstáculo
+# Estudo 08: Teste Integrado de Mesa e a Crônica como Obstáculo
 
-Este estudo integra as conclusões dos Estudos 00–07 e explora uma consequência mais ampla da ontologia de Obstáculos: **a própria Crônica pode ser tratada pelo Storyteller como um Obstáculo persistente**, sem transformar a história em trilho predeterminado.
+Este estudo tem **duas funções específicas**:
 
-O objetivo não é criar uma barra de videogame visível aos jogadores. É oferecer ao ST uma representação simples do quanto o grupo realmente avançou contra o problema central da história.
+1. testar se as conclusões dos Estudos 00–07 realmente convivem numa sequência de jogo sem alterar indevidamente a experiência do jogador de M20;
+2. experimentar a **Crônica como Obstáculo** exclusivamente como ferramenta de preparação e acompanhamento do Storyteller.
 
----
-
-## 1. Princípio: a Crônica tem uma condição de resolução
-
-Uma Crônica ou arco pode ser descrito por:
-
-* **Problema central:** o que permanece verdadeiro enquanto o obstáculo não for derrotado.
-* **Progresso necessário:** quantos sucessos significativos precisam ser conquistados para alterar definitivamente essa situação.
-* **Características:** em que frentes o problema é forte ou fraco para orientar a arbitragem do ST.
-* **Estados / marcos:** mudanças ficcionais disparadas quando o grupo alcança determinados níveis de progresso.
-* **Consequência de fracasso ou demora:** o que a oposição faz enquanto continua viva.
-
-A “vida” da Crônica é, portanto, **a quantidade de progresso significativo ainda necessária para resolver seu problema central**.
+Este capítulo não deve provar o sistema por narrativa exemplar. Ele deve revelar **onde o motor funciona e onde ainda depende de uma regra não resolvida**.
 
 ---
 
-## 2. Sucessos da Crônica não são recompensas arbitrárias de cena
+## 1. Critério do teste
 
-A versão anterior deste estudo atribuía valores como “+7 sucessos” pela conclusão de uma cena. Isso torna a progressão dependente de pesos escolhidos arbitrariamente pelo ST e se afasta da ideia de preservar M20.
+A experiência do jogador deve permanecer reconhecivelmente M20:
 
-O refinamento atual usa outro princípio:
+* mesma ficha;
+* mesmos recursos;
+* mesmas decisões;
+* mesmos tipos de ação;
+* mesmas rolagens próprias sempre que possível;
+* mesmas regras específicas de mágika, Força de Vontade, dano, Paradoxo e demais subsistemas;
+* relações de competência e risco suficientemente próximas das originais.
 
-> **sucessos relevantes obtidos em ações que realmente atacam o problema da Crônica podem alimentar seu progresso.**
+A camada player-facing pode mudar **o trabalho do Storyteller**, não fabricar novas escolhas para o jogador.
 
-Nem toda rolagem conta. Uma ação só alimenta o Obstáculo-Crônica quando produz uma mudança concreta em uma de suas condições de resolução.
-
-Exemplos:
-
-* conseguir uma pista decisiva pode produzir 1 ou mais sucessos de progresso conforme os sucessos obtidos na própria ação;
-* destruir um laboratório que sustenta a operação pode retirar progresso diretamente de uma característica física/logística da Crônica;
-* convencer uma facção-chave pode avançar a frente social;
-* um ritual que rompe a âncora mística pode avançar a frente mágicka.
-
-**1 sucesso continua sendo sucesso** e pode mover a Crônica um passo adiante. Sucessos adicionais representam resultados mais sólidos quando a ficção realmente permitir maior avanço.
-
-O ST não deve permitir “farmar” progresso repetindo ações irrelevantes. A pergunta sempre é: **o estado da Crônica mudou?**
+Quando uma etapa ainda não possui tradução validada, a simulação deve **parar e registrar a dívida**, em vez de inventar uma solução conveniente.
 
 ---
 
-## 3. Atos como Obstáculos menores dentro da Crônica
+# PARTE I — A CRÔNICA COMO OBSTÁCULO
 
-O ST pode dividir uma Crônica em **Atos** quando isso ajudar sua preparação.
+## 2. A hipótese
 
-Exemplo estrutural:
+Uma Crônica ou arco pode receber um valor oculto de **Progresso**, representando quanto o grupo já alterou de forma significativa o problema central.
 
-### Ato 1 — Descobrir
-O grupo precisa entender o problema e localizar seus pontos de apoio.
-
-### Ato 2 — Desestabilizar
-O grupo precisa remover recursos, alianças, proteções ou fontes de poder que sustentam o problema.
-
-### Ato 3 — Resolver
-O grupo finalmente pode atacar a condição que mantém o problema central vivo.
-
-Esses nomes são apenas um exemplo. O ponto é hierárquico:
+Exemplo:
 
 ```
-Crônica-Obstáculo
-├── Ato 1
-├── Ato 2
-└── Ato 3
+CRÔNICA: O SANGUE DA METRÓPOLE
+
+Problema:
+uma rede clandestina drena, processa e distribui sangue carregado de Quintessência.
+
+Condição de resolução:
+descobrir a estrutura da operação, quebrar seus sustentáculos
+e neutralizar a fonte central.
+
+Progresso da Crônica: 0 / 18
 ```
 
-Cada Ato pode ter sua própria **meta de progresso**, seus estados e suas características. Derrotar um Ato altera a Crônica e abre novas possibilidades, sem obrigar uma sequência específica de cenas.
+A Crônica não perde pontos porque “uma cena terminou”.
+
+Ela recebe os **sucessos efetivamente obtidos pelos jogadores** quando uma ação altera uma condição importante do problema.
+
+### Regra experimental
+
+Se uma ação:
+
+1. foi resolvida normalmente pelas regras aplicáveis de M20; e
+2. mudou materialmente o estado do problema central;
+
+então os sucessos líquidos relevantes dessa ação podem alimentar o Progresso da Crônica.
+
+**1 sucesso continua sendo sucesso e avança 1.**
+
+Uma porta aberta não precisa gerar progresso.
+Descobrir para onde o sangue está sendo enviado pode gerar progresso.
+Destruir uma âncora que sustenta toda a operação pode gerar progresso.
+
+O critério é **mudança ficcional real**, não importância dramática arbitrada depois da cena.
 
 ---
 
-## 4. Características da Crônica e dos Atos
+## 3. Atos como faixas de resolução
 
-As quatro lentes desenvolvidas nos estudos anteriores são especialmente úteis aqui porque são **ferramentas do ST**, não categorias canônicas que M20 precise possuir.
+O ST pode subdividir o total em Atos, desde que isso não determine previamente quais cenas acontecerão.
 
-Um Ato pode ser descrito, por exemplo, assim:
+Exemplo:
 
 ```
-ATO 2 — A REDE DE DISTRIBUIÇÃO
+Ato 1 — Compreender a rede        0 / 6
+Ato 2 — Retirar sustentáculos     0 / 6
+Ato 3 — Neutralizar a matriz      0 / 6
+TOTAL DA CRÔNICA                  0 / 18
+```
+
+O grupo pode descobrir caminhos inesperados, atacar um Ato por outra direção ou produzir avanço que altere a estrutura prevista.
+
+Os Atos são **organização do problema para o ST**, não capítulos que os jogadores precisam cumprir em ordem fixa.
+
+---
+
+## 4. Características da Crônica
+
+As lentes Física, Social, Mental/Técnica e Mágicka ajudam o ST a entender onde o problema é mais resistente.
+
+Exemplo:
+
+```
+O SANGUE DA METRÓPOLE
 
 Físico/Logístico: Forte
 Social/Institucional: Muito Forte
-Mental/Técnico: Médio
-Mágicko/Arcano: Fraco
-
-Progresso necessário: 8
-Condição de resolução:
-- quebrar a capacidade da rede de continuar distribuindo sangue místico.
+Mental/Técnico: Forte
+Mágicko: Médio, com âncoras vulneráveis
 ```
 
-Isso não significa que exista um “combate social” simétrico ao combate físico.
+Essas características não substituem regras.
 
-Significa apenas que o ST sabe:
-
-* confronto frontal com a logística será difícil;
-* atacar relações institucionais será ainda pior;
-* hacking é viável;
-* a proteção mística é uma brecha.
-
-A dificuldade real de cada ação continua vindo das regras e capacidades que M20 usaria para aquela situação.
+Elas dizem ao ST que um ataque institucional provavelmente encontrará oposição maior que uma investigação mística, por exemplo. A dificuldade real continua vindo dos NPCs, sistemas, regras mágickas e circunstâncias que M20 usaria.
 
 ---
 
-## 5. Obstáculos dentro de Obstáculos
+# PARTE II — TESTE INTEGRADO DE MESA
 
-A Crônica pode conter Atos; os Atos podem conter cenas; as cenas podem conter Obstáculos.
+## 5. Cena A — Obstáculo passivo simples
+
+**Situação:** Niki precisa abrir uma fechadura biométrica para acessar um depósito.
+
+O sistema original pediria uma ação técnica apropriada. Niki rola sua própria parada.
+
+* **1 sucesso:** a fechadura abre em resultado marginal.
+* **2+ sucessos:** resultado progressivamente mais sólido.
+* **0:** falha.
+* **botch:** consequência conforme M20.
+
+### Resultado do teste
+
+**FUNCIONA.**
+
+Nenhuma rolagem do ST precisava existir originalmente. A linguagem de Obstáculo apenas organiza a cena.
+
+Se abrir a porta por si só não altera o problema da Crônica, ela não gera Progresso macro.
+
+---
+
+## 6. Cena B — NPC tentando se esconder
+
+**Situação:** um agente da NOM tenta ocultar-se e observar a cabala.
+
+Ficcionalmente, **o NPC age**.
+
+Como o resultado interfere diretamente na percepção dos personagens, o player-facing pode ancorar a incerteza na rolagem de Percepção do PJ.
+
+A ficha original do agente informa a competência relevante de Furtividade. Essa parada é convertida provisoriamente pelo modelo **Dificuldade + Limiar oculto**.
+
+### Resultado do teste
+
+**FUNCIONA CONCEITUALMENTE, MAS AINDA DEPENDE DA CALIBRAÇÃO MATEMÁTICA.**
+
+O jogador continua fazendo uma rolagem normal de percepção.
+O NPC continua sendo o agente da ação.
+A mudança está atrás do escudo.
+
+Entretanto, o Estudo 05 mostrou que a transformação probabilística ainda possui viés residual.
+
+---
+
+## 7. Cena C — PJ atacando NPC ativo
+
+**Situação:** Andrey ataca um agente treinado.
+
+Pelo M20:
+
+1. Andrey rola ataque;
+2. se houver defesa ativa, a defesa pode cancelar sucessos;
+3. sucessos excedentes alteram dano;
+4. Andrey rola dano;
+5. o NPC pode absorver conforme suas regras.
+
+### O que já temos
+
+A defesa resistida do NPC pode ser **aproximada** pelo modelo Dificuldade + Limiar.
+
+Andrey continua rolando seu ataque e seu dano.
+
+### O que ainda falta
+
+A **absorção do NPC** ainda não possui tradução validada.
+
+Transformá-la em RD fixa mudaria a variância sem estudo suficiente.
+
+### Resultado do teste
+
+**FUNCIONA ATÉ A ETAPA DE SOAK.**
+
+O motor integrado ainda não está fechado para combate completo.
+
+---
+
+## 8. Cena D — NPC atacando PJ
+
+**Situação:** no turno do agente, ele dispara contra Andrey.
+
+O NPC continua:
+
+* ocupando iniciativa;
+* escolhendo alvo;
+* declarando ataque;
+* executando sua ação.
+
+Mas M20 originalmente exigiria uma **rolagem de ataque do NPC**.
+
+### Caso 1 — Andrey declarou defesa ativa
+
+Existe agência mecânica clara do jogador. Sua rolagem defensiva pode carregar parte da incerteza, desde que a conversão preserve a relação entre ataque e defesa do sistema original.
+
+**HIPÓTESE PLAUSÍVEL, AINDA NÃO VALIDADA.**
+
+### Caso 2 — Andrey não declarou defesa
+
+Aqui aparece uma lacuna estrutural.
+
+Se o ST simplesmente decidir que o ataque acertou, a aleatoriedade original desaparece.
+Se o jogador ganhar uma rolagem defensiva gratuita, sua economia de ações muda.
+
+### Resultado do teste
+
+**AINDA NÃO RESOLVIDO.**
+
+Esse é um dos problemas centrais que a pesquisa precisa responder antes de afirmar equivalência em combate.
+
+---
+
+## 9. Cena E — Movimento telegrafado por escalada
+
+**Situação:** uma criatura agarra Hughie.
+
+O primeiro movimento é efetivo:
+
+* estabelece agarrão;
+* pode causar dano contundente;
+* muda posição e liberdade do personagem.
+
+A ficção torna clara a escalada:
+
+> enquanto o agarrão persistir, a criatura aproxima Hughie das presas; no próximo passo pretende mordê-lo, causando dano agravado.
+
+Hughie pode tentar escapar, receber ajuda, usar mágika, aceitar o risco ou agir de outra maneira permitida por sua ficha.
+
+### Resultado do teste
+
+**A ESTRUTURA DE TELEGRÁFIA FUNCIONA.**
+
+Ela não cria menu novo para o jogador e preserva causalidade.
+
+Entretanto, as rolagens concretas do agarrão, dano e eventual mordida continuam dependentes das soluções de ataque/dano/soak ainda abertas.
+
+---
+
+## 10. Cena F — Espírito
+
+**Situação:** um Gaffling desmaterializado bloqueia a passagem.
+
+Ataques físicos mundanos possuem **Efeito Zero** pela própria natureza do espírito.
+
+Hughie usa Espírito conforme suas regras de M20.
+
+A entidade mantém:
+
+* Força de Vontade;
+* Fúria;
+* Gnose;
+* Essência;
+* Encantos.
+
+### Resultado do teste
+
+**A REPRESENTAÇÃO FUNCIONA.**
+
+A ficha espiritual já é compacta e deve ser preservada.
+
+O que permanece aberto são as rolagens atualmente feitas pelo ST:
+
+* Fúria para ataque/dano;
+* Força de Vontade para defesa/absorção;
+* certas ativações de Encantos.
+
+Essas operações exigem tradução específica; não devem ser substituídas por dano fixo ou RD arbitrária.
+
+---
+
+# PARTE III — TESTE DO PROGRESSO MACRO
+
+## 11. Exemplo de avanço real
+
+Durante as cenas anteriores:
+
+* abrir a porta: **0 Progresso de Crônica** — só permitiu acesso;
+* localizar documentos que revelam a rota principal e obter 2 sucessos relevantes: **+2 Progresso**;
+* convencer um informante-chave com 1 sucesso marginal a entregar o nome do laboratório: **+1 Progresso**;
+* sobreviver ao combate sem descobrir nada novo: **0 Progresso**;
+* destruir uma âncora mística que sustentava a distribuição e obter 3 sucessos no efeito pertinente: **+3 Progresso**.
+
+O ST registra:
 
 ```
-Crônica
-  └─ Ato
-      └─ Cena
-          ├─ NPC
-          ├─ porta / objeto
-          ├─ incêndio
-          ├─ ritual
-          └─ espírito
+Ato 1 — Compreender a rede: 3 / 6
+Ato 2 — Retirar sustentáculos: 3 / 6
+Total: 6 / 18
 ```
 
-A Regra de Bronze aqui é uma regra de **representação**, não de simetria:
+A contagem descreve mudanças já ocorridas na ficção.
 
-> qualquer elemento pode receber apenas as características necessárias para funcionar como Obstáculo no nível em que o ST o está observando.
-
-Uma porta pode usar Durability + Structure.
-Um espírito pode manter Vontade + Fúria + Gnose + Essência.
-Um NPC pode usar suas competências relevantes comprimidas.
-Uma Crônica pode usar progresso + características + marcos.
-
-Todos são Obstáculos. Eles não precisam usar a mesma ficha.
+Ela não diz aos jogadores onde ir nem impede que encontrem uma solução inesperada.
 
 ---
 
-## 6. Integração com os 3 níveis de carga
+# 12. Gate do Estudo 08
 
-### Nível 1 — Desafio rápido / oposição pontual
-Uma resolução curta que altera a situação.
+O teste integrado produz um resultado misto.
 
-### Nível 2 — Ameaça ativa
-Algo permanece na cena, age, pressiona e exige acompanhamento.
+### Partes que já funcionam bem
+* obstáculos passivos;
+* 1 sucesso como avanço marginal;
+* NPC continua agente;
+* dimensões como lente do ST;
+* telegrafia por preparação/estado/escalada;
+* espíritos preservando sua ficha compacta;
+* Crônica como Obstáculo **enquanto camada oculta de acompanhamento**.
 
-### Nível 3 — Alto impacto / telegrafia
-Uma consequência excepcional possui causalidade legível: aviso, preparação ou ação efetiva que estabelece um estado e escala depois.
+### Partes promissoras, mas ainda matematicamente provisórias
+* converter oposição resistida do NPC em Dificuldade + Limiar.
 
-Esses níveis podem existir em qualquer Ato. Eles não determinam quanto progresso a Crônica “vale”; determinam apenas quanto acompanhamento aquela situação merece.
-
----
-
-## 7. Exemplo abreviado: O Sangue da Metrópole
-
-### Crônica-Obstáculo
-**Problema:** uma rede tecnocrático-nefanda drena e distribui sangue carregado de Quintessência.
-
-**Condição de derrota:** identificar a matriz da operação, retirar seus sustentáculos e neutralizar sua fonte central.
-
-**Lentes do ST:**
-* Físico/Logístico: Forte
-* Social/Institucional: Forte
-* Mental/Técnico: Muito Forte
-* Mágicko: Médio, com brechas específicas
-
-### Ato 1 — Mapear a rede
-Progresso vem de pistas que realmente conectam agentes, locais e rotas.
-
-### Ato 2 — Romper sustentáculos
-Progresso vem de ações que retiram recursos, aliados, laboratórios, proteção ou infraestrutura.
-
-### Ato 3 — Neutralizar a matriz
-Progresso vem de ações que atingem diretamente a condição final que mantém a rede funcionando.
-
-A ordem das cenas continua emergindo das decisões dos jogadores.
+### Partes ainda abertas
+* ataque de NPC contra PJ quando o jogador não declarou defesa;
+* dano causado pelo NPC sem rolagem do ST;
+* absorção/soak do NPC;
+* absorção espiritual;
+* tradução de alguns Encantos;
+* relação exata entre Progresso de Crônica e testes estendidos/condições de resolução.
 
 ---
 
-## 8. Estado da hipótese
+## 13. Conclusão
 
-A Crônica como Obstáculo é uma hipótese promissora de **ergonomia para preparação e acompanhamento**.
+O Estudo 08 **não valida ainda um Motor Player-Faced completo**.
 
-Ela ainda precisa testar:
+Ele valida que a linguagem de Obstáculos, a agência dos NPCs, a telegrafia e a Crônica-obstáculo podem coexistir sem exigir mudanças visíveis importantes dos jogadores.
 
-* qual escala de progresso funciona sem tornar a campanha previsível;
-* quando sucessos individuais devem ou não alimentar o progresso macro;
-* como falhas, tempo e ações dos antagonistas alteram estados sem simplesmente “tirar pontos”;
-* se Atos precisam de relógios separados ou apenas de condições concretas de resolução;
-* se essa representação ajuda o ST sem virar contabilidade adicional.
+Também identifica exatamente onde a promessa de equivalência ainda quebra:
 
-O princípio a preservar é simples:
+> **combate e subsistemas nos quais a aleatoriedade reside exclusivamente numa rolagem do Storyteller.**
 
-> **a Crônica também pode ser algo que o grupo está tentando superar — mas sua “vida” representa mudança real na situação, não pontos concedidos arbitrariamente pelo Storyteller.**
+Essas dívidas devem orientar os estudos seguintes antes de qualquer capítulo afirmar que a conversão está completa.
