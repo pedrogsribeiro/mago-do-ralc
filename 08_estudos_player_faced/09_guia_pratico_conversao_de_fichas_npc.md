@@ -172,10 +172,17 @@ O baseline experimental atual é **Dificuldade + Limiar oculto**:
 
 Essa tabela **ainda é provisória** porque o Estudo 05 encontrou viés residual entre PJs fracos e fortes.
 
-### Demais operações
-Ataque do NPC, dano, soak e certos poderes especiais ainda precisam de tradução específica.
+### Ameaça, Consequência e Limiar de Efetividade
 
-O estudo registra a lacuna em vez de inventar equivalência.
+A ficha achatada já possui os campos necessários para o combate do NPC:
+
+* **Ameaça:** capacidade do NPC de impor sua ação ao PJ.
+* **Consequência:** dano, estresse ou outro impacto aplicado quando a Ameaça se concretiza.
+* **Limiar de Efetividade:** resistência do Obstáculo ao Impacto; é o nome generalizado da antiga RD fixa para funcionar também fora do dano físico.
+
+O desenho desses campos já existe. O trabalho pendente é **calibrar seus valores** contra as paradas originais de ataque, dano e soak.
+
+> O **Limiar de Efetividade** não deve ser confundido com o **limiar oculto** usado na investigação matemática da conversão de rolagens resistidas.
 
 ---
 
@@ -203,9 +210,15 @@ COMPETÊNCIAS PROVÁVEIS
 RECURSOS PRESERVADOS
 - Vitalidade:
 - Força de Vontade:
-- Armadura / soak:
 - Arete / Esferas:
 - outros:
+
+FICHA ACHATADA
+- Oposição:
+- Ameaça:
+- Consequência:
+- Integridade / Relógio:
+- Limiar de Efetividade:
 
 AÇÕES E PODERES
 - [...]
@@ -213,7 +226,7 @@ AÇÕES E PODERES
 TELEGRAFIA POSSÍVEL
 - [...]
 
-LACUNAS DA CONVERSÃO
+LACUNAS / CALIBRAÇÕES PENDENTES
 - [...]
 ```
 
@@ -271,7 +284,7 @@ Para uma oposição de Furtividade 4d contra a percepção do PJ, o baseline exp
 
 **PASSA para oposição pontual.**
 
-Ainda **não passa como conversão integral de combate**, porque ataque ofensivo, dano e soak não foram fechados.
+A estrutura de combate **já existe na ficha achatada** por Ameaça, Consequência e Limiar de Efetividade. O que ainda não está fechado é a calibração numérica desses campos contra ataque, dano e soak de M20.
 
 ---
 
@@ -386,8 +399,8 @@ A interface é **muito menor que a ficha completa**, mas ainda preserva exatamen
 Ao mesmo tempo, ela mostra os limites atuais da pesquisa:
 
 * 5d e 6d de oposição comum podem ser submetidos ao baseline experimental;
-* 9d de soak ainda não podem virar uma RD arbitrária;
-* 8d de dano ainda não podem virar “4 de dano fixo” sem demonstração;
+* 9d de soak devem alimentar o **Limiar de Efetividade** correspondente; a tabela precisa ser calibrada;
+* 8d de dano devem alimentar a **Consequência** correspondente; a conversão numérica precisa ser calibrada;
 * contramágika 5d precisa preservar o subsistema mágicko;
 * sensores especiais continuam sendo características concretas, não um número abstrato.
 
@@ -453,9 +466,9 @@ A proposta deste capítulo é válida **se entendida como método de extração 
 * identificação de movimentos telegrafados.
 
 ### Ainda impede chamar o método de conversão completa
-* ataque do NPC quando não existe uma rolagem defensiva equivalente do jogador;
-* dano do NPC;
-* soak/armadura do NPC;
+* calibração de **Ameaça** contra a ofensiva original;
+* calibração de **Consequência** contra o dano original;
+* calibração de **Limiar de Efetividade** contra soak/armadura e resistências equivalentes;
 * alguns efeitos de contramágika;
 * vários subsistemas sobrenaturais.
 
