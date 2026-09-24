@@ -132,11 +132,15 @@ Exemplos:
 [Não possui treinamento social]
 ```
 
-## Passo 3 — Organize as competências prováveis
+## Passo 3 — Organize as competências por dimensão
 
 Não use “a maior parada da ficha”.
 
-Registre apenas as paradas que provavelmente serão usadas na cena ou que caracterizam uma força/fraqueza importante.
+Mapeie as paradas relevantes em **Físico, Social, Mental/Técnico e Mágicko**, porque o mesmo NPC pode ser extremamente resistente em uma frente e quase inexistente em outra.
+
+Registre apenas as paradas que realmente sustentam os valores daquela dimensão.
+
+**Baixo ≠ zero.** Uma dimensão baixa ainda existe e oferece alguma oposição. Uma dimensão 0 indica ausência daquela capacidade/resistência para o Obstáculo.
 
 ## Passo 4 — Identifique quais rolagens pertenciam ao ST
 
@@ -213,12 +217,16 @@ RECURSOS PRESERVADOS
 - Arete / Esferas:
 - outros:
 
-FICHA ACHATADA
-- Oposição:
-- Ameaça:
-- Consequência:
-- Integridade / Relógio:
-- Limiar de Efetividade:
+FICHA ACHATADA POR DIMENSÃO
+
+| Dimensão | Oposição | Ameaça | Consequência | Integridade / Relógio | Limiar de Efetividade |
+| :--- | :---: | :---: | :--- | :---: | :---: |
+| Físico |  |  |  |  |  |
+| Social |  |  |  |  |  |
+| Mental/Técnico |  |  |  |  |  |
+| Mágicko |  |  |  |  |  |
+
+Use **0** somente quando aquela capacidade/resistência realmente não existe naquela dimensão. Não use 0 como sinônimo de “fraco”.
 
 AÇÕES E PODERES
 - [...]
