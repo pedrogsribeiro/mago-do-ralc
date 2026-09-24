@@ -34,25 +34,51 @@ As regras próprias de cada domínio continuam valendo. Combate físico conserva
 
 ---
 
-## 🧮 2. Perfil Operacional de uma Ameaça Ativa
+## 🧮 2. A Ficha Achatada da Ameaça Ativa
 
-A versão inicial deste estudo propunha quatro números perfeitamente simétricos — Oposição, Ameaça, Consequência e Relógio. A pesquisa posterior mostrou que essa simetria era prematura.
+A pesquisa já havia definido uma ficha operacional compacta para ameaças persistentes. Ela precisa ser preservada nas revisões posteriores:
 
-O perfil operacional deve separar **o que já possui calibração** do que ainda precisa de estudo:
+1. **Oposição:** quão difícil é para o PJ superar a resistência ativa da ameaça quando o PJ age.
+2. **Ameaça:** quão difícil é para o PJ evitar ou resistir à ação do NPC quando a ameaça age.
+3. **Consequência:** o impacto causado quando a ação da ameaça se concretiza — dano, perda de Vontade, condição, exposição, bloqueio de recurso ou outro efeito pertinente.
+4. **Integridade / Relógio:** quanto progresso efetivo ainda é necessário para resolver o Obstáculo naquela frente.
+5. **Limiar de Efetividade:** resistência que reduz ou impede o Impacto produzido por uma ação bem-sucedida. Este campo nasceu como **RD fixa** para dano físico e foi renomeado para permitir o mesmo conceito em resistências sociais, mentais, técnicas e mágickas.
 
-### A. Oposição à ação do PJ
-Quando M20 usaria uma rolagem resistida do NPC contra uma ação do jogador, converte-se a **parada relevante do NPC** pelo baseline experimental de **Dificuldade + Limiar oculto**.
+As quatro dimensões — Físico, Social, Mental/Técnico e Mágicko — são uma lente do ST para dimensionar esses valores conforme a abordagem. Elas não substituem os subsistemas de M20.
 
-### B. Pressão exercida pelo NPC
-O NPC continua tendo ações próprias e lugar na iniciativa. Quando sua ação ameaça algo sob agência de um PJ, o jogador faz a rolagem apropriada para determinar o desfecho. A competência ofensiva relevante do NPC precisa ser convertida pelo mesmo princípio matemático de oposição, respeitando o tipo de ação e as regras específicas de M20.
+### Oposição
 
-### C. Consequência
-A consequência **não deve ser presumida como dano fixo universal**. Em M20, dano físico e místico frequentemente resulta de paradas de dano, sucessos excedentes, tipo de dano e absorção. Reduzir tudo a “2–5 pontos fixos” é uma hipótese separada que precisa de auditoria probabilística.
+Parte da parada original pertinente do NPC. A conversão probabilística ainda está em calibração.
 
-### D. Persistência / resistência
-Relógios podem ser uma ferramenta útil de acompanhamento do ST, especialmente quando correspondem a testes estendidos ou objetivos de cena. Porém, um relógio não é automaticamente equivalente à Vitalidade, Essência, Força de Vontade, Quintessência ou outra reserva de M20. Cada conversão precisa demonstrar o que está preservando.
+> **Nota terminológica:** o **Limiar oculto** usado nos estudos matemáticos de Oposição é um parâmetro da transformação probabilística da rolagem resistida. Ele **não é** o **Limiar de Efetividade** da ficha achatada.
 
----
+### Ameaça
+
+O NPC continua agindo em sua iniciativa e declarando suas ações. **Ameaça** representa sua capacidade de impor aquela ação ao PJ sem exigir uma rolagem ofensiva do Storyteller.
+
+Portanto, ataque do NPC já estava previsto pela arquitetura original da ficha achatada.
+
+### Consequência
+
+A ficha também precisa registrar **o que acontece se a Ameaça se concretiza**.
+
+No físico, pode ser dano Contundente, Letal ou Agravado. Em outros domínios pode ser perda de Vontade, condição, exposição, perda de posição, bloqueio de recurso ou outro impacto previsto pelo conteúdo original.
+
+Consequência é o campo que preserva explicitamente o **dano causado** pelo NPC.
+
+### Integridade / Relógio
+
+Representa quanto progresso significativo ainda é necessário para resolver aquele Obstáculo naquela frente. Sua relação com Vitalidade, Essência ou outros recursos precisa respeitar o conteúdo original; não se presume que todo recurso canônico seja simplesmente comprimido em menos caixas.
+
+### Limiar de Efetividade
+
+É a generalização da antiga **RD fixa**.
+
+No combate físico, representa o papel de Vigor, armadura, couraça ou material em reduzir o dano que efetivamente atravessa. Em outros domínios pode representar uma resistência equivalente: proteção institucional, segurança criptográfica, blindagem mental, barreira mágicka etc.
+
+Um sucesso pode continuar sendo **sucesso na ação** e ainda produzir **Impacto zero após o Limiar**, do mesmo modo que em M20 um ataque pode acertar e a absorção anular todo o dano.
+
+Isso não contradiz a regra de que **1 sucesso move a ficção**. O acerto, acesso, contato ou avanço aconteceu; a resistência do Obstáculo determinou quanto desse sucesso se converteu em Impacto.
 
 ## 📊 3. Estado das Simulações Multidimensionais
 
@@ -72,39 +98,21 @@ A recompensa tática deve nascer da **competência efetiva do antagonista em cad
 
 ---
 
-## 🛡️ 4. Combate Físico: Ataque, Dano e Absorção
+## 🛡️ 4. Combate Físico e o Limiar de Efetividade
 
-M20 separa explicitamente várias etapas:
+M20 separa ataque, defesa, dano e absorção. A ficha achatada reorganiza o lado do Storyteller:
 
-1. ataque;
-2. eventual defesa;
-3. sucessos excedentes podem aumentar a parada de dano;
-4. dano é rolado;
-5. o alvo pode realizar absorção quando aplicável.
+* **Oposição** representa a resistência ativa ao ataque do PJ;
+* **Ameaça** representa a ofensiva do NPC contra o PJ;
+* **Consequência** registra o dano causado pela ameaça;
+* **Integridade** registra quanto o Obstáculo ainda suporta naquela frente;
+* **Limiar de Efetividade** representa a antiga RD/soak comprimido.
 
-Para preservar a experiência do jogador, quando um PJ ataca:
+Quando o PJ ataca, suas rolagens próprias de M20 permanecem reconhecíveis, inclusive o dano quando aplicável. Depois de produzido o Impacto, o Limiar reduz o que efetivamente alcança a Integridade.
 
-* o jogador continua usando sua parada e sua dificuldade apropriadas;
-* continua rolando dano quando M20 mandar;
-* sucessos excedentes continuam tendo o efeito correspondente;
-* tipo de dano continua importando.
+A questão ainda aberta é **calibração**, não arquitetura: precisamos verificar quais valores de Limiar reproduzem adequadamente paradas de soak distintas sem exigir que o ST volte a rolá-las.
 
-O problema a resolver está **atrás do escudo**: como representar defesa e absorção do NPC sem rolar suas paradas completas.
-
-### RD fixa: hipótese, não solução homologada
-
-A versão anterior propunha substituir a absorção do NPC por uma **Resistência a Dano fixa (RD)**. Isso reduz operações, mas uma absorção fixa não possui a mesma distribuição de uma parada de absorção rolada.
-
-Portanto, dano/absorção exige um estudo matemático próprio, equivalente ao que foi feito para oposição resistida. Precisamos testar, entre outras possibilidades:
-
-* absorção média fixa;
-* absorção fixa + pequena fonte de variância;
-* tabela compacta por parada de soak;
-* outra transformação que preserve melhor a distribuição sem devolver ao ST uma parada completa.
-
-Até essa auditoria existir, RD fixa permanece apenas uma hipótese de compressão.
-
----
+O antigo uso de Limiar 2/3 como simples “chefe ignora 1 sucesso” deve ser lido corretamente: o Limiar representa **resistência**, não status narrativo. Ele só deve ser alto quando a ficha original, equipamento, proteção ou ficção justificar resistência equivalente.
 
 ## 🧠 5. Conflitos Sociais e Intelectuais
 
@@ -124,15 +132,22 @@ Um resultado marginal de 1 sucesso não deve ser apagado automaticamente por uma
 
 ## 🚪 6. Limiar de Efetividade e Efeito Zero
 
-O conceito de **Efeito Zero** continua útil, mas precisa ser aplicado de forma mais restrita.
+**Limiar de Efetividade** é um valor geral de resistência. Ele pode reduzir o Impacto de uma ação bem-sucedida até zero.
 
-Uma ação causa Efeito Zero quando **não possui, pela ficção ou pelas regras de M20, capacidade de afetar aquele alvo ou objetivo**. Exemplos posteriores podem incluir uma entidade incorpórea diante de um ataque puramente mundano ou uma barreira cuja natureza exige determinada abordagem.
+Isso é diferente de dizer que a ação “falhou”.
 
-Efeito Zero não deve funcionar como uma proteção genérica de “chefes” contra resultados de 1 sucesso. Se 1 sucesso seria capaz de produzir efeito em M20, ele continua sendo um sucesso marginal que move a ficção.
+Exemplos:
 
-Da mesma forma, um Limiar pode existir quando representa uma exigência real do sistema ou da ficção, mas não deve ser adicionado apenas para evitar o chamado “efeito picada de mosquito”.
+* um golpe acerta o HIT Mark, mas a proteção absorve todo o dano;
+* uma tentativa social consegue uma concessão mínima, mas não reduz ainda a posição institucional do alvo;
+* uma intrusão encontra uma brecha, mas a camada criptográfica impede avanço no núcleo protegido.
 
----
+**Efeito Zero por impossibilidade** é um caso mais forte: a ação não possui sequer capacidade de afetar o alvo daquela forma, como um ataque mundano contra uma entidade efêmera desmaterializada.
+
+Assim:
+
+* **Limiar de Efetividade** = resistência quantitativa após uma ação válida;
+* **Efeito Zero por impossibilidade** = a abordagem não pode produzir aquele tipo de Impacto sem mudar as condições.
 
 ## 🎯 7. O que a Estrutura Multidimensional Realmente Acrescenta
 
@@ -172,7 +187,7 @@ A redução operacional só é bem-sucedida se vier sem perda relevante da exper
 
 Após este estudo, duas questões permanecem especialmente importantes:
 
-1. **Dano e absorção:** encontrar uma compressão do lado do NPC que preserve adequadamente o comportamento das paradas de dano/soak de M20.
+1. **Calibração do Limiar de Efetividade:** converter de forma confiável Vigor/armadura/soak e resistências equivalentes para o valor achatado.
 2. **Recursos e entidades não humanas:** verificar se Vitalidade, Essência, Gnose, Vontade, armaduras, imunidades e outras reservas podem ser simplificadas sem transformar sua função original.
 
 Essas perguntas devem acompanhar os estudos seguintes e retroagir sobre este documento sempre que uma solução posterior for validada.
