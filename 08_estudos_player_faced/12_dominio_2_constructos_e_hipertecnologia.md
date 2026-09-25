@@ -234,7 +234,7 @@ A interface do ST pode resumir:
 
     Características:
     [Primium]
-    [Contramágika 5d]
+    [Contramágika Inata 5d — operação geral pendente de consolidação da regra original]
     [Sensores especiais]
     [Armas integradas]
 
@@ -248,7 +248,9 @@ A interface do ST pode resumir:
 Oposição resistida pode usar provisoriamente a conversão estudada.
 A ficha achatada já oferece **Consequência** para o dano causado e **Limiar de Efetividade** para a resistência do constructo. Para soak, já existe baseline experimental: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
 
-A principal lacuna ofensiva passa a ser a operação conjunta de **Ameaça + Consequência** em ações persistentes, sobretudo quando o alvo não possui defesa ativa. Contramágika continua dependendo de tradução própria.
+A principal lacuna ofensiva passa a ser a operação conjunta de **Ameaça + Consequência** em ações persistentes, sobretudo quando o alvo não possui defesa ativa.
+
+Para contramágika, o Estudo 14 estabelece uma regra mais precisa: pools explícitos como os de Primium permanecem registrados na ficha; quando a fonte original determinar que seus sucessos cancelam sucessos do Efeito, eles podem ser tratados como Oposição. Como a bíblia ainda não consolidou a regra geral de contramágika, não se inventa uma operação universal.
 
 ### Gate
 
