@@ -230,12 +230,12 @@ A redução operacional só é bem-sucedida se vier sem perda relevante da exper
 
 ---
 
-## 9. Próxima Dívida de Pesquisa
+## 9. Estado das dívidas após os estudos posteriores
 
-Após este estudo, duas questões permanecem especialmente importantes:
+Os Estudos 14–21 fecharam várias das questões que ainda estavam abertas quando este capítulo foi escrito. O estado atual é:
 
 1. **Ameaças ofensivas com defesa ativa:** continuar refinando a compressão onde já existe rolagem do jogador.
-2. **Ameaça + Consequência sem defesa ativa:** tratar como limite de fidelidade; preservar a operação original do ST se nenhuma transformação equivalente existir.
+2. **Ameaça + Consequência sem defesa ativa:** **resolvido por limite de fidelidade**; preserva-se a operação original do ST quando não existe transformação equivalente sem custo para o jogador.
 3. **Recursos e entidades não humanas:** verificar se Vitalidade, Essência, Gnose, Vontade, armaduras, imunidades e outras reservas podem ser simplificadas sem transformar sua função original.
 
 Essas perguntas devem acompanhar os estudos seguintes e retroagir sobre este documento sempre que uma solução posterior for validada.
