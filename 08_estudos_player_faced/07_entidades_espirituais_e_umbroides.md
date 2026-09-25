@@ -76,10 +76,11 @@ Ele continua sendo representado por:
 
 A camada player-facing precisa responder, operação por operação:
 
-* como substituir uma rolagem de Força de Vontade defensiva;
-* como resolver a ofensiva baseada em Fúria sem o ST rolar;
-* como preservar efeitos de Gnose/Encantos;
-* como manter Essência como saúde/recurso sem convertê-la arbitrariamente em um relógio menor.
+* Força de Vontade defensiva pode alimentar Oposição;
+* Força de Vontade usada como soak pode alimentar Limiar de Efetividade;
+* Fúria ofensiva pode permanecer rolagem do ST quando não houver reação equivalente do PJ;
+* Gnose e Encantos devem ser tratados conforme a função específica;
+* Essência permanece saúde/recurso e não é comprimida arbitrariamente.
 
 ### Nível 3 — Ação Espiritual Telegrafada / Alto Impacto
 
@@ -114,13 +115,13 @@ Isso cria três problemas de conversão diferentes.
 
 Não deve ser substituído automaticamente por “4 de dano fixo”.
 
-A rolagem de Fúria possui distribuição própria e precisa ser tratada no estudo de **dano e consequência** aberto pelo Estudo 06.
+Quando o PJ possui resistência própria, ela é preservada. Quando não possui, a regra de precedência dos Estudos 00/14 se aplica: **a rolagem de Fúria do ST pode permanecer** se eliminá-la exigiria inventar defesa, transferir custo ao jogador ou distorcer demais a distribuição.
 
 ### 4.3. Absorção do espírito
 
-A Força de Vontade usada como soak também possui variância. Transformá-la em RD fixa exige validação matemática própria.
+A Força de Vontade usada como soak pode alimentar o **Limiar de Efetividade**. O baseline experimental geral é 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
 
-Portanto, este estudo reforça a necessidade de não tratar **dano fixo + RD fixa** como equivalência já solucionada.
+Essa aplicação ainda merece validação específica para espíritos, mas já é uma hipótese mais sólida do que a antiga RD fixa arbitrária.
 
 ---
 
@@ -197,4 +198,7 @@ Assim, o caminho mais promissor é:
 * manter as decisões e rolagens dos jogadores segundo M20;
 * aplicar Efeito Zero apenas quando houver impossibilidade real;
 * usar telegrafia para Encantos e ações de alto impacto quando sua causalidade justificar;
-* adiar qualquer compressão de Fúria, soak ou Essência até que dano, absorção e recursos sejam auditados matematicamente.
+* preservar Essência;
+* usar o baseline de Limiar para Vontade/soak como hipótese experimental;
+* manter Fúria/Gnose no ST quando necessário por fidelidade;
+* classificar Encantos por função em vez de convertê-los todos para a mesma gramática.
