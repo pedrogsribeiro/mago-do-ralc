@@ -351,3 +351,17 @@ Também identifica exatamente onde a promessa de equivalência ainda quebra:
 > **combate e subsistemas nos quais a aleatoriedade reside exclusivamente numa rolagem do Storyteller.**
 
 Essas dívidas devem orientar os estudos seguintes antes de qualquer capítulo afirmar que a conversão está completa.
+
+
+---
+
+## 15. Propagação do Estudo 20 — Obstáculos sistêmicos
+
+Paradoxo, Silêncio e Zonas de Realidade fornecem exemplos de Obstáculos sistêmicos que não precisam de ficha de NPC:
+
+* **Paradoxo** acumula e pode gerar Reação rolada pelo ST;
+* **Silêncio** possui reserva persistente reduzida pelos sucessos do próprio PJ;
+* **Zona de Realidade** altera condições e classificação de mágika;
+* **Desafio da Realidade** já é resolvido por rolagem do jogador.
+
+Isso reforça que “Obstáculo” é linguagem de organização, não obrigação de converter tudo em Oposição/Ameaça/Relógio.
