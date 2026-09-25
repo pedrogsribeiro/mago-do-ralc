@@ -418,3 +418,15 @@ Teia Digital confirma outro caso em que a melhor tradução é preservar o proce
 * ICE não recebe uma ficha genérica sem base na regra original.
 
 Isso reforça que a dimensão Mental/Técnico ou Mágicko funciona como índice operacional, não como substituta de Computação, Arete ou Correspondência/Dados.
+
+
+---
+
+## 15. Propagação do Estudo 18 — Certámen
+
+O Certámen oferece um exemplo normativo da diferença entre:
+
+* **defesa ativa por sucessos** → Aegis / Oposição;
+* **resistência passiva** → Limiar de Efetividade.
+
+O Locus deve ser preservado como reserva canônica de Quintessência. Gladius do PJ e Aegis do PJ permanecem intactos. Quando o PJ não escolhe Aegis contra Gladius do NPC, não se cria uma reação gratuita; a rolagem do ST pode permanecer por fidelidade.
