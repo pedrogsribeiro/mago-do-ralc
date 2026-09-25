@@ -432,3 +432,22 @@ Preservar defesa ativa + soak foi a melhor aproximação entre os modelos testad
 Quando não existe defesa ativa, o problema é estrutural: M20 possui variância em ataque e dano no lado do NPC, enquanto o jogador pode não possuir nenhuma rolagem anterior ao soak — e alguns tipos de dano sequer permitem soak. Uma compressão totalmente determinística necessariamente elimina parte dessa variância.
 
 Essa é a principal dívida matemática ainda aberta da ficha achatada.
+
+
+---
+
+## 9. Teorema prático de conservação da aleatoriedade
+
+As auditorias de Ameaça + Consequência expuseram um limite estrutural do projeto.
+
+Quando o procedimento original possui uma variável aleatória exclusivamente do lado do NPC e não existe rolagem correspondente do jogador, eliminar a rolagem do ST exige uma de três concessões:
+
+1. **determinizar/comprimir a variável**, alterando sua distribuição;
+2. **criar ou reaproveitar uma rolagem do jogador**, alterando seu procedimento ou economia de ações;
+3. **transferir a própria rolagem do NPC ao jogador**, preservando a matemática mas transferindo carga operacional e informação.
+
+Nenhuma dessas opções preserva simultaneamente distribuição, procedimento do jogador e zero rolagens do ST.
+
+Logo, sob a hierarquia definida no Estudo 00, a solução conservadora é manter a operação original do Storyteller nos casos em que nenhuma transformação player-facing suficientemente fiel foi demonstrada.
+
+Isso não invalida a ficha achatada: **Ameaça** e **Consequência** continuam reduzindo consulta e reconstrução de ficha. O que deixa de ser prometido é que todo campo comprimido necessariamente elimine toda rolagem do ST.
