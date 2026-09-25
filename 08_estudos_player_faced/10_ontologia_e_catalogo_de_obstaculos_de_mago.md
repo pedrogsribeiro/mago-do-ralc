@@ -150,7 +150,7 @@ Esses procedimentos atravessam várias famílias e não devem ser confundidos co
 15. **Quintessência e Paradoxo** — Quintessência permanece no jogador; Reação de Paradoxo pode exigir rolagem do ST por fidelidade;
 16. **Quiet/Silêncio;**
 17. **Zonas de Realidade e Consenso;**
-18. **veículos, colisões e perseguições;**
+18. **veículos, colisões e perseguições** — perseguições são estendidas-resistidas e podem usar Relógio de posição; colisões e dano veicular ainda dependem de regra original consolidada;
 19. **Teia Digital, hacking e ICE** — testes simples/estendidos podem ser preservados; oposição ativa usa a arquitetura geral; feedback é Consequência; ICE ainda depende de regra original consolidada;
 20. **Umbra, Película, espíritos e Encantos** — Vontade pode alimentar Oposição/Limiar; Fúria/Gnose podem permanecer no ST quando necessário; Encantos são classificados por função;
 21. **objetos, Durability e Structure;**
