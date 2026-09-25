@@ -365,3 +365,18 @@ Paradoxo, Silêncio e Zonas de Realidade fornecem exemplos de Obstáculos sistê
 * **Desafio da Realidade** já é resolvido por rolagem do jogador.
 
 Isso reforça que “Obstáculo” é linguagem de organização, não obrigação de converter tudo em Oposição/Ameaça/Relógio.
+
+
+---
+
+## 16. Propagação do Estudo 21 — Perigos ambientais
+
+Perigos ambientais confirmam que Obstáculos sem agência frequentemente não precisam de conversão:
+
+* fogo impõe dano automático e testes específicos quando aplicáveis;
+* quedas usam dano por altura e soak do PJ;
+* fome/sede/sufocamento usam limites temporais e dano automático;
+* toxinas usam Vigor do PJ para reduzir dano;
+* radiação preserva dano e efeitos próprios.
+
+Relógios podem representar tempo/exposição quando isso já existir na regra, mas não substituem dano, Vitalidade ou tipos de dano.
