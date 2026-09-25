@@ -144,7 +144,7 @@ Isso preserva a formulação de telegrafia construída no Estudo 03.
 | Situação | Procedimentos principais |
 | :--- | :--- |
 | Objeto passivo | ataque/dano contra objeto, Durability, Structure |
-| Sistema ativo | testes simples/resistidos/estendidos, hacking, gatilhos, consequência |
+| Sistema ativo | testes simples/resistidos/estendidos, hacking, gatilhos, consequência; Teia Digital/ICE conforme Estudo 16 |
 | Constructo-agente | iniciativa, Oposição, Ameaça, Consequência, Limiar de Efetividade, Vitalidade, poderes |
 | Sistema hipertecnológico | Arete/Iluminação, Quintessência, contramágika, procedimentos |
 | Veículo | condução, perseguição, colisão, dano estrutural |
@@ -295,3 +295,19 @@ A principal contribuição deste domínio é mostrar um caso em que a filosofia 
 A melhor simplificação para muitos objetos não é convertê-los.
 
 É **reconhecer que M20 já os modela de modo quase player-facing e colocar essa regra dentro da gramática geral de Obstáculos.**
+
+
+---
+
+## 12. Propagação do Estudo 16
+
+Teia Digital e hacking refinam a classificação deste domínio:
+
+* **servidor passivo** → sistema/Obstáculo sem agência;
+* **operador rival** → agente com Oposição;
+* **ICE com ficha e ações próprias** → constructo-agente;
+* **ICE como barreira/protocolo** → sistema ativo/passivo;
+* **feedback** → Consequência física;
+* **hacking estendido** → pode usar Relógio apenas como interface dos sucessos exigidos.
+
+A bíblia ainda precisa consolidar o procedimento completo de ICE antes que este domínio ofereça conversão universal para combate virtual.
