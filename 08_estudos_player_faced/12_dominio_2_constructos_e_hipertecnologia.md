@@ -310,7 +310,7 @@ Teia Digital e hacking refinam a classificação deste domínio:
 * **feedback** → Consequência física;
 * **hacking estendido** → pode usar Relógio apenas como interface dos sucessos exigidos.
 
-A bíblia ainda precisa consolidar o procedimento completo de ICE antes que este domínio ofereça conversão universal para combate virtual.
+A consolidação posterior da Teia Digital mostrou que não há necessidade de uma “conversão universal de ICE”. Segurança digital deve ser classificada pela natureza: barreira/sistema, sysadmin/agente, programa ativo/constructo-agente ou ameaça sistêmica como Whiteout.
 
 
 ---
