@@ -128,14 +128,15 @@ Ainda precisa validação prática em pools altos e subsistemas especiais.
 
 ---
 
-### D. Bloqueado por lacuna documental
+### D. Verificação de fonte e casos específicos
 
-Pontos em que o repositório atual não traz regra original suficiente para homologar uma tradução completa:
+A recuperação ampla de regras-fonte deixou de ser um bloqueio arquitetural. Restam:
 
-* procedimentos individuais de alguns Encantos;
-* alguns efeitos especiais de Maravilhas/Fetiches.
+* procedimentos individuais dos **Encantos escolhidos como exemplos ou conteúdo final**;
+* efeitos especiais de Maravilhas/Fetiches que venham a ser usados no produto;
+* conferência final de números e detalhes contra as cópias licenciadas/possuídas de M20 e suplementos efetivamente incluídos no escopo.
 
-Esses itens precisam ser recuperados da fonte primária/licenciada usada pelo projeto antes do texto comercial.
+Esses pontos são trabalho editorial e de verificação de fonte, não descoberta de uma nova arquitetura.
 
 ---
 
@@ -247,7 +248,7 @@ O próximo passo não é abrir Estudo 22.
 
 É executar uma **fase de fechamento**:
 
-1. recuperar as regras-fonte ausentes;
+1. concluir a conferência das fontes que realmente entrarão no produto;
 2. fechar validações matemáticas;
 3. atualizar a bíblia quando necessário;
 4. rodar playtests dirigidos;
