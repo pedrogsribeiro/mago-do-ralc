@@ -155,7 +155,7 @@ Esses procedimentos atravessam várias famílias e não devem ser confundidos co
 20. **Umbra, Película, espíritos e Encantos** — Vontade pode alimentar Oposição/Limiar; Fúria/Gnose podem permanecer no ST quando necessário; Encantos são classificados por função;
 21. **objetos, Durability e Structure;**
 22. **Maravilhas, Fetiches, Talismãs e Dispositivos;**
-23. **Certámen e outros duelos estruturados;**
+23. **Certámen e outros duelos estruturados** — Locus preservado como Integridade, Gladius do PJ preservado, Aegis como defesa ativa/Oposição;
 24. **perigos ambientais: quedas, fogo, explosões, radiação, toxinas, doenças, fome, sede, sufocamento e vácuo.**
 
 A futura auditoria precisa cruzar as duas camadas.
