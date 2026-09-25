@@ -152,7 +152,7 @@ Esses procedimentos atravessam várias famílias e não devem ser confundidos co
 17. **Zonas de Realidade e Consenso;**
 18. **veículos, colisões e perseguições;**
 19. **Teia Digital, hacking e ICE;**
-20. **Umbra, Película, espíritos e Encantos;**
+20. **Umbra, Película, espíritos e Encantos** — Vontade pode alimentar Oposição/Limiar; Fúria/Gnose podem permanecer no ST quando necessário; Encantos são classificados por função;
 21. **objetos, Durability e Structure;**
 22. **Maravilhas, Fetiches, Talismãs e Dispositivos;**
 23. **Certámen e outros duelos estruturados;**
