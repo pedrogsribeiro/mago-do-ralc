@@ -82,7 +82,9 @@ O NPC continua agindo em sua iniciativa e declarando suas ações. **Ameaça** r
 
 Quando o PJ possui uma defesa ativa, a melhor linha testada até aqui é preservar essa rolagem do jogador e converter a competência ofensiva do NPC atrás do escudo. Isso é promissor em ameaças fracas e médias, mas ainda perde fidelidade em pools altos.
 
-Quando o PJ **não possui defesa ativa**, Ameaça continua sendo necessária na ficha, mas sua operação matemática ainda está aberta: não existe uma rolagem do jogador que carregue naturalmente toda a variância que M20 colocava no ataque do NPC.
+Quando o PJ **não possui defesa ativa**, Ameaça continua sendo necessária na ficha, mas não existe uma rolagem do jogador que carregue naturalmente toda a variância que M20 colocava no ataque do NPC. As auditorias mostraram que inventar uma defesa gratuita ou reduzir ataque+dano a uma Consequência fixa altera materialmente a experiência.
+
+Sob o critério de fidelidade do Estudo 00, esse é um caso em que a rolagem ofensiva original do ST pode precisar ser preservada.
 
 ### Consequência
 
@@ -232,8 +234,8 @@ A redução operacional só é bem-sucedida se vier sem perda relevante da exper
 
 Após este estudo, duas questões permanecem especialmente importantes:
 
-1. **Ameaça + Consequência sem defesa ativa:** encontrar uma forma de retirar ataque+dano do ST sem conceder defesa gratuita ao PJ nem apagar demais a variância original.
-2. **Ameaças ofensivas muito fortes:** melhorar a fidelidade da conversão quando ataque e dano originais entram nas faixas altas.
+1. **Ameaças ofensivas com defesa ativa:** continuar refinando a compressão onde já existe rolagem do jogador.
+2. **Ameaça + Consequência sem defesa ativa:** tratar como limite de fidelidade; preservar a operação original do ST se nenhuma transformação equivalente existir.
 3. **Recursos e entidades não humanas:** verificar se Vitalidade, Essência, Gnose, Vontade, armaduras, imunidades e outras reservas podem ser simplificadas sem transformar sua função original.
 
 Essas perguntas devem acompanhar os estudos seguintes e retroagir sobre este documento sempre que uma solução posterior for validada.
