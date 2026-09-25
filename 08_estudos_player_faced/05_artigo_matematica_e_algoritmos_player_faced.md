@@ -451,3 +451,47 @@ Nenhuma dessas opções preserva simultaneamente distribuição, procedimento do
 Logo, sob a hierarquia definida no Estudo 00, a solução conservadora é manter a operação original do Storyteller nos casos em que nenhuma transformação player-facing suficientemente fiel foi demonstrada.
 
 Isso não invalida a ficha achatada: **Ameaça** e **Consequência** continuam reduzindo consulta e reconstrução de ficha. O que deixa de ser prometido é que todo campo comprimido necessariamente elimine toda rolagem do ST.
+
+
+---
+
+## 10. Auditoria de botch e ordem de resolução
+
+A validação final identificou um problema que não aparecia quando se comparavam apenas sucesso/falha: elevar diretamente a dificuldade do PJ para representar Oposição também eleva sua chance de **botch**.
+
+Isso é uma distorção, porque na ação resistida clássica:
+
+1. o PJ faz sua própria rolagem;
+2. o botch pertence a essa rolagem;
+3. só depois os sucessos do oponente cancelam sucessos do PJ.
+
+### Correção
+
+A conversão de Oposição passa a preservar essa ordem:
+
+```
+rolagem do PJ
+→ julgar botch pela dificuldade-base original
+→ se não houve botch, aplicar a compressão da Oposição
+→ dificuldade equivalente + Limiar oculto
+→ determinar sucessos líquidos
+```
+
+Essa leitura permite manter a tabela regular já usada nos Estudos 02/09 sem aumentar artificialmente a frequência de falhas críticas.
+
+### Resultado exato no espaço auditado
+
+Para PJs de 2–10 dados contra NPCs de 2–12 dados:
+
+* TV média agregada da tabela regular: **~6,75%**;
+* pior TV por par observado: **~15,05%**;
+* viés médio absoluto de chance de sucesso por faixa de NPC: **~2,7 pontos percentuais**;
+* erro de botch: **essencialmente zero**.
+
+A alternativa de usar apenas D6 + Limiar oculto preserva botch naturalmente, mas piora a aproximação para cerca de **8% de TV média** e produz casos próximos de **19%**.
+
+### Estado
+
+A tabela regular atual permanece a candidata principal para playtest perceptual.
+
+Ela ainda não é declarada equivalência exata; o gate restante é **experiencial**, não mais correção de botch.
