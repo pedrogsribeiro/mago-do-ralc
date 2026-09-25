@@ -239,3 +239,18 @@ Após este estudo, duas questões permanecem especialmente importantes:
 3. **Recursos e entidades não humanas:** verificar se Vitalidade, Essência, Gnose, Vontade, armaduras, imunidades e outras reservas podem ser simplificadas sem transformar sua função original.
 
 Essas perguntas devem acompanhar os estudos seguintes e retroagir sobre este documento sempre que uma solução posterior for validada.
+
+
+---
+
+## 10. Propagação do Estudo 18 — Certámen
+
+O Certámen confirma uma distinção importante da ficha achatada:
+
+* **Aegis é defesa ativa**, portanto pertence à família de Oposição/cancelamento de sucessos;
+* **Limiar de Efetividade é resistência passiva**, portanto não deve substituir Aegis;
+* **Locus** já funciona como Integridade canônica;
+* **1 sucesso de Gladius reduz 1 ponto do Locus**;
+* ausência de Aegis não concede defesa gratuita.
+
+Isso reforça que defesa ativa e Limiar de Efetividade são funções diferentes e não devem ser fundidas.
