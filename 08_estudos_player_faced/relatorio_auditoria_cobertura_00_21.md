@@ -132,7 +132,6 @@ Ainda precisa validação prática em pools altos e subsistemas especiais.
 
 Pontos em que o repositório atual não traz regra original suficiente para homologar uma tradução completa:
 
-* ICE detalhado;
 * colisões veiculares;
 * dano estrutural veicular específico;
 * explosões detalhadas;
@@ -164,7 +163,7 @@ Esses itens precisam ser recuperados da fonte primária/licenciada usada pelo pr
 | 13 | Umbra | Resolvido; validação/documentação específica |
 | 14 | mágika/contramágika | Regra geral recuperada; compressões ainda precisam validação e conferência de fonte |
 | 15 | espíritos/Encantos | Resolvido; Encantos específicos bloqueados quando ausentes |
-| 16 | Teia Digital | Resolvido parcialmente; ICE bloqueado |
+| 16 | Teia Digital | Resolvido por classificação funcional; números/fonte final precisam conferência |
 | 17 | veículos/perseguições | Perseguição resolvida; colisões bloqueadas |
 | 18 | Certámen | Resolvido |
 | 19 | Maravilhas | Resolvido por composição |
@@ -198,7 +197,6 @@ O trabalho restante se divide em quatro frentes:
 
 Completar na bíblia:
 
-* ICE;
 * colisões;
 * explosões;
 * doenças;
