@@ -6,7 +6,9 @@ tags: [srd, design, player-faced, probabilidade, d10, regras, obstaculos]
 
 # Estudo 01: Rolagens de Obstáculo e Matemática Base (Player-Faced M20)
 
-Este documento estabelece a base mecânica e probabilística para o modelo **100% Player-Faced** aplicado a *Mago: A Ascensão 20 Anos*. Neste sistema, **apenas os jogadores rolam dados**; o Narrador (Storyteller) gerencia a ficção, os perigos e as consequências.
+Este documento estabelece a base mecânica e probabilística para a resolução **player-facing** aplicada a *Mago: A Ascensão 20 Anos*. Nos procedimentos cobertos por este estudo, a incerteza fica inteiramente na rolagem do jogador; o Narrador gerencia a ficção, os perigos e as consequências.
+
+Estudos posteriores mostraram que essa propriedade não pode ser universalizada sem custo: quando a regra original contém aleatoriedade exclusivamente do lado do Storyteller e não existe uma rolagem equivalente do jogador, a fidelidade ao M20 tem precedência sobre a meta de “zero dados do ST”.
 
 ---
 
