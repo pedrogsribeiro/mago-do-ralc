@@ -147,7 +147,7 @@ Isso preserva a formulação de telegrafia construída no Estudo 03.
 | Sistema ativo | testes simples/resistidos/estendidos, hacking, gatilhos, consequência; Teia Digital/ICE conforme Estudo 16 |
 | Constructo-agente | iniciativa, Oposição, Ameaça, Consequência, Limiar de Efetividade, Vitalidade, poderes |
 | Sistema hipertecnológico | Arete/Iluminação, Quintessência, contramágika, procedimentos |
-| Veículo | condução, perseguição, colisão, dano estrutural |
+| Veículo | perseguição estendida-resistida; colisão e dano estrutural dependem de regra veicular específica |
 
 Isso deixa claro por que “constructos e hipertecnologia” não podem ser comprimidos por uma única tabela.
 
@@ -311,3 +311,15 @@ Teia Digital e hacking refinam a classificação deste domínio:
 * **hacking estendido** → pode usar Relógio apenas como interface dos sucessos exigidos.
 
 A bíblia ainda precisa consolidar o procedimento completo de ICE antes que este domínio ofereça conversão universal para combate virtual.
+
+
+---
+
+## 13. Propagação do Estudo 17
+
+Veículos precisam ser separados em duas funções:
+
+* **perseguição** → conflito de posição estendido-resistido;
+* **veículo como objeto** → integridade/dano estrutural conforme regra original.
+
+O Relógio de perseguição representa **posição**, não Structure. Colisão abre um procedimento separado, ainda não consolidado na bíblia atual.
