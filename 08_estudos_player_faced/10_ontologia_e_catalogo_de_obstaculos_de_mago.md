@@ -156,7 +156,7 @@ Esses procedimentos atravessam várias famílias e não devem ser confundidos co
 21. **objetos, Durability e Structure;**
 22. **Maravilhas, Fetiches, Talismãs e Dispositivos** — Bugigangas passivas; Matrizes como reserva; Talismãs usam Arete próprio; Fetiches preservam FV vs Gnose; criação é estendida;
 23. **Certámen e outros duelos estruturados** — Locus preservado como Integridade, Gladius do PJ preservado, Aegis como defesa ativa/Oposição;
-24. **perigos ambientais** — fogo, quedas, fome, sede, sufocamento, radiação, toxinas e climas hostis já são majoritariamente player-facing; explosões/doenças detalhadas ainda dependem de regra original consolidada.
+24. **perigos ambientais** — fogo, quedas, fome, sede, sufocamento, radiação, toxinas, explosões, doenças e climas hostis já possuem arquitetura player-facing; tabelas/números finais precisam conferência de fonte.
 
 A futura auditoria precisa cruzar as duas camadas.
 
