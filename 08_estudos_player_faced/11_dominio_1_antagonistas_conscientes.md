@@ -161,8 +161,10 @@ Antagonistas conscientes podem mobilizar vários procedimentos transversais do E
 | Soak/armadura do NPC | **Limiar de Efetividade**; baseline experimental disponível |
 | Vitalidade | Preservada por enquanto |
 | Força de Vontade | Preservada |
-| Arete/Esferas | Preservados |
-| Contramágika | Preservada até tradução específica |
+| Arete/Esferas | Preservados; conjuração do PJ já é naturalmente player-facing |
+| Contramágika | Candidata a Oposição quando cancela sucessos explicitamente; regra geral ainda não consolidada |
+| Mágika ofensiva do NPC sem reação do PJ | Preservar rolagem do ST quando necessário por fidelidade |
+| Reação de Paradoxo | Preservar rolagem do ST |
 | Telegrafia | Aplicável a ações de alto impacto |
 
 Isso deixa claro que o domínio **não está mecanicamente fechado**, embora sua arquitetura de representação já esteja.
@@ -287,7 +289,7 @@ armadura
 Quintessência/Paradoxo conforme ficha/situação
 ```
 
-**Gate:** a lente funciona; a ficha mágicka precisa continuar acessível. Um antagonista assim só poderá ser totalmente convertido quando ataque, contramágika, dano, soak e mágika do lado do ST tiverem traduções demonstradas.
+**Gate:** a lente funciona; a ficha mágicka precisa continuar acessível. A conjuração do próprio PJ não precisa ser redesenhada. Para o antagonista, contramágika pode ser comprimida quando sua operação original por cancelamento estiver documentada; mágika hostil sem reação equivalente do PJ pode continuar exigindo rolagem do ST por fidelidade.
 
 ---
 
