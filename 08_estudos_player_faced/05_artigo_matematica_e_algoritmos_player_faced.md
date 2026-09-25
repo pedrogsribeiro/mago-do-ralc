@@ -409,13 +409,14 @@ A auditoria exata de soak encontrou a seguinte curva operacional promissora:
 
 | Soak original | Limiar de Efetividade experimental |
 | :---: | :---: |
-| 0–1d | 0 |
+| 0d | 0 |
+| 1d | preservar rolagem |
 | 2–3d | 1 |
 | 4–6d | 2 |
 | 7–9d | 3 |
 | 10d | 4 |
 
-O caso de **1d** é o mais imperfeito: uma redução fixa não reproduz bem uma rolagem tão pequena. Isso deve ser tratado como aproximação deliberada.
+O caso de **1d** é o mais imperfeito: Limiar 0 elimina toda a proteção e Limiar 1 a torna excessivamente estável. A solução de fidelidade adotada para o baseline é **preservar a rolagem de 1d**, cujo custo operacional é mínimo.
 
 ### Ameaça + Consequência
 
