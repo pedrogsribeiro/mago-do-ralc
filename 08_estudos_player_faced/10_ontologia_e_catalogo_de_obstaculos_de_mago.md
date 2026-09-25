@@ -154,7 +154,7 @@ Esses procedimentos atravessam várias famílias e não devem ser confundidos co
 19. **Teia Digital, hacking e ICE** — testes simples/estendidos podem ser preservados; oposição ativa usa a arquitetura geral; feedback é Consequência; ICE ainda depende de regra original consolidada;
 20. **Umbra, Película, espíritos e Encantos** — Vontade pode alimentar Oposição/Limiar; Fúria/Gnose podem permanecer no ST quando necessário; Encantos são classificados por função;
 21. **objetos, Durability e Structure;**
-22. **Maravilhas, Fetiches, Talismãs e Dispositivos;**
+22. **Maravilhas, Fetiches, Talismãs e Dispositivos** — Bugigangas passivas; Matrizes como reserva; Talismãs usam Arete próprio; Fetiches preservam FV vs Gnose; criação é estendida;
 23. **Certámen e outros duelos estruturados** — Locus preservado como Integridade, Gladius do PJ preservado, Aegis como defesa ativa/Oposição;
 24. **perigos ambientais: quedas, fogo, explosões, radiação, toxinas, doenças, fome, sede, sufocamento e vácuo.**
 
