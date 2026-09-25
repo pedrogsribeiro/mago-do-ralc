@@ -386,3 +386,19 @@ Depois disso, o próximo subsistema mais natural é **espíritos/Encantos**, por
 * o que já é resistência player-facing;
 * o que usa Fúria/Gnose no lado do ST;
 * e o que deve permanecer como exceção de fidelidade.
+
+
+---
+
+## 13. Propagação do Estudo 15
+
+O domínio espiritual fornece um caso concreto para as regras deste estudo:
+
+* resistência do PJ por **Arete/Espírito** ou **Avatar** já é player-facing e deve ser preservada;
+* **Fúria** pode permanecer rolagem do ST quando não existe reação equivalente do jogador;
+* **Força de Vontade** defensiva pode alimentar Oposição;
+* **Força de Vontade** como soak pode alimentar Limiar de Efetividade;
+* **Gnose** permanece parada-fonte e é tratada conforme o Encanto;
+* Encantos de estado, portal, controle e consequência direta exigem tratamentos distintos.
+
+Isso confirma que “mágika” e “Encantos” não devem receber uma única mecânica universal de conversão.
