@@ -107,7 +107,7 @@ A ficha achatada já prevê o ciclo de combate do antagonista:
 
 Portanto, ataque, dano e soak **não são lacunas de arquitetura**.
 
-O Limiar de Efetividade já possui uma curva experimental útil para soak. A dívida principal passou a ser **Ameaça + Consequência em ações ofensivas persistentes**, sobretudo quando o PJ não declarou defesa ativa.
+O Limiar de Efetividade já possui uma curva experimental útil para soak. Em ações ofensivas persistentes **sem defesa ativa/reação equivalente do PJ**, a regra posterior de fidelidade preserva a rolagem necessária do ST; isso deixou de ser uma dívida de arquitetura.
 
 Vitalidade e outros recursos não devem ser comprimidos arbitrariamente quando sua função canônica ainda importa.
 
@@ -155,9 +155,9 @@ Antagonistas conscientes podem mobilizar vários procedimentos transversais do E
 | Ações múltiplas | Preservadas |
 | Ataque do PJ | Preservado |
 | Defesa ativa do NPC | Conversão ainda em calibração |
-| Ataque do NPC | **Ameaça**; promissora com defesa ativa, aberta sem defesa ativa |
+| Ataque do NPC | **Ameaça**; comprimir quando houver âncora na rolagem do PJ; preservar ST quando não houver |
 | Dano do PJ | Preservado |
-| Dano do NPC | **Consequência**; ainda não equivalente universalmente a dano rolado |
+| Dano do NPC | **Consequência** registra o impacto; a rolagem original pode permanecer quando necessária |
 | Soak/armadura do NPC | **Limiar de Efetividade**; baseline experimental disponível |
 | Vitalidade | Preservada por enquanto |
 | Força de Vontade | Preservada |
@@ -167,7 +167,7 @@ Antagonistas conscientes podem mobilizar vários procedimentos transversais do E
 | Reação de Paradoxo | Preservar rolagem do ST |
 | Telegrafia | Aplicável a ações de alto impacto |
 
-Isso deixa claro que o domínio **não está mecanicamente fechado**, embora sua arquitetura de representação já esteja.
+O domínio está **arquitetonicamente fechado como método híbrido**. O que permanece experimental são algumas conversões probabilísticas e o que permanece documentalmente incompleto são subsistemas específicos como contramágika geral.
 
 ---
 
@@ -354,4 +354,4 @@ Ele agora entrega:
 * mapa explícito dos procedimentos já resolvidos e das lacunas;
 * facção como possível Obstáculo macro.
 
-O domínio poderá fornecer fichas finais prontas quando a operação conjunta de **Ameaça + Consequência** estiver resolvida para os casos ofensivos ainda abertos e os subsistemas sobrenaturais pertinentes forem fechados.
+O domínio já pode fornecer fichas de interface coerentes com o método híbrido. Para o texto comercial, ainda será necessário marcar claramente quais valores são baselines experimentais e completar regras-fonte ausentes, como contramágika geral.
