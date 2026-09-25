@@ -187,7 +187,7 @@ A ficha achatada já possui os campos necessários para o combate do NPC:
 O desenho desses campos já existe.
 
 * **Limiar de Efetividade** já possui baseline experimental: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
-* **Ameaça + Consequência** continuam pendentes como transformação universal do pipeline ofensivo do NPC. Com defesa ativa, preservar defesa + soak é promissor; sem defesa ativa, a solução ainda não está fechada.
+* **Ameaça + Consequência** não exigem mais transformação universal. Com defesa ativa, preservar a rolagem do PJ e comprimir a oposição é promissor; sem defesa ativa/reação equivalente, preserva-se a rolagem necessária do ST por fidelidade.
 
 > O **Limiar de Efetividade** não deve ser confundido com o **limiar oculto** usado na investigação matemática da conversão de rolagens resistidas.
 
@@ -295,7 +295,7 @@ Para uma oposição de Furtividade 4d contra a percepção do PJ, o baseline exp
 
 **PASSA para oposição pontual.**
 
-A estrutura de combate **já existe na ficha achatada** por Ameaça, Consequência e Limiar de Efetividade. O que ainda não está fechado é a calibração numérica desses campos contra ataque, dano e soak de M20.
+A estrutura de combate **já existe na ficha achatada** por Ameaça, Consequência e Limiar de Efetividade. A calibração continua necessária apenas nos pontos efetivamente comprimidos; operações unilaterais do ST podem permanecer quando isso preservar melhor M20.
 
 ---
 
@@ -419,9 +419,9 @@ Ao mesmo tempo, ela mostra os limites atuais da pesquisa:
 
 **PASSA como método de compressão informacional.**
 
-**NÃO PASSA ainda como substituição completa das operações do ST.**
+**PASSA como interface operacional híbrida**, desde que não prometa eliminar operações do ST cuja remoção alteraria a experiência.
 
-Isso é exatamente o tipo de NPC que deverá ser usado para validar dano, soak e contramágika antes do fechamento do método.
+Esse é exatamente o tipo de NPC que deve continuar sendo usado para validar Oposição/Limiar e consultar a regra original de contramágika.
 
 ---
 
@@ -476,9 +476,9 @@ A proposta deste capítulo é válida **se entendida como método de extração 
 * classificação da carga da cena;
 * identificação de movimentos telegrafados.
 
-### Ainda impede chamar o método de conversão completa
-* operação de **Ameaça + Consequência** em ataques persistentes do NPC, sobretudo sem defesa ativa;
-* fidelidade de Ameaça/Consequência para pools ofensivos altos;
+### Ainda impede tratar toda compressão como matematicamente homologada
+* fidelidade de Oposição/Ameaça nos casos em que já existe rolagem do PJ e optamos por comprimir o lado do NPC;
+* comportamento dos baselines em pools extremos;
 * refinamento do caso de **1d de soak** no Limiar de Efetividade;
 * alguns efeitos de contramágika;
 * vários subsistemas sobrenaturais.
