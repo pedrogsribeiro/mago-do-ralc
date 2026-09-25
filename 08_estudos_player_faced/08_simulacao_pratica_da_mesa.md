@@ -221,9 +221,11 @@ Portanto, ataque e dano do NPC **não são lacunas arquiteturais**.
 
 ### Resultado do teste
 
-**PASSA COMO ESTRUTURA PLAYER-FACED, MAS A OPERAÇÃO MATEMÁTICA AINDA NÃO ESTÁ FECHADA.**
+**PASSA COMO ESTRUTURA DE FICHA, MAS NÃO COMO PROMESSA DE ZERO ROLAGENS DO ST.**
 
-A auditoria V3 mostrou que a regra histórica de uma única rolagem `2+/1/0` não preserva suficientemente o pipeline inteiro de ataque+dano em conflitos persistentes. Com defesa ativa, preservar a defesa e o soak do PJ é promissor; sem defesa ativa, a solução ainda está aberta.
+A auditoria V3 mostrou que a regra histórica de uma única rolagem `2+/1/0` não preserva suficientemente o pipeline inteiro de ataque+dano em conflitos persistentes. Com defesa ativa, preservar a defesa e o soak do PJ é promissor.
+
+Sem defesa ativa, qualquer solução testada exige sacrificar distribuição, economia de ações ou carga do jogador. Pela regra de precedência do Estudo 00, preserva-se a operação original do ST quando necessário.
 
 ---
 
@@ -330,7 +332,7 @@ O teste integrado produz um resultado misto.
 * Ameaça + Consequência quando o PJ possui defesa ativa.
 
 ### Partes ainda abertas
-* Ameaça + Consequência quando o PJ não possui defesa ativa;
+* refinamento de Ameaça + Consequência quando já existe defesa ativa do PJ;
 * ofensivas de NPCs com pools muito altos;
 * absorção espiritual e outros usos específicos de Vontade/Fúria;
 * tradução de alguns Encantos;
