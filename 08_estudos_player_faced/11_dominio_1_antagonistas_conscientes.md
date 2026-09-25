@@ -162,12 +162,12 @@ Antagonistas conscientes podem mobilizar vários procedimentos transversais do E
 | Vitalidade | Preservada por enquanto |
 | Força de Vontade | Preservada |
 | Arete/Esferas | Preservados; conjuração do PJ já é naturalmente player-facing |
-| Contramágika | Candidata a Oposição quando cancela sucessos explicitamente; regra geral ainda não consolidada |
+| Contramágika | Básica: defesa ativa por Arete D7 e cancelamento de sucessos, candidata a Oposição; Inata: proteção própria, sem conversão automática |
 | Mágika ofensiva do NPC sem reação do PJ | Preservar rolagem do ST quando necessário por fidelidade |
 | Reação de Paradoxo | Preservar rolagem do ST |
 | Telegrafia | Aplicável a ações de alto impacto |
 
-O domínio está **arquitetonicamente fechado como método híbrido**. O que permanece experimental são algumas conversões probabilísticas e o que permanece documentalmente incompleto são subsistemas específicos como contramágika geral.
+O domínio está **arquitetonicamente fechado como método híbrido**. O que permanece experimental são algumas conversões probabilísticas. A regra geral de contramágika foi recuperada; o texto comercial ainda precisa conferi-la contra a fonte licenciada.
 
 ---
 
