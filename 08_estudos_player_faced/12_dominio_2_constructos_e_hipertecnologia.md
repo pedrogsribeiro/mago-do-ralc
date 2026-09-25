@@ -147,7 +147,7 @@ Isso preserva a formulação de telegrafia construída no Estudo 03.
 | Sistema ativo | testes simples/resistidos/estendidos, hacking, gatilhos, consequência; Teia Digital/ICE conforme Estudo 16 |
 | Constructo-agente | iniciativa, Oposição, Ameaça, Consequência, Limiar de Efetividade, Vitalidade, poderes |
 | Sistema hipertecnológico | Arete/Iluminação, Quintessência, contramágika, procedimentos |
-| Veículo | perseguição estendida-resistida; colisão e dano estrutural dependem de regra veicular específica |
+| Veículo | perseguição estendida-resistida; Safe/Max Speed, Maneuverability, Durability/Structure e colisão preservados conforme regra veicular |
 
 Isso deixa claro por que “constructos e hipertecnologia” não podem ser comprimidos por uma única tabela.
 
@@ -322,7 +322,7 @@ Veículos precisam ser separados em duas funções:
 * **perseguição** → conflito de posição estendido-resistido;
 * **veículo como objeto** → integridade/dano estrutural conforme regra original.
 
-O Relógio de perseguição representa **posição**, não Structure. Colisão abre um procedimento separado, ainda não consolidado na bíblia atual.
+O Relógio de perseguição representa **posição**, não Structure. Colisão abre o procedimento veicular próprio agora consolidado na bíblia: impacto, Durability/Structure e dano aos ocupantes permanecem separados.
 
 
 ---
