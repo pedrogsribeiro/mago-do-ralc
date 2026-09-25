@@ -15,9 +15,9 @@ A bíblia atual fornece quatro bases claras:
 3. ataques lógicos usam **Computação + Arete**;
 4. falhas graves ou dano virtual podem produzir **feedback Letal** no corpo físico do hacker.
 
-O corpus, porém, **não contém um procedimento detalhado e consolidado de ICE**, com ficha, pools, ações, dano e estados suficientes para uma tradução universal.
+A consolidação posterior das regras da Teia Digital mostrou que procurar uma **ficha universal de ICE** era a pergunta errada. M20 trata segurança digital por naturezas diferentes: barreiras/protocolos, operadores humanos, programas ativos, contramedidas e ameaças sistêmicas como de-rez/Whiteout.
 
-Portanto, este estudo separa o que já pode ser tratado com segurança do que ainda depende de recuperação da regra original.
+Portanto, a tradução deve classificar a defesa antes de escolher o procedimento.
 
 ---
 
@@ -232,41 +232,22 @@ O produto final deve preservar a diferença entre:
 
 ---
 
-## 8. ICE
+## 8. Segurança Digital
 
-A bíblia atual menciona Teia Digital, hacking e feedback, mas não fornece ainda uma ficha/procedimento completo e consolidado de ICE.
+A regra consolidada posterior substitui a ideia de “ICE padrão” por classificação funcional:
 
-Logo, este estudo **não pode homologar**:
-
-* pool padrão de ataque de ICE;
-* pool padrão de defesa;
-* dano padrão;
-* Integridade padrão;
-* Limiar padrão;
-* estados universais;
-* algoritmo de perseguição virtual.
-
-### O que já podemos afirmar
-
-Se um ICE específico tiver:
-
-* agência;
-* ações próprias;
-* pools;
-* recursos;
-* estados;
-
-ele deve ser tratado como **constructo-agente**.
-
-Se for apenas uma barreira/protocolo:
-
-* é **sistema ativo ou passivo**, não NPC.
+* **firewall/criptografia/protocolo** → sistema ou obstáculo passivo;
+* **sysadmin** → agente consciente;
+* **programa perseguidor/atacante** → constructo-agente quando realmente possui ações;
+* **contramedida simples** → gatilho/modificador/consequência;
+* **soft/hard de-rez, Icon Death, Chaos Dump** → consequências específicas;
+* **Whiteout** → ameaça sistêmica da realidade digital.
 
 ### Gate
 
-**LACUNA DOCUMENTAL.**
+**PASSA POR CLASSIFICAÇÃO.**
 
-É preciso recuperar as regras originais de ICE antes de fechar a tradução comercial.
+A lacuna de “ficha universal de ICE” é encerrada porque essa universalização não é necessária para representar M20.
 
 ---
 
@@ -383,12 +364,11 @@ O domínio passa parcialmente.
 * estados digitais;
 * telegrafia quando houver escalada causal.
 
-### Lacuna
+### Verificações de fonte ainda necessárias
 
-* procedimento completo de ICE;
-* valores de ataque/defesa/dano de ICE;
-* tradução específica de combate virtual detalhado;
-* calibração de consequências quando o corpus original fornecer pools próprios.
+* conferir M20 pp. 466–473 na fonte licenciada;
+* conferir números de de-rez, Icon Death e Whiteout;
+* decidir se regras complementares de Book of Secrets / Operative's Dossier entram no escopo comercial.
 
 ---
 
