@@ -349,6 +349,8 @@ def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock
 4. **A equivalência matemática continua aberta.** Uma transformação determinística de dois números não pode reproduzir perfeitamente toda a variância de uma segunda rolagem independente. O critério futuro deve combinar distância probabilística, preservação da curva de competência e playtest perceptual.
 5. **Ganhos de tempo e carga cognitiva ainda são hipóteses.** Simulação não mede tempo real de mesa; a magnitude desses ganhos precisa de playtests controlados.
 6. **A experiência do jogador não pode ser declarada preservada apenas porque os mesmos d10 e dificuldades familiares continuam visíveis.** A promessa exige preservar de forma suficientemente próxima as relações de competência e risco de M20.
+7. **A leitura 2+/1/0 permanece válida.** Ela descreve a qualidade do resultado em M20. Em Obstáculos persistentes, 1 sucesso continua sendo sucesso marginal e normalmente produz 1 Impacto/1 caixa antes de qualquer Limiar de Efetividade legítimo.
+8. **Ameaça + Consequência ainda não possuem uma transformação universal validada para combate persistente.** A auditoria V3 rejeitou a ideia de usar uma única regra fixa para todos os casos; a principal dificuldade aparece quando o NPC age e o PJ não possui defesa ativa, pois a variância original de ataque+dano está inteiramente do lado do Storyteller.
 
 
 ---
@@ -373,7 +375,7 @@ Melhor ajuste global encontrado até aqui:
 | 11d | 7 | 3 |
 | 12d | 7 | 3 |
 
-Esse resultado é **experimental**. Ele deve propagar para estudos posteriores como baseline provisório, nunca como equivalência já homologada.
+Esse resultado é **experimental**. Uma nova auditoria exata encontrou ajustes pontuais ligeiramente melhores para alguns pools, mas a tabela regular acima permanece um baseline operacional útil porque preserva uma progressão simples e perde pouco em distância probabilística. Na auditoria mais recente, a TV média por parada ficou aproximadamente entre **3,4% e 9,4%**, com alguns piores casos na faixa de **15–16%**.
 
 
 ---
@@ -384,9 +386,49 @@ O Estudo 06 refinou uma premissa importante deste artigo: as quatro dimensões (
 
 Dano físico, absorção, mágika, oposição social, hacking e testes estendidos possuem procedimentos próprios em M20. Consequentemente:
 
-* **dano fixo** não é assumido como equivalente a uma parada de dano;
-* **RD fixa** não é assumida como equivalente a uma parada de absorção;
+* **Consequência fixa** não é assumida como equivalente universal a ataque+dano do NPC em conflitos persistentes;
+* **Limiar de Efetividade** é a generalização da antiga RD fixa e mostrou comportamento promissor como substituto determinístico de soak;
 * **relógios** não são automaticamente equivalentes a Vitalidade, Essência, Força de Vontade ou outros recursos;
-* **Efeito Zero** deve decorrer de impossibilidade ficcional ou regra efetiva, não de um simples status de “chefe”.
+* **1 sucesso em conflito persistente** continua produzindo avanço ficcional e, normalmente, 1 Impacto antes do Limiar;
+* **Efeito Zero por impossibilidade** deve decorrer de impossibilidade ficcional ou regra efetiva, não de um simples status de “chefe”.
 
 Os algoritmos históricos deste artigo continuam úteis para estudar comportamento interno de hipóteses antigas, mas qualquer validação futura precisa comparar cada subsistema comprimido contra o procedimento original correspondente de M20.
+
+
+---
+
+## 8. Auditorias V2/V3: estado atual da ficha achatada
+
+### Oposição
+
+A conversão **Dificuldade + Limiar oculto** continua sendo a parte mais madura da ficha achatada. Os erros residuais são suficientemente baixos para tratá-la como baseline experimental, mas ainda não como equivalência exata.
+
+### Limiar de Efetividade
+
+A auditoria exata de soak encontrou a seguinte curva operacional promissora:
+
+| Soak original | Limiar de Efetividade experimental |
+| :---: | :---: |
+| 0–1d | 0 |
+| 2–3d | 1 |
+| 4–6d | 2 |
+| 7–9d | 3 |
+| 10d | 4 |
+
+O caso de **1d** é o mais imperfeito: uma redução fixa não reproduz bem uma rolagem tão pequena. Isso deve ser tratado como aproximação deliberada.
+
+### Ameaça + Consequência
+
+A auditoria V3 comparou três modelos para ataques do NPC:
+
+* a regra histórica de uma única rolagem `2+/1/0`;
+* defesa ativa do PJ preservada + soak preservado;
+* ausência de defesa ativa com Consequência fixa + soak.
+
+A leitura `2+/1/0` **não foi invalidada** como leitura geral de sucessos. O que falhou foi usá-la sozinha como compressão universal de todo o pipeline ataque+dano de uma Ameaça persistente.
+
+Preservar defesa ativa + soak foi a melhor aproximação entre os modelos testados, especialmente em ameaças fracas e médias, mas o erro cresce em antagonistas fortes.
+
+Quando não existe defesa ativa, o problema é estrutural: M20 possui variância em ataque e dano no lado do NPC, enquanto o jogador pode não possuir nenhuma rolagem anterior ao soak — e alguns tipos de dano sequer permitem soak. Uma compressão totalmente determinística necessariamente elimina parte dessa variância.
+
+Essa é a principal dívida matemática ainda aberta da ficha achatada.
