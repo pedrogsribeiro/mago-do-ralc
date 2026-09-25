@@ -246,7 +246,9 @@ A interface do ST pode resumir:
     Vitalidade especial
 
 Oposição resistida pode usar provisoriamente a conversão estudada.
-A ficha achatada já oferece **Consequência** para o dano causado e **Limiar de Efetividade** para a resistência do constructo. O que permanece pendente é calibrar esses valores contra as paradas originais de dano e soak, além de traduzir contramágika quando necessário.
+A ficha achatada já oferece **Consequência** para o dano causado e **Limiar de Efetividade** para a resistência do constructo. Para soak, já existe baseline experimental: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
+
+A principal lacuna ofensiva passa a ser a operação conjunta de **Ameaça + Consequência** em ações persistentes, sobretudo quando o alvo não possui defesa ativa. Contramágika continua dependendo de tradução própria.
 
 ### Gate
 
