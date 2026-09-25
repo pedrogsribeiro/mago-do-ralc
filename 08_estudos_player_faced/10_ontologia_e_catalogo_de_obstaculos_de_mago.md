@@ -150,7 +150,7 @@ Esses procedimentos atravessam várias famílias e não devem ser confundidos co
 15. **Quintessência e Paradoxo** — Quintessência permanece no jogador; Reação de Paradoxo permanece rolagem do ST por fidelidade;
 16. **Quiet/Silêncio** — estado persistente; cura já é player-facing por Percepção + Meditação;
 17. **Zonas de Realidade e Consenso** — condições/classificação do mundo; Desafio da Realidade já é rolagem do PJ;
-18. **veículos, colisões e perseguições** — perseguições são estendidas-resistidas e podem usar Relógio de posição; colisões e dano veicular ainda dependem de regra original consolidada;
+18. **veículos, colisões e perseguições** — perseguições são estendidas-resistidas; veículos usam Safe/Max Speed, Maneuverability, Durability e Structure; colisões têm regra própria de impacto e dano aos ocupantes;
 19. **Teia Digital e hacking** — testes simples/estendidos preservados; segurança passiva é sistema/obstáculo; sysadmins são agentes; programas ativos podem ser constructos-agentes; de-rez/Whiteout são consequências/ameaças sistêmicas;
 20. **Umbra, Película, espíritos e Encantos** — Vontade pode alimentar Oposição/Limiar; Fúria/Gnose podem permanecer no ST quando necessário; Encantos são classificados por função;
 21. **objetos, Durability e Structure;**
