@@ -445,3 +445,18 @@ Maravilhas confirmam que muita mágika de item já é naturalmente player-facing
 * Paradoxo → continua recaindo no usuário.
 
 Não há justificativa para criar uma mecânica genérica adicional de “ativação player-facing”.
+
+
+---
+
+## 17. Propagação do Estudo 20 — Paradoxo, Silêncio e Consenso
+
+O subsistema de realidade consensual reforça três padrões:
+
+* **geração de Paradoxo** nasce das rolagens do PJ e permanece intacta;
+* **Reação de Paradoxo** permanece rolagem do ST por fidelidade;
+* **Silêncio** já possui reserva e cura player-facing;
+* **Zonas de Realidade** são condições/classificações do mundo;
+* **Desafio da Realidade** já é resolução pelo jogador.
+
+Nenhuma mecânica genérica adicional de Obstáculo é necessária.
