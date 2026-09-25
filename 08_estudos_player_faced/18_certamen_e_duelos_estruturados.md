@@ -236,3 +236,16 @@ Este estudo retroage sobre:
 * Estudo 06 — distinção entre defesa ativa e Limiar.
 
 O próximo subsistema é **Maravilhas, Fetiches, Talismãs e Dispositivos**, porque parte dele já foi tocada no Estudo 14, mas ainda falta separar ativação, recursos, autonomia e resistência.
+
+
+---
+
+## 13. Propagação da regra geral de contramágika
+
+A recuperação da regra geral confirma a distinção usada neste estudo:
+
+* contramágika básica e Aegis pertencem à família de **defesas ativas por cancelamento de sucessos**;
+* Limiar de Efetividade continua reservado a resistência passiva;
+* contramágika inata precisa de tratamento próprio e não deve ser fundida automaticamente com Aegis ou Limiar.
+
+A regra geral de contramágika deve ser conferida contra a fonte licenciada antes da redação comercial final.
