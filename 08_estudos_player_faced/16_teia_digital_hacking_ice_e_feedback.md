@@ -1,6 +1,6 @@
 ---
 type: regra
-summary: "Estudo 16: Teia Digital, hacking, oposição virtual e feedback sob o olhar player-facing, distinguindo testes estendidos, oposição ativa e lacunas documentais de ICE."
+summary: "Estudo 16: Teia Digital, hacking, oposição virtual e feedback sob o olhar player-facing, distinguindo testes estendidos, segurança passiva, agentes digitais e consequências da Web."
 tags: [estudo, player-faced, teia-digital, hacking, ice, computacao, arete, feedback, regras]
 ---
 
