@@ -430,3 +430,18 @@ O Certámen oferece um exemplo normativo da diferença entre:
 * **resistência passiva** → Limiar de Efetividade.
 
 O Locus deve ser preservado como reserva canônica de Quintessência. Gladius do PJ e Aegis do PJ permanecem intactos. Quando o PJ não escolhe Aegis contra Gladius do NPC, não se cria uma reação gratuita; a rolagem do ST pode permanecer por fidelidade.
+
+
+---
+
+## 16. Propagação do Estudo 19 — Maravilhas
+
+Maravilhas confirmam que muita mágika de item já é naturalmente player-facing:
+
+* Talismãs/Dispositivos → jogador rola Arete/Iluminação do item;
+* Fetiches → jogador rola Força de Vontade D7 contra Gnose;
+* Amuletos/Matrizes → preservam Quintessência;
+* criação → teste estendido;
+* Paradoxo → continua recaindo no usuário.
+
+Não há justificativa para criar uma mecânica genérica adicional de “ativação player-facing”.
