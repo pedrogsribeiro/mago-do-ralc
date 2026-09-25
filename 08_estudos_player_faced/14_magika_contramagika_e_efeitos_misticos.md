@@ -120,15 +120,17 @@ O corpus atual possui vários indícios de uma lógica de cancelamento:
 * HIT Marks e Victors possuem pools explícitos de **Contramágika Inata**;
 * certos alvos especiais possuem sua própria contramágika.
 
-Porém, a bíblia atual **não contém uma regra geral consolidada de contramágika** que diga, para qualquer caso, exatamente:
+A regra geral foi posteriormente recuperada e consolidada na bíblia em `regras_contramagika.md`.
 
-* qual pool é rolado;
-* qual dificuldade é usada;
-* quando a reação consome ação;
-* como os sucessos cancelam ou reduzem o Efeito;
-* quais Esferas/requisitos são necessários.
+A estrutura relevante é:
 
-Portanto, este estudo não deve inventar uma regra universal.
+* contramágika básica: **Arete D7**, ação completa, percepção do Efeito e conhecimento de ao menos uma Esfera pertinente;
+* cada sucesso defensivo **cancela 1 sucesso** do Efeito;
+* contramágika protetora/ofensiva exige requisitos adicionais;
+* contramágika inata é proteção intrínseca;
+* unweaving é procedimento estendido contra Efeito já existente.
+
+A redação comercial final ainda deve conferir detalhes contra a fonte licenciada/possuída.
 
 ### Estado de tradução
 
@@ -138,9 +140,9 @@ Quando a ficha apenas informar “Contramágika 5d” sem procedimento suficient
 
 ### Gate
 
-**LACUNA DOCUMENTAL IDENTIFICADA.**
+**REGRA GERAL RECUPERADA.**
 
-Antes do texto comercial, a regra geral de contramágika precisa ser recuperada da fonte primária/licenciada usada pelo projeto e consolidada na bíblia.
+A lacuna deixou de ser arquitetural. Restam duas tarefas: conferir detalhes contra a fonte licenciada e validar matematicamente qualquer compressão da defesa ativa do NPC ou da Contramágika Inata.
 
 ---
 
@@ -366,9 +368,9 @@ O subsistema de mágika passa parcialmente.
 * Reação de Paradoxo;
 * qualquer outro procedimento cuja aleatoriedade exista apenas no lado do ST e cuja compressão altere a experiência do jogador.
 
-### Lacuna documental
+### Verificação de fonte
 
-A bíblia precisa consolidar a **regra geral de contramágika de M20** antes que o livro comercial apresente uma tradução universal desse procedimento.
+A regra geral de contramágika já foi consolidada na bíblia. Antes da publicação comercial, conferir os detalhes contra M20 pp. 545–547 na fonte licenciada/possuída e redigir por paráfrase.
 
 ---
 
