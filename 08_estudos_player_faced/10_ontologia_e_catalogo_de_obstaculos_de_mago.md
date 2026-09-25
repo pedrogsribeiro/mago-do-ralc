@@ -145,9 +145,9 @@ Esses procedimentos atravessam várias famílias e não devem ser confundidos co
 10. **dano, tipos de dano e absorção;**
 11. **Vitalidade, penalidades por ferimento e cura;**
 12. **Força de Vontade e sucessos automáticos;**
-13. **Arete, Esferas e conjuração;**
-14. **contramágika;**
-15. **Quintessência e Paradoxo;**
+13. **Arete, Esferas e conjuração** — em grande parte já player-facing e deve ser preservada;
+14. **contramágika** — traduzível quando funciona por cancelamento explícito de sucessos; regra geral ainda precisa ser consolidada na bíblia;
+15. **Quintessência e Paradoxo** — Quintessência permanece no jogador; Reação de Paradoxo pode exigir rolagem do ST por fidelidade;
 16. **Quiet/Silêncio;**
 17. **Zonas de Realidade e Consenso;**
 18. **veículos, colisões e perseguições;**
@@ -210,6 +210,8 @@ Para cada subsistema:
 > **nenhuma mudança necessária.**
 
 Isso é uma conclusão válida.
+
+O Estudo 14 reforça esse princípio para mágika: conjuração do PJ, Arete, Esferas, Quintessência, dano/duração e Película já são majoritariamente player-facing. A tradução deve se concentrar apenas nas operações do ST, e preservar a rolagem original quando não existir uma transformação fiel sem custo para o jogador.
 
 ---
 
