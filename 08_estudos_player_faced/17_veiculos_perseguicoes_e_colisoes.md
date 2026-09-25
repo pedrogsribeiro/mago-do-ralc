@@ -14,7 +14,7 @@ Este estudo trata três problemas diferentes que não devem ser confundidos:
 
 A bíblia atual sustenta claramente que **perseguições de veículos são ações estendidas-resistidas**: os participantes acumulam sucessos líquidos ao longo de turnos e a disputa é decidida pelo resultado acumulado.
 
-O corpus atual, porém, não contém um procedimento consolidado suficiente para homologar colisões, dano estrutural e interação entre velocidade, massa e ocupantes.
+A regra-base de colisões foi posteriormente recuperada e consolidada na bíblia: veículos usam Safe/Max Speed, Maneuverability, Durability e Structure; colisões derivam impacto de Durability, velocidade e massa, e ocupantes recebem proteção do veículo/cinto conforme a regra.
 
 ---
 
@@ -178,7 +178,7 @@ Isso é conceitualmente compatível com veículos.
 
 ### Gate
 
-**ARQUITETURA COMPATÍVEL, PROCEDIMENTO ESPECÍFICO AINDA NÃO CONSOLIDADO.**
+**PASSA.** Durability e Structure já são o procedimento específico de integridade veicular.
 
 ---
 
@@ -194,22 +194,17 @@ Ela pode afetar:
 * pedestres;
 * cenário.
 
-A bíblia disponível neste momento não fornece procedimento consolidado suficiente para definir:
+A regra veicular consolidada fornece a estrutura:
 
-* pool de dano por velocidade;
-* modificador de massa;
-* soak de veículo;
-* dano aos ocupantes;
-* perda de controle;
-* Structure/Durability específicos.
-
-Portanto:
-
-> **não se homologa dano fixo de colisão nem tabela nova neste estudo.**
+* impacto parte de **Durability + velocidade + modificador de massa**;
+* Durability protege a Structure;
+* ocupantes sofrem o impacto reduzido pela proteção do veículo;
+* cintos oferecem proteção adicional;
+* perda de controle/manobras usam Direção/Pilot, Maneuverability e condições.
 
 ### Gate
 
-**LACUNA DOCUMENTAL.**
+**PASSA COM REGRA ORIGINAL PRESERVADA.**
 
 ---
 
@@ -311,14 +306,11 @@ Se ocorrer colisão, abre-se o **procedimento de colisão**, separado do Relógi
 * separação entre perseguição e colisão;
 * veículo como objeto/constructo conforme natureza.
 
-### Lacunas
+### Verificações ainda necessárias
 
-* procedimento detalhado de colisão;
-* dano por velocidade/massa;
-* dano aos ocupantes;
-* integridade veicular específica;
-* perda de controle e capotamento;
-* regras especiais de veículos.
+* conferir tabelas completas de veículos em M20 pp. 460–462;
+* conferir modificadores exatos por massa/categoria;
+* selecionar quais exemplos entram no texto comercial.
 
 ---
 
