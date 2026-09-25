@@ -33,3 +33,4 @@ Este documento reúne o índice navegável e resumos de todos os arquivos contid
 - [`18_certamen_e_duelos_estruturados.md`](18_certamen_e_duelos_estruturados.md): Estudo 18: Certámen, Gladius, Aegis e Locus com preservação da economia de ações.
 - [`19_maravilhas_fetiches_talismas_e_dispositivos.md`](19_maravilhas_fetiches_talismas_e_dispositivos.md): Estudo 19: categorias de Maravilhas, ativação, recursos, Paradigma e criação.
 - [`20_paradoxo_silencio_e_zonas_de_realidade.md`](20_paradoxo_silencio_e_zonas_de_realidade.md): Estudo 20: Paradoxo, Reação, Silêncio, Consenso e Zonas de Realidade.
+- [`21_perigos_ambientais_e_sobrevivencia.md`](21_perigos_ambientais_e_sobrevivencia.md): Estudo 21: perigos ambientais e sobrevivência, preservando dano automático, resistências do PJ e limites temporais.
