@@ -96,6 +96,8 @@ A arquitetura, portanto, existe. Para funções de absorção/resistência, o Li
 
 A principal dívida específica do domínio é traduzir **Fúria → Ameaça/Consequência** e Encantos que exigem rolagens do ST sem apagar suas particularidades.
 
+O Estudo 14 também esclarece que a defesa do PJ contra dano espiritual já é naturalmente player-facing quando ele usa **Arete (Espírito) Dificuldade 6** ou **Avatar Dificuldade 8**. Esses procedimentos devem ser preservados sem conversão adicional.
+
 ---
 
 ## 6. Essência permanece Essência
@@ -218,7 +220,8 @@ O que permanece aberto é a tradução de:
 
 * tradução de **Fúria → Ameaça/Consequência**;
 * validação de **Força de Vontade → Oposição/Limiar de Efetividade**, conforme a função;
-* certos Encantos que exigem procedimentos próprios.
+* certos Encantos que exigem procedimentos próprios;
+* preservação direta das defesas do jogador por Arete/Espírito ou Avatar, já player-facing.
 
 ---
 
