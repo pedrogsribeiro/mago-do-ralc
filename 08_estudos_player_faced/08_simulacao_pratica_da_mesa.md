@@ -277,9 +277,9 @@ A entidade mantém:
 
 A ficha espiritual já é compacta e deve ser preservada.
 
-O que permanece aberto são as rolagens atualmente feitas pelo ST:
+Os estudos posteriores fecharam metodologicamente parte dessas operações. Em particular:
 
-* Fúria para ataque/dano;
+* **Fúria para ataque/dano** pode permanecer rolagem do ST quando não houver reação equivalente do PJ;
 * Força de Vontade para defesa/absorção;
 * certas ativações de Encantos.
 
@@ -332,8 +332,8 @@ O teste integrado produz um resultado misto.
 * Ameaça + Consequência quando o PJ possui defesa ativa.
 
 ### Partes ainda abertas
-* refinamento de Ameaça + Consequência quando já existe defesa ativa do PJ;
-* ofensivas de NPCs com pools muito altos;
+* refinamento de Ameaça/Oposição quando já existe defesa ativa do PJ;
+* validação perceptual em ofensivas e oposições com pools muito altos;
 * absorção espiritual e outros usos específicos de Vontade/Fúria;
 * tradução de alguns Encantos;
 * relação exata entre Progresso de Crônica e testes estendidos/condições de resolução.
@@ -348,9 +348,9 @@ Ele valida que a linguagem de Obstáculos, a agência dos NPCs, a telegrafia e a
 
 Também identifica exatamente onde a promessa de equivalência ainda quebra:
 
-> **combate e subsistemas nos quais a aleatoriedade reside exclusivamente numa rolagem do Storyteller.**
+> **as transformações probabilísticas que ainda escolhemos comprimir precisam ser validadas; a aleatoriedade exclusivamente do Storyteller pode permanecer quando sua remoção violaria a fidelidade do jogador.**
 
-Essas dívidas devem orientar os estudos seguintes antes de qualquer capítulo afirmar que a conversão está completa.
+Assim, o teste integrado deixa de exigir um motor “zero dados do ST” completo como condição de sucesso.
 
 
 ---
