@@ -92,7 +92,9 @@ Essas operações podem ser mapeadas para a ficha achatada sem apagar a ficha es
 * **Força de Vontade** pode alimentar seu **Limiar de Efetividade** quando estiver exercendo função de absorção/resistência;
 * **Essência** continua sendo o recurso canônico da entidade e não deve ser comprimida arbitrariamente.
 
-A arquitetura, portanto, existe; o que falta é calibrar matematicamente a tradução de Fúria e Vontade para esses campos.
+A arquitetura, portanto, existe. Para funções de absorção/resistência, o Limiar de Efetividade já possui baseline experimental em paradas mundanas; falta verificar se a mesma curva pode ser aplicada com fidelidade à Força de Vontade espiritual.
+
+A principal dívida específica do domínio é traduzir **Fúria → Ameaça/Consequência** e Encantos que exigem rolagens do ST sem apagar suas particularidades.
 
 ---
 
@@ -214,8 +216,8 @@ Não há ganho em substituir essa ficha por Oposição/Ameaça/Relógio.
 
 O que permanece aberto é a tradução de:
 
-* calibração de **Fúria → Ameaça/Consequência**;
-* calibração de **Força de Vontade → Oposição/Limiar de Efetividade**, conforme a função;
+* tradução de **Fúria → Ameaça/Consequência**;
+* validação de **Força de Vontade → Oposição/Limiar de Efetividade**, conforme a função;
 * certos Encantos que exigem procedimentos próprios.
 
 ---
