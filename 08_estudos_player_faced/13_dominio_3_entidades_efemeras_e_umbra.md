@@ -216,9 +216,9 @@ A interface player-facing pode organizar rapidamente:
 
 Não há ganho em substituir essa ficha por Oposição/Ameaça/Relógio.
 
-O que permanece aberto é a tradução de:
+O estado posterior da tradução é:
 
-* **Força de Vontade defensiva → Oposição**;
+* **Força de Vontade defensiva → Oposição** experimental;
 * **Força de Vontade como soak → Limiar de Efetividade** experimental;
 * **Fúria** permanece rolagem do ST quando necessário;
 * Encantos são preservados por função, sem compressão universal;
@@ -286,8 +286,8 @@ O capítulo cumpre sua proposta quando distingue corretamente:
 
 Com isso, o domínio realmente espelha a diversidade do conteúdo original em vez de nivelar toda a Umbra como “ameaça mística”.
 
-A principal dívida restante é operacional, não ontológica:
+A principal dívida restante é de **validação e documentação**, não de arquitetura:
 
-> **como calibrar Fúria, Vontade e Encantos dentro de Oposição, Ameaça, Consequência e Limiar de Efetividade sem alterar a experiência do jogador?**
+> validar os baselines de Vontade→Oposição/Limiar e recuperar procedimentos detalhados dos Encantos que a bíblia atual apenas nomeia. Fúria/Gnose podem permanecer no ST quando a fidelidade exigir.
 
 Essa questão precisa ser resolvida no programa de tradução dos procedimentos transversais, não escondida dentro deste domínio.
