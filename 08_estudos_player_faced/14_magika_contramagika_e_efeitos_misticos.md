@@ -136,7 +136,7 @@ A redação comercial final ainda deve conferir detalhes contra a fonte licencia
 
 Quando uma fonte específica disser explicitamente que a contramágika funciona como **sucessos defensivos que cancelam sucessos do Efeito**, ela pode ser tratada como oposição ativa e submetida à mesma família matemática estudada para Oposição.
 
-Quando a ficha apenas informar “Contramágika 5d” sem procedimento suficiente, o valor deve ser preservado na ficha achatada como característica normativa, mas sua operação permanece pendente até a bíblia consolidar a regra original.
+Quando uma ficha trouxer **Contramágika Inata** em dados, o pool deve ser preservado como proteção intrínseca. Ele não deve ser convertido automaticamente em Limiar de Efetividade; qualquer compressão desse pool exige validação específica contra a operação original.
 
 ### Gate
 
@@ -240,7 +240,7 @@ Quando o PJ **não escolhe Aegis**, não se concede defesa grátis; aplica-se a 
 
 **ARQUITETURA COMPATÍVEL.**
 
-A calibração exata depende de a bíblia consolidar completamente a parada usada pelo Aegis e demais detalhes do procedimento.
+A calibração exata depende de validar a transformação da defesa ativa do NPC; o procedimento do Aegis permanece preservado conforme a regra de Certámen.
 
 ---
 
