@@ -234,7 +234,7 @@ A interface do ST pode resumir:
 
     Características:
     [Primium]
-    [Contramágika Inata 5d — operação geral pendente de consolidação da regra original]
+    [Contramágika Inata 5d — proteção intrínseca; não converter automaticamente em Limiar sem validação]
     [Sensores especiais]
     [Armas integradas]
 
@@ -250,7 +250,7 @@ A ficha achatada já oferece **Consequência** para o dano causado e **Limiar de
 
 Em ações ofensivas persistentes sem defesa ativa/reação equivalente do PJ, aplica-se a regra posterior de fidelidade: a rolagem necessária do ST pode permanecer. Isso deixa de ser lacuna de arquitetura.
 
-Para contramágika, o Estudo 14 estabelece uma regra mais precisa: pools explícitos como os de Primium permanecem registrados na ficha; quando a fonte original determinar que seus sucessos cancelam sucessos do Efeito, eles podem ser tratados como Oposição. Como a bíblia ainda não consolidou a regra geral de contramágika, não se inventa uma operação universal.
+A regra geral de contramágika foi recuperada: a forma básica é uma defesa ativa que cancela sucessos; a forma inata, como Primium, é proteção intrínseca. Para constructos, pools explícitos de Contramágika Inata permanecem registrados e **não** viram Limiar de Efetividade automaticamente sem validação específica.
 
 ### Gate
 
