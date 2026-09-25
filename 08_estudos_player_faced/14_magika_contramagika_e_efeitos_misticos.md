@@ -402,3 +402,19 @@ O domínio espiritual fornece um caso concreto para as regras deste estudo:
 * Encantos de estado, portal, controle e consequência direta exigem tratamentos distintos.
 
 Isso confirma que “mágika” e “Encantos” não devem receber uma única mecânica universal de conversão.
+
+
+---
+
+## 14. Propagação do Estudo 16
+
+Teia Digital confirma outro caso em que a melhor tradução é preservar o procedimento do jogador:
+
+* **Computação + Arete** continua sendo a parada do PJ;
+* Quintessência continua sendo recurso próprio;
+* hacking prolongado usa a estrutura normal de testes estendidos;
+* feedback permanece Consequência física;
+* oposição ativa entra apenas quando existe agente real;
+* ICE não recebe uma ficha genérica sem base na regra original.
+
+Isso reforça que a dimensão Mental/Técnico ou Mágicko funciona como índice operacional, não como substituta de Computação, Arete ou Correspondência/Dados.
