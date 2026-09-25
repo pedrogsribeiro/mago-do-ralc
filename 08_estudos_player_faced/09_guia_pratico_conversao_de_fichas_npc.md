@@ -184,7 +184,10 @@ A ficha achatada já possui os campos necessários para o combate do NPC:
 * **Consequência:** dano, estresse ou outro impacto aplicado quando a Ameaça se concretiza.
 * **Limiar de Efetividade:** resistência do Obstáculo ao Impacto; é o nome generalizado da antiga RD fixa para funcionar também fora do dano físico.
 
-O desenho desses campos já existe. O trabalho pendente é **calibrar seus valores** contra as paradas originais de ataque, dano e soak.
+O desenho desses campos já existe.
+
+* **Limiar de Efetividade** já possui baseline experimental: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
+* **Ameaça + Consequência** continuam pendentes como transformação universal do pipeline ofensivo do NPC. Com defesa ativa, preservar defesa + soak é promissor; sem defesa ativa, a solução ainda não está fechada.
 
 > O **Limiar de Efetividade** não deve ser confundido com o **limiar oculto** usado na investigação matemática da conversão de rolagens resistidas.
 
@@ -407,8 +410,8 @@ A interface é **muito menor que a ficha completa**, mas ainda preserva exatamen
 Ao mesmo tempo, ela mostra os limites atuais da pesquisa:
 
 * 5d e 6d de oposição comum podem ser submetidos ao baseline experimental;
-* 9d de soak devem alimentar o **Limiar de Efetividade** correspondente; a tabela precisa ser calibrada;
-* 8d de dano devem alimentar a **Consequência** correspondente; a conversão numérica precisa ser calibrada;
+* 9d de soak alimentam provisoriamente **Limiar de Efetividade 3**;
+* 8d de dano continuam sendo fonte da **Consequência**, mas a forma exata de preservar a variância do dano do NPC ainda depende do contexto ofensivo;
 * contramágika 5d precisa preservar o subsistema mágicko;
 * sensores especiais continuam sendo características concretas, não um número abstrato.
 
@@ -474,9 +477,9 @@ A proposta deste capítulo é válida **se entendida como método de extração 
 * identificação de movimentos telegrafados.
 
 ### Ainda impede chamar o método de conversão completa
-* calibração de **Ameaça** contra a ofensiva original;
-* calibração de **Consequência** contra o dano original;
-* calibração de **Limiar de Efetividade** contra soak/armadura e resistências equivalentes;
+* operação de **Ameaça + Consequência** em ataques persistentes do NPC, sobretudo sem defesa ativa;
+* fidelidade de Ameaça/Consequência para pools ofensivos altos;
+* refinamento do caso de **1d de soak** no Limiar de Efetividade;
 * alguns efeitos de contramágika;
 * vários subsistemas sobrenaturais.
 
