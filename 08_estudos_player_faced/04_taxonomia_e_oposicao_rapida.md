@@ -93,7 +93,9 @@ Hughie tenta enganar um porteiro. O porteiro é um agente ficcional real, mas a 
 Um agente tenta se ocultar. O agente continua sendo quem realiza a ação na ficção. O PJ rola para perceber contra a oposição comprimida do agente. Se ninguém relevante estiver em posição de perceber, o ST decide se a ocultação funciona sem rolar contra si mesmo.
 
 ### Perseguição curta
-Um motorista da ABIN tenta manter contato com o carro dos PJs. Enquanto a situação não justificar uma perseguição estruturada, uma única resolução pode decidir uma mudança relevante de posição. Se a perseguição se tornar o foco da cena, ela sobe para Nível 2.
+Um motorista da ABIN tenta manter contato com o carro dos PJs. Enquanto a situação não justificar uma perseguição estruturada, uma única resolução pode decidir uma mudança relevante de posição.
+
+Se a perseguição se tornar o foco da cena, ela sobe para Nível 2 e passa a usar a lógica **estendida-resistida** documentada no Estudo 17. Nesse caso, o Relógio acompanha **posição/progresso**, não dano do veículo.
 
 ---
 
