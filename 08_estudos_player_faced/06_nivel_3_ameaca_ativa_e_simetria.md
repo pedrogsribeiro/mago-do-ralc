@@ -151,13 +151,14 @@ A arquitetura está definida e a auditoria exata já oferece um baseline experim
 
 | Soak original | Limiar de Efetividade |
 | :---: | :---: |
-| 0–1d | 0 |
+| 0d | 0 |
+| 1d | preservar rolagem |
 | 2–3d | 1 |
 | 4–6d | 2 |
 | 7–9d | 3 |
 | 10d | 4 |
 
-A aproximação é especialmente boa a partir de 2d; 1d continua sendo o ponto menos fiel da compressão determinística.
+A aproximação é especialmente útil a partir de 2d. **1d não deve ser convertido em Limiar 0**: isso apagaria toda a resistência ocasional daquela parada. Como a economia operacional de rolar 1d é mínima, o baseline híbrido preserva essa rolagem.
 
 O antigo uso de Limiar 2/3 como simples “chefe ignora 1 sucesso” deve ser lido corretamente: o Limiar representa **resistência**, não status narrativo. Ele só deve ser alto quando a ficha original, equipamento, proteção ou ficção justificar resistência equivalente.
 
