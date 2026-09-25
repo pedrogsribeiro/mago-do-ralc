@@ -350,7 +350,7 @@ def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock
 5. **Ganhos de tempo e carga cognitiva ainda são hipóteses.** Simulação não mede tempo real de mesa; a magnitude desses ganhos precisa de playtests controlados.
 6. **A experiência do jogador não pode ser declarada preservada apenas porque os mesmos d10 e dificuldades familiares continuam visíveis.** A promessa exige preservar de forma suficientemente próxima as relações de competência e risco de M20.
 7. **A leitura 2+/1/0 permanece válida.** Ela descreve a qualidade do resultado em M20. Em Obstáculos persistentes, 1 sucesso continua sendo sucesso marginal e normalmente produz 1 Impacto/1 caixa antes de qualquer Limiar de Efetividade legítimo.
-8. **Ameaça + Consequência ainda não possuem uma transformação universal validada para combate persistente.** A auditoria V3 rejeitou a ideia de usar uma única regra fixa para todos os casos; a principal dificuldade aparece quando o NPC age e o PJ não possui defesa ativa, pois a variância original de ataque+dano está inteiramente do lado do Storyteller.
+8. **Ameaça + Consequência não possuem uma transformação universal — e isso deixou de ser requisito do método.** A auditoria V3 rejeitou uma regra fixa para todos os casos. Quando o PJ não possui defesa ativa ou reação equivalente, a solução homologada por fidelidade é preservar a rolagem ofensiva necessária do Storyteller. Quando já existe rolagem defensiva do PJ, a compressão continua candidata a refinamento.
 
 
 ---
@@ -431,7 +431,7 @@ Preservar defesa ativa + soak foi a melhor aproximação entre os modelos testad
 
 Quando não existe defesa ativa, o problema é estrutural: M20 possui variância em ataque e dano no lado do NPC, enquanto o jogador pode não possuir nenhuma rolagem anterior ao soak — e alguns tipos de dano sequer permitem soak. Uma compressão totalmente determinística necessariamente elimina parte dessa variância.
 
-Essa é a principal dívida matemática ainda aberta da ficha achatada.
+Portanto, o caso sem defesa ativa está **metodologicamente fechado por exceção de fidelidade**. A dívida matemática restante concentra-se apenas nas transformações que ainda pretendemos comprimir: Oposição, Limiar de Efetividade e Ameaça quando já existe uma rolagem do jogador capaz de carregar a incerteza.
 
 
 ---
