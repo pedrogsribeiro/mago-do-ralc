@@ -33,7 +33,13 @@ O jogador usa sua parada normal de M20 contra a oposição comprimida pertinente
 
 ### B. Ação Proativa do NPC
 
-O NPC declara e executa sua ação normalmente em sua posição na iniciativa. Quando o resultado da ação ameaça ou disputa diretamente algo sob agência de um PJ, a resolução é ancorada na rolagem adequada do jogador contra a oposição do NPC. O objetivo da compressão é substituir **a rolagem do NPC**, não substituir **a ação do NPC**.
+O NPC declara e executa sua ação normalmente em sua posição na iniciativa.
+
+Quando já existe uma rolagem pertinente do jogador capaz de carregar a incerteza — percepção contra furtividade, defesa ativa, resistência, contramágika ou procedimento equivalente — a contribuição do NPC pode ser comprimida para o lado player-facing.
+
+Quando **não existe** essa rolagem do jogador, a pesquisa não cria automaticamente uma “defesa grátis” nem transfere para o jogador a obrigação de rolar os dados do NPC. Se a aleatoriedade original for relevante para a experiência, a operação do ST precisa ser preservada até existir uma transformação que mantenha fidelidade sem transferir custo.
+
+O objetivo da compressão é retirar operações do NPC **quando isso pode ser feito sem alterar a experiência do jogador**, não cumprir zero rolagens a qualquer preço.
 
 ---
 
@@ -81,3 +87,23 @@ Essa tabela é **experimental, não normativa**. Ela reduz drasticamente o erro 
 * **Gatilhos Dramáticos:**
   * *Aura de Pânico:* Ao se aproximar, o PJ rola *Força de Vontade (Diff 6)* ou sofre +1 de dificuldade.
   * *Autodestruição:* Ao chegar a 0 Impactos, detona em 1 turno (PJs rolam *Atletismo/Esquiva Diff 7* para evitar 4 Danos Letais).
+
+
+---
+
+## 4. Limite estrutural identificado pelas auditorias
+
+A auditoria de Ameaça + Consequência mostrou que ataques do NPC sem defesa ativa do PJ são um caso-limite.
+
+No M20 clássico:
+
+```
+NPC rola ataque
+→ sucessos excedentes alimentam dano
+→ NPC rola dano
+→ PJ rola soak quando permitido
+```
+
+Se ataque e dano forem substituídos por valores fixos, a distribuição se afasta fortemente do original. Se for concedida uma defesa reflexiva ao jogador, a economia de ações muda. Se o jogador passar a rolar ataque e dano do NPC, a distribuição pode ser preservada, mas o custo operacional é transferido para ele.
+
+Portanto, enquanto a promessa central continuar sendo “mudar o ST sem descaracterizar o jogador”, esse procedimento constitui uma **exceção justificada à meta de zero rolagens do Storyteller**.
