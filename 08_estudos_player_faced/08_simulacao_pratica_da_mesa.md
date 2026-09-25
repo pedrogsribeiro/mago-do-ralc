@@ -196,7 +196,7 @@ Andrey continua rolando seu ataque e seu dano.
 
 A ficha achatada já prevê essa etapa como **Limiar de Efetividade**, nome geral da antiga RD fixa. O ataque do PJ pode ser bem-sucedido e ainda ter seu Impacto reduzido pelo Limiar, espelhando a função da absorção sem exigir uma rolagem do ST.
 
-A arquitetura está definida; o valor numérico do Limiar ainda precisa ser calibrado contra paradas de soak reais.
+A arquitetura está definida e já existe um baseline experimental de Limiar de Efetividade para soak: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
 
 ### Resultado do teste
 
@@ -221,9 +221,9 @@ Portanto, ataque e dano do NPC **não são lacunas arquiteturais**.
 
 ### Resultado do teste
 
-**PASSA COMO ESTRUTURA PLAYER-FACED.**
+**PASSA COMO ESTRUTURA PLAYER-FACED, MAS A OPERAÇÃO MATEMÁTICA AINDA NÃO ESTÁ FECHADA.**
 
-A dívida restante é de calibração: converter a parada de ataque original para Ameaça e a parada de dano original para Consequência com fidelidade suficiente.
+A auditoria V3 mostrou que a regra histórica de uma única rolagem `2+/1/0` não preserva suficientemente o pipeline inteiro de ataque+dano em conflitos persistentes. Com defesa ativa, preservar a defesa e o soak do PJ é promissor; sem defesa ativa, a solução ainda está aberta.
 
 ---
 
@@ -325,13 +325,14 @@ O teste integrado produz um resultado misto.
 * Crônica como Obstáculo **enquanto camada oculta de acompanhamento**.
 
 ### Partes promissoras, mas ainda matematicamente provisórias
-* converter oposição resistida do NPC em Dificuldade + Limiar.
+* converter oposição resistida do NPC em Dificuldade + Limiar oculto;
+* converter soak do NPC em Limiar de Efetividade pelo baseline experimental;
+* Ameaça + Consequência quando o PJ possui defesa ativa.
 
 ### Partes ainda abertas
-* ataque de NPC contra PJ quando o jogador não declarou defesa;
-* dano causado pelo NPC sem rolagem do ST;
-* absorção/soak do NPC;
-* absorção espiritual;
+* Ameaça + Consequência quando o PJ não possui defesa ativa;
+* ofensivas de NPCs com pools muito altos;
+* absorção espiritual e outros usos específicos de Vontade/Fúria;
 * tradução de alguns Encantos;
 * relação exata entre Progresso de Crônica e testes estendidos/condições de resolução.
 
