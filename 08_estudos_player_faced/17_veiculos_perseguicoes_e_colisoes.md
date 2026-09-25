@@ -331,3 +331,15 @@ Este estudo retroage sobre:
 * Estudo 04 — exemplo de perseguição curta vs. persistente.
 
 O próximo subsistema deve ser **Certámen e outros duelos estruturados**, porque já existe regra suficiente no corpus para uma tradução mais completa.
+
+
+---
+
+## 15. Propagação do Estudo 21
+
+Perigos ambientais reforçam a separação já adotada neste estudo:
+
+* dano ambiental automático não deve ser confundido com colisão;
+* queda/impacto possuem regras próprias;
+* colisões veiculares continuam dependendo de procedimento específico ainda não consolidado na bíblia;
+* consequências ambientais podem afetar ocupantes sem transformar o veículo em NPC.
