@@ -132,7 +132,6 @@ Ainda precisa validação prática em pools altos e subsistemas especiais.
 
 Pontos em que o repositório atual não traz regra original suficiente para homologar uma tradução completa:
 
-* regra geral de contramágika;
 * ICE detalhado;
 * colisões veiculares;
 * dano estrutural veicular específico;
@@ -163,7 +162,7 @@ Esses itens precisam ser recuperados da fonte primária/licenciada usada pelo pr
 | 11 | antagonistas | Resolvido como método híbrido |
 | 12 | constructos | Resolvido; lacunas documentais específicas |
 | 13 | Umbra | Resolvido; validação/documentação específica |
-| 14 | mágika/contramágika | Resolvido parcialmente; contramágika geral bloqueada |
+| 14 | mágika/contramágika | Regra geral recuperada; compressões ainda precisam validação e conferência de fonte |
 | 15 | espíritos/Encantos | Resolvido; Encantos específicos bloqueados quando ausentes |
 | 16 | Teia Digital | Resolvido parcialmente; ICE bloqueado |
 | 17 | veículos/perseguições | Perseguição resolvida; colisões bloqueadas |
@@ -199,7 +198,6 @@ O trabalho restante se divide em quatro frentes:
 
 Completar na bíblia:
 
-* contramágika geral;
 * ICE;
 * colisões;
 * explosões;
