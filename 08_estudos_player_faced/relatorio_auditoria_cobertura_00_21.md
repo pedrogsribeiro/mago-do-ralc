@@ -132,8 +132,6 @@ Ainda precisa validação prática em pools altos e subsistemas especiais.
 
 Pontos em que o repositório atual não traz regra original suficiente para homologar uma tradução completa:
 
-* explosões detalhadas;
-* doenças detalhadas;
 * procedimentos individuais de alguns Encantos;
 * alguns efeitos especiais de Maravilhas/Fetiches.
 
@@ -166,7 +164,7 @@ Esses itens precisam ser recuperados da fonte primária/licenciada usada pelo pr
 | 18 | Certámen | Resolvido |
 | 19 | Maravilhas | Resolvido por composição |
 | 20 | Paradoxo/Silêncio/Consenso | Resolvido |
-| 21 | perigos ambientais | Resolvido; explosões/doenças bloqueadas |
+| 21 | perigos ambientais | Resolvido; tabelas e progressões específicas precisam conferência de fonte |
 
 ---
 
@@ -195,8 +193,6 @@ O trabalho restante se divide em quatro frentes:
 
 Completar na bíblia:
 
-* explosões;
-* doenças;
 * Encantos selecionados para exemplos finais.
 
 ### 5.2. Validação matemática final
