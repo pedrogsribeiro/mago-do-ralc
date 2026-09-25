@@ -105,7 +105,9 @@ A ficha achatada já prevê o ciclo de combate do antagonista:
 * **Limiar de Efetividade** representa sua resistência ao Impacto — a generalização da antiga RD fixa;
 * **Integridade/Relógio** acompanha a resolução do Obstáculo.
 
-Portanto, ataque, dano e soak **não são lacunas de arquitetura**. O que ainda precisa ser validado é a conversão numérica das paradas originais para esses campos.
+Portanto, ataque, dano e soak **não são lacunas de arquitetura**.
+
+O Limiar de Efetividade já possui uma curva experimental útil para soak. A dívida principal passou a ser **Ameaça + Consequência em ações ofensivas persistentes**, sobretudo quando o PJ não declarou defesa ativa.
 
 Vitalidade e outros recursos não devem ser comprimidos arbitrariamente quando sua função canônica ainda importa.
 
@@ -153,10 +155,10 @@ Antagonistas conscientes podem mobilizar vários procedimentos transversais do E
 | Ações múltiplas | Preservadas |
 | Ataque do PJ | Preservado |
 | Defesa ativa do NPC | Conversão ainda em calibração |
-| Ataque do NPC | **Ameaça** da ficha achatada; calibração pendente |
+| Ataque do NPC | **Ameaça**; promissora com defesa ativa, aberta sem defesa ativa |
 | Dano do PJ | Preservado |
-| Dano do NPC | **Consequência** da ficha achatada; calibração pendente |
-| Soak/armadura do NPC | **Limiar de Efetividade**; calibração pendente |
+| Dano do NPC | **Consequência**; ainda não equivalente universalmente a dano rolado |
+| Soak/armadura do NPC | **Limiar de Efetividade**; baseline experimental disponível |
 | Vitalidade | Preservada por enquanto |
 | Força de Vontade | Preservada |
 | Arete/Esferas | Preservados |
@@ -350,4 +352,4 @@ Ele agora entrega:
 * mapa explícito dos procedimentos já resolvidos e das lacunas;
 * facção como possível Obstáculo macro.
 
-O domínio poderá fornecer fichas finais prontas quando **Ameaça, Consequência e Limiar de Efetividade** estiverem calibrados e os subsistemas sobrenaturais pertinentes forem fechados.
+O domínio poderá fornecer fichas finais prontas quando a operação conjunta de **Ameaça + Consequência** estiver resolvida para os casos ofensivos ainda abertos e os subsistemas sobrenaturais pertinentes forem fechados.
