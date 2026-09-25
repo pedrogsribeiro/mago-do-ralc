@@ -174,7 +174,7 @@ O baseline experimental atual é **Dificuldade + Limiar oculto**:
 | 11d | 7 | 3 |
 | 12d | 7 | 3 |
 
-Essa tabela **ainda é provisória** porque o Estudo 05 encontrou viés residual entre PJs fracos e fortes.
+Essa tabela continua candidata a homologação por playtest. A auditoria posterior determinou que **botch deve ser julgado pela dificuldade-base da ação antes de aplicar a compressão da Oposição**; isso preserva praticamente exatamente a frequência original de falha crítica. O viés residual de sucesso permanece pequeno, mas mensurável.
 
 ### Ameaça, Consequência e Limiar de Efetividade
 
