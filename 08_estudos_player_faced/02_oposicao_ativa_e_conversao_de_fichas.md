@@ -70,7 +70,16 @@ Calibração exata para PJs de 2 a 10 dados, contra NPCs de 2 a 12 dados, consid
 | **11d** | **7** | **3** |
 | **12d** | **7** | **3** |
 
-Essa tabela é **experimental, não normativa**. Ela reduz drasticamente o erro da hipótese “somente dificuldade”, mas ainda não reproduz perfeitamente a variância de uma segunda rolagem independente. O estudo matemático posterior deve continuar refinando essa equivalência.
+Essa tabela permanece **experimental**, mas a auditoria posterior corrigiu um ponto importante: **a oposição comprimida não pode alterar a chance de botch do PJ**.
+
+A ordem correta é:
+
+1. o jogador realiza sua rolagem e o botch é julgado pela **dificuldade-base que a ação teria em M20 antes da oposição do NPC**;
+2. se não houve botch, aplica-se a dificuldade/limiar da conversão para determinar quantos sucessos sobrevivem à Oposição.
+
+Isso reproduz a ordem semântica de uma ação resistida de M20: a falha crítica pertence à própria rolagem do personagem; os sucessos do oponente são cancelados depois.
+
+Com essa leitura, a tabela regular atual apresenta TV média agregada de aproximadamente **6,75%**, pior caso observado de aproximadamente **15,05%** e erro de botch essencialmente nulo no espaço auditado.
 
 
 ---
