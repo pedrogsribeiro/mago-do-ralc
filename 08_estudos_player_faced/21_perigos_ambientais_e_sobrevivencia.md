@@ -248,17 +248,21 @@ Estados são úteis quando já decorrem causalmente das regras.
 
 ## 12. Explosões e doenças
 
-O mapa geral do projeto menciona explosões e doenças, mas a bíblia consultada para este estudo **não forneceu procedimento consolidado suficiente** para homologar uma tradução específica.
+A consolidação posterior recuperou ambos os blocos.
 
-Portanto:
+### Explosões
 
-* não se inventa dano de explosão;
-* não se inventa resistência de doença;
-* não se cria tabela universal.
+Explosões funcionam como dano ambiental de área. Quando a regra permite uma reação cinematográfica, o jogador rola para minimizar o blast e cada sucesso reduz o pool de dano. Cobertura usa Durability e consequências secundárias — fogo, queda, colapso — seguem seus próprios procedimentos.
+
+### Doenças
+
+Doenças entram na escala de **Toxin Rating**, que define gravidade, dificuldade e natureza do dano. A resistência permanece do lado do jogador quando prevista.
 
 ### Gate
 
-**LACUNA DOCUMENTAL ESPECÍFICA.**
+**PASSAM COMO ARQUITETURA PLAYER-FACING.**
+
+Tabelas, exemplos e intervalos específicos ainda precisam ser conferidos contra a fonte licenciada antes da publicação.
 
 ---
 
@@ -293,10 +297,11 @@ Portanto:
 * climas hostis;
 * uso opcional de estados/relógios como interface.
 
-### Lacunas documentais
+### Verificações de fonte
 
-* explosões detalhadas;
-* doenças detalhadas.
+* tabela completa de explosões;
+* tabela completa de Toxin Rating/doenças;
+* intervalos e progressão de doenças específicas.
 
 ### Conclusão
 
