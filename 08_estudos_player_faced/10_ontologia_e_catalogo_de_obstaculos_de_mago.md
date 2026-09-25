@@ -146,7 +146,7 @@ Esses procedimentos atravessam várias famílias e não devem ser confundidos co
 11. **Vitalidade, penalidades por ferimento e cura;**
 12. **Força de Vontade e sucessos automáticos;**
 13. **Arete, Esferas e conjuração** — em grande parte já player-facing e deve ser preservada;
-14. **contramágika** — traduzível quando funciona por cancelamento explícito de sucessos; regra geral ainda precisa ser consolidada na bíblia;
+14. **contramágika** — regra geral recuperada: contramágika básica é defesa ativa por Arete D7 que cancela sucessos; contramágika inata é proteção intrínseca; unweaving é procedimento estendido; detalhes finais devem ser conferidos contra a fonte licenciada;
 15. **Quintessência e Paradoxo** — Quintessência permanece no jogador; Reação de Paradoxo permanece rolagem do ST por fidelidade;
 16. **Quiet/Silêncio** — estado persistente; cura já é player-facing por Percepção + Meditação;
 17. **Zonas de Realidade e Consenso** — condições/classificação do mundo; Desafio da Realidade já é rolagem do PJ;
