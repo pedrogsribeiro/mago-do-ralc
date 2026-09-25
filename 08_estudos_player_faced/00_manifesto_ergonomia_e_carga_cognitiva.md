@@ -51,6 +51,18 @@ As primeiras versões da pesquisa estimaram reduções de **75% a 85% no número
 
 O critério de sucesso desta pesquisa não é alcançar uma porcentagem específica. É obter uma redução operacional grande o bastante para ser útil ao Storyteller **sem transferir custo, novas regras ou distorções relevantes para os jogadores**.
 
+### Regra de precedência
+
+As auditorias posteriores revelaram um conflito real entre objetivos. Em certos procedimentos de M20 — especialmente quando um NPC age contra um PJ que não declarou defesa ativa — toda a aleatoriedade original pode estar no lado do Storyteller.
+
+Nesses casos, três objetivos não podem ser garantidos simultaneamente:
+
+1. zero rolagens do Storyteller;
+2. nenhuma nova rolagem ou custo para o jogador;
+3. preservação da distribuição e economia de ações original.
+
+Quando houver esse conflito, a prioridade desta pesquisa é **preservar a experiência do jogador**. A pureza de “100% player-faced” é subordinada a esse critério.
+
 ---
 
 ## 🎭 4. A Justificativa de Design: O Narrador Também Joga
