@@ -333,5 +333,5 @@ Perigos ambientais reforçam a separação já adotada neste estudo:
 
 * dano ambiental automático não deve ser confundido com colisão;
 * queda/impacto possuem regras próprias;
-* colisões veiculares continuam dependendo de procedimento específico ainda não consolidado na bíblia;
+* colisões veiculares usam o procedimento específico já consolidado de impacto, Durability/Structure e proteção dos ocupantes;
 * consequências ambientais podem afetar ocupantes sem transformar o veículo em NPC.
