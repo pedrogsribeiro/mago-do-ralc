@@ -25,3 +25,11 @@ Este documento reúne o índice navegável e resumos de todos os arquivos contid
 - [`11_Dominio_1_Antagonistas_Conscientes.md`](11_dominio_1_antagonistas_conscientes.md): Estudo 11: instanciação de antagonistas conscientes com três perfis representativos, facções como Obstáculos macro e mapa de procedimentos ainda abertos.
 - [`12_Dominio_2_Constructos_e_Hipertecnologia.md`](12_dominio_2_constructos_e_hipertecnologia.md): Estudo 12: validação por natureza de alvo — objeto/estrutura, sistema ativo, constructo-agente e dispositivo mágicko/hipertecnológico.
 - [`13_Dominio_3_Entidades_Efemeras_e_Umbra.md`](13_dominio_3_entidades_efemeras_e_umbra.md): Estudo 13: validação da Umbra distinguindo espírito, Película, ambiente/perigo umbral, Encantos e materialização.
+
+- [`14_magika_contramagika_e_efeitos_misticos.md`](14_magika_contramagika_e_efeitos_misticos.md): Estudo 14: preservação da conjuração do PJ, limites da contramágika, efeitos persistentes e exceções de fidelidade.
+- [`15_espiritos_encantos_e_operacoes_do_st.md`](15_espiritos_encantos_e_operacoes_do_st.md): Estudo 15: operações espirituais, Vontade/Fúria/Gnose/Essência e classificação funcional de Encantos.
+- [`16_teia_digital_hacking_ice_e_feedback.md`](16_teia_digital_hacking_ice_e_feedback.md): Estudo 16: hacking, Teia Digital, oposição virtual, feedback e lacuna documental de ICE.
+- [`17_veiculos_perseguicoes_e_colisoes.md`](17_veiculos_perseguicoes_e_colisoes.md): Estudo 17: perseguições estendidas-resistidas, posição, veículos e lacuna documental de colisões.
+- [`18_certamen_e_duelos_estruturados.md`](18_certamen_e_duelos_estruturados.md): Estudo 18: Certámen, Gladius, Aegis e Locus com preservação da economia de ações.
+- [`19_maravilhas_fetiches_talismas_e_dispositivos.md`](19_maravilhas_fetiches_talismas_e_dispositivos.md): Estudo 19: categorias de Maravilhas, ativação, recursos, Paradigma e criação.
+- [`20_paradoxo_silencio_e_zonas_de_realidade.md`](20_paradoxo_silencio_e_zonas_de_realidade.md): Estudo 20: Paradoxo, Reação, Silêncio, Consenso e Zonas de Realidade.
