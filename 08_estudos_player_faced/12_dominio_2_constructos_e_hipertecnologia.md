@@ -248,7 +248,7 @@ A interface do ST pode resumir:
 Oposição resistida pode usar provisoriamente a conversão estudada.
 A ficha achatada já oferece **Consequência** para o dano causado e **Limiar de Efetividade** para a resistência do constructo. Para soak, já existe baseline experimental: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
 
-A principal lacuna ofensiva passa a ser a operação conjunta de **Ameaça + Consequência** em ações persistentes, sobretudo quando o alvo não possui defesa ativa.
+Em ações ofensivas persistentes sem defesa ativa/reação equivalente do PJ, aplica-se a regra posterior de fidelidade: a rolagem necessária do ST pode permanecer. Isso deixa de ser lacuna de arquitetura.
 
 Para contramágika, o Estudo 14 estabelece uma regra mais precisa: pools explícitos como os de Primium permanecem registrados na ficha; quando a fonte original determinar que seus sucessos cancelam sucessos do Efeito, eles podem ser tratados como Oposição. Como a bíblia ainda não consolidou a regra geral de contramágika, não se inventa uma operação universal.
 
@@ -256,7 +256,7 @@ Para contramágika, o Estudo 14 estabelece uma regra mais precisa: pools explíc
 
 **PASSA como classificação e compressão informacional.**
 
-**NÃO está mecanicamente fechado para combate player-faced completo.**
+**PASSA como método híbrido de combate**, sem exigir eliminação universal das rolagens do ST. Permanecem lacunas documentais específicas, como a regra geral de contramágika, ICE e colisões.
 
 ---
 
