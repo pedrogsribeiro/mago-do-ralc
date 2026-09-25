@@ -132,8 +132,6 @@ Ainda precisa validação prática em pools altos e subsistemas especiais.
 
 Pontos em que o repositório atual não traz regra original suficiente para homologar uma tradução completa:
 
-* colisões veiculares;
-* dano estrutural veicular específico;
 * explosões detalhadas;
 * doenças detalhadas;
 * procedimentos individuais de alguns Encantos;
@@ -164,7 +162,7 @@ Esses itens precisam ser recuperados da fonte primária/licenciada usada pelo pr
 | 14 | mágika/contramágika | Regra geral recuperada; compressões ainda precisam validação e conferência de fonte |
 | 15 | espíritos/Encantos | Resolvido; Encantos específicos bloqueados quando ausentes |
 | 16 | Teia Digital | Resolvido por classificação funcional; números/fonte final precisam conferência |
-| 17 | veículos/perseguições | Perseguição resolvida; colisões bloqueadas |
+| 17 | veículos/perseguições | Resolvido; tabelas/números finais precisam conferência de fonte |
 | 18 | Certámen | Resolvido |
 | 19 | Maravilhas | Resolvido por composição |
 | 20 | Paradoxo/Silêncio/Consenso | Resolvido |
@@ -197,7 +195,6 @@ O trabalho restante se divide em quatro frentes:
 
 Completar na bíblia:
 
-* colisões;
 * explosões;
 * doenças;
 * Encantos selecionados para exemplos finais.
