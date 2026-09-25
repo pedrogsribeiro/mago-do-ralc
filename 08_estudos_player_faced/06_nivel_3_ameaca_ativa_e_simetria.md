@@ -78,9 +78,11 @@ Parte da parada original pertinente do NPC. A conversão probabilística ainda e
 
 ### Ameaça
 
-O NPC continua agindo em sua iniciativa e declarando suas ações. **Ameaça** representa sua capacidade de impor aquela ação ao PJ sem exigir uma rolagem ofensiva do Storyteller.
+O NPC continua agindo em sua iniciativa e declarando suas ações. **Ameaça** representa sua capacidade ofensiva naquela dimensão.
 
-Portanto, ataque do NPC já estava previsto pela arquitetura original da ficha achatada.
+Quando o PJ possui uma defesa ativa, a melhor linha testada até aqui é preservar essa rolagem do jogador e converter a competência ofensiva do NPC atrás do escudo. Isso é promissor em ameaças fracas e médias, mas ainda perde fidelidade em pools altos.
+
+Quando o PJ **não possui defesa ativa**, Ameaça continua sendo necessária na ficha, mas sua operação matemática ainda está aberta: não existe uma rolagem do jogador que carregue naturalmente toda a variância que M20 colocava no ataque do NPC.
 
 ### Consequência
 
@@ -88,7 +90,7 @@ A ficha também precisa registrar **o que acontece se a Ameaça se concretiza**.
 
 No físico, pode ser dano Contundente, Letal ou Agravado. Em outros domínios pode ser perda de Vontade, condição, exposição, perda de posição, bloqueio de recurso ou outro impacto previsto pelo conteúdo original.
 
-Consequência é o campo que preserva explicitamente o **dano causado** pelo NPC.
+Consequência é indispensável, mas **Consequência fixa não deve ser presumida como equivalência universal da parada de dano do NPC**. A auditoria V3 mostrou que isso funciona apenas como aproximação em parte da faixa de poder e degrada em ameaças fortes.
 
 ### Integridade / Relógio
 
@@ -143,7 +145,17 @@ M20 separa ataque, defesa, dano e absorção. A ficha achatada reorganiza o lado
 
 Quando o PJ ataca, suas rolagens próprias de M20 permanecem reconhecíveis, inclusive o dano quando aplicável. Depois de produzido o Impacto, o Limiar reduz o que efetivamente alcança a Integridade.
 
-A questão ainda aberta é **calibração**, não arquitetura: precisamos verificar quais valores de Limiar reproduzem adequadamente paradas de soak distintas sem exigir que o ST volte a rolá-las.
+A arquitetura está definida e a auditoria exata já oferece um baseline experimental simples:
+
+| Soak original | Limiar de Efetividade |
+| :---: | :---: |
+| 0–1d | 0 |
+| 2–3d | 1 |
+| 4–6d | 2 |
+| 7–9d | 3 |
+| 10d | 4 |
+
+A aproximação é especialmente boa a partir de 2d; 1d continua sendo o ponto menos fiel da compressão determinística.
 
 O antigo uso de Limiar 2/3 como simples “chefe ignora 1 sucesso” deve ser lido corretamente: o Limiar representa **resistência**, não status narrativo. Ele só deve ser alto quando a ficha original, equipamento, proteção ou ficção justificar resistência equivalente.
 
@@ -220,7 +232,8 @@ A redução operacional só é bem-sucedida se vier sem perda relevante da exper
 
 Após este estudo, duas questões permanecem especialmente importantes:
 
-1. **Calibração do Limiar de Efetividade:** converter de forma confiável Vigor/armadura/soak e resistências equivalentes para o valor achatado.
-2. **Recursos e entidades não humanas:** verificar se Vitalidade, Essência, Gnose, Vontade, armaduras, imunidades e outras reservas podem ser simplificadas sem transformar sua função original.
+1. **Ameaça + Consequência sem defesa ativa:** encontrar uma forma de retirar ataque+dano do ST sem conceder defesa gratuita ao PJ nem apagar demais a variância original.
+2. **Ameaças ofensivas muito fortes:** melhorar a fidelidade da conversão quando ataque e dano originais entram nas faixas altas.
+3. **Recursos e entidades não humanas:** verificar se Vitalidade, Essência, Gnose, Vontade, armaduras, imunidades e outras reservas podem ser simplificadas sem transformar sua função original.
 
 Essas perguntas devem acompanhar os estudos seguintes e retroagir sobre este documento sempre que uma solução posterior for validada.
