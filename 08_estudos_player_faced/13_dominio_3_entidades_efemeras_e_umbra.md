@@ -94,7 +94,7 @@ Essas operações podem ser mapeadas para a ficha achatada sem apagar a ficha es
 
 A arquitetura, portanto, existe. Para funções de absorção/resistência, o Limiar de Efetividade já possui baseline experimental em paradas mundanas; falta verificar se a mesma curva pode ser aplicada com fidelidade à Força de Vontade espiritual.
 
-A principal dívida específica do domínio é traduzir **Fúria → Ameaça/Consequência** e Encantos que exigem rolagens do ST sem apagar suas particularidades.
+A principal dívida específica do domínio foi refinada pelo Estudo 15: **Fúria não precisa ser convertida obrigatoriamente**. Quando não houver reação equivalente do PJ, sua rolagem pode permanecer com o ST por fidelidade. Encantos são classificados por função: percepção/orientação, estado, consequência direta, controle/possessão e transporte/portal.
 
 O Estudo 14 também esclarece que a defesa do PJ contra dano espiritual já é naturalmente player-facing quando ele usa **Arete (Espírito) Dificuldade 6** ou **Avatar Dificuldade 8**. Esses procedimentos devem ser preservados sem conversão adicional.
 
@@ -218,10 +218,11 @@ Não há ganho em substituir essa ficha por Oposição/Ameaça/Relógio.
 
 O que permanece aberto é a tradução de:
 
-* tradução de **Fúria → Ameaça/Consequência**;
-* validação de **Força de Vontade → Oposição/Limiar de Efetividade**, conforme a função;
-* certos Encantos que exigem procedimentos próprios;
-* preservação direta das defesas do jogador por Arete/Espírito ou Avatar, já player-facing.
+* **Força de Vontade defensiva → Oposição**;
+* **Força de Vontade como soak → Limiar de Efetividade** experimental;
+* **Fúria** permanece rolagem do ST quando necessário;
+* Encantos são preservados por função, sem compressão universal;
+* defesas do jogador por Arete/Espírito ou Avatar permanecem intactas.
 
 ---
 
