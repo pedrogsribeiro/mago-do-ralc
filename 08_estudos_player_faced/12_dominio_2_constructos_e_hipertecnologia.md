@@ -323,3 +323,18 @@ Veículos precisam ser separados em duas funções:
 * **veículo como objeto** → integridade/dano estrutural conforme regra original.
 
 O Relógio de perseguição representa **posição**, não Structure. Colisão abre um procedimento separado, ainda não consolidado na bíblia atual.
+
+
+---
+
+## 14. Propagação do Estudo 19
+
+Maravilhas refinam a classificação de objetos e constructos:
+
+* Bugiganga → objeto passivo;
+* Amuleto/Matriz → reserva de Quintessência;
+* Talismã/Dispositivo → objeto com Arete/Iluminação próprio;
+* Fetiche → objeto com espírito e ativação específica;
+* Maravilha autônoma → só vira constructo-agente se realmente possuir agência.
+
+A existência de poder mágico por si só não transforma um item em NPC.
