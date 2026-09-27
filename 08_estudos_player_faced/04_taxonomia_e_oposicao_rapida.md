@@ -5,18 +5,83 @@ tags: [srd, design, player-faced, taxonomia, oposicao-rapida, oposicao-menor, re
 ---
 
 # Estudo 04: Taxonomia de Carga Narrativa e Oposição Rápida
-## 🏛️ 1. Taxonomia dos 3 Níveis de Carga Narrativa
+## 🏛️ 1. Taxonomia dos Obstáculos
 
-### Nível 1 — Desafio Rápido / Oposição Pontual
-Situações resolvidas sem estrutura persistente: obstáculos ambientais, ações técnicas, interações breves com NPCs menores, furtividade pontual, uma abordagem social curta ou outro atrito que não justifique abrir uma ameaça estruturada.
+A revisão posterior do Perfil DRP mostrou que três classificações diferentes estavam sendo sobrepostas. Elas passam a ser tratadas como **eixos independentes**.
 
-Obstáculo passivo e NPC ativo continuam ontologicamente diferentes, mas possuem carga operacional semelhante para o Storyteller.
+### Eixo A — Passivo / Ativo
 
-### Nível 2 — Ameaça Ativa
-NPCs, constructos, fenômenos ou outras ameaças que permanecem em cena, possuem ações próprias, ocupam iniciativa e exigem acompanhamento persistente.
+**Passivo** é o Obstáculo que não possui agência própria relevante na cena. Ele resiste, impede, exige progresso, causa risco ambiental ou mantém estados, mas não escolhe ações como um agente.
 
-### Nível 3 — Ameaça Telegrafada / Alto Impacto
-Ações ou estados de consequência excepcional cuja cadeia causal precisa ser legível e oferecer janela significativa de agência: preparação, ação efetiva que estabelece estado, escalada, ritual, controle de zona ou mudança de fase.
+**Ativo** é o Obstáculo que possui agência: declara ações, escolhe alvos, ocupa iniciativa quando o procedimento exigir, reage estrategicamente e pode produzir consequências por decisão própria.
+
+A distinção é ontológica. Um Obstáculo passivo e um agente ativo podem ter a mesma carga operacional e até usar a mesma notação curta, mas continuam sendo coisas diferentes na ficção e na resolução.
+
+### Eixo B — Simples / Elaborado
+
+**Simples** descreve um Obstáculo cuja operação exige pouca informação explícita. Pode ser apenas um default como `6`, ou `6` mais uma ação como `Soco: 2S + 2C`.
+
+**Elaborado** descreve um Obstáculo que precisa de mais estrutura: dimensões distintas, ações próprias, Persistência, estados, poderes, exceções, comportamento, objetivos e conteúdo diegético.
+
+Simples/elaborado mede **densidade operacional**, não agência. Portanto existem Obstáculos passivos simples, passivos elaborados, ativos simples e ativos elaborados.
+
+### Eixo C — Pontual / Persistente / Alto Impacto
+
+A antiga taxonomia de três níveis continua útil, mas passa a descrever **carga de cena**, não tamanho de ficha:
+
+- **Pontual:** uma resolução curta sem acompanhamento persistente;
+- **Persistente:** o Obstáculo permanece relevante por várias ações, turnos ou etapas;
+- **Alto impacto/telegrafado:** uma ação, estado ou escalada exige cadeia causal legível e oportunidade significativa de intervenção.
+
+O mesmo Obstáculo pode mudar de carga de cena sem mudar sua ontologia. Um guarda ativo simples pode ser pontual numa conversa e persistente numa perseguição. Uma ameaça ativa elaborada pode executar uma ação telegrafada de alto impacto.
+
+### Relação com o Perfil DRP
+
+O **Perfil DRP é a linguagem mecânica**, não uma dessas categorias. Ele pode representar qualquer combinação dos eixos acima com resolução progressiva e forma esparsa.
+
+Exemplos:
+
+```
+Porta emperrada
+6
+```
+
+= passivo, simples, normalmente pontual.
+
+```
+Capanga
+6
+Soco: 2S + 2C
+```
+
+= ativo, simples.
+
+```
+Sistema hipertecnológico
+6
+Mental/Técnico: 8/3/2
+Mágicko: 7/2/2
+Persistência: [...]
+Estados: [...]
+```
+
+= passivo ou semiativo conforme a ficção, elaborado e possivelmente persistente.
+
+```
+Antagonista nomeado
+Físico: [...]
+Social: [...]
+Mental/Técnico: [...]
+Mágicko: [...]
+Ações: [...]
+Persistência: [...]
+Motivações: [...]
+Comportamento: [...]
+```
+
+= ativo, elaborado.
+
+A quantidade de campos nunca deve ser confundida com potência. Um Obstáculo simples pode ser muito perigoso; um elaborado pode apenas exigir mais definição porque possui mais funções relevantes.
 
 ---
 
