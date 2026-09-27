@@ -452,6 +452,7 @@ Ações:
 Soco: 2S + 1C
 Arma de Impacto: 2S + 2C
 Arma de Corte: 2S + 1L; 2L se restarem 2+ sucessos líquidos
+Intimidar: 1S
 
 Persistência:
 Vitalidade padrão humana
@@ -624,7 +625,7 @@ O pool-base 5L só alcança o próximo degrau de efeito quando permanecem 3+ suc
 
 ## 3.4 Ficha player-faced candidata
 
-> **Status:** conversão mecânica pronta; aguardando apenas homologação autoral do perfil.
+> **Status:** HOMOLOGADO para o PT-1.
 
 ### DURÃO PROFISSIONAL
 
@@ -685,6 +686,233 @@ O Durão Profissional é um template de faixa. Antes da cena, o ST escolhe os va
 - [x] ações sociais e furtividade convertidas;
 - [x] Iniciativa convertida;
 - [x] Persistência e Força de Vontade preservadas;
+- [x] homologação autoral do perfil.
+
+**DURÃO PROFISSIONAL: CONCLUÍDO PARA O PT-1.**
+
+**Próximo perfil: Policial de Rua.**
+
+
+---
+
+# 4. Policial de Rua
+
+## 4.1 Fonte consolidada
+
+O perfil canônico representa uma ronda policial comum.
+
+Valores relevantes:
+
+- Destreza 2;
+- Vigor 3;
+- Manipulação 3;
+- Percepção 3;
+- Inteligência 2;
+- Raciocínio 3;
+- Armas Brancas 2;
+- Armas de Fogo 3;
+- Briga 2;
+- Computação 1;
+- Conhecimento de Área 3;
+- Direção 2;
+- Direito 2;
+- Esportes 2;
+- Furtividade 1;
+- Intimidação 1;
+- Investigação 2;
+- Manha 2;
+- Prontidão 2;
+- Tecnologia 2;
+- Força de Vontade 5;
+- Vitalidade padrão humana;
+- colete Kevlar leve, com 5 dados totais de absorção;
+- Pistola Pesada 4L;
+- Bastão de Choque 3C;
+- Taser com teste de Vigor do alvo para evitar atordoamento;
+- rádio, algemas, spray de pimenta e autoridade institucional;
+- possibilidade de escalar a resposta para reforços/SWAT.
+
+## 4.2 Conversão pela régua DRP
+
+### Físico
+
+A defesa ativa usa:
+
+`Destreza 2 + Esportes 2 = 4d`
+
+Pela tabela D/R:
+
+```text
+7/1
+```
+
+A absorção Contundente total é 5d e converte para `C2`.
+
+O personagem é Adormecido, portanto Vigor não absorve Letal. O Kevlar fornece 2d da absorção total declarada e essa parcela converte para `L1`.
+
+Sem proteção específica contra Agravado:
+
+```text
+Físico: 7/1/C2·L1·A0
+```
+
+### Mental/Técnico
+
+Percepção 3 + Prontidão 2 = 5d para percepção/alerta:
+
+```text
+Percepção/Alerta: 6/2
+```
+
+Percepção 3 + Investigação 2 = 5d D6 em investigações baseadas em observação:
+
+```text
+Investigar: 2S
+```
+
+Inteligência 2 + Conhecimento de Área 3 = 5d D6:
+
+```text
+Conhecimento de Área: 2S
+```
+
+Destreza 2 + Direção 2 = 4d D6:
+
+```text
+Dirigir: 2S
+```
+
+### Social
+
+A autoridade policial permanece uma Característica, pois ela altera permissões, acesso e reação ficcional sem equivaler automaticamente a uma Resistência Social.
+
+Manipulação 3 + Intimidação 1 = 4d D6:
+
+```text
+Intimidar: 2S
+```
+
+O default defensivo Social permanece `6` quando não houver oposição social específica definida pelo procedimento original.
+
+### Iniciativa
+
+A conversão produz:
+
+`Destreza 2 + Raciocínio 3 + 6 = 11`
+
+Na ficha final:
+
+```text
+Iniciativa: 11
+```
+
+## 4.3 Ações de combate
+
+### Pistola Pesada
+
+Destreza 2 + Armas de Fogo 3 = 5d D6:
+
+```text
+Pistola Pesada: 2S + 2L
+```
+
+### Bastão de Choque
+
+Destreza 2 + Armas Brancas 2 = 4d D6.
+
+O dano-base de 3C converte para 1C e sobe para 2C quando permanecem 2+ sucessos líquidos:
+
+```text
+Bastão de Choque: 2S + 1C; 2C se restarem 2+ sucessos líquidos
+```
+
+### Taser
+
+O corpus consolidado registra a consequência do equipamento — teste de Vigor do alvo para evitar atordoamento — mas não traz, neste documento, uma dificuldade numérica específica nem uma linha própria de dano.
+
+A ficha preserva apenas o que está sustentado:
+
+```text
+Taser: ao atingir, o PJ faz o teste de Vigor previsto pela regra do equipamento para evitar atordoamento
+```
+
+A ausência da dificuldade numérica fica registrada como lacuna de fonte, sem inventar um valor para completar a ficha.
+
+## 4.4 Ficha player-faced candidata
+
+> **Status:** conversão mecânica pronta; aguardando homologação autoral.
+
+### POLICIAL DE RUA
+
+Agente de ronda treinado para perceber problemas, conter suspeitos, investigar ocorrências simples e escalar rapidamente a resposta quando a situação foge ao controle.
+
+```text
+6
+
+Físico:
+7/1/C2·L1·A0
+
+Social:
+6
+
+Mental/Técnico:
+6
+Percepção/Alerta: 6/2
+
+Mágicko/Poderes:
+—
+
+Ações:
+Pistola Pesada: 2S + 2L
+Bastão de Choque: 2S + 1C; 2C se restarem 2+ sucessos líquidos
+Investigar: 2S
+Conhecimento de Área: 2S
+Dirigir: 2S
+Intimidar: 2S
+Taser: ao atingir, teste de Vigor do PJ para evitar atordoamento
+
+Persistência:
+Vitalidade padrão humana
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 5
+
+Iniciativa:
+11
+
+Características:
+Autoridade policial
+Colete Kevlar leve
+Rádio de patrulha
+Algemas
+Spray de pimenta
+Taser
+Pode chamar reforços e escalar a resposta para SWAT/Choque
+```
+
+## 4.5 Escalada para SWAT/Choque
+
+A fonte trata SWAT/Choque como **escalada de resposta**, não como ficha canônica independente neste corpus. Portanto, ela permanece ligada ao Policial de Rua como consequência de escalada:
+
+- fuzil de assalto: 6L;
+- colete tático reforçado: 8 dados totais de absorção;
+- blindado de transporte.
+
+Esses números não são completados por inferência em uma nova ficha de SWAT porque o corpus consolidado não fornece os demais Atributos/Habilidades necessários para uma conversão completa.
+
+## 4.6 Gate do Policial de Rua
+
+- [x] D/R físico convertido;
+- [x] Proteção Contundente e Letal separadas;
+- [x] Percepção/Alerta convertida;
+- [x] ações profissionais recorrentes convertidas;
+- [x] Pistola e Bastão convertidos;
+- [x] Iniciativa convertida;
+- [x] Persistência e Força de Vontade preservadas;
+- [x] autoridade institucional preservada como Característica;
+- [x] escalada SWAT preservada sem inventar ficha ausente;
+- [ ] dificuldade numérica específica do teste de Vigor do Taser não está presente no corpus consolidado;
 - [ ] homologação autoral do perfil.
 
-**DURÃO PROFISSIONAL: MECANICAMENTE PRONTO, AGUARDANDO HOMOLOGAÇÃO.**
+**POLICIAL DE RUA: MECANICAMENTE PRONTO, COM UMA LACUNA DOCUMENTAL NÃO BLOQUEANTE NO TASER.**
