@@ -94,7 +94,7 @@ Essas operações podem ser mapeadas para a ficha achatada sem apagar a ficha es
 
 A arquitetura, portanto, existe. Para funções de absorção/resistência, o Limiar de Efetividade já possui baseline experimental em paradas mundanas; falta verificar se a mesma curva pode ser aplicada com fidelidade à Força de Vontade espiritual.
 
-A principal dívida específica do domínio foi refinada pelo Estudo 15: **Fúria não precisa ser convertida obrigatoriamente**. Quando não houver reação equivalente do PJ, sua rolagem pode permanecer com o ST por fidelidade. Encantos são classificados por função: percepção/orientação, estado, consequência direta, controle/possessão e transporte/portal.
+A principal dívida específica do domínio foi refinada pelo Estudo 15: **Fúria sem reação equivalente do PJ continua exigindo transformação própria**. Não se cria reação nova para o jogador e a rolagem do ST não pode permanecer no produto final. Encantos são classificados por função: percepção/orientação, estado, consequência direta, controle/possessão e transporte/portal.
 
 O Estudo 14 também esclarece que a defesa do PJ contra dano espiritual já é naturalmente player-facing quando ele usa **Arete (Espírito) Dificuldade 6** ou **Avatar Dificuldade 8**. Esses procedimentos devem ser preservados sem conversão adicional.
 
@@ -220,7 +220,7 @@ O estado posterior da tradução é:
 
 * **Força de Vontade defensiva → Oposição** experimental;
 * **Força de Vontade como soak → Limiar de Efetividade** experimental;
-* **Fúria** permanece rolagem do ST quando necessário;
+* **Fúria** permanece dívida de transformação quando ainda depender de rolagem do ST;
 * Encantos são preservados por função, sem compressão universal;
 * defesas do jogador por Arete/Espírito ou Avatar permanecem intactas.
 
@@ -288,6 +288,6 @@ Com isso, o domínio realmente espelha a diversidade do conteúdo original em ve
 
 A principal dívida restante é de **validação e documentação**, não de arquitetura:
 
-> validar os baselines de Vontade→Oposição/Limiar e recuperar procedimentos detalhados dos Encantos que a bíblia atual apenas nomeia. Fúria/Gnose podem permanecer no ST quando a fidelidade exigir.
+> validar os baselines de Vontade→Oposição/Limiar, recuperar procedimentos detalhados dos Encantos e encontrar transformações para Fúria/Gnose que eliminem as rolagens do ST sem alterar o PJ.
 
 Essa questão precisa ser resolvida no programa de tradução dos procedimentos transversais, não escondida dentro deste domínio.
