@@ -214,7 +214,7 @@ FICHA ACHATADA POR DIMENSÃO
 
 Use **0** somente quando aquela capacidade/resistência realmente não existe naquela dimensão. Não use 0 como sinônimo de “fraco”.
 
-Ao preencher **Proteção**, registre também o **tipo de Impacto protegido**. No Físico, use ao menos C/L/A quando pertinente. Nas demais dimensões, use apenas categorias confirmadas pelo subsistema original; a mesma assinatura pode ter proteção contra alguns tipos de efeito e nenhuma contra outros.
+Ao preencher **Proteção** no Físico, registre também o tipo de dano protegido — C, L e/ou A — quando pertinente. Em Social e Mental/Técnico, Proteção é um valor único. Em Mágicko/Poderes, use tipos apenas quando o poder ou subsistema original realmente distinguir categorias de efeito, resistência ou imunidade.
 
 AÇÕES E PODERES
 - [...]
