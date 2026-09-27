@@ -442,6 +442,16 @@ Esse resultado homologa, para este recorte, uma regra arquitetural: **D/R/P é u
 
 A consequência imediata é abrir uma auditoria separada para ações que possuam **Dificuldade própria e oposição ativa simultaneamente**. A tabela D/R atual foi calibrada a partir de Dificuldade-base 6 e não pode ser simplesmente sobreposta a Dificuldades 5–10 sem nova verificação matemática.
 
+### Bloco E — Dificuldade própria + oposição ativa
+
+O Bloco E testou se a tabela D/R calibrada em D6 poderia ser transportada mecanicamente para ações resistidas com Dificuldade original entre 3 e 9. Foram comparados três modelos: transposição direta, transposição com overflow do teto D9 convertido em Resistência e melhor D/R local encontrado por busca exata.
+
+A **transposição direta foi rejeitada como regra geral**. Ela apresentou **TV média de 9,927%** e pior caso de **39,680%**. Converter overflow em Resistência não melhorou o conjunto: TV média de **10,150%**, com o mesmo pior caso. O melhor D/R local reduziu a TV média para **8,210%**, mas ainda apresentou pior caso de **31,040%**.
+
+A regra transposta coincidiu exatamente com o ótimo local em apenas **32 de 77 perfis Dificuldade×NPC (41,6%)**. Os maiores desvios concentraram-se sobretudo nas Dificuldades-base baixas, mostrando que **Dificuldade da ação e oposição do NPC interagem de forma não linear**. Portanto, o D da assinatura do NPC não deve ser simplesmente somado, deslocado ou transportado sobre a Dificuldade própria da ação.
+
+O resultado preserva a utilidade da assinatura D/R/P como interface compacta, mas abre uma tarefa distinta de **composição e calibração**: encontrar uma regra simples para combinar Dificuldade própria da ação com a assinatura do NPC e medir quanto pequenos ajustes locais em D ou R conseguem aproximar NPCs concretos do comportamento original.
+
 ### Ameaça + Consequência
 
 A auditoria V3 comparou três modelos para ataques do NPC:
