@@ -67,9 +67,9 @@ A assinatura defensiva compacta usa sempre a mesma ordem:
 
 * **Dificuldade** é o valor-alvo que cada d10 do jogador precisa alcançar para contar como sucesso, preservando o conceito de M20.
 * **Resistência** é a quantidade fixa de sucessos cancelados depois da rolagem. Se os sucessos obtidos forem iguais ou menores que a Resistência, não sobra sucesso líquido.
-* **Proteção** atua depois que a ação produziu Impacto e reduz esse Impacto antes que ele alcance a Integridade, Vitalidade ou estrutura equivalente.
+* **Proteção** atua depois que a ação produziu Impacto e reduz esse Impacto antes que ele alcance a Integridade, Vitalidade ou estrutura equivalente. A Proteção é **tipada**: seu valor só se aplica aos tipos de Impacto cobertos pela resistência original.
 
-Assim, **Resistência Física 7/2/2** significa Dificuldade 7, Resistência 2 e Proteção 2. Uma ação sem etapa de Impacto/absorção pode usar apenas **7/2**.
+Assim, **Resistência Física 7/2/2[C,L]** significa Dificuldade 7, Resistência 2 e Proteção 2 contra dano **Contundente e Letal**. Tipos não listados não recebem essa Proteção, salvo outra regra ou fonte de proteção. Quando valores diferentes se aplicarem a tipos diferentes, usa-se o terceiro campo como perfil, por exemplo **7/2/C2·L1·A0**. Uma ação sem etapa de Impacto/absorção pode usar apenas **7/2**.
 
 ### Graduação pré-convertida
 
@@ -78,6 +78,10 @@ A assinatura D/R/P é preparada **antes da cena** a partir das capacidades origi
 A graduação deve partir das funções reais da ficha original. Uma competência defensiva ativa pode sustentar D/R; Vigor, armadura ou resistência equivalente podem sustentar P; outros atributos só entram quando o procedimento original realmente os utiliza. A ficha final registra apenas a assinatura operacional necessária, por exemplo **Físico 7/2/2**.
 
 A tabela matemática fornece o baseline. NPCs concretos podem receber ajustes pequenos em D, R ou P quando a comparação com seu comportamento original mostrar ganho de fidelidade. Esses ajustes são parte da calibração da graduação e precisam permanecer rastreáveis à ficha original.
+
+A graduação também preserva **o escopo da Proteção**. No físico, a ficha deve registrar se P vale contra dano Contundente (C), Letal (L) e/ou Agravado (A), porque essa distinção altera diretamente as escolhas e expectativas do jogador em M20. Um valor simples como `P2` só pode ser usado sem marcador quando a proteção realmente se aplicar de modo equivalente a todos os tipos relevantes daquele contexto.
+
+A mesma regra vale fora do físico: **Proteção é sempre Proteção contra algum tipo de Impacto**. Em Social, Mental/Técnico e Mágicko, os marcadores devem vir das categorias reais do subsistema original — reputação, coerção, intrusão, ilusão, contramágika, poderes ou outras que a auditoria documental confirmar. A taxonomia desses tipos será definida por domínio; não deve ser inventada apenas para preencher a ficha.
 
 ### Ameaça
 
@@ -106,7 +110,7 @@ A leitura de sucessos continua valendo dentro dessa estrutura:
 * **1 sucesso** continua sendo sucesso marginal e normalmente produz **1 Impacto/1 caixa** sobre o Relógio, além de mover a ficção;
 * sucessos adicionais produzem efeito proporcional conforme a regra da ação e o tipo de Obstáculo;
 * **0 sucessos** não produz Impacto;
-* um **Proteção** pode reduzir o Impacto final quando representa resistência real.
+* uma **Proteção aplicável ao tipo de Impacto** pode reduzir o Impacto final quando representa resistência real.
 
 Portanto, relógio não transforma 1 sucesso em “resultado narrativo sem dano”. O sucesso afeta a história **e** a estrutura persistente do Obstáculo, salvo quando uma resistência legítima absorve esse Impacto.
 
@@ -114,9 +118,9 @@ Portanto, relógio não transforma 1 sucesso em “resultado narrativo sem dano�
 
 **Impacto** é a quantidade de efeito produzida por uma ação depois que sua resolução determinou que houve efeito quantitativo e antes de qualquer absorção passiva. **Impacto efetivo** é o que resta depois da Proteção.
 
-A **Proteção** é a generalização da antiga **RD fixa**.
+A **Proteção** é a generalização da antiga **RD fixa** e conserva o escopo do que pode ser absorvido.
 
-No combate físico, representa o papel de Vigor, armadura, couraça ou material em reduzir o dano que efetivamente atravessa. Em outros domínios pode representar uma resistência equivalente: proteção institucional, segurança criptográfica, blindagem mental, barreira mágicka etc.
+No combate físico, representa o papel de Vigor, armadura, couraça ou material em reduzir o dano que efetivamente atravessa, mantendo a distinção entre **Contundente, Letal e Agravado**. Em outros domínios pode representar resistência equivalente — proteção institucional, segurança criptográfica, blindagem mental, barreira mágicka etc. — sempre com o tipo de Impacto protegido explicitado.
 
 Uma ação pode continuar sendo bem-sucedida e ainda produzir **Impacto efetivo zero após a Proteção**, do mesmo modo que em M20 um ataque pode acertar e a absorção anular todo o dano.
 
