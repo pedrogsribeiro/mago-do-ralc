@@ -20,11 +20,23 @@
 * **Busca Direcionada via Grep:** Prefira `grep_search` filtrando por tags do YAML (ex: `type: npc`, `tags: [paradoxo]`) com o parâmetro `Includes` restrito à pasta relevante para evitar consumo excessivo de tokens.
 * **Padrão YAML Obrigatório:** Todo documento novo ou atualizado deve manter o cabeçalho YAML Frontmatter no topo com `type`, `summary` e `tags`.
 
-## 4. Taxonomia de Carga Narrativa (Sistema Player-Faced Total)
+## 4. Contrato do Sistema Player-Faced Total
+
+O contrato normativo está em `08_estudos_player_faced/contrato_produto_player_faced_total.md` e prevalece sobre estudos, simulações e auditorias posteriores enquanto não houver decisão autoral explícita em contrário.
+
+Regras obrigatórias:
+* **Player-faced significa reduzir a carga cognitiva e operacional do Storyteller sem alterar a experiência do personagem jogador.**
+* **O Storyteller rola zero dados.**
+* Nenhuma rolagem de NPC, espírito, item ou fenômeno pode ser transferida ao jogador.
+* Nenhuma nova defesa, reação ou rolagem pode ser criada para o PJ apenas para absorver uma antiga rolagem do ST.
+* Ficha, paradas, recursos, economia de ações e procedimentos do PJ permanecem como em M20.
+* Se uma conversão não preservar suficientemente risco, competência ou efeito, ela permanece como dívida aberta de calibração. Reintroduzir rolagem do ST não conta como solução.
+
+## 5. Taxonomia de Carga Narrativa (Sistema Player-Faced Total)
 Nas narrativas e regras deste workspace, a oposição é classificada em **3 Níveis de Carga Narrativa** conforme os estudos em [`08_estudos_player_faced`](../08_estudos_player_faced):
 
-* **Nível 1 (Desafio Rápido / Oposição Pontual):** Tarefas estáticas/ambientais (arrombar, saltar, decodificar) ou atritos instantâneos com NPCs menores (guardas, informantes, patrulhas). Resolvido em **1 única rolagem do PJ** contra Dificuldade 5 a 8 ($\ge 2$ Sucessos Plenos, 1 Sucesso Parcial com custo, 0 Falha).
-* **Nível 2 (Ameaça Ativa):** Combates sérios, perseguições estruturadas ou hacks ativos contra opositores estruturados (Hit-Marks, Agentes de Elite). Utiliza 4 Dimensões Simétricas, Dano Fixo, Relógios de Vitalidade (3 a 7 Impactos) e Regra do Efeito Zero.
-* **Nível 3 (Ameaça Telegrafada / Chefe Climático):** Confrontos climáticos com vilões de arco, rituais de grande escala ou catástrofes. Utiliza Fases + Movimentos Telegrafados Declarados no início da rodada com escolhas táticas de Interrupção, Mitigação ou Ataque Total.
+* **Nível 1 (Desafio Rápido / Oposição Pontual):** Tarefas estáticas/ambientais (arrombar, saltar, decodificar) ou atritos instantâneos com NPCs menores (guardas, informantes, patrulhas). Resolvido em **1 única rolagem do PJ** contra Dificuldade 5 a 8 ($\ge 2$ Sucessos Plenos, 1 Sucesso Marginal, 0 Falha).
+* **Nível 2 (Ameaça Ativa):** Combates sérios, perseguições estruturadas ou hacks ativos contra opositores estruturados (Hit-Marks, Agentes de Elite). Pode utilizar as quatro dimensões como lente de competência, além de Oposição, Ameaça, Consequência, Integridade/Relógio e Limiar de Efetividade quando sustentados pela conversão apropriada. Esses parâmetros não autorizam alterar procedimentos do PJ nem presumir dano fixo universal.
+* **Nível 3 (Ameaça Telegrafada / Chefe Climático):** Confrontos climáticos com vilões de arco, rituais de grande escala ou catástrofes. Pode utilizar fases e movimentos telegrafados como causalidade legível. Interromper, mitigar ou aceitar o risco descrevem famílias analíticas de resposta; não constituem menu novo de ações para os jogadores.
 
 
