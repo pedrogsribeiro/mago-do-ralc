@@ -107,7 +107,7 @@ A ficha achatada já prevê o ciclo de combate do antagonista:
 
 Portanto, ataque, dano e soak **não são lacunas de arquitetura**.
 
-O Limiar de Efetividade já possui uma curva experimental útil para soak. Em ações ofensivas persistentes **sem defesa ativa/reação equivalente do PJ**, a regra posterior de fidelidade preserva a rolagem necessária do ST; isso deixou de ser uma dívida de arquitetura.
+O Limiar de Efetividade já possui uma curva experimental útil para soak. Em ações ofensivas persistentes **sem defesa ativa/reação equivalente do PJ**, o procedimento continua sendo dívida de transformação: a rolagem do ST precisa ser eliminada sem conceder nova operação ao jogador.
 
 Vitalidade e outros recursos não devem ser comprimidos arbitrariamente quando sua função canônica ainda importa.
 
@@ -155,19 +155,19 @@ Antagonistas conscientes podem mobilizar vários procedimentos transversais do E
 | Ações múltiplas | Preservadas |
 | Ataque do PJ | Preservado |
 | Defesa ativa do NPC | Conversão ainda em calibração |
-| Ataque do NPC | **Ameaça**; comprimir quando houver âncora na rolagem do PJ; preservar ST quando não houver |
+| Ataque do NPC | **Ameaça**; quando não houver âncora em rolagem normal do PJ, a transformação permanece aberta |
 | Dano do PJ | Preservado |
-| Dano do NPC | **Consequência** registra o impacto; a rolagem original pode permanecer quando necessária |
+| Dano do NPC | **Consequência** registra o impacto; a antiga rolagem do ST precisa de transformação quando ainda existir |
 | Soak/armadura do NPC | **Limiar de Efetividade**; baseline experimental disponível |
 | Vitalidade | Preservada por enquanto |
 | Força de Vontade | Preservada |
 | Arete/Esferas | Preservados; conjuração do PJ já é naturalmente player-facing |
 | Contramágika | Básica: defesa ativa por Arete D7 e cancelamento de sucessos, candidata a Oposição; Inata: proteção própria, sem conversão automática |
-| Mágika ofensiva do NPC sem reação do PJ | Preservar rolagem do ST quando necessário por fidelidade |
-| Reação de Paradoxo | Preservar rolagem do ST |
+| Mágika ofensiva do NPC sem reação do PJ | Dívida aberta de transformação player-faced |
+| Reação de Paradoxo | Dívida aberta de transformação player-faced |
 | Telegrafia | Aplicável a ações de alto impacto |
 
-O domínio está **arquitetonicamente fechado como método híbrido**. O que permanece experimental são algumas conversões probabilísticas. A regra geral de contramágika foi recuperada; o texto comercial ainda precisa conferi-la contra a fonte licenciada.
+O domínio está **arquitetonicamente mapeado, mas ainda não fechado como player-faced total**. O que permanece experimental são algumas conversões probabilísticas. A regra geral de contramágika foi recuperada; o texto comercial ainda precisa conferi-la contra a fonte licenciada.
 
 ---
 
