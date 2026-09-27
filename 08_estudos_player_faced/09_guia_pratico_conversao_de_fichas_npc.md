@@ -141,9 +141,9 @@ Só essas operações são candidatas à transformação player-facing.
 ## Passo 5 — Aplique apenas transformações já sustentadas pela pesquisa
 
 ### Oposição resistida comum
-O baseline experimental atual é **Dificuldade + Limiar oculto**:
+O baseline experimental atual é expresso como **Dificuldade + Resistência**, na notação compacta **D/R**:
 
-| Parada relevante do NPC | Diff experimental | Limiar oculto |
+| Parada relevante do NPC | Dificuldade | Resistência |
 | :---: | :---: | :---: |
 | 2d | 6 | 1 |
 | 3d | 6 | 1 |
@@ -159,20 +159,20 @@ O baseline experimental atual é **Dificuldade + Limiar oculto**:
 
 Essa tabela continua candidata a homologação por playtest. A auditoria posterior determinou que **botch deve ser julgado pela dificuldade-base da ação antes de aplicar a compressão da Oposição**; isso preserva praticamente exatamente a frequência original de falha crítica. O viés residual de sucesso permanece pequeno, mas mensurável.
 
-### Ameaça, Consequência e Limiar de Efetividade
+### Resistência D/R/P, Ameaça e Consequência
 
 A ficha achatada já possui os campos necessários para o combate do NPC:
 
 * **Ameaça:** capacidade do NPC de impor sua ação ao PJ.
 * **Consequência:** dano, estresse ou outro impacto aplicado quando a Ameaça se concretiza.
-* **Limiar de Efetividade:** resistência do Obstáculo ao Impacto; é o nome generalizado da antiga RD fixa para funcionar também fora do dano físico.
+* **Proteção:** valor que reduz o Impacto depois que a ação produziu efeito; generaliza a antiga RD fixa quando existe resistência passiva equivalente.
 
 O desenho desses campos já existe.
 
-* **Limiar de Efetividade** usa o baseline auditado: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4. O caso de 1d é uma aproximação deliberada: L0 e L1 empatam em distância distributiva, e L0 evita criar imunidade absoluta contra dano 1d.
+* **Proteção** usa o baseline auditado: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4. O caso de 1d é uma aproximação deliberada: P0 e P1 empatam em distância distributiva, e P0 evita criar imunidade absoluta contra dano 1d.
 * **Ameaça + Consequência** ainda exigem transformação para os casos unilaterais. Com defesa ativa, preservar a rolagem normal do PJ e comprimir o lado do NPC é promissor; sem defesa ativa/reação equivalente, o caso permanece aberto.
 
-> O **Limiar de Efetividade** não deve ser confundido com o **limiar oculto** usado na investigação matemática da conversão de rolagens resistidas.
+> A assinatura defensiva usa **D/R/P = Dificuldade / Resistência / Proteção**. Os dois primeiros números resolvem a oposição; o terceiro só atua quando existe Impacto a absorver. Assim, `7/2/2` significa Dificuldade 7, Resistência 2 e Proteção 2.
 
 ---
 
@@ -205,12 +205,12 @@ RECURSOS PRESERVADOS
 
 FICHA ACHATADA POR DIMENSÃO
 
-| Dimensão | Oposição | Ameaça | Consequência | Integridade / Relógio | Limiar de Efetividade |
-| :--- | :---: | :---: | :--- | :---: | :---: |
-| Físico |  |  |  |  |  |
-| Social |  |  |  |  |  |
-| Mental/Técnico |  |  |  |  |  |
-| Mágicko |  |  |  |  |  |
+| Dimensão | Resistência D/R/P | Ameaça | Consequência | Integridade / Relógio |
+| :--- | :---: | :---: | :--- | :---: |
+| Físico |  |  |  |  |
+| Social |  |  |  |  |
+| Mental/Técnico |  |  |  |  |
+| Mágicko |  |  |  |  |
 
 Use **0** somente quando aquela capacidade/resistência realmente não existe naquela dimensão. Não use 0 como sinônimo de “fraco”.
 
@@ -272,13 +272,13 @@ Vitalidade normal de mortal
 sem armadura
 ```
 
-Para uma oposição de Furtividade 4d contra a percepção do PJ, o baseline experimental permite testar **Diff 7 + Limiar 1** do lado do jogador.
+Para uma oposição de Furtividade 4d contra a percepção do PJ, o baseline experimental permite testar **7/1**: Dificuldade 7 + Resistência 1 do lado do jogador.
 
 ### Gate
 
 **PASSA para oposição pontual.**
 
-A estrutura de combate **já existe na ficha achatada** por Ameaça, Consequência e Limiar de Efetividade. A calibração continua necessária, sobretudo nas operações unilaterais originalmente pertencentes ao ST, que precisam ser eliminadas sem alterar o PJ.
+A estrutura defensiva do Obstáculo já pode ser resumida pela assinatura **D/R/P**, enquanto Ameaça e Consequência continuam descrevendo o sentido inverso, quando o Obstáculo age contra o PJ. A calibração continua necessária, sobretudo nas operações unilaterais originalmente pertencentes ao ST, que precisam ser eliminadas sem alterar o PJ.
 
 ---
 
@@ -393,7 +393,7 @@ A interface é **muito menor que a ficha completa**, mas ainda preserva exatamen
 Ao mesmo tempo, ela mostra os limites atuais da pesquisa:
 
 * 5d e 6d de oposição comum podem ser submetidos ao baseline experimental;
-* 9d de soak alimentam provisoriamente **Limiar de Efetividade 3**;
+* 9d de soak alimentam **Proteção 3**;
 * 8d de dano continuam sendo fonte da **Consequência**, mas a forma exata de preservar a variância do dano do NPC ainda depende do contexto ofensivo;
 * contramágika 5d precisa preservar o subsistema mágicko;
 * sensores especiais continuam sendo características concretas, não um número abstrato.
@@ -404,7 +404,7 @@ Ao mesmo tempo, ela mostra os limites atuais da pesquisa:
 
 **PASSA como interface de compressão informacional, mas ainda não como conversão player-faced total enquanto houver operações do ST sem transformação validada.**
 
-Esse é exatamente o tipo de NPC que deve continuar sendo usado para validar Oposição/Limiar e consultar a regra original de contramágika.
+Esse é exatamente o tipo de NPC que deve continuar sendo usado para validar a assinatura D/R/P e consultar a regra original de contramágika.
 
 ---
 
@@ -462,7 +462,7 @@ A proposta deste capítulo é válida **se entendida como método de extração 
 ### Ainda impede tratar toda compressão como matematicamente homologada
 * fidelidade de Oposição/Ameaça nos casos em que já existe rolagem do PJ e optamos por comprimir o lado do NPC;
 * comportamento dos baselines em pools extremos;
-* playtest perceptual do baseline de Limiar de Efetividade, já matematicamente calibrado como aproximação;
+* playtest perceptual do baseline de Proteção, já matematicamente calibrado como aproximação;
 * alguns efeitos de contramágika;
 * vários subsistemas sobrenaturais.
 
