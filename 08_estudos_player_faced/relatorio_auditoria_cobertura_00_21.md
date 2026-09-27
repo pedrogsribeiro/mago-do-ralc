@@ -1,6 +1,6 @@
 ---
 type: relatorio
-summary: "Auditoria consolidada dos Estudos Player-Faced 00–21: cobertura, estado de resolução, exceções de fidelidade, validações pendentes e lacunas documentais."
+summary: "Auditoria consolidada dos Estudos Player-Faced 00–21 após restauração do contrato de produto: zero dados do ST, experiência do PJ preservada e dívidas de transformação explicitadas."
 tags: [auditoria, consolidacao, player-faced, cobertura, lacunas, validacao, storyteller-vault]
 ---
 
@@ -14,19 +14,17 @@ Ele **não é um novo estudo numerado**. Sua função é verificar se a arquitet
 
 ## 1. Regra de precedência consolidada
 
-A pesquisa começou com a hipótese forte de reduzir drasticamente as operações do Storyteller, idealmente chegando a zero rolagens.
+O contrato normativo vigente está em `contrato_produto_player_faced_total.md`.
 
-As auditorias matemáticas e de experiência mostraram que três objetivos não podem ser garantidos simultaneamente em todo procedimento:
+A prioridade do produto é:
 
-1. zero rolagens do ST;
-2. nenhuma nova rolagem/custo para o jogador;
-3. preservação da distribuição e economia de ações de M20.
+1. **a experiência operacional do personagem jogador permanece integralmente M20;**
+2. **o Storyteller rola zero dados;**
+3. **as transformações do lado do ST são calibradas para preservar suficientemente competência, risco e efeito.**
 
-A regra consolidada é:
+Auditorias anteriores identificaram um conflito real entre zero dados do ST, ausência de novas operações para o jogador e reprodução exata de algumas distribuições originais. A conclusão antiga tratou isso como justificativa para um método híbrido. Essa conclusão foi revogada: quando uma transformação não for suficientemente fiel, o procedimento permanece **dívida aberta de transformação**.
 
-> **preservar a experiência do jogador tem precedência sobre eliminar toda rolagem do Storyteller.**
-
-Logo, o método final é **híbrido e player-facing por prioridade**, não “zero-dados-do-ST” por dogma.
+Reintroduzir rolagem do ST ou transferi-la ao jogador não constitui solução.
 
 ---
 
@@ -64,22 +62,21 @@ Procedimentos que já são suficientemente player-facing ou cuja melhor ergonomi
 
 ---
 
-### B. Resolvido por exceção de fidelidade
+### B. Dívidas abertas de transformação
 
-Procedimentos em que eliminar a rolagem do ST mudaria demais a experiência do jogador:
+Procedimentos que ainda não possuem solução player-faced total suficientemente calibrada:
 
 * ataque/dano do NPC quando o PJ não possui defesa ativa ou reação equivalente;
 * Fúria ofensiva de espíritos quando não há resistência correspondente do PJ;
 * Gnose de Encantos quando toda a incerteza está no lado do espírito;
 * mágika hostil unilateral do NPC;
 * Gladius do NPC contra PJ sem Aegis;
-* Reação de Paradoxo.
+* Reação de Paradoxo;
+* soak/resistência do NPC no caso de 1d quando o Limiar determinístico apaga resistência ocasional.
 
 Nesses casos:
 
-> **a rolagem necessária do ST permanece.**
-
-Isso não é dívida de arquitetura.
+> **a solução testada foi insuficiente; o procedimento permanece aberto até existir transformação do lado do Storyteller que preserve o PJ e elimine a rolagem do ST.**
 
 ---
 
@@ -151,20 +148,20 @@ Esses pontos são trabalho editorial e de verificação de fonte, não descobert
 | 04 | taxonomia/carga | Resolvido |
 | 05 | auditoria matemática | Resolvido como base de validação |
 | 06 | ficha achatada/matriz | Arquitetura resolvida; calibração parcial |
-| 07 | espíritos | Resolvido com exceções/validação |
-| 08 | teste integrado | Resolvido como gate, não como prova final |
-| 09 | protocolo de conversão | Resolvido como método híbrido |
+| 07 | espíritos | Arquitetura definida; Fúria/Gnose unilaterais abertas |
+| 08 | teste integrado | Gate parcial; expõe dívidas do motor total |
+| 09 | protocolo de conversão | Interface definida; conversão total ainda aberta |
 | 10 | ontologia/mapa | Resolvido |
-| 11 | antagonistas | Resolvido como método híbrido |
+| 11 | antagonistas | Arquitetura definida; ofensiva unilateral ainda aberta |
 | 12 | constructos | Resolvido; lacunas documentais específicas |
 | 13 | Umbra | Resolvido; validação/documentação específica |
-| 14 | mágika/contramágika | Regra geral recuperada; compressões ainda precisam validação e conferência de fonte |
-| 15 | espíritos/Encantos | Resolvido; Encantos específicos bloqueados quando ausentes |
+| 14 | mágika/contramágika | Conjuração do PJ preservada; mágika unilateral do NPC ainda aberta |
+| 15 | espíritos/Encantos | Estrutura definida; Fúria/Gnose unilaterais ainda abertas |
 | 16 | Teia Digital | Resolvido por classificação funcional; números/fonte final precisam conferência |
 | 17 | veículos/perseguições | Resolvido; tabelas/números finais precisam conferência de fonte |
-| 18 | Certámen | Resolvido |
+| 18 | Certámen | Gladius do NPC sem Aegis ainda aberto |
 | 19 | Maravilhas | Resolvido por composição |
-| 20 | Paradoxo/Silêncio/Consenso | Resolvido |
+| 20 | Paradoxo/Silêncio/Consenso | Reação de Paradoxo ainda aberta |
 | 21 | perigos ambientais | Resolvido; tabelas e progressões específicas precisam conferência de fonte |
 
 ---
@@ -175,7 +172,7 @@ Os 24 procedimentos do Estudo 10 foram cobertos por:
 
 * preservação direta;
 * transformação experimental;
-* exceção de fidelidade;
+* dívida explícita de transformação;
 * ou identificação explícita de lacuna documental.
 
 Não restou, no mapa atual, um procedimento conhecido que esteja simplesmente “esquecido”.
@@ -225,7 +222,7 @@ Transformar estudos em material comercial:
 * protocolo de conversão;
 * exemplos;
 * casos em que não converter;
-* exceções de fidelidade;
+* dívidas abertas e soluções homologadas;
 * tabelas experimentais apenas depois de homologadas.
 
 ---
@@ -236,7 +233,7 @@ A pesquisa pode avançar para consolidação comercial quando:
 
 1. não houver lacuna de regra original em subsistemas escolhidos para aparecer no livro;
 2. as tabelas experimentais tiverem sido homologadas ou substituídas;
-3. o método híbrido estiver descrito sem promessa falsa de “zero dados do ST”;
+3. todas as antigas rolagens do ST escolhidas para o escopo do produto possuírem transformação compatível com o contrato player-faced total;
 4. os exemplos usarem exatamente o mesmo método que o texto normativo;
 5. playtests mostrarem que a experiência do jogador continua reconhecivelmente M20.
 
@@ -254,4 +251,4 @@ O próximo passo não é abrir Estudo 22.
 4. rodar playtests dirigidos;
 5. consolidar o texto comercial.
 
-A arquitetura geral já foi suficientemente explorada.
+A arquitetura geral está amplamente mapeada, mas o motor player-faced total ainda não pode ser considerado fechado enquanto as dívidas de transformação acima permanecerem.
