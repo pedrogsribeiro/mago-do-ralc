@@ -428,7 +428,7 @@ Na faixa auditada — ataque do PJ de 2d–10d, defesa ativa do NPC de 2d–12d,
 
 O resultado passa como **aproximação operacional do pipeline completo** para esse recorte. Os piores casos concentram-se nos mesmos pontos em que os operadores isolados já apresentavam maior erro, sobretudo combinações como defesa 3d→6/1 ou 6d→6/2 com soak 1d→P0. Isso indica composição de erros conhecidos, não uma nova falha estrutural do modelo.
 
-A assinatura **D/R/P** deve ser tratada como baseline de conversão. Na futura calibração por NPC, os três valores podem receber ajustes pontuais quando a comparação com a ficha original mostrar que isso melhora a equivalência local sem quebrar a ordem funcional **Dificuldade → Resistência → Proteção**. Esses ajustes devem ser documentados como derivados da ficha e do comportamento original do NPC, e não como balanceamento arbitrário.
+O **Perfil DRP**, expresso em D/R/P, deve ser tratado como baseline de conversão. Na futura calibração por NPC, os três valores podem receber ajustes pontuais quando a comparação com a ficha original mostrar que isso melhora a equivalência local sem quebrar a ordem funcional **Dificuldade → Resistência → Proteção**. Esses ajustes devem ser documentados como derivados da ficha e do comportamento original do NPC, e não como balanceamento arbitrário.
 
 Este resultado não se extrapola automaticamente para armas de fogo, ataques sem defesa ativa, manobras com dificuldade-base diferente de 6, dano não absorvível ou ações ofensivas do NPC.
 
@@ -450,7 +450,7 @@ A **transposição direta foi rejeitada como regra geral**. Ela apresentou **TV 
 
 A regra transposta coincidiu exatamente com o ótimo local em apenas **32 de 77 perfis Dificuldade×NPC (41,6%)**. Os maiores desvios concentraram-se sobretudo nas Dificuldades-base baixas, mostrando que **Dificuldade da ação e oposição do NPC interagem de forma não linear**. Portanto, o D da assinatura do NPC não deve ser simplesmente somado, deslocado ou transportado sobre a Dificuldade própria da ação.
 
-O resultado preserva a utilidade da assinatura D/R/P como interface compacta, mas rejeita a necessidade de uma **fórmula universal de composição em tempo de jogo**. A direção homologada passa a ser uma **graduação pré-convertida de NPCs/Obstáculos**: a ficha recebe uma assinatura D/R/P derivada das capacidades originais e calibrada antecipadamente. Cada procedimento de M20 consulta apenas os componentes pertinentes dessa assinatura; Dificuldades próprias da ação permanecem próprias do subsistema quando a regra original assim determina.
+O resultado preserva a utilidade do **Perfil DRP** como interface compacta, mas rejeita a necessidade de uma **fórmula universal de composição em tempo de jogo**. A direção homologada passa a ser uma **graduação pré-convertida de NPCs/Obstáculos**: a ficha recebe um **Perfil DRP** derivado das capacidades originais e calibrada antecipadamente. Cada procedimento de M20 consulta apenas os componentes pertinentes dessa assinatura; Dificuldades próprias da ação permanecem próprias do subsistema quando a regra original assim determina.
 
 A calibração futura será feita sobre NPCs concretos. Parte-se do baseline matemático, converte-se a ficha original para uma assinatura como `7/2/2`, compara-se o comportamento clássico com o convertido e, quando necessário, ajusta-se D, R ou P de forma pequena e rastreável. O objetivo passa a ser construir uma **escala graduada de perfis**, do NPC mais fraco ao mais forte, em vez de calcular uma fórmula universal durante a cena.
 
