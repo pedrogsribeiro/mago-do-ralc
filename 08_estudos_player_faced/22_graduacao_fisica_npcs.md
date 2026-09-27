@@ -258,7 +258,56 @@ O ganho player-faced vem de tornar a resolução frequente compacta, preservando
 
 ---
 
-## 11. Próximo gate
+## 11. Matriz multidimensional de extração — primeira amostra
+
+A ficha achatada passa a distinguir entre **dimensão existente** e **dimensão já convertida**. Uma dimensão pode estar claramente presente no NPC e ainda assim manter seus pools originais enquanto a transformação matemática específica permanece aberta.
+
+| NPC | Físico | Social | Mental/Técnico | Mágicko/Poderes | Persistência |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Bandido Comum** | **7/1/C1·L0·A0** | Manipulação 2, Intimidação 1, Manha 1; sem assinatura universal ainda | Percepção 2 + Prontidão 2 = 4d para alerta; demais ações situacionais | 0 | 7 níveis humanos |
+| **Policial de Rua** | **7/1/C2·L?·A0** | autoridade institucional, Manipulação 3, Intimidação 1, Direito 2; conversão situacional | Percepção 3 + Prontidão 2 = 5d; Investigação 2; Computação/Tecnologia 1–2 | 0 | 7 níveis humanos |
+| **Agente do Governo** | **7/1–6/2 / C2·L?·A0** | Manipulação 3–5, Direito 4, Política 2–4, Manha 3; frente social forte | Percepção 3–4 + Prontidão 3 = 6–7d; Investigação 3–5; Computação/Tecnologia 2–4 | 0 | 7 níveis humanos |
+| **Hacktivista Desperto** | **6/2/C2·L2·A0** | Carisma/Manipulação 3; Lábia 4; Política 4 | Inteligência 4 + Computação 5 = 9d em hacking; Investigação 4; Tecnologia 4 | Arete 3–4; Correspondência/Dados 3, Forças 2, Mente 2 etc.; procedimentos mágickos preservados | 7 níveis humanos |
+| **Músico Xamã Urbano** | **7/1/C2·L2·A0** | Carisma 4; expressão/artes forte; oposição social depende da situação | Percepção 4; Consciência 3; Cosmologia 3; frente perceptiva/espiritual forte | Arete 3–4; Espírito 3, Forças 2, Primórdio 1, Tempo 2 | 7 níveis humanos |
+| **Pelourinho** | defesa física alta pela Destreza 4 e capacidades de combate; assinatura completa ainda a calibrar | presença social ordinária quase nula, Intimidação 6 como vetor específico | Raciocínio 5; Prontidão 4; percepção mundana anômala substituída por Correspondência/Mente | **Arete 6**; Correspondência 4, Espírito 4, Mente 4 etc.; poderes permanentes relevantes | 8 níveis: 5×OK, -1, -5, Incapacitado |
+| **Victor** | **6/3/C2·L0*·A0** | Carisma 4; demais habilidades sociais variáveis | Percepção 3; Tecnologia 3; outras habilidades 1–4 conforme função | **Contramágika Inata 2d**; deve permanecer explícita até conversão específica | **9 níveis** antes de Destruído; sem penalidades por ferimento |
+| **Ciborgue Metálico Comum** | **6/2/C2·L?·A?** | social baixo/médio e condicionado; Força de Vontade 5/3 conforme programação | Computação 2, Investigação 2, Tecnologia 3–5; módulos podem elevar drasticamente a frente técnica | módulos/poderes tecnológicos; sem assinatura mágicka universal | 8 níveis antes de Incapacitado |
+| **HIT Mark V** | **6/2/P3[tipagem pendente]** | quase inexistente como frente persuasiva comum | Percepção 3 + Prontidão 3 = 6d; sensores especiais; programação técnica | **Contramágika Inata 5d por Primium**; proteção intrínseca, ainda sem compressão homologada | ficha especial: 5×OK, -1, -5, Destruído |
+| **HIT Mark X** | **7/2/P?[12d]** | social funcional apenas por camuflagem/mudança facial; não implica defesa social alta | Percepção 5 + Prontidão 4 = 9d; sistemas de dados e conectividade contínua | **Contramágika Inata 4d por Primium**; proteção intrínseca, ainda sem compressão homologada | **9 níveis** antes de Destruído |
+| **Terno Preto** | **6/2/C3·L3·A0** | Manipulação 4, Intimidação 4, Lábia 3; **Aura de Medo** é regra própria e deve permanecer explícita | Percepção 5 + Prontidão 5 = 10d; Investigação 3, Computação 3, Hipertecnologia 3 | Arete 3–5; Mente 2+; outras Esferas 2–4; procedimentos e contramágika conforme regra | 7 níveis especiais, terminando em Vaporizado |
+
+Esta tabela não transforma automaticamente todos esses valores em D/R/P. Ela mostra **o que a ficha achatada precisa carregar** e qual é o estado de cada frente.
+
+### 11.1. Estado por dimensão
+
+**Físico** já possui dois operadores quantitativamente auditados: oposição ativa → D/R e soak → P. A calibração agora passa a ser feita por NPC concreto.
+
+**Social** existe como dimensão, mas o corpus usa atributos, habilidades, autoridade, contexto e Força de Vontade em combinações diferentes. Não há base para uma defesa social universal única. Quando uma interação for uma disputa resistida real, aplica-se a conversão à parada pertinente; fora disso, preserva-se o procedimento original.
+
+**Mental/Técnico** segue a mesma lógica. Percepção + Prontidão, Inteligência + Computação, Investigação, Hipertecnologia e outros pools representam tarefas diferentes. A dimensão serve como índice operacional e pode futuramente receber graduações recorrentes, mas não deve apagar essas diferenças antes da calibração.
+
+**Mágicko/Poderes** possui fontes próprias e frequentemente tipadas. Contramágika básica é defesa ativa por sucessos; Contramágika Inata, como Primium, é proteção intrínseca; Força de Vontade pode resistir a intrusões mentais; efeitos persistentes podem armazenar sucessos; imunidades podem produzir Efeito Zero. Esses casos precisam permanecer identificáveis separadamente mesmo quando futuramente forem apresentados por uma assinatura compacta.
+
+### 11.2. Persistência como eixo próprio
+
+Persistência é ortogonal às quatro dimensões. Dois NPCs podem compartilhar a mesma assinatura física e suportar quantidades muito diferentes de dano ou progresso.
+
+A ficha deve portanto manter, conforme o caso:
+
+- Vitalidade e penalidades;
+- Integridade/Structure;
+- Essência;
+- Locus;
+- caixas especiais;
+- estados finais como Incapacitado, Destruído ou Vaporizado;
+- imunidade a penalidades de ferimento;
+- transformações de fase ou outros estados persistentes.
+
+Persistência só poderá ser comprimida quando houver estudo específico demonstrando preservação de função.
+
+---
+
+## 12. Próximo gate
 
 O próximo passo não é criar novos tiers por intuição.
 
