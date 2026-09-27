@@ -416,7 +416,7 @@ A auditoria exata de soak encontrou a seguinte curva operacional promissora:
 | 7–9d | 3 |
 | 10d | 4 |
 
-O caso de **1d** é o mais imperfeito: Limiar 0 elimina toda a proteção e Limiar 1 a torna excessivamente estável. A solução de fidelidade adotada para o baseline é **preservar a rolagem de 1d**, cujo custo operacional é mínimo.
+O caso de **1d** é o mais imperfeito: Limiar 0 elimina toda a proteção e Limiar 1 a torna excessivamente estável. Portanto, **1d permanece dívida de transformação**; o contrato não permite preservar essa rolagem no ST apenas porque seu custo operacional é pequeno.
 
 ### Ameaça + Consequência
 
