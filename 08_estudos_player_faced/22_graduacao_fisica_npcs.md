@@ -1,6 +1,6 @@
 ---
 type: estudo
-status: exploratorio
+status: baseline_operacional
 summary: "Graduação física preliminar de NPCs e Obstáculos a partir de fichas reais do corpus, usando D/R/P tipado e preservando camadas diegéticas."
 tags: [player-faced, npc, obstaculo, graduacao, fisico, drp, diegese]
 ---
@@ -343,12 +343,22 @@ Persistência só poderá ser comprimida quando houver estudo específico demons
 
 ---
 
-## 12. Próximo gate
+## 12. Procedimento operacional de conversão
 
-O próximo passo não é criar novos tiers por intuição.
+A matemática acumulada já é suficiente para transformar fichas de NPCs para o padrão DRP sem recalibrar cada NPC individualmente.
 
-Primeiro deve-se resolver as lacunas de tipagem física acima e então selecionar NPCs representativos para **calibração vertical concreta**. A pergunta será:
+A conversão segue esta ordem:
 
-> a assinatura derivada pelo baseline preserva suficientemente como este NPC específico se comporta contra PJs de diferentes competências?
+1. **Default esparso:** use `6` quando nenhuma resistência específica precisar ser explicitada.
+2. **D/R por dimensão:** identifique a parada original que realmente faria oposição naquela dimensão e converta pela tabela de parada → D/R.
+3. **Proteção:** converta soak/resistência passiva pela tabela de soak → P, preservando tipagem C/L/A quando a regra original distinguir os tipos.
+4. **Ações:** converta a parada ofensiva por pool + Dificuldade → sucessos fixos usando os estudos ofensivos já realizados; converta o pool-base de efeito/dano para o efeito-base correspondente e preserve os degraus de sucessos excedentes quando forem relevantes.
+5. **Iniciativa:** derive nos bastidores por `Destreza + Raciocínio + 6`; a ficha final registra apenas `Iniciativa: N`.
+6. **Persistência:** mantenha Vitalidade, Structure, Essência, Locus ou equivalente como eixo próprio.
+7. **Recursos:** mantenha Força de Vontade, Quintessência, munição e outros recursos que ainda possuam função própria.
+8. **Características e poderes:** preserve literalmente aquilo que muda possibilidades, imunidades, gatilhos ou comportamento.
+9. **Representação final:** escreva apenas o valor convertido que o ST precisa usar em mesa; pools e fórmulas de origem pertencem ao processo de conversão, não à ficha final.
 
-Se não, testa-se ajuste pequeno e rastreável de D, R ou P. As assinaturas corrigidas passam a alimentar a futura tabela de graduação.
+Limitações estatísticas já conhecidas — como a perda de variância de ações ofensivas sem defesa ativa — permanecem registradas no estudo matemático geral. Elas não exigem uma nova simulação para cada NPC.
+
+Novo estudo matemático só é necessário quando surgir uma mecânica que não caiba em nenhum operador de transformação já existente.
