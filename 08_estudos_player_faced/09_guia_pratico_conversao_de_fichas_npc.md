@@ -172,7 +172,7 @@ O desenho desses campos já existe.
 * **Proteção** usa o baseline auditado: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4. O caso de 1d é uma aproximação deliberada: P0 e P1 empatam em distância distributiva, e P0 evita criar imunidade absoluta contra dano 1d.
 * **Ameaça + Consequência** ainda exigem transformação para os casos unilaterais. Com defesa ativa, preservar a rolagem normal do PJ e comprimir o lado do NPC é promissor; sem defesa ativa/reação equivalente, o caso permanece aberto.
 
-> A assinatura defensiva usa **D/R/P = Dificuldade / Resistência / Proteção**. Os dois primeiros números resolvem a oposição; o terceiro só atua quando existe Impacto a absorver e deve indicar seu escopo. Assim, `7/2/2[C,L]` significa Dificuldade 7, Resistência 2 e Proteção 2 contra dano Contundente e Letal. Se os valores variarem por tipo, pode-se registrar `7/2/C2·L1·A0`.
+> O **Perfil DRP** usa a notação **D/R/P = Dificuldade / Resistência / Proteção**. Os dois primeiros números resolvem a oposição; o terceiro só atua quando existe Impacto a absorver e deve indicar seu escopo. Assim, `7/2/2[C,L]` significa Dificuldade 7, Resistência 2 e Proteção 2 contra dano Contundente e Letal. Se os valores variarem por tipo, pode-se registrar `7/2/C2·L1·A0`.
 
 ---
 
@@ -228,7 +228,7 @@ LACUNAS / CALIBRAÇÕES PENDENTES
 
 O objetivo é o ST consultar muito menos informação durante a cena **sem perder a ficha que explica de onde aquilo veio**.
 
-A assinatura **D/R/P é somente o núcleo mecânico**. Ela não substitui as camadas diegéticas de NPCs e Obstáculos com maior peso na campanha. Quanto mais importante, recorrente ou singular for a entidade, mais devem permanecer visíveis suas características ficcionais, motivações, comportamento, poderes, recursos, vulnerabilidades, relações, pistas e formas de telegrafar perigo ou mudança de estado.
+O **Perfil DRP é somente o núcleo mecânico**. Ela não substitui as camadas diegéticas de NPCs e Obstáculos com maior peso na campanha. Quanto mais importante, recorrente ou singular for a entidade, mais devem permanecer visíveis suas características ficcionais, motivações, comportamento, poderes, recursos, vulnerabilidades, relações, pistas e formas de telegrafar perigo ou mudança de estado.
 
 A redução de carga cognitiva ocorre pela separação entre **o que precisa ser consultado para resolver uma ação** e **o que precisa existir para interpretar e narrar a entidade**.
 
@@ -284,7 +284,7 @@ Para uma oposição de Furtividade 4d contra a percepção do PJ, o baseline exp
 
 **PASSA para oposição pontual.**
 
-A estrutura defensiva do Obstáculo já pode ser resumida pela assinatura **D/R/P**, enquanto Ameaça e Consequência continuam descrevendo o sentido inverso, quando o Obstáculo age contra o PJ. A calibração continua necessária, sobretudo nas operações unilaterais originalmente pertencentes ao ST, que precisam ser eliminadas sem alterar o PJ.
+A estrutura defensiva do Obstáculo já pode ser resumida pelo **Perfil DRP**, enquanto Ameaça e Consequência continuam descrevendo o sentido inverso, quando o Obstáculo age contra o PJ. A calibração continua necessária, sobretudo nas operações unilaterais originalmente pertencentes ao ST, que precisam ser eliminadas sem alterar o PJ.
 
 ---
 
