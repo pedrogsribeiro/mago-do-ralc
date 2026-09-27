@@ -177,7 +177,7 @@ Uma pessoa comum, sem treinamento de combate. Sua competência real depende do o
 **Bloco Mecânico:**
 
 ```text
-Perfil-base: 6
+6
 
 Físico:
 6/1/C1·L0·A0
@@ -232,7 +232,7 @@ Exemplo apenas de uso da estrutura, sem criar uma nova regra:
 ```text
 ASSISTENTE DE LABORATÓRIO
 
-Perfil-base: 6
+6
 Físico: 6/1/C1·L0·A0
 Mental/Técnico — laboratório: 6/2
 Social: 6
@@ -434,7 +434,7 @@ Brigão de rua acostumado a intimidação, violência rápida e armas improvisad
 **Bloco Mecânico:**
 
 ```text
-Perfil-base: 6
+6
 
 Físico:
 7/1/C1·L0·A0
