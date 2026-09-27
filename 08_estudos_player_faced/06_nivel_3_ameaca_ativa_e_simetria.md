@@ -141,14 +141,15 @@ A arquitetura está definida e a auditoria exata já oferece um baseline experim
 
 | Soak original | Limiar de Efetividade |
 | :---: | :---: |
-| 0d | 0 |
-| 1d | **dívida de transformação** |
+| 0–1d | 0 |
 | 2–3d | 1 |
 | 4–6d | 2 |
 | 7–9d | 3 |
 | 10d | 4 |
 
-A aproximação é especialmente útil a partir de 2d. **1d não deve ser convertido automaticamente em Limiar 0**, pois isso apaga resistência ocasional. Como o contrato exige zero dados do ST, 1d permanece dívida de transformação até existir representação adequada.
+A auditoria exata do Bloco B mostrou que, de **2d a 10d**, essa tabela coincide com o melhor Limiar fixo encontrado no espaço testado. O caso de **1d** continua sendo o ponto menos fiel da compressão: L0 e L1 têm a mesma distância distributiva, mas L1 cria imunidade absoluta contra dano de 1d. Por isso, adota-se **1d → L0** como aproximação operacional deliberada.
+
+No conjunto soak 0–10d × dano 1–15d, a TV média agregada foi **8,593%**. O objetivo do Limiar é preservar suficientemente a função da resistência com uma operação simples do ST; ele não pretende reproduzir toda a variância de uma segunda rolagem independente.
 
 O antigo uso de Limiar 2/3 como simples “chefe ignora 1 sucesso” deve ser lido corretamente: o Limiar representa **resistência**, não status narrativo. Ele só deve ser alto quando a ficha original, equipamento, proteção ou ficção justificar resistência equivalente.
 
