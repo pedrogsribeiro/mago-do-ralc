@@ -23,7 +23,7 @@ Os Encantos continuam sendo poderes com função própria.
 
 O objetivo é responder:
 
-> **quais operações espirituais podem ser reduzidas, quais já são player-facing e quais precisam permanecer no Storyteller por fidelidade?**
+> **quais operações espirituais já são player-facing e como transformar as demais para que nenhuma rolagem permaneça no Storyteller sem alterar a experiência do jogador?**
 
 ---
 
@@ -116,11 +116,11 @@ essa rolagem do jogador deve ser preservada.
 
 Quando não existe defesa própria do PJ, aplica-se a regra de precedência já homologada:
 
-> **preserva-se a rolagem de Fúria do ST quando eliminá-la exigiria inventar uma defesa, transferir a rolagem hostil ao jogador ou achatar excessivamente a distribuição.**
+> **Fúria ofensiva sem reação equivalente do PJ permanece dívida aberta: não se inventa defesa, não se transfere a rolagem ao jogador e não se preserva a rolagem do ST como solução final.**
 
 ### Gate
 
-**PASSA COM EXCEÇÃO DE FIDELIDADE.**
+**AINDA ABERTO COMO TRANSFORMAÇÃO PLAYER-FACED.**
 
 Fúria não precisa ser convertida obrigatoriamente em Consequência fixa.
 
@@ -182,7 +182,7 @@ Exemplo documentado:
 
 Se a ação afeta diretamente a experiência do PJ mas não existe rolagem correspondente dele, vale a regra de fidelidade:
 
-> preservar a rolagem de Gnose do ST quando necessária.
+> quando Gnose ainda for rolada pelo ST e não houver operação correspondente do PJ, o caso permanece dívida aberta de transformação.
 
 Se o Encanto apenas estabelece informação da entidade para si mesma, o ST pode decidir quando a regra não exigir incerteza relevante ao jogador.
 
@@ -238,7 +238,7 @@ Esses Encantos precisam preservar:
 
 Se a resistência está do lado do jogador, preserva-se a rolagem do jogador.
 
-Se não existe resistência do jogador e o Encanto usa rolagem própria do espírito, a rolagem do ST pode permanecer.
+Se não existe resistência do jogador e o Encanto usa rolagem própria do espírito, a operação permanece dívida aberta de transformação do lado do ST.
 
 ### Gate
 
@@ -314,7 +314,7 @@ Ela permanece como **parada-fonte**.
 
 Dependendo do Encanto:
 
-* pode continuar sendo rolada pelo ST;
+* precisa de transformação quando a regra original a coloca como rolagem do ST;
 * pode alimentar uma oposição específica;
 * pode apenas definir capacidade/estado.
 
@@ -330,7 +330,7 @@ Dependendo do Encanto:
 | :--- | :--- |
 | Esquiva com Vontade | Oposição player-facing candidata |
 | Soak com Vontade | Limiar de Efetividade experimental |
-| Fúria ofensiva | Preservar rolagem do ST quando não houver reação equivalente do PJ |
+| Fúria ofensiva | Dívida aberta quando não houver reação equivalente do PJ |
 | PJ resiste com Arete/Espírito | Preservar |
 | PJ resiste com Avatar | Preservar |
 | Adormecido sem defesa | Preservar ausência de defesa |
@@ -340,7 +340,7 @@ Dependendo do Encanto:
 | Encanto de portal | Ação + estado |
 | Encanto ofensivo | Procedimento específico |
 | Encanto de controle | Procedimento específico |
-| Encanto de orientação | Preservar Gnose do ST quando a incerteza importar |
+| Encanto de orientação | Transformar Gnose do ST sem criar nova operação para o PJ |
 
 ---
 
@@ -432,10 +432,10 @@ O domínio espiritual passa com boa cobertura.
 * Materialização e outros Encantos de estado são tratados como estados;
 * Encantos são classificados por função.
 
-### Exceções deliberadas
+### Dívidas abertas de transformação
 
-* Fúria ofensiva pode permanecer rolagem do ST;
-* Gnose pode permanecer rolagem do ST quando o Encanto depender dela e não houver reação equivalente do PJ;
+* Fúria ofensiva ainda precisa de transformação quando depender de rolagem do ST;
+* Gnose ainda precisa de transformação quando o Encanto depender dela e não houver reação equivalente do PJ;
 * Encantos ofensivos/controle não recebem compressão universal.
 
 ### Dívidas restantes
