@@ -1,6 +1,6 @@
 ---
 type: regra
-summary: "Estudo técnico sobre a matemática do player-facing em M20, limites da conversão por dificuldade e refinamento por dificuldade + limiar oculto."
+summary: "Estudo técnico sobre a matemática do player-facing em M20, limites da conversão por Dificuldade e refinamento por Dificuldade + Resistência."
 tags: [srd, artigo, design, probabilidade, algoritmos, python, monte-carlo, estatistica, player-faced]
 ---
 
@@ -10,7 +10,7 @@ tags: [srd, artigo, design, probabilidade, algoritmos, python, monte-carlo, esta
 
 Este artigo formaliza matematicamente a tentativa de converter oposições de *Mago: A Ascensão 20 Anos* para resolução player-facing. A primeira hipótese testada — representar a competência do NPC apenas pela **Dificuldade do d10 do jogador** — mostrou-se insuficiente para reproduzir a distribuição de uma rolagem resistida clássica.
 
-A pesquisa posterior refinou a hipótese para **Dificuldade + Limiar oculto**, reduzindo fortemente o erro, mas ainda identificando viés sistemático na curva de competência dos PJs. Portanto, este estudo deve ser lido como **etapa de calibração**, não como prova final de equivalência.
+A pesquisa posterior refinou a hipótese para **Dificuldade + Resistência**, reduzindo fortemente o erro, mas ainda identificando viés sistemático na curva de competência dos PJs. Portanto, este estudo deve ser lido como **etapa de calibração**, não como prova final de equivalência.
 
 ---
 
@@ -337,24 +337,24 @@ def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock
 ## 💡 5. Conclusões e Estado Atual da Hipótese
 
 1. **A conversão por Dificuldade isolada foi rejeitada como equivalência suficiente.** Auditoria exata posterior encontrou grandes diferenças de distribuição e de taxa de sucesso.
-2. **Dificuldade + Limiar oculto é muito mais promissor.** Para PJs de 2–10 dados contra NPCs de 2–12 dados, o melhor ajuste global reduziu fortemente a distância entre as distribuições, mas ainda apresentou erro residual e viés.
+2. **Dificuldade + Resistência é muito mais promissor.** Para PJs de 2–10 dados contra NPCs de 2–12 dados, o melhor ajuste global reduziu fortemente a distância entre as distribuições, mas ainda apresentou erro residual e viés.
 3. **Viés observado:** com a conversão global, PJs de paradas menores tendem a ser levemente prejudicados e PJs de paradas maiores tendem a ser levemente favorecidos; parte dos sucessos sólidos também migra para resultados marginais.
 4. **A equivalência matemática continua aberta.** Uma transformação determinística de dois números não pode reproduzir perfeitamente toda a variância de uma segunda rolagem independente. O critério futuro deve combinar distância probabilística, preservação da curva de competência e playtest perceptual.
 5. **Ganhos de tempo e carga cognitiva ainda são hipóteses.** Simulação não mede tempo real de mesa; a magnitude desses ganhos precisa de playtests controlados.
 6. **A experiência do jogador não pode ser declarada preservada apenas porque os mesmos d10 e dificuldades familiares continuam visíveis.** A promessa exige preservar de forma suficientemente próxima as relações de competência e risco de M20.
-7. **A leitura 2+/1/0 permanece válida.** Ela descreve a qualidade do resultado em M20. Em Obstáculos persistentes, 1 sucesso continua sendo sucesso marginal e normalmente produz 1 Impacto/1 caixa antes de qualquer Limiar de Efetividade legítimo.
+7. **A leitura 2+/1/0 permanece válida.** Ela descreve a qualidade do resultado em M20. Em Obstáculos persistentes, 1 sucesso continua sendo sucesso marginal e normalmente produz 1 Impacto/1 caixa antes de qualquer Proteção legítimo.
 8. **Ameaça + Consequência ainda não possuem transformação universal suficientemente calibrada.** A auditoria V3 rejeitou uma regra fixa para todos os casos. Quando o PJ não possui defesa ativa ou reação equivalente, o caso permanece dívida prioritária: o contrato proíbe reintroduzir a rolagem ofensiva do Storyteller e também proíbe criar nova operação para o jogador.
 
 
 ---
 
-## 6. Refinamento Posterior: Dificuldade + Limiar Oculto
+## 6. Refinamento Posterior: Dificuldade + Resistência
 
-A auditoria exata posterior testou PJs de 2 a 10 dados contra NPCs de 2 a 12 dados. A hipótese “parada do NPC → Dificuldade” apresentou erro agregado muito alto. A inclusão de um **Limiar oculto** aproximou muito melhor a estrutura subtrativa da rolagem resistida.
+A auditoria exata posterior testou PJs de 2 a 10 dados contra NPCs de 2 a 12 dados. A hipótese “parada do NPC → Dificuldade” apresentou erro agregado muito alto. A inclusão de um **Resistência** aproximou muito melhor a estrutura subtrativa da rolagem resistida.
 
 Melhor ajuste global encontrado até aqui:
 
-| NPC | Diff PJ | Limiar |
+| NPC | Dificuldade | Resistência |
 | :---: | :---: | :---: |
 | 2d | 6 | 1 |
 | 3d | 6 | 1 |
@@ -370,6 +370,8 @@ Melhor ajuste global encontrado até aqui:
 
 Esse resultado é **experimental**. Uma nova auditoria exata encontrou ajustes pontuais ligeiramente melhores para alguns pools, mas a tabela regular acima permanece um baseline operacional útil porque preserva uma progressão simples e perde pouco em distância probabilística. Na auditoria mais recente, a TV média por parada ficou aproximadamente entre **3,4% e 9,4%**, com alguns piores casos na faixa de **15–16%**.
 
+A leitura operacional passa a usar a notação **D/R**: o primeiro número é a **Dificuldade** da rolagem do PJ e o segundo é a **Resistência**, isto é, a quantidade fixa de sucessos cancelados pela oposição. Assim, `7/2` significa **Dificuldade 7, Resistência 2**. Quando existir também resistência passiva ao efeito produzido, acrescenta-se **Proteção** como terceiro número, formando **D/R/P**, por exemplo `7/2/2`.
+
 
 ---
 
@@ -380,9 +382,9 @@ O Estudo 06 refinou uma premissa importante deste artigo: as quatro dimensões (
 Dano físico, absorção, mágika, oposição social, hacking e testes estendidos possuem procedimentos próprios em M20. Consequentemente:
 
 * **Consequência fixa** não é assumida como equivalente universal a ataque+dano do NPC em conflitos persistentes;
-* **Limiar de Efetividade** é a generalização da antiga RD fixa e mostrou comportamento promissor como substituto determinístico de soak;
+* **Proteção** é a generalização da antiga RD fixa e mostrou comportamento promissor como substituto determinístico de soak;
 * **relógios** não são automaticamente equivalentes a Vitalidade, Essência, Força de Vontade ou outros recursos;
-* **1 sucesso em conflito persistente** continua produzindo avanço ficcional e, normalmente, 1 Impacto antes do Limiar;
+* **1 sucesso em conflito persistente** continua produzindo avanço ficcional e, quando a regra o converte diretamente em efeito quantitativo, normalmente produz 1 Impacto antes da Proteção;
 * **Efeito Zero por impossibilidade** deve decorrer de impossibilidade ficcional ou regra efetiva, não de um simples status de “chefe”.
 
 Os algoritmos históricos deste artigo continuam úteis para estudar comportamento interno de hipóteses antigas, mas qualquer validação futura precisa comparar cada subsistema comprimido contra o procedimento original correspondente de M20.
@@ -394,15 +396,15 @@ Os algoritmos históricos deste artigo continuam úteis para estudar comportamen
 
 ### Oposição
 
-A conversão **Dificuldade + Limiar oculto** continua sendo a parte mais madura da ficha achatada. Os erros residuais são suficientemente baixos para tratá-la como baseline experimental, mas ainda não como equivalência exata.
+A conversão **Dificuldade + Resistência** continua sendo a parte mais madura da ficha achatada. Os erros residuais são suficientemente baixos para tratá-la como baseline experimental, mas ainda não como equivalência exata.
 
-### Limiar de Efetividade
+### Proteção
 
-A auditoria exata do **Bloco B — Limiar de Efetividade** comparou, para dano de 1d–15d e soak de 0d–10d, a distribuição final de `dano rolado − soak rolado` contra `dano rolado − Limiar fixo`. O personagem jogador mantém integralmente sua rolagem de dano; apenas a resistência do Obstáculo é comprimida.
+A auditoria exata do **Bloco B — Proteção** comparou, para dano de 1d–15d e soak de 0d–10d, a distribuição final de `dano rolado − soak rolado` contra `dano rolado − Proteção fixa`. O personagem jogador mantém integralmente sua rolagem de dano; apenas a resistência passiva do Obstáculo é comprimida.
 
 A curva operacional fica:
 
-| Soak original | Limiar de Efetividade |
+| Soak original | Proteção |
 | :---: | :---: |
 | 0–1d | 0 |
 | 2–3d | 1 |
@@ -414,7 +416,9 @@ No espaço auditado, o baseline apresentou **TV média agregada de 8,593%**. Par
 
 O caso de **1d** é estruturalmente ambíguo: L0 e L1 apresentam a mesma TV média e o mesmo pior caso, mas com vieses de dano opostos. Adota-se **1d → L0** como aproximação operacional porque L1 tornaria impossível que um pool de dano de 1d produzisse dano contra esse alvo, criando uma imunidade absoluta que o procedimento original não possui.
 
-Esse resultado homologa o Limiar como **aproximação de baixa carga cognitiva**, não como equivalência probabilística exata.
+Esse resultado homologa a **Proteção** como aproximação de baixa carga cognitiva, não como equivalência probabilística exata.
+
+**Impacto** é a quantidade de efeito produzida pela ação antes da Proteção. **Impacto efetivo** é o que resta depois da subtração da Proteção. Em combate físico, por exemplo, os sucessos obtidos na rolagem de dano do PJ constituem Impacto; a Proteção substitui o soak do NPC e o restante alcança a Vitalidade/Integridade pertinente.
 
 ### Ameaça + Consequência
 
@@ -472,7 +476,7 @@ A conversão de Oposição passa a preservar essa ordem:
 rolagem do PJ
 → julgar botch pela dificuldade-base original
 → se não houve botch, aplicar a compressão da Oposição
-→ dificuldade equivalente + Limiar oculto
+→ Dificuldade equivalente + Resistência
 → determinar sucessos líquidos
 ```
 
@@ -487,7 +491,7 @@ Para PJs de 2–10 dados contra NPCs de 2–12 dados:
 * viés médio absoluto de chance de sucesso por faixa de NPC: **~2,7 pontos percentuais**;
 * erro de botch: **essencialmente zero**.
 
-A alternativa de usar apenas D6 + Limiar oculto preserva botch naturalmente, mas piora a aproximação para cerca de **8% de TV média** e produz casos próximos de **19%**.
+A alternativa de usar apenas D6 + Resistência preserva botch naturalmente, mas piora a aproximação para cerca de **8% de TV média** e produz casos próximos de **19%**.
 
 ### Estado
 
