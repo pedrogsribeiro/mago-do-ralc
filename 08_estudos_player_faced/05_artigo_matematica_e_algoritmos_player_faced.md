@@ -350,7 +350,7 @@ def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock
 5. **Ganhos de tempo e carga cognitiva ainda são hipóteses.** Simulação não mede tempo real de mesa; a magnitude desses ganhos precisa de playtests controlados.
 6. **A experiência do jogador não pode ser declarada preservada apenas porque os mesmos d10 e dificuldades familiares continuam visíveis.** A promessa exige preservar de forma suficientemente próxima as relações de competência e risco de M20.
 7. **A leitura 2+/1/0 permanece válida.** Ela descreve a qualidade do resultado em M20. Em Obstáculos persistentes, 1 sucesso continua sendo sucesso marginal e normalmente produz 1 Impacto/1 caixa antes de qualquer Limiar de Efetividade legítimo.
-8. **Ameaça + Consequência não possuem uma transformação universal — e isso deixou de ser requisito do método.** A auditoria V3 rejeitou uma regra fixa para todos os casos. Quando o PJ não possui defesa ativa ou reação equivalente, a solução homologada por fidelidade é preservar a rolagem ofensiva necessária do Storyteller. Quando já existe rolagem defensiva do PJ, a compressão continua candidata a refinamento.
+8. **Ameaça + Consequência ainda não possuem transformação universal suficientemente calibrada.** A auditoria V3 rejeitou uma regra fixa para todos os casos. Quando o PJ não possui defesa ativa ou reação equivalente, o caso permanece dívida prioritária: o contrato proíbe reintroduzir a rolagem ofensiva do Storyteller e também proíbe criar nova operação para o jogador.
 
 
 ---
@@ -432,7 +432,7 @@ Preservar defesa ativa + soak foi a melhor aproximação entre os modelos testad
 
 Quando não existe defesa ativa, o problema é estrutural: M20 possui variância em ataque e dano no lado do NPC, enquanto o jogador pode não possuir nenhuma rolagem anterior ao soak — e alguns tipos de dano sequer permitem soak. Uma compressão totalmente determinística necessariamente elimina parte dessa variância.
 
-Portanto, o caso sem defesa ativa está **metodologicamente fechado por exceção de fidelidade**. A dívida matemática restante concentra-se apenas nas transformações que ainda pretendemos comprimir: Oposição, Limiar de Efetividade e Ameaça quando já existe uma rolagem do jogador capaz de carregar a incerteza.
+Portanto, o caso sem defesa ativa continua **metodologicamente aberto**. A auditoria demonstrou que as transformações testadas até aqui são insuficientes; ela não autoriza abandonar a premissa player-faced total. A dívida matemática inclui justamente encontrar uma representação do lado do ST que preserve suficientemente o perigo sem criar nova operação para o PJ.
 
 
 ---
@@ -449,9 +449,9 @@ Quando o procedimento original possui uma variável aleatória exclusivamente do
 
 Nenhuma dessas opções preserva simultaneamente distribuição, procedimento do jogador e zero rolagens do ST.
 
-Logo, sob a hierarquia definida no Estudo 00, a solução conservadora é manter a operação original do Storyteller nos casos em que nenhuma transformação player-facing suficientemente fiel foi demonstrada.
+Logo, sob a hierarquia definida no contrato do produto, a ausência de uma transformação suficientemente fiel mantém o problema aberto. A operação original do Storyteller não pode ser mantida como solução final.
 
-Isso não invalida a ficha achatada: **Ameaça** e **Consequência** continuam reduzindo consulta e reconstrução de ficha. O que deixa de ser prometido é que todo campo comprimido necessariamente elimine toda rolagem do ST.
+Isso não invalida a ficha achatada: **Ameaça** e **Consequência** continuam reduzindo consulta e reconstrução de ficha. Todo campo comprimido destinado ao produto final precisa eliminar a rolagem correspondente do ST sem alterar a interface operacional do PJ.
 
 
 ---
