@@ -165,7 +165,7 @@ O ST deve conseguir operar todos os cinco perfis sem consultar suas paradas orig
 - [x] Crocodilo;
 - [x] Pássaro Pequeno;
 - [x] Pássaro Substancial;
-- [ ] Pássaro Grande.
+- [x] Pássaro Grande.
 
 ### Gate do pacote
 
@@ -175,20 +175,22 @@ Cada animal deve poder ser operado como Obstáculo/NPC ativo sem o ST rolar ataq
 
 ## PT-3 — Obstáculos e Tarefas Mundanas
 
+**Status: CONCLUÍDO E HOMOLOGADO.**
+
 **Objetivo:** fechar a gramática do mundo inanimado e de tarefas sem agência própria.
 
 ### Escopo
 
-- [ ] portas, fechaduras, barreiras e objetos resistentes;
-- [ ] investigação e busca;
-- [ ] infiltração e furtividade contra segurança passiva;
-- [ ] reparos, pesquisa e trabalhos prolongados;
-- [ ] computadores e sistemas comuns quando não houver ainda Teia Digital;
-- [ ] ações simples;
-- [ ] ações estendidas;
-- [ ] ações resistidas apenas quando houver agente real;
-- [ ] ações estendidas-resistidas quando o M20 realmente usar essa estrutura;
-- [ ] Persistência/Structure/relógio somente quando representarem algo existente no procedimento original.
+- [x] portas, fechaduras, barreiras e objetos resistentes;
+- [x] investigação e busca;
+- [x] infiltração e furtividade contra segurança passiva;
+- [x] reparos, pesquisa e trabalhos prolongados;
+- [x] computadores e sistemas comuns quando não houver ainda Teia Digital;
+- [x] ações simples;
+- [x] ações estendidas;
+- [x] ações resistidas apenas quando houver agente real;
+- [x] ações estendidas-resistidas quando o M20 realmente usar essa estrutura;
+- [x] Persistência/Structure/relógio somente quando representarem algo existente no procedimento original.
 
 ### Gate do pacote
 
@@ -516,14 +518,13 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Pacote ativo: PT-3 — Obstáculos e Tarefas Mundanas.**
+**Pacote ativo: PT-4 — Riscos Ambientais e Perigos.**
 
 Próxima tarefa:
 
-- [ ] consolidar testes simples, estendidos, resistidos e estendidos-resistidos sob a ótica do ST;
-- [ ] preservar Dificuldade, retries, cooperação e graus de sucesso quando já são player-facing;
-- [ ] usar Durability + Structure para objetos materiais quando a fonte fornecer esses Traits;
-- [ ] usar D/R apenas quando existir oposição ativa real;
-- [ ] usar alvo de sucessos/progresso apenas quando M20 já tratar a tarefa como estendida ou exigir limiar;
-- [ ] não transformar tarefas simples em relógios;
-- [ ] homologar PT-3 antes de iniciar PT-4.
+- [ ] consolidar os riscos ambientais a partir das regras específicas já recuperadas;
+- [ ] preservar dano, tipo, intervalo, Vigor e possibilidade de absorção exatamente onde a fonte os prevê;
+- [ ] não transformar perigos ambientais em NPCs;
+- [ ] usar relógios apenas como interface de tempo/exposição já existente;
+- [ ] registrar separadamente lacunas de conferência de fonte para explosões e doenças;
+- [ ] homologar PT-4 antes de iniciar PT-5.
