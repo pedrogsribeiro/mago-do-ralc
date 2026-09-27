@@ -133,19 +133,25 @@ A regra original usa:
 
 `1d10 + Destreza + Raciocínio`.
 
-A auditoria específica do PT-1 homologou a transformação:
+A auditoria específica do PT-1 homologou a transformação de preparação:
 
 ```text
 Iniciativa fixa do NPC = Destreza + Raciocínio + 6
 ```
 
+Essa fórmula pertence ao **procedimento de conversão**, não à ficha final do Obstáculo/NPC. Depois de derivado o valor, a ficha final registra **somente a Iniciativa pronta**.
+
 O valor é derivado somente da ficha do NPC. O PJ continua rolando sua iniciativa normalmente segundo M20.
 
 Entre os candidatos testados, `+5` e `+6` apresentaram a mesma TV média ampla (7,296%) e o mesmo pior caso (15%). `+6` apresentou menor erro médio na probabilidade de o NPC agir antes do PJ no recorte do PT-1 (5,778% contra 6,356% de `+5`) e preserva empates possíveis. O candidato `+5,5` foi rejeitado porque elimina empates contra totais inteiros e piora a TV média.
 
-Para o Cidadão Típico:
+Para o Cidadão Típico, a conversão produz **Iniciativa 10**.
 
-`Destreza 2 + Raciocínio 2 + 6 = Iniciativa 10`.
+Na ficha final aparece apenas:
+
+```text
+Iniciativa: 10
+```
 
 **Status: HOMOLOGADO.**
 
@@ -265,8 +271,9 @@ O `6/2` só seria usado se a ficha concreta tivesse sido preparada com uma parad
 - [x] Força de Vontade foi preservada explicitamente como Recurso;
 - [x] a arquitetura de apresentação Perfil DRP → Ações → Persistência → Recursos/Características foi homologada;
 - [x] nenhuma ação ofensiva inexistente foi inventada;
-- [x] iniciativa do NPC convertida para valor fixo `Destreza + Raciocínio + 6`;
-- [x] Cidadão Típico recebe Iniciativa 10 sem rolagem do Storyteller.
+- [x] iniciativa do NPC derivada por `Destreza + Raciocínio + 6` no procedimento de conversão;
+- [x] ficha final registra somente o valor pronto de Iniciativa;
+- [x] Cidadão Típico recebe `Iniciativa: 10` sem rolagem do Storyteller.
 
 ### Ainda aberto
 
