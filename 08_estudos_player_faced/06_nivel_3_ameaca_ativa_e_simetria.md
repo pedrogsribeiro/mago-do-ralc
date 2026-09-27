@@ -84,7 +84,7 @@ Quando o PJ possui uma defesa ativa, a melhor linha testada até aqui é preserv
 
 Quando o PJ **não possui defesa ativa**, Ameaça continua sendo necessária na ficha, mas não existe uma rolagem do jogador que carregue naturalmente toda a variância que M20 colocava no ataque do NPC. As auditorias mostraram que inventar uma defesa gratuita ou reduzir ataque+dano a uma Consequência fixa altera materialmente a experiência.
 
-Sob o critério de fidelidade do Estudo 00, esse é um caso em que a rolagem ofensiva original do ST pode precisar ser preservada.
+Sob o contrato do produto, esse é um caso ainda aberto: a rolagem ofensiva original do ST precisa ser eliminada, mas sem criar defesa ou rolagem nova para o PJ.
 
 ### Consequência
 
@@ -152,13 +152,13 @@ A arquitetura está definida e a auditoria exata já oferece um baseline experim
 | Soak original | Limiar de Efetividade |
 | :---: | :---: |
 | 0d | 0 |
-| 1d | preservar rolagem |
+| 1d | **dívida de transformação** |
 | 2–3d | 1 |
 | 4–6d | 2 |
 | 7–9d | 3 |
 | 10d | 4 |
 
-A aproximação é especialmente útil a partir de 2d. **1d não deve ser convertido em Limiar 0**: isso apagaria toda a resistência ocasional daquela parada. Como a economia operacional de rolar 1d é mínima, o baseline híbrido preserva essa rolagem.
+A aproximação é especialmente útil a partir de 2d. **1d não deve ser convertido automaticamente em Limiar 0**, pois isso apaga resistência ocasional. Como o contrato exige zero dados do ST, 1d permanece dívida de transformação até existir representação adequada.
 
 O antigo uso de Limiar 2/3 como simples “chefe ignora 1 sucesso” deve ser lido corretamente: o Limiar representa **resistência**, não status narrativo. Ele só deve ser alto quando a ficha original, equipamento, proteção ou ficção justificar resistência equivalente.
 
@@ -236,7 +236,7 @@ A redução operacional só é bem-sucedida se vier sem perda relevante da exper
 Os Estudos 14–21 fecharam várias das questões que ainda estavam abertas quando este capítulo foi escrito. O estado atual é:
 
 1. **Ameaças ofensivas com defesa ativa:** continuar refinando a compressão onde já existe rolagem do jogador.
-2. **Ameaça + Consequência sem defesa ativa:** **resolvido por limite de fidelidade**; preserva-se a operação original do ST quando não existe transformação equivalente sem custo para o jogador.
+2. **Ameaça + Consequência sem defesa ativa:** **aberto e prioritário**; é necessário eliminar a operação original do ST sem criar nova rolagem, defesa ou custo para o jogador.
 3. **Recursos e entidades não humanas:** verificar se Vitalidade, Essência, Gnose, Vontade, armaduras, imunidades e outras reservas podem ser simplificadas sem transformar sua função original.
 
 Essas perguntas devem acompanhar os estudos seguintes e retroagir sobre este documento sempre que uma solução posterior for validada.
