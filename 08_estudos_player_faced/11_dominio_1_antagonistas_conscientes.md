@@ -354,4 +354,4 @@ Ele agora entrega:
 * mapa explícito dos procedimentos já resolvidos e das lacunas;
 * facção como possível Obstáculo macro.
 
-O domínio já pode fornecer fichas de interface coerentes com o método híbrido. Para o texto comercial, ainda será necessário marcar claramente quais valores são baselines experimentais e completar regras-fonte ausentes, como contramágika geral.
+O domínio já pode fornecer fichas de interface coerentes com a arquitetura de compressão. O fechamento comercial, porém, depende de resolver as operações unilaterais ainda abertas e marcar claramente quais valores permanecem baselines experimentais.
