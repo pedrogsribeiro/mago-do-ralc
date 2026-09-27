@@ -420,6 +420,18 @@ Esse resultado homologa a **Proteção** como aproximação de baixa carga cogni
 
 **Impacto** é a quantidade de efeito produzida pela ação antes da Proteção. **Impacto efetivo** é o que resta depois da subtração da Proteção. Em combate físico, por exemplo, os sucessos obtidos na rolagem de dano do PJ constituem Impacto; a Proteção substitui o soak do NPC e o restante alcança a Vitalidade/Integridade pertinente.
 
+### Bloco C — composição D/R/P no ataque físico do PJ
+
+O primeiro teste vertical completo combinou os dois operadores já calibrados em um único pipeline: **ataque D6 do PJ + defesa ativa do NPC + dano rolado pelo PJ + soak do NPC**. No player-facing, a defesa ativa do NPC foi convertida em **Dificuldade/Resistência (D/R)** e o soak em **Proteção (P)**, sem acrescentar qualquer nova operação ao jogador.
+
+Na faixa auditada — ataque do PJ de 2d–10d, defesa ativa do NPC de 2d–12d, dano-base de 2d–10d e soak de 0d–10d — a distribuição final de dano apresentou **TV média de 5,182%**, pior caso de **16,859%**, erro médio absoluto de **0,1232 nível** no dano esperado e viés médio de **−0,0550 nível**. A chance de botch permaneceu preservada exatamente.
+
+O resultado passa como **aproximação operacional do pipeline completo** para esse recorte. Os piores casos concentram-se nos mesmos pontos em que os operadores isolados já apresentavam maior erro, sobretudo combinações como defesa 3d→6/1 ou 6d→6/2 com soak 1d→P0. Isso indica composição de erros conhecidos, não uma nova falha estrutural do modelo.
+
+A assinatura **D/R/P** deve ser tratada como baseline de conversão. Na futura calibração por NPC, os três valores podem receber ajustes pontuais quando a comparação com a ficha original mostrar que isso melhora a equivalência local sem quebrar a ordem funcional **Dificuldade → Resistência → Proteção**. Esses ajustes devem ser documentados como derivados da ficha e do comportamento original do NPC, e não como balanceamento arbitrário.
+
+Este resultado não se extrapola automaticamente para armas de fogo, ataques sem defesa ativa, manobras com dificuldade-base diferente de 6, dano não absorvível ou ações ofensivas do NPC.
+
 ### Ameaça + Consequência
 
 A auditoria V3 comparou três modelos para ataques do NPC:
