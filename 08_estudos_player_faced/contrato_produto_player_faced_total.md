@@ -40,7 +40,7 @@ Quando uma regra original exige uma rolagem do Storyteller, essa operação deve
 
 1. eliminada quando for desnecessária;
 2. convertida em parâmetro derivado da ficha original;
-3. representada por Oposição, Ameaça, Consequência, Limiar de Efetividade, estado, relógio ou outra estrutura adequada;
+3. representada pela assinatura defensiva **Dificuldade/Resistência/Proteção (D/R/P)**, por Ameaça, Consequência, estado, relógio ou outra estrutura adequada;
 4. ancorada numa rolagem que o jogador já faria normalmente, quando isso não altera sua função;
 5. ou registrada como **dívida de transformação ainda aberta**.
 
@@ -53,13 +53,25 @@ Podem ser profundamente reorganizados do lado do Storyteller:
 - fichas e interfaces de NPCs;
 - fichas de Obstáculos;
 - preparação de cenas;
-- representação de oposição e resistência;
+- representação defensiva do Obstáculo por **Dificuldade, Resistência e Proteção**;
 - dano e consequência produzidos por ameaças;
 - relógios, estados e limiares;
 - representação de sistemas, organizações, objetos, espíritos e fenômenos;
 - procedimentos internos usados para substituir antigas rolagens do ST.
 
 NPCs e entidades preservam agência ficcional. Continuam tendo intenção, iniciativa, objetivos, ações, poderes, movimentação e capacidade de produzir consequências.
+
+### Assinatura defensiva homologada
+
+Quando o PJ age contra um Obstáculo e a operação original exige compressão do lado do Storyteller, a notação-base é **D/R/P**:
+
+- **Dificuldade**: valor-alvo no d10, preservando o conceito de M20;
+- **Resistência**: sucessos cancelados pela oposição ativa;
+- **Proteção**: Impacto absorvido depois que a ação produziu efeito quantitativo.
+
+A forma curta **D/R** é suficiente quando não existe etapa de Impacto/Proteção. A forma completa `7/2/2`, por exemplo, significa **Dificuldade 7, Resistência 2, Proteção 2**.
+
+**Impacto** é o efeito quantitativo produzido antes da Proteção; **Impacto efetivo** é o restante depois da Proteção.
 
 ## 5. Fidelidade
 
