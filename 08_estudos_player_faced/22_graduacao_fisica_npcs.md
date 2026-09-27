@@ -352,7 +352,7 @@ A conversão segue esta ordem:
 1. **Default esparso:** use `6` quando nenhuma resistência específica precisar ser explicitada.
 2. **D/R por dimensão:** identifique a parada original que realmente faria oposição naquela dimensão e converta pela tabela de parada → D/R.
 3. **Proteção:** converta soak/resistência passiva pela tabela de soak → P, preservando tipagem C/L/A quando a regra original distinguir os tipos.
-4. **Ações:** converta a parada ofensiva por pool + Dificuldade → sucessos fixos usando os estudos ofensivos já realizados; converta o pool-base de efeito/dano para o efeito-base correspondente e preserve os degraus de sucessos excedentes quando forem relevantes.
+4. **Ações:** converta a parada ofensiva por pool + Dificuldade → sucessos fixos usando os estudos ofensivos já realizados; converta o pool-base de efeito/dano para o efeito-base correspondente. Depois do primeiro sucesso líquido, **cada 2 sucessos excedentes acrescentam +1 sucesso automático ao dano/efeito**. Não se acrescentam dados de dano.
 5. **Iniciativa:** derive nos bastidores por `Destreza + Raciocínio + 6`; a ficha final registra apenas `Iniciativa: N`.
 6. **Persistência:** mantenha Vitalidade, Structure, Essência, Locus ou equivalente como eixo próprio.
 7. **Recursos:** mantenha Força de Vontade, Quintessência, munição e outros recursos que ainda possuam função própria.
