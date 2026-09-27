@@ -100,6 +100,5 @@ Isso inclui, no mínimo:
 - mágika hostil unilateral;
 - Gladius de NPC contra PJ sem Aegis;
 - Reação de Paradoxo;
-- soak/resistência de NPC que tenha sido mantido como rolagem por inadequação de um limiar determinístico.
 
 Esses casos permanecem **abertos** até existir solução que cumpra simultaneamente os invariantes do jogador e zero rolagens do Storyteller.
