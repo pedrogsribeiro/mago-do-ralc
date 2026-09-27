@@ -79,6 +79,23 @@ A graduação deve partir das funções reais da ficha original. Uma competênci
 
 A tabela matemática fornece o baseline. NPCs concretos podem receber ajustes pequenos em D, R ou P quando a comparação com seu comportamento original mostrar ganho de fidelidade. Esses ajustes são parte da calibração da graduação e precisam permanecer rastreáveis à ficha original.
 
+### Camadas além da assinatura mecânica
+
+A assinatura D/R/P é o **núcleo mecânico mínimo de consulta**, não a ficha inteira do NPC ou Obstáculo. Quanto maior o peso diegético da entidade, mais informação deve permanecer disponível ao Storyteller acima desse núcleo.
+
+NPCs e Obstáculos simples podem existir quase só como assinatura + uma ou duas características relevantes. Entidades recorrentes, chefes, antagonistas nomeados, instituições, espíritos, constructos e outros elementos com peso ficcional maior preservam também, conforme necessário:
+
+- características que mudam a ficção;
+- motivações, objetivos e relação com a cena;
+- comportamento, táticas e prioridades;
+- poderes, recursos e limitações;
+- vulnerabilidades, imunidades e condições especiais;
+- estados ou transformações relevantes;
+- relações, pistas, segredos e consequências;
+- telegrafia sensorial e sinais que permitam aos jogadores compreender risco, intenção e mudança de estado.
+
+A compressão player-faced reduz carga operacional sem apagar **presença, personalidade, função dramática ou legibilidade ficcional**. A graduação mecânica deve servir à diegese, não substituí-la.
+
 A graduação também preserva **o escopo da Proteção**. No físico, a ficha deve registrar se P vale contra dano Contundente (C), Letal (L) e/ou Agravado (A), porque essa distinção altera diretamente as escolhas e expectativas do jogador em M20. Um valor simples como `P2` só pode ser usado sem marcador quando a proteção realmente se aplicar de modo equivalente aos tipos físicos pertinentes.
 
 Em **Social** e **Mental/Técnico**, Proteção é um valor único quando existir; essas dimensões não recebem subtipos de Proteção.
