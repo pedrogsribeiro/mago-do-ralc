@@ -286,3 +286,210 @@ O `6/2` só seria usado se a ficha concreta tivesse sido preparada com uma parad
 A ficha já pode ser operada pelo Storyteller sem rolagens próprias nas operações normais cobertas por este perfil. A observação sobre uso contextual de defesa ativa permanece como cuidado de apresentação/playtest, não como bloqueio mecânico.
 
 **Próximo perfil: Bandido Comum.**
+
+
+---
+
+# 2. Bandido Comum
+
+## 2.1 Fonte consolidada
+
+A ficha canônica consolidada no repositório fornece:
+
+- Força 3;
+- Destreza 2;
+- Vigor 2;
+- Carisma 2;
+- Manipulação 2;
+- Aparência 2;
+- Percepção 2;
+- Inteligência 1;
+- Raciocínio 2;
+- Armas Brancas 2;
+- Briga 2;
+- Conhecimento de Área 1;
+- Direção 1;
+- Esportes 2;
+- Intimidação 1;
+- Manha 1;
+- Ofícios 2;
+- Prontidão 2;
+- Tecnologia 1;
+- Força de Vontade 3;
+- Vitalidade padrão humana;
+- nenhuma armadura;
+- Soco: 2d C;
+- arma de impacto: 4d C;
+- arma de corte: 3d L.
+
+## 2.2 Conversões que já estão sustentadas
+
+### Iniciativa
+
+A fórmula homologada de preparação produz:
+
+`Destreza 2 + Raciocínio 2 + 6 = 10`.
+
+Na ficha final aparece somente:
+
+```text
+Iniciativa: 10
+```
+
+### Perfil Físico
+
+A defesa ativa típica usa:
+
+`Destreza 2 + Esportes 2 = 4d`.
+
+O baseline de oposição converte 4d em `7/1`.
+
+Vigor 2 produz `P1` contra Contundente. Como Adormecido, Vigor não absorve Letal nem Agravado.
+
+Portanto:
+
+```text
+Físico: 7/1/C1·L0·A0
+```
+
+O `R1` continua condicionado à existência de defesa/oposição ativa no procedimento original; ele não cria defesa gratuita.
+
+### Mental/Técnico — percepção e alerta
+
+`Percepção 2 + Prontidão 2 = 4d`.
+
+Quando o Bandido oferece oposição ativa de percepção/alerta a uma ação do PJ, o valor pré-convertido é:
+
+```text
+Mental/Técnico — percepção/alerta: 7/1
+```
+
+Outras competências técnicas do perfil são baixas e não recebem um número separado sem necessidade concreta.
+
+### Social
+
+O Bandido possui `Intimidação 1` com Atributos Sociais 2, mas a ficha original não estabelece por si só um procedimento social universal para converter essa competência em resistência defensiva.
+
+Por isso:
+
+```text
+Social: 6
+```
+
+A competência de Intimidação permanece como característica de ação possível, mas não é transformada automaticamente em R ou P Social.
+
+## 2.3 Ações físicas
+
+Os ataques corpo a corpo usam `Destreza 2 + Briga/Armas Brancas 2 = 4d` em Dificuldade 6.
+
+Na calibração ofensiva já realizada, `4d D6` produz **2 sucessos fixos de ação**.
+
+Os pools-base de dano produzem:
+
+- 2d C → efeito-base 1C;
+- 4d C → efeito-base 2C;
+- 3d L → efeito-base 1L.
+
+A relação original entre sucessos excedentes e dano continua preservada pelos degraus já estudados. Para este perfil:
+
+- Soco 2d: 1C com 1 sucesso líquido; continua 1C com um sucesso excedente; chega a 2C com dois excedentes;
+- Arma de Impacto 4d: permanece 2C nos degraus relevantes deste perfil;
+- Arma de Corte 3d: 1L com 1 sucesso líquido; sobe para 2L com um sucesso excedente.
+
+A ficha candidata pode portanto registrar:
+
+```text
+Ações:
+Soco: 2S + 1C
+Arma de Impacto: 2S + 2C
+Arma de Corte: 2S + 1L; 2L se restarem 2+ sucessos líquidos
+```
+
+Esses valores são pré-convertidos; o ST não consulta os pools originais durante a cena.
+
+### Limite já conhecido
+
+Quando o PJ usa uma defesa ativa que M20 já permite, o pipeline é utilizável:
+
+```text
+ação fixa do Bandido
+→ defesa normal do PJ
+→ sucessos líquidos restantes
+→ efeito-base/degau por excedentes
+→ soak normal do PJ, quando permitido
+```
+
+Quando o PJ **não** usa defesa ativa, os `2S` do Bandido tornam o acerto determinístico. O M20 original ainda continha chance de falha no ataque de 4d D6. A auditoria anterior mostrou que nenhum escalar determinístico simples preserva satisfatoriamente essa distribuição.
+
+Isso é agora uma **dívida concreta do Bandido Comum**, e portanto uma dívida legítima do PT-1. Não será contornada criando uma defesa gratuita para o PJ nem reintroduzindo rolagem do ST.
+
+## 2.4 Ficha player-faced candidata
+
+> **Status:** parcialmente fechada; bloqueada somente pela ação ofensiva sem defesa ativa.
+
+### BANDIDO COMUM
+
+Brigão de rua acostumado a intimidação, violência rápida e armas improvisadas. É capaz de perceber movimentações óbvias e se defender fisicamente, mas não possui proteção especial nem treinamento sofisticado.
+
+**Bloco Mecânico:**
+
+```text
+Perfil-base: 6
+
+Físico:
+7/1/C1·L0·A0
+
+Social:
+6
+
+Mental/Técnico:
+6
+Percepção/Alerta: 7/1
+
+Mágicko/Poderes:
+—
+
+Ações:
+Soco: 2S + 1C
+Arma de Impacto: 2S + 2C
+Arma de Corte: 2S + 1L; 2L se restarem 2+ sucessos líquidos
+
+Persistência:
+Vitalidade padrão humana
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+10
+
+Características:
+Brigão de rua
+Armas improvisadas
+Sem armadura
+Intimidação baixa, mas presente
+```
+
+## 2.5 Gate do Bandido Comum
+
+### Resolvido
+
+- [x] Perfil Físico;
+- [x] Proteção por tipo de dano;
+- [x] Percepção/Alerta;
+- [x] Iniciativa fixa;
+- [x] Persistência;
+- [x] Força de Vontade como Recurso;
+- [x] ações corpo a corpo pré-convertidas para S + efeito;
+- [x] degraus de dano por sucessos excedentes preservados onde relevantes.
+
+### Bloqueio real
+
+- [ ] resolver o comportamento das ações ofensivas do NPC quando o PJ não usa defesa ativa, sem criar nova rolagem para o jogador e sem devolver dados ao Storyteller.
+
+### Gate
+
+**BANDIDO COMUM: AINDA NÃO CONCLUÍDO.**
+
+O próximo trabalho permanece dentro do PT-1: resolver somente esse bloqueio ofensivo concreto antes de avançar para o Durão Profissional.
