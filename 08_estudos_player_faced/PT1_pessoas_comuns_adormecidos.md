@@ -408,7 +408,7 @@ A ficha candidata pode portanto registrar:
 Ações:
 Soco: 2S + 1C
 Arma de Impacto: 2S + 2C
-Arma de Corte: 2S + 1L; 2L se restarem 2+ sucessos líquidos
+Arma de Corte: 2S; 1L se restar 1S; 2L se restarem 2S
 Intimidar: 1S
 ```
 
@@ -451,7 +451,7 @@ Mágicko/Poderes:
 Ações:
 Soco: 2S + 1C
 Arma de Impacto: 2S + 2C
-Arma de Corte: 2S + 1L; 2L se restarem 2+ sucessos líquidos
+Arma de Corte: 2S; 1L se restar 1S; 2L se restarem 2S
 Intimidar: 1S
 
 Persistência:
@@ -820,10 +820,10 @@ Pistola Pesada: 2S + 2L
 
 Destreza 2 + Armas Brancas 2 = 4d D6.
 
-O dano-base de 3C converte para 1C e sobe para 2C quando permanecem 2+ sucessos líquidos:
+O dano-base de 3C converte para 1C quando ao menos 1 sucesso ofensivo permanece. Se os 2S da ação permanecerem após qualquer defesa ativa, há um sucesso excedente além do primeiro e o dano convertido sobe para 2C:
 
 ```text
-Bastão de Choque: 2S + 1C; 2C se restarem 2+ sucessos líquidos
+Bastão de Choque: 2S; 1C se restar 1S; 2C se restarem 2S
 ```
 
 ### Taser
@@ -864,7 +864,7 @@ Mágicko/Poderes:
 
 Ações:
 Pistola Pesada: 2S + 2L
-Bastão de Choque: 2S + 1C; 2C se restarem 2+ sucessos líquidos
+Bastão de Choque: 2S; 1C se restar 1S; 2C se restarem 2S
 Investigar: 2S
 Conhecimento de Área: 2S
 Dirigir: 2S
