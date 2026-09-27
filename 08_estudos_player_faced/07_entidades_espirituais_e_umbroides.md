@@ -5,17 +5,6 @@ tags: [estudo, game-design, player-faced, umbra, espiritos, umbrood, gaffling, j
 ---
 
 # Estudo 07: Entidades Espirituais, Umbra e o Limite da Compressão
-
-> **STATUS MATEMÁTICO — DEPENDÊNCIAS EXPLÍCITAS**  
-> A preservação de Vontade/Fúria/Gnose/Essência como fonte canônica continua válida. Conversões de Vontade para Oposição/Limiar e qualquer substituição de Fúria/Gnose dependem dos blocos matemáticos gerais e de auditorias específicas posteriores. Nenhum valor derivado está homologado neste momento.
-
-
-Este estudo aplica a pesquisa player-facing às **entidades espirituais (Umbrood)** de *Mago: A Ascensão 20 Anos*.
-
-A principal descoberta é que espíritos exigem uma estratégia diferente dos NPCs humanos: **M20 já lhes fornece uma ficha extremamente compacta**. Um espírito opera essencialmente por quatro características — **Força de Vontade, Fúria, Gnose e Essência** — além de Encantos e propriedades ficcionais. Portanto, o objetivo não é substituir essas estatísticas por outro conjunto genérico, mas reduzir as rolagens do Storyteller preservando o funcionamento reconhecível dessas quatro características.
-
----
-
 ## 🌌 1. O que M20 Já Simplifica
 
 Segundo a base de regras do próprio workspace:
