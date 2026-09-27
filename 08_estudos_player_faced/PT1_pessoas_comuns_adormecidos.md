@@ -215,7 +215,7 @@ Diante de violência grave ou sobrenatural evidente, tende a fugir ou chamar aju
 
 ### Leitura operacional
 
-- `Perfil-base 6` é o default esparso para uma tarefa sem oposição especial.
+- `6` é o default esparso para uma tarefa sem oposição especial.
 - O `R1` Físico só entra quando o Cidadão usa a defesa ativa que M20 já permitiria.
 - Contra ataque que não admite aquela defesa ativa, não se aplica R apenas porque ele aparece na ficha.
 - `C1` continua valendo para Contundente porque deriva do soak de Vigor 2.
@@ -376,7 +376,13 @@ Por isso:
 Social: 6
 ```
 
-A competência de Intimidação permanece como característica de ação possível, mas não é transformada automaticamente em R ou P Social.
+A competência de Intimidação não vira R ou P Social. Como ação própria do Bandido, porém, `Manipulação 2 + Intimidação 1 = 3d D6` é pré-convertida pela régua ofensiva para:
+
+```text
+Intimidar: 1S
+```
+
+O efeito continua sendo resolvido pelo procedimento social original pertinente; a ficha apenas elimina a rolagem do ST.
 
 ## 2.3 Ações físicas
 
@@ -403,29 +409,22 @@ Ações:
 Soco: 2S + 1C
 Arma de Impacto: 2S + 2C
 Arma de Corte: 2S + 1L; 2L se restarem 2+ sucessos líquidos
+Intimidar: 1S
 ```
 
 Esses valores são pré-convertidos; o ST não consulta os pools originais durante a cena.
 
-### Limite já conhecido
+### Limite conhecido do método
 
-Quando o PJ usa uma defesa ativa que M20 já permite, o pipeline é utilizável:
+Quando o PJ usa uma defesa ativa que M20 já permite, ela continua sendo aplicada normalmente contra os sucessos fixos da ação.
 
-```text
-ação fixa do Bandido
-→ defesa normal do PJ
-→ sucessos líquidos restantes
-→ efeito-base/degau por excedentes
-→ soak normal do PJ, quando permitido
-```
+Quando não há defesa ativa, a ação fixa comprime a antiga variância do ataque do NPC. Essa perda de variância já foi medida nos estudos matemáticos gerais e permanece registrada como limitação do método player-faced. Ela **não reabre calibração por NPC**.
 
-Quando o PJ **não** usa defesa ativa, os `2S` do Bandido tornam o acerto determinístico. O M20 original ainda continha chance de falha no ataque de 4d D6. A auditoria anterior mostrou que nenhum escalar determinístico simples preserva satisfatoriamente essa distribuição.
-
-Isso é agora uma **dívida concreta do Bandido Comum**, e portanto uma dívida legítima do PT-1. Não será contornada criando uma defesa gratuita para o PJ nem reintroduzindo rolagem do ST.
+O Bandido usa, portanto, a mesma régua de conversão que os demais NPCs: nenhum dado volta ao ST e nenhuma defesa nova é criada para o PJ.
 
 ## 2.4 Ficha player-faced candidata
 
-> **Status:** parcialmente fechada; bloqueada somente pela ação ofensiva sem defesa ativa.
+> **Status:** convertida pela régua DRP homologada para o projeto.
 
 ### BANDIDO COMUM
 
@@ -484,12 +483,208 @@ Intimidação baixa, mas presente
 - [x] ações corpo a corpo pré-convertidas para S + efeito;
 - [x] degraus de dano por sucessos excedentes preservados onde relevantes.
 
-### Bloqueio real
-
-- [ ] resolver o comportamento das ações ofensivas do NPC quando o PJ não usa defesa ativa, sem criar nova rolagem para o jogador e sem devolver dados ao Storyteller.
+- [x] Intimidação convertida como ação própria sem transformar competência ofensiva em defesa Social;
+- [x] limitação estatística de ações sem defesa ativa registrada no nível do método, sem recalibração individual.
 
 ### Gate
 
-**BANDIDO COMUM: AINDA NÃO CONCLUÍDO.**
+**BANDIDO COMUM: CONCLUÍDO PARA O PT-1.**
 
-O próximo trabalho permanece dentro do PT-1: resolver somente esse bloqueio ofensivo concreto antes de avançar para o Durão Profissional.
+A ficha já contém os valores necessários para o ST operar o perfil sem consultar pools originais ou rolar dados.
+
+**Próximo perfil: Durão Profissional.**
+
+
+---
+
+# 3. Durão Profissional
+
+## 3.1 Fonte consolidada
+
+O perfil canônico representa máfia, mercenários e segurança de elite. A própria fonte é uma faixa de competência, portanto a conversão preserva faixas onde o M20 também as preserva.
+
+Valores relevantes:
+
+- Destreza 3;
+- Vigor 3;
+- Manipulação 4;
+- Percepção 2–4;
+- Raciocínio 3–4;
+- Armas Brancas 1–3;
+- Armas de Fogo 3–5;
+- Artes Marciais 0–4;
+- Briga 3–4;
+- Esportes 2–4;
+- Furtividade 2;
+- Intimidação 3;
+- Lábia 2;
+- Manha 3–5;
+- Prontidão 2;
+- Força de Vontade 6;
+- Vitalidade padrão humana;
+- Kevlar leve ou pesado, com 6–8 dados totais de absorção;
+- Pistola Pesada 4L, Dificuldade 6;
+- Submetralhadora 5L, Dificuldade 7;
+- Briga 4C.
+
+## 3.2 Conversão pela régua DRP
+
+### Físico
+
+A defesa ativa usa `Destreza 3 + Esportes 2–4 = 5d–7d`.
+
+Pela tabela D/R:
+
+- 5d–6d → `6/2`;
+- 7d → `7/2`.
+
+A absorção total de 6d–8d converte a Proteção Contundente em `C2–3`.
+
+Como o personagem é Adormecido, Vigor não protege contra Letal. O Kevlar explicitamente acrescenta 3d–5d de absorção; essa parcela de armadura converte em `L1–2`.
+
+Sem proteção específica contra Agravado:
+
+```text
+Físico: 6/2–7/2/C2–3·L1–2·A0
+```
+
+Ao instanciar um Durão concreto, escolhe-se uma combinação coerente dentro dessas faixas e a ficha usada em mesa mostra apenas os valores escolhidos.
+
+### Mental/Técnico
+
+Percepção 2–4 + Prontidão 2 produz 4d–6d para alerta:
+
+```text
+Percepção/Alerta: 7/1–6/2
+```
+
+Furtividade usa Destreza 3 + Furtividade 2 = 5d D6:
+
+```text
+Furtividade: 2S
+```
+
+### Social
+
+Competências ofensivas sociais permanecem ações, não defesa genérica.
+
+Manipulação 4 + Intimidação 3 = 7d D6:
+
+```text
+Intimidar: 3S
+```
+
+Manipulação 4 + Lábia 2 = 6d D6:
+
+```text
+Lábia: 2S
+```
+
+O default defensivo Social permanece `6` na ausência de uma oposição social específica já definida pelo procedimento original.
+
+### Iniciativa
+
+A conversão produz uma faixa de **12–13**, conforme Raciocínio 3–4.
+
+A ficha concreta registra somente o valor escolhido:
+
+```text
+Iniciativa: 12 ou 13
+```
+
+## 3.3 Ações de combate
+
+### Briga
+
+Destreza 3 + Briga 3–4 = 6d–7d D6:
+
+```text
+Briga: 2–3S + 2C
+```
+
+O dano-base 4C permanece 2C nos degraus relevantes desta ação.
+
+### Pistola Pesada
+
+Destreza 3 + Armas de Fogo 3–5 = 6d–8d em Dificuldade 6:
+
+```text
+Pistola Pesada: 2–3S + 2L
+```
+
+### Submetralhadora
+
+A mesma faixa de 6d–8d em Dificuldade 7 converte-se, pela régua ofensiva de pool + Dificuldade, em:
+
+```text
+Submetralhadora: 2S + 2L
+```
+
+O pool-base 5L só alcança o próximo degrau de efeito quando permanecem 3+ sucessos líquidos. Como esta ação nasce com 2S, a ficha-base não precisa carregar um degrau que não pode ser alcançado sem modificadores externos.
+
+## 3.4 Ficha player-faced candidata
+
+> **Status:** conversão mecânica pronta; aguardando apenas homologação autoral do perfil.
+
+### DURÃO PROFISSIONAL
+
+Mercenário, mafioso ou segurança de elite. É treinado para violência organizada, intimidação e operações discretas, podendo variar de um profissional competente a um operador de alto nível.
+
+```text
+6
+
+Físico:
+6/2–7/2/C2–3·L1–2·A0
+
+Social:
+6
+
+Mental/Técnico:
+6
+Percepção/Alerta: 7/1–6/2
+
+Mágicko/Poderes:
+—
+
+Ações:
+Briga: 2–3S + 2C
+Pistola Pesada: 2–3S + 2L
+Submetralhadora: 2S + 2L
+Furtividade: 2S
+Intimidar: 3S
+Lábia: 2S
+
+Persistência:
+Vitalidade padrão humana
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 6
+
+Iniciativa:
+12–13
+
+Características:
+Profissional de combate
+Kevlar leve ou pesado
+Treinamento com armas de fogo
+Pode operar de forma furtiva
+Veículo comum
+```
+
+### Regra de instanciação
+
+O Durão Profissional é um template de faixa. Antes da cena, o ST escolhe os valores da faixa que descrevem o NPC concreto. Depois disso, usa apenas os valores finais; não retorna aos Atributos/Habilidades originais para recalcular a ficha.
+
+## 3.5 Gate do Durão Profissional
+
+- [x] D/R físico convertido;
+- [x] Proteção Contundente e Letal separadas pela origem Vigor/armadura;
+- [x] Mental/Técnico relevante convertido;
+- [x] ações físicas convertidas;
+- [x] ações sociais e furtividade convertidas;
+- [x] Iniciativa convertida;
+- [x] Persistência e Força de Vontade preservadas;
+- [ ] homologação autoral do perfil.
+
+**DURÃO PROFISSIONAL: MECANICAMENTE PRONTO, AGUARDANDO HOMOLOGAÇÃO.**
