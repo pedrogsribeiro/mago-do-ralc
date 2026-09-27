@@ -15,6 +15,14 @@ Animais mundanos preservam apenas as dimensões que realmente existem em sua fic
 
 Ações usam sucessos fixos e efeito-base. Depois do primeiro sucesso líquido, cada 2 sucessos excedentes acrescentam +1 sucesso automático ao dano/efeito. Nenhum dado adicional de dano é criado.
 
+### Regra de enxugamento
+
+A ficha player-faced deve ser **menor e mais rápida de consultar que a ficha original**. Uma Habilidade da fonte não vira automaticamente uma Ação.
+
+Só entra em **Ações** aquilo que o animal efetivamente impõe ao PJ e que precisa de resolução mecânica própria: ataques, manobras ou efeitos especiais. Competências como furtividade, escalada, rastreamento ou percepção ficam em **Perfil DRP** quando funcionarem como oposição, ou em **Características** quando bastar saber que o animal é particularmente capaz naquela frente.
+
+Se uma informação puder ser lida como característica sem exigir um número durante a cena, prefere-se a característica.
+
 A ordem de conversão segue o inventário canônico do bestiário.
 
 ---
@@ -129,9 +137,6 @@ Ações:
 Mordida: 2S + 1C
 Garras: 2S + 1L
 Derrubar: 2S + 1L — apenas quando encurralado
-Furtividade: 3S
-Escalar: 3S
-Consciência: 2S
 
 Persistência:
 OK, -1, -2, -5, Incapacitado
@@ -145,6 +150,8 @@ Iniciativa:
 Características:
 Animal mundano
 Pequeno e ágil
+Furtivo e excelente escalador
+Percepção e consciência aguçadas
 Sem armadura
 Dimensão Social mecanicamente irrelevante para interação humana
 ```
@@ -155,7 +162,7 @@ Dimensão Social mecanicamente irrelevante para interação humana
 - [x] Proteção corporal convertida;
 - [x] Percepção/Alerta convertida;
 - [x] ataques naturais convertidos;
-- [x] Furtividade, Escalar e Consciência convertidos;
+- [x] Furtividade, Escalar e Consciência preservados sem inflar a lista de Ações;
 - [x] Persistência preservada;
 - [x] Força de Vontade preservada;
 - [x] Iniciativa convertida;
