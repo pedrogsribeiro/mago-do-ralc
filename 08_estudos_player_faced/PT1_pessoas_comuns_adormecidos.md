@@ -1,8 +1,8 @@
 ---
 type: estudo
-summary: "PT-1 em andamento: conversão player-faced de Pessoas Comuns/Adormecidos, começando pelo Cidadão Típico e registrando apenas transformações sustentadas pelo corpus e pelos baselines homologados."
-tags: [player-faced, pt-1, adormecidos, npcs, drp, cidadao-tipico, em-andamento]
-status: em_andamento
+summary: "PT-1 concluído: conversão player-faced dos cinco perfis canônicos de Pessoas Comuns/Adormecidos para o padrão DRP."
+tags: [player-faced, pt-1, adormecidos, npcs, drp, homologado]
+status: homologado
 ---
 
 # PT-1 — Pessoas Comuns / Adormecidos
@@ -1075,7 +1075,7 @@ Sucessos excedentes seguem a regra geral homologada: depois do primeiro sucesso 
 
 ## 5.4 Ficha player-faced candidata
 
-> **Status:** conversão mecânica pronta; aguardando homologação autoral.
+> **Status:** HOMOLOGADO para o PT-1.
 
 ### AGENTE DO GOVERNO
 
@@ -1145,6 +1145,26 @@ O Agente do Governo é um template em faixa. Antes da cena, o ST escolhe os valo
 - [x] Iniciativa convertida;
 - [x] Persistência e Força de Vontade preservadas;
 - [x] autoridade e acesso institucional preservados como Características;
-- [ ] homologação autoral do perfil.
+- [x] homologação autoral do perfil.
 
-**AGENTE DO GOVERNO: MECANICAMENTE PRONTO, AGUARDANDO HOMOLOGAÇÃO.**
+**AGENTE DO GOVERNO: CONCLUÍDO PARA O PT-1.**
+
+---
+
+# 6. Fechamento do PT-1
+
+Os cinco perfis canônicos de Pessoas Comuns / Adormecidos foram convertidos e homologados:
+
+- [x] Cidadão Típico;
+- [x] Bandido Comum;
+- [x] Durão Profissional;
+- [x] Policial de Rua;
+- [x] Agente do Governo.
+
+O Storyteller já pode operar esses perfis sem rolar dados nem reconstruir as paradas originais durante a cena. Faixas presentes nas fichas originais permanecem como faixas de template e são escolhidas antes do uso do NPC concreto.
+
+As limitações estatísticas já conhecidas da compressão ofensiva permanecem registradas no método geral e não reabrem cada perfil individualmente.
+
+**PT-1 — CONCLUÍDO E HOMOLOGADO.**
+
+**Próximo pacote: PT-2 — Animais e Bestiário Mundano.**
