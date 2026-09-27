@@ -199,6 +199,42 @@ A assinatura identifica a **resolução mecânica recorrente**. A diegese inform
 
 ---
 
+## 8.1. Resolução progressiva do Perfil DRP
+
+O Perfil DRP não exige uma ficha completa para existir. Ele admite **representação esparsa por defaults e exceções**.
+
+Formas válidas:
+
+```
+6
+```
+
+equivale a `6/0/0` como perfil genérico.
+
+```
+6/2
+```
+
+equivale a `6/2/0`.
+
+```
+6
+Social 7/2
+```
+
+usa `6/0/0` como default e substitui apenas a dimensão Social por `7/2/0`.
+
+As ações ficam fora desse trio e só aparecem quando o Obstáculo precisa agir sobre o PJ:
+
+```
+Brigão: 6
+Soco: 2S + 2C
+```
+
+Um Obstáculo maior pode acrescentar quatro dimensões, múltiplas ações, Persistência, poderes, estados e informação diegética sem trocar de motor.
+
+A regra editorial é: **mais importância pode justificar mais definição; menos importância não obriga a preencher campos que não acrescentam operação real**. A omissão deve herdar defaults definidos pelo método e nunca exigir reconstrução improvisada da ficha M20 durante a cena.
+
 ## 9. Peso diegético e densidade da ficha
 
 A Perfil DRP físico não determina o tamanho da ficha.
