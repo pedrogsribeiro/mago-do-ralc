@@ -442,7 +442,7 @@ Um mago antagonista deve preservar:
 
 As lentes ajudam a localizar força e fraqueza, mas **não substituem a ficha mágicka**.
 
-A conversão de um mago só estará completa quando os estudos específicos de mágika player-facing demonstrarem quais operações do ST podem ser retiradas sem alterar a experiência dos jogadores.
+A conversão de um mago só estará completa quando os estudos específicos de mágika player-facing demonstrarem como transformar todas as operações originalmente roladas pelo ST sem alterar a experiência dos jogadores.
 
 ---
 
