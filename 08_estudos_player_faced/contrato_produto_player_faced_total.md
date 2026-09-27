@@ -67,11 +67,11 @@ Quando o PJ age contra um Obstáculo e a operação original exige compressão d
 
 - **Dificuldade**: valor-alvo no d10, preservando o conceito de M20;
 - **Resistência**: sucessos cancelados pela oposição ativa;
-- **Proteção**: Impacto absorvido depois que a ação produziu efeito quantitativo.
+- **Proteção**: Impacto absorvido depois que a ação produziu efeito quantitativo, com o **tipo de Impacto protegido explicitado**.
 
-A forma curta **D/R** é suficiente quando não existe etapa de Impacto/Proteção. A forma completa `7/2/2`, por exemplo, significa **Dificuldade 7, Resistência 2, Proteção 2**.
+A forma curta **D/R** é suficiente quando não existe etapa de Impacto/Proteção. Na forma completa, a Proteção deve conservar o escopo original. Por exemplo, `7/2/2[C,L]` significa **Dificuldade 7, Resistência 2, Proteção 2 contra Contundente e Letal**. Quando os valores variarem por tipo, o terceiro campo pode ser um perfil, como `7/2/C2·L1·A0`.
 
-**Impacto** é o efeito quantitativo produzido antes da Proteção; **Impacto efetivo** é o restante depois da Proteção.
+**Impacto** é o efeito quantitativo produzido antes da Proteção; **Impacto efetivo** é o restante depois da Proteção. Uma Proteção só reduz Impactos cobertos por seu tipo. A mesma exigência se aplica às dimensões Social, Mental/Técnico e Mágicko: os tipos protegidos devem derivar das categorias e procedimentos reais do subsistema original.
 
 ## 5. Fidelidade
 
