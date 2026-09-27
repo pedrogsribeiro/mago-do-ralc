@@ -133,13 +133,21 @@ A regra original usa:
 
 `1d10 + Destreza + Raciocínio`.
 
-Para este perfil:
+A auditoria específica do PT-1 homologou a transformação:
 
-`1d10 + 4`.
+```text
+Iniciativa fixa do NPC = Destreza + Raciocínio + 6
+```
 
-Essa é uma rolagem do Storyteller e, portanto, **ainda é dívida real do PT-1** caso o Cidadão entre em uma cena estruturada em iniciativa.
+O valor é derivado somente da ficha do NPC. O PJ continua rolando sua iniciativa normalmente segundo M20.
 
-Nenhum valor determinístico é criado aqui sem estudo específico.
+Entre os candidatos testados, `+5` e `+6` apresentaram a mesma TV média ampla (7,296%) e o mesmo pior caso (15%). `+6` apresentou menor erro médio na probabilidade de o NPC agir antes do PJ no recorte do PT-1 (5,778% contra 6,356% de `+5`) e preserva empates possíveis. O candidato `+5,5` foi rejeitado porque elimina empates contra totais inteiros e piora a TV média.
+
+Para o Cidadão Típico:
+
+`Destreza 2 + Raciocínio 2 + 6 = Iniciativa 10`.
+
+**Status: HOMOLOGADO.**
 
 ---
 
@@ -190,6 +198,9 @@ OK, -1, -1, -2, -2, -5, Incapacitado
 Recursos:
 Força de Vontade 3
 
+Iniciativa:
+10
+
 Características:
 Pessoa comum
 Sem treinamento de combate padronizado
@@ -229,6 +240,9 @@ Vitalidade padrão humana
 Recursos:
 Força de Vontade 3
 
+Iniciativa:
+10
+
 Características:
 Assistente de laboratório
 Competência profissional já pré-convertida
@@ -250,18 +264,18 @@ O `6/2` só seria usado se a ficha concreta tivesse sido preparada com uma parad
 - [x] Vitalidade foi preservada explicitamente como Persistência;
 - [x] Força de Vontade foi preservada explicitamente como Recurso;
 - [x] a arquitetura de apresentação Perfil DRP → Ações → Persistência → Recursos/Características foi homologada;
-- [x] nenhuma ação ofensiva inexistente foi inventada.
+- [x] nenhuma ação ofensiva inexistente foi inventada;
+- [x] iniciativa do NPC convertida para valor fixo `Destreza + Raciocínio + 6`;
+- [x] Cidadão Típico recebe Iniciativa 10 sem rolagem do Storyteller.
 
 ### Ainda aberto
 
-- [ ] iniciativa do NPC: `1d10 + 4` ainda exige transformação quando for relevante;
 - [ ] confirmar, no teste de mesa do perfil completo, que a apresentação do D/R físico não induz aplicação de defesa ativa onde M20 não a permitiria.
 
 ### Gate
 
-O Cidadão Típico **ainda não é marcado como concluído**.
+**CIDADÃO TÍPICO: CONCLUÍDO PARA O PT-1.**
 
-Antes de passar ao Bandido Comum, é necessário:
+A ficha já pode ser operada pelo Storyteller sem rolagens próprias nas operações normais cobertas por este perfil. A observação sobre uso contextual de defesa ativa permanece como cuidado de apresentação/playtest, não como bloqueio mecânico.
 
-1. decidir a representação operacional da iniciativa do NPC dentro do PT-1;
-2. confirmar que nenhuma operação comum do Cidadão ainda exigiria uma rolagem do ST.
+**Próximo perfil: Bandido Comum.**
