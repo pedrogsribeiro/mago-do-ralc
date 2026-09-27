@@ -450,7 +450,9 @@ A **transposição direta foi rejeitada como regra geral**. Ela apresentou **TV 
 
 A regra transposta coincidiu exatamente com o ótimo local em apenas **32 de 77 perfis Dificuldade×NPC (41,6%)**. Os maiores desvios concentraram-se sobretudo nas Dificuldades-base baixas, mostrando que **Dificuldade da ação e oposição do NPC interagem de forma não linear**. Portanto, o D da assinatura do NPC não deve ser simplesmente somado, deslocado ou transportado sobre a Dificuldade própria da ação.
 
-O resultado preserva a utilidade da assinatura D/R/P como interface compacta, mas abre uma tarefa distinta de **composição e calibração**: encontrar uma regra simples para combinar Dificuldade própria da ação com a assinatura do NPC e medir quanto pequenos ajustes locais em D ou R conseguem aproximar NPCs concretos do comportamento original.
+O resultado preserva a utilidade da assinatura D/R/P como interface compacta, mas rejeita a necessidade de uma **fórmula universal de composição em tempo de jogo**. A direção homologada passa a ser uma **graduação pré-convertida de NPCs/Obstáculos**: a ficha recebe uma assinatura D/R/P derivada das capacidades originais e calibrada antecipadamente. Cada procedimento de M20 consulta apenas os componentes pertinentes dessa assinatura; Dificuldades próprias da ação permanecem próprias do subsistema quando a regra original assim determina.
+
+A calibração futura será feita sobre NPCs concretos. Parte-se do baseline matemático, converte-se a ficha original para uma assinatura como `7/2/2`, compara-se o comportamento clássico com o convertido e, quando necessário, ajusta-se D, R ou P de forma pequena e rastreável. O objetivo passa a ser construir uma **escala graduada de perfis**, do NPC mais fraco ao mais forte, em vez de calcular uma fórmula universal durante a cena.
 
 ### Ameaça + Consequência
 
