@@ -228,6 +228,10 @@ LACUNAS / CALIBRAÇÕES PENDENTES
 
 O objetivo é o ST consultar muito menos informação durante a cena **sem perder a ficha que explica de onde aquilo veio**.
 
+A assinatura **D/R/P é somente o núcleo mecânico**. Ela não substitui as camadas diegéticas de NPCs e Obstáculos com maior peso na campanha. Quanto mais importante, recorrente ou singular for a entidade, mais devem permanecer visíveis suas características ficcionais, motivações, comportamento, poderes, recursos, vulnerabilidades, relações, pistas e formas de telegrafar perigo ou mudança de estado.
+
+A redução de carga cognitiva ocorre pela separação entre **o que precisa ser consultado para resolver uma ação** e **o que precisa existir para interpretar e narrar a entidade**.
+
 ---
 
 # 6. Teste 1 — Bandido Comum
