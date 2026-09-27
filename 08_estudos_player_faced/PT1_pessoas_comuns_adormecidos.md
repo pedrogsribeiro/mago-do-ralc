@@ -145,7 +145,16 @@ Nenhum valor determinístico é criado aqui sem estudo específico.
 
 ## 1.3 Primeira ficha player-faced candidata
 
-> **Status:** candidata para homologação; ainda não propagada para os textos finais.
+> **Status:** arquitetura de apresentação homologada neste pacote; ainda não propagada para os textos finais.
+
+A ficha usa explicitamente quatro camadas operacionais:
+
+1. **Perfil DRP** — como o NPC resiste quando algo age contra ele;
+2. **Ações** — o que o NPC entrega quando age;
+3. **Persistência** — quanto tempo/quanto dano ele suporta antes de deixar de funcionar;
+4. **Recursos e Características** — traços que continuam existindo porque possuem função própria em M20.
+
+Vitalidade e Força de Vontade não são campos DRP. Vitalidade permanece como Persistência; Força de Vontade permanece como recurso/característica quando sua função original for necessária.
 
 ### CIDADÃO TÍPICO
 
@@ -171,11 +180,20 @@ Mental/Técnico:
 Mágicko/Poderes:
 —
 
-Vitalidade:
+Ações:
+nenhuma ação ofensiva padronizada pela ficha-base
+
+Persistência:
+Vitalidade padrão humana
 OK, -1, -1, -2, -2, -5, Incapacitado
 
-Força de Vontade:
-3
+Recursos:
+Força de Vontade 3
+
+Características:
+Pessoa comum
+Sem treinamento de combate padronizado
+Diante de violência grave ou sobrenatural evidente, tende a fugir ou chamar ajuda
 ```
 
 ### Leitura operacional
@@ -202,8 +220,18 @@ Físico: 6/1/C1·L0·A0
 Mental/Técnico — laboratório: 6/2
 Social: 6
 
-Vitalidade normal
+Ações:
+nenhuma ação ofensiva padronizada
+
+Persistência:
+Vitalidade padrão humana
+
+Recursos:
 Força de Vontade 3
+
+Características:
+Assistente de laboratório
+Competência profissional já pré-convertida
 ```
 
 O `6/2` só seria usado se a ficha concreta tivesse sido preparada com uma parada profissional de 5d ou 6d que realmente sustentasse aquela oposição.
@@ -219,14 +247,15 @@ O `6/2` só seria usado se a ficha concreta tivesse sido preparada com uma parad
 - [x] defesa ativa corporal convertível por D/R sem concedê-la gratuitamente;
 - [x] faixa profissional pode ser pré-convertida no momento de instanciar o template;
 - [x] ausência de competência Social padronizada não foi preenchida por chute;
-- [x] Vitalidade e Força de Vontade foram preservadas;
+- [x] Vitalidade foi preservada explicitamente como Persistência;
+- [x] Força de Vontade foi preservada explicitamente como Recurso;
+- [x] a arquitetura de apresentação Perfil DRP → Ações → Persistência → Recursos/Características foi homologada;
 - [x] nenhuma ação ofensiva inexistente foi inventada.
 
 ### Ainda aberto
 
 - [ ] iniciativa do NPC: `1d10 + 4` ainda exige transformação quando for relevante;
-- [ ] validar se a apresentação `Físico: 6/1/C1·L0·A0` deixa suficientemente claro que D/R depende de defesa ativa, sem induzir o ST a aplicá-lo contra ataques que não permitem essa defesa;
-- [ ] homologação autoral da ficha candidata.
+- [ ] confirmar, no teste de mesa do perfil completo, que a apresentação do D/R físico não induz aplicação de defesa ativa onde M20 não a permitiria.
 
 ### Gate
 
@@ -234,6 +263,5 @@ O Cidadão Típico **ainda não é marcado como concluído**.
 
 Antes de passar ao Bandido Comum, é necessário:
 
-1. homologar ou corrigir a forma da ficha;
-2. decidir a representação operacional da iniciativa do NPC dentro do PT-1;
-3. confirmar que nenhuma operação comum do Cidadão ainda exigiria uma rolagem do ST.
+1. decidir a representação operacional da iniciativa do NPC dentro do PT-1;
+2. confirmar que nenhuma operação comum do Cidadão ainda exigiria uma rolagem do ST.
