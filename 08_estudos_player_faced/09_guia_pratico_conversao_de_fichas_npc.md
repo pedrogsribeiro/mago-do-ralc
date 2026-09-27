@@ -186,8 +186,8 @@ A ficha achatada já possui os campos necessários para o combate do NPC:
 
 O desenho desses campos já existe.
 
-* **Limiar de Efetividade** usa baseline experimental híbrido: 0d→0; **1d permanece rolado**; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
-* **Ameaça + Consequência** não exigem mais transformação universal. Com defesa ativa, preservar a rolagem do PJ e comprimir a oposição é promissor; sem defesa ativa/reação equivalente, preserva-se a rolagem necessária do ST por fidelidade.
+* **Limiar de Efetividade** usa baseline experimental: 0d→0; **1d permanece dívida de transformação**; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
+* **Ameaça + Consequência** ainda exigem transformação para os casos unilaterais. Com defesa ativa, preservar a rolagem normal do PJ e comprimir o lado do NPC é promissor; sem defesa ativa/reação equivalente, o caso permanece aberto.
 
 > O **Limiar de Efetividade** não deve ser confundido com o **limiar oculto** usado na investigação matemática da conversão de rolagens resistidas.
 
@@ -295,7 +295,7 @@ Para uma oposição de Furtividade 4d contra a percepção do PJ, o baseline exp
 
 **PASSA para oposição pontual.**
 
-A estrutura de combate **já existe na ficha achatada** por Ameaça, Consequência e Limiar de Efetividade. A calibração continua necessária apenas nos pontos efetivamente comprimidos; operações unilaterais do ST podem permanecer quando isso preservar melhor M20.
+A estrutura de combate **já existe na ficha achatada** por Ameaça, Consequência e Limiar de Efetividade. A calibração continua necessária, sobretudo nas operações unilaterais originalmente pertencentes ao ST, que precisam ser eliminadas sem alterar o PJ.
 
 ---
 
@@ -419,7 +419,7 @@ Ao mesmo tempo, ela mostra os limites atuais da pesquisa:
 
 **PASSA como método de compressão informacional.**
 
-**PASSA como interface operacional híbrida**, desde que não prometa eliminar operações do ST cuja remoção alteraria a experiência.
+**PASSA como interface de compressão informacional, mas ainda não como conversão player-faced total enquanto houver operações do ST sem transformação validada.**
 
 Esse é exatamente o tipo de NPC que deve continuar sendo usado para validar Oposição/Limiar e consultar a regra original de contramágika.
 
@@ -479,7 +479,7 @@ A proposta deste capítulo é válida **se entendida como método de extração 
 ### Ainda impede tratar toda compressão como matematicamente homologada
 * fidelidade de Oposição/Ameaça nos casos em que já existe rolagem do PJ e optamos por comprimir o lado do NPC;
 * comportamento dos baselines em pools extremos;
-* playtest do baseline híbrido de Limiar de Efetividade;
+* playtest do baseline de Limiar de Efetividade, incluindo solução para o caso de 1d;
 * alguns efeitos de contramágika;
 * vários subsistemas sobrenaturais.
 
