@@ -5,17 +5,6 @@ tags: [srd, design, player-faced, conversao, npcs, ameaca, relogios]
 ---
 
 # Estudo 02: Oposição Ativa e Matriz de Conversão de Fichas
-
-> **STATUS MATEMÁTICO — REVALIDAÇÃO OBRIGATÓRIA**  
-> Este estudo depende diretamente da conversão de rolagens resistidas para **Dificuldade + Limiar oculto**. A arquitetura permanece candidata, mas a tabela e os erros publicados devem ser reproduzidos novamente sob o contrato vigente antes de qualquer nova propagação. Ver **Recalibração Matemática — Bloco A**.
-
-
-Este documento investiga como manter **NPCs plenamente agentes na ficção e na iniciativa** sem exigir que o Storyteller role suas paradas em cena. A hipótese é comprimir a contribuição mecânica da ficha do NPC em poucos parâmetros de oposição usados na resolução dos jogadores.
-
-A pesquisa posterior mostrou que converter a parada do NPC **somente em Dificuldade** não reproduz adequadamente uma rolagem resistida de M20. O refinamento corrente usa **Dificuldade + Limiar oculto** como aproximação experimental. A conversão ainda não é considerada matematicamente encerrada.
-
----
-
 ## ⚙️ 1. O Princípio da Agência e da Resolução Player-Faced
 
 O NPC **não se torna passivo** por ter a ficha comprimida. Ele continua possuindo intenção, ações próprias, posição na iniciativa e capacidade de atacar, fugir, esconder-se, perseguir, manipular, conjurar ou executar qualquer outra ação apropriada à ficção.
