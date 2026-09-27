@@ -432,6 +432,16 @@ A assinatura **D/R/P** deve ser tratada como baseline de conversão. Na futura c
 
 Este resultado não se extrapola automaticamente para armas de fogo, ataques sem defesa ativa, manobras com dificuldade-base diferente de 6, dano não absorvível ou ações ofensivas do NPC.
 
+### Bloco D — armas de fogo e consulta funcional de D/R/P
+
+O segundo teste vertical isolou armas de fogo. Nesse procedimento, a **Dificuldade do ataque já pertence ao próprio M20**, derivada de alcance e cobertura, e não existe uma defesa ativa genérica do NPC a ser comprimida. Portanto, o player-facing preservou integralmente a Dificuldade e a rolagem de ataque do jogador, omitiu Resistência quando não havia oposição ativa prevista pela regra e substituiu apenas o soak do NPC por **Proteção**.
+
+Na faixa auditada — ataque do PJ de 2d–10d, Dificuldades 6–10, dano-base de 2d–10d e soak de 0d–10d — a distribuição final apresentou **TV média de 5,043%**, pior caso de **13,398%**, erro médio absoluto de **0,1199 nível** no dano esperado e viés médio de **−0,0377 nível**. Como o ataque foi preservado integralmente, o erro na chance de acertar e no botch foi **zero**.
+
+Esse resultado homologa, para este recorte, uma regra arquitetural: **D/R/P é uma assinatura consultada por função, não uma sequência obrigatória aplicada integralmente a toda ação**. A Dificuldade e a Resistência entram apenas quando o procedimento original possui funções correspondentes; a Proteção pode ser usada independentemente quando existe soak ou resistência passiva equivalente.
+
+A consequência imediata é abrir uma auditoria separada para ações que possuam **Dificuldade própria e oposição ativa simultaneamente**. A tabela D/R atual foi calibrada a partir de Dificuldade-base 6 e não pode ser simplesmente sobreposta a Dificuldades 5–10 sem nova verificação matemática.
+
 ### Ameaça + Consequência
 
 A auditoria V3 comparou três modelos para ataques do NPC:
