@@ -5,13 +5,13 @@ summary: "Graduação física preliminar de NPCs e Obstáculos a partir de ficha
 tags: [player-faced, npc, obstaculo, graduacao, fisico, drp, diegese]
 ---
 
-# Estudo 22 — Graduação Física e Estrutura Multidimensional de NPCs e Obstáculos
+# Estudo 22 — Perfil DRP Multidimensional de NPCs e Obstáculos
 
 ## 1. Objetivo
 
 Este estudo inicia a calibração **por NPC concreto** da assinatura física **D/R/P**, mas a ficha final é **multidimensional**.
 
-A proposta operacional é evitar fórmulas universais durante a cena. Cada NPC ou Obstáculo recebe previamente assinaturas derivadas de sua ficha original nas dimensões que realmente importam — **Físico, Social, Mental/Técnico e Mágicko/Poderes** — além de sua **Persistência** real quando houver Vitalidade, Integridade, Essência, Locus ou outra reserva equivalente.
+A proposta operacional é evitar fórmulas universais durante a cena. Cada NPC ou Obstáculo recebe previamente **Perfis DRP** derivados de sua ficha original nas dimensões que realmente importam — **Físico, Social, Mental/Técnico e Mágicko/Poderes** — além de sua **Persistência** real quando houver Vitalidade, Integridade, Essência, Locus ou outra reserva equivalente.
 
 O Storyteller consulta a assinatura pertinente quando uma ação exige resolução mecânica e consulta as demais camadas da ficha quando precisa interpretar, narrar ou decidir o comportamento da entidade.
 
@@ -71,7 +71,7 @@ A ausência de um tipo não pode ser preenchida por inferência apenas para comp
 
 ## 3. Estrutura multidimensional da ficha achatada
 
-A graduação física é apenas uma das dimensões possíveis. A ficha achatada completa deve poder assumir a forma:
+A Perfil DRP físico é apenas uma das dimensões possíveis. A ficha achatada completa deve poder assumir a forma:
 
 ```
 NOME
@@ -99,13 +99,13 @@ Telegrafia:
 
 Nem toda dimensão precisa existir e nem toda dimensão precisa usar os três componentes. **Social** e **Mental/Técnico** usam Proteção simples quando houver equivalente real. **Físico** pode tipar Proteção por C/L/A. **Mágicko/Poderes** pode tipar Proteção quando as regras originais distinguirem categorias de efeito, resistência ou imunidade.
 
-A graduação de uma dimensão não deve apagar recursos canônicos que carregam função própria. A **Persistência** permanece explícita quando a entidade possui mais ou menos caixas do que o padrão humano, ou quando usa outra reserva estrutural.
+A Perfil DRP de uma dimensão não deve apagar recursos canônicos que carregam função própria. A **Persistência** permanece explícita quando a entidade possui mais ou menos caixas do que o padrão humano, ou quando usa outra reserva estrutural.
 
 Para entidades como HIT Marks, por exemplo, a defesa físicamente compacta convive com **Contramágika Inata** e Vitalidade especial. Esses elementos precisam aparecer na ficha mesmo antes de sua conversão matemática definitiva.
 
 ---
 
-## 4. Como extrair a graduação física
+## 4. Como extrair a Perfil DRP físico
 
 A assinatura deve ser construída a partir das **funções reais da ficha original**.
 
@@ -171,7 +171,7 @@ Mesmo antes da calibração por confronto, algumas assinaturas de **defesa ativa
 - **7/2** — oposição fisicamente forte/ágil, como grandes predadores e HIT Mark X;
 - **6/3** — oposição excepcionalmente difícil de superar por volume de competência, como Victor.
 
-A Proteção varia de forma independente. Isso confirma que a graduação física não deve ser tratada como uma única escada linear em que D, R e P sobem juntos.
+A Proteção varia de forma independente. Isso confirma que a Perfil DRP físico não deve ser tratada como uma única escada linear em que D, R e P sobem juntos.
 
 Um HIT Mark V pode, por exemplo, ter D/R semelhante ao de um agente competente e ser muito mais resistente graças a P e às demais características de seu chassi.
 
@@ -179,7 +179,7 @@ Um HIT Mark V pode, por exemplo, ter D/R semelhante ao de um agente competente e
 
 ## 8. Graduação como espaço de perfis, não fórmula
 
-A escala física deve surgir de **clusters recorrentes de assinatura**, não de uma equação universal.
+Os Perfis DRP devem surgir de **clusters recorrentes de assinatura**, não de uma equação universal.
 
 Um NPC pode avançar em apenas um eixo:
 
@@ -201,7 +201,7 @@ A assinatura identifica a **resolução mecânica recorrente**. A diegese inform
 
 ## 9. Peso diegético e densidade da ficha
 
-A graduação física não determina o tamanho da ficha.
+A Perfil DRP físico não determina o tamanho da ficha.
 
 ### Entidade simples
 
