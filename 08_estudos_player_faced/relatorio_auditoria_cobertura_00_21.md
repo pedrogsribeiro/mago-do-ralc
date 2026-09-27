@@ -75,7 +75,6 @@ Procedimentos que ainda não possuem solução player-faced total suficientement
 * mágika hostil unilateral do NPC;
 * Gladius do NPC contra PJ sem Aegis;
 * Reação de Paradoxo;
-* soak/resistência do NPC no caso de 1d quando o Limiar determinístico apaga resistência ocasional.
 
 Nesses casos:
 
@@ -100,7 +99,7 @@ Estado:
 
 #### Limiar de Efetividade
 
-Baseline experimental para soak/resistência passiva:
+Baseline auditado para soak/resistência passiva como aproximação operacional:
 
 | Pool original | Limiar experimental |
 | :---: | :---: |
@@ -113,8 +112,9 @@ Baseline experimental para soak/resistência passiva:
 Estado:
 
 * promissor;
-* 1d é o pior ponto da compressão;
-* precisa validação fora do soak mundano, especialmente em Vontade espiritual e resistências especiais.
+* 1d é o pior ponto da compressão e fica explicitamente em L0; L1 criaria imunidade absoluta contra dano 1d;
+* no soak mundano, a tabela foi aceita como aproximação operacional de baixa carga cognitiva;
+* aplicar a mesma curva a Vontade espiritual ou outras resistências especiais ainda exige validação específica de domínio.
 
 #### Defesa ativa do NPC
 
