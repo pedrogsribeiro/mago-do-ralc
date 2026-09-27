@@ -1,7 +1,7 @@
 ---
 type: estudo
-status: em_andamento
-summary: "PT-3: tradução player-faced de Obstáculos passivos e tarefas mundanas, preservando os procedimentos de M20 quando já são resolvidos pelo jogador."
+status: homologado
+summary: "PT-3 concluído e homologado: Obstáculos passivos e tarefas mundanas preservados em forma player-facing mínima."
 tags: [player-faced, pt-3, obstaculos, tarefas, acoes, drp, durability, structure]
 ---
 
@@ -297,4 +297,4 @@ Hacking detalhado e Teia Digital permanecem no PT-6. Riscos ambientais permanece
 
 O Storyteller pode representar um Obstáculo mundano desde `6` até Dificuldade + progresso + gatilho ou Durability + Structure sem rolar dados e sem reconstruir subsistemas novos.
 
-**PT-3: MECANICAMENTE COMPLETO, AGUARDANDO HOMOLOGAÇÃO DO PACOTE.**
+**PT-3: CONCLUÍDO E HOMOLOGADO.**
