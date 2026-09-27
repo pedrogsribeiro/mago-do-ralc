@@ -73,6 +73,24 @@ A forma curta **D/R** é suficiente quando não existe etapa de Impacto/Proteç�
 
 **Impacto** é o efeito quantitativo produzido antes da Proteção; **Impacto efetivo** é o restante depois da Proteção. No Físico, uma Proteção tipada só reduz os tipos de dano cobertos. Em Social e Mental/Técnico, Proteção é um valor único quando existir. Em Mágicko/Poderes, a Proteção pode ser tipada quando as regras originais distinguirem categorias de efeito, resistência ou imunidade.
 
+### Resolução progressiva e representação esparsa
+
+O **Perfil DRP admite qualquer grau de resolução**, do Obstáculo incidental ao antagonista plenamente detalhado. A gramática é a mesma em todos os casos; muda apenas a quantidade de informação explicitada.
+
+A leitura é cumulativa:
+
+- `6` equivale a `6/0/0`;
+- `6/2` equivale a `6/2/0`;
+- `6/2/1` explicita Dificuldade, Resistência e Proteção.
+
+Quando existir um **Perfil DRP genérico** para o Obstáculo, ele funciona como default das dimensões não especificadas. Dimensões explicitadas substituem esse default apenas naquele eixo. Por exemplo, `6` com `Social 7/2` significa que Físico, Mental/Técnico e Mágicko/Poderes herdam `6/0/0`, enquanto Social usa `7/2/0`.
+
+Informação omitida nunca deve obrigar o Storyteller a reconstruir a ficha original em tempo de jogo. Defaults precisam ser definidos previamente pelo método.
+
+As **ações do Obstáculo** são independentes do D/R/P defensivo. Quando uma ação substitui rolagens do Storyteller, ela deve trazer os sucessos fixos e, quando houver, o efeito correspondente, por exemplo `Tiro: 4S + 3L`. A ficha do PJ e suas rolagens permanecem integralmente M20; o Perfil DRP descreve somente aquilo que o Obstáculo entrega ou resiste.
+
+A densidade da ficha acompanha a importância ficcional. Um Obstáculo pode ser apenas `6`; outro pode possuir quatro dimensões, ações próprias, Persistência, poderes, estados, motivações e texto diegético. Ambos usam o mesmo método.
+
 ## 5. Fidelidade
 
 A prioridade de fidelidade é a **experiência operacional e perceptível do jogador**.
