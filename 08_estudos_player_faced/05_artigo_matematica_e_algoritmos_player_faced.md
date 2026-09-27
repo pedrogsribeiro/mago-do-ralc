@@ -695,3 +695,70 @@ A candidata a estudar é uma ação com **efeito-base + bônus condicionado à m
 A quantidade de degraus, seus gatilhos e a eventual necessidade de mais de um bônus devem ser derivados por teste; não devem ser escolhidos por intuição.
 
 A família sem defesa ativa continua dívida separada.
+
+
+### Bloco O — dano-base mínimo e sucessos excedentes
+
+O Bloco O corrigiu a interpretação do segundo termo da ação ofensiva. No M20, o dano indicado pela arma ou ataque é o **pool-base de dano**; sucessos líquidos de ataque acima do primeiro acrescentam dados a esse pool. Portanto, a ficha player-faced deve preservar a mesma relação causal:
+
+```
+S de ação
+→ defesa normal do PJ, quando houver
+→ sucessos líquidos
+→ 0S: sem efeito
+→ 1S: efeito-base
+→ cada sucesso líquido adicional acrescenta +1 dado equivalente ao dano-base
+→ conversão do pool total para efeito fixo
+→ absorção normal do PJ, quando permitida
+```
+
+Isso reinterpreta corretamente a antiga ideia de “margem líquida”. O bônus condicionado à margem não é um híbrido arbitrário entre dano-base e dano condicional; ele é a transposição direta da regra original de sucessos excedentes.
+
+#### Decomposição do erro
+
+Em 34 variantes corpo a corpo e 3.366 células ação × defesa × absorção:
+
+- comprimir somente o dano, mantendo o ataque original como diagnóstico, produziu TV média de **6,630%**, erro médio de dano de **0,0671** e erro de P0 de **2,671 pp**;
+- comprimir somente o ataque, mantendo o dano original como diagnóstico, produziu TV média de **4,044%**, erro médio de dano de **0,1013** e erro de P0 de **3,798 pp**;
+- comprimir ambos no candidato player-faced produziu TV média de **8,717%**, erro médio de dano de **0,1484**, viés de **−0,1390** e erro de P0 de **4,657 pp**.
+
+Logo, as duas compressões contribuem para o erro residual. A compressão do dano pesa mais na forma da distribuição; a compressão do ataque pesa mais no erro médio de dano. O modelo completo permanece sistematicamente um pouco conservador.
+
+#### Degraus do dano-base
+
+A conversão em sucessos inteiros quantiza o bônus dos excedentes. No corpus auditado, em que o valor ofensivo chegou a S3, os degraus observados foram:
+
+| pool-base | efeito-base | +1 sucesso excedente | +2 sucessos excedentes |
+| :---: | :---: | :---: | :---: |
+| 1d | 1 | 1 | 1 |
+| 2d | 1 | 1 | 2 |
+| 3d | 1 | 2 | 2 |
+| 4d | 2 | 2 | 2 |
+| 5d | 2 | 2 | 3 |
+| 6d | 2 | 3 | 3 |
+| 7d | 3 | 3 | 4 |
+| 8d | 3 | 4 | 4 |
+
+Esses degraus podem ser **pré-compilados na ação**, de modo que o Storyteller não precise conservar nem reconstruir o pool original de dano. Por exemplo, um ataque cujo dano-base converta para 3L e que suba para 4L com o primeiro sucesso excedente pode ser apresentado editorialmente como uma ação de base 3L com um único degrau de escalada ligado à margem líquida.
+
+#### Robustez e limite
+
+O candidato completo melhora à medida que defesa e absorção do PJ aumentam. Com defesa 2d, a TV média foi 17,577%; com defesa 10d, 3,830%. Com absorção 0d, a TV média foi 25,381%; com absorção 10d, 2,992%.
+
+Em Letal sem absorção, a TV média permaneceu alta, **26,347%**, embora o erro médio de dano tenha sido **0,2393**. Os piores casos locais continuam concentrados em ataques fortes contra PJs com pouca defesa e nenhuma absorção.
+
+Essa divergência não invalida a relação causal dano-base + excedentes; ela expõe o custo inevitável de remover duas fontes aleatórias do lado do PNJ. O próximo estudo deve reaplicar a arquitetura corrigida aos casos **sem defesa ativa**, separando situações em que ainda existe absorção normal do PJ daquelas em que nenhuma rolagem do jogador existe depois da ação.
+
+#### Estado após O
+
+Para ações com defesa ativa, a arquitetura normativa candidata passa a ser:
+
+```
+Ação do Obstáculo = S de ação + efeito-base
+sucessos líquidos além do primeiro = incremento sobre o efeito-base
+absorção do PJ = preservada quando M20 permitir
+```
+
+O antigo **CONDICIONAL_PRECOMPILADO** deixa de ser candidato normativo porque embute antecipadamente uma margem média de ataque que, no procedimento original, depende dos sucessos líquidos após a defesa.
+
+A homologação final da família ofensiva aguarda o recorte sem defesa ativa e a decisão autoral sobre o erro residual aceitável.
