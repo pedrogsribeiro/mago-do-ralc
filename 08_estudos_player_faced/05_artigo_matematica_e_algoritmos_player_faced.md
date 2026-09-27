@@ -6,17 +6,6 @@ tags: [srd, artigo, design, probabilidade, algoritmos, python, monte-carlo, esta
 
 # Artigo Técnico: Da Variância Dupla à Resolução Player-Faced
 ### Análise Probabilística e Algoritmos de Simulação Aplicados ao Sistema Storyteller (Mago: A Ascensão 20 Anos)
-
-> **STATUS MATEMÁTICO — DOCUMENTO EM REAUDITORIA**  
-> Este é o principal documento matemático da pesquisa. Seus resultados anteriores não devem ser apagados: eles formam o baseline histórico. Entretanto, nenhuma conclusão numérica deve ser propagada novamente até ser reproduzida por scripts independentes organizados em blocos de auditoria. O primeiro é o **Bloco A — oposição resistida**. Depois virão soak/Limiar, ofensiva unilateral, defesa ativa, iniciativa e subsistemas específicos.
-
-
-**Autor:** Pedro Gustavo & Antigravity AI  
-**Data:** 13 de Agosto de 2026  
-**Área:** Game Design, Teoria Ludológica & Probabilidade Aplicada  
-
----
-
 ## 📄 Abstract (Resumo)
 
 Este artigo formaliza matematicamente a tentativa de converter oposições de *Mago: A Ascensão 20 Anos* para resolução player-facing. A primeira hipótese testada — representar a competência do NPC apenas pela **Dificuldade do d10 do jogador** — mostrou-se insuficiente para reproduzir a distribuição de uma rolagem resistida clássica.
