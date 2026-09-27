@@ -607,3 +607,55 @@ A alternativa de usar apenas D6 + Resistência preserva botch naturalmente, mas 
 A tabela regular atual permanece a candidata principal para playtest perceptual.
 
 Ela ainda não é declarada equivalência exata; o gate restante é **experiencial**, não mais correção de botch.
+
+
+---
+
+## 11. Blocos J–M — ofensiva intrínseca e validação
+
+A revisão conceitual posterior aos Blocos H/I fixou uma regra metodológica: valores ofensivos do Obstáculo são derivados exclusivamente de sua própria ficha e de seus procedimentos originais. Características do PJ podem entrar apenas depois, para validar o comportamento da ficha já congelada.
+
+### Bloco J — pool + Dificuldade → sucessos fixos
+
+O Bloco J comparou média, mediana e moda da distribuição exata de sucessos do PNJ em D3–D10 e 1d–20d. A mediana minimizou erro absoluto em 160/160 casos; a média arredondada minimizou RMSE em 160/160. A moda foi menos estável.
+
+A Dificuldade original mostrou-se indispensável. Não existe uma conversão universal `dados → S`; a transformação ofensiva precisa considerar `pool + Dificuldade → S`.
+
+### Bloco K — corpus físico real
+
+O Bloco K aplicou essa transformação ao corpus canônico. Foram convertidas 39 ações físicas únicas, com 54 variantes. A forma `S de ação + efeito C/L/A` apareceu naturalmente.
+
+Média e mediana divergiram pouco no corpus, mas a mediana apagou efeitos pequenos de 1d em alguns casos. A média arredondada permaneceu como candidata principal. Sem piso artificial de S1, S0 apareceu em ataques de arma de fogo a D10; como esses ataques ainda possuíam chance real de sucesso no M20, o caso unilateral permaneceu aberto.
+
+### Bloco L — sucessos excedentes e dano
+
+O Bloco L recompilou a regra de M20 em que sucessos de ataque acima do primeiro acrescentam dados ao dano. Ignorar essa contribuição subestimou o efeito, sobretudo em pools ofensivos maiores.
+
+Três modelos foram comparados: dano-base convertido, margem fixa derivada do S da ação e efeito condicional pré-compilado. O efeito condicional foi o melhor representante intrínseco da severidade do PNJ no conjunto auditado, mas sua relação com defesa ativa ainda precisava ser validada.
+
+### Bloco M V2 — defesa e absorção do PJ como validação
+
+O Bloco M V2 congelou primeiro os valores do Obstáculo e só então introduziu as rolagens normais do jogador.
+
+A sequência auditada foi:
+
+```
+S de ação do Obstáculo
+→ defesa ativa normal do PJ, quando existir
+→ sucessos ofensivos restantes
+→ dano/efeito fixo
+→ absorção normal do PJ, quando permitida
+→ dano final
+```
+
+A absorção permaneceu integralmente do lado do jogador e nunca participou da calibração do Obstáculo.
+
+Em corpo a corpo com defesa ativa, o modelo de efeito condicional pré-compilado apresentou TV média de 9,019%, erro médio de dano de 0,0998 nível e viés de −0,0401. O modelo de margem líquida teve TV ligeiramente menor, 8,717%, porém erro médio de dano maior, 0,1484, e viés de −0,1390. Portanto, a hipótese de que reduzir mecanicamente o efeito conforme os sucessos defensivos sempre seria mais fiel não foi confirmada pelo agregado.
+
+Sem defesa ativa, os três modelos permaneceram fracos: erro médio de chance de acerto de 17,837% e TV aproximadamente 25–26%. Armas de fogo em D8 e D10 expuseram especialmente a perda da aleatoriedade do ataque. Essa família continua dívida estrutural.
+
+### Gate após M
+
+Ainda não se homologa uma regra ofensiva final. O próximo teste deve verificar a robustez local dos resultados de defesa ativa — por ação, defesa, absorção e tipo de dano — e comparar uma compressão mínima da contribuição dos sucessos excedentes antes de escolher entre efeito condicional pré-compilado e uma regra dependente da margem líquida.
+
+A tabela empírica de níveis de potência e qualquer clustering permanecem posteriores ao fechamento dessas equivalências básicas.
