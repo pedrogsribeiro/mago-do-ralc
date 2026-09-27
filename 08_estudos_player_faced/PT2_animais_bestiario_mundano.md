@@ -1,8 +1,8 @@
 ---
 type: estudo
-status: em_andamento
-summary: "PT-2 em andamento: conversão player-faced dos animais e do bestiário mundano para o padrão DRP."
-tags: [player-faced, pt-2, animais, bestiario, drp, em-andamento]
+status: homologado
+summary: "PT-2 concluído e homologado: conversão player-faced dos 14 perfis canônicos do bestiário mundano para o padrão DRP."
+tags: [player-faced, pt-2, animais, bestiario, drp, homologado]
 ---
 
 # PT-2 — Animais e Bestiário Mundano
@@ -299,7 +299,7 @@ Dimensão Social mecanicamente irrelevante para interação humana
 - [x] Força de Vontade preservada;
 - [x] Iniciativa convertida;
 - [x] ficha mantida menor que a ficha original;
-- [ ] homologação em lote.
+- [x] homologação em lote.
 
 **CACHORRO PEQUENO: CONVERTIDO; AGUARDA HOMOLOGAÇÃO DO LOTE.**
 
@@ -803,4 +803,4 @@ Nenhuma dessas exceções exige nova matemática.
 
 Todos os perfis foram convertidos com a régua existente, mantendo as fichas finais menores que as fichas originais. Não foi aberta nenhuma simulação nova.
 
-**PT-2: MECANICAMENTE COMPLETO, AGUARDANDO HOMOLOGAÇÃO EM LOTE.**
+**PT-2: CONCLUÍDO E HOMOLOGADO EM LOTE.**
