@@ -106,28 +106,30 @@ Estas dívidas só serão tratadas quando bloquearem o subsistema ativo:
 
 ## PT-1 — Pessoas Comuns / Adormecidos
 
+**Status: CONCLUÍDO E HOMOLOGADO.**
+
 **Objetivo:** tornar qualquer mortal comum ou especializado do corpus utilizável pelo Storyteller apenas com sua ficha player-faced.
 
 ### Escopo
 
-- [ ] resistência física;
-- [ ] resistência social;
-- [ ] resistência mental/técnica mundana;
-- [ ] ataques corpo a corpo;
-- [ ] armas de fogo;
-- [ ] intimidação, persuasão, investigação, percepção e furtividade quando relevantes;
-- [ ] armadura e Vitalidade;
-- [ ] equipamentos com efeito mecânico;
-- [ ] ações sem defesa ativa do PJ, somente quando um perfil concreto exigir;
-- [ ] comportamento e reação ao sobrenatural.
+- [x] resistência física;
+- [x] resistência social;
+- [x] resistência mental/técnica mundana;
+- [x] ataques corpo a corpo;
+- [x] armas de fogo;
+- [x] intimidação, persuasão, investigação, percepção e furtividade quando relevantes;
+- [x] armadura e Vitalidade;
+- [x] equipamentos com efeito mecânico;
+- [x] ações sem defesa ativa do PJ, somente quando um perfil concreto exigir;
+- [x] comportamento e reação ao sobrenatural.
 
 ### Perfis já consolidados no repositório que obrigatoriamente receberão versão DRP
 
-- [ ] Cidadão Típico;
-- [ ] Bandido Comum;
-- [ ] Durão Profissional;
-- [ ] Policial de Rua;
-- [ ] Agente do Governo.
+- [x] Cidadão Típico;
+- [x] Bandido Comum;
+- [x] Durão Profissional;
+- [x] Policial de Rua;
+- [x] Agente do Governo.
 
 ### Gate do pacote
 
@@ -512,13 +514,13 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Pacote ativo: PT-1 — Pessoas Comuns / Adormecidos.**
+**Pacote ativo: PT-2 — Animais e Bestiário Mundano.**
 
 Próxima tarefa:
 
-- [ ] levantar, para os cinco perfis consolidados, tudo que o ST precisa operar em uma cena;
-- [ ] converter um perfil de cada vez pela régua matemática já existente;
-- [ ] não recalibrar cada NPC individualmente;
-- [ ] abrir estudo novo apenas diante de uma mecânica sem transformação definida;
-- [ ] ao final, testar os cinco perfis em cenas completas;
-- [ ] homologar PT-1 antes de iniciar PT-2.
+- [ ] converter os perfis do bestiário pela régua DRP já existente;
+- [ ] preservar Vitalidade, ataques naturais, rastreamento, assédio e demais características específicas;
+- [ ] omitir dimensões sociais irrelevantes em vez de preenchê-las artificialmente;
+- [ ] não recalibrar cada animal individualmente;
+- [ ] abrir estudo novo apenas se surgir uma mecânica animal sem transformação definida;
+- [ ] homologar PT-2 antes de iniciar PT-3.
