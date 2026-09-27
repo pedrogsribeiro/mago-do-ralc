@@ -137,11 +137,11 @@ Se o PJ não gasta ação com Aegis:
 
 Aplica-se a regra de precedência:
 
-> **preservar a rolagem do ST quando removê-la exigiria alterar a economia de ações ou transferir custo ao jogador.**
+> **quando remover a rolagem do ST exigiria alterar a economia de ações ou transferir custo ao jogador, a transformação ainda não está resolvida.**
 
 ### Gate
 
-**EXCEÇÃO DE FIDELIDADE.**
+**DÍVIDA ABERTA DE TRANSFORMAÇÃO.**
 
 ---
 
@@ -200,7 +200,7 @@ Mas Gladius comum não precisa ser artificialmente telegráfico.
 | Aegis do PJ | preservar |
 | Aegis do NPC | candidata a Oposição |
 | Gladius do NPC com Aegis do PJ | usar rolagem do jogador como âncora |
-| Gladius do NPC sem Aegis | preservar rolagem do ST quando necessário |
+| Gladius do NPC sem Aegis | dívida aberta de transformação player-faced |
 | 1 sucesso | -1 Locus |
 | zero Locus | derrota/exaustão |
 | Quintessência | preservar |
@@ -221,9 +221,9 @@ O Certámen passa com alto grau de compatibilidade.
 * economia de ações preservada;
 * ausência de Aegis não gera defesa gratuita.
 
-### Exceção
+### Dívida aberta
 
-* Gladius do NPC sem defesa ativa do PJ pode permanecer rolagem do ST.
+* Gladius do NPC sem defesa ativa do PJ ainda precisa de transformação que preserve a economia de ações do PJ.
 
 ---
 
