@@ -5,15 +5,6 @@ tags: [srd, design, player-faced, chefes, telegrafos, tatica, combate]
 ---
 
 # Estudo 03: Chefes e Movimentos Telegrafados
-
-> **STATUS MATEMÁTICO — RESULTADOS NUMÉRICOS CONGELADOS**  
-> A telegrafia permanece uma ferramenta de causalidade e agência. Simulações e números históricos deste estudo, porém, dependem das calibrações de oposição/Ameaça e ficam congelados até a conclusão dos blocos matemáticos correspondentes. Eles não constituem parâmetros normativos neste momento.
-
-
-Este documento investiga **Movimentos Telegrafados (Telegraphed Moves)** para ações de alto impacto em *Mago: A Ascensão 20 Anos*. O objetivo é preservar a agência dos jogadores quando um NPC, entidade ou fenômeno prepara uma consequência excepcional, sem retirar do antagonista sua própria ação, iniciativa ou efetividade ficcional.
-
----
-
 ## 📢 1. O Conceito da Causalidade Legível
 
 Telegrafia não exige que o NPC desperdice um turno apenas “avisando” o que fará. Uma ameaça pode ser telegrafada de três formas:
