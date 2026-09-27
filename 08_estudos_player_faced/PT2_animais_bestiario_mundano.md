@@ -117,7 +117,7 @@ Iniciativa: 12
 
 ## 1.3 Ficha player-faced candidata
 
-> **Status:** mecanicamente pronta; aguardando homologação autoral.
+> **Status:** HOMOLOGADO para o PT-2.
 
 ### GATO DOMÉSTICO
 
@@ -167,6 +167,132 @@ Dimensão Social mecanicamente irrelevante para interação humana
 - [x] Força de Vontade preservada;
 - [x] Iniciativa convertida;
 - [x] condição especial do Derrubar preservada;
+- [x] homologação autoral.
+
+**GATO DOMÉSTICO: CONCLUÍDO PARA O PT-2.**
+
+**Próximo perfil: Cachorro Pequeno.**
+
+
+---
+
+# 2. Cachorro Pequeno
+
+## 2.1 Fonte consolidada
+
+A ficha canônica fornece:
+
+- Força 1;
+- Destreza 3;
+- Vigor 2;
+- Percepção 3;
+- Inteligência 1;
+- Raciocínio 3;
+- Esportes 3;
+- Empatia 2;
+- Furtividade 2;
+- Prontidão 3;
+- Força de Vontade 3;
+- Vitalidade: OK, -1, -5, Incapacitado;
+- nenhuma armadura;
+- Mordida 2L.
+
+A ficha não lista Briga. Como Briga é um Talento e o procedimento normal de ataque corpo a corpo usa Destreza + Briga, a ausência da Habilidade significa Briga 0 para este template; não se cria uma Habilidade que a fonte não fornece.
+
+## 2.2 Conversão pela régua DRP
+
+### Físico
+
+A defesa ativa usa:
+
+`Destreza 3 + Esportes 3 = 6d`
+
+Pela tabela D/R:
+
+```text
+Físico: 6/2/C1·L0·A0
+```
+
+Vigor 2 converte em `C1`. Sem armadura ou proteção especial, não há Proteção Letal ou Agravada.
+
+### Mental/Perceptivo
+
+Percepção 3 + Prontidão 3 = 6d:
+
+```text
+Percepção/Alerta: 6/2
+```
+
+### Ações
+
+O ataque de Mordida usa `Destreza 3 + Briga 0 = 3d D6`, que converte para 1 sucesso fixo. O dano-base 2L converte para 1L:
+
+```text
+Mordida: 1S + 1L
+```
+
+Furtividade e mobilidade permanecem como características, porque não precisam virar linhas de Ação para o perfil ser operável.
+
+### Iniciativa
+
+A conversão produz:
+
+`Destreza 3 + Raciocínio 3 + 6 = 12`
+
+Na ficha final:
+
+```text
+Iniciativa: 12
+```
+
+## 2.3 Ficha player-faced candidata
+
+> **Status:** mecanicamente pronta; aguardando homologação autoral.
+
+### CACHORRO PEQUENO
+
+Animal doméstico pequeno e ágil. Pode ser barulhento, territorial ou insistente, mas continua fisicamente frágil e pouco perigoso isoladamente.
+
+```text
+6
+
+Físico:
+6/2/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Mordida: 1S + 1L
+
+Persistência:
+OK, -1, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Pequeno e ágil
+Furtivo
+Sem armadura
+Dimensão Social mecanicamente irrelevante para interação humana
+```
+
+## 2.4 Gate do Cachorro Pequeno
+
+- [x] D/R físico convertido;
+- [x] Proteção corporal convertida;
+- [x] Percepção/Alerta convertida;
+- [x] Mordida convertida sem inventar Briga ausente;
+- [x] Persistência preservada;
+- [x] Força de Vontade preservada;
+- [x] Iniciativa convertida;
+- [x] ficha mantida menor que a ficha original;
 - [ ] homologação autoral.
 
-**GATO DOMÉSTICO: MECANICAMENTE PRONTO, AGUARDANDO HOMOLOGAÇÃO.**
+**CACHORRO PEQUENO: MECANICAMENTE PRONTO, AGUARDANDO HOMOLOGAÇÃO.**
