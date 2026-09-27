@@ -398,18 +398,23 @@ A conversão **Dificuldade + Limiar oculto** continua sendo a parte mais madura 
 
 ### Limiar de Efetividade
 
-A auditoria exata de soak encontrou a seguinte curva operacional promissora:
+A auditoria exata do **Bloco B — Limiar de Efetividade** comparou, para dano de 1d–15d e soak de 0d–10d, a distribuição final de `dano rolado − soak rolado` contra `dano rolado − Limiar fixo`. O personagem jogador mantém integralmente sua rolagem de dano; apenas a resistência do Obstáculo é comprimida.
 
-| Soak original | Limiar de Efetividade experimental |
+A curva operacional fica:
+
+| Soak original | Limiar de Efetividade |
 | :---: | :---: |
-| 0d | 0 |
-| 1d | preservar rolagem |
+| 0–1d | 0 |
 | 2–3d | 1 |
 | 4–6d | 2 |
 | 7–9d | 3 |
 | 10d | 4 |
 
-O caso de **1d** é o mais imperfeito: Limiar 0 elimina toda a proteção e Limiar 1 a torna excessivamente estável. Portanto, **1d permanece dívida de transformação**; o contrato não permite preservar essa rolagem no ST apenas porque seu custo operacional é pequeno.
+No espaço auditado, o baseline apresentou **TV média agregada de 8,593%**. Para 2d–10d de soak, a tabela histórica coincide com o melhor Limiar fixo encontrado para cada parada. O pior caso global foi **25%**, concentrado no caso extremo de dano 1d contra soak 1d.
+
+O caso de **1d** é estruturalmente ambíguo: L0 e L1 apresentam a mesma TV média e o mesmo pior caso, mas com vieses de dano opostos. Adota-se **1d → L0** como aproximação operacional porque L1 tornaria impossível que um pool de dano de 1d produzisse dano contra esse alvo, criando uma imunidade absoluta que o procedimento original não possui.
+
+Esse resultado homologa o Limiar como **aproximação de baixa carga cognitiva**, não como equivalência probabilística exata.
 
 ### Ameaça + Consequência
 
