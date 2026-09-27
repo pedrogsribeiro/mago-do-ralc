@@ -78,7 +78,7 @@ A camada player-facing precisa responder, operação por operação:
 
 * Força de Vontade defensiva pode alimentar Oposição;
 * Força de Vontade usada como soak pode alimentar Limiar de Efetividade;
-* Fúria ofensiva pode permanecer rolagem do ST quando não houver reação equivalente do PJ;
+* Fúria ofensiva sem reação equivalente do PJ permanece **dívida de transformação**; a rolagem do ST precisa ser eliminada sem criar nova operação para o jogador;
 * Gnose e Encantos devem ser tratados conforme a função específica;
 * Essência permanece saúde/recurso e não é comprimida arbitrariamente.
 
@@ -115,7 +115,7 @@ Isso cria três problemas de conversão diferentes.
 
 Não deve ser substituído automaticamente por “4 de dano fixo”.
 
-Quando o PJ possui resistência própria, ela é preservada. Quando não possui, a regra de precedência dos Estudos 00/14 se aplica: **a rolagem de Fúria do ST pode permanecer** se eliminá-la exigiria inventar defesa, transferir custo ao jogador ou distorcer demais a distribuição.
+Quando o PJ possui resistência própria, ela é preservada. Quando não possui, não se inventa defesa nem se transfere custo ao jogador; a Fúria ofensiva permanece dívida aberta até existir transformação do lado do Storyteller suficientemente fiel.
 
 ### 4.3. Absorção do espírito
 
@@ -200,5 +200,5 @@ Assim, o caminho mais promissor é:
 * usar telegrafia para Encantos e ações de alto impacto quando sua causalidade justificar;
 * preservar Essência;
 * usar o baseline de Limiar para Vontade/soak como hipótese experimental;
-* manter Fúria/Gnose no ST quando necessário por fidelidade;
+* tratar Fúria/Gnose que ainda dependam de rolagem do ST como dívidas abertas de transformação;
 * classificar Encantos por função em vez de convertê-los todos para a mesma gramática.
