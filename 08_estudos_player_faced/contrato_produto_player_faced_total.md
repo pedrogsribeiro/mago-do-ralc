@@ -61,9 +61,9 @@ Podem ser profundamente reorganizados do lado do Storyteller:
 
 NPCs e entidades preservam agência ficcional. Continuam tendo intenção, iniciativa, objetivos, ações, poderes, movimentação e capacidade de produzir consequências.
 
-### Assinatura defensiva homologada
+### Perfil DRP homologado
 
-Quando o PJ age contra um Obstáculo e a operação original exige compressão do lado do Storyteller, a notação-base é **D/R/P**:
+Quando o PJ age contra um Obstáculo e a operação original exige compressão do lado do Storyteller, o método é o **Perfil DRP**, cuja notação-base é **D/R/P**:
 
 - **Dificuldade**: valor-alvo no d10, preservando o conceito de M20;
 - **Resistência**: sucessos cancelados pela oposição ativa;
