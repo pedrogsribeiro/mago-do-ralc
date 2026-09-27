@@ -762,3 +762,55 @@ absorção do PJ = preservada quando M20 permitir
 O antigo **CONDICIONAL_PRECOMPILADO** deixa de ser candidato normativo porque embute antecipadamente uma margem média de ataque que, no procedimento original, depende dos sucessos líquidos após a defesa.
 
 A homologação final da família ofensiva aguarda o recorte sem defesa ativa e a decisão autoral sobre o erro residual aceitável.
+
+
+### Bloco P — sem defesa ativa: com absorção vs. sem rolagem do PJ
+
+O Bloco P isolou o principal limite restante da ofensiva player-faced: situações em que o PNJ age sem uma defesa ativa do jogador. Foram analisadas 54 variantes físicas, com três representações derivadas exclusivamente do PNJ:
+
+- **PF_DANO_MINIMO**, usando S de ação + dano-base + excedentes;
+- **EFEITO_INCONDICIONAL_MEDIA**, comprimindo chance de falha e dano em um único efeito médio;
+- **EFEITO_INCONDICIONAL_MEDIANA**, fazendo a mesma compressão pela mediana.
+
+#### Sem defesa, mas com absorção normal do PJ
+
+A existência de uma rolagem posterior de absorção não recompõe satisfatoriamente a aleatoriedade perdida no ataque. No agregado de absorção 1d–10d:
+
+- PF_DANO_MINIMO: TV média **19,876%**, erro médio de dano **0,2502**;
+- EFEITO_INCONDICIONAL_MEDIA: TV média **19,361%**, erro médio de dano **0,2567**;
+- EFEITO_INCONDICIONAL_MEDIANA: TV média **19,020%**, erro médio de dano **0,2916**.
+
+O erro cai quando a absorção aumenta, mas isso ocorre porque a própria absorção apaga parte crescente da distribuição de dano. Em absorção baixa, o desvio permanece muito alto. Portanto, soak preservado não é substituto funcional para a incerteza perdida na etapa de acerto.
+
+#### Sem defesa e sem qualquer rolagem posterior do PJ
+
+Quando nenhuma rolagem do jogador existe depois da ação, a determinização produz divergência extrema:
+
+- PF_DANO_MINIMO: TV média **74,869%**;
+- EFEITO_INCONDICIONAL_MEDIA: TV média **81,531%**;
+- EFEITO_INCONDICIONAL_MEDIANA: TV média **75,373%**.
+
+A média incondicional preserva melhor o dano esperado agregado, mas destrói a probabilidade de zero em vários casos. A mediana preserva melhor alguns ataques de baixa probabilidade ao convertê-los em zero, mas então elimina ameaças reais. O problema é estrutural, não uma escolha ruim de estatística-resumo.
+
+Armas de fogo tornam o limite especialmente visível. Em D10, os ataques originais do corpus ainda tinham cerca de 23–27% de probabilidade de causar dano. PF_DANO_MINIMO e mediana convertem esses casos em efeito zero; a média incondicional os converte em 1L determinístico. A primeira opção apaga a ameaça; a segunda transforma uma ameaça rara em consequência certa.
+
+#### Conclusão do ramo determinístico
+
+O Bloco P encerra a busca por um **único escalar determinístico por ação** capaz de substituir satisfatoriamente, sem defesa ativa, a aleatoriedade do PNJ.
+
+Quando existe defesa ativa, a arquitetura candidata continua:
+
+```
+S de ação
+→ defesa normal do PJ
+→ sucessos líquidos
+→ efeito-base + incremento por excedentes
+→ absorção normal do PJ, quando permitida
+```
+
+Quando não existe defesa ativa, duas subfamílias permanecem:
+
+1. **há absorção do PJ**: a rolagem preservada reduz parte do erro, mas não recompõe adequadamente a chance de o ataque falhar;
+2. **não há rolagem do PJ**: nenhum escalar determinístico testado preserva simultaneamente chance de zero, dano médio e forma da distribuição.
+
+Qualquer solução futura para essa segunda família precisa aceitar explicitamente uma troca entre fidelidade estatística e carga operacional do Storyteller. Ela não deve contaminar a família com defesa ativa, que possui solução muito mais estável.
