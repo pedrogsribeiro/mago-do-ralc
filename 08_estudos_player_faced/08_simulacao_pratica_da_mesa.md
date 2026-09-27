@@ -6,6 +6,10 @@ tags: [estudo, simulacao, player-faced, obstaculo, cronica, atos, progresso, int
 
 # Estudo 08: Teste Integrado de Mesa e a Crônica como Obstáculo
 
+> **STATUS MATEMÁTICO — CENÁRIO DE INTEGRAÇÃO, NÃO PROVA**  
+> Este estudo continua útil para localizar onde cada mecanismo entra em cena. Seus resultados quantitativos e gates mecânicos dependentes de tabelas anteriores ficam suspensos até a recalibração dos blocos matemáticos-base. O texto não deve ser usado para homologar números por si só.
+
+
 Este estudo tem **duas funções específicas**:
 
 1. testar se as conclusões dos Estudos 00–07 realmente convivem numa sequência de jogo sem alterar indevidamente a experiência do jogador de M20;
