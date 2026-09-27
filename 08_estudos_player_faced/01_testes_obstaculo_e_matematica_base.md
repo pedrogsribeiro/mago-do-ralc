@@ -6,6 +6,10 @@ tags: [srd, design, player-faced, probabilidade, d10, regras, obstaculos]
 
 # Estudo 01: Rolagens de Obstáculo e Matemática Base (Player-Faced M20)
 
+> **STATUS MATEMÁTICO APÓS O CONTRATO PLAYER-FACED TOTAL**  
+> As probabilidades de uma rolagem isolada do PJ continuam úteis como matemática de M20. Qualquer extrapolação deste estudo para substituir oposição ativa do NPC depende da **Recalibração Matemática — Bloco A (oposição resistida)** e não deve ser tratada como homologada antes dessa auditoria.
+
+
 Este documento estabelece a base mecânica e probabilística para a resolução **player-facing** aplicada a *Mago: A Ascensão 20 Anos*. Nos procedimentos cobertos por este estudo, a incerteza fica inteiramente na rolagem do jogador; o Narrador gerencia a ficção, os perigos e as consequências.
 
 Estudos posteriores mostraram que alguns procedimentos com aleatoriedade originalmente exclusiva do Storyteller ainda não possuem transformação calibrada suficiente. Pelo contrato do produto, esses casos permanecem dívidas abertas: o ST continua destinado a rolar zero dados e nenhuma nova operação pode ser criada para o jogador.
