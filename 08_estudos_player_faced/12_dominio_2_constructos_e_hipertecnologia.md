@@ -248,7 +248,7 @@ A interface do ST pode resumir:
 Oposição resistida pode usar provisoriamente a conversão estudada.
 A ficha achatada já oferece **Consequência** para o dano causado e **Limiar de Efetividade** para a resistência do constructo. Para soak, já existe baseline experimental: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
 
-Em ações ofensivas persistentes sem defesa ativa/reação equivalente do PJ, aplica-se a regra posterior de fidelidade: a rolagem necessária do ST pode permanecer. Isso deixa de ser lacuna de arquitetura.
+Em ações ofensivas persistentes sem defesa ativa/reação equivalente do PJ, a operação permanece dívida de transformação: a rolagem do ST precisa ser eliminada sem criar reação nova para o PJ.
 
 A regra geral de contramágika foi recuperada: a forma básica é uma defesa ativa que cancela sucessos; a forma inata, como Primium, é proteção intrínseca. Para constructos, pools explícitos de Contramágika Inata permanecem registrados e **não** viram Limiar de Efetividade automaticamente sem validação específica.
 
@@ -256,7 +256,7 @@ A regra geral de contramágika foi recuperada: a forma básica é uma defesa ati
 
 **PASSA como classificação e compressão informacional.**
 
-**PASSA como método híbrido de combate**, sem exigir eliminação universal das rolagens do ST. Permanecem lacunas documentais específicas, como a regra geral de contramágika, ICE e colisões.
+**PASSA como classificação e interface de Obstáculo, mas o combate só estará fechado quando todas as rolagens do ST tiverem transformação player-faced validada.**
 
 ---
 
