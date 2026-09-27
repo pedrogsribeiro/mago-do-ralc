@@ -5,27 +5,6 @@ tags: [estudo, game-design, player-faced, conversao, npcs, fichas, competencias,
 ---
 
 # Estudo 09: Protocolo de Conversão de Fichas de NPCs
-
-> **STATUS MATEMÁTICO — TABELAS PROVISÓRIAS**  
-> O protocolo de extração de informação da ficha continua válido. Toda tabela numérica de Oposição, Limiar, Ameaça ou Consequência permanece provisória até os respectivos blocos matemáticos serem reproduzidos e homologados. Não converter fichas finais a partir desses números ainda.
-
-
-Este estudo testa uma promessa concreta:
-
-> **o Storyteller deve conseguir pegar uma ficha oficial de NPC de M20 e extrair dela uma interface operacional menor, preservando para os jogadores a experiência reconhecível do sistema.**
-
-A ficha original continua sendo a **fonte normativa**. A conversão não recria o NPC do zero e não o reduz a um “nível de ameaça” genérico.
-
-O teste deste capítulo é simples: depois da conversão, o ST deve saber rapidamente:
-
-1. o que o NPC consegue fazer;
-2. onde ele é forte ou vulnerável;
-3. qual característica/parada original sustenta cada ação;
-4. o que já pode ser resolvido player-facing;
-5. quais operações ainda dependem de uma solução não validada.
-
----
-
 # 1. O que significa converter
 
 Converter não significa substituir toda a ficha.
