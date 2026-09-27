@@ -101,13 +101,13 @@ Esse caso já é fortemente player-facing porque a resistência está do lado do
 
 Se a mágika hostil dependia de uma rolagem de Arete do NPC e o PJ não possuía uma rolagem correspondente, aplica-se a regra de precedência dos Estudos 00/02:
 
-> **preserva-se a rolagem do Storyteller quando removê-la exigiria conceder uma reação nova ao jogador, transferir a ele a rolagem hostil ou achatar excessivamente a distribuição.**
+> **quando a mágika hostil unilateral ainda depender de rolagem do Storyteller, o procedimento permanece dívida aberta de transformação. Não se cria reação nova para o jogador nem se transfere a ele a rolagem hostil.**
 
 ### Gate
 
-**PASSA com exceção de fidelidade.**
+**AINDA ABERTO COMO TRANSFORMAÇÃO PLAYER-FACED.**
 
-O método não precisa prometer zero dados do ST em toda mágika ofensiva.
+O produto exige zero dados do ST também na mágika ofensiva; quando a transformação ainda não existe, o caso permanece aberto.
 
 ---
 
@@ -207,13 +207,13 @@ Toda a aleatoriedade dessa reação está do lado do ST.
 
 Pela regra de precedência já homologada:
 
-> **não se cria uma nova rolagem do jogador apenas para eliminar essa rolagem do Narrador.**
+> **não se cria uma nova rolagem do jogador apenas para eliminar essa rolagem do Narrador; a operação precisa ser convertida do lado do Storyteller.**
 
 ### Gate
 
-**PRESERVAR A ROLAGEM DO ST.**
+**DÍVIDA ABERTA DE TRANSFORMAÇÃO PLAYER-FACED.**
 
-Ela é uma exceção justificada à meta player-facing, salvo futura demonstração de uma transformação que preserve a experiência sem transferir custo ao jogador.
+A Reação de Paradoxo permanece aberta até existir transformação que preserve a experiência sem transferir custo ou nova operação ao jogador.
 
 ---
 
@@ -262,7 +262,7 @@ Se o item está nas mãos de um PJ, a rolagem continua com o jogador.
 Se um Talismã autônomo ou NPC usa seu próprio Arete para produzir um Efeito contra o grupo, aplica-se a mesma distinção deste estudo:
 
 * com resistência do PJ → preservar essa resistência;
-* sem resistência do PJ → preservar a rolagem hostil do ST se necessário.
+* sem resistência do PJ → dívida aberta de transformação do lado do ST.
 
 ### Gate
 
@@ -281,11 +281,11 @@ Não é necessário inventar um subsistema player-facing separado para Maravilha
 | PJ atravessa Película | Preservar M20 |
 | PJ usa Quintessência | Preservar M20 |
 | PJ resiste mágika hostil com rolagem própria | Preservar a rolagem do PJ |
-| NPC conjura e PJ não possui reação equivalente | Preservar rolagem do ST se necessário |
+| NPC conjura e PJ não possui reação equivalente | Dívida aberta de transformação player-faced |
 | Contramágika explícita que cancela sucessos | Candidata a Oposição player-facing |
 | Contramágika apenas citada por pool, sem procedimento | Preservar dado; recuperar regra original |
 | Ilusão persistente | Sucessos armazenados como oposição estática |
-| Reação de Paradoxo | Preservar rolagem do ST |
+| Reação de Paradoxo | Dívida aberta de transformação player-faced |
 | Certámen | Preservar ações; comprimir apenas a defesa do NPC quando validado |
 | Maravilha usada por PJ | Preservar Arete/Iluminação do item |
 | Maravilha autônoma/NPC | Aplicar a mesma regra de agência/fidelidade |
@@ -362,11 +362,11 @@ O subsistema de mágika passa parcialmente.
 * Aegis/defesas equivalentes quando o procedimento original estiver consolidado;
 * propriedades mágickas dentro da matriz multidimensional.
 
-### Deve permanecer com rolagem do ST quando necessário
+### Ainda exige transformação player-faced
 
 * mágika hostil unilateral sem reação equivalente do PJ;
 * Reação de Paradoxo;
-* qualquer outro procedimento cuja aleatoriedade exista apenas no lado do ST e cuja compressão altere a experiência do jogador.
+* qualquer outro procedimento cuja aleatoriedade exista apenas no lado do ST e que ainda não possua compressão suficientemente fiel.
 
 ### Verificação de fonte
 
@@ -387,7 +387,7 @@ Depois disso, o próximo subsistema mais natural é **espíritos/Encantos**, por
 
 * o que já é resistência player-facing;
 * o que usa Fúria/Gnose no lado do ST;
-* e o que deve permanecer como exceção de fidelidade.
+* e o que ainda permanece como dívida de transformação.
 
 
 ---
@@ -397,7 +397,7 @@ Depois disso, o próximo subsistema mais natural é **espíritos/Encantos**, por
 O domínio espiritual fornece um caso concreto para as regras deste estudo:
 
 * resistência do PJ por **Arete/Espírito** ou **Avatar** já é player-facing e deve ser preservada;
-* **Fúria** pode permanecer rolagem do ST quando não existe reação equivalente do jogador;
+* **Fúria** sem reação equivalente do jogador permanece dívida aberta de transformação;
 * **Força de Vontade** defensiva pode alimentar Oposição;
 * **Força de Vontade** como soak pode alimentar Limiar de Efetividade;
 * **Gnose** permanece parada-fonte e é tratada conforme o Encanto;
@@ -431,7 +431,7 @@ O Certámen oferece um exemplo normativo da diferença entre:
 * **defesa ativa por sucessos** → Aegis / Oposição;
 * **resistência passiva** → Limiar de Efetividade.
 
-O Locus deve ser preservado como reserva canônica de Quintessência. Gladius do PJ e Aegis do PJ permanecem intactos. Quando o PJ não escolhe Aegis contra Gladius do NPC, não se cria uma reação gratuita; a rolagem do ST pode permanecer por fidelidade.
+O Locus deve ser preservado como reserva canônica de Quintessência. Gladius do PJ e Aegis do PJ permanecem intactos. Quando o PJ não escolhe Aegis contra Gladius do NPC, não se cria uma reação gratuita; a operação ofensiva do NPC permanece dívida aberta de transformação.
 
 
 ---
@@ -456,7 +456,7 @@ Não há justificativa para criar uma mecânica genérica adicional de “ativa�
 O subsistema de realidade consensual reforça três padrões:
 
 * **geração de Paradoxo** nasce das rolagens do PJ e permanece intacta;
-* **Reação de Paradoxo** permanece rolagem do ST por fidelidade;
+* **Reação de Paradoxo** permanece dívida aberta de transformação player-faced;
 * **Silêncio** já possui reserva e cura player-facing;
 * **Zonas de Realidade** são condições/classificações do mundo;
 * **Desafio da Realidade** já é resolução pelo jogador.
