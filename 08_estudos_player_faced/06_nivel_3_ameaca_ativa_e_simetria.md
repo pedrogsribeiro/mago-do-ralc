@@ -79,9 +79,11 @@ A graduação deve partir das funções reais da ficha original. Uma competênci
 
 A tabela matemática fornece o baseline. NPCs concretos podem receber ajustes pequenos em D, R ou P quando a comparação com seu comportamento original mostrar ganho de fidelidade. Esses ajustes são parte da calibração da graduação e precisam permanecer rastreáveis à ficha original.
 
-A graduação também preserva **o escopo da Proteção**. No físico, a ficha deve registrar se P vale contra dano Contundente (C), Letal (L) e/ou Agravado (A), porque essa distinção altera diretamente as escolhas e expectativas do jogador em M20. Um valor simples como `P2` só pode ser usado sem marcador quando a proteção realmente se aplicar de modo equivalente a todos os tipos relevantes daquele contexto.
+A graduação também preserva **o escopo da Proteção**. No físico, a ficha deve registrar se P vale contra dano Contundente (C), Letal (L) e/ou Agravado (A), porque essa distinção altera diretamente as escolhas e expectativas do jogador em M20. Um valor simples como `P2` só pode ser usado sem marcador quando a proteção realmente se aplicar de modo equivalente aos tipos físicos pertinentes.
 
-A mesma regra vale fora do físico: **Proteção é sempre Proteção contra algum tipo de Impacto**. Em Social, Mental/Técnico e Mágicko, os marcadores devem vir das categorias reais do subsistema original — reputação, coerção, intrusão, ilusão, contramágika, poderes ou outras que a auditoria documental confirmar. A taxonomia desses tipos será definida por domínio; não deve ser inventada apenas para preencher a ficha.
+Em **Social** e **Mental/Técnico**, Proteção é um valor único quando existir; essas dimensões não recebem subtipos de Proteção.
+
+Em **Mágicko/Poderes**, Proteção pode ser tipada quando o próprio subsistema, poder, resistência ou imunidade distinguir categorias de efeito. Esses tipos devem vir das regras originais e ser definidos por domínio, sem taxonomia artificial criada apenas para preencher a ficha.
 
 ### Ameaça
 
@@ -120,7 +122,7 @@ Portanto, relógio não transforma 1 sucesso em “resultado narrativo sem dano�
 
 A **Proteção** é a generalização da antiga **RD fixa** e conserva o escopo do que pode ser absorvido.
 
-No combate físico, representa o papel de Vigor, armadura, couraça ou material em reduzir o dano que efetivamente atravessa, mantendo a distinção entre **Contundente, Letal e Agravado**. Em outros domínios pode representar resistência equivalente — proteção institucional, segurança criptográfica, blindagem mental, barreira mágicka etc. — sempre com o tipo de Impacto protegido explicitado.
+No combate físico, representa o papel de Vigor, armadura, couraça ou material em reduzir o dano que efetivamente atravessa, mantendo a distinção entre **Contundente, Letal e Agravado**. Em Social e Mental/Técnico, quando houver Proteção legítima, ela é um valor único. Em Mágicko/Poderes, o escopo pode voltar a ser tipado quando as próprias regras distinguirem categorias de efeito, resistência ou imunidade.
 
 Uma ação pode continuar sendo bem-sucedida e ainda produzir **Impacto efetivo zero após a Proteção**, do mesmo modo que em M20 um ataque pode acertar e a absorção anular todo o dano.
 
