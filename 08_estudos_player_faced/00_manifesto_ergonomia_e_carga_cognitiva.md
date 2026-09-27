@@ -31,7 +31,9 @@ São **8 rolagens de dados por turno para 2 personagens**, além do esforço men
 
 ## 💡 2. A Hipótese de Design e a Solução
 
-**A Hipótese Central:** *É possível diminuir a carga cognitiva do Storyteller e o número de operações que ele executa, preservando para os jogadores a ficha, as decisões, os recursos, as rolagens e o comportamento probabilístico reconhecível de M20.*
+**A Hipótese Central:** *É possível diminuir radicalmente a carga cognitiva e operacional do Storyteller, inclusive eliminando suas rolagens de dados, preservando integralmente para os personagens jogadores a ficha, as decisões, as paradas que já realizam, os recursos e a economia de ações de M20.*
+
+Neste produto, **player-faced é uma propriedade da interface do Storyteller**. A compressão acontece atrás do escudo; para o jogador personagem, nada muda.
 
 ### Hipóteses de Solução (A Raiz do Design)
 A pesquisa parte de referências modernas de *game design* presentes em **Fate Básico / Fate Core** e nos jogos **Powered by the Apocalypse (PbtA)**, além de influências da tradição OSR. Elas servem como referências de ergonomia e estrutura, sem importar integralmente seus sistemas para M20.
@@ -53,15 +55,21 @@ O critério de sucesso desta pesquisa não é alcançar uma porcentagem específ
 
 ### Regra de precedência
 
-As auditorias posteriores revelaram um conflito real entre objetivos. Em certos procedimentos de M20 — especialmente quando um NPC age contra um PJ que não declarou defesa ativa — toda a aleatoriedade original pode estar no lado do Storyteller.
-
-Nesses casos, três objetivos não podem ser garantidos simultaneamente:
+As auditorias posteriores revelaram um conflito real entre três objetivos:
 
 1. zero rolagens do Storyteller;
-2. nenhuma nova rolagem ou custo para o jogador;
-3. preservação da distribuição e economia de ações original.
+2. nenhuma nova rolagem, ação, defesa ou custo para o jogador;
+3. reprodução exata da distribuição probabilística de procedimentos que originalmente continham aleatoriedade exclusiva do ST.
 
-Quando houver esse conflito, a prioridade desta pesquisa é **preservar a experiência do jogador**. A pureza de “100% player-faced” é subordinada a esse critério.
+A precedência correta do produto é:
+
+1. **a experiência operacional do personagem jogador permanece integralmente M20;**
+2. **o Storyteller rola zero dados;**
+3. **a matemática do lado comprimido deve ser calibrada para preservar suficientemente competência, risco e efeito.**
+
+Quando uma transformação não atinge fidelidade matemática suficiente, ela é rejeitada e o procedimento permanece como **dívida de transformação aberta**. A solução não pode ser reintroduzir rolagens do Storyteller nem transferir ao jogador uma operação que ele não realizaria em M20.
+
+O contrato normativo completo está em `contrato_produto_player_faced_total.md`.
 
 ---
 
