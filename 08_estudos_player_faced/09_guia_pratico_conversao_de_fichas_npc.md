@@ -165,14 +165,14 @@ A ficha achatada já possui os campos necessários para o combate do NPC:
 
 * **Ameaça:** capacidade do NPC de impor sua ação ao PJ.
 * **Consequência:** dano, estresse ou outro impacto aplicado quando a Ameaça se concretiza.
-* **Proteção:** valor que reduz o Impacto depois que a ação produziu efeito; generaliza a antiga RD fixa quando existe resistência passiva equivalente.
+* **Proteção:** valor que reduz o Impacto depois que a ação produziu efeito; generaliza a antiga RD fixa quando existe resistência passiva equivalente e registra **quais tipos de Impacto** essa proteção cobre.
 
 O desenho desses campos já existe.
 
 * **Proteção** usa o baseline auditado: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4. O caso de 1d é uma aproximação deliberada: P0 e P1 empatam em distância distributiva, e P0 evita criar imunidade absoluta contra dano 1d.
 * **Ameaça + Consequência** ainda exigem transformação para os casos unilaterais. Com defesa ativa, preservar a rolagem normal do PJ e comprimir o lado do NPC é promissor; sem defesa ativa/reação equivalente, o caso permanece aberto.
 
-> A assinatura defensiva usa **D/R/P = Dificuldade / Resistência / Proteção**. Os dois primeiros números resolvem a oposição; o terceiro só atua quando existe Impacto a absorver. Assim, `7/2/2` significa Dificuldade 7, Resistência 2 e Proteção 2.
+> A assinatura defensiva usa **D/R/P = Dificuldade / Resistência / Proteção**. Os dois primeiros números resolvem a oposição; o terceiro só atua quando existe Impacto a absorver e deve indicar seu escopo. Assim, `7/2/2[C,L]` significa Dificuldade 7, Resistência 2 e Proteção 2 contra dano Contundente e Letal. Se os valores variarem por tipo, pode-se registrar `7/2/C2·L1·A0`.
 
 ---
 
@@ -213,6 +213,8 @@ FICHA ACHATADA POR DIMENSÃO
 | Mágicko |  |  |  |  |
 
 Use **0** somente quando aquela capacidade/resistência realmente não existe naquela dimensão. Não use 0 como sinônimo de “fraco”.
+
+Ao preencher **Proteção**, registre também o **tipo de Impacto protegido**. No Físico, use ao menos C/L/A quando pertinente. Nas demais dimensões, use apenas categorias confirmadas pelo subsistema original; a mesma assinatura pode ter proteção contra alguns tipos de efeito e nenhuma contra outros.
 
 AÇÕES E PODERES
 - [...]
