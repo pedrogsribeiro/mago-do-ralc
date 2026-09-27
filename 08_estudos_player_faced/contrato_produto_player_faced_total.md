@@ -71,7 +71,7 @@ Quando o PJ age contra um Obstáculo e a operação original exige compressão d
 
 A forma curta **D/R** é suficiente quando não existe etapa de Impacto/Proteção. Na forma completa, a Proteção deve conservar o escopo original. Por exemplo, `7/2/2[C,L]` significa **Dificuldade 7, Resistência 2, Proteção 2 contra Contundente e Letal**. Quando os valores variarem por tipo, o terceiro campo pode ser um perfil, como `7/2/C2·L1·A0`.
 
-**Impacto** é o efeito quantitativo produzido antes da Proteção; **Impacto efetivo** é o restante depois da Proteção. Uma Proteção só reduz Impactos cobertos por seu tipo. A mesma exigência se aplica às dimensões Social, Mental/Técnico e Mágicko: os tipos protegidos devem derivar das categorias e procedimentos reais do subsistema original.
+**Impacto** é o efeito quantitativo produzido antes da Proteção; **Impacto efetivo** é o restante depois da Proteção. No Físico, uma Proteção tipada só reduz os tipos de dano cobertos. Em Social e Mental/Técnico, Proteção é um valor único quando existir. Em Mágicko/Poderes, a Proteção pode ser tipada quando as regras originais distinguirem categorias de efeito, resistência ou imunidade.
 
 ## 5. Fidelidade
 
