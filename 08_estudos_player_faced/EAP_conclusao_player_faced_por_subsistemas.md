@@ -29,15 +29,15 @@ O contrato normativo permanece o de `contrato_produto_player_faced_total.md`:
 Dentro de cada pacote:
 
 1. levantar o procedimento original do M20 e o corpus canônico correspondente;
-2. identificar exatamente o que o Storyteller precisa operar ou rolar;
-3. propor a transformação mínima;
-4. abrir cálculo/script somente se houver uma equivalência real a demonstrar;
-5. Pedro roda localmente qualquer script de validação;
-6. interpretar os resultados;
-7. homologar explicitamente;
-8. converter **cada perfil canônico** daquele subsistema para o novo formato;
-9. registrar dívidas que permanecerem abertas;
-10. só então abrir o pacote seguinte.
+2. aplicar às fichas as transformações matemáticas já estabelecidas pelo projeto;
+3. converter **cada perfil canônico** daquele subsistema para o novo formato DRP;
+4. preservar Persistência, Recursos, Características e procedimentos especiais que não pertencem ao DRP;
+5. registrar como dívida do **método**, e não como bloqueio de cada NPC, limitações estatísticas já conhecidas da compressão;
+6. abrir cálculo/script novo **somente** quando aparecer uma mecânica que ainda não possua transformação definida;
+7. homologar o pacote convertido;
+8. só então abrir o pacote seguinte.
+
+A conversão de um NPC comum não exige uma nova simulação apenas porque seus números são diferentes. A matemática já existente é a régua de transformação.
 
 Não iniciar um subsistema novo porque ele apareceu incidentalmente durante outro. Registrar a dependência e manter o foco.
 
@@ -82,7 +82,7 @@ Um subsistema só pode ser marcado como concluído quando:
 - [x] Composição física PJ → NPC por D/R/P foi auditada.
 - [x] Armas de fogo do PJ preservam sua dificuldade própria e consultam apenas os componentes pertinentes.
 - [x] Transposição universal de D/R para dificuldades próprias foi rejeitada.
-- [x] Ações físicas do NPC com sucessos fixos foram estudadas parcialmente.
+- [x] Ações físicas do NPC possuem procedimento de conversão por sucessos fixos e efeito-base já suficiente para conversão de fichas; limitações residuais permanecem documentadas no nível do método.
 - [x] Social resistido foi estudado o suficiente para abandonar a busca de fórmula universal.
 - [x] Força de Vontade não deve ser convertida genericamente em Proteção Social.
 - [x] `P Social = 0` é o default de trabalho até que um procedimento original concreto demonstre uma camada quantitativa posterior equivalente a Proteção.
@@ -96,7 +96,7 @@ Estas dívidas só serão tratadas quando bloquearem o subsistema ativo:
 - contramágika;
 - Reação de Paradoxo;
 - Fúria/Gnose de espíritos;
-- iniciativa quando a única aleatoriedade original estiver do lado do ST;
+- iniciativa foi resolvida para NPCs por valor fixo derivado de Destreza + Raciocínio + 6; a ficha final mostra apenas o valor pronto;
 - Certámen;
 - efeitos especiais que dependam de procedimentos próprios.
 
@@ -517,8 +517,8 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 Próxima tarefa:
 
 - [ ] levantar, para os cinco perfis consolidados, tudo que o ST precisa operar em uma cena;
-- [ ] converter um perfil de cada vez;
-- [ ] usar a matemática já homologada sempre que ela for suficiente;
-- [ ] abrir estudo novo apenas diante de um bloqueio concreto;
+- [ ] converter um perfil de cada vez pela régua matemática já existente;
+- [ ] não recalibrar cada NPC individualmente;
+- [ ] abrir estudo novo apenas diante de uma mecânica sem transformação definida;
 - [ ] ao final, testar os cinco perfis em cenas completas;
 - [ ] homologar PT-1 antes de iniciar PT-2.
