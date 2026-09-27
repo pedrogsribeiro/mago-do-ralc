@@ -8,7 +8,7 @@ tags: [srd, design, player-faced, probabilidade, d10, regras, obstaculos]
 
 Este documento estabelece a base mecânica e probabilística para a resolução **player-facing** aplicada a *Mago: A Ascensão 20 Anos*. Nos procedimentos cobertos por este estudo, a incerteza fica inteiramente na rolagem do jogador; o Narrador gerencia a ficção, os perigos e as consequências.
 
-Estudos posteriores mostraram que essa propriedade não pode ser universalizada sem custo: quando a regra original contém aleatoriedade exclusivamente do lado do Storyteller e não existe uma rolagem equivalente do jogador, a fidelidade ao M20 tem precedência sobre a meta de “zero dados do ST”.
+Estudos posteriores mostraram que alguns procedimentos com aleatoriedade originalmente exclusiva do Storyteller ainda não possuem transformação calibrada suficiente. Pelo contrato do produto, esses casos permanecem dívidas abertas: o ST continua destinado a rolar zero dados e nenhuma nova operação pode ser criada para o jogador.
 
 ---
 
