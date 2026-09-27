@@ -450,9 +450,84 @@ A **transposição direta foi rejeitada como regra geral**. Ela apresentou **TV 
 
 A regra transposta coincidiu exatamente com o ótimo local em apenas **32 de 77 perfis Dificuldade×NPC (41,6%)**. Os maiores desvios concentraram-se sobretudo nas Dificuldades-base baixas, mostrando que **Dificuldade da ação e oposição do NPC interagem de forma não linear**. Portanto, o D da assinatura do NPC não deve ser simplesmente somado, deslocado ou transportado sobre a Dificuldade própria da ação.
 
-O resultado preserva a utilidade do **Perfil DRP** como interface compacta, mas rejeita a necessidade de uma **fórmula universal de composição em tempo de jogo**. A direção homologada passa a ser uma **graduação pré-convertida de NPCs/Obstáculos**: a ficha recebe um **Perfil DRP** derivado das capacidades originais e calibrada antecipadamente. Cada procedimento de M20 consulta apenas os componentes pertinentes dessa assinatura; Dificuldades próprias da ação permanecem próprias do subsistema quando a regra original assim determina.
+O resultado preserva a utilidade do **Perfil DRP** como interface compacta, mas rejeita a necessidade de uma **fórmula universal de composição em tempo de jogo**. A direção homologada passa a ser um **Perfil DRP pré-convertido de NPCs/Obstáculos**: a ficha recebe um **Perfil DRP** derivado das capacidades originais e calibrada antecipadamente. Cada procedimento de M20 consulta apenas os componentes pertinentes dessa assinatura; Dificuldades próprias da ação permanecem próprias do subsistema quando a regra original assim determina.
 
 A calibração futura será feita sobre NPCs concretos. Parte-se do baseline matemático, converte-se a ficha original para uma assinatura como `7/2/2`, compara-se o comportamento clássico com o convertido e, quando necessário, ajusta-se D, R ou P de forma pequena e rastreável. O objetivo passa a ser construir uma **escala graduada de perfis**, do NPC mais fraco ao mais forte, em vez de calcular uma fórmula universal durante a cena.
+
+### Bloco H — sucessos fixos ofensivos e ciclo físico bidirecional
+
+O Bloco H testou a metade ofensiva do **Perfil DRP**: quando o Obstáculo age contra o PJ, as rolagens originalmente feitas pelo Storyteller são substituídas por **sucessos fixos (S)**, preservando as rolagens que já pertencem ao jogador.
+
+O pipeline auditado foi:
+
+```
+ação do Obstáculo nasce com S
+→ PJ faz sua defesa original, quando existir
+→ se nenhum sucesso ofensivo restar, não há efeito
+→ se ao menos 1 sucesso restar, entra o dano/efeito
+→ o dano/efeito do Obstáculo também nasce com S fixo
+→ PJ mantém soak/resistência original quando M20 permitir
+```
+
+Os sucessos excedentes da ação acima do primeiro continuam alimentando o pool de dano antes de sua conversão para S, preservando a ligação original entre qualidade do acerto e potencial de dano.
+
+#### Conversão candidata em D6
+
+Na faixa 1d–20d, o teste comparou duas curvas para **ação** — arredondamento da média intrínseca e calibração pela interação com defesas do PJ — e uma curva específica para **dano/efeito**, calibrada após soak.
+
+Para os ataques concretos extraídos do corpus, todos os pools de ação testados ficaram entre 4d e 8d. Nesse intervalo, as duas curvas de ação coincidem:
+
+| Pool original | S de ação |
+| :---: | :---: |
+| 1–3d | S1 |
+| 4–6d | S2 |
+| 7–8d | S3 |
+
+A divergência começa em 9d e acima; portanto o Bloco H **não fecha ainda a curva ofensiva de ação para pools altos**.
+
+A curva de dano/efeito testada produziu, no intervalo relevante da amostra concreta:
+
+| Pool de dano original | S de dano/efeito |
+| :---: | :---: |
+| 1–3d | S1 |
+| 4–5d | S2 |
+| 6–8d | S3 |
+| 9–10d | S4 |
+| 11–13d | S5 |
+| 14–15d | S6 |
+| 16–18d | S7 |
+| 19–20d | S8 |
+
+No conjunto de 22 ataques concretos auditados, o ciclo completo apresentou erro médio de **4,782 pp** em P(dano zero), **0,1472 nível** em dano esperado, **4,791 pp** em P(3+ dano), **2,672 pp** em P(5+ dano) e **9,942%** de TV média. Como as duas curvas de ação coincidiam em todos os pools usados nessa amostra, seus resultados foram idênticos.
+
+Esse resultado torna a curva de dano/efeito uma candidata forte para o Físico, mas ainda não autoriza congelar toda a ofensiva: é necessário testar ações concretas de 9d ou mais e/ou perfis de alta competência antes de escolher a curva de ação nesses patamares.
+
+#### Proveniência mundana + mágicka
+
+O Bloco H comparou três maneiras de decompor um efeito misto em parcela mundana e parcela mágicka.
+
+O método **incremental** preservou exatamente tanto o total convertido quanto a parcela mundana isolada após a remoção da mágika:
+
+```
+S_mundano = f(dados mundanos)
+S_total = f(dados mundanos + dados mágickos)
+S_mágicko = S_total - S_mundano
+```
+
+Sua limitação é a quantização: em **8,421%** dos splits testados, havia contribuição mágicka positiva em dados, mas ela não atravessava um degrau suficiente para gerar +1S mágicko.
+
+Os métodos que garantem mais frequentemente pelo menos 1S mágicko reduzem esse problema, mas alteram a parcela mundana que deveria sobreviver intacta à contramágika. Como preservar o componente mundano é requisito funcional do produto, o método incremental permanece estruturalmente preferível, ainda com a dívida de representar de forma legível uma contribuição mágicka real que resulte em +0S.
+
+#### Estado
+
+O Bloco H confirma a arquitetura bidirecional do Perfil DRP:
+
+- **PJ → Obstáculo:** D/R/P descreve a resistência da dimensão;
+- **Obstáculo → PJ:** ações e efeitos usam sucessos fixos pré-convertidos, mantendo as rolagens originais do PJ;
+- **proveniência:** componentes mundanos e mágickos precisam permanecer separáveis quando a regra original os distingue;
+- **Persistência e características** continuam eixos independentes.
+
+A tabela ofensiva ainda não está homologada integralmente. O próximo gate matemático é resolver pools de ação altos e testar a proveniência também na **etapa de ação**, não apenas no dano/efeito.
 
 ### Ameaça + Consequência
 
