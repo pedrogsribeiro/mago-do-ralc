@@ -26,6 +26,8 @@ Auditorias anteriores identificaram um conflito real entre zero dados do ST, aus
 
 Reintroduzir rolagem do ST ou transferi-la ao jogador não constitui solução.
 
+**Nota de reabertura:** a auditoria antiga concentrou-se em ataque/dano e subsistemas especiais, mas a regra-fonte também coloca a iniciativa de NPCs no lado do ST. Essa operação passa a integrar formalmente a dívida de transformação.
+
 ---
 
 ## 2. Estados de resolução
@@ -66,6 +68,7 @@ Procedimentos que já são suficientemente player-facing ou cuja melhor ergonomi
 
 Procedimentos que ainda não possuem solução player-faced total suficientemente calibrada:
 
+* iniciativa de NPCs e outras entidades quando M20 exigiria `1d10 + Iniciativa Base`;
 * ataque/dano do NPC quando o PJ não possui defesa ativa ou reação equivalente;
 * Fúria ofensiva de espíritos quando não há resistência correspondente do PJ;
 * Gnose de Encantos quando toda a incerteza está no lado do espírito;
