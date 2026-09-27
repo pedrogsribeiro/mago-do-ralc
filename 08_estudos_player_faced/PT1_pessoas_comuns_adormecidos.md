@@ -842,7 +842,7 @@ A ausência da dificuldade numérica fica registrada como lacuna de fonte, sem i
 
 ## 4.4 Ficha player-faced candidata
 
-> **Status:** conversão mecânica pronta; aguardando homologação autoral.
+> **Status:** HOMOLOGADO para o PT-1.
 
 ### POLICIAL DE RUA
 
@@ -915,6 +915,236 @@ Esses números não são completados por inferência em uma nova ficha de SWAT p
 - [x] autoridade institucional preservada como Característica;
 - [x] escalada SWAT preservada sem inventar ficha ausente;
 - [ ] dificuldade numérica específica do teste de Vigor do Taser não está presente no corpus consolidado;
+- [x] homologação autoral do perfil.
+
+**POLICIAL DE RUA: CONCLUÍDO PARA O PT-1.**
+
+A lacuna do Taser permanece documental e não bloqueia a conversão do perfil.
+
+**Próximo perfil: Agente do Governo.**
+
+
+---
+
+# 5. Agente do Governo
+
+## 5.1 Fonte consolidada
+
+O perfil canônico representa agentes de FBI, CIA, NSA e equivalentes. Assim como o Durão Profissional, é um template em faixa.
+
+Valores relevantes:
+
+- Destreza 2–3;
+- Vigor 3–4;
+- Manipulação 3–5;
+- Percepção 3–4;
+- Inteligência 3–4;
+- Raciocínio 3–5;
+- Armas Brancas 2–3;
+- Armas de Fogo 3–4;
+- Artes Marciais 1–3;
+- Briga 2–3;
+- Computação 2–3;
+- Consciência 1;
+- Direção 2–3;
+- Direito 4;
+- Enigmas 1–3;
+- Erudição 3;
+- Esportes 2;
+- Furtividade 2;
+- Investigação 3–5;
+- Manha 3;
+- Mídia 1–3;
+- Pesquisa 2–4;
+- Política 2–4;
+- Prontidão 3;
+- Tecnologia 2–4;
+- Força de Vontade 7;
+- Vitalidade padrão humana;
+- colete oculto à prova de balas, com 5 dados totais de absorção declarados;
+- Pistola Pesada 4L;
+- Submetralhadora Leve 5L.
+
+## 5.2 Conversão pela régua DRP
+
+### Físico
+
+A defesa ativa usa:
+
+`Destreza 2–3 + Esportes 2 = 4d–5d`
+
+Pela tabela D/R:
+
+```text
+7/1–6/2
+```
+
+A absorção total declarada é 5d, portanto a Proteção Contundente é `C2`.
+
+Como o Agente é Adormecido, Vigor não absorve Letal. A fonte não discrimina de forma estável quantos dos 5 dados totais vêm do colete quando o template usa Vigor 3–4. Isso deixa a parcela Letal do colete entre 1d e 2d, que pela régua atual equivale a `L0–1`.
+
+Sem proteção específica contra Agravado:
+
+```text
+Físico: 7/1–6/2/C2·L0–1·A0
+```
+
+Ao instanciar um agente concreto, escolhe-se uma combinação coerente da faixa e a ficha usada em mesa mostra apenas o valor final.
+
+### Mental/Técnico
+
+Percepção 3–4 + Prontidão 3 = 6d–7d:
+
+```text
+Percepção/Alerta: 6/2–7/2
+```
+
+Percepção 3–4 + Investigação 3–5 = 6d–9d em investigações baseadas em observação:
+
+```text
+Investigar: 2–4S
+```
+
+Inteligência 3–4 + Computação 2–3 = 5d–7d:
+
+```text
+Computação: 2–3S
+```
+
+Inteligência 3–4 + Tecnologia 2–4 = 5d–8d:
+
+```text
+Tecnologia: 2–3S
+```
+
+Destreza 2–3 + Furtividade 2 = 4d–5d:
+
+```text
+Furtividade: 2S
+```
+
+Destreza 2–3 + Direção 2–3 = 4d–6d:
+
+```text
+Dirigir: 2S
+```
+
+### Social
+
+A autoridade federal e o acesso institucional permanecem como Características.
+
+A ficha possui Manipulação 3–5, Direito 4, Manha 3 e Política 2–4. Como essas competências podem sustentar ações sociais diferentes, são convertidas apenas onde a função é clara:
+
+```text
+Direito: 3S
+Manha: 2–3S
+Política: 2–4S
+```
+
+O default defensivo Social permanece `6` quando não houver uma oposição social específica prevista pelo procedimento original.
+
+### Iniciativa
+
+A conversão produz uma faixa de **11–14**, conforme Destreza 2–3 e Raciocínio 3–5.
+
+Na ficha concreta aparece apenas o valor escolhido:
+
+```text
+Iniciativa: 11–14
+```
+
+## 5.3 Ações de combate
+
+### Pistola Pesada
+
+Destreza 2–3 + Armas de Fogo 3–4 = 5d–7d em Dificuldade 6:
+
+```text
+Pistola Pesada: 2–3S + 2L
+```
+
+### Submetralhadora Leve
+
+A mesma parada-base de 5d–7d em Dificuldade 7 produz:
+
+```text
+Submetralhadora Leve: 2S + 2L
+```
+
+Sucessos excedentes seguem a regra geral homologada: depois do primeiro sucesso líquido, cada 2 sucessos excedentes acrescentam +1 sucesso automático ao dano/efeito. A ficha não adiciona dados de dano.
+
+## 5.4 Ficha player-faced candidata
+
+> **Status:** conversão mecânica pronta; aguardando homologação autoral.
+
+### AGENTE DO GOVERNO
+
+Investigador federal, operador de inteligência ou agente de segurança nacional. É perigoso menos por força bruta isolada e mais pela combinação de investigação, vigilância, acesso institucional, preparo técnico e capacidade de escalar uma situação.
+
+```text
+6
+
+Físico:
+7/1–6/2/C2·L0–1·A0
+
+Social:
+6
+
+Mental/Técnico:
+6
+Percepção/Alerta: 6/2–7/2
+
+Mágicko/Poderes:
+—
+
+Ações:
+Pistola Pesada: 2–3S + 2L
+Submetralhadora Leve: 2S + 2L
+Investigar: 2–4S
+Computação: 2–3S
+Tecnologia: 2–3S
+Furtividade: 2S
+Dirigir: 2S
+Direito: 3S
+Manha: 2–3S
+Política: 2–4S
+
+Persistência:
+Vitalidade padrão humana
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 7
+
+Iniciativa:
+11–14
+
+Características:
+Autoridade federal
+Treinamento investigativo
+Vigilância e coleta de informação
+Colete oculto à prova de balas
+Dispositivos de vigilância
+Acesso institucional
+Pode escalar a resposta para operações maiores
+```
+
+### Regra de instanciação
+
+O Agente do Governo é um template em faixa. Antes da cena, o ST escolhe os valores que descrevem aquele agente concreto. A ficha em uso registra apenas os valores finais e não exige retorno aos Atributos/Habilidades de origem.
+
+## 5.5 Gate do Agente do Governo
+
+- [x] D/R físico convertido;
+- [x] Proteção Contundente convertida;
+- [x] faixa Letal do colete preservada sem inventar uma decomposição única;
+- [x] Percepção/Alerta convertida;
+- [x] competências investigativas e técnicas recorrentes convertidas;
+- [x] competências sociais funcionais convertidas como ações;
+- [x] Pistola e Submetralhadora convertidas;
+- [x] Iniciativa convertida;
+- [x] Persistência e Força de Vontade preservadas;
+- [x] autoridade e acesso institucional preservados como Características;
 - [ ] homologação autoral do perfil.
 
-**POLICIAL DE RUA: MECANICAMENTE PRONTO, COM UMA LACUNA DOCUMENTAL NÃO BLOQUEANTE NO TASER.**
+**AGENTE DO GOVERNO: MECANICAMENTE PRONTO, AGUARDANDO HOMOLOGAÇÃO.**
