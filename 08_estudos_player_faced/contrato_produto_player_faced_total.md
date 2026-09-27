@@ -91,6 +91,18 @@ As **ações do Obstáculo** são independentes do D/R/P defensivo. Quando uma a
 
 A densidade da ficha acompanha a importância ficcional. Um Obstáculo pode ser apenas `6`; outro pode possuir quatro dimensões, ações próprias, Persistência, poderes, estados, motivações e texto diegético. Ambos usam o mesmo método.
 
+### Eixos independentes de classificação
+
+A representação esparsa do Perfil DRP não substitui a ontologia dos Obstáculos. Três classificações devem permanecer separadas:
+
+- **Passivo / Ativo** descreve se o Obstáculo possui agência e ações próprias;
+- **Simples / Elaborado** descreve quanta informação operacional precisa ser explicitada;
+- **Pontual / Persistente / Alto impacto** descreve a carga da situação em cena.
+
+Esses eixos podem combinar-se livremente. Um agente pode ser ativo e simples; um sistema pode ser passivo e elaborado. Um Obstáculo simples pode ser perigoso. Um Obstáculo elaborado não recebe potência adicional apenas por possuir mais campos.
+
+O Perfil DRP é a linguagem comum usada por todas essas formas.
+
 ## 5. Fidelidade
 
 A prioridade de fidelidade é a **experiência operacional e perceptível do jogador**.
