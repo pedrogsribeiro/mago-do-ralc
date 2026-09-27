@@ -659,3 +659,39 @@ Sem defesa ativa, os três modelos permaneceram fracos: erro médio de chance de
 Ainda não se homologa uma regra ofensiva final. O próximo teste deve verificar a robustez local dos resultados de defesa ativa — por ação, defesa, absorção e tipo de dano — e comparar uma compressão mínima da contribuição dos sucessos excedentes antes de escolher entre efeito condicional pré-compilado e uma regra dependente da margem líquida.
 
 A tabela empírica de níveis de potência e qualquer clustering permanecem posteriores ao fechamento dessas equivalências básicas.
+
+
+### Bloco N — robustez local com defesa ativa
+
+O Bloco N abriu o agregado do Bloco M V2 em 34 variantes ofensivas corpo a corpo, 3.366 células únicas de ação × defesa × absorção e 10.098 linhas matemáticas entre os três modelos.
+
+No confronto direto entre **CONDICIONAL_PRECOMPILADO** e **MARGEM_LÍQUIDA**, o resultado não produziu vencedor universal. Em TV, o Condicional venceu 1.150 células, a Margem 830 e houve 1.386 empates. Em erro de dano médio, porém, o Condicional venceu 1.737 células, a Margem apenas 243, com os mesmos 1.386 empates.
+
+A decomposição por defesa mostrou uma transição clara. Com defesa baixa do PJ (2d–4d), a Margem Líquida teve TV menor, embora o Condicional preservasse melhor o dano médio. A partir de aproximadamente 5d de defesa, o Condicional passou a ser também igual ou melhor em TV e manteve erro de dano menor. A absorção exibiu padrão semelhante: com soak 0d–4d a Margem frequentemente teve TV menor; a partir de 5d, o Condicional passou a dominar também essa métrica.
+
+Por tipo de dano, a Margem apresentou TV ligeiramente menor em Contundente e Letal, mas o Condicional preservou substancialmente melhor o dano médio, especialmente em Letal. No recorte de Letal sem absorção, a Margem teve TV menor (26,347% contra 30,106%), mas erro de dano maior (0,2393 contra 0,1775).
+
+A análise por ação mostrou três famílias:
+
+1. quando efeito-base e efeito-condicional coincidem, Condicional e Margem são matematicamente idênticos;
+2. em vários perfis intermediários, o Condicional preserva muito melhor a expectativa de dano, enquanto a Margem pode reduzir TV;
+3. em alguns ataques de alta competência e baixa defesa/absorção, ambos os modelos apresentam piores casos locais muito altos, revelando perda de variância que nenhuma das duas formas resolve sozinha.
+
+Os piores casos concentram-se em ataques fortes contra PJs com defesa baixa e sem absorção. Portanto, a diferença entre Condicional e Margem não explica sozinha o erro residual; parte importante decorre da compressão determinística das antigas rolagens do PNJ.
+
+#### Estado após N
+
+Nenhum dos dois modelos deve ainda ser homologado como regra única.
+
+O próximo gate deve testar uma **regra intermediária de baixa carga cognitiva**, pré-compilada na ação e ainda independente da ficha do PJ, capaz de preservar a contribuição dos sucessos excedentes sem entregar sempre o pacote condicional inteiro nem exigir reconstruir os dados-base de dano em tempo de jogo.
+
+A candidata a estudar é uma ação com **efeito-base + bônus condicionado à margem líquida**, com número mínimo de degraus. Exemplo estrutural, ainda não homologado:
+
+```
+3S + 2L
++1L se 2+ sucessos ofensivos permanecerem
+```
+
+A quantidade de degraus, seus gatilhos e a eventual necessidade de mais de um bônus devem ser derivados por teste; não devem ser escolhidos por intuição.
+
+A família sem defesa ativa continua dívida separada.
