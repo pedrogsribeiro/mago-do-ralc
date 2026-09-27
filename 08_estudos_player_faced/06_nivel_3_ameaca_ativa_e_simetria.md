@@ -71,6 +71,14 @@ A assinatura defensiva compacta usa sempre a mesma ordem:
 
 Assim, **Resistência Física 7/2/2** significa Dificuldade 7, Resistência 2 e Proteção 2. Uma ação sem etapa de Impacto/absorção pode usar apenas **7/2**.
 
+### Graduação pré-convertida
+
+A assinatura D/R/P é preparada **antes da cena** a partir das capacidades originais do NPC ou Obstáculo. O Storyteller não combina atributos, dificuldades circunstanciais e oposição por uma fórmula universal durante o jogo.
+
+A graduação deve partir das funções reais da ficha original. Uma competência defensiva ativa pode sustentar D/R; Vigor, armadura ou resistência equivalente podem sustentar P; outros atributos só entram quando o procedimento original realmente os utiliza. A ficha final registra apenas a assinatura operacional necessária, por exemplo **Físico 7/2/2**.
+
+A tabela matemática fornece o baseline. NPCs concretos podem receber ajustes pequenos em D, R ou P quando a comparação com seu comportamento original mostrar ganho de fidelidade. Esses ajustes são parte da calibração da graduação e precisam permanecer rastreáveis à ficha original.
+
 ### Ameaça
 
 O NPC continua agindo em sua iniciativa e declarando suas ações. **Ameaça** representa sua capacidade ofensiva naquela dimensão.
