@@ -71,17 +71,17 @@ A assinatura defensiva compacta usa sempre a mesma ordem:
 
 Assim, **Resistência Física 7/2/2[C,L]** significa Dificuldade 7, Resistência 2 e Proteção 2 contra dano **Contundente e Letal**. Tipos não listados não recebem essa Proteção, salvo outra regra ou fonte de proteção. Quando valores diferentes se aplicarem a tipos diferentes, usa-se o terceiro campo como perfil, por exemplo **7/2/C2·L1·A0**. Uma ação sem etapa de Impacto/absorção pode usar apenas **7/2**.
 
-### Graduação pré-convertida
+### Perfil DRP pré-convertido
 
-A assinatura D/R/P é preparada **antes da cena** a partir das capacidades originais do NPC ou Obstáculo. O Storyteller não combina atributos, dificuldades circunstanciais e oposição por uma fórmula universal durante o jogo.
+O **Perfil DRP** é preparado **antes da cena** a partir das capacidades originais do NPC ou Obstáculo. O Storyteller não combina atributos, dificuldades circunstanciais e oposição por uma fórmula universal durante o jogo.
 
 A graduação deve partir das funções reais da ficha original. Uma competência defensiva ativa pode sustentar D/R; Vigor, armadura ou resistência equivalente podem sustentar P; outros atributos só entram quando o procedimento original realmente os utiliza. A ficha final registra apenas a assinatura operacional necessária, por exemplo **Físico 7/2/2**.
 
-A tabela matemática fornece o baseline. NPCs concretos podem receber ajustes pequenos em D, R ou P quando a comparação com seu comportamento original mostrar ganho de fidelidade. Esses ajustes são parte da calibração da graduação e precisam permanecer rastreáveis à ficha original.
+A tabela matemática fornece o baseline. NPCs concretos podem receber ajustes pequenos em D, R ou P quando a comparação com seu comportamento original mostrar ganho de fidelidade. Esses ajustes são parte da calibração do **Perfil DRP** e precisam permanecer rastreáveis à ficha original.
 
 ### Camadas além da assinatura mecânica
 
-A assinatura D/R/P é o **núcleo mecânico mínimo de consulta**, não a ficha inteira do NPC ou Obstáculo. Quanto maior o peso diegético da entidade, mais informação deve permanecer disponível ao Storyteller acima desse núcleo.
+O **Perfil DRP** é o **núcleo mecânico mínimo de consulta**, não a ficha inteira do NPC ou Obstáculo. Quanto maior o peso diegético da entidade, mais informação deve permanecer disponível ao Storyteller acima desse núcleo.
 
 NPCs e Obstáculos simples podem existir quase só como assinatura + uma ou duas características relevantes. Entidades recorrentes, chefes, antagonistas nomeados, instituições, espíritos, constructos e outros elementos com peso ficcional maior preservam também, conforme necessário:
 
@@ -96,7 +96,7 @@ NPCs e Obstáculos simples podem existir quase só como assinatura + uma ou duas
 
 A compressão player-faced reduz carga operacional sem apagar **presença, personalidade, função dramática ou legibilidade ficcional**. A graduação mecânica deve servir à diegese, não substituí-la.
 
-A graduação também preserva **o escopo da Proteção**. No físico, a ficha deve registrar se P vale contra dano Contundente (C), Letal (L) e/ou Agravado (A), porque essa distinção altera diretamente as escolhas e expectativas do jogador em M20. Um valor simples como `P2` só pode ser usado sem marcador quando a proteção realmente se aplicar de modo equivalente aos tipos físicos pertinentes.
+O Perfil DRP também preserva **o escopo da Proteção**. No físico, a ficha deve registrar se P vale contra dano Contundente (C), Letal (L) e/ou Agravado (A), porque essa distinção altera diretamente as escolhas e expectativas do jogador em M20. Um valor simples como `P2` só pode ser usado sem marcador quando a proteção realmente se aplicar de modo equivalente aos tipos físicos pertinentes.
 
 Em **Social** e **Mental/Técnico**, Proteção é um valor único quando existir; essas dimensões não recebem subtipos de Proteção.
 
