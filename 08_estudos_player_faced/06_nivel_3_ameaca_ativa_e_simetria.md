@@ -37,34 +37,39 @@ As regras próprias de cada domínio continuam valendo. Combate físico conserva
 
 A pesquisa já havia definido uma ficha operacional compacta para ameaças persistentes. Ela precisa ser preservada nas revisões posteriores:
 
-1. **Oposição:** quão difícil é para o PJ superar a resistência ativa da ameaça quando o PJ age.
+1. **Resistência D/R/P:** assinatura defensiva compacta da frente em que o PJ age contra o Obstáculo. **Dificuldade** define o valor-alvo no d10; **Resistência** cancela sucessos; **Proteção** reduz o Impacto produzido.
 2. **Ameaça:** quão difícil é para o PJ evitar ou resistir à ação do NPC quando a ameaça age.
 3. **Consequência:** o impacto causado quando a ação da ameaça se concretiza — dano, perda de Vontade, condição, exposição, bloqueio de recurso ou outro efeito pertinente.
 4. **Integridade / Relógio:** quanto progresso efetivo ainda é necessário para resolver o Obstáculo naquela frente.
-5. **Limiar de Efetividade:** resistência que reduz ou impede o Impacto produzido por uma ação bem-sucedida. Este campo nasceu como **RD fixa** para dano físico e foi renomeado para permitir o mesmo conceito em resistências sociais, mentais, técnicas e mágickas.
 
-As quatro dimensões — Físico, Social, Mental/Técnico e Mágicko — formam uma **matriz de aplicação da ficha achatada**. Cada dimensão pode possuir seus próprios valores de **Oposição, Ameaça, Consequência, Integridade e Limiar de Efetividade**, conforme o que realmente existe na ficha, na ficção e no subsistema original.
+As quatro dimensões — Físico, Social, Mental/Técnico e Mágicko — formam uma **matriz de aplicação da ficha achatada**. Cada dimensão pode possuir sua própria **Resistência D/R/P**, além de Ameaça, Consequência e Integridade quando esses campos realmente existirem na ficha, na ficção e no subsistema original.
 
 Exemplo estrutural:
 
-| Dimensão | Oposição | Ameaça | Consequência | Integridade | Limiar |
-| :--- | :---: | :---: | :--- | :---: | :---: |
-| Físico | alto | alto | alta | alta | alto |
-| Social | baixo | baixo | baixa | baixa | baixo |
-| Mental/Técnico | médio | médio | média | média | médio |
-| Mágicko | 0 | 0 | — | — | — |
+| Dimensão | Resistência D/R/P | Ameaça | Consequência | Integridade |
+| :--- | :---: | :---: | :--- | :---: |
+| Físico | 7/2/2 | alto | alta | alta |
+| Social | 6/1/0 | baixo | baixa | baixa |
+| Mental/Técnico | 7/1/1 | médio | média | média |
+| Mágicko | 0 | 0 | — | — |
 
-Os termos acima são apenas ilustrativos; os valores numéricos precisam vir da conversão/calibração apropriada.
+Os valores acima são apenas ilustrativos. A notação é normativa; os números concretos precisam vir da conversão/calibração apropriada. Quando não existir Impacto a absorver, a Proteção pode ser omitida e a assinatura aparece apenas como **D/R**, por exemplo `7/2`.
 
-Nem todo campo precisa existir em toda dimensão. Uma dimensão pode ter apenas Oposição, por exemplo, sem possuir Ameaça própria. **0 significa ausência real daquele vetor**, não “fracasso automático” nem “dificuldade mínima”.
+Nem todo campo precisa existir em toda dimensão. Uma dimensão pode ter apenas **Resistência D/R**, por exemplo, sem possuir Ameaça própria ou Proteção aplicável. **0 significa ausência real daquele vetor**, não “fracasso automático” nem “dificuldade mínima”.
 
 As dimensões, portanto, não substituem os subsistemas de M20: elas dizem **qual versão da ficha achatada é acionada pela abordagem escolhida**.
 
-### Oposição
+### Resistência D/R/P
 
-Parte da parada original pertinente do NPC. A conversão probabilística ainda está em calibração.
+A assinatura defensiva compacta usa sempre a mesma ordem:
 
-> **Nota terminológica:** o **Limiar oculto** usado nos estudos matemáticos de Oposição é um parâmetro da transformação probabilística da rolagem resistida. Ele **não é** o **Limiar de Efetividade** da ficha achatada.
+**Dificuldade / Resistência / Proteção**
+
+* **Dificuldade** é o valor-alvo que cada d10 do jogador precisa alcançar para contar como sucesso, preservando o conceito de M20.
+* **Resistência** é a quantidade fixa de sucessos cancelados depois da rolagem. Se os sucessos obtidos forem iguais ou menores que a Resistência, não sobra sucesso líquido.
+* **Proteção** atua depois que a ação produziu Impacto e reduz esse Impacto antes que ele alcance a Integridade, Vitalidade ou estrutura equivalente.
+
+Assim, **Resistência Física 7/2/2** significa Dificuldade 7, Resistência 2 e Proteção 2. Uma ação sem etapa de Impacto/absorção pode usar apenas **7/2**.
 
 ### Ameaça
 
@@ -93,17 +98,19 @@ A leitura de sucessos continua valendo dentro dessa estrutura:
 * **1 sucesso** continua sendo sucesso marginal e normalmente produz **1 Impacto/1 caixa** sobre o Relógio, além de mover a ficção;
 * sucessos adicionais produzem efeito proporcional conforme a regra da ação e o tipo de Obstáculo;
 * **0 sucessos** não produz Impacto;
-* um **Limiar de Efetividade** pode reduzir o Impacto final quando representa resistência real.
+* um **Proteção** pode reduzir o Impacto final quando representa resistência real.
 
 Portanto, relógio não transforma 1 sucesso em “resultado narrativo sem dano”. O sucesso afeta a história **e** a estrutura persistente do Obstáculo, salvo quando uma resistência legítima absorve esse Impacto.
 
-### Limiar de Efetividade
+### Impacto e Proteção
 
-É a generalização da antiga **RD fixa**.
+**Impacto** é a quantidade de efeito produzida por uma ação depois que sua resolução determinou que houve efeito quantitativo e antes de qualquer absorção passiva. **Impacto efetivo** é o que resta depois da Proteção.
+
+A **Proteção** é a generalização da antiga **RD fixa**.
 
 No combate físico, representa o papel de Vigor, armadura, couraça ou material em reduzir o dano que efetivamente atravessa. Em outros domínios pode representar uma resistência equivalente: proteção institucional, segurança criptográfica, blindagem mental, barreira mágicka etc.
 
-Um sucesso pode continuar sendo **sucesso na ação** e ainda produzir **Impacto zero após o Limiar**, do mesmo modo que em M20 um ataque pode acertar e a absorção anular todo o dano.
+Uma ação pode continuar sendo bem-sucedida e ainda produzir **Impacto efetivo zero após a Proteção**, do mesmo modo que em M20 um ataque pode acertar e a absorção anular todo o dano.
 
 Isso não contradiz a regra de que **1 sucesso move a ficção**. O acerto, acesso, contato ou avanço aconteceu; a resistência do Obstáculo determinou quanto desse sucesso se converteu em Impacto.
 
@@ -113,7 +120,7 @@ As simulações originalmente registradas neste estudo comparavam PJs de 3d, 5d 
 
 Elas demonstraram que **o motor proposto possuía comportamento interno previsível** e que diferenças entre dimensões criavam incentivos para buscar brechas. Elas não demonstraram equivalência com M20 porque:
 
-* usavam a antiga conversão por Dificuldade sem o Limiar oculto atualmente estudado;
+* usavam a antiga conversão por Dificuldade sem o Resistência atualmente estudado;
 * tratavam dano e resistência por parâmetros fixos ainda não calibrados contra dano/absorção de M20;
 * mediam vitória no motor novo, sem baseline completo do mesmo confronto pelas regras originais.
 
@@ -125,21 +132,21 @@ A recompensa tática deve nascer da **competência efetiva do antagonista em cad
 
 ---
 
-## 🛡️ 4. Combate Físico e o Limiar de Efetividade
+## 🛡️ 4. Combate Físico e a Proteção
 
 M20 separa ataque, defesa, dano e absorção. A ficha achatada reorganiza o lado do Storyteller:
 
-* **Oposição** representa a resistência ativa ao ataque do PJ;
+* **Dificuldade + Resistência** representam a resistência ativa ao ataque do PJ;
 * **Ameaça** representa a ofensiva do NPC contra o PJ;
 * **Consequência** registra o dano causado pela ameaça;
 * **Integridade** registra quanto o Obstáculo ainda suporta naquela frente;
-* **Limiar de Efetividade** representa a antiga RD/soak comprimido.
+* **Proteção** representa a antiga RD/soak comprimido.
 
-Quando o PJ ataca, suas rolagens próprias de M20 permanecem reconhecíveis, inclusive o dano quando aplicável. Depois de produzido o Impacto, o Limiar reduz o que efetivamente alcança a Integridade.
+Quando o PJ ataca, suas rolagens próprias de M20 permanecem reconhecíveis, inclusive o dano quando aplicável. Depois de produzido o Impacto, a Proteção reduz o que efetivamente alcança a Integridade.
 
 A arquitetura está definida e a auditoria exata já oferece um baseline experimental simples:
 
-| Soak original | Limiar de Efetividade |
+| Soak original | Proteção |
 | :---: | :---: |
 | 0–1d | 0 |
 | 2–3d | 1 |
@@ -149,9 +156,9 @@ A arquitetura está definida e a auditoria exata já oferece um baseline experim
 
 A auditoria exata do Bloco B mostrou que, de **2d a 10d**, essa tabela coincide com o melhor Limiar fixo encontrado no espaço testado. O caso de **1d** continua sendo o ponto menos fiel da compressão: L0 e L1 têm a mesma distância distributiva, mas L1 cria imunidade absoluta contra dano de 1d. Por isso, adota-se **1d → L0** como aproximação operacional deliberada.
 
-No conjunto soak 0–10d × dano 1–15d, a TV média agregada foi **8,593%**. O objetivo do Limiar é preservar suficientemente a função da resistência com uma operação simples do ST; ele não pretende reproduzir toda a variância de uma segunda rolagem independente.
+No conjunto soak 0–10d × dano 1–15d, a TV média agregada foi **8,593%**. O objetivo da Proteção é preservar suficientemente a função da resistência com uma operação simples do ST; ele não pretende reproduzir toda a variância de uma segunda rolagem independente.
 
-O antigo uso de Limiar 2/3 como simples “chefe ignora 1 sucesso” deve ser lido corretamente: o Limiar representa **resistência**, não status narrativo. Ele só deve ser alto quando a ficha original, equipamento, proteção ou ficção justificar resistência equivalente.
+O antigo uso de Proteção 2/3 como simples “chefe ignora 1 sucesso” deve ser lido corretamente: o Limiar representa **resistência**, não status narrativo. Ele só deve ser alto quando a ficha original, equipamento, proteção ou ficção justificar resistência equivalente.
 
 ## 🧠 5. Conflitos Sociais e Intelectuais
 
@@ -161,7 +168,7 @@ Quando a situação for simples, **1 sucesso continua sendo sucesso** e move a f
 
 Quando M20 pedir vários sucessos acumulados — debate prolongado, invasão complexa, perseguição, pesquisa, ritual ou tarefa semelhante — o Storyteller pode usar um relógio como **interface de acompanhamento dos sucessos exigidos**, desde que o relógio represente a mesma lógica da tarefa original. Nesse caso, **1 sucesso também reduz o relógio em 1**, além de produzir seu avanço ficcional marginal.
 
-Um resultado marginal de 1 sucesso não deve ser apagado automaticamente por uma “RD social” apenas para tornar o oponente mais épico. Qualquer limiar de efetividade precisa decorrer:
+Um resultado marginal de 1 sucesso não deve ser apagado automaticamente por uma “RD social” apenas para tornar o oponente mais épico. Qualquer Proteção precisa decorrer:
 
 * das regras originais;
 * de uma resistência que a conversão esteja representando;
@@ -169,9 +176,9 @@ Um resultado marginal de 1 sucesso não deve ser apagado automaticamente por uma
 
 ---
 
-## 🚪 6. Limiar de Efetividade e Efeito Zero
+## 🚪 6. Proteção e Efeito Zero
 
-**Limiar de Efetividade** é um valor geral de resistência. Ele pode reduzir o Impacto de uma ação bem-sucedida até zero.
+**Proteção** é um valor de resistência passiva. Ela reduz o Impacto de uma ação válida e pode levá-lo a zero.
 
 Isso é diferente de dizer que a ação “falhou”.
 
@@ -185,7 +192,7 @@ Exemplos:
 
 Assim:
 
-* **Limiar de Efetividade** = resistência quantitativa após uma ação válida;
+* **Proteção** = redução quantitativa do Impacto após uma ação válida;
 * **Efeito Zero por impossibilidade** = a abordagem não pode produzir aquele tipo de Impacto sem mudar as condições.
 
 ## 🎯 7. O que a Estrutura Multidimensional Realmente Acrescenta
@@ -239,10 +246,10 @@ Essas perguntas devem acompanhar os estudos seguintes e retroagir sobre este doc
 
 O Certámen confirma uma distinção importante da ficha achatada:
 
-* **Aegis é defesa ativa**, portanto pertence à família de Oposição/cancelamento de sucessos;
-* **Limiar de Efetividade é resistência passiva**, portanto não deve substituir Aegis;
+* **Aegis é defesa ativa**, portanto pertence à família da **Resistência/cancelamento de sucessos**;
+* **Proteção é resistência passiva**, portanto não deve substituir Aegis;
 * **Locus** já funciona como Integridade canônica;
 * **1 sucesso de Gladius reduz 1 ponto do Locus**;
 * ausência de Aegis não concede defesa gratuita.
 
-Isso reforça que defesa ativa e Limiar de Efetividade são funções diferentes e não devem ser fundidas.
+Isso reforça que defesa ativa e Proteção são funções diferentes e não devem ser fundidas.
