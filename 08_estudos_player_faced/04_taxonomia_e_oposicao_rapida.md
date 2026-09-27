@@ -6,6 +6,10 @@ tags: [srd, design, player-faced, taxonomia, oposicao-rapida, oposicao-menor, re
 
 # Estudo 04: Taxonomia de Carga Narrativa e Oposição Rápida
 
+> **STATUS MATEMÁTICO — DEPENDÊNCIA DO BLOCO A**  
+> A taxonomia de carga permanece válida como organização. Toda tabela ou exemplo que converta competência do NPC em Dificuldade/Limiar depende da nova auditoria exata de oposição resistida e não está homologado até essa reprodução.
+
+
 Este estudo organiza a carga de preparação e resolução do Storyteller em **três níveis operacionais**. A taxonomia não cria três sistemas diferentes para os jogadores; ela define quanto detalhe o ST precisa manter atrás do escudo para cada situação.
 
 ---
