@@ -136,7 +136,7 @@ A Gnose passa a ser a parada do poder.
 
 Se a manifestação já é rolada pelo jogador como operação do Fetiche, preserva-se.
 
-Se o procedimento específico exigir rolagem do ST, aplica-se a regra de fidelidade dos Estudos 00/14.
+Se o procedimento específico exigir rolagem do ST, aplica-se o contrato dos Estudos 00/14: a operação permanece dívida aberta até ser transformada sem alterar o PJ.
 
 ### Gate
 
