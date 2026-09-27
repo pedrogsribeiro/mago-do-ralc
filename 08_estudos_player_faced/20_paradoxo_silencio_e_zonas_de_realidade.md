@@ -1,6 +1,6 @@
 ---
 type: regra
-summary: "Estudo 20: Paradoxo, Silêncio e Zonas de Realidade no modelo player-facing, preservando a rolagem de reação do ST e mantendo cura e desafios de realidade nas mãos do jogador."
+summary: "Estudo 20: Paradoxo, Silêncio e Zonas de Realidade no modelo player-facing, mantendo cura e desafios de realidade nas mãos do jogador e reabrindo a Reação de Paradoxo como dívida de transformação."
 tags: [estudo, player-faced, paradoxo, silencio, quiet, zonas-de-realidade, consenso, regras]
 ---
 
@@ -91,13 +91,13 @@ Toda a incerteza está do lado do ST.
 
 Aplicando a regra de precedência dos Estudos 00/14:
 
-> **preserva-se a rolagem do ST.**
+> **a Reação de Paradoxo permanece dívida aberta de transformação: o ST não deve rolar no produto final, e nenhuma nova operação é criada para o PJ.**
 
-Transformá-la em consequência fixa apagaria a variância e a imprevisibilidade do backlash. Transferi-la ao jogador transferiria carga e informação que o sistema original não exige dele.
+A consequência fixa testada apagaria variância e imprevisibilidade; transferir a rolagem ao jogador transferiria carga e informação indevidas. Essas duas soluções são rejeitadas, mas isso não fecha o problema.
 
 ### Gate
 
-**EXCEÇÃO DELIBERADA AO PLAYER-FACING PURO.**
+**DÍVIDA ABERTA DE TRANSFORMAÇÃO PLAYER-FACED.**
 
 ---
 
@@ -220,7 +220,7 @@ Se houver oposição ativa concreta de outro agente sustentando o Consenso, ela 
 | :--- | :--- |
 | Geração de Paradoxo | preservar |
 | Botch mágicko | preservar |
-| Reação de Paradoxo | ST continua rolando |
+| Reação de Paradoxo | dívida aberta de transformação player-faced |
 | Defeitos de Paradoxo | preservar |
 | Paradoxo Permanente | preservar |
 | Silêncio | preservar estado |
@@ -237,7 +237,7 @@ Se houver oposição ativa concreta de outro agente sustentando o Consenso, ela 
 ### Resolvido
 
 * geração de Paradoxo;
-* reação de Paradoxo como exceção deliberada;
+* reação de Paradoxo como dívida aberta prioritária;
 * Silêncio;
 * cura do Silêncio;
 * zonas de realidade;
