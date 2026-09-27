@@ -139,6 +139,8 @@ O ST deve conseguir operar todos os cinco perfis sem consultar suas paradas orig
 
 ## PT-2 — Animais e Bestiário Mundano
 
+**Status: CONCLUÍDO E HOMOLOGADO.**
+
 **Objetivo:** converter o bestiário mundano sem forçar dimensões irrelevantes.
 
 ### Princípios
@@ -150,19 +152,19 @@ O ST deve conseguir operar todos os cinco perfis sem consultar suas paradas orig
 
 ### Perfis já consolidados no repositório
 
-- [ ] Gato Doméstico;
-- [ ] Cachorro Pequeno;
-- [ ] Cachorro Médio;
-- [ ] Cachorro Grande;
-- [ ] Lobo;
-- [ ] Leopardo/Jaguar/Pantera/Puma;
-- [ ] Lince/Gato Selvagem;
-- [ ] Tigre/Leão;
-- [ ] Cavalo;
-- [ ] Chimpanzé;
-- [ ] Crocodilo;
-- [ ] Pássaro Pequeno;
-- [ ] Pássaro Substancial;
+- [x] Gato Doméstico;
+- [x] Cachorro Pequeno;
+- [x] Cachorro Médio;
+- [x] Cachorro Grande;
+- [x] Lobo;
+- [x] Leopardo/Jaguar/Pantera/Puma;
+- [x] Lince/Gato Selvagem;
+- [x] Tigre/Leão;
+- [x] Cavalo;
+- [x] Chimpanzé;
+- [x] Crocodilo;
+- [x] Pássaro Pequeno;
+- [x] Pássaro Substancial;
 - [ ] Pássaro Grande.
 
 ### Gate do pacote
@@ -514,13 +516,14 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Pacote ativo: PT-2 — Animais e Bestiário Mundano.**
+**Pacote ativo: PT-3 — Obstáculos e Tarefas Mundanas.**
 
 Próxima tarefa:
 
-- [ ] converter os perfis do bestiário pela régua DRP já existente;
-- [ ] preservar Vitalidade, ataques naturais, rastreamento, assédio e demais características específicas;
-- [ ] omitir dimensões sociais irrelevantes em vez de preenchê-las artificialmente;
-- [ ] não recalibrar cada animal individualmente;
-- [ ] abrir estudo novo apenas se surgir uma mecânica animal sem transformação definida;
-- [ ] homologar PT-2 antes de iniciar PT-3.
+- [ ] consolidar testes simples, estendidos, resistidos e estendidos-resistidos sob a ótica do ST;
+- [ ] preservar Dificuldade, retries, cooperação e graus de sucesso quando já são player-facing;
+- [ ] usar Durability + Structure para objetos materiais quando a fonte fornecer esses Traits;
+- [ ] usar D/R apenas quando existir oposição ativa real;
+- [ ] usar alvo de sucessos/progresso apenas quando M20 já tratar a tarefa como estendida ou exigir limiar;
+- [ ] não transformar tarefas simples em relógios;
+- [ ] homologar PT-3 antes de iniciar PT-4.
