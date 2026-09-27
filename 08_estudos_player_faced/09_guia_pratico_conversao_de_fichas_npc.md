@@ -169,7 +169,7 @@ A ficha achatada já possui os campos necessários para o combate do NPC:
 
 O desenho desses campos já existe.
 
-* **Limiar de Efetividade** usa baseline experimental: 0d→0; **1d permanece dívida de transformação**; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
+* **Limiar de Efetividade** usa o baseline auditado: 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4. O caso de 1d é uma aproximação deliberada: L0 e L1 empatam em distância distributiva, e L0 evita criar imunidade absoluta contra dano 1d.
 * **Ameaça + Consequência** ainda exigem transformação para os casos unilaterais. Com defesa ativa, preservar a rolagem normal do PJ e comprimir o lado do NPC é promissor; sem defesa ativa/reação equivalente, o caso permanece aberto.
 
 > O **Limiar de Efetividade** não deve ser confundido com o **limiar oculto** usado na investigação matemática da conversão de rolagens resistidas.
@@ -462,7 +462,7 @@ A proposta deste capítulo é válida **se entendida como método de extração 
 ### Ainda impede tratar toda compressão como matematicamente homologada
 * fidelidade de Oposição/Ameaça nos casos em que já existe rolagem do PJ e optamos por comprimir o lado do NPC;
 * comportamento dos baselines em pools extremos;
-* playtest do baseline de Limiar de Efetividade, incluindo solução para o caso de 1d;
+* playtest perceptual do baseline de Limiar de Efetividade, já matematicamente calibrado como aproximação;
 * alguns efeitos de contramágika;
 * vários subsistemas sobrenaturais.
 
