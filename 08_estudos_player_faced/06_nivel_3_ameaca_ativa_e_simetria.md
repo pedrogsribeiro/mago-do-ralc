@@ -6,6 +6,10 @@ tags: [srd, design, player-faced, nivel-2, ameaca-ativa, dimensoes, relogios, re
 
 # Estudo 06: Nível 2 — Ameaça Ativa e as Dimensões de Competência
 
+> **STATUS MATEMÁTICO — PARCIALMENTE SUSPENSO**  
+> A arquitetura de Ameaça/Oposição/Consequência/Integridade/Limiar permanece como hipótese de interface. As antigas simulações de ameaça ativa e os valores de Limiar não podem ser tratados como calibrados enquanto os blocos matemáticos de **oposição, soak e ofensiva unilateral** não forem refeitos sob o contrato player-faced total.
+
+
 Este estudo formaliza a representação de **ameaças persistentes** no sistema player-facing: antagonistas, constructos, entidades ou fenômenos que permanecem em cena, possuem ações próprias, ocupam iniciativa e exigem acompanhamento por vários turnos.
 
 A evolução dos Estudos 00–05 impõe duas restrições:
