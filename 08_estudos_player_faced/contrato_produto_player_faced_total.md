@@ -87,7 +87,7 @@ Quando existir um **Perfil DRP genérico** para o Obstáculo, ele funciona como 
 
 Informação omitida nunca deve obrigar o Storyteller a reconstruir a ficha original em tempo de jogo. Defaults precisam ser definidos previamente pelo método.
 
-As **ações do Obstáculo** são independentes do D/R/P defensivo. Quando uma ação substitui rolagens do Storyteller, ela deve trazer os sucessos fixos e, quando houver, o efeito correspondente, por exemplo `Tiro: 4S + 3L`. A ficha do PJ e suas rolagens permanecem integralmente M20; o Perfil DRP descreve somente aquilo que o Obstáculo entrega ou resiste.
+As **ações do Obstáculo** são independentes do D/R/P defensivo. Quando uma ação substitui rolagens do Storyteller, ela deve trazer os sucessos fixos e, quando houver, o efeito correspondente, por exemplo `Tiro: 4S + 3L`. O primeiro sucesso líquido permite aplicar o efeito-base; **a cada 2 sucessos líquidos excedentes além do primeiro, acrescenta-se +1 sucesso automático ao dano/efeito**. A conversão não volta a acrescentar dados de dano. A ficha do PJ e suas rolagens permanecem integralmente M20; o Perfil DRP descreve somente aquilo que o Obstáculo entrega ou resiste.
 
 A densidade da ficha acompanha a importância ficcional. Um Obstáculo pode ser apenas `6`; outro pode possuir quatro dimensões, ações próprias, Persistência, poderes, estados, motivações e texto diegético. Ambos usam o mesmo método.
 
