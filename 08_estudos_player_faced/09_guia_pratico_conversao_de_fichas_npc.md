@@ -6,6 +6,10 @@ tags: [estudo, game-design, player-faced, conversao, npcs, fichas, competencias,
 
 # Estudo 09: Protocolo de Conversão de Fichas de NPCs
 
+> **STATUS MATEMÁTICO — TABELAS PROVISÓRIAS**  
+> O protocolo de extração de informação da ficha continua válido. Toda tabela numérica de Oposição, Limiar, Ameaça ou Consequência permanece provisória até os respectivos blocos matemáticos serem reproduzidos e homologados. Não converter fichas finais a partir desses números ainda.
+
+
 Este estudo testa uma promessa concreta:
 
 > **o Storyteller deve conseguir pegar uma ficha oficial de NPC de M20 e extrair dela uma interface operacional menor, preservando para os jogadores a experiência reconhecível do sistema.**
