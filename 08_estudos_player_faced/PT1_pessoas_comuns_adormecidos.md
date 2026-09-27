@@ -32,6 +32,12 @@ O contrato superior permanece:
 - ações do NPC permanecem separadas do Perfil DRP;
 - recursos e características concretas não são apagados pela compressão.
 
+### Regra homologada para sucessos excedentes
+
+Quando uma ação ofensiva conserva mais de 1 sucesso líquido depois de qualquer defesa do PJ, o primeiro sucesso faz a ação produzir seu efeito-base. **A cada 2 sucessos líquidos excedentes além do primeiro, soma-se +1 sucesso automático ao dano/efeito.**
+
+A conversão player-faced **não volta a acrescentar dados de dano** como fazia a regra original de M20. Essa regra é geral e, por isso, não precisa ser reescrita dentro de cada ação da ficha.
+
 ---
 
 # 1. Cidadão Típico
@@ -396,19 +402,15 @@ Os pools-base de dano produzem:
 - 4d C → efeito-base 2C;
 - 3d L → efeito-base 1L.
 
-A relação original entre sucessos excedentes e dano continua preservada pelos degraus já estudados. Para este perfil:
+A relação entre qualidade do acerto e dano é tratada pela regra geral homologada de sucessos excedentes: o primeiro sucesso líquido ativa o efeito-base e cada 2 sucessos excedentes acrescentam +1 sucesso automático ao dano/efeito. Não há aumento de dados.
 
-- Soco 2d: 1C com 1 sucesso líquido; continua 1C com um sucesso excedente; chega a 2C com dois excedentes;
-- Arma de Impacto 4d: permanece 2C nos degraus relevantes deste perfil;
-- Arma de Corte 3d: 1L com 1 sucesso líquido; sobe para 2L com um sucesso excedente.
-
-A ficha candidata pode portanto registrar:
+A ficha registra apenas a ação e seu efeito-base:
 
 ```text
 Ações:
 Soco: 2S + 1C
 Arma de Impacto: 2S + 2C
-Arma de Corte: 2S; 1L se restar 1S; 2L se restarem 2S
+Arma de Corte: 2S + 1L
 Intimidar: 1S
 ```
 
@@ -451,7 +453,7 @@ Mágicko/Poderes:
 Ações:
 Soco: 2S + 1C
 Arma de Impacto: 2S + 2C
-Arma de Corte: 2S; 1L se restar 1S; 2L se restarem 2S
+Arma de Corte: 2S + 1L
 Intimidar: 1S
 
 Persistência:
@@ -603,7 +605,7 @@ Destreza 3 + Briga 3–4 = 6d–7d D6:
 Briga: 2–3S + 2C
 ```
 
-O dano-base 4C permanece 2C nos degraus relevantes desta ação.
+O dano-base 4C converte para 2C. Sucessos excedentes seguem a regra geral homologada.
 
 ### Pistola Pesada
 
@@ -621,7 +623,7 @@ A mesma faixa de 6d–8d em Dificuldade 7 converte-se, pela régua ofensiva de p
 Submetralhadora: 2S + 2L
 ```
 
-O pool-base 5L só alcança o próximo degrau de efeito quando permanecem 3+ sucessos líquidos. Como esta ação nasce com 2S, a ficha-base não precisa carregar um degrau que não pode ser alcançado sem modificadores externos.
+O dano-base 5L converte para 2L. Qualquer aumento posterior vem apenas da regra geral homologada de sucessos excedentes.
 
 ## 3.4 Ficha player-faced candidata
 
@@ -820,10 +822,10 @@ Pistola Pesada: 2S + 2L
 
 Destreza 2 + Armas Brancas 2 = 4d D6.
 
-O dano-base de 3C converte para 1C quando ao menos 1 sucesso ofensivo permanece. Se os 2S da ação permanecerem após qualquer defesa ativa, há um sucesso excedente além do primeiro e o dano convertido sobe para 2C:
+O dano-base de 3C converte para 1C. Qualquer aumento por qualidade do acerto usa a regra geral homologada de sucessos excedentes, sem acrescentar dados:
 
 ```text
-Bastão de Choque: 2S; 1C se restar 1S; 2C se restarem 2S
+Bastão de Choque: 2S + 1C
 ```
 
 ### Taser
@@ -864,7 +866,7 @@ Mágicko/Poderes:
 
 Ações:
 Pistola Pesada: 2S + 2L
-Bastão de Choque: 2S; 1C se restar 1S; 2C se restarem 2S
+Bastão de Choque: 2S + 1C
 Investigar: 2S
 Conhecimento de Área: 2S
 Dirigir: 2S
