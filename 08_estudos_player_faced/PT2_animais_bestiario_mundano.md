@@ -25,6 +25,12 @@ Se uma informação puder ser lida como característica sem exigir um número du
 
 A ordem de conversão segue o inventário canônico do bestiário.
 
+### Modo de trabalho em lotes
+
+A partir daqui, perfis que usam somente operadores já homologados são convertidos em lote. A homologação pode ocorrer por lote ou pelo PT-2 inteiro. O trabalho só para quando aparece uma **exceção mecânica real**, isto é, uma regra que não caiba na régua DRP existente.
+
+Cada perfil continua recebendo sua própria ficha player-faced; o que deixa de existir é a pausa de homologação entre fichas mecanicamente equivalentes.
+
 ---
 
 # 1. Gato Doméstico
@@ -247,7 +253,7 @@ Iniciativa: 12
 
 ## 2.3 Ficha player-faced candidata
 
-> **Status:** mecanicamente pronta; aguardando homologação autoral.
+> **Status:** convertido; incluído na homologação em lote do PT-2.
 
 ### CACHORRO PEQUENO
 
@@ -293,6 +299,508 @@ Dimensão Social mecanicamente irrelevante para interação humana
 - [x] Força de Vontade preservada;
 - [x] Iniciativa convertida;
 - [x] ficha mantida menor que a ficha original;
-- [ ] homologação autoral.
+- [ ] homologação em lote.
 
-**CACHORRO PEQUENO: MECANICAMENTE PRONTO, AGUARDANDO HOMOLOGAÇÃO.**
+**CACHORRO PEQUENO: CONVERTIDO; AGUARDA HOMOLOGAÇÃO DO LOTE.**
+
+
+---
+
+# Lote A — Canídeos e felinos mundanos
+
+## 3. Cachorro Médio
+
+```text
+CACHORRO MÉDIO
+
+6
+
+Físico:
+6/2/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Mordida: 2S + 1L
+Garra: 2S + 1C
+
+Persistência:
+OK, -1, -1, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Rastreador competente
+Atento e treinável
+Sem armadura
+```
+
+**Proveniência curta:** defesa 6d → 6/2; Vigor 3 → C1; alerta 6d → 6/2; ataque 5d D6 → 2S; 3L → 1L; 2C → 1C.
+
+---
+
+## 4. Cachorro Grande
+
+```text
+CACHORRO GRANDE
+
+6
+
+Físico:
+6/2/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Mordida: 2S + 2L
+Garra: 2S + 1C
+
+Persistência:
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Grande e intimidador
+Rastreador competente
+Sem armadura
+```
+
+**Proveniência curta:** defesa 5d → 6/2; Vigor 3 → C1; alerta 6d → 6/2; ataque 6d D6 → 2S; 5L → 2L; 3C → 1C.
+
+---
+
+## 5. Lobo
+
+```text
+LOBO
+
+6
+
+Físico:
+7/1/C1–2·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Mordida: 2S + 2L
+Garra: 2S + 1–2C
+
+Persistência:
+OK, -1, -1, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Caçador em grupo
+Rastreador
+Intimidador
+Sem armadura
+```
+
+**Proveniência curta:** defesa 4d → 7/1; Vigor 3–4 → C1–2; alerta 5d → 6/2; ataque 6d D6 → 2S; Mordida 4–5L → 2L; Garra 3–4C → 1–2C.
+
+---
+
+## 6. Leopardo, Jaguar, Pantera ou Puma
+
+```text
+LEOPARDO / JAGUAR / PANTERA / PUMA
+
+6
+
+Físico:
+6/2/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Mordida: 2S + 2L
+Garras: 2S + 2L
+
+Persistência:
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 4
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Predador de emboscada
+Muito furtivo
+Sem armadura
+```
+
+**Proveniência curta:** defesa 6d → 6/2; Vigor 3 → C1; alerta 6d → 6/2; ataque 6d D6 → 2S; 5L → 2L.
+
+---
+
+## 7. Lince ou Gato Selvagem
+
+```text
+LINCE / GATO SELVAGEM
+
+6
+
+Físico:
+7/2/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Mordida: 2S + 2L
+Garras: 2S + 1L
+Derrubar: 2S + 2L
+
+Persistência:
+OK, -1, -1, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Muito furtivo
+Excelente escalador
+Sem armadura
+```
+
+**Proveniência curta:** defesa 7d → 7/2; Vigor 3 → C1; alerta 6d → 6/2; ataque 6d D6 → 2S; 4L → 2L; 3L → 1L.
+
+---
+
+## 8. Tigre ou Leão
+
+```text
+TIGRE / LEÃO
+
+6
+
+Físico:
+7/2/C2·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 7/2
+
+Ações:
+Mordida: 3S + 3L
+Garras: 3S + 3L
+
+Persistência:
+OK, OK, -1, -1, -2, -2, -5, -5, Incapacitado
+
+Recursos:
+Força de Vontade 4
+
+Iniciativa:
+13
+
+Características:
+Animal mundano
+Grande predador
+Armadura natural 1
+Furtivo apesar do porte
+```
+
+**Proveniência curta:** defesa 7d → 7/2; soak total 5d → C2; alerta 7d → 7/2; ataque 7d D6 → 3S; 7L → 3L; 6L → 3L. A armadura natural de 1d é preservada como característica; sozinha não atravessa um degrau de Proteção fixa para L/A.
+
+---
+
+# Lote B — Grandes animais terrestres
+
+## 9. Cavalo
+
+```text
+CAVALO
+
+6
+
+Físico:
+6/2/C2·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Atropelar/Chutar: 1S + 3C
+Mordida: 1S + 1L
+
+Persistência:
+OK, OK, OK, OK, -1, -3, -3, -3, -5, -5, Incapacitado
+
+Recursos:
+Força de Vontade 2
+
+Iniciativa:
+10
+
+Características:
+Animal mundano
+Grande porte
+Armadura natural 1
+```
+
+**Proveniência curta:** defesa 5d → 6/2; soak total 5d → C2; alerta 6d → 6/2; ataque 3d D6 → 1S; 6C → 3C; 3L → 1L. A armadura natural de 1d permanece característica e não gera P fixo adicional contra L/A.
+
+---
+
+## 10. Chimpanzé
+
+```text
+CHIMPANZÉ
+
+6
+
+Físico:
+7/2/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Mordida: 2S + 2L
+Pancada/Soco: 2S + 2C
+
+Persistência:
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+13
+
+Características:
+Animal mundano
+Forte e ágil
+Excelente escalador
+Acrobático
+Sem armadura
+```
+
+**Proveniência curta:** defesa 8d → 7/2; Vigor 3 → C1; alerta 6d → 6/2; ataque 6d D6 → 2S; 5L → 2L; 4C → 2C.
+
+---
+
+## 11. Crocodilo
+
+```text
+CROCODILO
+
+6
+
+Físico:
+6/2/C3·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Mordida: 2S + 3L
+Tapa com Cauda: 2S + 3C
+
+Persistência:
+OK, OK, OK, -1, -1, -1, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 5
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Corpo maciço
+Couro escamoso / armadura natural 1
+Furtivo na aproximação
+```
+
+**Proveniência curta:** defesa 5d → 6/2; soak total 7d → C3; alerta 6d → 6/2; ataque 6d D6 → 2S; 7L → 3L; 6C → 3C. A armadura natural de 1d permanece característica e não gera P fixo adicional contra L/A.
+
+---
+
+# Lote C — Aves
+
+## 12. Pássaro Pequeno
+
+```text
+PÁSSARO PEQUENO
+
+6
+
+Físico:
+6/1/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Assédio: -1 dado nas paradas dos alvos afetados na área
+
+Persistência:
+OK, -1, -5, Incapacitado
+
+Recursos:
+Força de Vontade 1
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Voador
+Sem ataque de dano efetivo
+Sem armadura
+```
+
+**Proveniência curta:** a ficha não fornece Esportes; a defesa usa Destreza 3 sem Habilidade → 3d → 6/1. Vigor 2 → C1. Alerta 6d → 6/2. A Regra de Assédio já é um efeito fixo na fonte e não precisa de nova conversão.
+
+---
+
+## 13. Pássaro Substancial
+
+```text
+PÁSSARO SUBSTANCIAL
+
+6
+
+Físico:
+6/2/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Garra: 2S + 1C
+Mordida: 2S + 1L — apenas em desespero
+
+Persistência:
+OK, -1, -1, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+12
+
+Características:
+Animal mundano
+Voador
+Consciência especialmente alta em corvos, gralhas e corujas
+Sem armadura
+```
+
+**Proveniência curta:** defesa 5d → 6/2; Vigor 2 → C1; alerta 6d → 6/2; ataque 5d D6 → 2S; 2C → 1C; 1L → 1L.
+
+---
+
+## 14. Pássaro Grande
+
+```text
+PÁSSARO GRANDE
+
+6
+
+Físico:
+7/1/C1·L0·A0
+
+Mental/Perceptivo:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Asas: 2S + 2C
+Garra: 2S + 2C
+Mordida: 2S + 1L
+
+Persistência:
+OK, OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 3
+
+Iniciativa:
+11
+
+Características:
+Animal mundano
+Voador de grande porte
+Sem armadura
+```
+
+**Proveniência curta:** defesa 4d → 7/1; Vigor 3 → C1; alerta 6d → 6/2; ataque 4d D6 → 2S; 4C → 2C; 2L → 1L.
+
+---
+
+# 15. Auditoria do lote completo
+
+## Cobertura
+
+Os 14 perfis canônicos consolidados do bestiário agora possuem versão player-faced:
+
+- [x] Gato Doméstico;
+- [x] Cachorro Pequeno;
+- [x] Cachorro Médio;
+- [x] Cachorro Grande;
+- [x] Lobo;
+- [x] Leopardo/Jaguar/Pantera/Puma;
+- [x] Lince/Gato Selvagem;
+- [x] Tigre/Leão;
+- [x] Cavalo;
+- [x] Chimpanzé;
+- [x] Crocodilo;
+- [x] Pássaro Pequeno;
+- [x] Pássaro Substancial;
+- [x] Pássaro Grande.
+
+## Exceções reais encontradas
+
+1. **Pequenos animais:** a regra geral introdutória diz que animais muito pequenos causam Contundente com mordidas e garras, mas as fichas concretas do Gato e do Cachorro Pequeno registram, respectivamente, Garras 1L e Mordida 2L. A conversão preserva os **valores específicos das fichas**, sem reconciliar silenciosamente a inconsistência da fonte.
+2. **Cachorro Pequeno:** não possui Briga listada. A conversão usa a ausência da Habilidade, sem inventar treinamento, resultando em 1S para a Mordida.
+3. **Armadura natural 1:** Tigre/Leão, Cavalo e Crocodilo preservam esse traço. No nível de quantização atual, 1d isolado não gera Proteção fixa adicional contra L/A; o efeito sobre C já está contido no soak total informado.
+4. **Pássaro Pequeno:** Assédio já é efeito fixo e entra diretamente como Ação, sem S ofensivo.
+
+Nenhuma dessas exceções exige nova matemática.
+
+## Gate do PT-2
+
+Todos os perfis foram convertidos com a régua existente, mantendo as fichas finais menores que as fichas originais. Não foi aberta nenhuma simulação nova.
+
+**PT-2: MECANICAMENTE COMPLETO, AGUARDANDO HOMOLOGAÇÃO EM LOTE.**
