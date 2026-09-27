@@ -221,11 +221,11 @@ Portanto, ataque e dano do NPC **não são lacunas arquiteturais**.
 
 ### Resultado do teste
 
-**PASSA COMO ESTRUTURA DE FICHA, MAS NÃO COMO PROMESSA DE ZERO ROLAGENS DO ST.**
+**PASSA COMO ESTRUTURA DE FICHA, MAS O PROCEDIMENTO OFENSIVO UNILATERAL AINDA ESTÁ ABERTO.**
 
 A auditoria V3 mostrou que a regra histórica de uma única rolagem `2+/1/0` não preserva suficientemente o pipeline inteiro de ataque+dano em conflitos persistentes. Com defesa ativa, preservar a defesa e o soak do PJ é promissor.
 
-Sem defesa ativa, qualquer solução testada exige sacrificar distribuição, economia de ações ou carga do jogador. Pela regra de precedência do Estudo 00, preserva-se a operação original do ST quando necessário.
+Sem defesa ativa, as soluções testadas até aqui falham em algum critério importante. Pelo contrato do produto, isso mantém o caso aberto: não se cria nova operação para o jogador e não se reintroduz rolagem do ST.
 
 ---
 
@@ -279,7 +279,7 @@ A ficha espiritual já é compacta e deve ser preservada.
 
 Os estudos posteriores fecharam metodologicamente parte dessas operações. Em particular:
 
-* **Fúria para ataque/dano** pode permanecer rolagem do ST quando não houver reação equivalente do PJ;
+* **Fúria para ataque/dano** sem reação equivalente do PJ permanece dívida aberta de transformação;
 * Força de Vontade para defesa/absorção;
 * certas ativações de Encantos.
 
@@ -348,9 +348,9 @@ Ele valida que a linguagem de Obstáculos, a agência dos NPCs, a telegrafia e a
 
 Também identifica exatamente onde a promessa de equivalência ainda quebra:
 
-> **as transformações probabilísticas que ainda escolhemos comprimir precisam ser validadas; a aleatoriedade exclusivamente do Storyteller pode permanecer quando sua remoção violaria a fidelidade do jogador.**
+> **as transformações probabilísticas ainda precisam ser validadas; quando a aleatoriedade original existir apenas no Storyteller, o caso permanece aberto até ser comprimido sem alterar a experiência do jogador.**
 
-Assim, o teste integrado deixa de exigir um motor “zero dados do ST” completo como condição de sucesso.
+Assim, o teste integrado continua exigindo um motor de **zero dados do ST** como condição de fechamento do produto.
 
 
 ---
@@ -359,7 +359,7 @@ Assim, o teste integrado deixa de exigir um motor “zero dados do ST” complet
 
 Paradoxo, Silêncio e Zonas de Realidade fornecem exemplos de Obstáculos sistêmicos que não precisam de ficha de NPC:
 
-* **Paradoxo** acumula e pode gerar Reação rolada pelo ST;
+* **Paradoxo** acumula e sua Reação ainda precisa de transformação player-faced quando a regra original exige rolagem do ST;
 * **Silêncio** possui reserva persistente reduzida pelos sucessos do próprio PJ;
 * **Zona de Realidade** altera condições e classificação de mágika;
 * **Desafio da Realidade** já é resolvido por rolagem do jogador.
