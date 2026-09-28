@@ -93,19 +93,19 @@ Quando o NPC escolhe gastar sua ação em Aegis:
 * essa defesa cancela sucessos do Gladius;
 * a situação é estruturalmente uma oposição resistida.
 
-Portanto, a defesa do NPC pode ser candidata à compressão por **Oposição**:
+Por decisão autoral explícita de 2026-09-28, o Aegis do NPC usa os **S-base de Arete** já homologados para contramágika ativa:
 
-```
+```text
 PJ rola Gladius
-→ Aegis do NPC é convertido em Oposição
-→ sucessos líquidos restantes reduzem o Locus
+→ NPC declara Aegis e gasta sua ação
+→ S-base de Arete do NPC cancelam sucessos do Gladius
+→ ST pode ajustar ±1S quando as condições claramente ajudarem ou atrapalharem
+→ sucessos restantes reduzem o Locus
 ```
-
-A economia de ações do NPC precisa ser preservada: se ele usou Aegis, não pode usar outra ação incompatível no mesmo espaço de ação.
 
 ### Gate
 
-**PASSA COMO CANDIDATA À CONVERSÃO DE OPOSIÇÃO.**
+**RESOLVIDO PELO OPERADOR HOMOLOGADO DE CONTRAMÁGIKA ATIVA.**
 
 ---
 
