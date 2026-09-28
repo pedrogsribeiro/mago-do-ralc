@@ -70,7 +70,7 @@ Efeito de [Esfera]: N S
 
 O PJ usa somente resistências, contramágika, Força de Vontade, Avatar, soak ou outras operações que M20 já lhe conceda. Se a regra original manda sucessos do PJ cancelar sucessos do Efeito, eles cancelam esses `S`.
 
-### Proposta de tabela-base — AGUARDA HOMOLOGAÇÃO
+### Tabela-base homologada
 
 Para manter a regra no mesmo grau de simplicidade decidido pelo autor, a proposta é usar **somente Arete para definir os sucessos-base**:
 
@@ -81,7 +81,7 @@ Para manter a regra no mesmo grau de simplicidade decidido pelo autor, a propost
 | 7–8 | 3S |
 | 9–10 | 4S |
 
-A proposta não cria um novo cálculo em mesa. Ela reaproveita como referência a graduação já observada no estudo de `pool + dificuldade → S` em torno da dificuldade padrão, mas sua aplicação a Arete é uma **decisão específica deste subsistema** e ainda depende de homologação autoral.
+A tabela não cria um novo cálculo em mesa. Sua aplicação a Arete foi **homologada explicitamente pelo autor em 2026-09-28** como regra específica deste subsistema.
 
 Depois de obter os sucessos-base, o Storyteller apenas julga a situação:
 
@@ -93,7 +93,7 @@ Isso é descrição de julgamento, não uma taxonomia de três estados nem uma s
 
 As Esferas continuam definindo **o que o NPC é capaz de fazer**. Requisitos mínimos de sucessos, dano, cura, duração, resistências e demais consequências continuam seguindo M20.
 
-A tabela ainda não substitui as linhas pendentes das fichas até homologação explícita.
+A tabela substitui as linhas pendentes de conjuração das fichas abaixo.
 
 ---
 
@@ -212,7 +212,7 @@ Percepção/Alerta: 7/3
 Mágicko/Poderes:
 Arete 3–5
 Mente 2 + 2–4 Esferas entre níveis 2–4
-Conjuração: transformação player-faced pendente quando exigir rolagem do ST
+Conjuração-base: 1–2S pelo Arete; ST pode ajustar ±1S pelas condições
 
 Ações:
 Arma de Energia: 2–3S + efeito da arma
@@ -257,7 +257,7 @@ Correspondência/Dados 3
 Forças 2
 Mente 2
 Entropia ou Tempo 2
-Conjuração: transformação player-faced pendente quando exigir rolagem do ST
+Conjuração-base: 1–2S pelo Arete; ST pode ajustar ±1S pelas condições
 
 Ações:
 Pistola leve: 2S + efeito da arma
@@ -301,7 +301,7 @@ Espírito 3
 Forças 2
 Primórdio 1
 Tempo 2
-Conjuração: transformação player-faced pendente quando exigir rolagem do ST
+Conjuração-base: 1–2S pelo Arete; ST pode ajustar ±1S pelas condições
 
 Ações:
 Revólver leve: 2S + efeito da arma
@@ -346,12 +346,12 @@ Espírito 4
 Forças 2
 Mente 4
 Primórdio 2
-Conjuração: transformação player-faced pendente quando exigir rolagem do ST
+Conjuração-base: 2S; ST pode ajustar ±1S pelas condições
 
 Ações:
 Chicote de Carne: 3S + 3L
 Sino Silencioso: extingue som/comunicação em 10 m conforme a fonte; preservar como poder específico
-Gaiola de Borboletas: Efeito de Entropia/Espírito; transformação player-faced da conjuração pendente
+Gaiola de Borboletas: Efeito de Entropia/Espírito; usar Conjuração-base de Pelourinho e ajustar ±1S pelas condições
 
 Persistência:
 OK, OK, OK, OK, OK, -1, -5, Incapacitado
@@ -395,7 +395,7 @@ Mente 5
 Primórdio 2
 Tempo 3
 Vida 5
-Conjuração: transformação player-faced pendente quando exigir rolagem do ST
+Conjuração-base: 3S; ST pode ajustar ±1S pelas condições
 
 Persistência:
 OK, -1, -1, -2, -2, -5, Incapacitado por corpo
@@ -436,7 +436,7 @@ Arete 3
 Entropia 2
 Espírito 2
 Vida 2
-Conjuração: transformação player-faced pendente quando exigir rolagem do ST
+Conjuração-base: 1S; ST pode ajustar ±1S pelas condições
 
 Ações:
 Revólver leve: 2S + efeito da arma
@@ -481,7 +481,7 @@ Entropia 3
 Forças 3
 Mente 4
 Primórdio 3
-Conjuração: transformação player-faced pendente quando exigir rolagem do ST
+Conjuração-base: 2S; ST pode ajustar ±1S pelas condições
 
 Ações:
 Pistola pesada: 3S + efeito da arma
@@ -528,7 +528,7 @@ Isso preserva a abertura de M20 sem devolver a ficha original inteira ao ST.
 - [x] paradigmas/focos preservados;
 - [x] Coincidente/Vulgar e testemunhas preservados;
 - [x] modificadores de conjuração preservados;
-- [ ] mágika de NPC que exige rolagem do ST permanece dívida aberta;
+- [x] mágika de NPC: sucessos-base derivados de Arete e ajuste circunstancial simples de ±1S;
 - [x] dano/cura/duração originais preservados, condicionados a uma futura transformação homologada da conjuração do NPC;
 - [x] resistências e defesas do PJ preservadas quando já existiam;
 - [x] nenhuma defesa nova foi criada para o PJ;
@@ -553,6 +553,6 @@ Nenhuma dessas pendências exige nova matemática.
 
 ## Gate
 
-A camada física/mundana e os recursos canônicos dos sete perfis estão preservados. O pacote **ainda não satisfaz** o invariante de zero dados do ST enquanto mágika unilateral, contramágika ativa e Reação de Paradoxo permanecerem sem transformação homologada.
+A camada física/mundana, os recursos canônicos e a conjuração dos sete perfis estão preservados em forma player-faced. O pacote ainda depende da tradução final da **contramágika ativa do NPC** e das **consequências da Reação de Paradoxo**.
 
-**PT-8: REABERTO. Camada física/mundana preservada; mágika unilateral, contramágika ativa e Reação de Paradoxo permanecem abertas.**
+**PT-8: CONJURAÇÃO HOMOLOGADA; CONTRAMÁGIKA ATIVA E CONSEQUÊNCIAS DE PARADOXO AINDA ABERTAS.**
