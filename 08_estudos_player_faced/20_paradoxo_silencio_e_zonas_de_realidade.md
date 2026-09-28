@@ -70,34 +70,23 @@ Tudo isso nasce de uma rolagem que o jogador já realizou.
 
 ## 3. Reação de Paradoxo
 
-Quando a reserva atinge o limiar relevante, a bíblia determina:
+A fonte original usa uma rolagem do Narrador baseada na reserva de Paradoxo. Para NPCs, essa operação foi substituída por uma exceção autoral estreita e explícita:
 
+```text
+um jogador rola 1d10 em nome da realidade
+resultado ≤ Paradoxo atual do NPC → Reação dispara
+resultado > Paradoxo → não dispara
 ```
-ST rola dados iguais ao Paradoxo
-Dificuldade 6
-→ sucessos determinam descarga e severidade
-```
 
-Essa rolagem produz:
+A rolagem não pertence ao personagem jogador e não usa ficha, ação, recurso ou escolha do PJ. Ela serve apenas como oráculo para preservar incerteza e diversão sem devolver dados ao Storyteller.
 
-* dano;
-* Defeitos;
-* Paradoxo Permanente;
-* Espírito de Paradoxo;
-* Silêncio;
-* banimento.
+Quanto maior a reserva de Paradoxo do NPC, maior a chance de disparo.
 
-Toda a incerteza está do lado do ST.
-
-Aplicando a regra de precedência dos Estudos 00/14:
-
-> **a Reação de Paradoxo permanece dívida aberta de transformação: o ST não deve rolar no produto final, e nenhuma nova operação é criada para o PJ.**
-
-A consequência fixa testada apagaria variância e imprevisibilidade; transferir a rolagem ao jogador transferiria carga e informação indevidas. Essas duas soluções são rejeitadas, mas isso não fecha o problema.
+A **severidade/consequência** da Reação ainda não está convertida. Dano, Defeitos, Paradoxo Permanente, Espírito de Paradoxo, Silêncio e banimento permanecem categorias da fonte a serem preservadas na próxima revisão.
 
 ### Gate
 
-**DÍVIDA ABERTA DE TRANSFORMAÇÃO PLAYER-FACED.**
+**GATILHO HOMOLOGADO; CONSEQUÊNCIAS AINDA ABERTAS.**
 
 ---
 
