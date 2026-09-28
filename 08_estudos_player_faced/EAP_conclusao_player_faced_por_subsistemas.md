@@ -200,19 +200,21 @@ O ST deve poder escrever um Obstáculo desde uma forma mínima como `6` até uma
 
 ## PT-4 — Riscos Ambientais e Perigos
 
+**Status: CONCLUÍDO E HOMOLOGADO.**
+
 **Objetivo:** converter o ambiente hostil como agente de consequência sem transformá-lo artificialmente em NPC.
 
 ### Subfamílias a fechar dentro deste único pacote
 
-- [ ] quedas e impacto;
-- [ ] fogo e calor;
-- [ ] fome;
-- [ ] sede;
-- [ ] sufocamento/asfixia;
-- [ ] radiação;
-- [ ] venenos e toxinas;
-- [ ] doenças;
-- [ ] explosões e perigos ambientais adicionais presentes no corpus.
+- [x] quedas e impacto;
+- [x] fogo e calor;
+- [x] fome;
+- [x] sede;
+- [x] sufocamento/asfixia;
+- [x] radiação;
+- [x] venenos e toxinas;
+- [x] doenças;
+- [x] explosões e perigos ambientais adicionais presentes no corpus.
 
 ### Regra de escopo
 
@@ -518,13 +520,15 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Pacote ativo: PT-4 — Riscos Ambientais e Perigos.**
+**Pacote ativo: PT-5 — Veículos, Perseguições e Colisões.**
 
 Próxima tarefa:
 
-- [ ] consolidar os riscos ambientais a partir das regras específicas já recuperadas;
-- [ ] preservar dano, tipo, intervalo, Vigor e possibilidade de absorção exatamente onde a fonte os prevê;
-- [ ] não transformar perigos ambientais em NPCs;
-- [ ] usar relógios apenas como interface de tempo/exposição já existente;
-- [ ] registrar separadamente lacunas de conferência de fonte para explosões e doenças;
-- [ ] homologar PT-4 antes de iniciar PT-5.
+- [ ] preservar Safe Speed, Max Speed, Maneuverability, Durability e Structure;
+- [ ] manter Direção/manobras do PJ intactas;
+- [ ] tratar perseguições como estendidas-resistidas quando houver rival ativo;
+- [ ] manter Relógio de posição separado de Structure;
+- [ ] preservar colisões, dano ao veículo e dano aos ocupantes como procedimentos distintos;
+- [ ] usar Perfil DRP apenas para o condutor/agente rival, não para o veículo passivo;
+- [ ] registrar lacunas de tabela como pendências de fonte;
+- [ ] homologar PT-5 antes de iniciar PT-6.
