@@ -611,9 +611,9 @@ A ordem vigente de trabalho corretivo deixa de seguir o número dos PTs e passa 
    importante, mas de baixa alavancagem porque não desbloqueia outros pacotes
 ```
 
-**Próximo gate por Pareto: homologar a proposta de tabela-base do PT-8.**
+**Próximo trabalho por Pareto: fechar as duas dívidas restantes do PT-8.**
 
-Proposta registrada:
+A tabela-base de Arete foi homologada e aplicada:
 
 ```text
 Arete 1–3  → 1S
@@ -622,8 +622,12 @@ Arete 7–8  → 3S
 Arete 9–10 → 4S
 ```
 
-Depois da base, o Storyteller pode ajustar apenas ±1S quando as condições claramente ajudarem ou atrapalharem a conjuração. Não há categorias formais nem soma de modificadores.
+O Storyteller pode ajustar apenas ±1S quando as condições claramente ajudarem ou atrapalharem a conjuração.
 
-O gatilho de Paradoxo já está homologado em 1d10 ≤ Paradoxo.
+Restam:
+1. contramágika ativa do NPC;
+2. consequências da Reação de Paradoxo depois que o gatilho 1d10 ≤ Paradoxo dispara.
+
+Pelo Pareto, tratar primeiro a **contramágika ativa**, porque ela também afeta Certámen, wards e outros subsistemas mágickos.
 
 A decisão ambiental foi fechada sem criar nova rolagem universal para o PJ: preservam-se apenas as resistências/reduções já existentes em M20 e o pool restante vira Impacto fixo.
