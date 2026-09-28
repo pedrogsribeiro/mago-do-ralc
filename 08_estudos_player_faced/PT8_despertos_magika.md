@@ -1,11 +1,17 @@
 ---
 type: estudo
-status: em_andamento
-summary: "PT-8: conversão em lote de Despertos e usuários de mágika, usando a régua DRP existente e sucessos fixos para as antigas rolagens de Arete do ST."
+status: em_revisao_corretiva
+summary: "PT-8 reaberto após auditoria: camada física reaproveitável preservada; conjuração, contramágika ativa e Reação de Paradoxo retornam a dívidas abertas."
 tags: [player-faced, pt-8, despertos, magika, arete, esferas, paradoxo, drp]
 ---
 
 # PT-8 — Despertos e Usuários de Mágika
+
+## Nota de revisão corretiva
+
+A versão anterior propagou por analogia a régua de ações físicas para Arete, contramágika ativa e Reação de Paradoxo. Essa propagação foi retirada.
+
+Este arquivo agora separa a camada física/mundana reaproveitável das dívidas mágickas já reconhecidas pelo Contrato e pelo Estudo 14.
 
 ## 1. Regra de condução
 
@@ -19,90 +25,47 @@ A ficha final precisa ser menor que a ficha original. Portanto, não se converte
 
 ---
 
-# 2. Operador geral de mágika do NPC
+# 2. Estado da mágika de NPC após revisão corretiva
 
-A antiga rolagem de Arete do ST é tratada como qualquer outra ação própria do Obstáculo:
+A auditoria confirmou que o operador físico `pool + Dificuldade → S fixos` **não pode ser propagado por analogia** para Arete.
 
-```text
-definir o Efeito
-→ calcular a Dificuldade normal de M20
-→ aplicar modificadores normais
-→ Arete + Dificuldade real
-→ converter pela régua já homologada pool + Dificuldade → S fixos
-→ usar esses S como sucessos da conjuração
-```
+Portanto:
 
-Isso vale tanto para Efeitos hostis quanto utilitários.
+- **mágika hostil unilateral do NPC** volta ao estado de dívida aberta já definido no Contrato e no Estudo 14;
+- **contramágika ativa do NPC** permanece candidata a transformação por oposição, mas não está homologada;
+- **Reação de Paradoxo** volta ao estado de dívida aberta;
+- Arete, Esferas, paradigmas, focos, Quintessência e demais recursos permanecem registrados sem serem convertidos automaticamente;
+- Contramágika Inata mantém a decisão autoral explícita do PT-7: reduz diretamente a parada do PJ quando aplicável.
 
-O jogador não ganha nova defesa. Se a regra original já lhe concede Força de Vontade, contramágika, absorção, resistência de Esfera ou outra reação, ela continua existindo exatamente como antes.
+Quando a mágika do NPC acionar uma rolagem que **já pertence ao PJ** na regra original, essa rolagem do jogador é preservada sem alteração.
 
-Se não havia reação do PJ, os S fixos resolvem a antiga rolagem unilateral do NPC do mesmo modo que já foi aceito para outras ações de NPC.
-
-### 2.1 Tabela curta para Arete 3–7
-
-A tabela abaixo apenas materializa o operador ofensivo já homologado para a faixa de Arete presente neste corpus. Não é uma calibração nova.
-
-| Arete | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 3 | 2S | 2S | 2S | 1S | 1S | 1S | 0S | 0S |
-| 4 | 3S | 2S | 2S | 2S | 1S | 1S | 1S | 0S |
-| 5 | 4S | 3S | 3S | 2S | 2S | 1S | 1S | 0S |
-| 6 | 4S | 4S | 3S | 2S | 2S | 1S | 1S | 0S |
-| 7 | 5S | 4S | 4S | 3S | 2S | 2S | 1S | 0S |
-
-`0S` significa que, naquela combinação, a compressão determinística não produz sucesso. O NPC precisa alterar as condições da conjuração — preparação, Quintessência, foco ou outra redução de Dificuldade prevista em M20 — se quiser alcançar um resultado diferente.
-
-A perda da cauda probabilística de sucesso/botch em dificuldades extremas é a mesma limitação conhecida da compressão de rolagens exclusivas do ST e não abre um estudo por NPC.
+Nenhuma tabela `Arete + Dificuldade → S` é regra vigente deste pacote.
 
 ---
 
-# 3. Efeito, dano e duração
+# 3. Dano, cura, duração e Paradoxo
 
-Os S da conjuração alimentam diretamente as regras originais.
+As regras originais de dano, cura, duração, classificação Coincidente/Vulgar, testemunhas e geração de Paradoxo permanecem registradas como fonte.
 
-Para dano/cura:
+Elas só podem ser aplicadas ao NPC quando houver uma forma homologada de obter os sucessos da conjuração sem rolagem do ST e sem criar nova operação para o PJ.
 
-```text
-1S de Arete → 2 níveis de dano/cura
-```
-
-O tipo C/L/A continua definido pela origem do Efeito e pelo uso de Primórdio/Quintessência quando a regra exigir.
-
-Para duração:
-
-```text
-1S → 1 turno
-2S → 1 cena
-3S → 1 dia
-4S → 1 história
-5S+ → permanente, com o custo previsto
-```
-
-Se um Efeito exigir sucessos mínimos ou ação estendida, os S fixos são aplicados ao mesmo requisito. Não se cria um Relógio adicional além de uma eventual interface visual dos sucessos já exigidos.
+A **Reação de Paradoxo** permanece explicitamente aberta conforme Contrato e Estudo 20.
 
 ---
 
 # 4. Contramágika
 
-## PJ usa contramágika
+## Contramágika do PJ
 
-Preservar a rolagem normal do PJ.
+Preservar exatamente a rolagem normal do jogador quando a regra original a concede.
 
-## NPC usa contramágika básica
+## Contramágika ativa do NPC
 
-O NPC consome a ação completa normalmente.
-
-```text
-Arete do NPC em D7
-→ S fixos pela tabela
-→ cada S cancela 1 sucesso da conjuração do PJ
-```
-
-Prime, Quintessência e dificuldades 8/9 das variações protetora/ofensiva permanecem quando aplicáveis.
+**Pendente de proposta e homologação.** O fato de cancelar sucessos torna a mecânica candidata à família de Oposição, mas isso não autoriza aplicação automática do operador sem validação da função.
 
 ## Contramágika Inata
 
-Mantém a decisão já homologada no PT-7:
+Decisão autoral explícita já vigente:
 
 ```text
 pool de Contramágika Inata
@@ -113,29 +76,23 @@ Nenhum dado é rolado pelo ST.
 
 ---
 
-# 5. Paradoxo do NPC
+# 5. Recursos, focos e paradigma
 
-A geração normal permanece ligada à classificação Coincidente/Vulgar e aos resultados da conjuração.
+Arete, Esferas, paradigma/focos, Força de Vontade, Quintessência quando fornecida e demais recursos permanecem como propriedades próprias do NPC.
 
-Como a conjuração do NPC usa S fixos, `0S` é tratado como falha simples para operação player-faced. A compressão não cria um botch artificial.
-
-Quando uma Reação de Paradoxo precisar ser resolvida, a antiga rolagem `Paradoxo d10, D6` é igualmente comprimida pela régua geral de sucessos fixos. Os S resultantes consultam **as mesmas faixas de consequência** da regra original.
-
-Essa decisão elimina a última rolagem exclusiva do ST nesse procedimento sem transferi-la ao jogador. Resultados extremos tornam-se menos frequentes sob a compressão determinística; isso é registrado como limitação geral do método, não como blocker individual.
-
-Desauridos permanecem imunes ao acúmulo e às reações comuns de Paradoxo conforme a fonte.
+Nenhuma reserva ausente é inventada.
 
 ---
 
-# 6. Quintessência, focos e paradigma
+# 6. Regra de leitura dos perfis abaixo
 
-A reserva de Quintessência permanece recurso próprio quando a ficha/fonte fornecer um valor.
+Os blocos a seguir preservam apenas:
 
-Os perfis consolidados deste corpus registram Arete, Esferas e paradigmas/focos, mas **não fornecem uma quantidade de Quintessência para todos os NPCs**. Nenhum valor é inventado.
+- conversões físicas/mundanas já cobertas;
+- recursos e estados da fonte;
+- poderes específicos que já vêm com procedimento próprio.
 
-Quando um custo de Quintessência for necessário, o NPC só o assume se a cena/fonte lhe atribuir uma reserva disponível.
-
-Focos, tempo adicional, fast-casting e demais modificadores continuam alterando a Dificuldade antes da consulta à tabela de S.
+Linhas que dependam de uma rolagem de Arete do ST permanecem marcadas como **pendentes**, em vez de receber sucessos fixos por analogia.
 
 ---
 
@@ -149,7 +106,7 @@ TERNO PRETO
 6
 
 Físico:
-6/2/C3·L3·A0
+6/2/C3·L2·A0
 
 Mental/Técnico:
 6
@@ -158,7 +115,7 @@ Percepção/Alerta: 7/3
 Mágicko/Poderes:
 Arete 3–5
 Mente 2 + 2–4 Esferas entre níveis 2–4
-Conjuração: S fixos por Arete + Dificuldade
+Conjuração: transformação player-faced pendente quando exigir rolagem do ST
 
 Ações:
 Arma de Energia: 2–3S + efeito da arma
@@ -191,7 +148,7 @@ HACKTIVISTA DESPERTO
 6
 
 Físico:
-6/2/C2·L2·A0
+6/2/C2·L?·A0
 
 Mental/Técnico:
 6
@@ -203,7 +160,7 @@ Correspondência/Dados 3
 Forças 2
 Mente 2
 Entropia ou Tempo 2
-Conjuração: S fixos por Arete + Dificuldade
+Conjuração: transformação player-faced pendente quando exigir rolagem do ST
 
 Ações:
 Pistola leve: 2S + efeito da arma
@@ -235,7 +192,7 @@ MÚSICO XAMÃ URBANO
 6
 
 Físico:
-7/1/C2·L2·A0
+7/1/C2·L?·A0
 
 Mental/Técnico:
 6
@@ -247,7 +204,7 @@ Espírito 3
 Forças 2
 Primórdio 1
 Tempo 2
-Conjuração: S fixos por Arete + Dificuldade
+Conjuração: transformação player-faced pendente quando exigir rolagem do ST
 
 Ações:
 Revólver leve: 2S + efeito da arma
@@ -278,7 +235,7 @@ PELOURINHO
 6
 
 Físico:
-7/1/C2·L2·A0
+7/1/C2·L?·A0
 
 Mental/Técnico:
 Percepção mundana: Efeito Zero
@@ -292,12 +249,12 @@ Espírito 4
 Forças 2
 Mente 4
 Primórdio 2
-Conjuração: S fixos por Arete + Dificuldade
+Conjuração: transformação player-faced pendente quando exigir rolagem do ST
 
 Ações:
 Chicote de Carne: 3S + 3L
-Sino Silencioso: extingue som/comunicação em 10 m conforme a fonte
-Gaiola de Borboletas: Efeito de Entropia/Espírito; resolver pela conjuração
+Sino Silencioso: extingue som/comunicação em 10 m conforme a fonte; preservar como poder específico
+Gaiola de Borboletas: Efeito de Entropia/Espírito; transformação player-faced da conjuração pendente
 
 Persistência:
 OK, OK, OK, OK, OK, -1, -5, Incapacitado
@@ -341,7 +298,7 @@ Mente 5
 Primórdio 2
 Tempo 3
 Vida 5
-Conjuração: S fixos por Arete + Dificuldade
+Conjuração: transformação player-faced pendente quando exigir rolagem do ST
 
 Persistência:
 OK, -1, -1, -2, -2, -5, Incapacitado por corpo
@@ -382,7 +339,7 @@ Arete 3
 Entropia 2
 Espírito 2
 Vida 2
-Conjuração: S fixos por Arete + Dificuldade
+Conjuração: transformação player-faced pendente quando exigir rolagem do ST
 
 Ações:
 Revólver leve: 2S + efeito da arma
@@ -413,7 +370,7 @@ INFILTRADO NA NOM / HOMEM DE CINZA
 6
 
 Físico:
-7/1/C3·L3·A0
+7/1/C3·L2·A0
 
 Mental/Técnico:
 6
@@ -427,7 +384,7 @@ Entropia 3
 Forças 3
 Mente 4
 Primórdio 3
-Conjuração: S fixos por Arete + Dificuldade
+Conjuração: transformação player-faced pendente quando exigir rolagem do ST
 
 Ações:
 Pistola pesada: 3S + efeito da arma
@@ -474,14 +431,14 @@ Isso preserva a abertura de M20 sem devolver a ficha original inteira ao ST.
 - [x] paradigmas/focos preservados;
 - [x] Coincidente/Vulgar e testemunhas preservados;
 - [x] modificadores de conjuração preservados;
-- [x] antiga rolagem de Arete do NPC convertida para S fixos;
-- [x] dano/cura/duração continuam derivados dos sucessos;
+- [ ] mágika de NPC que exige rolagem do ST permanece dívida aberta;
+- [x] dano/cura/duração originais preservados, condicionados a uma futura transformação homologada da conjuração do NPC;
 - [x] resistências e defesas do PJ preservadas quando já existiam;
 - [x] nenhuma defesa nova foi criada para o PJ;
-- [x] contramágika ativa do NPC convertida para S fixos em D7/D8/D9;
+- [ ] contramágika ativa do NPC aguarda proposta e homologação;
 - [x] Contramágika Inata preservada como redução direta de dados;
 - [x] geração de Paradoxo preservada;
-- [x] Reação de Paradoxo sem rolagem do ST, usando S fixos em D6;
+- [ ] Reação de Paradoxo permanece dívida aberta;
 - [x] Desauridos preservam imunidade a Paradoxo;
 - [x] sete perfis canônicos do PT-8 convertidos;
 - [x] Terno Preto incorporado ao pacote correto;
@@ -500,4 +457,4 @@ Nenhuma dessas pendências exige nova matemática.
 
 O Storyteller pode operar os sete Despertos do corpus com Arete, Esferas e efeitos mágickos sem rolar dados. A experiência do PJ permanece a mesma: suas próprias rolagens, resistências, soak, contramágika e recursos continuam sendo usados conforme M20.
 
-**PT-8: MECANICAMENTE COMPLETO; AGUARDANDO HOMOLOGAÇÃO DO PACOTE.**
+**PT-8: REABERTO. Camada física/mundana preservada; mágika unilateral, contramágika ativa e Reação de Paradoxo permanecem abertas.**
