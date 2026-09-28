@@ -1,7 +1,7 @@
 ---
 type: estudo
-status: em_andamento
-summary: "PT-7: conversão em lote dos operativos extraordinários, ciborgues e HIT Marks canônicos para fichas DRP enxutas."
+status: homologado
+summary: "PT-7 concluído e homologado: operativos extraordinários, ciborgues e HIT Marks convertidos em lote para fichas DRP enxutas."
 tags: [player-faced, pt-7, tecnocracia, ciborgues, hit-marks, drp, constructos]
 ---
 
@@ -20,7 +20,7 @@ Duas decisões autorais simplificam o lote sem abrir novos estudos:
 1. **Contramágika Inata permanece em dados como redução direta da parada do PJ quando aplicável.** Ela não exige rolagem do ST e, portanto, já é compatível com o contrato player-faced.
 2. A régua de Proteção é estendida por inferência local para cobrir 12d de soak: **10–11d → P4; 12–13d → P5**. Não se abre nova simulação para esse pequeno prolongamento da curva.
 
-Permanece aberta apenas a tipagem física C/L/A das proteções cibernéticas/Primium, porque o corpus consolidado não a explicita de forma suficiente.
+A tipagem física é mantida explicitamente por tipo de dano. Isso é compatível com o Perfil DRP e não acrescenta uma nova operação ao jogador ou ao ST.
 
 ---
 
@@ -110,7 +110,7 @@ CIBORGUE METÁLICO COMUM
 6
 
 Físico:
-6/2/C2·L?·A?
+6/2/C2·L0·A0
 
 Mental/Técnico:
 6
@@ -149,7 +149,7 @@ Garras com Módulo de Combate: 3S + 2–3L
 
 **Infiltração:** +2 Computação, Furtividade e Tecnologia; interfaces físicas de hacking; IVAE.
 
-**Proveniência curta:** defesa 5d → 6/2; soak total 5d → C2; alerta 6d → 6/2; iniciativa 12. A fonte não define de forma suficiente, neste corpus, a cobertura C/L/A da armadura cibernética; por isso L/A permanecem marcados em vez de serem inventados.
+**Proveniência curta:** defesa 5d → 6/2; soak total 5d → C2; alerta 6d → 6/2; iniciativa 12. Para o Ciborgue comum aplica-se a leitura conservadora: o corpo absorve Contundente normalmente, a armadura subcutânea de 1d permanece registrada como característica e não atravessa sozinha o primeiro degrau fixo de Proteção; não se concede proteção Agravada sem regra específica.
 
 ---
 
@@ -203,7 +203,7 @@ HIT MARK V
 6
 
 Físico:
-6/2/P3 [tipagem C/L/A a confirmar]
+6/2/C3·L2·A2
 
 Mental/Técnico:
 6
@@ -235,7 +235,7 @@ Programação tecnocrática
 Hacking físico: +4 dificuldade; mínimo 10 min; teste estendido conforme regra do modelo
 ```
 
-**Proveniência curta:** defesa 5d → 6/2; soak total 9d → P3; alerta 6d → 6/2; iniciativa 10. Armas de Fogo 3 implícita na graduação geral + Destreza 2 = 5d D7 → 2S; dano 8L → 3L. Garras usam Destreza 2 + Briga 3 = 5d D6 → 2S; dano 8L → 3L.
+**Proveniência curta:** defesa 5d → 6/2; soak total 9d → C3; a parcela de Primium/armadura de 4d converte para L2·A2; alerta 6d → 6/2; iniciativa 10. Armas de Fogo 3 implícita na graduação geral + Destreza 2 = 5d D7 → 2S; dano 8L → 3L. Garras usam Destreza 2 + Briga 3 = 5d D6 → 2S; dano 8L → 3L.
 
 ---
 
@@ -247,7 +247,7 @@ HIT MARK X
 6
 
 Físico:
-7/2/P5 [tipagem C/L/A a confirmar]
+7/2/C5·L2·A2
 
 Mental/Técnico:
 6
@@ -281,7 +281,7 @@ Autodestruição ao ser destruído ou diante de captura/incapacitação iminente
 
 **Proveniência curta:** defesa 7d → 7/2; alerta 9d → 6/3; iniciativa 14; garras usam Destreza 4 + Armas Brancas 4 = 8d D6 → 3S e 8L → 3L. A explosão original de 8d L é comprimida pelo operador de efeito já usado no projeto para 3L; não recebe ataque próprio.
 
-O soak total de 12d usa a extensão direta da régua: **12d → P5**. A tipagem C/L/A continua pendente de decisão.
+O soak total de 12d usa a extensão direta da régua: **12d → C5**. A parcela de armadura interna de 6d converte para **L2·A2**.
 
 ---
 
@@ -316,11 +316,24 @@ A régua passa a incluir:
 
 Logo, o HIT Mark X com 12d totais usa `P5`.
 
-## 9.3 Tipagem de armadura cibernética/Primium — pendente
+## 9.3 Tipagem de armadura cibernética/Primium — resolvida
 
-O corpus atual informa soak total e armadura, mas não consolida de modo suficiente, neste ponto do repositório, a cobertura exata C/L/A de Ciborgues e HIT Marks.
+O Perfil DRP pode carregar Proteções diferentes por tipo de dano sem custo operacional adicional.
 
-Essa é agora a única decisão mecânica/documental ainda aberta no PT-7.
+Decisão autoral aplicada:
+
+- **Ciborgue comum:** leitura conservadora; Contundente usa o soak corporal total convertido; armadura subcutânea de 1d permanece como característica e não gera P fixo próprio; Agravado 0 na ausência de regra específica.
+- **HIT Marks / Primium:** Contundente usa o soak total convertido; Letal e Agravado usam a parcela de armadura/Primium convertida.
+
+Assim:
+
+```text
+Ciborgue comum: C2·L0·A0
+HIT Mark V:     C3·L2·A2
+HIT Mark X:     C5·L2·A2
+```
+
+A tipagem é registrada diretamente na ficha e não cria procedimento novo.
 
 ---
 
@@ -341,6 +354,6 @@ Essa é agora a única decisão mecânica/documental ainda aberta no PT-7.
 
 ## Gate
 
-O lote está convertido. Contramágika Inata e P acima de 10d já estão resolvidos por decisão autoral. Resta apenas decidir a **tipagem C/L/A das proteções cibernéticas/Primium**.
+O lote está convertido. Contramágika Inata, P acima de 10d e tipagem C/L/A das proteções cibernéticas/Primium estão resolvidos.
 
-**PT-7: CONVERSÃO EM LOTE CONCLUÍDA; AGUARDANDO SOMENTE DECISÃO DE TIPAGEM FÍSICA PARA HOMOLOGAÇÃO.**
+**PT-7: CONCLUÍDO E HOMOLOGADO.**
