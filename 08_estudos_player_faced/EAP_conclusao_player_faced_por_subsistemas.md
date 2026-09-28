@@ -359,6 +359,8 @@ Cada perfil deve possuir versão DRP completa suficiente para uso imediato, incl
 
 ## PT-8 — Despertos e Usuários de Mágika
 
+
+**Status: REABERTO APÓS AUDITORIA.**
 **Objetivo:** fechar o subsistema de NPCs que conjuram mágika.
 
 ### Escopo estrutural
@@ -569,8 +571,6 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Pacote ativo: PT-8 — Despertos e Usuários de Mágika.**
+**Checkpoint ativo: correção PT-2 → PT-8.**
 
-A conversão será feita em lote. A régua DRP já homologada cobre o corpo e competências mundanas; para mágika de NPC, a rolagem de Arete do ST é comprimida pelo mesmo operador geral `pool + Dificuldade → S fixos`, preservando Esferas, classificação Coincidente/Vulgar, modificadores, resistências do PJ, duração, dano, Quintessência e Paradoxo como procedimentos próprios.
-
-Não abrir simulações por NPC.
+PT-8 foi reaberto após remoção da propagação por analogia para Arete, contramágika ativa e Reação de Paradoxo. Antes de avançar para PT-9, os PT-2 a PT-8 devem receber correção e homologação explícita conforme os novos gates.
