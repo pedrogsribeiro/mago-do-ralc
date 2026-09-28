@@ -13,6 +13,8 @@ A versão anterior propagou por analogia a régua de ações físicas para Arete
 
 Este arquivo agora separa a camada física/mundana reaproveitável das dívidas mágickas já reconhecidas pelo Contrato e pelo Estudo 14.
 
+A revisão das regras de dano confirmou uma correção importante: **Magos/Despertos podem absorver dano Letal com Vigor**. Portanto, para Terno Preto, Hacktivista, Músico Xamã, Pelourinho, Colmeia, Widderslainte e Homem de Cinza, a Proteção Letal usa o pool total de absorção aplicável, não apenas a parcela de armadura.
+
 ## 1. Regra de condução
 
 Este pacote não cria um segundo motor para mágika.
@@ -106,7 +108,7 @@ TERNO PRETO
 6
 
 Físico:
-6/2/C3·L2·A0
+6/2/C3·L3·A0
 
 Mental/Técnico:
 6
@@ -148,7 +150,7 @@ HACKTIVISTA DESPERTO
 6
 
 Físico:
-6/2/C2·L?·A0
+6/2/C2·L2·A0
 
 Mental/Técnico:
 6
@@ -192,7 +194,7 @@ MÚSICO XAMÃ URBANO
 6
 
 Físico:
-7/1/C2·L?·A0
+7/1/C2·L2·A0
 
 Mental/Técnico:
 6
@@ -235,7 +237,7 @@ PELOURINHO
 6
 
 Físico:
-7/1/C2·L?·A0
+7/1/C2·L2·A0
 
 Mental/Técnico:
 Percepção mundana: Efeito Zero
@@ -370,7 +372,7 @@ INFILTRADO NA NOM / HOMEM DE CINZA
 6
 
 Físico:
-7/1/C3·L2·A0
+7/1/C3·L3·A0
 
 Mental/Técnico:
 6
@@ -455,6 +457,6 @@ Nenhuma dessas pendências exige nova matemática.
 
 ## Gate
 
-O Storyteller pode operar os sete Despertos do corpus com Arete, Esferas e efeitos mágickos sem rolar dados. A experiência do PJ permanece a mesma: suas próprias rolagens, resistências, soak, contramágika e recursos continuam sendo usados conforme M20.
+A camada física/mundana e os recursos canônicos dos sete perfis estão preservados. O pacote **ainda não satisfaz** o invariante de zero dados do ST enquanto mágika unilateral, contramágika ativa e Reação de Paradoxo permanecerem sem transformação homologada.
 
 **PT-8: REABERTO. Camada física/mundana preservada; mágika unilateral, contramágika ativa e Reação de Paradoxo permanecem abertas.**
