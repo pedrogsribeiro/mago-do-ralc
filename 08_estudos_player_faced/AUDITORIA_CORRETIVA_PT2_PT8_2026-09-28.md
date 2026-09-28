@@ -307,9 +307,7 @@ Há contradições diretas com documentos normativos anteriores:
 
 Há ainda erros de conversão física na ficha produzida:
 
-- **Terno Preto:** fonte = Vigor 3 + Armadura 4, total 7. Pela régua usada no próprio projeto, total 7 → C3 e parcela de armadura 4 → L2 quando se aplica a mesma tipagem adotada no PT-7. A ficha PT-8 registrou `C3·L3·A0`, inflando L;
-- **Infiltrado/Homem de Cinza:** mesma estrutura, Vigor 3 + Armadura 4 = total 7. A ficha registrou `C3·L3·A0`; pelo mesmo operador, a parcela de armadura 4 cai em L2, não L3;
-- **Hacktivista** e **Músico Xamã** receberam `L2` a partir de armadura 1 / total 4 sem uma regra consolidada que sustente essa quantização; isso é no mínimo inferência não autorizada e deve ser removido até a cobertura por tipo ser confirmada.
+A revisão posterior de `regras_dano_e_saude.md` corrigiu um erro desta própria auditoria: **Magos/Despertos podem absorver dano Letal com Vigor**. Logo, nos perfis Despertos do PT-8, a Proteção Letal deve usar o pool total aplicável de absorção. Assim, Terno Preto e Homem de Cinza mantêm `L3`; Hacktivista, Músico Xamã e Pelourinho usam `L2`; Colmeia e Widderslainte usam `L1`. Agravado permanece 0 sem proteção específica.
 
 ### Estado após auditoria
 
@@ -363,8 +361,7 @@ Confirmados:
 - Ciborgue de Combate com efeito `2–3L` em vez do degrau único `3L`;
 - autodestruição explosiva do HIT X convertida por analogia sem autorização;
 - PT-8 contradizendo dívidas abertas de mágika/Paradoxo;
-- Terno Preto e Homem de Cinza com L3 onde a própria régua aplicada à parcela de armadura 4 conduz a L2;
-- demais tipagens mágickas/físicas do PT-8 sem base suficiente.
+- a versão inicial desta auditoria classificou incorretamente a Proteção Letal de Despertos usando apenas a parcela de armadura; isso foi corrigido após releitura da regra de absorção de Magos.
 
 ---
 
