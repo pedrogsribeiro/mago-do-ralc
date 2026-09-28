@@ -32,6 +32,19 @@ Para o personagem jogador:
 
 **Se uma solução exige que o personagem jogador faça algo que não faria normalmente em M20, essa solução viola o contrato.**
 
+### Exceção estreita — rolagem-oráculo de Paradoxo de NPC
+
+Por decisão autoral explícita, existe uma única exceção procedural: **um jogador pode rolar 1d10 em nome da realidade para verificar se a Reação de Paradoxo de um NPC dispara**.
+
+```text
+1d10 ≤ Paradoxo atual do NPC → dispara
+1d10 > Paradoxo → não dispara
+```
+
+Essa rolagem não pertence ao personagem jogador: não usa sua ficha, não consome ação ou recurso, não representa resistência, não concede controle sobre a consequência e não transfere ao PJ uma decisão antes pertencente ao Storyteller.
+
+A exceção vale somente para o **gatilho da Reação de Paradoxo de NPC** e não autoriza transferir outras rolagens do ST ao jogador por analogia.
+
 ## 3. Invariante do Storyteller
 
 **O Storyteller rola zero dados.**
