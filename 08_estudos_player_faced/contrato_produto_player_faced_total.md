@@ -130,6 +130,49 @@ Toda auditoria deve separar três perguntas:
 
 A matemática audita a qualidade da transformação. Ela não pode redefinir a premissa do produto.
 
+### 6.1. Proibição de propagação por analogia
+
+**Semelhança estrutural, matemática ou temática não autoriza aplicação automática de uma transformação já homologada a outra mecânica.**
+
+Uma transformação só pode ser propagada sem nova decisão autoral quando, cumulativamente:
+
+1. a **função original** da regra é a mesma já coberta pelo operador homologado;
+2. o operador foi **explicitamente homologado para essa função**, e não apenas para uma mecânica parecida;
+3. a fonte fornece os dados exigidos pelo operador sem preenchimento especulativo;
+4. a aplicação não altera procedimento, recurso, economia de ações, possibilidade de botch, tipo de resistência ou outra propriedade relevante da experiência do PJ.
+
+Se qualquer condição falhar, o agente deve:
+
+```text
+identificar a lacuna
+→ registrar como inferência/proposta
+→ apresentar opções ao autor
+→ aguardar decisão autoral
+→ somente então implementar
+```
+
+É vedado usar expressões como “mesma família”, “análogo”, “equivalente”, “parecido” ou “a matemática já existe” como autorização suficiente para implementar uma transformação em outro subsistema.
+
+Uma aceleração de trabalho em lote autoriza **aplicar em lote decisões já homologadas**. Ela não autoriza decidir em lote mecânicas novas.
+
+### 6.2. Homologação explícita
+
+**Nenhum agente pode homologar uma decisão, perfil, pacote ou subsistema por inferência, silêncio ou mera autorização para continuar trabalhando.**
+
+Homologação exige uma manifestação autoral inequívoca ligada à decisão apresentada. São válidos, por exemplo:
+
+- aprovação explícita da proposta ou opção apresentada;
+- resposta afirmativa inequívoca a uma pergunta de homologação claramente delimitada;
+- instrução direta para registrar determinada regra como vigente.
+
+Comandos genéricos de progressão como **“segue”**, **“continue”**, **“próximo”** ou equivalentes **não constituem homologação**.
+
+Um “ok” só vale como homologação quando responde diretamente a uma proposta ou pergunta de aprovação delimitada no turno imediatamente anterior. Na dúvida, o estado permanece **proposto**, **em análise** ou **aguardando homologação**.
+
+O agente não pode converter seu próprio diagnóstico de “mecanicamente completo” em “homologado”. A ausência de objeção também não equivale a aprovação.
+
+Antes de alterar status para `homologado`, a documentação deve registrar qual decisão foi aprovada e em que contexto autoral ela foi aprovada.
+
 ## 7. Estado das antigas “exceções de fidelidade”
 
 Qualquer procedimento anteriormente declarado resolvido por manter rolagem do ST deve ser reaberto como dívida de transformação player-faced.
