@@ -121,7 +121,7 @@ Durability do veículo
 
 O tipo-base é Contundente, salvo circunstância/regra específica.
 
-A camada player-facing **não converte colisão em dano fixo por tier** e não inventa um Perfil DRP para o choque.
+Quando o procedimento de colisão produzir um **pool de dano**, esse pool usa a tabela ambiental homologável do PT-4 para virar Impacto fixo, após quaisquer reduções que a regra original aplique antes do dano. A colisão não recebe Perfil DRP nem rolagem própria.
 
 ---
 
@@ -285,4 +285,4 @@ Essas pendências são documentais. A arquitetura não exige nova matemática.
 
 O Storyteller pode operar veículo, perseguição e colisão mantendo separados condutor, posição, integridade e ocupantes, sem introduzir novas rolagens do ST.
 
-**PT-5: ARQUITETURA APROVADA; FECHAMENTO DEPENDE APENAS DO OPERADOR DE IMPACTO/DANO DO PT-4 QUANDO UMA COLISÃO GERAR POOL.**
+**PT-5: MECANICAMENTE COMPLETO APÓS REVISÃO CORRETIVA; AGUARDA HOMOLOGAÇÃO EXPLÍCITA DO PACOTE.**
