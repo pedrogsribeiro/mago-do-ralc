@@ -624,12 +624,12 @@ Arete 9–10 → 4S
 
 O Storyteller pode ajustar apenas ±1S quando as condições claramente ajudarem ou atrapalharem a conjuração.
 
-Restam:
-1. contramágika ativa do NPC;
-2. consequências da Reação de Paradoxo depois que o gatilho 1d10 ≤ Paradoxo dispara.
+Contramágika ativa foi **homologada** usando os mesmos `S-base de Arete`: cada S cancela 1 sucesso do Efeito, preservando requisitos e ação completa. O mesmo operador cobre Aegis do NPC e unweaving.
 
-Pelo Pareto, tratar primeiro a **contramágika ativa**, porque ela também afeta Certámen, wards e outros subsistemas mágickos.
+Resta uma única dívida mecânica relevante no PT-8:
 
-Proposta registrada, aguardando homologação: usar os mesmos `S-base de Arete` já homologados para a contramágika ativa do NPC; cada S cancela 1 sucesso do Efeito, preservando ação completa e requisitos. O mesmo operador pode cobrir Aegis e unweaving sem criar nova tabela.
+1. consequências da Reação de Paradoxo depois que o gatilho `1d10 ≤ Paradoxo` dispara.
+
+**Próximo trabalho por Pareto: consequências da Reação de Paradoxo.**
 
 A decisão ambiental foi fechada sem criar nova rolagem universal para o PJ: preservam-se apenas as resistências/reduções já existentes em M20 e o pool restante vira Impacto fixo.
