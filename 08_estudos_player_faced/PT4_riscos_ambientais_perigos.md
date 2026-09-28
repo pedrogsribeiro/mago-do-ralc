@@ -1,11 +1,17 @@
 ---
 type: estudo
-status: homologado
-summary: "PT-4 concluído e homologado: riscos ambientais preservados em forma player-facing sem criar agência artificial."
+status: em_revisao_corretiva
+summary: "PT-4 em revisão corretiva: regras-fonte preservadas; pools ambientais variáveis reabertos quando a propriedade da rolagem do ST não está demonstrada."
 tags: [player-faced, pt-4, riscos, ambiente, fogo, quedas, fome, sede, sufocamento, radiacao, toxinas, doencas, explosoes]
 ---
 
 # PT-4 — Riscos Ambientais e Perigos
+
+## Nota de revisão corretiva
+
+As regras-fonte permanecem registradas. O pacote não pode ser considerado player-facing completo enquanto qualquer procedimento com **pool variável de dano** puder depender de rolagem do Storyteller sem transformação homologada para essa função.
+
+Por isso, fogo, radiação, explosões e qualquer outro perigo com pool variável permanecem **abertos quanto à operação do lado do ST** até verificação específica.
 
 ## 1. Princípio do pacote
 
@@ -246,4 +252,4 @@ Essas pendências não exigem estudo matemático novo.
 
 O ST pode operar os riscos ambientais consolidados sem rolar por um agente ambiental fictício e sem alterar as ações normais do jogador.
 
-**PT-4: CONCLUÍDO E HOMOLOGADO. As conferências de fonte permanecem pendências editoriais para publicação.**
+**PT-4: EM REVISÃO CORRETIVA. Regras-fonte preservadas; fechamento player-facing dos pools ambientais variáveis permanece aberto.**
