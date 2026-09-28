@@ -1,6 +1,6 @@
 ---
 type: auditoria
-status: concluida
+status: aplicada_parcialmente
 summary: "Auditoria corretiva dos PT-2 a PT-8, separando cada achado em aplicação válida de regra homologada, inferência dos agentes, decisão autoral explícita ou erro factual/conversão."
 tags: [player-faced, auditoria, corretiva, pt-2, pt-3, pt-4, pt-5, pt-6, pt-7, pt-8, homologacao]
 ---
@@ -370,17 +370,21 @@ Confirmados:
 
 # 11. Checkpoint corretivo
 
-Esta auditoria **não corrige automaticamente** os PT-2 a PT-8.
+As correções autorizadas pelo autor foram aplicadas aos PT-2 a PT-8:
 
-Próxima sequência segura:
+- homologações globais indevidas foram rebaixadas para revisão corretiva;
+- erros factuais/conversões inequívocos foram corrigidos;
+- inferências não homologadas foram removidas, marcadas como proposta ou reabertas;
+- decisões autorais explícitas foram preservadas;
+- PT-8 voltou a registrar mágika unilateral, contramágika ativa e Reação de Paradoxo como dívidas abertas.
+
+A sequência restante é:
 
 ```text
-1. rebaixar status de homologação indevida;
-2. corrigir erros factuais/conversão inequívocos;
-3. retirar ou marcar explicitamente inferências não homologadas;
-4. preservar decisões autorais explícitas;
-5. apresentar ao autor somente as lacunas mecânicas restantes como opções;
-6. homologar explicitamente pacote por pacote depois da correção.
+1. apresentar ao autor somente as lacunas mecânicas restantes como opções;
+2. registrar decisões autorais explícitas;
+3. homologar explicitamente pacote por pacote depois da correção;
+4. somente então avançar para PT-9.
 ```
 
 Nenhuma propagação editorial posterior deve ocorrer antes disso.
