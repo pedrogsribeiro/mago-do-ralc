@@ -1,7 +1,7 @@
 ---
 type: estudo
-status: em_andamento
-summary: "PT-5: consolidação player-facing de veículos, perseguições e colisões, preservando os Traits e procedimentos próprios de M20."
+status: homologado
+summary: "PT-5 concluído e homologado: veículos, perseguições e colisões preservados em forma player-facing sem fundir condutor, posição, integridade e ocupantes."
 tags: [player-faced, pt-5, veiculos, perseguicoes, colisoes, durability, structure, direcao]
 ---
 
@@ -279,4 +279,4 @@ Essas pendências são documentais. A arquitetura não exige nova matemática.
 
 O Storyteller pode operar veículo, perseguição e colisão mantendo separados condutor, posição, integridade e ocupantes, sem introduzir novas rolagens do ST.
 
-**PT-5: MECANICAMENTE COMPLETO; AGUARDANDO HOMOLOGAÇÃO DO PACOTE E CONFERÊNCIA DOCUMENTAL POSTERIOR PARA PUBLICAÇÃO.**
+**PT-5: CONCLUÍDO E HOMOLOGADO. As conferências de tabelas permanecem pendências editoriais para publicação.**
