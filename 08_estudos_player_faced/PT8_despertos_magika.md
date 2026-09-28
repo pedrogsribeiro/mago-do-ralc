@@ -150,6 +150,76 @@ O **gatilho da Reação de Paradoxo** está homologado em 1d10 ≤ Paradoxo. A t
 
 ---
 
+## Proposta Pareto — contramágika ativa do NPC — AGUARDA HOMOLOGAÇÃO
+
+A releitura da regra-fonte confirma que a contramágika básica:
+
+- consome ação completa;
+- exige perceber o Efeito;
+- exige ao menos 1 ponto em uma Esfera pertinente;
+- usa Arete;
+- cada sucesso cancela 1 sucesso do Efeito.
+
+Como o projeto já homologou uma única graduação `Arete → S` para mágika de NPC, a proposta de maior simplicidade é **não criar uma segunda tabela apenas para contramágika**.
+
+```text
+NPC usa Contramágika
+→ verifica requisitos da regra original
+→ gasta a ação completa
+→ usa seus S-base de Arete
+→ cada S cancela 1 sucesso do Efeito do PJ
+→ o Storyteller pode ajustar ±1S se as condições claramente ajudarem ou atrapalharem
+```
+
+Exemplo:
+
+```text
+NPC Arete 6
+Conjuração-base: 2S
+
+usa Contramágika
+→ 2S de cancelamento
+→ se as circunstâncias atrapalham claramente: 1S
+→ se ajudam claramente: 3S
+```
+
+Isso preserva a função da regra — **cancelar sucessos por ação ativa** — e a economia de ações, sem introduzir uma nova gramática ou uma nova tabela.
+
+### Aegis / Certámen
+
+A mesma leitura resolveria o Aegis do NPC:
+
+```text
+PJ rola Gladius normalmente
+→ NPC declara Aegis e gasta sua ação
+→ S-base de Arete do NPC cancelam sucessos do Gladius
+→ excedente reduz o Locus normalmente
+```
+
+O Gladius do PJ, o Locus e a escolha de usar Aegis permanecem intactos.
+
+### Proteger outro / refletir
+
+As variantes que protegem outro alvo ou refletem o Efeito preservam seus requisitos adicionais de Prime, Quintessência e ação completa.
+
+A proposta é **não criar tabelas D8/D9 separadas**. A dificuldade adicional da operação entra no mesmo julgamento circunstancial simples de ±1S quando o Storyteller considerar que ela torna a execução claramente mais difícil.
+
+### Unweaving por NPC
+
+Quando um NPC desfaz um Efeito persistente, a mesma unidade pode ser usada por intervalo:
+
+```text
+Integridade mágicka = sucessos armazenados do Efeito
+NPC usa S-base de Arete por intervalo de unweaving
+→ reduz a Integridade
+```
+
+Os requisitos de Prime, Esferas, tempo e Quintessência permanecem os da fonte.
+
+Esta seção é uma **proposta**, não homologação. Sua vantagem Pareto é resolver contramágika básica, Aegis e unweaving com a mesma regra já aprendida para Arete, sem outra tabela.
+
+---
+
 # 4. Contramágika
 
 ## Contramágika do PJ
