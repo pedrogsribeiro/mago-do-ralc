@@ -1,11 +1,17 @@
 ---
 type: estudo
-status: homologado
-summary: "PT-6 concluído e homologado: hacking e Teia Digital organizados pela natureza de sistemas, agentes e consequências, sem ICE universal."
+status: em_revisao_corretiva
+summary: "PT-6 em revisão corretiva: procedimentos player-facing preservados; taxonomia e fichas mínimas dos agentes reclassificadas como propostas."
 tags: [player-faced, pt-6, hacking, teia-digital, icons, derez, whiteout, sistemas]
 ---
 
 # PT-6 — Hacking e Teia Digital
+
+## Nota de revisão corretiva
+
+Computação + Arete do PJ, Quintessência, testes estendidos e consequências específicas permanecem preservados.
+
+A taxonomia `sistema passivo / operador consciente / programa-agente / ameaça sistêmica` e as fichas mínimas abaixo são **propostas arquiteturais dos agentes**, não decisões autorais homologadas. Elas podem orientar discussão, mas não devem ser tratadas como regra vigente.
 
 ## 1. Princípio do pacote
 
@@ -241,7 +247,7 @@ A camada player-facing não transforma botch em simples perda de progresso.
 
 ---
 
-# 12. Fichas mínimas por natureza
+# 12. Fichas mínimas por natureza — propostas de interface
 
 ### Firewall / criptografia
 
@@ -328,4 +334,4 @@ Essas pendências são documentais/de escopo de fonte. A arquitetura player-face
 
 O Storyteller consegue representar segurança digital pela natureza real de cada elemento, sem rolar por sistemas passivos, sem criar uma ficha universal de ICE e sem alterar as rolagens normais do jogador.
 
-**PT-6: CONCLUÍDO E HOMOLOGADO. As conferências de fonte permanecem pendências editoriais para publicação.**
+**PT-6: EM REVISÃO CORRETIVA. Procedimentos do PJ preservados; taxonomia e templates aguardam decisão autoral explícita.**
