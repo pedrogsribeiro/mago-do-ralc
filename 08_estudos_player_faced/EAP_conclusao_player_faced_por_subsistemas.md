@@ -254,26 +254,28 @@ O veículo deve funcionar como Obstáculo/objeto persistente e como participante
 
 ## PT-6 — Hacking e Teia Digital
 
+**Status: CONCLUÍDO E HOMOLOGADO.**
+
 **Objetivo:** fechar o uso de computadores e da Web pela natureza real de cada elemento.
 
 ### Escopo
 
-- [ ] segurança passiva: firewall, criptografia, scanners e protocolos;
-- [ ] sysadmins e operadores conscientes;
-- [ ] programas simples;
-- [ ] programas-agentes/perseguidores;
-- [ ] hacking abstrato;
-- [ ] hacking dramatizado;
-- [ ] Icons;
-- [ ] formas de imersão;
-- [ ] perseguições digitais;
-- [ ] combate na Web;
-- [ ] dano digital;
-- [ ] soft de-rez;
-- [ ] hard de-rez;
-- [ ] icon death;
-- [ ] chaos dump;
-- [ ] Whiteout.
+- [x] segurança passiva: firewall, criptografia, scanners e protocolos;
+- [x] sysadmins e operadores conscientes;
+- [x] programas simples;
+- [x] programas-agentes/perseguidores;
+- [x] hacking abstrato;
+- [x] hacking dramatizado;
+- [x] Icons;
+- [x] formas de imersão;
+- [x] perseguições digitais;
+- [x] combate na Web;
+- [x] dano digital;
+- [x] soft de-rez;
+- [x] hard de-rez;
+- [x] icon death;
+- [x] chaos dump;
+- [x] Whiteout.
 
 ### Gate do pacote
 
@@ -522,15 +524,14 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Pacote ativo: PT-6 — Hacking e Teia Digital.**
+**Pacote ativo: PT-7 — Operativos Extraordinários, Ciborgues e Constructos Tecnocráticos.**
 
 Próxima tarefa:
 
-- [ ] classificar cada defesa digital como sistema passivo, operador consciente, programa-agente ou ameaça sistêmica;
-- [ ] preservar hacking simples/estendido quando já for rolagem do PJ;
-- [ ] usar D/R apenas para oposição ativa real;
-- [ ] preservar Icons e formas de imersão como estados/Traits relevantes, sem criar ficha paralela universal;
-- [ ] manter combate virtual ligado ao combate normal adaptado à Web;
-- [ ] preservar soft/hard de-rez, Icon Death, Chaos Dump e Whiteout como consequências/estados específicos;
-- [ ] registrar lacunas numéricas como pendências de fonte;
-- [ ] homologar PT-6 antes de iniciar PT-7.
+- [ ] converter em lote Cientista Extraordinário, Agente de Campo Extraordinário, Ciborgue Metálico Comum, Victor, HIT Mark V e HIT Mark X;
+- [ ] manter as fichas menores que as originais;
+- [ ] preservar módulos, sensores, imunidades, hacking, autodestruição e demais características específicas;
+- [ ] usar a régua DRP existente sem recalibrar cada NPC;
+- [ ] parar apenas diante de mecânica realmente fora da régua existente;
+- [ ] manter Terno Preto no PT-8 por ser Agente Iluminado;
+- [ ] homologar PT-7 antes de iniciar PT-8.
