@@ -1,11 +1,17 @@
 ---
 type: estudo
-status: homologado
-summary: "PT-2 concluído e homologado: conversão player-faced dos 14 perfis canônicos do bestiário mundano para o padrão DRP."
-tags: [player-faced, pt-2, animais, bestiario, drp, homologado]
+status: em_revisao_corretiva
+summary: "PT-2 em revisão corretiva: conversões físicas preservadas, inferências não homologadas removidas ou marcadas como pendentes."
+tags: [player-faced, pt-2, animais, bestiario, drp, revisao-corretiva]
 ---
 
 # PT-2 — Animais e Bestiário Mundano
+
+## Nota de revisão corretiva
+
+O Gato Doméstico conserva sua homologação individual explícita. O restante do pacote foi reaberto porque a homologação global havia sido inferida de comandos de progressão.
+
+A revisão preserva apenas aplicações de operadores já homologados para a mesma função. Tipagem L/A de animais sem regra específica consolidada, ausência de Habilidade não explicitamente tratada pela regra de uso destreinado e caracterizações adicionadas pelos agentes ficam pendentes em vez de serem completadas por analogia.
 
 ## Regra de condução
 
@@ -203,7 +209,7 @@ A ficha canônica fornece:
 - nenhuma armadura;
 - Mordida 2L.
 
-A ficha não lista Briga. Como Briga é um Talento e o procedimento normal de ataque corpo a corpo usa Destreza + Briga, a ausência da Habilidade significa Briga 0 para este template; não se cria uma Habilidade que a fonte não fornece.
+A ficha não lista Briga. A revisão corretiva não assume automaticamente que a ausência equivale a Briga 0 para esta conversão; é preciso confirmar a regra de uso destreinado aplicável antes de congelar o valor ofensivo.
 
 ## 2.2 Conversão pela régua DRP
 
@@ -216,10 +222,10 @@ A defesa ativa usa:
 Pela tabela D/R:
 
 ```text
-Físico: 6/2/C1·L0·A0
+Físico: 6/2/C1·L?·A?
 ```
 
-Vigor 2 converte em `C1`. Sem armadura ou proteção especial, não há Proteção Letal ou Agravada.
+Vigor 2 converte em `C1`. A cobertura contra L/A permanece **pendente de regra animal específica**, sem assumir `0` por analogia.
 
 ### Mental/Perceptivo
 
@@ -231,10 +237,10 @@ Percepção/Alerta: 6/2
 
 ### Ações
 
-O ataque de Mordida usa `Destreza 3 + Briga 0 = 3d D6`, que converte para 1 sucesso fixo. O dano-base 2L converte para 1L:
+O dano-base 2L converte para 1L. O **S de ataque permanece pendente**, porque a ficha não lista Briga e a conversão não deve preencher essa ausência sem regra confirmada.
 
 ```text
-Mordida: 1S + 1L
+Mordida: S de ataque pendente + 1L
 ```
 
 Furtividade e mobilidade permanecem como características, porque não precisam virar linhas de Ação para o perfil ser operável.
@@ -253,24 +259,22 @@ Iniciativa: 12
 
 ## 2.3 Ficha player-faced candidata
 
-> **Status:** convertido; incluído na homologação em lote do PT-2.
+> **Status:** em revisão corretiva; tipagem L/A e S de ataque pendentes.
 
 ### CACHORRO PEQUENO
-
-Animal doméstico pequeno e ágil. Pode ser barulhento, territorial ou insistente, mas continua fisicamente frágil e pouco perigoso isoladamente.
 
 ```text
 6
 
 Físico:
-6/2/C1·L0·A0
+6/2/C1·L?·A?
 
 Mental/Perceptivo:
 6
 Percepção/Alerta: 6/2
 
 Ações:
-Mordida: 1S + 1L
+Mordida: S de ataque pendente + 1L
 
 Persistência:
 OK, -1, -5, Incapacitado
@@ -283,8 +287,7 @@ Iniciativa:
 
 Características:
 Animal mundano
-Pequeno e ágil
-Furtivo
+Furtividade 2 na fonte
 Sem armadura
 Dimensão Social mecanicamente irrelevante para interação humana
 ```
@@ -294,14 +297,14 @@ Dimensão Social mecanicamente irrelevante para interação humana
 - [x] D/R físico convertido;
 - [x] Proteção corporal convertida;
 - [x] Percepção/Alerta convertida;
-- [x] Mordida convertida sem inventar Briga ausente;
+- [ ] confirmar a regra de uso destreinado antes de congelar o S da Mordida;
 - [x] Persistência preservada;
 - [x] Força de Vontade preservada;
 - [x] Iniciativa convertida;
 - [x] ficha mantida menor que a ficha original;
-- [x] homologação em lote.
+- [ ] homologação explícita do pacote.
 
-**CACHORRO PEQUENO: CONVERTIDO; AGUARDA HOMOLOGAÇÃO DO LOTE.**
+**CACHORRO PEQUENO: REABERTO PARA CORREÇÃO.**
 
 
 ---
@@ -316,7 +319,7 @@ CACHORRO MÉDIO
 6
 
 Físico:
-6/2/C1·L0·A0
+6/2/C1·L?·A?
 
 Mental/Perceptivo:
 6
@@ -338,7 +341,6 @@ Iniciativa:
 Características:
 Animal mundano
 Rastreador competente
-Atento e treinável
 Sem armadura
 ```
 
@@ -354,7 +356,7 @@ CACHORRO GRANDE
 6
 
 Físico:
-6/2/C1·L0·A0
+6/2/C1·L?·A?
 
 Mental/Perceptivo:
 6
@@ -375,7 +377,6 @@ Iniciativa:
 
 Características:
 Animal mundano
-Grande e intimidador
 Rastreador competente
 Sem armadura
 ```
@@ -392,7 +393,7 @@ LOBO
 6
 
 Físico:
-7/1/C1–2·L0·A0
+7/1/C1–2·L?·A?
 
 Mental/Perceptivo:
 6
@@ -413,7 +414,6 @@ Iniciativa:
 
 Características:
 Animal mundano
-Caçador em grupo
 Rastreador
 Intimidador
 Sem armadura
@@ -431,7 +431,7 @@ LEOPARDO / JAGUAR / PANTERA / PUMA
 6
 
 Físico:
-6/2/C1·L0·A0
+6/2/C1·L?·A?
 
 Mental/Perceptivo:
 6
@@ -452,7 +452,6 @@ Iniciativa:
 
 Características:
 Animal mundano
-Predador de emboscada
 Muito furtivo
 Sem armadura
 ```
@@ -469,7 +468,7 @@ LINCE / GATO SELVAGEM
 6
 
 Físico:
-7/2/C1·L0·A0
+7/2/C1·L?·A?
 
 Mental/Perceptivo:
 6
@@ -508,7 +507,7 @@ TIGRE / LEÃO
 6
 
 Físico:
-7/2/C2·L0·A0
+7/2/C2·L?·A?
 
 Mental/Perceptivo:
 6
@@ -529,12 +528,11 @@ Iniciativa:
 
 Características:
 Animal mundano
-Grande predador
 Armadura natural 1
 Furtivo apesar do porte
 ```
 
-**Proveniência curta:** defesa 7d → 7/2; soak total 5d → C2; alerta 7d → 7/2; ataque 7d D6 → 3S; 7L → 3L; 6L → 3L. A armadura natural de 1d é preservada como característica; sozinha não atravessa um degrau de Proteção fixa para L/A.
+**Proveniência curta:** defesa 7d → 7/2; soak total 5d → C2; alerta 7d → 7/2; ataque 7d D6 → 3S; 7L → 3L; 6L → 3L. A armadura natural de 1d é preservada como dado-fonte; sua cobertura L/A permanece pendente de confirmação.
 
 ---
 
@@ -548,7 +546,7 @@ CAVALO
 6
 
 Físico:
-6/2/C2·L0·A0
+6/2/C2·L?·A?
 
 Mental/Perceptivo:
 6
@@ -569,11 +567,10 @@ Iniciativa:
 
 Características:
 Animal mundano
-Grande porte
 Armadura natural 1
 ```
 
-**Proveniência curta:** defesa 5d → 6/2; soak total 5d → C2; alerta 6d → 6/2; ataque 3d D6 → 1S; 6C → 3C; 3L → 1L. A armadura natural de 1d permanece característica e não gera P fixo adicional contra L/A.
+**Proveniência curta:** defesa 5d → 6/2; soak total 5d → C2; alerta 6d → 6/2; ataque 3d D6 → 1S; 6C → 3C; 3L → 1L. A armadura natural de 1d é preservada como dado-fonte; sua cobertura L/A permanece pendente de confirmação.
 
 ---
 
@@ -585,7 +582,7 @@ CHIMPANZÉ
 6
 
 Físico:
-7/2/C1·L0·A0
+7/2/C1·L?·A?
 
 Mental/Perceptivo:
 6
@@ -606,7 +603,6 @@ Iniciativa:
 
 Características:
 Animal mundano
-Forte e ágil
 Excelente escalador
 Acrobático
 Sem armadura
@@ -624,7 +620,7 @@ CROCODILO
 6
 
 Físico:
-6/2/C3·L0·A0
+6/2/C3·L?·A?
 
 Mental/Perceptivo:
 6
@@ -645,12 +641,11 @@ Iniciativa:
 
 Características:
 Animal mundano
-Corpo maciço
 Couro escamoso / armadura natural 1
 Furtivo na aproximação
 ```
 
-**Proveniência curta:** defesa 5d → 6/2; soak total 7d → C3; alerta 6d → 6/2; ataque 6d D6 → 2S; 7L → 3L; 6C → 3C. A armadura natural de 1d permanece característica e não gera P fixo adicional contra L/A.
+**Proveniência curta:** defesa 5d → 6/2; soak total 7d → C3; alerta 6d → 6/2; ataque 6d D6 → 2S; 7L → 3L; 6C → 3C. A armadura natural de 1d é preservada como dado-fonte; sua cobertura L/A permanece pendente de confirmação.
 
 ---
 
@@ -664,7 +659,7 @@ PÁSSARO PEQUENO
 6
 
 Físico:
-6/1/C1·L0·A0
+6/1/C1·L?·A?
 
 Mental/Perceptivo:
 6
@@ -701,7 +696,7 @@ PÁSSARO SUBSTANCIAL
 6
 
 Físico:
-6/2/C1·L0·A0
+6/2/C1·L?·A?
 
 Mental/Perceptivo:
 6
@@ -739,7 +734,7 @@ PÁSSARO GRANDE
 6
 
 Físico:
-7/1/C1·L0·A0
+7/1/C1·L?·A?
 
 Mental/Perceptivo:
 6
@@ -794,13 +789,13 @@ Os 14 perfis canônicos consolidados do bestiário agora possuem versão player-
 
 1. **Pequenos animais:** a regra geral introdutória diz que animais muito pequenos causam Contundente com mordidas e garras, mas as fichas concretas do Gato e do Cachorro Pequeno registram, respectivamente, Garras 1L e Mordida 2L. A conversão preserva os **valores específicos das fichas**, sem reconciliar silenciosamente a inconsistência da fonte.
 2. **Cachorro Pequeno:** não possui Briga listada. A conversão usa a ausência da Habilidade, sem inventar treinamento, resultando em 1S para a Mordida.
-3. **Armadura natural 1:** Tigre/Leão, Cavalo e Crocodilo preservam esse traço. No nível de quantização atual, 1d isolado não gera Proteção fixa adicional contra L/A; o efeito sobre C já está contido no soak total informado.
+3. **Tipagem de absorção animal:** fora do Gato Doméstico já homologado individualmente, L/A permanece pendente quando o corpus não explicita a cobertura por tipo; armadura natural 1 é preservada como dado-fonte até decisão específica.
 4. **Pássaro Pequeno:** Assédio já é efeito fixo e entra diretamente como Ação, sem S ofensivo.
 
-Nenhuma dessas exceções exige nova matemática.
+Essas exceções não autorizam propagação por analogia. Quando a regra-fonte não fecha a função, a pendência deve ser apresentada ao autor antes de congelar a ficha.
 
 ## Gate do PT-2
 
 Todos os perfis foram convertidos com a régua existente, mantendo as fichas finais menores que as fichas originais. Não foi aberta nenhuma simulação nova.
 
-**PT-2: CONCLUÍDO E HOMOLOGADO EM LOTE.**
+**PT-2: EM REVISÃO CORRETIVA. Gato Doméstico homologado individualmente; pacote global aguarda correções pendentes e homologação explícita.**
