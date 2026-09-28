@@ -601,8 +601,8 @@ A ordem vigente de trabalho corretivo deixa de seguir o número dos PTs e passa 
 2. PT-8 — operador de conjuração do NPC → "Efeito de Esfera: N S"
    desbloqueia os sete perfis Despertos e a operação mágicka recorrente
 
-3. Paradoxo — solução específica para Reação de Paradoxo
-   fecha a principal dívida sistêmica restante dentro de PT-8
+3. Paradoxo — gatilho RESOLVIDO: 1d10 ≤ Paradoxo do NPC
+   resta traduzir somente as consequências quando a Reação dispara
 
 4. PT-6 — revisão calma da Teia Digital
    traduzir os termos originais para Obstáculos sem criar taxonomia nova desnecessária
@@ -611,6 +611,8 @@ A ordem vigente de trabalho corretivo deixa de seguir o número dos PTs e passa 
    importante, mas de baixa alavancagem porque não desbloqueia outros pacotes
 ```
 
-**Próximo trabalho por Pareto: PT-8 — operador de conjuração do NPC → "Efeito de Esfera: N S".**
+**Próximo trabalho por Pareto: PT-8 — definir a tabela-base Arete → sucessos do Efeito.**
+
+O julgamento circunstancial já foi simplificado para um único ajuste de ±1S quando as condições ajudarem ou atrapalharem claramente. O gatilho de Paradoxo também já está homologado em 1d10 ≤ Paradoxo.
 
 A decisão ambiental foi fechada sem criar nova rolagem universal para o PJ: preservam-se apenas as resistências/reduções já existentes em M20 e o pool restante vira Impacto fixo.
