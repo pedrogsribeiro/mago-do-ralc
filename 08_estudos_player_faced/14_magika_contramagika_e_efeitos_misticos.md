@@ -134,15 +134,24 @@ A redação comercial final ainda deve conferir detalhes contra a fonte licencia
 
 ### Estado de tradução
 
-Quando uma fonte específica disser explicitamente que a contramágika funciona como **sucessos defensivos que cancelam sucessos do Efeito**, ela pode ser tratada como oposição ativa e submetida à mesma família matemática estudada para Oposição.
+Por decisão autoral explícita de 2026-09-28, a **contramágika ativa do NPC** usa a mesma graduação homologada de Arete da conjuração:
 
-Quando uma ficha trouxer **Contramágika Inata** em dados, o pool deve ser preservado como proteção intrínseca. Ele não deve ser convertido automaticamente em Limiar de Efetividade; qualquer compressão desse pool exige validação específica contra a operação original.
+```text
+Arete 1–3  → 1S
+Arete 4–6  → 2S
+Arete 7–8  → 3S
+Arete 9–10 → 4S
+```
+
+O NPC precisa cumprir os requisitos normais e gastar a ação completa. Cada S cancela 1 sucesso do Efeito. O ST pode ajustar ±1S quando as condições claramente ajudarem ou atrapalharem.
+
+A **Contramágika Inata** permanece distinta: por decisão autoral anterior, seu pool reduz diretamente a parada do PJ quando aplicável.
 
 ### Gate
 
-**REGRA GERAL RECUPERADA.**
+**CONTRAMÁGIKA ATIVA E INATA RESOLVIDAS PARA O MODELO PLAYER-FACED.**
 
-A lacuna deixou de ser arquitetural. Restam duas tarefas: conferir detalhes contra a fonte licenciada e validar matematicamente qualquer compressão da defesa ativa do NPC ou da Contramágika Inata.
+Permanece apenas a conferência editorial contra a fonte licenciada antes da publicação.
 
 ---
 
