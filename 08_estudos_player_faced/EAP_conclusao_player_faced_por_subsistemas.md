@@ -262,7 +262,7 @@ O ST deve poder escrever um Obstáculo desde uma forma mínima como `6` até uma
 
 ## PT-4 — Riscos Ambientais e Perigos
 
-**Status: EM REVISÃO CORRETIVA — arquitetura de dano fixo aprovada; tabela ambiental pendente.**
+**Status: MECANICAMENTE COMPLETO APÓS REVISÃO CORRETIVA; AGUARDA HOMOLOGAÇÃO EXPLÍCITA.**
 
 **Objetivo:** converter o ambiente hostil como agente de consequência sem transformá-lo artificialmente em NPC.
 
@@ -290,7 +290,7 @@ Nenhum risco ambiental deve exigir rolagem do ST; os testes que já pertencem ao
 
 ## PT-5 — Veículos, Perseguições e Colisões
 
-**Status: ARQUITETURA APROVADA — depende do operador ambiental do PT-4 para pools de colisão.**
+**Status: MECANICAMENTE COMPLETO APÓS REVISÃO CORRETIVA; AGUARDA HOMOLOGAÇÃO EXPLÍCITA.**
 
 **Objetivo:** fechar o subsistema veicular inteiro como ferramenta do Storyteller.
 
@@ -347,7 +347,7 @@ A ficha necessária deve depender da natureza do elemento digital, e não de uma
 
 ## PT-7 — Operativos Extraordinários, Ciborgues e Constructos Tecnocráticos
 
-**Status: EM REVISÃO CORRETIVA — depende do operador ambiental do PT-4 para a autodestruição do HIT X.**
+**Status: MECANICAMENTE COMPLETO APÓS REVISÃO CORRETIVA; AGUARDA HOMOLOGAÇÃO EXPLÍCITA.**
 
 **Objetivo:** fechar NPCs tecnocráticos não Iluminados ou cuja operação dependa de módulos, Primium, hacking, contramedidas e chassis especiais.
 
@@ -595,8 +595,8 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 A ordem vigente de trabalho corretivo deixa de seguir o número dos PTs e passa a seguir dependências:
 
 ```text
-1. PT-4 — operador/tabela de pool ambiental → Impacto/dano fixo
-   desbloqueia PT-4 + pools de colisão do PT-5 + autodestruição do PT-7
+1. ~~PT-4 — operador/tabela de pool ambiental → Impacto/dano fixo~~
+   RESOLVIDO: desbloqueou PT-4 + pools de colisão do PT-5 + autodestruição do PT-7
 
 2. PT-8 — operador de conjuração do NPC → "Efeito de Esfera: N S"
    desbloqueia os sete perfis Despertos e a operação mágicka recorrente
@@ -611,6 +611,6 @@ A ordem vigente de trabalho corretivo deixa de seguir o número dos PTs e passa 
    importante, mas de baixa alavancagem porque não desbloqueia outros pacotes
 ```
 
-**Próximo trabalho: PT-4.**
+**Próximo trabalho por Pareto: PT-8 — operador de conjuração do NPC → "Efeito de Esfera: N S".**
 
-Antes de implementar a tabela ambiental, confirmar apenas a decisão normativa ainda aberta: se perigos ambientais ganharão uma nova rolagem universal do PJ para resistir ao Obstáculo ou se permanecerão estritamente nas resistências que M20 já concede. O contrato atual determina a segunda opção; a primeira exige alteração autoral explícita do invariante.
+A decisão ambiental foi fechada sem criar nova rolagem universal para o PJ: preservam-se apenas as resistências/reduções já existentes em M20 e o pool restante vira Impacto fixo.
