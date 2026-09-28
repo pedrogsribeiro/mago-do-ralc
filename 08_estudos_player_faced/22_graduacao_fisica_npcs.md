@@ -47,9 +47,10 @@ Essa tabela é um baseline matemático. NPCs concretos poderão receber pequenos
 | 2–3d | 1 |
 | 4–6d | 2 |
 | 7–9d | 3 |
-| 10d | 4 |
+| 10–11d | 4 |
+| 12–13d | 5 |
 
-Pools acima de 10d ainda não foram calibrados pelo Bloco B e permanecem dívida matemática.
+A extensão acima de 10d é uma **inferência operacional direta** homologada para evitar estudo desnecessário em uma região adjacente da curva.
 
 ### 2.3. Proteção física é tipada
 
@@ -136,7 +137,7 @@ A tabela abaixo é **diagnóstica**. Assinaturas com `?` expõem lacunas documen
 | **Victor** | Destreza 5 + Esportes 4 = 9d | 6/3 | Vigor 4; sem armadura | C2·L0*·A0 | **6/3/C2·L0*·A0** | Mágicko/Poderes: Contramágika Inata 2d | **9 níveis**; sem penalidades por ferimento | Clone geneticamente perfeito; imunidade à dor; contramágika inata 2d |
 | **Ciborgue Metálico Comum** | Destreza 3 + Esportes 2 = 5d | 6/2 | Vigor 4 + implante; 5d totais | C2·L?·A? | **6/2/C2·L?·A?** | Corpo aumentado; interfaces integradas; módulos de combate/investigação/infiltração |
 | **HIT Mark V** | Destreza 2 + Esportes 3 = 5d¹ | 6/2 | Vigor 5 + Primium 4; 9d totais | P3, tipagem pendente | **6/2/P3[tipagem pendente]** | **Mágicko/Poderes: Contramágika Inata 5d**; Mental/Técnico funcional | **7 níveis?** ficha especial: 5×OK, -1, -5 antes de Destruído; confirmar contagem operacional | Chassi de Primium; sensores; metralhadora integrada; garras; contramágika 5d |
-| **HIT Mark X** | Destreza 4 + Esportes 3 = 7d¹ | 7/2 | Vigor 6 + armadura interna 6; 12d totais | acima da curva calibrada; tipagem pendente | **7/2/P?[12d]** | **Mágicko/Poderes: Contramágika Inata 4d**; Mental/Técnico avançado | **9 níveis** antes de Destruído | Biomecânica; mudança facial; conectividade; autodestruição; contramágika 4d |
+| **HIT Mark X** | Destreza 4 + Esportes 3 = 7d¹ | 7/2 | Vigor 6 + armadura interna 6; 12d totais | P5 por extensão direta; tipagem pendente | **7/2/P5[tipagem pendente]** | **Mágicko/Poderes: Contramágika Inata 4d**; Mental/Técnico avançado | **9 níveis** antes de Destruído | Biomecânica; mudança facial; conectividade; autodestruição; contramágika 4d |
 | **Terno Preto** | Destreza 3 + Esportes 2 = 5d | 6/2 | Vigor 3 + terno blindado 4; 7d totais; Iluminado | C3·L3·A0 | **6/2/C3·L3·A0** | Social/Mental fortes; Mágicko: Arete 3–5 + Esferas | 7 níveis especiais, terminando em Vaporizado | Aura de medo; investigação NOM; poderes; dissolução corporal após morte |
 | **Tigre / Leão** | Destreza 4 + Esportes 3 = 7d | 7/2 | Vigor 4 + armadura natural 1; 5d totais | C2·L?·A? | **7/2/C2·L?·A?** | Predador grande; mordida/garras letais; Vitalidade ampliada |
 | **Crocodilo** | Destreza 3 + Esportes 2 = 5d | 6/2 | Vigor 6 + couro escamoso 1; 7d totais | C3·L?·A? | **6/2/C3·L?·A?** | Couro escamoso; mordida letal; cauda contundente; corpo maciço |
@@ -285,10 +286,10 @@ O ganho player-faced vem de tornar a resolução frequente compacta, preservando
 1. Confirmar no material original a cobertura por tipo de dano das armaduras mundanas usadas por Policial, Agente do Governo e Durão Profissional.
 2. Confirmar a regra específica de absorção de Ciborgues, HIT Marks e armadura de Primium para C/L/A.
 3. Confirmar se Victor possui alguma exceção própria à regra comum de absorção Letal por não Despertos.
-4. Calibrar Proteção para pools acima de 10d, necessária ao HIT Mark X com 12d de soak total.
+4. ~~Calibrar Proteção acima de 10d~~ — resolvido por extensão operacional: 10–11d→P4; 12–13d→P5.
 5. Selecionar uma amostra de NPCs concretos representativos e comparar a experiência clássica contra a assinatura convertida, permitindo pequenos ajustes locais de D/R/P quando melhorarem a fidelidade.
 6. Levantar, por NPC concreto, as assinaturas **Social**, **Mental/Técnico** e **Mágicko/Poderes**, sem assumir que a matemática física se transfere automaticamente.
-7. Converter Contramágika Inata e outras resistências mágickas apenas após auditoria específica do subsistema.
+7. Contramágika Inata permanece em dados como redução direta da parada do PJ quando aplicável; outras resistências mágickas continuam dependendo de seu procedimento específico.
 8. Preservar explicitamente Vitalidade/Integridade especial e demais formas de Persistência.
 9. Só depois dessa calibração nomear eventuais graduações editoriais ou clusters de referência.
 
@@ -306,10 +307,10 @@ A ficha achatada passa a distinguir entre **dimensão existente** e **dimensão 
 | **Hacktivista Desperto** | **6/2/C2·L2·A0** | Carisma/Manipulação 3; Lábia 4; Política 4 | Inteligência 4 + Computação 5 = 9d em hacking; Investigação 4; Tecnologia 4 | Arete 3–4; Correspondência/Dados 3, Forças 2, Mente 2 etc.; procedimentos mágickos preservados | 7 níveis humanos |
 | **Músico Xamã Urbano** | **7/1/C2·L2·A0** | Carisma 4; expressão/artes forte; oposição social depende da situação | Percepção 4; Consciência 3; Cosmologia 3; frente perceptiva/espiritual forte | Arete 3–4; Espírito 3, Forças 2, Primórdio 1, Tempo 2 | 7 níveis humanos |
 | **Pelourinho** | defesa física alta pela Destreza 4 e capacidades de combate; assinatura completa ainda a calibrar | presença social ordinária quase nula, Intimidação 6 como vetor específico | Raciocínio 5; Prontidão 4; percepção mundana anômala substituída por Correspondência/Mente | **Arete 6**; Correspondência 4, Espírito 4, Mente 4 etc.; poderes permanentes relevantes | 8 níveis: 5×OK, -1, -5, Incapacitado |
-| **Victor** | **6/3/C2·L0*·A0** | Carisma 4; demais habilidades sociais variáveis | Percepção 3; Tecnologia 3; outras habilidades 1–4 conforme função | **Contramágika Inata 2d**; deve permanecer explícita até conversão específica | **9 níveis** antes de Destruído; sem penalidades por ferimento |
+| **Victor** | **6/3/C2·L0*·A0** | Carisma 4; demais habilidades sociais variáveis | Percepção 3; Tecnologia 3; outras habilidades 1–4 conforme função | **Contramágika Inata 2d**; reduz diretamente 2 dados da parada do PJ quando aplicável | **9 níveis** antes de Destruído; sem penalidades por ferimento |
 | **Ciborgue Metálico Comum** | **6/2/C2·L?·A?** | social baixo/médio e condicionado; Força de Vontade 5/3 conforme programação | Computação 2, Investigação 2, Tecnologia 3–5; módulos podem elevar drasticamente a frente técnica | módulos/poderes tecnológicos; sem assinatura mágicka universal | 8 níveis antes de Incapacitado |
-| **HIT Mark V** | **6/2/P3[tipagem pendente]** | quase inexistente como frente persuasiva comum | Percepção 3 + Prontidão 3 = 6d; sensores especiais; programação técnica | **Contramágika Inata 5d por Primium**; proteção intrínseca, ainda sem compressão homologada | ficha especial: 5×OK, -1, -5, Destruído |
-| **HIT Mark X** | **7/2/P?[12d]** | social funcional apenas por camuflagem/mudança facial; não implica defesa social alta | Percepção 5 + Prontidão 4 = 9d; sistemas de dados e conectividade contínua | **Contramágika Inata 4d por Primium**; proteção intrínseca, ainda sem compressão homologada | **9 níveis** antes de Destruído |
+| **HIT Mark V** | **6/2/P3[tipagem pendente]** | quase inexistente como frente persuasiva comum | Percepção 3 + Prontidão 3 = 6d; sensores especiais; programação técnica | **Contramágika Inata 5d por Primium**; reduz diretamente 5 dados da parada do PJ quando aplicável | ficha especial: 5×OK, -1, -5, Destruído |
+| **HIT Mark X** | **7/2/P5[tipagem pendente]** | social funcional apenas por camuflagem/mudança facial; não implica defesa social alta | Percepção 5 + Prontidão 4 = 9d; sistemas de dados e conectividade contínua | **Contramágika Inata 4d por Primium**; reduz diretamente 4 dados da parada do PJ quando aplicável | **9 níveis** antes de Destruído |
 | **Terno Preto** | **6/2/C3·L3·A0** | Manipulação 4, Intimidação 4, Lábia 3; **Aura de Medo** é regra própria e deve permanecer explícita | Percepção 5 + Prontidão 5 = 10d; Investigação 3, Computação 3, Hipertecnologia 3 | Arete 3–5; Mente 2+; outras Esferas 2–4; procedimentos e contramágika conforme regra | 7 níveis especiais, terminando em Vaporizado |
 
 Esta tabela não transforma automaticamente todos esses valores em D/R/P. Ela mostra **o que a ficha achatada precisa carregar** e qual é o estado de cada frente.
