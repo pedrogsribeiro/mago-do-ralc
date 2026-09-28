@@ -41,6 +41,49 @@ A conversão de um NPC comum não exige uma nova simulação apenas porque seus 
 
 Não iniciar um subsistema novo porque ele apareceu incidentalmente durante outro. Registrar a dependência e manter o foco.
 
+### Gate obrigatório contra propagação por analogia
+
+A execução em lote só vale para transformações **já homologadas para a mesma função mecânica**.
+
+Antes de aplicar qualquer operador a uma mecânica nova, o agente deve responder:
+
+1. a operação original é funcionalmente a mesma já coberta?
+2. o operador foi homologado para esta função específica?
+3. a fonte fornece os dados necessários sem completar lacunas?
+4. a aplicação preserva todos os procedimentos e recursos do PJ?
+
+Se houver qualquer “não”, “parcial” ou dúvida, a etapa permitida é **diagnosticar e propor**. Implementação fica bloqueada até decisão autoral explícita.
+
+Não é permitido propagar por analogia apenas porque duas regras usam dados, sucessos, dificuldade, dano, resistência, relógio ou outra estrutura superficialmente semelhante.
+
+### Gate obrigatório de homologação explícita
+
+O fluxo correto de qualquer decisão nova é:
+
+```text
+diagnóstico
+→ proposta/opções
+→ decisão autoral explícita
+→ implementação
+→ verificação
+→ homologação explícita do resultado/pacote
+```
+
+`segue`, `continue`, `próximo` ou comando genérico equivalente significa apenas **prosseguir o trabalho permitido**. Não aprova retroativamente inferências, regras novas ou o pacote anterior.
+
+`ok` só registra homologação quando responde diretamente a uma proposta ou pergunta de aprovação claramente delimitada.
+
+Nenhum pacote pode ser marcado como `CONCLUÍDO E HOMOLOGADO` por iniciativa do agente.
+
+### Taxonomia obrigatória de auditoria corretiva
+
+Quando houver dúvida sobre trabalho já produzido, cada achado deve ser classificado em **uma e somente uma** destas quatro classes:
+
+1. **Aplicação válida de regra homologada** — a transformação já estava autorizada para a mesma função e foi aplicada corretamente.
+2. **Inferência dos agentes** — extrapolação, preenchimento, organização ou proposta produzida pelo agente sem decisão autoral explícita suficiente.
+3. **Decisão autoral explícita** — decisão inequivocamente aprovada pelo autor e registrável como vigente.
+4. **Erro factual/conversão** — dado incorreto, cálculo incorreto, contradição com fonte/contrato ou estado de homologação registrado sem base autoral válida.
+
 ---
 
 # 2. Definição de pronto de qualquer subsistema
