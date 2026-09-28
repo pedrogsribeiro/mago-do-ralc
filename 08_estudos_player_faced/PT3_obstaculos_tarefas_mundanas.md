@@ -1,7 +1,7 @@
 ---
 type: estudo
-status: em_revisao_corretiva
-summary: "PT-3 em revisão corretiva: núcleo de preservação mantido; exemplos e interfaces inferidos pelos agentes reclassificados como propostas."
+status: homologado
+summary: "PT-3 homologado após revisão corretiva: obstáculos e tarefas mundanas preservam os procedimentos player-facing de M20 e a interface compacta foi aprovada."
 tags: [player-faced, pt-3, obstaculos, tarefas, acoes, drp, durability, structure]
 ---
 
@@ -9,7 +9,7 @@ tags: [player-faced, pt-3, obstaculos, tarefas, acoes, drp, durability, structur
 
 ## Nota de revisão corretiva
 
-O núcleo que apenas preserva procedimentos já player-facing de M20 permanece válido. Exemplos concretos e formas de interface criados pelos agentes passam a ser tratados como **propostas**, não como regras homologadas, até decisão autoral explícita.
+O núcleo que preserva procedimentos já player-facing de M20 permanece válido. Em 2026-09-28, o autor aprovou explicitamente o PT-3 após a apresentação das pendências corretivas. A interface compacta permanece uma forma editorial de representar regras existentes, sem criar novos números ou procedimentos.
 
 ## 1. Princípio do pacote
 
@@ -210,11 +210,11 @@ Não existe necessidade de criar uma ficha universal de "ICE" ou de computador p
 
 ---
 
-# 5. Representações mínimas — propostas de interface
+# 5. Representações mínimas
 
 As formas abaixo são **gramática**, não uma nova tabela de dificuldades.
 
-### Exemplo estrutural de Obstáculo simples — proposta de interface
+### Exemplo estrutural de Obstáculo simples
 
 ```text
 OBSTÁCULO SIMPLES
@@ -301,4 +301,4 @@ Hacking detalhado e Teia Digital permanecem no PT-6. Riscos ambientais permanece
 
 O Storyteller pode representar um Obstáculo mundano desde `6` até Dificuldade + progresso + gatilho ou Durability + Structure sem rolar dados e sem reconstruir subsistemas novos.
 
-**PT-3: EM REVISÃO CORRETIVA. Núcleo preservado; propostas de interface aguardam decisão autoral explícita.**
+**PT-3: CONCLUÍDO E HOMOLOGADO APÓS REVISÃO CORRETIVA.**
