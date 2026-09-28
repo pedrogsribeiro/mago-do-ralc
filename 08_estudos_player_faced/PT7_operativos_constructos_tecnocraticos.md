@@ -1,0 +1,345 @@
+---
+type: estudo
+status: em_andamento
+summary: "PT-7: conversão em lote dos operativos extraordinários, ciborgues e HIT Marks canônicos para fichas DRP enxutas."
+tags: [player-faced, pt-7, tecnocracia, ciborgues, hit-marks, drp, constructos]
+---
+
+# PT-7 — Operativos Extraordinários, Ciborgues e Constructos Tecnocráticos
+
+## 1. Regra de condução
+
+Este pacote usa diretamente a régua DRP já homologada e mantém a ficha final menor que a ficha original.
+
+Só entram em **Ações** capacidades que o NPC realmente impõe em mesa. Habilidades técnicas, sensores, módulos, imunidades e acessos ficam em **Características** quando não precisam de uma linha mecânica própria.
+
+O **Terno Preto** fica fora deste pacote: a própria fonte o define como Agente Iluminado, portanto sua conversão completa pertence ao PT-8, junto de Arete, Esferas e mágika de NPCs.
+
+Há duas lacunas quantitativas já conhecidas que este lote não esconde:
+
+1. o baseline de Proteção foi calibrado até 10d de soak; o HIT Mark X possui 12d;
+2. Contramágika Inata ainda está expressa em dados na fonte e não possui compressão player-faced homologada.
+
+Essas duas lacunas são tratadas ao final como blockers do pacote. Elas não justificam recalibrar os demais campos de cada NPC.
+
+---
+
+# 2. Cientista Extraordinário
+
+```text
+CIENTISTA EXTRAORDINÁRIO
+
+6
+
+Físico:
+6/1/C1·L0·A0
+
+Mental/Técnico:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+—
+
+Persistência:
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 5
+
+Iniciativa:
+12
+
+Características:
+Cientista não Iluminado
+Ciência e Erudição avançadas
+Computação e Hipertecnologia
+Tecnologia laboratorial
+Jaleco blindado leve
+Dispositivos laboratoriais e dados corporativos
+```
+
+**Proveniência curta:** defesa física 3d → 6/1; Vigor 2 → C1; Percepção 3 + Prontidão 2 = 5d → 6/2; iniciativa 3 + 3 + 6 = 12. A fonte não fornece ataque/equipamento ofensivo específico, portanto nenhum é inventado.
+
+---
+
+# 3. Agente de Campo Extraordinário
+
+```text
+AGENTE DE CAMPO EXTRAORDINÁRIO
+
+6
+
+Físico:
+6/2/C2–3·L0–1·A0
+
+Mental/Técnico:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+Arma de fogo: 2–4S + efeito da arma equipada
+
+Persistência:
+OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 6
+
+Iniciativa:
+12–14
+
+Características:
+Operativo extraordinário
+Terno de trama blindada
+Investigação e Hipertecnologia
+Comunicador tático
+Veículo utilitário blindado
+Armamento definido antes da cena
+```
+
+**Proveniência curta:** defesa 5–6d → 6/2; soak total 5–7d → C2–3; armadura 1–2d → L0–1 pela quantização vigente quando a proteção se aplica a Letal; alerta 5–6d → 6/2; iniciativa 12–14. A parada de Armas de Fogo varia de 5d a 9d; a ficha original não fixa uma arma única, por isso o efeito vem do loadout escolhido e não é inventado pelo template.
+
+---
+
+# 4. Ciborgue Metálico Comum
+
+```text
+CIBORGUE METÁLICO COMUM
+
+6
+
+Físico:
+6/2/C2·L?·A?
+
+Mental/Técnico:
+6
+Percepção/Alerta: 6/2
+
+Ações:
+—
+
+Persistência:
+OK, OK, -1, -1, -2, -2, -5, Incapacitado
+
+Recursos:
+Força de Vontade 5
+Força de Vontade 3 contra Condicionamento Social e Programação
+
+Iniciativa:
+12
+
+Características:
+Corpo cibernético
+Armadura subcutânea 1
+Rádio e internet implantados
+Portas USB ósseas
+Módulo de Combate, Investigação ou Infiltração
+```
+
+### Módulos
+
+**Combate:** +2 Força, Briga, Armas de Fogo e Armas Brancas; garras biônicas; armadura reforçada.
+
+```text
+Garras com Módulo de Combate: 3S + 2–3L
+```
+
+**Investigação:** +3 Computação e Investigação; visão IR/UV; olfato e audição ampliados; IVAE.
+
+**Infiltração:** +2 Computação, Furtividade e Tecnologia; interfaces físicas de hacking; IVAE.
+
+**Proveniência curta:** defesa 5d → 6/2; soak total 5d → C2; alerta 6d → 6/2; iniciativa 12. A fonte não define de forma suficiente, neste corpus, a cobertura C/L/A da armadura cibernética; por isso L/A permanecem marcados em vez de serem inventados.
+
+---
+
+# 5. Victor
+
+```text
+VICTOR
+
+6
+
+Físico:
+6/3/C2·L0·A0
+
+Mental/Técnico:
+6
+Percepção/Alerta: 6/2
+
+Mágicko/Poderes:
+Contramágika Inata 2d — conversão pendente
+
+Ações:
+Briga: 4S + 2C
+
+Persistência:
+OK, OK, OK, -1, -1, -2, -2, -2, -5, Destruído
+Ignora penalidades de dados por ferimentos físicos
+
+Recursos:
+Força de Vontade 4
+
+Iniciativa:
+14
+
+Características:
+Clone Progenitor
+Imunidade à dor
+Treinamento físico excepcional
+Habilidades adicionais escolhidas conforme função
+Biomods e comunicador tático
+```
+
+**Proveniência curta:** defesa 9d → 6/3; Vigor 4 → C2; alerta 5d → 6/2; Briga 9d D6 → 4S; Força 4 → efeito-base 2C; iniciativa 14. A Contramágika Inata permanece explícita porque sua compressão ainda não foi homologada.
+
+---
+
+# 6. HIT Mark V — “Rusty”
+
+```text
+HIT MARK V
+
+6
+
+Físico:
+6/2/P3 [tipagem C/L/A a confirmar]
+
+Mental/Técnico:
+6
+Percepção/Alerta: 6/2
+
+Mágicko/Poderes:
+Contramágika Inata 5d — conversão pendente
+
+Ações:
+Metralhadora Integrada: 2S + 3L
+Garras Cibernéticas: 2S + 3L
+
+Persistência:
+OK, OK, OK, OK, OK, -1, -5, Destruído
+
+Recursos:
+Força de Vontade 5
+Munição: 200
+Cadência: 3 tiros/turno
+
+Iniciativa:
+10
+
+Características:
+Constructo-agente
+Chassi pesado de Primium
+Sensores infravermelho e ultravioleta
+Programação tecnocrática
+Hacking físico: +4 dificuldade; mínimo 10 min; teste estendido conforme regra do modelo
+```
+
+**Proveniência curta:** defesa 5d → 6/2; soak total 9d → P3; alerta 6d → 6/2; iniciativa 10. Armas de Fogo 3 implícita na graduação geral + Destreza 2 = 5d D7 → 2S; dano 8L → 3L. Garras usam Destreza 2 + Briga 3 = 5d D6 → 2S; dano 8L → 3L.
+
+---
+
+# 7. HIT Mark X — “Soldado Invisível”
+
+```text
+HIT MARK X
+
+6
+
+Físico:
+7/2/P?[12d]
+
+Mental/Técnico:
+6
+Percepção/Alerta: 6/3
+
+Mágicko/Poderes:
+Contramágika Inata 4d — conversão pendente
+
+Ações:
+Garras de Nanotubos: 3S + 3L
+Autodestruição Tática: 3L em raio de 4 m
+
+Persistência:
+OK, OK, OK, OK, OK, OK, OK, OK, -5, Destruído
+
+Recursos:
+Força de Vontade 6
+
+Iniciativa:
+14
+
+Características:
+Constructo-agente biomecânico
+Mudança facial e corporal cosmética
+Conectividade sem fio contínua
+Portas USB e memória integrada
+IVAE de Rastro de Dados
+Reprogramação exige Matéria 3 / Mente 3 / Forças 2 + hacking físico estendido
+Autodestruição ao ser destruído ou diante de captura/incapacitação iminente
+```
+
+**Proveniência curta:** defesa 7d → 7/2; alerta 9d → 6/3; iniciativa 14; garras usam Destreza 4 + Armas Brancas 4 = 8d D6 → 3S e 8L → 3L. A explosão original de 8d L é comprimida pelo operador de efeito já usado no projeto para 3L; não recebe ataque próprio.
+
+O soak total de 12d fica explicitamente marcado porque o baseline de P vigente termina em 10d. Nenhum P acima da curva é inventado.
+
+---
+
+# 8. Reprogramação de HIT Marks
+
+A regra de hacking permanece ação do PJ e portanto já é player-facing.
+
+Para Mark V–IX, a fonte consolidada exige contato físico, aumento de dificuldade e teste estendido de Inteligência + Hipertecnologia com alvo de sucessos ligado ao modelo.
+
+Para Mark X, somam-se os requisitos mágickos Matéria 3 / Mente 3 / Forças 2.
+
+Essas regras ficam como Características dos modelos; não viram ações dos HIT Marks.
+
+---
+
+# 9. Blockers reais do PT-7
+
+## 9.1 Contramágika Inata
+
+Victor, HIT Mark V e HIT Mark X possuem pools explícitos de Contramágika Inata.
+
+A documentação atual estabelece que ela é proteção intrínseca e que sua parada **não deve ser convertida automaticamente** em Limiar/Proteção sem validação da operação original.
+
+Como o produto exige zero dados do ST, manter apenas “2d/5d/4d” não fecha a ficha final.
+
+Este é um blocker real e compartilhado do método, não três estudos separados por NPC.
+
+## 9.2 Proteção do HIT Mark X acima de 10d
+
+O baseline vigente de soak → P termina em 10d. O Mark X possui 12d totais.
+
+Isso exige apenas estender a régua geral de Proteção acima de 10d; não requer recalibrar o Mark X inteiro.
+
+## 9.3 Tipagem de armadura cibernética/Primium
+
+O corpus atual informa soak total e armadura, mas não consolida de modo suficiente, neste ponto do repositório, a cobertura exata C/L/A de Ciborgues e HIT Marks.
+
+A ficha preserva o valor total e marca a tipagem como pendência documental em vez de inventá-la.
+
+---
+
+# 10. Auditoria do lote
+
+- [x] Cientista Extraordinário convertido;
+- [x] Agente de Campo Extraordinário convertido;
+- [x] Ciborgue Metálico Comum convertido até a tipagem documental disponível;
+- [x] Victor convertido, preservando Contramágika Inata como blocker;
+- [x] HIT Mark V convertido, preservando Contramágika Inata como blocker;
+- [x] HIT Mark X convertido, preservando Contramágika Inata e soak 12d como blockers;
+- [x] módulos de especialização preservados;
+- [x] hacking/reprogramação preservados;
+- [x] autodestruição convertida;
+- [x] sensores e estados especiais preservados;
+- [x] Terno Preto mantido no PT-8;
+- [x] nenhuma nova simulação por NPC aberta.
+
+## Gate
+
+O lote está convertido com a régua existente. Restam **dois blockers matemáticos compartilhados** — Contramágika Inata e P acima de 10d — e uma conferência documental de tipagem de armadura cibernética/Primium.
+
+**PT-7: CONVERSÃO EM LOTE CONCLUÍDA; PACOTE AINDA NÃO HOMOLOGÁVEL POR CAUSA DOS BLOCKERS COMPARTILHADOS ACIMA.**
