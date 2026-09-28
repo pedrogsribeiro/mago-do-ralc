@@ -1,11 +1,17 @@
 ---
 type: estudo
-status: homologado
-summary: "PT-5 concluído e homologado: veículos, perseguições e colisões preservados em forma player-facing sem fundir condutor, posição, integridade e ocupantes."
+status: em_revisao_corretiva
+summary: "PT-5 em revisão corretiva: Traits e procedimentos do PJ preservados; relógio de posição e compressões adicionais tratados como propostas até decisão autoral."
 tags: [player-faced, pt-5, veiculos, perseguicoes, colisoes, durability, structure, direcao]
 ---
 
 # PT-5 — Veículos, Perseguições e Colisões
+
+## Nota de revisão corretiva
+
+Safe Speed, Max Speed, Maneuverability, Durability, Structure e as rolagens de Direção/Pilot do PJ permanecem preservados.
+
+O **Relógio de posição** é mantido apenas como **proposta de interface** para sucessos acumulados, não como regra homologada. Qualquer compressão da oposição do condutor rival ou de pools de impacto precisa demonstrar que usa uma transformação já homologada para a mesma função.
 
 ## 1. Princípio do pacote
 
@@ -64,7 +70,7 @@ PJ rola sua condução/manobra
 
 Quando não há rival ativo, mas apenas trânsito, terreno, clima ou rota difícil, trata-se de Obstáculo passivo do PT-3/PT-4.
 
-## Relógio de posição
+## Relógio de posição — proposta de interface
 
 O Relógio pode exibir os sucessos acumulados da perseguição:
 
@@ -279,4 +285,4 @@ Essas pendências são documentais. A arquitetura não exige nova matemática.
 
 O Storyteller pode operar veículo, perseguição e colisão mantendo separados condutor, posição, integridade e ocupantes, sem introduzir novas rolagens do ST.
 
-**PT-5: CONCLUÍDO E HOMOLOGADO. As conferências de tabelas permanecem pendências editoriais para publicação.**
+**PT-5: EM REVISÃO CORRETIVA. Traits e procedimentos do PJ preservados; relógio de posição e compressões não homologadas permanecem propostos.**
