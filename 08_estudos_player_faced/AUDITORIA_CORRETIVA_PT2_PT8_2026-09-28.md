@@ -385,3 +385,63 @@ A sequência restante é:
 ```
 
 Nenhuma propagação editorial posterior deve ocorrer antes disso.
+
+
+---
+
+# 12. Decisões autorais posteriores à auditoria — 2026-09-28
+
+## PT-2
+
+A absorção tipada passa a obedecer à seguinte semântica:
+
+- quando a fonte informa **absorção total** capaz de absorver Letal, isso deve ser preservado como proteção aplicável a Letal;
+- proteção Letal também protege contra Contundente;
+- proteção apenas Contundente não protege contra Letal;
+- C/L são valores totais aplicáveis, não parcelas somadas;
+- Agravado não herda nem concede cobertura adicional sem regra específica.
+
+Permanece pendente confirmar a regra de uso destreinado para o Cachorro Pequeno, cuja ficha não lista Briga.
+
+## PT-3
+
+Aprovado explicitamente após revisão corretiva. Pode ser tratado como homologado.
+
+## PT-4
+
+Aprovada uma tabela própria de **pool ambiental → dano/Impacto fixo**.
+
+Antes de implementá-la integralmente, permanece uma escolha normativa: sob o contrato atual, só se preservam resistências/reações já concedidas ao PJ por M20. Criar uma resistência universal nova contra fogo/radiação/explosão violaria o invariante atual e exige decisão autoral específica de alteração do contrato.
+
+## PT-5
+
+Arquitetura aprovada. Relógio de posição aceito como interface opcional. Pools de impacto de colisão dependem da futura tabela ambiental do PT-4.
+
+## PT-6
+
+Revisão adiada deliberadamente. Próxima análise deve partir dos termos e procedimentos da própria Teia Digital e traduzir cada um para a gramática de Obstáculos sem substituir sua função.
+
+## PT-7
+
+Autodestruição do HIT Mark X usará o mesmo operador ambiental aprovado para PT-4. O valor-fonte 8d L permanece até a tabela ser homologada.
+
+## PT-8
+
+A forma de saída da mágika de NPC foi aprovada como **Efeito + sucessos fixos**, por exemplo `Efeito de Mente: 3S`.
+
+O PJ só recebe dificuldade/rolagem de resistência quando a regra original de M20 já lhe concede essa operação. Caso contrário, o Efeito chega com seus sucessos fixos.
+
+Ainda falta definir a transformação de Arete + dificuldade/modificadores do NPC em `N S`.
+
+A Reação de Paradoxo permanece aberta e será repensada separadamente.
+
+## Dependências restantes para retomar a EAP
+
+1. fechar a semântica prática de PT-2 nas fichas e resolver o uso destreinado do Cachorro Pequeno;
+2. construir/homologar a tabela ambiental do PT-4;
+3. decidir se o contrato continua proibindo resistência ambiental nova — padrão atual — ou se haverá exceção autoral explícita;
+4. aplicar a tabela ambiental a PT-5/PT-7 quando pertinente;
+5. revisar PT-6 com calma a partir das regras da Teia Digital;
+6. definir o operador `Arete + dificuldade/modificadores → sucessos do Efeito` no PT-8;
+7. redesenhar separadamente a Reação de Paradoxo;
+8. depois disso, homologar explicitamente os pacotes ainda abertos antes de iniciar PT-9.
