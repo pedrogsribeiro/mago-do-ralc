@@ -13,6 +13,27 @@ As regras-fonte permanecem registradas. O pacote não pode ser considerado playe
 
 Por isso, fogo, radiação, explosões e qualquer outro perigo com pool variável permanecem **abertos quanto à operação do lado do ST** até verificação específica.
 
+## Decisão autoral de 2026-09-28
+
+Foi aprovada a criação de uma **tabela própria de pool ambiental → dano/Impacto fixo**, seguindo o mesmo princípio já usado para converter pools de dano em efeitos fixos, mas calibrada para perigos ambientais.
+
+Isso também resolve, por dependência, pools equivalentes como a autodestruição do HIT Mark X no PT-7.
+
+Permanece uma questão normativa antes da implementação completa: o contrato atual proíbe criar uma nova rolagem do PJ apenas para substituir uma antiga operação do ST. A fonte de fogo, por exemplo, aplica dano Agravado automático por exposição e só prevê Vigor/Matéria para evitar ignição de objetos em certas condições. Portanto, uma **rolagem universal de resistência ao perigo** seria uma alteração da experiência do jogador e só pode ser criada se o autor decidir alterar explicitamente esse invariante.
+
+Sob o contrato atual, a forma segura é:
+
+```text
+perigo
+→ preservar qualquer resistência/reação que M20 já dê ao PJ
+→ transformar o pool de dano restante em Impacto fixo
+→ aplicar soak/proteção do PJ quando M20 permitir
+```
+
+A tabela ambiental ainda precisa ser construída antes do fechamento do PT-4.
+
+---
+
 ## 1. Princípio do pacote
 
 Os riscos ambientais do corpus já são, em grande parte, naturalmente player-facing. O ambiente não precisa receber agência, iniciativa, Perfil DRP ou uma ficha de NPC.
@@ -252,4 +273,4 @@ Essas pendências não exigem estudo matemático novo.
 
 O ST pode operar os riscos ambientais consolidados sem rolar por um agente ambiental fictício e sem alterar as ações normais do jogador.
 
-**PT-4: EM REVISÃO CORRETIVA. Regras-fonte preservadas; fechamento player-facing dos pools ambientais variáveis permanece aberto.**
+**PT-4: EM REVISÃO CORRETIVA. A arquitetura de dano fixo ambiental foi aprovada; faltam a tabela ambiental e a decisão sobre eventual resistência universal nova do PJ.**
