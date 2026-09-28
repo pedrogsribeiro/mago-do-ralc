@@ -47,6 +47,75 @@ A **Reação de Paradoxo** permanece deliberadamente aberta e deve ser repensada
 
 ---
 
+## Proposta Pareto para o operador de conjuração — AGUARDA HOMOLOGAÇÃO
+
+A releitura das regras de conjuração confirma que a operação original do NPC é:
+
+```text
+Arete
++ dificuldade determinada pela Esfera mais alta e pelo tipo Coincidente/Vulgar
++ modificadores normais de Quintessência, tempo, instrumentos, fast-casting, distração etc.
+→ sucessos líquidos
+→ sucessos determinam se o Efeito existe e sua força
+```
+
+A proposta de maior alavancagem é **não criar uma segunda gramática para mágika**. A ficha player-faced conservaria a dificuldade real de M20 e substituiria apenas a antiga rolagem de Arete do NPC por uma quantidade fixa de sucessos.
+
+### Candidato PT8-A
+
+```text
+1. ST define o Efeito e as Esferas normalmente.
+2. Calcula a Dificuldade exatamente como em M20.
+3. Aplica todos os modificadores normais.
+4. Usa Arete + Dificuldade efetiva no operador já estudado de pool + Dificuldade → sucessos fixos.
+5. A saída é "Efeito de [Esfera]: N S".
+6. O PJ usa somente resistências/defesas que M20 já lhe concede.
+7. Sucessos do PJ cancelam/reduzem os S do Efeito apenas quando a regra original assim determina.
+8. Dano, cura, duração, limiar de sucessos e demais efeitos continuam usando os sucessos restantes conforme M20.
+```
+
+A autorização ainda necessária é **específica**: permitir que o operador `pool + Dificuldade → S`, já estudado para contagem de sucessos de rolagens do ST, seja usado para a rolagem de Arete do NPC. Esta seção não assume essa homologação.
+
+### Formas finais de ficha
+
+Quando o alvo possui resistência que cancela sucessos:
+
+```text
+Dominação Mental
+Efeito de Mente: 3S
+Resistência do PJ: usar a regra original; sucessos cancelam S do Efeito
+```
+
+Quando o Efeito causa dano com base nos sucessos:
+
+```text
+Descarga de Forças
+Efeito de Forças: 3S
+Dano potencial pela regra original: 2 níveis por S restante
+Tipo: conforme o Efeito
+Absorção/resistência do PJ: somente quando M20 permitir
+```
+
+Quando a regra já impõe ao alvo um teste próprio contra uma Dificuldade:
+
+```text
+Efeito
+Teste do PJ: parada original, Dificuldade original
+Consequência/dano: valor derivado do Efeito
+```
+
+A prioridade é conservar o procedimento do jogador e retirar apenas a rolagem do NPC.
+
+### Efeitos estendidos
+
+Se M20 exigir sucessos acumulados, a mesma unidade `S` alimenta o requisito original. Não se cria relógio novo; uma trilha visual pode apenas representar os sucessos já exigidos.
+
+### Falha e botch
+
+`0S` pode representar ausência de sucesso da conjuração, mas **botch não é resolvido por este operador**. A relação entre falha crítica de conjuração e Paradoxo permanece dentro do trabalho separado de Paradoxo. Nenhuma consequência de botch é inventada aqui.
+
+---
+
 # 2. Estado da mágika de NPC após revisão corretiva
 
 A auditoria confirmou que o operador físico `pool + Dificuldade → S fixos` **não pode ser propagado por analogia** para Arete.
