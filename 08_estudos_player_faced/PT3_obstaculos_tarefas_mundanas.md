@@ -1,11 +1,15 @@
 ---
 type: estudo
-status: homologado
-summary: "PT-3 concluído e homologado: Obstáculos passivos e tarefas mundanas preservados em forma player-facing mínima."
+status: em_revisao_corretiva
+summary: "PT-3 em revisão corretiva: núcleo de preservação mantido; exemplos e interfaces inferidos pelos agentes reclassificados como propostas."
 tags: [player-faced, pt-3, obstaculos, tarefas, acoes, drp, durability, structure]
 ---
 
 # PT-3 — Obstáculos e Tarefas Mundanas
+
+## Nota de revisão corretiva
+
+O núcleo que apenas preserva procedimentos já player-facing de M20 permanece válido. Exemplos concretos e formas de interface criados pelos agentes passam a ser tratados como **propostas**, não como regras homologadas, até decisão autoral explícita.
 
 ## 1. Princípio do pacote
 
@@ -206,18 +210,18 @@ Não existe necessidade de criar uma ficha universal de "ICE" ou de computador p
 
 ---
 
-# 5. Representações mínimas
+# 5. Representações mínimas — propostas de interface
 
 As formas abaixo são **gramática**, não uma nova tabela de dificuldades.
 
-### Obstáculo simples
+### Exemplo estrutural de Obstáculo simples — proposta de interface
 
 ```text
-FECHADURA COMUM
-6
+OBSTÁCULO SIMPLES
+Dificuldade: valor definido pela regra/tarefa aplicável
 ```
 
-O jogador usa a parada apropriada. 1 sucesso abre.
+A dificuldade padrão geral de M20 é 6, mas este documento não fixa toda fechadura comum em D6 sem fonte específica.
 
 ### Obstáculo simples com consequência
 
@@ -297,4 +301,4 @@ Hacking detalhado e Teia Digital permanecem no PT-6. Riscos ambientais permanece
 
 O Storyteller pode representar um Obstáculo mundano desde `6` até Dificuldade + progresso + gatilho ou Durability + Structure sem rolar dados e sem reconstruir subsistemas novos.
 
-**PT-3: CONCLUÍDO E HOMOLOGADO.**
+**PT-3: EM REVISÃO CORRETIVA. Núcleo preservado; propostas de interface aguardam decisão autoral explícita.**
