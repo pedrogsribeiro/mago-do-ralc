@@ -47,72 +47,52 @@ A **Reação de Paradoxo** permanece deliberadamente aberta e deve ser repensada
 
 ---
 
-## Proposta Pareto para o operador de conjuração — AGUARDA HOMOLOGAÇÃO
+## Decisão autoral de 2026-09-28 — operador simples de conjuração
 
-A releitura das regras de conjuração confirma que a operação original do NPC é:
+A mágika de NPC usa uma quantidade-base de sucessos derivada de Arete e recebe **no máximo um ajuste simples de ±1S conforme o julgamento do Storyteller sobre as condições da conjuração**.
 
-```text
-Arete
-+ dificuldade determinada pela Esfera mais alta e pelo tipo Coincidente/Vulgar
-+ modificadores normais de Quintessência, tempo, instrumentos, fast-casting, distração etc.
-→ sucessos líquidos
-→ sucessos determinam se o Efeito existe e sua força
-```
-
-A proposta de maior alavancagem é **não criar uma segunda gramática para mágika**. A ficha player-faced conservaria a dificuldade real de M20 e substituiria apenas a antiga rolagem de Arete do NPC por uma quantidade fixa de sucessos.
-
-### Candidato PT8-A
+Não existem estados formais separados de “normal/favorável/desfavorável”, nem soma de vários modificadores circunstanciais. A regra é apenas:
 
 ```text
-1. ST define o Efeito e as Esferas normalmente.
-2. Calcula a Dificuldade exatamente como em M20.
-3. Aplica todos os modificadores normais.
-4. Usa Arete + Dificuldade efetiva no operador já estudado de pool + Dificuldade → sucessos fixos.
-5. A saída é "Efeito de [Esfera]: N S".
-6. O PJ usa somente resistências/defesas que M20 já lhe concede.
-7. Sucessos do PJ cancelam/reduzem os S do Efeito apenas quando a regra original assim determina.
-8. Dano, cura, duração, limiar de sucessos e demais efeitos continuam usando os sucessos restantes conforme M20.
+sucessos-base do Efeito
+→ se as condições ajudarem claramente: +1S
+→ se as condições atrapalharem claramente: -1S
+→ caso contrário: sem ajuste
 ```
 
-A autorização ainda necessária é **específica**: permitir que o operador `pool + Dificuldade → S`, já estudado para contagem de sucessos de rolagens do ST, seja usado para a rolagem de Arete do NPC. Esta seção não assume essa homologação.
+O Storyteller julga isso pela ficção e pelos elementos que M20 normalmente faria pesar na conjuração — Coincidente/Vulgar, testemunhas, preparação, Quintessência, instrumentos, pressão, fast-casting e equivalentes — sem reconstruir a conta original de dificuldade.
 
-### Formas finais de ficha
-
-Quando o alvo possui resistência que cancela sucessos:
+A saída continua sendo:
 
 ```text
-Dominação Mental
-Efeito de Mente: 3S
-Resistência do PJ: usar a regra original; sucessos cancelam S do Efeito
+Efeito de [Esfera]: N S
 ```
 
-Quando o Efeito causa dano com base nos sucessos:
+O PJ usa somente resistências, contramágika, Força de Vontade, Avatar, soak ou outras operações que M20 já lhe conceda. Se a regra original manda sucessos do PJ cancelar sucessos do Efeito, eles cancelam esses `S`.
+
+### Observação ainda aberta
+
+A tabela exata **Arete → sucessos-base** ainda precisa ser homologada antes de substituir as linhas “transformação player-faced pendente” das fichas.
+
+---
+
+## Proposta autoral de Paradoxo — estrutura de um único dado
+
+A Reação de Paradoxo de NPC não usará vários dados.
+
+A proposta autoral é:
 
 ```text
-Descarga de Forças
-Efeito de Forças: 3S
-Dano potencial pela regra original: 2 níveis por S restante
-Tipo: conforme o Efeito
-Absorção/resistência do PJ: somente quando M20 permitir
+o jogador rola 1 único d10
+→ o valor atual de Paradoxo do NPC define o limiar/dificuldade
+→ o resultado apenas determina se a Reação de Paradoxo dispara ou não
 ```
 
-Quando a regra já impõe ao alvo um teste próprio contra uma Dificuldade:
+Essa rolagem é feita pelo jogador **em nome da realidade**, não pelo personagem: não usa ficha, ação, recurso ou decisão do PJ.
 
-```text
-Efeito
-Teste do PJ: parada original, Dificuldade original
-Consequência/dano: valor derivado do Efeito
-```
+Antes de registrar a regra final falta apenas fixar a direção do teste, porque em M20 “Dificuldade N” normalmente significa obter `N+`. Se o valor de Paradoxo for usado assim diretamente, Paradoxo maior reduziria a chance de disparo. Para preservar a relação intuitiva “mais Paradoxo = maior chance de estourar”, o limiar precisaria funcionar no sentido oposto, por exemplo `resultado ≤ Paradoxo`.
 
-A prioridade é conservar o procedimento do jogador e retirar apenas a rolagem do NPC.
-
-### Efeitos estendidos
-
-Se M20 exigir sucessos acumulados, a mesma unidade `S` alimenta o requisito original. Não se cria relógio novo; uma trilha visual pode apenas representar os sucessos já exigidos.
-
-### Falha e botch
-
-`0S` pode representar ausência de sucesso da conjuração, mas **botch não é resolvido por este operador**. A relação entre falha crítica de conjuração e Paradoxo permanece dentro do trabalho separado de Paradoxo. Nenhuma consequência de botch é inventada aqui.
+Até essa direção ser confirmada, nenhuma consequência/tabela de Reação é reescrita.
 
 ---
 
