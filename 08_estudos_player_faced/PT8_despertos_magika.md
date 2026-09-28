@@ -70,9 +70,30 @@ Efeito de [Esfera]: N S
 
 O PJ usa somente resistências, contramágika, Força de Vontade, Avatar, soak ou outras operações que M20 já lhe conceda. Se a regra original manda sucessos do PJ cancelar sucessos do Efeito, eles cancelam esses `S`.
 
-### Observação ainda aberta
+### Proposta de tabela-base — AGUARDA HOMOLOGAÇÃO
 
-A tabela exata **Arete → sucessos-base** ainda precisa ser homologada antes de substituir as linhas “transformação player-faced pendente” das fichas.
+Para manter a regra no mesmo grau de simplicidade decidido pelo autor, a proposta é usar **somente Arete para definir os sucessos-base**:
+
+| Arete | Sucessos-base do Efeito |
+| :---: | :---: |
+| 1–3 | 1S |
+| 4–6 | 2S |
+| 7–8 | 3S |
+| 9–10 | 4S |
+
+A proposta não cria um novo cálculo em mesa. Ela reaproveita como referência a graduação já observada no estudo de `pool + dificuldade → S` em torno da dificuldade padrão, mas sua aplicação a Arete é uma **decisão específica deste subsistema** e ainda depende de homologação autoral.
+
+Depois de obter os sucessos-base, o Storyteller apenas julga a situação:
+
+- se as condições claramente favorecem a conjuração, acrescenta **+1S**;
+- se claramente a prejudicam, reduz **-1S**;
+- caso não haja razão forte para ajuste, usa o valor-base.
+
+Isso é descrição de julgamento, não uma taxonomia de três estados nem uma soma de modificadores. O valor final nunca pode ser menor que 0S.
+
+As Esferas continuam definindo **o que o NPC é capaz de fazer**. Requisitos mínimos de sucessos, dano, cura, duração, resistências e demais consequências continuam seguindo M20.
+
+A tabela ainda não substitui as linhas pendentes das fichas até homologação explícita.
 
 ---
 
