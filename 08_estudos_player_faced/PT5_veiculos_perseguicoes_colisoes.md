@@ -11,7 +11,7 @@ tags: [player-faced, pt-5, veiculos, perseguicoes, colisoes, durability, structu
 
 Safe Speed, Max Speed, Maneuverability, Durability, Structure e as rolagens de Direção/Pilot do PJ permanecem preservados.
 
-O **Relógio de posição** é mantido apenas como **proposta de interface** para sucessos acumulados, não como regra homologada. Qualquer compressão da oposição do condutor rival ou de pools de impacto precisa demonstrar que usa uma transformação já homologada para a mesma função.
+Em 2026-09-28, o autor aprovou explicitamente a arquitetura do PT-5. O Relógio de posição é aceito como interface opcional dos sucessos acumulados da perseguição. Quando uma colisão produzir pool de dano, sua conversão deve reutilizar **somente após homologação** o operador ambiental do PT-4, por se tratar de dependência ainda em construção.
 
 ## 1. Princípio do pacote
 
@@ -70,7 +70,7 @@ PJ rola sua condução/manobra
 
 Quando não há rival ativo, mas apenas trânsito, terreno, clima ou rota difícil, trata-se de Obstáculo passivo do PT-3/PT-4.
 
-## Relógio de posição — proposta de interface
+## Relógio de posição — interface opcional aprovada
 
 O Relógio pode exibir os sucessos acumulados da perseguição:
 
@@ -285,4 +285,4 @@ Essas pendências são documentais. A arquitetura não exige nova matemática.
 
 O Storyteller pode operar veículo, perseguição e colisão mantendo separados condutor, posição, integridade e ocupantes, sem introduzir novas rolagens do ST.
 
-**PT-5: EM REVISÃO CORRETIVA. Traits e procedimentos do PJ preservados; relógio de posição e compressões não homologadas permanecem propostos.**
+**PT-5: ARQUITETURA APROVADA; FECHAMENTO DEPENDE APENAS DO OPERADOR DE IMPACTO/DANO DO PT-4 QUANDO UMA COLISÃO GERAR POOL.**
