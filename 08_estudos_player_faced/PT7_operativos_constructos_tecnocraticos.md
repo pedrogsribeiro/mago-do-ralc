@@ -268,7 +268,7 @@ Contramágika Inata 4d — reduz 4 dados da parada do PJ quando aplicável
 
 Ações:
 Garras de Nanotubos: 3S + 3L
-Autodestruição Tática: 8d L em raio de 4 m — aplicar a tabela ambiental do PT-4 quando homologada
+Autodestruição Tática: 3L em raio de 4 m
 
 Persistência:
 OK, OK, OK, OK, OK, OK, OK, OK, -5, Destruído
@@ -289,7 +289,7 @@ Reprogramação exige Matéria 3 / Mente 3 / Forças 2 + hacking físico estendi
 Autodestruição ao ser destruído ou diante de captura/incapacitação iminente
 ```
 
-**Proveniência curta:** defesa 7d → 7/2; alerta 9d → 6/3; iniciativa 14; garras usam Destreza 4 + Armas Brancas 4 = 8d D6 → 3S e 8L → 3L. A autodestruição permanece registrada em **8d L** como valor-fonte. Por decisão autoral de 2026-09-28, ela usará a mesma tabela de pool ambiental → dano fixo aprovada para o PT-4 assim que essa tabela for definida e homologada.
+**Proveniência curta:** defesa 7d → 7/2; alerta 9d → 6/3; iniciativa 14; garras usam Destreza 4 + Armas Brancas 4 = 8d D6 → 3S e 8L → 3L. A autodestruição tem valor-fonte **8d L**. Pela tabela ambiental aprovada no PT-4, 8d → **3L fixos**. Como o efeito é ambiental/de área, não recebe S de ataque próprio.
 
 O soak total de 12d usa a extensão direta da régua: **12d → C5**. A parcela de armadura interna de 6d converte para **L2·A2**.
 
@@ -357,7 +357,7 @@ A tipagem é registrada diretamente na ficha e não cria procedimento novo.
 - [x] HIT Mark X convertido, com Contramágika Inata mantida como redução direta de 4d e soak 12d convertido para P5;
 - [x] módulos de especialização preservados;
 - [x] hacking/reprogramação preservados;
-- [ ] autodestruição explosiva aguarda apenas a tabela ambiental compartilhada do PT-4;
+- [x] autodestruição explosiva: 8d L → 3L fixos pela tabela ambiental do PT-4;
 - [x] sensores e estados especiais preservados;
 - [x] Terno Preto mantido no PT-8;
 - [x] nenhuma nova simulação por NPC aberta.
@@ -366,4 +366,4 @@ A tipagem é registrada diretamente na ficha e não cria procedimento novo.
 
 O lote está convertido. Contramágika Inata, P acima de 10d e tipagem C/L/A das proteções cibernéticas/Primium estão resolvidos.
 
-**PT-7: EM REVISÃO CORRETIVA. Decisões autorais explícitas preservadas; autodestruição explosiva permanece aberta e o pacote aguarda homologação explícita.**
+**PT-7: MECANICAMENTE COMPLETO APÓS REVISÃO CORRETIVA; AGUARDA HOMOLOGAÇÃO EXPLÍCITA DO PACOTE.**
