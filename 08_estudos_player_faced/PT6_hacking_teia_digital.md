@@ -1,7 +1,7 @@
 ---
 type: estudo
-status: em_andamento
-summary: "PT-6: consolidação player-facing de hacking e Teia Digital pela natureza real de sistemas, operadores, programas-agentes e consequências da Web."
+status: homologado
+summary: "PT-6 concluído e homologado: hacking e Teia Digital organizados pela natureza de sistemas, agentes e consequências, sem ICE universal."
 tags: [player-faced, pt-6, hacking, teia-digital, icons, derez, whiteout, sistemas]
 ---
 
@@ -328,4 +328,4 @@ Essas pendências são documentais/de escopo de fonte. A arquitetura player-face
 
 O Storyteller consegue representar segurança digital pela natureza real de cada elemento, sem rolar por sistemas passivos, sem criar uma ficha universal de ICE e sem alterar as rolagens normais do jogador.
 
-**PT-6: MECANICAMENTE COMPLETO; AGUARDANDO HOMOLOGAÇÃO DO PACOTE E CONFERÊNCIA DOCUMENTAL POSTERIOR PARA PUBLICAÇÃO.**
+**PT-6: CONCLUÍDO E HOMOLOGADO. As conferências de fonte permanecem pendências editoriais para publicação.**
