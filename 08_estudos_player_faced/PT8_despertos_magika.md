@@ -27,21 +27,41 @@ A ficha final precisa ser menor que a ficha original. Portanto, não se converte
 
 ---
 
+## Decisão autoral de 2026-09-28 — forma do Efeito mágicko
+
+A saída player-faced da mágika de NPC deve ser expressa como **Efeito + sucessos já produzidos**, por exemplo:
+
+```text
+Efeito de Mente: 3S
+```
+
+Esses sucessos representam a força efetiva do Efeito que alcança o personagem jogador.
+
+Quando a regra original concede ao PJ uma resistência, defesa, contramágika, Força de Vontade, Avatar ou procedimento equivalente, o jogador usa **essa mesma operação de M20** para reduzir, cancelar ou resistir aos sucessos do Efeito.
+
+Quando a regra original não concede uma rolagem ao PJ, o contrato atual não autoriza criar uma apenas para acomodar a conversão. Nesse caso, o Efeito chega com seus sucessos fixos e produz a consequência prevista pela regra original.
+
+Ainda falta definir o operador que transforma a antiga conjuração do NPC em `N S` para o Efeito, preservando Arete, dificuldade e modificadores sem reabrir uma rolagem do ST.
+
+A **Reação de Paradoxo** permanece deliberadamente aberta e deve ser repensada separadamente.
+
+---
+
 # 2. Estado da mágika de NPC após revisão corretiva
 
 A auditoria confirmou que o operador físico `pool + Dificuldade → S fixos` **não pode ser propagado por analogia** para Arete.
 
 Portanto:
 
-- **mágika hostil unilateral do NPC** volta ao estado de dívida aberta já definido no Contrato e no Estudo 14;
+- **mágika hostil unilateral do NPC** deve terminar em um Efeito com sucessos fixos; falta definir e homologar o operador que produz esses sucessos;
 - **contramágika ativa do NPC** permanece candidata a transformação por oposição, mas não está homologada;
-- **Reação de Paradoxo** volta ao estado de dívida aberta;
+- **Reação de Paradoxo** permanece dívida aberta e será tratada separadamente;
 - Arete, Esferas, paradigmas, focos, Quintessência e demais recursos permanecem registrados sem serem convertidos automaticamente;
 - Contramágika Inata mantém a decisão autoral explícita do PT-7: reduz diretamente a parada do PJ quando aplicável.
 
 Quando a mágika do NPC acionar uma rolagem que **já pertence ao PJ** na regra original, essa rolagem do jogador é preservada sem alteração.
 
-Nenhuma tabela `Arete + Dificuldade → S` é regra vigente deste pacote.
+Nenhuma tabela `Arete + Dificuldade → S` é regra vigente ainda; a forma de saída `Efeito: N S` está aprovada, mas o operador de derivação continua pendente.
 
 ---
 
