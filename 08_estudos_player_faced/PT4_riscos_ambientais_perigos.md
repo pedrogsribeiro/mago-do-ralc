@@ -1,7 +1,7 @@
 ---
 type: estudo
-status: em_andamento
-summary: "PT-4: consolidação player-facing dos riscos ambientais e perigos, preservando os procedimentos específicos de M20."
+status: homologado
+summary: "PT-4 concluído e homologado: riscos ambientais preservados em forma player-facing sem criar agência artificial."
 tags: [player-faced, pt-4, riscos, ambiente, fogo, quedas, fome, sede, sufocamento, radiacao, toxinas, doencas, explosoes]
 ---
 
@@ -246,4 +246,4 @@ Essas pendências não exigem estudo matemático novo.
 
 O ST pode operar os riscos ambientais consolidados sem rolar por um agente ambiental fictício e sem alterar as ações normais do jogador.
 
-**PT-4: MECANICAMENTE COMPLETO; AGUARDANDO HOMOLOGAÇÃO DO PACOTE E CONFERÊNCIA DOCUMENTAL POSTERIOR PARA PUBLICAÇÃO.**
+**PT-4: CONCLUÍDO E HOMOLOGADO. As conferências de fonte permanecem pendências editoriais para publicação.**
