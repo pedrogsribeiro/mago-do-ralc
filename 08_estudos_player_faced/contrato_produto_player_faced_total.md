@@ -71,6 +71,20 @@ Quando o PJ age contra um Obstáculo e a operação original exige compressão d
 
 A forma curta **D/R** é suficiente quando não existe etapa de Impacto/Proteção. Na forma completa, a Proteção deve conservar o escopo original. Por exemplo, `7/2/2[C,L]` significa **Dificuldade 7, Resistência 2, Proteção 2 contra Contundente e Letal**. Quando os valores variarem por tipo, o terceiro campo pode ser um perfil, como `7/2/C2·L1·A0`.
 
+### Hierarquia de cobertura física
+
+A tipagem C/L/A registra **proteção total disponível por tipo**, não parcelas que devam ser somadas entre si.
+
+Por decisão autoral:
+
+- proteção capaz de absorver **Letal** também pode ser usada contra **Contundente**;
+- proteção apenas **Contundente** não pode ser usada contra Letal;
+- nenhuma relação adicional com **Agravado** é presumida sem regra específica.
+
+Assim, para resolver dano Contundente, usa-se o melhor valor aplicável entre C e L. Exemplo: `C0·L5·A0` fornece Proteção 5 contra Letal e também pode fornecer Proteção 5 contra Contundente. `C5·L0·A0` protege 5 contra Contundente e 0 contra Letal.
+
+Os campos continuam representando valores totais aplicáveis; **C e L não são somados**.
+
 **Impacto** é o efeito quantitativo produzido antes da Proteção; **Impacto efetivo** é o restante depois da Proteção. No Físico, uma Proteção tipada só reduz os tipos de dano cobertos. Em Social e Mental/Técnico, Proteção é um valor único quando existir. Em Mágicko/Poderes, a Proteção pode ser tipada quando as regras originais distinguirem categorias de efeito, resistência ou imunidade.
 
 ### Resolução progressiva e representação esparsa
