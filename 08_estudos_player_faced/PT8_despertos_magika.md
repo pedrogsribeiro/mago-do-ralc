@@ -76,23 +76,28 @@ A tabela exata **Arete → sucessos-base** ainda precisa ser homologada antes de
 
 ---
 
-## Proposta autoral de Paradoxo — estrutura de um único dado
+## Decisão autoral de 2026-09-28 — Reação de Paradoxo de NPC em um único dado
 
-A Reação de Paradoxo de NPC não usará vários dados.
-
-A proposta autoral é:
+A Reação de Paradoxo de NPC usa **um único d10**, rolado por um jogador em nome da realidade.
 
 ```text
-o jogador rola 1 único d10
-→ o valor atual de Paradoxo do NPC define o limiar/dificuldade
-→ o resultado apenas determina se a Reação de Paradoxo dispara ou não
+rola 1d10
+se resultado ≤ Paradoxo atual do NPC
+→ a Reação de Paradoxo dispara
+se resultado > Paradoxo
+→ não dispara
 ```
 
-Essa rolagem é feita pelo jogador **em nome da realidade**, não pelo personagem: não usa ficha, ação, recurso ou decisão do PJ.
+Quanto maior a reserva de Paradoxo do NPC, maior a chance de a realidade reagir.
 
-Antes de registrar a regra final falta apenas fixar a direção do teste, porque em M20 “Dificuldade N” normalmente significa obter `N+`. Se o valor de Paradoxo for usado assim diretamente, Paradoxo maior reduziria a chance de disparo. Para preservar a relação intuitiva “mais Paradoxo = maior chance de estourar”, o limiar precisaria funcionar no sentido oposto, por exemplo `resultado ≤ Paradoxo`.
+Essa rolagem:
 
-Até essa direção ser confirmada, nenhuma consequência/tabela de Reação é reescrita.
+- não pertence ao personagem jogador;
+- não usa Atributo, Habilidade, Arete, recurso ou ação do PJ;
+- não concede escolha sobre a severidade ou a consequência;
+- existe apenas para preservar a incerteza e a diversão da Reação sem rolagem do Storyteller.
+
+A forma concreta da consequência quando a Reação dispara ainda deve reutilizar as categorias e efeitos de M20 sem inventar uma nova tabela antes da revisão específica.
 
 ---
 
@@ -104,7 +109,7 @@ Portanto:
 
 - **mágika hostil unilateral do NPC** deve terminar em um Efeito com sucessos fixos; falta definir e homologar o operador que produz esses sucessos;
 - **contramágika ativa do NPC** permanece candidata a transformação por oposição, mas não está homologada;
-- **Reação de Paradoxo** permanece dívida aberta e será tratada separadamente;
+- **Reação de Paradoxo** possui gatilho homologado em 1d10 ≤ Paradoxo; resta apenas revisar a tradução das consequências quando disparar;
 - Arete, Esferas, paradigmas, focos, Quintessência e demais recursos permanecem registrados sem serem convertidos automaticamente;
 - Contramágika Inata mantém a decisão autoral explícita do PT-7: reduz diretamente a parada do PJ quando aplicável.
 
@@ -120,7 +125,7 @@ As regras originais de dano, cura, duração, classificação Coincidente/Vulgar
 
 Elas só podem ser aplicadas ao NPC quando houver uma forma homologada de obter os sucessos da conjuração sem rolagem do ST e sem criar nova operação para o PJ.
 
-A **Reação de Paradoxo** permanece explicitamente aberta conforme Contrato e Estudo 20.
+O **gatilho da Reação de Paradoxo** está homologado em 1d10 ≤ Paradoxo. A tradução das consequências após o disparo permanece aberta até revisão específica.
 
 ---
 
@@ -509,7 +514,8 @@ Isso preserva a abertura de M20 sem devolver a ficha original inteira ao ST.
 - [ ] contramágika ativa do NPC aguarda proposta e homologação;
 - [x] Contramágika Inata preservada como redução direta de dados;
 - [x] geração de Paradoxo preservada;
-- [ ] Reação de Paradoxo permanece dívida aberta;
+- [x] gatilho da Reação de Paradoxo definido: 1d10 ≤ Paradoxo;
+- [ ] consequências da Reação de Paradoxo após o disparo ainda exigem revisão específica;
 - [x] Desauridos preservam imunidade a Paradoxo;
 - [x] sete perfis canônicos do PT-8 convertidos;
 - [x] Terno Preto incorporado ao pacote correto;
