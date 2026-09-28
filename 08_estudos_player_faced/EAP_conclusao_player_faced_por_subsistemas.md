@@ -22,6 +22,25 @@ O contrato normativo permanece o de `contrato_produto_player_faced_total.md`:
 - Persistência, recursos, estados, poderes e características específicas permanecem separados quando o M20 já os distingue;
 - matemática serve à auditoria da transformação e só é aberta quando um procedimento concreto do subsistema exigir calibração.
 
+### Regra de priorização Pareto
+
+Quando houver múltiplas pendências abertas, a ordem de trabalho é definida por **alavancagem**, não por numeração do PT nem por facilidade local.
+
+Prioridade:
+
+1. resolver uma decisão/operador que desbloqueie **vários pacotes**;
+2. depois resolver uma decisão/operador que desbloqueie **um subsistema central inteiro**;
+3. depois tratar blockers locais de um único pacote;
+4. por último fazer limpeza editorial, exemplos e microcorreções sem efeito de dependência.
+
+Uma pendência pequena e fácil não deve furar a fila de uma pendência de maior alavancagem só porque pode ser fechada rapidamente.
+
+A pergunta obrigatória antes de iniciar qualquer tarefa é:
+
+```text
+qual decisão resolve mais dependências com o menor número de novas premissas?
+```
+
 ### Regra de fluxo
 
 **Somente um pacote de trabalho operacional pode estar ativo por vez.**
@@ -182,7 +201,7 @@ O ST deve conseguir operar todos os cinco perfis sem consultar suas paradas orig
 
 ## PT-2 — Animais e Bestiário Mundano
 
-**Status: CONCLUÍDO E HOMOLOGADO.**
+**Status: EM REVISÃO CORRETIVA.**
 
 **Objetivo:** converter o bestiário mundano sem forçar dimensões irrelevantes.
 
@@ -243,7 +262,7 @@ O ST deve poder escrever um Obstáculo desde uma forma mínima como `6` até uma
 
 ## PT-4 — Riscos Ambientais e Perigos
 
-**Status: CONCLUÍDO E HOMOLOGADO.**
+**Status: EM REVISÃO CORRETIVA — arquitetura de dano fixo aprovada; tabela ambiental pendente.**
 
 **Objetivo:** converter o ambiente hostil como agente de consequência sem transformá-lo artificialmente em NPC.
 
@@ -271,7 +290,7 @@ Nenhum risco ambiental deve exigir rolagem do ST; os testes que já pertencem ao
 
 ## PT-5 — Veículos, Perseguições e Colisões
 
-**Status: CONCLUÍDO E HOMOLOGADO.**
+**Status: ARQUITETURA APROVADA — depende do operador ambiental do PT-4 para pools de colisão.**
 
 **Objetivo:** fechar o subsistema veicular inteiro como ferramenta do Storyteller.
 
@@ -297,7 +316,7 @@ O veículo deve funcionar como Obstáculo/objeto persistente e como participante
 
 ## PT-6 — Hacking e Teia Digital
 
-**Status: CONCLUÍDO E HOMOLOGADO.**
+**Status: EM REVISÃO CORRETIVA — tradução para Obstáculos será revisada a partir das regras da Teia Digital.**
 
 **Objetivo:** fechar o uso de computadores e da Web pela natureza real de cada elemento.
 
@@ -328,7 +347,7 @@ A ficha necessária deve depender da natureza do elemento digital, e não de uma
 
 ## PT-7 — Operativos Extraordinários, Ciborgues e Constructos Tecnocráticos
 
-**Status: CONCLUÍDO E HOMOLOGADO.**
+**Status: EM REVISÃO CORRETIVA — depende do operador ambiental do PT-4 para a autodestruição do HIT X.**
 
 **Objetivo:** fechar NPCs tecnocráticos não Iluminados ou cuja operação dependa de módulos, Primium, hacking, contramedidas e chassis especiais.
 
@@ -571,6 +590,27 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Checkpoint ativo: correção PT-2 → PT-8.**
+**Checkpoint ativo: correção PT-2 → PT-8 por Pareto.**
 
-PT-8 foi reaberto após remoção da propagação por analogia para Arete, contramágika ativa e Reação de Paradoxo. Antes de avançar para PT-9, os PT-2 a PT-8 devem receber correção e homologação explícita conforme os novos gates.
+A ordem vigente de trabalho corretivo deixa de seguir o número dos PTs e passa a seguir dependências:
+
+```text
+1. PT-4 — operador/tabela de pool ambiental → Impacto/dano fixo
+   desbloqueia PT-4 + pools de colisão do PT-5 + autodestruição do PT-7
+
+2. PT-8 — operador de conjuração do NPC → "Efeito de Esfera: N S"
+   desbloqueia os sete perfis Despertos e a operação mágicka recorrente
+
+3. Paradoxo — solução específica para Reação de Paradoxo
+   fecha a principal dívida sistêmica restante dentro de PT-8
+
+4. PT-6 — revisão calma da Teia Digital
+   traduzir os termos originais para Obstáculos sem criar taxonomia nova desnecessária
+
+5. PT-2 — limpeza local de absorção animal e uso destreinado
+   importante, mas de baixa alavancagem porque não desbloqueia outros pacotes
+```
+
+**Próximo trabalho: PT-4.**
+
+Antes de implementar a tabela ambiental, confirmar apenas a decisão normativa ainda aberta: se perigos ambientais ganharão uma nova rolagem universal do PJ para resistir ao Obstáculo ou se permanecerão estritamente nas resistências que M20 já concede. O contrato atual determina a segunda opção; a primeira exige alteração autoral explícita do invariante.
