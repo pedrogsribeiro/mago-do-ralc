@@ -228,21 +228,23 @@ Nenhum risco ambiental deve exigir rolagem do ST; os testes que já pertencem ao
 
 ## PT-5 — Veículos, Perseguições e Colisões
 
+**Status: CONCLUÍDO E HOMOLOGADO.**
+
 **Objetivo:** fechar o subsistema veicular inteiro como ferramenta do Storyteller.
 
 ### Escopo
 
-- [ ] Safe Speed;
-- [ ] Max Speed;
-- [ ] Maneuverability;
-- [ ] Durability;
-- [ ] Structure;
-- [ ] direção e manobras;
-- [ ] perseguições;
-- [ ] colisões;
-- [ ] dano aos veículos;
-- [ ] dano aos ocupantes;
-- [ ] armas veiculares quando presentes.
+- [x] Safe Speed;
+- [x] Max Speed;
+- [x] Maneuverability;
+- [x] Durability;
+- [x] Structure;
+- [x] direção e manobras;
+- [x] perseguições;
+- [x] colisões;
+- [x] dano aos veículos;
+- [x] dano aos ocupantes;
+- [x] armas veiculares quando presentes.
 
 ### Gate do pacote
 
@@ -520,15 +522,15 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Pacote ativo: PT-5 — Veículos, Perseguições e Colisões.**
+**Pacote ativo: PT-6 — Hacking e Teia Digital.**
 
 Próxima tarefa:
 
-- [ ] preservar Safe Speed, Max Speed, Maneuverability, Durability e Structure;
-- [ ] manter Direção/manobras do PJ intactas;
-- [ ] tratar perseguições como estendidas-resistidas quando houver rival ativo;
-- [ ] manter Relógio de posição separado de Structure;
-- [ ] preservar colisões, dano ao veículo e dano aos ocupantes como procedimentos distintos;
-- [ ] usar Perfil DRP apenas para o condutor/agente rival, não para o veículo passivo;
-- [ ] registrar lacunas de tabela como pendências de fonte;
-- [ ] homologar PT-5 antes de iniciar PT-6.
+- [ ] classificar cada defesa digital como sistema passivo, operador consciente, programa-agente ou ameaça sistêmica;
+- [ ] preservar hacking simples/estendido quando já for rolagem do PJ;
+- [ ] usar D/R apenas para oposição ativa real;
+- [ ] preservar Icons e formas de imersão como estados/Traits relevantes, sem criar ficha paralela universal;
+- [ ] manter combate virtual ligado ao combate normal adaptado à Web;
+- [ ] preservar soft/hard de-rez, Icon Death, Chaos Dump e Whiteout como consequências/estados específicos;
+- [ ] registrar lacunas numéricas como pendências de fonte;
+- [ ] homologar PT-6 antes de iniciar PT-7.
