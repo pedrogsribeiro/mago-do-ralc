@@ -301,7 +301,7 @@ A ficha necessária deve depender da natureza do elemento digital, e não de uma
 ### Questões próprias que só serão abertas aqui
 
 - [x] módulos de especialização;
-- [ ] Contramágika Inata;
+- [x] Contramágika Inata;
 - [x] hacking/reprogramação de HIT Marks;
 - [x] autodestruição;
 - [x] armaduras/chassis excepcionais;
@@ -526,6 +526,8 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Próximo pacote: PT-8 — Despertos e Usuários de Mágika.**
+**Pacote ativo: PT-8 — Despertos e Usuários de Mágika.**
 
-PT-7 foi concluído e homologado. Nenhum trabalho de PT-8 foi iniciado neste checkpoint.
+A conversão será feita em lote. A régua DRP já homologada cobre o corpo e competências mundanas; para mágika de NPC, a rolagem de Arete do ST é comprimida pelo mesmo operador geral `pool + Dificuldade → S fixos`, preservando Esferas, classificação Coincidente/Vulgar, modificadores, resistências do PJ, duração, dano, Quintessência e Paradoxo como procedimentos próprios.
+
+Não abrir simulações por NPC.
