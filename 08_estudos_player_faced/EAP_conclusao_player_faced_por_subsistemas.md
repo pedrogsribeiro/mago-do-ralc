@@ -630,4 +630,6 @@ Restam:
 
 Pelo Pareto, tratar primeiro a **contramágika ativa**, porque ela também afeta Certámen, wards e outros subsistemas mágickos.
 
+Proposta registrada, aguardando homologação: usar os mesmos `S-base de Arete` já homologados para a contramágika ativa do NPC; cada S cancela 1 sucesso do Efeito, preservando ação completa e requisitos. O mesmo operador pode cobrir Aegis e unweaving sem criar nova tabela.
+
 A decisão ambiental foi fechada sem criar nova rolagem universal para o PJ: preservam-se apenas as resistências/reduções já existentes em M20 e o pool restante vira Impacto fixo.
