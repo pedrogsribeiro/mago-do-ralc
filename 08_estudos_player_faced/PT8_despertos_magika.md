@@ -150,7 +150,7 @@ O **gatilho da Reação de Paradoxo** está homologado em 1d10 ≤ Paradoxo. A t
 
 ---
 
-## Proposta Pareto — contramágika ativa do NPC — AGUARDA HOMOLOGAÇÃO
+## Decisão autoral de 2026-09-28 — contramágika ativa do NPC
 
 A releitura da regra-fonte confirma que a contramágika básica:
 
@@ -216,7 +216,7 @@ NPC usa S-base de Arete por intervalo de unweaving
 
 Os requisitos de Prime, Esferas, tempo e Quintessência permanecem os da fonte.
 
-Esta seção é uma **proposta**, não homologação. Sua vantagem Pareto é resolver contramágika básica, Aegis e unweaving com a mesma regra já aprendida para Arete, sem outra tabela.
+Esta regra foi **homologada explicitamente pelo autor em 2026-09-28**. Ela resolve contramágika básica, Aegis e unweaving com a mesma graduação de Arete já usada pela conjuração do NPC, sem criar outra tabela.
 
 ---
 
@@ -228,7 +228,18 @@ Preservar exatamente a rolagem normal do jogador quando a regra original a conce
 
 ## Contramágika ativa do NPC
 
-**Pendente de proposta e homologação.** O fato de cancelar sucessos torna a mecânica candidata à família de Oposição, mas isso não autoriza aplicação automática do operador sem validação da função.
+Regra homologada:
+
+```text
+NPC declara Contramágika
+→ cumpre os requisitos da regra original
+→ gasta ação completa
+→ usa seus S-base de Arete
+→ cada S cancela 1 sucesso do Efeito
+→ ST pode ajustar ±1S quando as condições claramente ajudarem ou atrapalharem
+```
+
+Contramágika ativa continua sendo ação, não Proteção passiva.
 
 ## Contramágika Inata
 
@@ -602,7 +613,7 @@ Isso preserva a abertura de M20 sem devolver a ficha original inteira ao ST.
 - [x] dano/cura/duração originais preservados, condicionados a uma futura transformação homologada da conjuração do NPC;
 - [x] resistências e defesas do PJ preservadas quando já existiam;
 - [x] nenhuma defesa nova foi criada para o PJ;
-- [ ] contramágika ativa do NPC aguarda proposta e homologação;
+- [x] contramágika ativa do NPC usa S-base de Arete; cada S cancela 1 sucesso do Efeito, preservando requisitos e ação completa;
 - [x] Contramágika Inata preservada como redução direta de dados;
 - [x] geração de Paradoxo preservada;
 - [x] gatilho da Reação de Paradoxo definido: 1d10 ≤ Paradoxo;
@@ -623,6 +634,6 @@ Nenhuma dessas pendências exige nova matemática.
 
 ## Gate
 
-A camada física/mundana, os recursos canônicos e a conjuração dos sete perfis estão preservados em forma player-faced. O pacote ainda depende da tradução final da **contramágika ativa do NPC** e das **consequências da Reação de Paradoxo**.
+A camada física/mundana, os recursos canônicos e a conjuração dos sete perfis estão preservados em forma player-faced. O pacote ainda depende apenas da tradução final das **consequências da Reação de Paradoxo**.
 
-**PT-8: CONJURAÇÃO HOMOLOGADA; CONTRAMÁGIKA ATIVA E CONSEQUÊNCIAS DE PARADOXO AINDA ABERTAS.**
+**PT-8: CONJURAÇÃO E CONTRAMÁGIKA ATIVA HOMOLOGADAS; CONSEQUÊNCIAS DE PARADOXO AINDA ABERTAS.**
