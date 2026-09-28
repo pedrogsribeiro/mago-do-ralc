@@ -19,18 +19,36 @@ Foi aprovada a criação de uma **tabela própria de pool ambiental → dano/Imp
 
 Isso também resolve, por dependência, pools equivalentes como a autodestruição do HIT Mark X no PT-7.
 
-Permanece uma questão normativa antes da implementação completa: o contrato atual proíbe criar uma nova rolagem do PJ apenas para substituir uma antiga operação do ST. A fonte de fogo, por exemplo, aplica dano Agravado automático por exposição e só prevê Vigor/Matéria para evitar ignição de objetos em certas condições. Portanto, uma **rolagem universal de resistência ao perigo** seria uma alteração da experiência do jogador e só pode ser criada se o autor decidir alterar explicitamente esse invariante.
+Em 2026-09-28, o autor confirmou a opção compatível com o contrato: **não criar uma resistência universal nova para perigos ambientais**. O PJ só faz as resistências, reações e absorções que M20 já lhe concede.
 
-Sob o contrato atual, a forma segura é:
+Também foi autorizado explicitamente reutilizar, para pools ambientais de dano, a curva de conversão de pool de dano → efeito fixo já estudada no projeto. Esta é uma autorização autoral específica para esta função, não propagação por analogia.
+
+Pipeline:
 
 ```text
 perigo
-→ preservar qualquer resistência/reação que M20 já dê ao PJ
-→ transformar o pool de dano restante em Impacto fixo
+→ preservar resistência/reação do PJ já existente em M20
+→ aplicar essa resistência ao pool quando a regra original assim fizer
+→ converter o pool de dano restante em Impacto fixo
 → aplicar soak/proteção do PJ quando M20 permitir
+→ consequência
 ```
 
-A tabela ambiental ainda precisa ser construída antes do fechamento do PT-4.
+### Tabela ambiental homologável
+
+| Pool ambiental restante | Impacto fixo |
+| :---: | :---: |
+| 0d | 0 |
+| 1–3d | 1 |
+| 4–5d | 2 |
+| 6–8d | 3 |
+| 9–10d | 4 |
+| 11–13d | 5 |
+| 14–15d | 6 |
+| 16–18d | 7 |
+| 19–20d | 8 |
+
+O tipo de dano permanece o da fonte: C, L ou A.
 
 ---
 
@@ -82,14 +100,14 @@ Absorção: Vigor D6 do PJ
 A fonte consolidada usa dano Agravado por exposição:
 
 ```text
-Pequena chama: 1d A / turno
-Chama média: 2d A / turno
-Grande chama: 3d A / turno
+Pequena chama: 1A / turno
+Chama média: 1A / turno
+Grande chama: 1A / turno
 ```
 
 Em fontes médias ou grandes, o PJ pode fazer o teste de Vigor ou Matéria previsto para evitar ignição de roupas/objetos. Um personagem em chamas continua sofrendo o dano médio indicado pela regra até apagar o fogo.
 
-A estrutura já está centrada no perigo e nas respostas normais do jogador. O PT-4 não cria uma rolagem ofensiva do fogo.
+A conversão fixa elimina a rolagem de dano do ST. As três intensidades acima convergem para 1A pela quantização da curva 1–3d → 1; continuam distintas na ficção, no alcance, na possibilidade de ignição e em outras consequências que a fonte atribuir. Nenhuma nova rolagem universal de resistência é criada.
 
 ---
 
@@ -138,7 +156,7 @@ Representação:
 
 ```text
 RADIAÇÃO
-Dano: 1–3d A
+Dano: 1A
 Intervalo: dia ou turno, conforme exposição
 Efeito adicional: possível debilitação física permanente
 ```
@@ -155,7 +173,8 @@ A resistência já pertence ao jogador:
 TOXINA
 PJ: Vigor
 Dificuldade: 6–9 conforme letalidade
-Cada sucesso do PJ reduz 1 dado de dano da toxina
+Cada sucesso do PJ reduz 1 dado do pool original
+Pool restante → Impacto fixo pela tabela ambiental
 Tipo: C ou L conforme substância
 ```
 
@@ -194,9 +213,10 @@ A estrutura recuperada é:
 
 ```text
 pool de dano da explosão
-→ PJ pode usar a reação prevista para minimizar o blast, quando permitida
+→ PJ usa a reação prevista para minimizar o blast, quando permitida
 → cada sucesso dessa reação reduz 1 dado do pool
-→ cobertura pode reduzir o dano por Durability
+→ pool restante vira Impacto fixo pela tabela ambiental
+→ cobertura/Durability e demais proteções são aplicadas quando a regra permitir
 → consequências secundárias usam suas próprias regras
 ```
 
@@ -232,14 +252,14 @@ Perigos compostos são decompostos. Exemplo: uma explosão pode gerar fogo e col
 | Perigo | Forma player-facing |
 | :--- | :--- |
 | Queda | dano por altura + absorção do PJ |
-| Fogo | exposição + dano A + teste específico quando previsto |
+| Fogo | exposição + Impacto A fixo + teste específico quando previsto |
 | Fome | limite temporal + dano automático |
 | Sede | limite temporal + dano automático |
 | Sufocamento | limite temporal + dano automático |
-| Radiação | dano A + intervalo + efeitos colaterais |
-| Toxina | Vigor do PJ reduz dano |
+| Radiação | Impacto A fixo + intervalo + efeitos colaterais |
+| Toxina | Vigor do PJ reduz pool; restante vira Impacto fixo |
 | Doença | Rating + resistência do PJ + progressão própria |
-| Explosão | dano de área + reação do PJ quando permitida + cobertura |
+| Explosão | reação do PJ quando permitida → pool restante → Impacto fixo + cobertura |
 | Clima hostil | condição + Vigor do PJ quando previsto |
 
 ---
@@ -273,4 +293,4 @@ Essas pendências não exigem estudo matemático novo.
 
 O ST pode operar os riscos ambientais consolidados sem rolar por um agente ambiental fictício e sem alterar as ações normais do jogador.
 
-**PT-4: EM REVISÃO CORRETIVA. A arquitetura de dano fixo ambiental foi aprovada; faltam a tabela ambiental e a decisão sobre eventual resistência universal nova do PJ.**
+**PT-4: MECANICAMENTE COMPLETO APÓS REVISÃO CORRETIVA; AGUARDA HOMOLOGAÇÃO EXPLÍCITA DO PACOTE.**
