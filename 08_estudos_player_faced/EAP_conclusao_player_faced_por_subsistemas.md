@@ -285,26 +285,28 @@ A ficha necessária deve depender da natureza do elemento digital, e não de uma
 
 ## PT-7 — Operativos Extraordinários, Ciborgues e Constructos Tecnocráticos
 
+**Status: CONCLUÍDO E HOMOLOGADO.**
+
 **Objetivo:** fechar NPCs tecnocráticos não Iluminados ou cuja operação dependa de módulos, Primium, hacking, contramedidas e chassis especiais.
 
 ### Perfis já consolidados no repositório
 
-- [ ] Cientista Extraordinário;
-- [ ] Agente de Campo Extraordinário;
-- [ ] Ciborgue Metálico Comum;
-- [ ] Victor;
-- [ ] HIT Mark V;
-- [ ] HIT Mark X.
+- [x] Cientista Extraordinário;
+- [x] Agente de Campo Extraordinário;
+- [x] Ciborgue Metálico Comum;
+- [x] Victor;
+- [x] HIT Mark V;
+- [x] HIT Mark X.
 
 ### Questões próprias que só serão abertas aqui
 
-- [ ] módulos de especialização;
+- [x] módulos de especialização;
 - [ ] Contramágika Inata;
-- [ ] hacking/reprogramação de HIT Marks;
-- [ ] autodestruição;
-- [ ] armaduras/chassis excepcionais;
-- [ ] ataques integrados;
-- [ ] estados de máquina/constructo.
+- [x] hacking/reprogramação de HIT Marks;
+- [x] autodestruição;
+- [x] armaduras/chassis excepcionais;
+- [x] ataques integrados;
+- [x] estados de máquina/constructo.
 
 ### Gate do pacote
 
@@ -524,14 +526,6 @@ Essa ordem pode ser alterada pelo autor, mas **não se executam dois pacotes em 
 
 # 8. Próxima ação
 
-**Pacote ativo: PT-7 — Operativos Extraordinários, Ciborgues e Constructos Tecnocráticos.**
+**Próximo pacote: PT-8 — Despertos e Usuários de Mágika.**
 
-Próxima tarefa:
-
-- [ ] converter em lote Cientista Extraordinário, Agente de Campo Extraordinário, Ciborgue Metálico Comum, Victor, HIT Mark V e HIT Mark X;
-- [ ] manter as fichas menores que as originais;
-- [ ] preservar módulos, sensores, imunidades, hacking, autodestruição e demais características específicas;
-- [ ] usar a régua DRP existente sem recalibrar cada NPC;
-- [ ] parar apenas diante de mecânica realmente fora da régua existente;
-- [ ] manter Terno Preto no PT-8 por ser Agente Iluminado;
-- [ ] homologar PT-7 antes de iniciar PT-8.
+PT-7 foi concluído e homologado. Nenhum trabalho de PT-8 foi iniciado neste checkpoint.
