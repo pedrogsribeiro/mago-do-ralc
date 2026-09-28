@@ -15,12 +15,12 @@ Só entram em **Ações** capacidades que o NPC realmente impõe em mesa. Habili
 
 O **Terno Preto** fica fora deste pacote: a própria fonte o define como Agente Iluminado, portanto sua conversão completa pertence ao PT-8, junto de Arete, Esferas e mágika de NPCs.
 
-Há duas lacunas quantitativas já conhecidas que este lote não esconde:
+Duas decisões autorais simplificam o lote sem abrir novos estudos:
 
-1. o baseline de Proteção foi calibrado até 10d de soak; o HIT Mark X possui 12d;
-2. Contramágika Inata ainda está expressa em dados na fonte e não possui compressão player-faced homologada.
+1. **Contramágika Inata permanece em dados como redução direta da parada do PJ quando aplicável.** Ela não exige rolagem do ST e, portanto, já é compatível com o contrato player-faced.
+2. A régua de Proteção é estendida por inferência local para cobrir 12d de soak: **10–11d → P4; 12–13d → P5**. Não se abre nova simulação para esse pequeno prolongamento da curva.
 
-Essas duas lacunas são tratadas ao final como blockers do pacote. Elas não justificam recalibrar os demais campos de cada NPC.
+Permanece aberta apenas a tipagem física C/L/A das proteções cibernéticas/Primium, porque o corpus consolidado não a explicita de forma suficiente.
 
 ---
 
@@ -168,7 +168,7 @@ Mental/Técnico:
 Percepção/Alerta: 6/2
 
 Mágicko/Poderes:
-Contramágika Inata 2d — conversão pendente
+Contramágika Inata 2d — reduz 2 dados da parada do PJ quando aplicável
 
 Ações:
 Briga: 4S + 2C
@@ -191,7 +191,7 @@ Habilidades adicionais escolhidas conforme função
 Biomods e comunicador tático
 ```
 
-**Proveniência curta:** defesa 9d → 6/3; Vigor 4 → C2; alerta 5d → 6/2; Briga 9d D6 → 4S; Força 4 → efeito-base 2C; iniciativa 14. A Contramágika Inata permanece explícita porque sua compressão ainda não foi homologada.
+**Proveniência curta:** defesa 9d → 6/3; Vigor 4 → C2; alerta 5d → 6/2; Briga 9d D6 → 4S; Força 4 → efeito-base 2C; iniciativa 14. A Contramágika Inata permanece explícita em dados porque funciona como redução direta da parada do PJ e não exige rolagem do ST.
 
 ---
 
@@ -210,7 +210,7 @@ Mental/Técnico:
 Percepção/Alerta: 6/2
 
 Mágicko/Poderes:
-Contramágika Inata 5d — conversão pendente
+Contramágika Inata 5d — reduz 5 dados da parada do PJ quando aplicável
 
 Ações:
 Metralhadora Integrada: 2S + 3L
@@ -247,14 +247,14 @@ HIT MARK X
 6
 
 Físico:
-7/2/P?[12d]
+7/2/P5 [tipagem C/L/A a confirmar]
 
 Mental/Técnico:
 6
 Percepção/Alerta: 6/3
 
 Mágicko/Poderes:
-Contramágika Inata 4d — conversão pendente
+Contramágika Inata 4d — reduz 4 dados da parada do PJ quando aplicável
 
 Ações:
 Garras de Nanotubos: 3S + 3L
@@ -281,7 +281,7 @@ Autodestruição ao ser destruído ou diante de captura/incapacitação iminente
 
 **Proveniência curta:** defesa 7d → 7/2; alerta 9d → 6/3; iniciativa 14; garras usam Destreza 4 + Armas Brancas 4 = 8d D6 → 3S e 8L → 3L. A explosão original de 8d L é comprimida pelo operador de efeito já usado no projeto para 3L; não recebe ataque próprio.
 
-O soak total de 12d fica explicitamente marcado porque o baseline de P vigente termina em 10d. Nenhum P acima da curva é inventado.
+O soak total de 12d usa a extensão direta da régua: **12d → P5**. A tipagem C/L/A continua pendente de decisão.
 
 ---
 
@@ -297,29 +297,30 @@ Essas regras ficam como Características dos modelos; não viram ações dos HIT
 
 ---
 
-# 9. Blockers reais do PT-7
+# 9. Pendência real do PT-7
 
-## 9.1 Contramágika Inata
+## 9.1 Contramágika Inata — resolvida
 
-Victor, HIT Mark V e HIT Mark X possuem pools explícitos de Contramágika Inata.
+Victor, HIT Mark V e HIT Mark X mantêm seus valores `2d`, `5d` e `4d`.
 
-A documentação atual estabelece que ela é proteção intrínseca e que sua parada **não deve ser convertida automaticamente** em Limiar/Proteção sem validação da operação original.
+No modelo player-faced, esses dados **reduzem diretamente a parada do PJ quando a Contramágika Inata se aplica**. Como não há rolagem do ST, a regra já satisfaz o contrato do produto e não precisa ser comprimida em outro número.
 
-Como o produto exige zero dados do ST, manter apenas “2d/5d/4d” não fecha a ficha final.
+## 9.2 Proteção do HIT Mark X — resolvida por extensão direta
 
-Este é um blocker real e compartilhado do método, não três estudos separados por NPC.
+A régua passa a incluir:
 
-## 9.2 Proteção do HIT Mark X acima de 10d
+```text
+10–11d → P4
+12–13d → P5
+```
 
-O baseline vigente de soak → P termina em 10d. O Mark X possui 12d totais.
+Logo, o HIT Mark X com 12d totais usa `P5`.
 
-Isso exige apenas estender a régua geral de Proteção acima de 10d; não requer recalibrar o Mark X inteiro.
-
-## 9.3 Tipagem de armadura cibernética/Primium
+## 9.3 Tipagem de armadura cibernética/Primium — pendente
 
 O corpus atual informa soak total e armadura, mas não consolida de modo suficiente, neste ponto do repositório, a cobertura exata C/L/A de Ciborgues e HIT Marks.
 
-A ficha preserva o valor total e marca a tipagem como pendência documental em vez de inventá-la.
+Essa é agora a única decisão mecânica/documental ainda aberta no PT-7.
 
 ---
 
@@ -328,9 +329,9 @@ A ficha preserva o valor total e marca a tipagem como pendência documental em v
 - [x] Cientista Extraordinário convertido;
 - [x] Agente de Campo Extraordinário convertido;
 - [x] Ciborgue Metálico Comum convertido até a tipagem documental disponível;
-- [x] Victor convertido, preservando Contramágika Inata como blocker;
-- [x] HIT Mark V convertido, preservando Contramágika Inata como blocker;
-- [x] HIT Mark X convertido, preservando Contramágika Inata e soak 12d como blockers;
+- [x] Victor convertido, com Contramágika Inata mantida como redução direta de 2d;
+- [x] HIT Mark V convertido, com Contramágika Inata mantida como redução direta de 5d;
+- [x] HIT Mark X convertido, com Contramágika Inata mantida como redução direta de 4d e soak 12d convertido para P5;
 - [x] módulos de especialização preservados;
 - [x] hacking/reprogramação preservados;
 - [x] autodestruição convertida;
@@ -340,6 +341,6 @@ A ficha preserva o valor total e marca a tipagem como pendência documental em v
 
 ## Gate
 
-O lote está convertido com a régua existente. Restam **dois blockers matemáticos compartilhados** — Contramágika Inata e P acima de 10d — e uma conferência documental de tipagem de armadura cibernética/Primium.
+O lote está convertido. Contramágika Inata e P acima de 10d já estão resolvidos por decisão autoral. Resta apenas decidir a **tipagem C/L/A das proteções cibernéticas/Primium**.
 
-**PT-7: CONVERSÃO EM LOTE CONCLUÍDA; PACOTE AINDA NÃO HOMOLOGÁVEL POR CAUSA DOS BLOCKERS COMPARTILHADOS ACIMA.**
+**PT-7: CONVERSÃO EM LOTE CONCLUÍDA; AGUARDANDO SOMENTE DECISÃO DE TIPAGEM FÍSICA PARA HOMOLOGAÇÃO.**
