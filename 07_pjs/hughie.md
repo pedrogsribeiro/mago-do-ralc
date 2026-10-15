@@ -36,6 +36,7 @@ status: ativo
 * Fama 1  
 * Ecos Médicos 3  
 * Recursos 3  
+* **Contatos:** [Lamar](../02_npcs/lamar.md) (Mafioso do submundo; escoltado por capanga Fomori de 3 braços)
 * PTSD (Transtorno de Estresse Pós-Traumático)  
 
 ## Foco e Ferramentas

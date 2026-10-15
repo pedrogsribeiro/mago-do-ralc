@@ -29,9 +29,12 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Bernardino** | Adormecido | Influenciador antivax, ex-BBB e herdeiro tradicional | [`Bernardino.md`](02_npcs/bernardino.md) |
 | **Carlito Heizenberg** | Desperto | Alquimista criador de droga sintética feita a partir de sangue residual | [`Carlito_Heizenberg.md`](02_npcs/carlito_heizenberg.md) |
 | **Elizabeth Barcelos** | Adormecida | Pesquisadora infectologista da vacina da pandemia de 2019-2022 | [`Elizabeth_Barcelos.md`](02_npcs/elizabeth_barcelos.md) |
+| **Erick** | Adormecido | Desenrolador e faz-tudo urbano (1,90 m, caolho), bom de papo; contato de Andrey | [`Erick.md`](02_npcs/erick.md) |
 | **Joana Pipoquinha** | Espírito | Espírito da filha falecida de Lizander que odeia mágika | [`Joana_Pipoquinha.md`](02_npcs/joana_pipoquinha.md) |
 | **Lizander (Filho do Raio)** | Desperto | Mestre de Forças extremista usando trauma da pandemia para alimentar Quintessência | [`Lizander_Filho_do_Raio.md`](02_npcs/lizander_filho_do_raio.md) |
+| **Lamar** | Adormecido / Crime | Mafioso do submundo, contato de Hughie; escoltado por Fomori de 3 braços | [`Lamar.md`](02_npcs/lamar.md) |
 | **Madame Clotilde** | Desperta | Cartomante de circo Verbena (Arete 4), Mentora de Lily e Nina | [`Madame_Clotilde.md`](02_npcs/madame_clotilde.md) |
+| **Ronaldo** | Adormecido | Barman experiente da noite paulistana, informante do submundo; contato de Andrey | [`Ronaldo.md`](02_npcs/ronaldo.md) |
 | **Vladmir Golubenko** | Adormecido | Magnata (1,90 m, frio), dono do Golub Esporte Clube e pai de Andrey | [`Vladmir_Golubenko.md`](02_npcs/vladmir_golubenko.md) |
 
 ---

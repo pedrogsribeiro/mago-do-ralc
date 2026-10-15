@@ -30,7 +30,9 @@ status: ativo
 
 ## Vínculos e Antecedentes
 * Aliados 2  
-* Contatos 2  
+* **Contatos 2:**
+  * [Erick](../02_npcs/erick.md): Faz-tudo, desenrolador, bom de papo, esguio (1,90 m) e caolho que arruma coisas e esquemas.
+  * [Ronaldo](../02_npcs/ronaldo.md): Barman observador com vasto conhecimento sobre as movimentações e figuras do submundo.
 * Recursos 1  
 * Mentor 2  
 * **Pai:** [Vladmir Golubenko](../02_npcs/vladmir_golubenko.md) (Magnata / Dono do Golub Esporte Clube)
