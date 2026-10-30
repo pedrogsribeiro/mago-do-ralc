@@ -24,7 +24,7 @@ As **frentes** contêm *perigos/ameaças dentro de uma situação*, seus impulso
 
 ## Convenção de links
 
-**Convenção interoperável para esta camada de gestão:** `[[Nome do elemento]](../caminho/arquivo.md)`. Visualmente mantém o aspecto de wikilink, mas utiliza sintaxe Markdown navegável no GitHub e em editores Markdown comuns. Não é o wikilink puro de Obsidian (`[[Nome]]`). Se algum editor exigir wikilink puro, será necessário um resolvedor explícito de aliases/caminhos antes da conversão.
+**Convenção interoperável para esta camada de gestão:** `[[Nome do elemento]](CAMINHO_RELATIVO_PARA_NOTA.md)`. Visualmente mantém o aspecto de wikilink, mas utiliza sintaxe Markdown navegável no GitHub e em editores Markdown comuns. Não é o wikilink puro de Obsidian (`[[Nome]]`). Se algum editor exigir wikilink puro, será necessário um resolvedor explícito de aliases/caminhos antes da conversão.
 
 **Prioridade:** caminhos relativos à nota atual, nome legível e um único arquivo canônico. Não usar URLs `file:///` dependentes de equipamento. **Mudança localizada e deliberada:** a antiga regra de `.agents/agents.md` que proibia wikilinks e impunha `file:///` fica substituída para notas narrativas e seus índices; a documentação técnica legada pode ser migrada depois, com auditoria.
 
