@@ -9,10 +9,13 @@
   * **Magos, Tecnocratas e Mortais Especializados:** Bloco Tático Resumido (`**Bloco Mecânico:**`) com Parada Física/Tática, Arete, Esferas Principais, Absorção/Armadura, Força de Vontade e Recursos/Equipamentos.
   * **Entidades Espirituais e Umbróides:** Sistema de Ranks Espirituais (`**Bloco Mecânico:**`) com Gnose, Fúria, Força de Vontade, Essência, Encantos e Ressonância.
 
-## 2. Taxonomia de Notas e Links do Antigravity
-* **Padrão Exclusivo de Links:** Todos os arquivos citados tanto nos documentos `.md` quanto nas conversas do chat DEVEM utilizar exclusivamente o formato de link Markdown clicável com o esquema `file:///` (ex: `[Nome_Do_Arquivo.md](file:///c:/users/pedrogustavo/.../nome_do_arquivo.md)`).
-* **Sem Wikilinks:** Não utilizar sintaxe de wikilinks (`[...](file:///c:/users/pedrogustavo/onedrive/documentos/rpg%20a%20la%20carte/mago%2c%20presencial/07_pjs/niki.md)`). O Antigravity é a única ferramenta de gestão deste workspace.
-* Referências diretas às páginas do Livro Básico de M20 (Apêndice I, Págs. 618-641) e links locais para o acervo de SRD do workspace.
+## 2. Taxonomia de notas e referências navegáveis
+
+* **Para registros narrativos, frentes, cadastros e índices:** utilizar links Markdown relativos com rótulo em forma de wikilink, por exemplo `[[Carlito Heizenberg]](../02_npcs/carlito_heizenberg.md)`. São navegáveis em GitHub e editores Markdown; wikilinks puros de Obsidian não são resolvidos pelo GitHub.
+* **Compatibilidade legada:** antigos links `file:///` permanecem nos documentos não migrados, mas não devem ser criados em novos documentos narrativos. Não presumir caminhos absolutos de máquinas Windows/Ubuntu.
+* **Gestão de histórias:** consultar `01_problemas/frentes/04_gestao_referencias.md`. Frentes incluem perigos/ameaças internos, impulsos e presságios; pessoas, locais, itens, organizações e acontecimentos têm cadastros canônicos fora das frentes. Não duplicar fichas, não converter roteiro planejado em fato e não criar frente passada ativa para o problema legado.
+* **Histórico factual:** arquivos `10_acontecimentos/evt_*.md`; status e fonte obrigatórios. Possibilidades, rumores e identidade incerta devem continuar explicitamente incertos.
+* Referências diretas às páginas do Livro Básico de M20 e ao acervo de regras permanecem permitidas.
 
 ## 3. Diretrizes de Eficiência de Contexto e Economia de Tokens
 * **Navegação Via ÍNDICE MESTRE (`INDEX.md`):** Sempre consulte o arquivo [`INDEX.md`](../index.md) na raiz do workspace como primeiro passo para localizar NPCs, Regras, Facções, Lugares ou Sessões. Evite usar `list_dir` recursivo ou varreduras cegas.
