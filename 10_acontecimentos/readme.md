@@ -11,7 +11,7 @@ status: ativo
 | ID | Acontecimento | Origem da informação | Situação |
 |---|---|---|---|
 | EVT-001 | [[Colisão do motoboy no portão de Hughie]](evt_001_colisao_motoboy.md) | Registro da Sessão 01 | Ocorrido |
-| EVT-002 | [[Revelação do Defensor a Jhonny]](evt_002_revelacao_defensor.md) | Registro da Sessão 01 | Ocorrido |
+| EVT-002 | [[Jhonny acessa conhecimento de uma vida passada]](evt_002_acesso_conhecimento_vidas_passadas.md) | Registro da Sessão 01 | Ocorrido |
 | EVT-003 | [[Fuga da Tecnocracia e evocação da Mula sem Cabeça]](evt_003_fuga_mula_sem_cabeca.md) | Relato do Narrador | Ocorrido; detalhes em aberto |
 | EVT-004 | [[Visita da figura de Zhong Kui]](evt_004_visitante_zhong_kui.md) | Relato do Narrador | Ocorrido; identidade incerta |
 
