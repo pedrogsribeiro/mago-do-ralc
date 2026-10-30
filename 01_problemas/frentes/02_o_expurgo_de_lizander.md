@@ -110,3 +110,13 @@ Lizander; Joana Pipoquinha; possíveis alvos Despertos; agentes da Tecnocracia/A
 ## Estado operacional
 
 **Frente preparada, latente e não homologada.** Nenhum presságio desta ficha foi promovido a fato ocorrido. A sequência em fases do Nó E é **uma possibilidade de preparação anterior**, não um acontecimento obrigatório. Esta frente pode ser resolvida antecipadamente, transformada ou abandonada conforme as ações em mesa.
+
+## Catálogo canônico externo à frente
+
+**Pessoas e grupos:** [[Lizander]](../../02_npcs/lizander_filho_do_raio.md), [[Joana Pipoquinha]](../../02_npcs/joana_pipoquinha.md), [[Carlito Heizenberg]](../../02_npcs/carlito_heizenberg.md), [[Tecnocracia]](../../05_faccoes/tecnocracia.md), [[ABIN]](../../05_faccoes/abin.md).
+
+**Locais e itens:** [[Santuário]](../../03_lugares/santuario_lizander.md), [[Fábrica Pasta da Nona]](../../03_lugares/fabrica_pasta_da_nona.md), [[Sintonizador de Quintessência]](../../06_itens/sintonizador_ritual_quintessencia.md), [[Néctar de Sangue]](../../06_itens/nectar_de_sangue.md).
+
+**Histórico e acontecimentos:** [[Registro de acontecimentos]](../../10_acontecimentos/readme.md). Uma manifestação de presságio só ingressa nesse registro quando efetivamente acontecer.
+
+**Método:** [[Gestão de frentes e elementos]](04_gestao_referencias.md).
