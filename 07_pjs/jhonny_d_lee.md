@@ -33,11 +33,11 @@ status: ativo
 * Recursos 2  
 * Fama 1  
 * Avatar 3  
-* **Vidas Passadas 2:** Revelado em jogo — Jhonny é a **reencarnação do Defensor**, uma entidade/guerreiro protetor ancestral que reencarna periodicamente na Terra em épocas de grave desequilíbrio cósmico/espiritual. Ao canalizar essa memória, recuperou a fala e a compreensão fluente do **idioma Chinês**.
+* **Vidas Passadas 2:** Jhonny já sabia ser a **reencarnação do Defensor**, figura ancestral ligada à proteção em tempos de desequilíbrio cósmico/espiritual. Jhonny e o Defensor são a mesma pessoa na continuidade das encarnações. Em jogo, utilizou Vidas Passadas para acessar o conhecimento do **idioma chinês**, sem descobrir nessa ocasião sua identidade.
 
 ## Foco e Ferramentas
 * **Ferramentas Utilizadas:** Corpo, Pós e Digitação (Acupressão/Digitopressão), Cantos, Alimentos, Geometria Sagrada, Domínio Social, Dinheiro e Riqueza.  
 
 ### Histórico na Crônica
 * **[Sessao_00](../04_sessoes/sessao_00.md):** Ficha inserida e catalogada no banco de dados de PJs.
-* **[Sessao_01](../04_sessoes/sessao_01_framework.md):** No Centro de Treinamento do Sr. Hu, Lee realizou uma rolagem bem-sucedida de **Vidas Passadas**, descobrindo sua identidade cármica como a reencarnação do **Defensor cíclico da Terra**, acessando instantaneamente a fluência do idioma Chinês preservada nessa encarnação prévia.
+* **[Sessao_01](../04_sessoes/sessao_01_framework.md):** No Centro de Treinamento do Sr. Hu, Lee realizou uma rolagem bem-sucedida de **Vidas Passadas**, acessando o conhecimento do idioma chinês preservado numa encarnação anterior. **Jhonny já sabia ser o Defensor antes desse teste**; não houve revelação de identidade nessa cena.
