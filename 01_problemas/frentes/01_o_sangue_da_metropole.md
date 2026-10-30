@@ -13,7 +13,7 @@ data: 2026-10-30
 
 **Questão dramática do contexto:** O que acontecerá com as pessoas, relações e poderes envolvidos na circulação de sangue convertido em Quintessência?
 
-**Escopo:** todos os perigos abaixo operam **DENTRO da mesma situação**. Os presságios descrevem possibilidades futuras sob condições, e nenhum é automaticamente considerado já ocorrido. Distinguir os fatos jogados dos planejamentos da Sessão 02.
+**Escopo:** todos os perigos abaixo operam **DENTRO da mesma situação**. A frente futura específica de Lizander está em [O Expurgo dos Despertos](02_o_expurgo_de_lizander.md): os acontecimentos de Lizander aqui refletem somente o efeito da demanda por Quintessência sobre o tráfico, sem duplicar toda sua trajetória. Os presságios descrevem possibilidades futuras sob condições, e nenhum é automaticamente considerado já ocorrido. Distinguir os fatos jogados dos planejamentos da Sessão 02.
 
 ---
 
@@ -55,20 +55,20 @@ data: 2026-10-30
 
 ---
 
-## Ameaça 3 — Lizander, beneficiário potencial do circuito
+## Ameaça 3 — A demanda de Quintessência para o projeto de Lizander
 
-**Tipo DW (aproximação):** inimigo arcano.
+**Tipo DW (aproximação):** força de consumo / organização ambiciosa atuando sobre a cadeia logística.
 
-**Impulso:** obter energia e condições para sua intenção de exterminar Despertos. Nesta frente, seu papel está **limitado à dependência ou exploração do circuito de Quintessência sanguínea**; não estabelecer um arco independente de expurgo aqui.
+**Impulso:** desviar parte do sangue refinado para abastecer uma operação mística externa. Aqui o perigo é **a pressão sobre o circuito de distribuição**: Lizander e seus objetivos maiores pertencem à [frente futura](02_o_expurgo_de_lizander.md).
 
 **Presságios sombrios (possíveis):**
 1. Se o fluxo de recursos persistir, porções de Quintessência são direcionadas para sua preparação, deixando rastros.
 2. Se mantiver suprimentos, sigilo e capacidade, ele testa a utilização dessas reservas em escala localizada.
-3. Se reunir as condições necessárias, transforma o abastecimento em uma ofensiva contra Despertos envolvidos com a situação.
+3. Se a malha continuar abastecendo o projeto, a demanda aumenta e deixa a rede de Carlito mais exposta ou dependente de fornecedores e cúmplices.
 
-**Desastre iminente:** os recursos obtidos pelo tráfico são convertidos em ataque de grande escala contra outros Despertos.
+**Desastre iminente:** a rede clandestina torna-se um canal estável de financiamento energético de uma operação de extermínio que a cabala ainda pode interromper.
 
-**Movimentos possíveis:** exigir remessa; ocultar canal de energia; ordenar proteção do santuário; sondar os magos; demonstrar o potencial de seus efeitos de Forças. Não presumir que ele sobreviverá até o Nó E.
+**Movimentos possíveis:** exigir nova remessa; mascarar o destinatário de uma transferência; pressionar intermediários por volume; deixar rastros de Primórdio/Forças nos carregamentos; romper contato ao descobrir investigação. As ações diretas de Lizander, seus recursos e sua progressão maior estão na frente futura. Não presumir que ele sobreviverá até o Nó E.
 
 **Obstáculos em cena, se acionados:** ressonância elétrica rastreável, condutor de Quintessência, contatos, barreira ritual, próprio Lizander — conforme suas fichas e as regras de M20.
 
@@ -76,7 +76,7 @@ data: 2026-10-30
 
 ## Relações internas entre as ameaças
 
-Carlito cria a estrutura de abastecimento que pode favorecer **Lizander**. A própria circulação e o refinamento favorecem o avanço do **Jhor**. A contaminação pode revelar e prejudicar a distribuição; uma reação de Lizander pode expor a operação de Carlito. A destruição da fábrica interromperia certos recursos, mas não obrigatoriamente curaria todos os afetados nem impediria todo ato independente de Lizander.
+Carlito cria a estrutura de abastecimento que pode favorecer **Lizander**. A própria circulação e o refinamento favorecem o avanço do **Jhor**. A contaminação pode revelar e prejudicar a distribuição; uma reação de Lizander pode expor a operação de Carlito. A destruição da fábrica interromperia certos recursos, mas não obrigatoriamente curaria todos os afetados nem impediria todo ato independente de Lizander. **O mesmo carregamento é um único fato ficcional:** ele pode atualizar a posição de mais de uma frente sem repetir avanço em relógios ou impor consequências duplicadas.
 
 **Essas são relações causais, não uma ordem de cenas.** Os perigos podem agir sobre outros perigos, vencer ou perder recursos, desfazer alianças e desaparecer.
 
@@ -98,6 +98,19 @@ Consultar `09_arco_01_o_sangue_da_metropole/` para os vínculos documentados; n�
 3. **O que a cabala fará ao descobrir a ligação possível entre a rede de Carlito e os objetivos de Lizander?**
 
 Nenhuma resposta é escrita pelo Narrador de antemão. A escolha dos PJs pode dissolver a frente, reformular suas ameaças ou produzir alianças inesperadas.
+
+## Passado que continua produzindo efeitos
+
+A guerra anterior entre a Tecnocracia/ABIN, os Espíritos das Cidades e os Povos da Floresta constitui **história do cenário**, sem frente passada ativa. Se um operativo tecnológico investiga as amostras ou um espírito reconhece o sangue, isso pode ser consequência causal das relações já estabelecidas. Uma antiga adversária, uma proteção ritual ou um vínculo espiritual pode reaparecer como recurso e obstáculo atual. O Narrador não precisa reabrir o conflito passado para utilizá-lo.
+
+**Exemplo trazido pela mesa (preservar sem extrapolar):** durante uma fuga da Tecnocracia, uma Verbena invocou a Mula sem Cabeça. A relação entre a ameaça tecnológica presente, o paradigma da invocadora e o folclore oferece uma manifestação sobrenatural concreta. A evocação deve respeitar as Esferas, o ritual e o escopo dos sucessos; o espírito pode agir conforme a natureza e os interesses estabelecidos, sem ganhar controle automático sobre o resultado da fuga.
+
+## Lentes para movimentos e consequências
+
+- **Paradigma e Vidare:** o referencial do mago influencia a forma como procura, percebe e interpreta os Outros Mundos. Pode orientar que entidade reconheça sua evocação, sem produzir encontro obrigatório ou transformar a identidade verdadeira da entidade.
+- **Ressonância/Jhor:** assinaturas e contaminação podem atrair observadores, revelar ligações e provocar efeitos sustentados pela fonte; Jhor não é punição genérica por conjurar.
+- **Húbris/Avatar:** oportunidades de exercer poder, imposições morais e possíveis Buscas podem surgir de NPCs e escolhas, preservando a decisão do jogador sobre seu personagem.
+- **Ponte para o futuro:** a demanda de sangue pode revelar sinais da [frente do Expurgo](02_o_expurgo_de_lizander.md). Um presságio do futuro só se concretiza se suas condições realmente forem atendidas.
 
 ## Estado e atualização
 
