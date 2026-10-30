@@ -38,7 +38,7 @@ graph TD
   * Um motoboy do **Appetito Delivery** colidiu violentamente contra o **portão da casa de Hughie**.
   * Os personagens socorreram/abordaram a cena e abriram o baú de entregas da moto.
 * **Situação Atual do Grupo (Gancho Ativo / Ponto de Partida):** Após recolherem a carga do baú da moto acidentada no portão de Hughie, os personagens se deslocaram e **estão reunidos no Centro de Treinamento Akashayano do Sr. Hu** ([centro_de_treinamento_sr_hu.md](../03_lugares/centro_de_treinamento_sr_hu.md)), com a droga em mãos, sem saber exatamente o que fazer com ela e decidindo o próximo passo.
-  * **Revelação Mística de Jhonny D. Lee:** No dojô, Lee realizou uma rolagem bem-sucedida de **Vidas Passadas**. Ele descobriu que é a **reencarnação de um lendário Defensor** que surge ciclicamente na Terra quando grandes ameaças se erguem. Através desse contato com a memória ancestral, Lee recuperou a habilidade e fluência no **idioma Chinês** pertencente àquela vida pregressa.
+  * **Uso de Vidas Passadas por Jhonny D. Lee:** No dojô, Lee realizou uma rolagem bem-sucedida de **Vidas Passadas** para acessar o conhecimento do **idioma chinês** de uma encarnação anterior. **Ele já sabia ser a reencarnação do Defensor**; nessa ocasião não houve revelação dessa identidade.
 
 ---
 
