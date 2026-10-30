@@ -70,8 +70,17 @@ Os estudos de Obstáculos são a **gramática operacional** para interações da
 ## 5. Exemplo em contexto
 
 - **Frente de aventura:** [O Sangue da Metrópole](01_o_sangue_da_metropole.md). Abriga os perigos Carlito/rede, contaminação por Jhor e a apropriação de Quintessência por Lizander **na medida em que interferem no mesmo caso**.
-- **Possível futura frente de campanha:** Guerra Trilateral, caso elaborada posteriormente, reuniria seus próprios perigos sob o contexto da disputa territorial. A decisão de criá-la não está homologada.
-- **Problemas Legado, Presente e Futuro:** continuam a ser fatos estruturantes da campanha. Não são convertidos automaticamente em três frentes isoladas.
+- **Frente futura:** [O Expurgo dos Despertos](02_o_expurgo_de_lizander.md) prepara o problema futuro com seus perigos internos e pode lançar sinais na frente presente.
+- **Problema Legado:** é histórico da campanha, **sem frente ativa**. Suas consequências, recursos e relações continuam disponíveis na ficção, inclusive no presente.
+- **Problemas Presente e Futuro:** são as **duas frentes em preparação**; nem todo NPC ou lembrança do passado vira uma ameaça autônoma.
+
+## Exemplos vindos da mesa: consequências e identidade espiritual
+
+Durante uma fuga contra a Tecnocracia, uma Verbena invocou a **Mula sem Cabeça**: um elemento de crença, tradição e história preexistentes pôde intervir na situação presente sem exigir reativação de uma antiga frente. A manifestação e suas ações são resolvidas conforme poderes e condições estabelecidos, sem anular automaticamente a perseguição.
+
+Em outra cena, um invocador recebeu a visita de **alguém que se apresentou ou foi descrito como Zhong Kui**. É fato de mesa que essa figura apareceu diante dele; sua verdadeira identidade **não foi verificada**. Pode ser a própria entidade, um emissário autorizado, um impostor ou outro agente, conforme pistas e descobertas posteriores. O paradigma chinês do personagem torna o vínculo plausível, mas não prova identidade. Um Corista Celestial, por contraste, poderia reconhecer ou atrair formas angelicais por rituais e relações equivalentes. O Vidare também pode afetar a percepção de uma entidade sem alterar sua identidade verdadeira.
+
+Esses exemplos são **referências para improvisação do Narrador**, não presságios obrigatórios. As lentes de Mago — paradigma/Vidare, ressonância (inclusive Jhor quando pertinente), Húbris e Avatar — orientam sinais, movimentos, afinidades e tensões éticas, nunca uma consequência negativa automática por magia bem-sucedida.
 
 ## Fontes
 
