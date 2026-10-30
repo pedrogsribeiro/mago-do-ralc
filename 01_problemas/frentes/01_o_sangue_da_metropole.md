@@ -1,0 +1,106 @@
+---
+type: frente
+summary: "Exemplo experimental de uma Frente de Aventura para O Sangue da Metrópole: três ameaças internas, presságios por ameaça, elenco e questões abertas."
+tags: [frente, aventura, sangue_da_metropole, carlito, jhor, lizander, pressagios, proposta]
+status: proposta_nao_homologada
+escala: aventura
+data: 2026-10-30
+---
+
+# Frente de aventura — O Sangue da Metrópole
+
+**Contexto:** uma droga sintética de Quintessência extraída de sangue de mortos circula por São Paulo. O incidente com um motoboy no portão de Hughie introduziu a rede de distribuição; os personagens puderam obter amostras e pistas sobre a logística. O planejamento do arco relaciona Carlito, Appetito Delivery, o CAPS, um data center e o possível abastecimento de Lizander. A transmissão de Jhor aparece na preparação da Sessão 02.
+
+**Questão dramática do contexto:** O que acontecerá com as pessoas, relações e poderes envolvidos na circulação de sangue convertido em Quintessência?
+
+**Escopo:** todos os perigos abaixo operam **DENTRO da mesma situação**. Os presságios descrevem possibilidades futuras sob condições, e nenhum é automaticamente considerado já ocorrido. Distinguir os fatos jogados dos planejamentos da Sessão 02.
+
+---
+
+## Ameaça 1 — Carlito e a rede de produção e distribuição
+
+**Tipo DW (aproximação):** organização ambiciosa, com inimigo arcano em seu comando.
+
+**Impulso:** preservar e ampliar o controle da produção, da distribuição e dos lucros de Quintessência sanguínea, mantendo os participantes sob influência.
+
+**Presságios sombrios (possíveis):**
+1. A rede tenta redirecionar entregas e ocultar documentos após perceber que a cabala encontrou amostras.
+2. Mantidas as rotas, novos lotes chegam a pontos de consumo; a expansão deixa registros comerciais, biológicos e digitais.
+3. Se dispuser de tempo, dinheiro e cúmplices, Carlito subordina outros intermediários e torna mais difícil desmantelar o circuito.
+
+**Desastre iminente:** o tráfico de Quintessência de sangue se consolida como uma rede clandestina persistente, com vítimas e influência suficientes para sustentar novas operações.
+
+**Movimentos possíveis:** oferecer um acordo com custos; remover ou falsificar documentos; desviar entregas; cooptar intermediário; intimidar testemunha; usar defesa de laboratório já estabelecida quando houver oportunidade.
+
+**Obstáculos em cena, se acionados:** fachada da fábrica, sistemas de entrega do Appetito, trabalhadores e cultistas, defesa alquímica, transações rastreáveis. Perfil D/R/P e outros parâmetros devem vir dos obstáculos/fichas M20 existentes, não da frente.
+
+---
+
+## Ameaça 2 — O foco de contaminação por Jhor
+
+**Tipo DW (aproximação):** lugar amaldiçoado / força sobrenatural local.
+
+**Impulso:** degradar padrões biológicos e espirituais em locais e pessoas expostos, enquanto persistir a fonte de contaminação.
+
+**Presságios sombrios (possíveis):**
+1. Uma análise de amostras ou de pacientes revela ressonância degradada compatível com Jhor, se houver exposição.
+2. Caso a distribuição continue, novos focos de consumo apresentam manifestações biológicas e espirituais.
+3. Se não houver tratamento, contenção ou interrupção das fontes, um foco persistente altera o ambiente espiritual ao redor.
+
+**Desastre iminente:** contaminação duradoura de pessoas e de ao menos uma região conectada à operação da droga.
+
+**Movimentos possíveis:** revelar sintoma estranho; deixar ressonância rastreável; contaminar objeto ou local exposto; atrair entidade oportunista; intensificar efeito cuja causa permaneceu ativa. Seus efeitos dependem dos procedimentos M20 pertinentes.
+
+**Obstáculos em cena, se acionados:** amostras e exames, pacientes, instalações contaminadas, passagem espiritual alterada. Os personagens podem curar e conter de maneira definitiva quando sua magia e ações permitirem.
+
+---
+
+## Ameaça 3 — Lizander, beneficiário potencial do circuito
+
+**Tipo DW (aproximação):** inimigo arcano.
+
+**Impulso:** obter energia e condições para sua intenção de exterminar Despertos. Nesta frente, seu papel está **limitado à dependência ou exploração do circuito de Quintessência sanguínea**; não estabelecer um arco independente de expurgo aqui.
+
+**Presságios sombrios (possíveis):**
+1. Se o fluxo de recursos persistir, porções de Quintessência são direcionadas para sua preparação, deixando rastros.
+2. Se mantiver suprimentos, sigilo e capacidade, ele testa a utilização dessas reservas em escala localizada.
+3. Se reunir as condições necessárias, transforma o abastecimento em uma ofensiva contra Despertos envolvidos com a situação.
+
+**Desastre iminente:** os recursos obtidos pelo tráfico são convertidos em ataque de grande escala contra outros Despertos.
+
+**Movimentos possíveis:** exigir remessa; ocultar canal de energia; ordenar proteção do santuário; sondar os magos; demonstrar o potencial de seus efeitos de Forças. Não presumir que ele sobreviverá até o Nó E.
+
+**Obstáculos em cena, se acionados:** ressonância elétrica rastreável, condutor de Quintessência, contatos, barreira ritual, próprio Lizander — conforme suas fichas e as regras de M20.
+
+---
+
+## Relações internas entre as ameaças
+
+Carlito cria a estrutura de abastecimento que pode favorecer **Lizander**. A própria circulação e o refinamento favorecem o avanço do **Jhor**. A contaminação pode revelar e prejudicar a distribuição; uma reação de Lizander pode expor a operação de Carlito. A destruição da fábrica interromperia certos recursos, mas não obrigatoriamente curaria todos os afetados nem impediria todo ato independente de Lizander.
+
+**Essas são relações causais, não uma ordem de cenas.** Os perigos podem agir sobre outros perigos, vencer ou perder recursos, desfazer alianças e desaparecer.
+
+## Elenco, lugares e elementos de contexto
+
+- **Carlito Heizenberg:** responsável principal pela criação e circulação da droga na preparação existente.
+- **Pastafarianos/Appetito:** operadores logísticos com possíveis prioridades divergentes.
+- **Ângela:** enfermeira Desperta ligada ao atendimento de pacientes; seus interesses não são impostos pelo Narrador.
+- **Joana Pipoquinha:** espírito associado a Lizander, com autonomia e possível oposição a seu pai.
+- **ABIN:** fator externo interessado em investigação/controle e capaz de interferir, sem se tornar automaticamente uma quarta ameaça.
+- **Fábrica Pasta da Nona, CAPS Zona Sul, data center e santuário:** lugares de investigação que podem ser visitados em qualquer ordem ou deixar de importar segundo as ações da cabala.
+
+Consultar `09_arco_01_o_sangue_da_metropole/` para os vínculos documentados; não impor os atos e clímax previstos como destino obrigatório.
+
+## Questões em aberto (Stakes) — da Frente inteira
+
+1. **Quem terá controle efetivo sobre a produção e a circulação de Quintessência de sangue quando o conflito se alterar?**
+2. **O que acontecerá com Ângela e com as pessoas expostas à droga?**
+3. **O que a cabala fará ao descobrir a ligação possível entre a rede de Carlito e os objetivos de Lizander?**
+
+Nenhuma resposta é escrita pelo Narrador de antemão. A escolha dos PJs pode dissolver a frente, reformular suas ameaças ou produzir alianças inesperadas.
+
+## Estado e atualização
+
+**Presságios ainda não marcados como acontecidos nesta proposta.** O roteiro da Sessão 01 contém histórico do motoboy e do dojô; a Sessão 02 inclui preparações que precisam ser distinguidas dos fatos efetivamente ocorridos. Não avançar automaticamente os presságios por falha dos PJs, encerramento da sessão ou necessidade de drama. Alterar condições, mostrar repercussões e respeitar vitórias concretas.
+
+**Referências:** [problema presente](../problema_presente.md), [problema futuro](../problema_futuro.md), [matriz de pistas](../../09_arco_01_o_sangue_da_metropole/00_visao_geral_e_matriz_de_pistas.md), [método experimental](00_modelo_experimental.md).
