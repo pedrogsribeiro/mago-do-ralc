@@ -117,3 +117,15 @@ A guerra anterior entre a Tecnocracia/ABIN, os Espíritos das Cidades e os Povos
 **Presságios ainda não marcados como acontecidos nesta proposta.** O roteiro da Sessão 01 contém histórico do motoboy e do dojô; a Sessão 02 inclui preparações que precisam ser distinguidas dos fatos efetivamente ocorridos. Não avançar automaticamente os presságios por falha dos PJs, encerramento da sessão ou necessidade de drama. Alterar condições, mostrar repercussões e respeitar vitórias concretas.
 
 **Referências:** [problema presente](../problema_presente.md), [problema futuro](../problema_futuro.md), [matriz de pistas](../../09_arco_01_o_sangue_da_metropole/00_visao_geral_e_matriz_de_pistas.md), [método experimental](00_modelo_experimental.md).
+
+## Catálogo canônico externo à frente
+
+**Pessoas e grupos:** [[Carlito Heizenberg]](../../02_npcs/carlito_heizenberg.md), [[Ângela]](../../02_npcs/angela.md), [[Joana Pipoquinha]](../../02_npcs/joana_pipoquinha.md), [[Lizander]](../../02_npcs/lizander_filho_do_raio.md), [[Pastafarianos]](../../05_faccoes/pastafarianos.md), [[ABIN]](../../05_faccoes/abin.md).
+
+**Locais:** [[Fábrica Pasta da Nona]](../../03_lugares/fabrica_pasta_da_nona.md), [[CAPS Zona Sul]](../../03_lugares/caps_zona_sul.md), [[Data Center]](../../03_lugares/sede_data_center.md), [[Centro de Treinamento do Sr. Hu]](../../03_lugares/centro_de_treinamento_sr_hu.md).
+
+**Itens/provas:** [[Néctar de Sangue]](../../06_itens/nectar_de_sangue.md), [[Celular do motoboy]](../../06_itens/celular_motoboy.md), [[Sangue]](../../06_itens/sangue.md), [[Sintonizador de Quintessência]](../../06_itens/sintonizador_ritual_quintessencia.md).
+
+**Fatos já ocorridos:** [[EVT-001 — Colisão]](../../10_acontecimentos/evt_001_colisao_motoboy.md), [[EVT-002 — Revelação do Defensor]](../../10_acontecimentos/evt_002_revelacao_defensor.md). **Histórico externo:** [[EVT-003 — Mula sem Cabeça]](../../10_acontecimentos/evt_003_fuga_mula_sem_cabeca.md). Estes links não são novos presságios; referenciam registros únicos.
+
+**Método:** [[Gestão de frentes e elementos]](04_gestao_referencias.md).
