@@ -126,6 +126,6 @@ A guerra anterior entre a Tecnocracia/ABIN, os Espíritos das Cidades e os Povos
 
 **Itens/provas:** [[Néctar de Sangue]](../../06_itens/nectar_de_sangue.md), [[Celular do motoboy]](../../06_itens/celular_motoboy.md), [[Sangue]](../../06_itens/sangue.md), [[Sintonizador de Quintessência]](../../06_itens/sintonizador_ritual_quintessencia.md).
 
-**Fatos já ocorridos:** [[EVT-001 — Colisão]](../../10_acontecimentos/evt_001_colisao_motoboy.md), [[EVT-002 — Revelação do Defensor]](../../10_acontecimentos/evt_002_revelacao_defensor.md). **Histórico externo:** [[EVT-003 — Mula sem Cabeça]](../../10_acontecimentos/evt_003_fuga_mula_sem_cabeca.md). Estes links não são novos presságios; referenciam registros únicos.
+**Fatos já ocorridos:** [[EVT-001 — Colisão]](../../10_acontecimentos/evt_001_colisao_motoboy.md), [[EVT-002 — Acesso a conhecimento de Vidas Passadas]](../../10_acontecimentos/evt_002_acesso_conhecimento_vidas_passadas.md). **Histórico externo:** [[EVT-003 — Mula sem Cabeça]](../../10_acontecimentos/evt_003_fuga_mula_sem_cabeca.md). Estes links não são novos presságios; referenciam registros únicos.
 
 **Método:** [[Gestão de frentes e elementos]](04_gestao_referencias.md).
