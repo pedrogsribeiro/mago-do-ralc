@@ -3,9 +3,9 @@ type: index
 summary: "Índice navegável da pasta 02_NPCs para otimização de busca dos agentes de IA."
 tags: [indice, readme, 02_npcs]
 ---
-# Pasta: 02_NPCs
+# NPCs e entidades — índice canônico
 
-Este documento reúne o índice navegável e resumos de todos os arquivos contidos na pasta `02_NPCs`.
+Catálogo de personagens não jogadores e entidades com cadastro único, independente das frentes. As ameaças descritas nas frentes referenciam essas fichas, sem duplicá-las.
 
 ---
 
@@ -22,3 +22,18 @@ Este documento reúne o índice navegável e resumos de todos os arquivos contid
 - [`Vito.md`](vito.md): Vito. Mafioso e chefe do crime organizado registrado na crônica.
 - [`Erick.md`](erick.md): Erick. Homem esguio, alto (1,90m) e caolho registrado na crônica.
 - [`Sr_Hu.md`](sr_hu.md): Mestre sênior dos Irmãos de Akasha e proprietário do Centro de Treinamento de Do onde o grupo está refugiado.
+
+## Outros personagens e entidades já cadastrados
+
+- [[Lamar]](lamar.md): contato de Hughie ligado ao submundo.
+- [[Madame Clotilde]](madame_clotilde.md): cartomante Verbena ligada ao circo itinerante.
+- [[Ronaldo]](ronaldo.md): barman e informante ligado a Andrey.
+- [[Vladmir Golubenko]](vladmir_golubenko.md): pai de Andrey, magnata e proprietário do Golub Esporte Clube.
+- [[São Paulo — Guardião do Asfalto e Concreto e seu séquito]](sao_paulo_guardiao_e_sequito.md): espírito urbano e cinco entidades próximas, com movimentos homologados.
+
+## Entidades cuja identidade ou manifestação ainda tem detalhes em aberto
+
+- [[Visitante atribuído a Zhong Kui]](visitante_zhong_kui.md): alguém compareceu sob esse nome; sua identidade permanece incerta.
+- [[Mula sem Cabeça — manifestação evocada]](mula_sem_cabeca_manifestacao.md): invocada por uma Verbena durante fuga da Tecnocracia; desdobramentos não confirmados.
+
+[[Frentes]](../01_problemas/frentes/readme.md) · [[Registro factual de acontecimentos]](../10_acontecimentos/readme.md)
