@@ -30,3 +30,4 @@ status: ativo
 ### Vínculos & Conexões
 * **Aprendizes / Protegidas:** Lily e Nina (Mentora 1 de ambas).
 * **Tradição:** [Verbena](../05_faccoes/verbena.md).
+* **Sombra do Passado / Inimiga:** [Minerva](minerva.md) (Nefandus Barabbi, antiga companheira de coven que sucumbiu ao Vazio).

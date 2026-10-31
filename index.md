@@ -45,6 +45,7 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Mula sem Cabeça** | Manifestação evocada | Evocação durante fuga da Tecnocracia | [[Registro]](02_npcs/mula_sem_cabeca_manifestacao.md) |
 | **Lamar** | Adormecido / Crime | Mafioso do submundo, contato de Hughie; escoltado por Fomori de 3 braços | [`Lamar.md`](02_npcs/lamar.md) |
 | **Madame Clotilde** | Desperta | Cartomante de circo Verbena (Arete 4), Mentora de Lily e Nina | [`Madame_Clotilde.md`](02_npcs/madame_clotilde.md) |
+| **Minerva** | Desperta / Nefandus | Bruxa Barabbi caída e oráculo sombrio; compartilha passado com Clotilde | [`Minerva.md`](02_npcs/minerva.md) |
 | **Ronaldo** | Adormecido | Barman experiente da noite paulistana, informante do submundo; contato de Andrey | [`Ronaldo.md`](02_npcs/ronaldo.md) |
 | **Vladmir Golubenko** | Adormecido | Magnata (1,90 m, frio), dono do Golub Esporte Clube e pai de Andrey | [`Vladmir_Golubenko.md`](02_npcs/vladmir_golubenko.md) |
 
