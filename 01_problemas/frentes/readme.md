@@ -21,4 +21,4 @@ A preparação compreende **duas frentes**, cada qual contendo seus próprios pe
 
 A frente futura pode lançar sinais no presente, inclusive por meio das remessas de sangue. **Sinal presente não implica avanço automático de um presságio futuro.** Nenhum acontecimento planejado em roteiro deve ser marcado como realizado sem registro da sessão.
 
-**Status: proposta em avaliação, não homologada.** A branch `master` não é alterada por estes documentos.
+**Status: frentes documentadas na `master`; movimentos e presságios permanecem propostas de preparação, sujeitos à evolução da mesa.**
