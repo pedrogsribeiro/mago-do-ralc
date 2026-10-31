@@ -40,6 +40,9 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Erick** | Adormecido | Desenrolador e faz-tudo urbano (1,90 m, caolho), bom de papo; contato de Andrey | [`Erick.md`](02_npcs/erick.md) |
 | **Joana Pipoquinha** | Espírito | Espírito da filha falecida de Lizander que odeia mágika | [`Joana_Pipoquinha.md`](02_npcs/joana_pipoquinha.md) |
 | **Lizander (Filho do Raio)** | Desperto | Mestre de Forças extremista usando trauma da pandemia para alimentar Quintessência | [`Lizander_Filho_do_Raio.md`](02_npcs/lizander_filho_do_raio.md) |
+| **São Paulo e séquito** | Espíritos | Incarna urbano e cinco entidades próximas | [[Ficha homologada]](02_npcs/sao_paulo_guardiao_e_sequito.md) |
+| **Visitante atribuído a Zhong Kui** | Espírito de identidade incerta | Figura que compareceu diante do invocador sob esse nome | [[Ficha]](02_npcs/visitante_zhong_kui.md) |
+| **Mula sem Cabeça** | Manifestação evocada | Evocação durante fuga da Tecnocracia | [[Registro]](02_npcs/mula_sem_cabeca_manifestacao.md) |
 | **Lamar** | Adormecido / Crime | Mafioso do submundo, contato de Hughie; escoltado por Fomori de 3 braços | [`Lamar.md`](02_npcs/lamar.md) |
 | **Madame Clotilde** | Desperta | Cartomante de circo Verbena (Arete 4), Mentora de Lily e Nina | [`Madame_Clotilde.md`](02_npcs/madame_clotilde.md) |
 | **Ronaldo** | Adormecido | Barman experiente da noite paulistana, informante do submundo; contato de Andrey | [`Ronaldo.md`](02_npcs/ronaldo.md) |
@@ -55,6 +58,8 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 | **Fábrica Pasta da Nona** | Instalação industrial abandonada reutilizada como laboratório ou refúgio | [`Fabrica_Pasta_da_Nona.md`](03_lugares/fabrica_pasta_da_nona.md) |
 | **Sets de Filmagem SP** | Estúdios e sets urbanos de São Paulo usados pela mídia e entretenimento | [`Sao_Paulo_Sets_de_Filmagem.md`](03_lugares/sao_paulo_sets_de_filmagem.md) |
 | **Sede Data Center** | Centro de dados corporativo de alta segurança sob vigilância da Tecnocracia/ABIN | [`Sede_Data_Center.md`](03_lugares/sede_data_center.md) |
+| **CAPS Zona Sul** | Atendimento e investigação dos afetados pela droga | [[Cadastro]](03_lugares/caps_zona_sul.md) |
+| **Santuário de Lizander** | Instalação e aparato de energia em preparação | [[Cadastro]](03_lugares/santuario_lizander.md) |
 
 ---
 
