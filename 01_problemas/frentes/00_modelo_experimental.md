@@ -8,7 +8,7 @@ data: 2026-10-30
 
 # Frentes para Mago do RALC — modelo experimental
 
-**Situação:** proposta em avaliação, sem homologação. A `master` e os fatos de sessão não são alterados por este texto.
+**Situação:** proposta em avaliação, sem homologação. Este método está documentado na `master`; as hipóteses de preparação não alteram retroativamente fatos de sessão.
 
 ## 1. Unidade de preparação: a Frente
 
