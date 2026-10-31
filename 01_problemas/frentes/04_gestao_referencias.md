@@ -2,7 +2,7 @@
 type: guia
 summary: "Contrato de gestão de histórias por frentes com entidades e acontecimentos canônicos independentes."
 tags: [frentes, gestao, entidades, acontecimentos, links, canon, procedimentos]
-status: aprovado_para_organizacao
+status: ativo
 ---
 # Gestão de histórias por frentes
 
