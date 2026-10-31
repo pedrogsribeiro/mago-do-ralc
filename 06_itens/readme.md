@@ -14,3 +14,7 @@ Este documento reúne o índice navegável e resumos de todos os arquivos contid
 - [`Cristais_de_Quintessencia.md`](cristais_de_quintessencia.md): Documento referente a Cristais de Quintessência.
 - [`Mentes_dos_Despertos.md`](mentes_dos_despertos.md): Documento referente a Mentes dos Despertos.
 - [`Sangue.md`](sangue.md): Documento referente a Sangue.
+
+- [[Néctar de Sangue]](nectar_de_sangue.md) — droga de Quintessência sanguínea, distinta da entrada genérica de cristais.
+- [[Celular do motoboy]](celular_motoboy.md) — evidência da colisão no portão de Hughie.
+- [[Sintonizador ritual]](sintonizador_ritual_quintessencia.md) — dispositivo preparado que pode vincular as duas frentes.

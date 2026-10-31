@@ -10,6 +10,14 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 
 ---
 
+## Gestão de histórias por frentes e elementos
+
+[[Frentes ativas e futuras]](01_problemas/frentes/readme.md) · [[Gestão de entidades e referências]](01_problemas/frentes/04_gestao_referencias.md) · [[Acontecimentos confirmados]](10_acontecimentos/readme.md).
+
+**Cadastros independentes:** [[Pessoas e espíritos]](02_npcs/readme.md), [[PJs]](07_pjs/readme.md), [[Locais]](03_lugares/readme.md), [[Itens]](06_itens/readme.md), [[Facções]](05_faccoes/readme.md), [[Sessões]](04_sessoes/readme.md). As frentes **apontam** para esses elementos, sem duplicar fichas ou fatos. O histórico da Guerra Trilateral não constitui uma frente ativa.
+
+---
+
 ## 👥 1. Personagens dos Jogadores (PJs)
 
 | Nome | Conceito / Fiação | Fichas / Nota |
