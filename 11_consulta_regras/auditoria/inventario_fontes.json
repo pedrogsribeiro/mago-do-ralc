@@ -71,9 +71,14 @@
       "path": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
       "sha": "4edda3472c72bb84d39c893d4aa2174117ba1f9b",
       "group": "02_criacao_de_personagem",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_confirmadas",
+      "inventory_status": "amostra_lida_unidades_identificadas",
+      "source_in_manifest": false,
+      "candidate_units": [
+        "Pontos de bônus iniciais",
+        "Tabela de custos de experiência",
+        "Etapas de criação"
+      ]
     },
     {
       "path": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
@@ -143,17 +148,28 @@
       "path": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
       "sha": "e1a87d17dd464921457f196d2095e185b93aa86c",
       "group": "02_criacao_de_personagem",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_confirmadas",
+      "inventory_status": "amostra_lida_unidades_identificadas",
+      "source_in_manifest": false,
+      "candidate_units": [
+        "Custos de pontos de bônus",
+        "Custos de experiência (XP)",
+        "Distribuição de atributos e habilidades",
+        "Especialidades"
+      ]
     },
     {
       "path": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
       "sha": "b7e1822e12fde04f63cf54ad73cd9d2f924b1484",
       "group": "03_sistemas_e_regras",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_confirmadas",
+      "inventory_status": "amostra_lida_unidades_identificadas",
+      "source_in_manifest": false,
+      "candidate_units": [
+        "Tabela de dificuldades e sucessos",
+        "Falha crítica",
+        "Tipos de ação"
+      ]
     },
     {
       "path": "00_biblia/03_sistemas_e_regras/readme.md",
@@ -183,9 +199,14 @@
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
       "sha": "a36ec771bc1934ea36f223618999875f585a353d",
       "group": "04_sistemas_dramaticos_e_combate",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_confirmadas",
+      "inventory_status": "amostra_lida_unidades_identificadas",
+      "source_in_manifest": false,
+      "candidate_units": [
+        "Tabela de vitalidade e penalidades",
+        "Tipos de dano e absorção",
+        "Perigos ambientais"
+      ]
     },
     {
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/readme.md",
@@ -239,17 +260,32 @@
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md",
       "sha": "5b8345835ce1b07fc2c0d578e3db9af59b770b2f",
       "group": "04_sistemas_dramaticos_e_combate",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_e_estudo_misto",
+      "inventory_status": "amostra_lida_unidades_identificadas",
+      "source_in_manifest": false,
+      "candidate_units": [
+        "Segurança passiva e ativa",
+        "Combate digital",
+        "De-Rez",
+        "Dano digital",
+        "Separar análises player-facing"
+      ]
     },
     {
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md",
       "sha": "a5d66f3c125a0a769e0a46bd2a5f2af02d304066",
       "group": "04_sistemas_dramaticos_e_combate",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_e_estudo_misto",
+      "inventory_status": "amostra_lida_unidades_identificadas",
+      "source_in_manifest": false,
+      "candidate_units": [
+        "Atributos dos veículos",
+        "Velocidade",
+        "Durabilidade e estrutura",
+        "Colisões e dano",
+        "Manobras",
+        "Separar análises player-facing"
+      ]
     },
     {
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
@@ -263,9 +299,13 @@
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fogo_e_calor.md",
       "sha": "02904b88453955063f333e7c06527b964cca997d",
       "group": "04_sistemas_dramaticos_e_combate",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_confirmadas",
+      "inventory_status": "amostra_lida_unidades_identificadas",
+      "source_in_manifest": false,
+      "candidate_units": [
+        "Dano por fogo",
+        "Combustão e propagação"
+      ]
     },
     {
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento.md",
@@ -575,9 +615,14 @@
       "path": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
       "sha": "a6cfb10f19e1f0342143e95bdc06457d44114083",
       "group": "07_parafernalia",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_confirmadas",
+      "inventory_status": "amostra_lida_unidades_identificadas",
+      "source_in_manifest": false,
+      "candidate_units": [
+        "Custos de Qualidades e Defeitos",
+        "Efeitos por característica",
+        "Tabela de perturbações"
+      ]
     },
     {
       "path": "00_biblia/08_narracao/07_capitulo_07_contando_historia.md",
@@ -707,5 +752,6 @@
       "inventory_status": "pendente_leitura",
       "source_in_manifest": false
     }
-  ]
+  ],
+  "initial_review_count": 8
 }
