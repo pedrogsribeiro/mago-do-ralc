@@ -63,9 +63,10 @@
       "path": "00_biblia/01_cenario_e_ambientacao/readme.md",
       "sha": "fcc34a7377ffcaaa7cf83fd50e3bc605b482c6b0",
       "group": "01_cenario_e_ambientacao",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
@@ -269,9 +270,10 @@
       "path": "00_biblia/02_criacao_de_personagem/readme.md",
       "sha": "f57142d757c3526d11dbac3f1e6d30a57f59672d",
       "group": "02_criacao_de_personagem",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
@@ -315,9 +317,10 @@
       "path": "00_biblia/03_sistemas_e_regras/readme.md",
       "sha": "d6339674e7138b24793be278ecc2ca2e6df5bfa3",
       "group": "03_sistemas_e_regras",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md",
@@ -358,9 +361,10 @@
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/readme.md",
       "sha": "71fe2b70ab91ba41ba55f78c7c06d25a4af3979d",
       "group": "04_sistemas_dramaticos_e_combate",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md",
@@ -742,9 +746,10 @@
       "path": "00_biblia/05_regras_de_magika/readme.md",
       "sha": "f61842b54dcb6992985a28ec55af62f9d1c1708d",
       "group": "05_regras_de_magika",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/05_regras_de_magika/regras_ajustes_procedimentos_e_rotinas.md",
@@ -1055,9 +1060,10 @@
       "path": "00_biblia/06_aliados_e_antagonistas/readme.md",
       "sha": "63e9c39ece387fb05e4aa586dcdf061e5d2ff648",
       "group": "06_aliados_e_antagonistas",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/07_parafernalia/12_capitulo_12_parafernalia.md",
@@ -1100,9 +1106,10 @@
       "path": "00_biblia/07_parafernalia/readme.md",
       "sha": "a07f5ab714df39c30e9bf4f302f6b8ed544c0bbc",
       "group": "07_parafernalia",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md",
@@ -1167,9 +1174,10 @@
       "path": "00_biblia/08_narracao/readme.md",
       "sha": "c195ca9e54b10cf03410bf6ca0405b20b9b3cc89",
       "group": "08_narracao",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/fatos_do_cenario.md",
@@ -1183,9 +1191,10 @@
       "path": "00_biblia/readme.md",
       "sha": "de8197767fcacf99495520b0e59aa9ee56286cde",
       "group": "readme.md",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/regras_combate_e_do.md",
@@ -1238,9 +1247,10 @@
       "path": "00_biblia/resumos/readme.md",
       "sha": "8be4fff5c05137be517f42ffff74b63084fdb92c",
       "group": "resumos",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/resumos/recuperacao_forca_de_vontade.md",
@@ -1259,9 +1269,10 @@
       "path": "00_biblia/resumos/umbra/readme.md",
       "sha": "351eacc7ea4d937d65fefd142a5bb622a6356bd2",
       "group": "resumos",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     },
     {
       "path": "00_biblia/resumos/umbra/umbra.md",
@@ -1337,9 +1348,10 @@
       "path": "00_biblia/sumario_mago_20.md",
       "sha": "421ed907c86180581adc2eb5d7ab13e6463088e2",
       "group": "sumario_mago_20.md",
-      "classification": "indice",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "indice_ou_sumario",
+      "inventory_status": "indice_catalogado_com_fonte_preservada",
+      "source_in_manifest": false,
+      "unit_count": 0
     }
   ],
   "initial_review_count": 8
