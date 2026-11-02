@@ -1773,7 +1773,8 @@
         {
           "prefix": "\n### Tabela de dificuldades e sucessos por local\n\n[Fonte — umbra_travessia_e_pelicula.md](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
           "parts": [
-            "travessia_001"
+            "travessia_001",
+            "travessia_002"
           ],
           "suffix": "\n\n"
         },
