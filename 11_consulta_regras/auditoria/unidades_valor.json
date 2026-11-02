@@ -4537,6 +4537,1170 @@
         "tabela"
       ],
       "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_11_capitulo_11_aliados_antagonistas_001",
+      "source": "00_biblia/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas/02_1_o_bestiario_mundano.md",
+      "label": "1. O Bestiário Mundano",
+      "start_line": 12,
+      "end_line": 27,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_11_capitulo_11_aliados_antagonistas_002",
+      "source": "00_biblia/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas/03_2_elenco_das_massas_adormecidos.md",
+      "label": "2. Elenco das Massas (Adormecidos)",
+      "start_line": 28,
+      "end_line": 39,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_11_capitulo_11_aliados_antagonistas_003",
+      "source": "00_biblia/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas/04_3_operativos_extraordinarios_e_criacoes_tecnocraticas.md",
+      "label": "3. Operativos Extraordinários e Criações Tecnocráticas",
+      "start_line": 40,
+      "end_line": 53,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_11_capitulo_11_aliados_antagonistas_004",
+      "source": "00_biblia/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas/05_4_inimigos_e_renegados_despertos.md",
+      "label": "4. Inimigos e Renegados Despertos",
+      "start_line": 54,
+      "end_line": 67,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_11_capitulo_11_aliados_antagonistas_005",
+      "source": "00_biblia/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas/06_5_entidades_espirituais_e_umbroides.md",
+      "label": "5. Entidades Espirituais e Umbróides",
+      "start_line": 68,
+      "end_line": 73,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_adormecidos_001",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_adormecidos/02_1_regras_de_comportamento_perante_o_sobrenatural.md",
+      "label": "1. Regras de Comportamento perante o Sobrenatural",
+      "start_line": 12,
+      "end_line": 19,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_adormecidos_002",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_adormecidos/03_2_perfis_e_estatisticas_de_adormecidos_fichas.md",
+      "label": "2. Perfis e Estatísticas de Adormecidos (Fichas)",
+      "start_line": 20,
+      "end_line": 21,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_adormecidos_003",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_adormecidos/04_cidadao_tipico_recepcionista_estudante_assistente_de_laboratorio_etc.md",
+      "label": "Cidadão Típico (Recepcionista, Estudante, Assistente de Laboratório, etc.)",
+      "start_line": 22,
+      "end_line": 30,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_adormecidos_004",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_adormecidos/05_bandido_comum.md",
+      "label": "Bandido Comum",
+      "start_line": 31,
+      "end_line": 42,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_adormecidos_005",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_adormecidos/06_durao_profissional_mafia_mercenario_seguranca_de_elite.md",
+      "label": "Durão Profissional (Máfia, Mercenário, Segurança de Elite)",
+      "start_line": 43,
+      "end_line": 54,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_adormecidos_006",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_adormecidos/07_policial_de_rua_ronda_comum.md",
+      "label": "Policial de Rua (Ronda Comum)",
+      "start_line": 55,
+      "end_line": 67,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_adormecidos_007",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_adormecidos/08_agente_do_governo_fbi_cia_nsa.md",
+      "label": "Agente do Governo (FBI, CIA, NSA)",
+      "start_line": 68,
+      "end_line": 77,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_001",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/02_1_regras_mecanicas_gerais_de_animais.md",
+      "label": "1. Regras Mecânicas Gerais de Animais",
+      "start_line": 12,
+      "end_line": 23,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_002",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/03_2_perfis_e_estatisticas_de_animais_fichas.md",
+      "label": "2. Perfis e Estatísticas de Animais (Fichas)",
+      "start_line": 24,
+      "end_line": 25,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_003",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/04_gato_domestico_tamanho_comum.md",
+      "label": "Gato Doméstico (Tamanho Comum)",
+      "start_line": 26,
+      "end_line": 36,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_004",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/05_cachorro_pequeno_chihuahua_pug_etc.md",
+      "label": "Cachorro Pequeno (Chihuahua, Pug, etc.)",
+      "start_line": 37,
+      "end_line": 45,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_005",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/06_cachorro_medio_beagle_border_collie_etc.md",
+      "label": "Cachorro Médio (Beagle, Border Collie, etc.)",
+      "start_line": 46,
+      "end_line": 55,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_006",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/07_cachorro_grande_pastor_alemao_dogue_alemao_etc.md",
+      "label": "Cachorro Grande (Pastor Alemão, Dogue Alemão, etc.)",
+      "start_line": 56,
+      "end_line": 65,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_007",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/08_lobo.md",
+      "label": "Lobo",
+      "start_line": 66,
+      "end_line": 75,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_008",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/09_leopardo_jaguar_pantera_ou_puma.md",
+      "label": "Leopardo, Jaguar, Pantera ou Puma",
+      "start_line": 76,
+      "end_line": 85,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_009",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/10_lince_ou_gato_selvagem.md",
+      "label": "Lince ou Gato Selvagem",
+      "start_line": 86,
+      "end_line": 96,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_010",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/11_tigre_ou_leao.md",
+      "label": "Tigre ou Leão",
+      "start_line": 97,
+      "end_line": 106,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_011",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/12_cavalo.md",
+      "label": "Cavalo",
+      "start_line": 107,
+      "end_line": 116,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_012",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/13_chimpanze.md",
+      "label": "Chimpanzé",
+      "start_line": 117,
+      "end_line": 126,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_013",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/14_crocodilo.md",
+      "label": "Crocodilo",
+      "start_line": 127,
+      "end_line": 136,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_014",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/15_passaro_pequeno_tentilhao_pardal_pombo_etc.md",
+      "label": "Pássaro Pequeno (Tentilhão, Pardal, Pombo, etc.)",
+      "start_line": 137,
+      "end_line": 145,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_015",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/16_passaro_substancial_falcao_coruja_etc.md",
+      "label": "Pássaro Substancial (Falcão, Coruja, etc.)",
+      "start_line": 146,
+      "end_line": 155,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_bestiario_016",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_bestiario/17_passaro_grande_aguia_cisne_abutre_etc.md",
+      "label": "Pássaro Grande (Águia, Cisne, Abutre, etc.)",
+      "start_line": 156,
+      "end_line": 165,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_001",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/02_1_regras_mecanicas_de_entidades_sobrenaturais_e_misticas.md",
+      "label": "1. Regras Mecânicas de Entidades Sobrenaturais e Místicas",
+      "start_line": 12,
+      "end_line": 13,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_002",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/03_imunidade_a_paradoxo_e_delirio_dinamico_desauridos.md",
+      "label": "Imunidade a Paradoxo e Delírio Dinâmico (Desauridos)",
+      "start_line": 14,
+      "end_line": 18,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_003",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/04_conectividade_co_localizada_de_mente_colmeia.md",
+      "label": "Conectividade Co-localizada de Mente (Colmeia)",
+      "start_line": 19,
+      "end_line": 21,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_004",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/05_encanto_inato_espiritual_sentir_pelo_ar.md",
+      "label": "Encanto Inato Espiritual (Sentir pelo Ar)",
+      "start_line": 22,
+      "end_line": 26,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_005",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/06_2_perfis_e_estatisticas_de_despertos_e_sobrenaturais_fichas.md",
+      "label": "2. Perfis e Estatísticas de Despertos e Sobrenaturais (Fichas)",
+      "start_line": 27,
+      "end_line": 28,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_006",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/07_hacktivista_desperto_tradicoes_adeptos_da_virtualidade.md",
+      "label": "Hacktivista Desperto (Tradições / Adeptos da Virtualidade)",
+      "start_line": 29,
+      "end_line": 39,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_007",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/08_musico_xama_urbano_oradores_dos_sonhos_verbena.md",
+      "label": "Músico Xamã Urbano (Oradores dos Sonhos / Verbena)",
+      "start_line": 40,
+      "end_line": 50,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_008",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/09_pelourinho_desaurida_hostil.md",
+      "label": "Pelourinho (Desaurida Hostil)",
+      "start_line": 51,
+      "end_line": 64,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_009",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/10_colmeia_desaurido_co_localizado.md",
+      "label": "Colmeia (Desaurido Co-localizado)",
+      "start_line": 65,
+      "end_line": 75,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_010",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/11_cultista_widderslainte_nefandus_nato.md",
+      "label": "Cultista Widderslainte (Nefandus Nato)",
+      "start_line": 76,
+      "end_line": 86,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_011",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/12_infiltrado_na_nom_homem_de_cinza_nefandus.md",
+      "label": "Infiltrado na NOM / Homem de Cinza (Nefandus)",
+      "start_line": 87,
+      "end_line": 97,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_012",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais/13_coracao_da_floresta_ancestral_grand_natura_espirito.md",
+      "label": "Coração-da-Floresta Ancestral (Grand Natura - Espírito)",
+      "start_line": 98,
+      "end_line": 103,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_001",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/02_1_regras_mecanicas_especificas_da_tecnocracia.md",
+      "label": "1. Regras Mecânicas Específicas da Tecnocracia",
+      "start_line": 12,
+      "end_line": 13,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_002",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/03_testemunhas_plausiveis_procedimentos.md",
+      "label": "Testemunhas Plausíveis (Procedimentos)",
+      "start_line": 14,
+      "end_line": 16,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_003",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/04_aura_de_medo_ternos_pretos.md",
+      "label": "Aura de Medo (Ternos Pretos)",
+      "start_line": 17,
+      "end_line": 19,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_004",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/05_dissolucao_corporal_ternos_pretos.md",
+      "label": "Dissolução Corporal (Ternos Pretos)",
+      "start_line": 20,
+      "end_line": 22,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_005",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/06_reprogramacao_e_hacking_de_hit_marks.md",
+      "label": "Reprogramação e Hacking de HIT Marks",
+      "start_line": 23,
+      "end_line": 31,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_006",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/07_autodestruicao_hit_mark_x.md",
+      "label": "Autodestruição (HIT Mark X)",
+      "start_line": 32,
+      "end_line": 38,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_007",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/08_2_perfis_e_estatisticas_de_operativos_fichas.md",
+      "label": "2. Perfis e Estatísticas de Operativos (Fichas)",
+      "start_line": 39,
+      "end_line": 40,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_008",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/09_cientista_extraordinario_nao_iluminado.md",
+      "label": "Cientista Extraordinário (Não Iluminado)",
+      "start_line": 41,
+      "end_line": 48,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_009",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/10_agente_de_campo_extraordinario.md",
+      "label": "Agente de Campo Extraordinário",
+      "start_line": 49,
+      "end_line": 56,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_010",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/11_ciborgue_metalico_comum_iteracao_x.md",
+      "label": "Ciborgue Metálico Comum (Iteração X)",
+      "start_line": 57,
+      "end_line": 68,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_011",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/12_victor_clones_progenitores.md",
+      "label": "Victor (Clones Progenitores)",
+      "start_line": 69,
+      "end_line": 79,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_012",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/13_hit_mark_v_rusty_chassi_cibernetico_classico.md",
+      "label": "HIT Mark V (\"Rusty\" - Chassi Cibernético Clássico)",
+      "start_line": 80,
+      "end_line": 91,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_013",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/14_hit_mark_x_o_soldado_invisivel_biomecanico.md",
+      "label": "HIT Mark X (\"O Soldado Invisível\" - Biomecânico)",
+      "start_line": 92,
+      "end_line": 103,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_06_aliados_e_antagonistas_elenco_tecnocracia_014",
+      "source": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "path": "11_consulta_regras/corpus_integral/06_aliados_e_antagonistas/elenco_tecnocracia/15_terno_preto_agente_iluminado_nom.md",
+      "label": "Terno Preto (Agente Iluminado NOM)",
+      "start_line": 104,
+      "end_line": 112,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_001",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/02_1_aliados_allies.md",
+      "label": "1. Aliados (Allies)",
+      "start_line": 13,
+      "end_line": 26,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_002",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/03_2_apoio_reforco_backing_backup.md",
+      "label": "2. Apoio / Reforço (Backing / Backup)",
+      "start_line": 27,
+      "end_line": 39,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_003",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/04_3_arcano_camuflagem_arcane.md",
+      "label": "3. Arcano / Camuflagem (Arcane)",
+      "start_line": 40,
+      "end_line": 53,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_004",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/05_4_avatar_genio_avatar_geni.md",
+      "label": "4. Avatar / Gênio (Avatar / Geni)",
+      "start_line": 54,
+      "end_line": 67,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_005",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/06_5_biblioteca_library.md",
+      "label": "5. Biblioteca (Library)",
+      "start_line": 68,
+      "end_line": 80,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_006",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/07_6_capela_construto_chantry_construct.md",
+      "label": "6. Capela / Construto (Chantry / Construct)",
+      "start_line": 81,
+      "end_line": 93,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_007",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/08_7_contatos_contacts.md",
+      "label": "7. Contatos (Contacts)",
+      "start_line": 94,
+      "end_line": 106,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_008",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/09_8_culto_cult.md",
+      "label": "8. Culto (Cult)",
+      "start_line": 107,
+      "end_line": 119,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_009",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/10_9_destino_destiny.md",
+      "label": "9. Destino (Destiny)",
+      "start_line": 120,
+      "end_line": 132,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_010",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/11_10_espioes_spies.md",
+      "label": "10. Espiões (Spies)",
+      "start_line": 133,
+      "end_line": 144,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_011",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/12_11_fama_fame.md",
+      "label": "11. Fama (Fame)",
+      "start_line": 145,
+      "end_line": 157,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_012",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/13_12_lenda_legend.md",
+      "label": "12. Lenda (Legend)",
+      "start_line": 158,
+      "end_line": 171,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_013",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/14_13_maravilha_invencao_wonder.md",
+      "label": "13. Maravilha / Invenção (Wonder)",
+      "start_line": 172,
+      "end_line": 184,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_014",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/15_14_mentor_mentor.md",
+      "label": "14. Mentor (Mentor)",
+      "start_line": 185,
+      "end_line": 197,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_015",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/16_15_nodo_node.md",
+      "label": "15. Nodo (Node)",
+      "start_line": 198,
+      "end_line": 210,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_016",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/17_16_recursos_resources.md",
+      "label": "16. Recursos (Resources)",
+      "start_line": 211,
+      "end_line": 223,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_017",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/18_17_santuario_sanctuary.md",
+      "label": "17. Santuário (Sanctuary)",
+      "start_line": 224,
+      "end_line": 236,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_018",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/19_18_seita_status_faction_status.md",
+      "label": "18. Seita / Status (Faction / Status)",
+      "start_line": 237,
+      "end_line": 248,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_019",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/20_19_totem_aprimoramento_totem_enhancement_custo_duplo.md",
+      "label": "19. Totem / Aprimoramento (Totem / Enhancement) *(Custo Duplo)*",
+      "start_line": 249,
+      "end_line": 261,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_antecedentes_020",
+      "source": "00_biblia/resumos/antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/antecedentes/21_20_vidas_passadas_sonho_past_lives_dream.md",
+      "label": "20. Vidas Passadas / Sonho (Past Lives / Dream)",
+      "start_line": 262,
+      "end_line": 271,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_recuperacao_forca_de_vontade_001",
+      "source": "00_biblia/resumos/recuperacao_forca_de_vontade.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/recuperacao_forca_de_vontade/02_regra_mecanica_de_recuperacao.md",
+      "label": "Regra Mecânica de Recuperação",
+      "start_line": 9,
+      "end_line": 13,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_recuperacao_forca_de_vontade_002",
+      "source": "00_biblia/resumos/recuperacao_forca_de_vontade.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/recuperacao_forca_de_vontade/03_os_20_arquetipos_e_suas_condicoes_mecanicas.md",
+      "label": "Os 20 Arquétipos e Suas Condições Mecânicas",
+      "start_line": 14,
+      "end_line": 35,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_camadas_e_vidare_001",
+      "source": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_camadas_e_vidare/02_1_visao_geral_narrativa.md",
+      "label": "1. Visão Geral Narrativa",
+      "start_line": 9,
+      "end_line": 15,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_camadas_e_vidare_002",
+      "source": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_camadas_e_vidare/03_2_as_camadas_do_mundo_espiritual.md",
+      "label": "2. As Camadas do Mundo Espiritual",
+      "start_line": 16,
+      "end_line": 17,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_camadas_e_vidare_003",
+      "source": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_camadas_e_vidare/04_a_penumbra_a_pele_do_mundo.md",
+      "label": "A Penumbra (A Pele do Mundo)",
+      "start_line": 18,
+      "end_line": 20,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_camadas_e_vidare_004",
+      "source": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_camadas_e_vidare/05_a_alta_umbra_o_reino_astral_das_ideias.md",
+      "label": "A Alta Umbra (O Reino Astral das Ideias)",
+      "start_line": 21,
+      "end_line": 24,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_camadas_e_vidare_005",
+      "source": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_camadas_e_vidare/06_a_umbra_media_os_ermos_espirituais_da_natureza.md",
+      "label": "A Umbra Média (Os Ermos Espirituais da Natureza)",
+      "start_line": 25,
+      "end_line": 28,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_camadas_e_vidare_006",
+      "source": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_camadas_e_vidare/07_a_baixa_umbra_o_submundo_dos_mortos.md",
+      "label": "A Baixa Umbra (O Submundo dos Mortos)",
+      "start_line": 29,
+      "end_line": 34,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_camadas_e_vidare_007",
+      "source": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_camadas_e_vidare/08_3_o_vidare_percepcao_mental_subjetiva.md",
+      "label": "3. O Vidare (Percepção Mental Subjetiva)",
+      "start_line": 35,
+      "end_line": 46,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_camadas_e_vidare_008",
+      "source": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_camadas_e_vidare/09_o_impacto_na_narrativa.md",
+      "label": "O Impacto na Narrativa",
+      "start_line": 47,
+      "end_line": 53,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_combate_e_espiritos_001",
+      "source": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_combate_e_espiritos/02_1_as_4_caracteristicas_espirituais.md",
+      "label": "1. As 4 Características Espirituais",
+      "start_line": 9,
+      "end_line": 18,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_combate_e_espiritos_002",
+      "source": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_combate_e_espiritos/03_2_comunicacao_e_percepcao.md",
+      "label": "2. Comunicação e Percepção",
+      "start_line": 19,
+      "end_line": 26,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_combate_e_espiritos_003",
+      "source": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_combate_e_espiritos/04_3_regras_de_combate_direto.md",
+      "label": "3. Regras de Combate Direto",
+      "start_line": 27,
+      "end_line": 28,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_combate_e_espiritos_004",
+      "source": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_combate_e_espiritos/05_ataques_fisicos_mundanos.md",
+      "label": "Ataques Físicos Mundanos",
+      "start_line": 29,
+      "end_line": 31,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_combate_e_espiritos_005",
+      "source": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_combate_e_espiritos/06_como_os_magos_atacam_espiritos.md",
+      "label": "Como os Magos Atacam Espíritos",
+      "start_line": 32,
+      "end_line": 36,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_combate_e_espiritos_006",
+      "source": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_combate_e_espiritos/07_como_os_espiritos_atacam_e_se_defendem.md",
+      "label": "Como os Espíritos Atacam e Se Defendem",
+      "start_line": 37,
+      "end_line": 41,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_combate_e_espiritos_007",
+      "source": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_combate_e_espiritos/08_como_os_magos_absorvem_dano_de_espiritos.md",
+      "label": "Como os Magos Absorvem Dano de Espíritos",
+      "start_line": 42,
+      "end_line": 49,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_navegacao_e_rotas_001",
+      "source": "00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_navegacao_e_rotas/02_1_a_arte_da_navegacao_espiritual.md",
+      "label": "1. A Arte da Navegação Espiritual",
+      "start_line": 9,
+      "end_line": 13,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_navegacao_e_rotas_002",
+      "source": "00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_navegacao_e_rotas/03_2_mecanicas_de_navegacao_por_camadas.md",
+      "label": "2. Mecânicas de Navegação por Camadas",
+      "start_line": 14,
+      "end_line": 23,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_navegacao_e_rotas_003",
+      "source": "00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_navegacao_e_rotas/04_3_rotas_e_trilhas_misticas.md",
+      "label": "3. Rotas e Trilhas Místicas",
+      "start_line": 24,
+      "end_line": 36,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_navegacao_e_rotas_004",
+      "source": "00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_navegacao_e_rotas/05_4_auxilio_e_encantos_dos_espiritos.md",
+      "label": "4. Auxílio e Encantos dos Espíritos",
+      "start_line": 37,
+      "end_line": 42,
+      "kind": [
+        "referencia"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_navegacao_e_rotas_005",
+      "source": "00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_navegacao_e_rotas/06_5_rotinas_e_feiticos_rotes_de_navegacao.md",
+      "label": "5. Rotinas e Feitiços (Rotes) de Navegação",
+      "start_line": 43,
+      "end_line": 51,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_resumos_umbra_umbra_navegacao_e_rotas_006",
+      "source": "00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/umbra/umbra_navegacao_e_rotas/07_6_meritos_e_paradigma.md",
+      "label": "6. Méritos e Paradigma",
+      "start_line": 52,
+      "end_line": 57,
+      "kind": [
+        "valor_ou_procedimento"
+      ],
+      "status": "localizado_revisao_intrassecao_pendente"
     }
   ]
 }

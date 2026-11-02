@@ -946,41 +946,110 @@
       "path": "00_biblia/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas.md",
       "sha": "dee04ccf4e54e46df0ff12a5ca11ec1fc14ec71f",
       "group": "06_aliados_e_antagonistas",
-      "classification": "elenco_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_e_referencias_mistas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 5,
+      "candidate_units": [
+        "1. O Bestiário Mundano",
+        "2. Elenco das Massas (Adormecidos)",
+        "3. Operativos Extraordinários e Criações Tecnocráticas",
+        "4. Inimigos e Renegados Despertos",
+        "5. Entidades Espirituais e Umbróides"
+      ]
     },
     {
       "path": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
       "sha": "0715ddaaa5818294ab7f224284795eb0be226892",
       "group": "06_aliados_e_antagonistas",
-      "classification": "elenco_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "estatisticas_e_regras_de_entidades",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Regras de Comportamento perante o Sobrenatural",
+        "2. Perfis e Estatísticas de Adormecidos (Fichas)",
+        "Cidadão Típico (Recepcionista, Estudante, Assistente de Laboratório, etc.)",
+        "Bandido Comum",
+        "Durão Profissional (Máfia, Mercenário, Segurança de Elite)",
+        "Policial de Rua (Ronda Comum)",
+        "Agente do Governo (FBI, CIA, NSA)"
+      ]
     },
     {
       "path": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
       "sha": "a97386b21b3cafdda2932bbb7f313089c4bd0a9b",
       "group": "06_aliados_e_antagonistas",
-      "classification": "elenco_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "estatisticas_e_regras_de_entidades",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 16,
+      "candidate_units": [
+        "1. Regras Mecânicas Gerais de Animais",
+        "2. Perfis e Estatísticas de Animais (Fichas)",
+        "Gato Doméstico (Tamanho Comum)",
+        "Cachorro Pequeno (Chihuahua, Pug, etc.)",
+        "Cachorro Médio (Beagle, Border Collie, etc.)",
+        "Cachorro Grande (Pastor Alemão, Dogue Alemão, etc.)",
+        "Lobo",
+        "Leopardo, Jaguar, Pantera ou Puma",
+        "Lince ou Gato Selvagem",
+        "Tigre ou Leão",
+        "Cavalo",
+        "Chimpanzé",
+        "Crocodilo",
+        "Pássaro Pequeno (Tentilhão, Pardal, Pombo, etc.)",
+        "Pássaro Substancial (Falcão, Coruja, etc.)",
+        "Pássaro Grande (Águia, Cisne, Abutre, etc.)"
+      ]
     },
     {
       "path": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
       "sha": "070babdc75ebb24df3d44433a42e635aa187758d",
       "group": "06_aliados_e_antagonistas",
-      "classification": "elenco_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "estatisticas_e_regras_de_entidades",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 12,
+      "candidate_units": [
+        "1. Regras Mecânicas de Entidades Sobrenaturais e Místicas",
+        "Imunidade a Paradoxo e Delírio Dinâmico (Desauridos)",
+        "Conectividade Co-localizada de Mente (Colmeia)",
+        "Encanto Inato Espiritual (Sentir pelo Ar)",
+        "2. Perfis e Estatísticas de Despertos e Sobrenaturais (Fichas)",
+        "Hacktivista Desperto (Tradições / Adeptos da Virtualidade)",
+        "Músico Xamã Urbano (Oradores dos Sonhos / Verbena)",
+        "Pelourinho (Desaurida Hostil)",
+        "Colmeia (Desaurido Co-localizado)",
+        "Cultista Widderslainte (Nefandus Nato)",
+        "Infiltrado na NOM / Homem de Cinza (Nefandus)",
+        "Coração-da-Floresta Ancestral (Grand Natura - Espírito)"
+      ]
     },
     {
       "path": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
       "sha": "210d657bfa4c26142939e7098aa9754c529afc68",
       "group": "06_aliados_e_antagonistas",
-      "classification": "elenco_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "estatisticas_e_regras_de_entidades",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 14,
+      "candidate_units": [
+        "1. Regras Mecânicas Específicas da Tecnocracia",
+        "Testemunhas Plausíveis (Procedimentos)",
+        "Aura de Medo (Ternos Pretos)",
+        "Dissolução Corporal (Ternos Pretos)",
+        "Reprogramação e Hacking de HIT Marks",
+        "Autodestruição (HIT Mark X)",
+        "2. Perfis e Estatísticas de Operativos (Fichas)",
+        "Cientista Extraordinário (Não Iluminado)",
+        "Agente de Campo Extraordinário",
+        "Ciborgue Metálico Comum (Iteração X)",
+        "Victor (Clones Progenitores)",
+        "HIT Mark V (\"Rusty\" - Chassi Cibernético Clássico)",
+        "HIT Mark X (\"O Soldado Invisível\" - Biomecânico)",
+        "Terno Preto (Agente Iluminado NOM)"
+      ]
     },
     {
       "path": "00_biblia/06_aliados_e_antagonistas/readme.md",
@@ -1130,9 +1199,32 @@
       "path": "00_biblia/resumos/antecedentes.md",
       "sha": "05eb0161c625ef536c7e56a9e86e231c01403c19",
       "group": "resumos",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_e_referencias_mistas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 20,
+      "candidate_units": [
+        "1. Aliados (Allies)",
+        "2. Apoio / Reforço (Backing / Backup)",
+        "3. Arcano / Camuflagem (Arcane)",
+        "4. Avatar / Gênio (Avatar / Geni)",
+        "5. Biblioteca (Library)",
+        "6. Capela / Construto (Chantry / Construct)",
+        "7. Contatos (Contacts)",
+        "8. Culto (Cult)",
+        "9. Destino (Destiny)",
+        "10. Espiões (Spies)",
+        "11. Fama (Fame)",
+        "12. Lenda (Legend)",
+        "13. Maravilha / Invenção (Wonder)",
+        "14. Mentor (Mentor)",
+        "15. Nodo (Node)",
+        "16. Recursos (Resources)",
+        "17. Santuário (Sanctuary)",
+        "18. Seita / Status (Faction / Status)",
+        "19. Totem / Aprimoramento (Totem / Enhancement) *(Custo Duplo)*",
+        "20. Vidas Passadas / Sonho (Past Lives / Dream)"
+      ]
     },
     {
       "path": "00_biblia/resumos/framework_de_historias_mago.md",
@@ -1154,9 +1246,14 @@
       "path": "00_biblia/resumos/recuperacao_forca_de_vontade.md",
       "sha": "91e54f6e2adc9e4072b72541201d40754bb13ccc",
       "group": "resumos",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_e_referencias_mistas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 2,
+      "candidate_units": [
+        "Regra Mecânica de Recuperação",
+        "Os 20 Arquétipos e Suas Condições Mecânicas"
+      ]
     },
     {
       "path": "00_biblia/resumos/umbra/readme.md",
@@ -1178,25 +1275,55 @@
       "path": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
       "sha": "aced88513951a052228b2be1ed16ae54dc268529",
       "group": "resumos",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_e_referencias_mistas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 8,
+      "candidate_units": [
+        "1. Visão Geral Narrativa",
+        "2. As Camadas do Mundo Espiritual",
+        "A Penumbra (A Pele do Mundo)",
+        "A Alta Umbra (O Reino Astral das Ideias)",
+        "A Umbra Média (Os Ermos Espirituais da Natureza)",
+        "A Baixa Umbra (O Submundo dos Mortos)",
+        "3. O Vidare (Percepção Mental Subjetiva)",
+        "O Impacto na Narrativa"
+      ]
     },
     {
       "path": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
       "sha": "4cfb91cd4be0ad2213f5aaee054e2a45f652a13a",
       "group": "resumos",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_e_referencias_mistas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. As 4 Características Espirituais",
+        "2. Comunicação e Percepção",
+        "3. Regras de Combate Direto",
+        "Ataques Físicos Mundanos",
+        "Como os Magos Atacam Espíritos",
+        "Como os Espíritos Atacam e Se Defendem",
+        "Como os Magos Absorvem Dano de Espíritos"
+      ]
     },
     {
       "path": "00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md",
       "sha": "597b5a5558b65bd69c8388631a44cc491141a6d1",
       "group": "resumos",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_e_referencias_mistas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 6,
+      "candidate_units": [
+        "1. A Arte da Navegação Espiritual",
+        "2. Mecânicas de Navegação por Camadas",
+        "3. Rotas e Trilhas Místicas",
+        "4. Auxílio e Encantos dos Espíritos",
+        "5. Rotinas e Feitiços (Rotes) de Navegação",
+        "6. Méritos e Paradigma"
+      ]
     },
     {
       "path": "00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md",
