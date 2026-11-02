@@ -196,6 +196,35 @@
         "correspondencia_001",
         "correspondencia_002"
       ]
+    },
+    {
+      "key": "duracao",
+      "path": "00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md",
+      "git_blob_sha": "9dc9b53b24dc2ef66d41a05758001ea872ce1d0d",
+      "segment_ids": [
+        "duracao_000",
+        "duracao_001",
+        "duracao_002"
+      ]
+    },
+    {
+      "key": "capitulo_magika",
+      "path": "00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md",
+      "git_blob_sha": "d285aaca17d25e4a4eb334b19735f6af786cb654",
+      "segment_ids": [
+        "capitulo_magika_000",
+        "capitulo_magika_001",
+        "capitulo_magika_002",
+        "capitulo_magika_003",
+        "capitulo_magika_004",
+        "capitulo_magika_005",
+        "capitulo_magika_006",
+        "capitulo_magika_007",
+        "capitulo_magika_008",
+        "capitulo_magika_009",
+        "capitulo_magika_010",
+        "capitulo_magika_011"
+      ]
     }
   ],
   "segments": [
@@ -1062,6 +1091,141 @@
       "end_line": 29,
       "first_line": "## 2. Níveis de Conexão com o Alvo (Modificadores)",
       "label": "2. Níveis de Conexão com o Alvo (Modificadores)"
+    },
+    {
+      "id": "duracao_000",
+      "source_key": "duracao",
+      "path": "11_consulta_regras/corpus/duracao/cabecalho_e_introducao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Cabecalho e introducao"
+    },
+    {
+      "id": "duracao_001",
+      "source_key": "duracao",
+      "path": "11_consulta_regras/corpus/duracao/1_calculo_de_dano_e_cura_mistica.md",
+      "start_line": 12,
+      "end_line": 22,
+      "first_line": "## 1. Cálculo de Dano e Cura Mística",
+      "label": "1. Cálculo de Dano e Cura Mística"
+    },
+    {
+      "id": "duracao_002",
+      "source_key": "duracao",
+      "path": "11_consulta_regras/corpus/duracao/2_tabela_de_duracao_de_efeitos.md",
+      "start_line": 23,
+      "end_line": 30,
+      "first_line": "## 2. Tabela de Duração de Efeitos",
+      "label": "2. Tabela de Duração de Efeitos"
+    },
+    {
+      "id": "capitulo_magika_000",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/cabecalho_e_introducao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Cabecalho e introducao"
+    },
+    {
+      "id": "capitulo_magika_001",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/1_passo_a_passo_da_conjuracao_de_um_efeito.md",
+      "start_line": 12,
+      "end_line": 24,
+      "first_line": "## 1. Passo a Passo da Conjuração de um Efeito",
+      "label": "1. Passo a Passo da Conjuração de um Efeito"
+    },
+    {
+      "id": "capitulo_magika_002",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/2_modificadores_de_dificuldade_magica.md",
+      "start_line": 25,
+      "end_line": 36,
+      "first_line": "## 2. Modificadores de Dificuldade Mágica",
+      "label": "2. Modificadores de Dificuldade Mágica"
+    },
+    {
+      "id": "capitulo_magika_003",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/principais_modificadores.md",
+      "start_line": 37,
+      "end_line": 47,
+      "first_line": "### Principais Modificadores:",
+      "label": "Principais Modificadores:"
+    },
+    {
+      "id": "capitulo_magika_004",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/3_resultados_danos_e_duracao.md",
+      "start_line": 48,
+      "end_line": 49,
+      "first_line": "## 3. Resultados, Danos e Duração",
+      "label": "3. Resultados, Danos e Duração"
+    },
+    {
+      "id": "capitulo_magika_005",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/graus_de_sucesso_sugeridos_feitos_magicos.md",
+      "start_line": 50,
+      "end_line": 57,
+      "first_line": "### Graus de Sucesso Sugeridos (Feitos Mágicos):",
+      "label": "Graus de Sucesso Sugeridos (Feitos Mágicos):"
+    },
+    {
+      "id": "capitulo_magika_006",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/dano_e_cura_magicos.md",
+      "start_line": 58,
+      "end_line": 76,
+      "first_line": "### Dano e Cura Mágicos:",
+      "label": "Dano e Cura Mágicos:"
+    },
+    {
+      "id": "capitulo_magika_007",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/4_o_efeito_paradoxo.md",
+      "start_line": 77,
+      "end_line": 80,
+      "first_line": "## 4. O Efeito Paradoxo",
+      "label": "4. O Efeito Paradoxo"
+    },
+    {
+      "id": "capitulo_magika_008",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/geracao_de_pontos_de_paradoxo.md",
+      "start_line": 81,
+      "end_line": 89,
+      "first_line": "### Geração de Pontos de Paradoxo:",
+      "label": "Geração de Pontos de Paradoxo:"
+    },
+    {
+      "id": "capitulo_magika_009",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/descarga_e_reacao_de_paradoxo.md",
+      "start_line": 90,
+      "end_line": 100,
+      "first_line": "### Descarga e Reação de Paradoxo:",
+      "label": "Descarga e Reação de Paradoxo:"
+    },
+    {
+      "id": "capitulo_magika_010",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/5_silencio_quiet_a_loucura_metafisica.md",
+      "start_line": 101,
+      "end_line": 112,
+      "first_line": "## 5. Silêncio (Quiet) - A Loucura Metafísica",
+      "label": "5. Silêncio (Quiet) - A Loucura Metafísica"
+    },
+    {
+      "id": "capitulo_magika_011",
+      "source_key": "capitulo_magika",
+      "path": "11_consulta_regras/corpus/capitulo_magika/6_copias_literais_do_livro_oficial_paginas_502_a_508.md",
+      "start_line": 113,
+      "end_line": 130,
+      "first_line": "## 6. Cópias Literais do Livro Oficial (Páginas 502 a 508)",
+      "label": "6. Cópias Literais do Livro Oficial (Páginas 502 a 508)"
     }
   ],
   "views": [
