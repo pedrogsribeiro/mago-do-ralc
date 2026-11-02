@@ -1,6 +1,6 @@
 {
-  "schema": 3,
-  "nature": "consulta_por_necessidade_com_corpus_literal_e_proveniencia",
+  "schema": 4,
+  "nature": "referencias_diretas_de_valores_com_transcricao_literal",
   "baseline_ref": "master",
   "baseline_sources": [
     {
@@ -1984,6 +1984,210 @@
         }
       ],
       "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/duracao_dos_efeitos.md",
+      "title": "Duração dos efeitos mágicos",
+      "aliases": [
+        "Duração dos efeitos mágicos"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Duração dos efeitos mágicos.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Duração dos efeitos mágicos\n\n[Diferença entre fontes DVG-003](../divergencias_documentais.md): as versões são apresentadas literalmente, sem escolha ou correção.\n\n",
+      "groups": [
+        {
+          "prefix": "\n### Tabela de Duração de Efeitos\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md)\n\n",
+          "parts": [
+            "duracao_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Duração equivalente no quadro do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
+          "parts": [
+            "capitulo_magika_006"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/dano_e_cura_magicos.md",
+      "title": "Dano e cura mágicos",
+      "aliases": [
+        "Dano e cura mágicos"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Dano e cura mágicos.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Dano e cura mágicos\n\n[Diferença entre fontes DVG-004](../divergencias_documentais.md): as versões são apresentadas literalmente, sem escolha ou correção.\n\n",
+      "groups": [
+        {
+          "prefix": "\n### Cálculo de Dano e Cura Mística\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md)\n\n",
+          "parts": [
+            "duracao_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Dano e cura no quadro do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
+          "parts": [
+            "capitulo_magika_006"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/dificuldades_magika.md",
+      "title": "Dificuldades e modificadores de mágika",
+      "aliases": [
+        "Dificuldades e modificadores de mágika"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Dificuldades e modificadores de mágika.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Dificuldades e modificadores de mágika\n\n",
+      "groups": [
+        {
+          "prefix": "\n### Dificuldades do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
+          "parts": [
+            "capitulo_magika_002",
+            "capitulo_magika_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Redutores e aumentadores\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)\n\n",
+          "parts": [
+            "modificadores_001",
+            "modificadores_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/alcance_e_conexoes.md",
+      "title": "Alcance e conexão com o alvo",
+      "aliases": [
+        "Alcance e conexão com o alvo"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Alcance e conexão com o alvo.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Alcance e conexão com o alvo\n\n",
+      "groups": [
+        {
+          "prefix": "\n### Níveis de alcance e conexão\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_alcance_e_conexoes.md)\n\n",
+          "parts": [
+            "correspondencia_001",
+            "correspondencia_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/graduacao_pelicula.md",
+      "title": "Graduação da Película",
+      "aliases": [
+        "Graduação da Película"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Graduação da Película.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Graduação da Película\n\n[Diferença entre fontes DVG-001](../divergencias_documentais.md): as versões são apresentadas literalmente, sem escolha ou correção.\n\n",
+      "groups": [
+        {
+          "prefix": "\n### Tabela por local\n\n[Origem](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
+          "parts": [
+            "travessia_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Graduação em outra fonte\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_pelicula_e_viagem_espiritual.md)\n\n",
+          "parts": [
+            "pelicula_001"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/tabela_manobras.md",
+      "title": "Manobras de Artes Marciais",
+      "aliases": [
+        "Manobras de Artes Marciais"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Manobras de Artes Marciais.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Manobras de Artes Marciais\n\n",
+      "groups": [
+        {
+          "prefix": "\n### Tabela integral de manobras\n\n[Origem](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
+          "parts": [
+            "combate_004",
+            "combate_005",
+            "combate_006",
+            "combate_007",
+            "combate_008",
+            "combate_009",
+            "combate_010",
+            "combate_011",
+            "combate_012",
+            "combate_013",
+            "combate_014",
+            "combate_015",
+            "combate_016",
+            "combate_017",
+            "combate_018",
+            "combate_019",
+            "combate_020",
+            "combate_021",
+            "combate_022",
+            "combate_023"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/tabela_tecnicas_do.md",
+      "title": "Técnicas especiais de Do",
+      "aliases": [
+        "Técnicas especiais de Do"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Técnicas especiais de Do.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Técnicas especiais de Do\n\n",
+      "groups": [
+        {
+          "prefix": "\n### Tabela integral de técnicas\n\n[Origem](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_008",
+            "do_009",
+            "do_010",
+            "do_011",
+            "do_012",
+            "do_013",
+            "do_014",
+            "do_015",
+            "do_016",
+            "do_017",
+            "do_018"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/niveis_vitalidade.md",
+      "title": "Níveis de Vitalidade",
+      "aliases": [
+        "Níveis de Vitalidade"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Níveis de Vitalidade.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Níveis de Vitalidade\n\n",
+      "groups": [
+        {
+          "prefix": "\n### Vitalidade e penalidades\n\n[Origem](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md)\n\n",
+          "parts": [
+            "dano_001"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
     }
   ]
 }

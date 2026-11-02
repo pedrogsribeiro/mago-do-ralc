@@ -23,3 +23,11 @@ Se necessário, os documentos de transformação player-faced já existentes dev
 ## Política
 
 Este arquivo contém apontamentos editoriais externos. Ele não altera, retifica, corrige ou escolhe regras. Novas divergências precisam de referência precisa à origem e de registro separado da transcrição literal.
+
+## DVG-003 — Duração com cinco sucessos
+
+[Base de Dano, Cura e Duração](../../00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md) atribui permanência com investimento de Quintessência permanente a cinco ou mais sucessos. [Capítulo 10](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md) atribui seis meses a cinco sucessos, e permanente/decisão do Narrador a seis ou mais. As duas versões aparecem na [referência de duração](valores/duracao_dos_efeitos.md), sem resolução editorial.
+
+## DVG-004 — Dano e cura com um sucesso
+
+[Base de Dano, Cura e Duração](../../00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md) prevê dois pontos de dano ou cura por sucesso líquido. A tabela do [Capítulo 10](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md) prevê nenhum dano/cura com um sucesso. Nenhum conteúdo foi corrigido.

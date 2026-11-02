@@ -4,9 +4,23 @@ summary: "Consulta por necessidade a textos literais de cinco fontes M20, inclui
 tags: [consulta, combate, do, regras, piloto, texto_intacto]
 status: experimental
 ---
-# Regras para o que você quer fazer
+# Referências e procedimentos das regras
 
-**Escolha a ação que você quer realizar.** As instruções abaixo são transcrições literais dos documentos existentes; a organização das consultas facilita encontrá-las.
+**Entrada principal:** [tabelas, escalas, valores e modificadores](valores/readme.md). A organização dos links é editorial; os textos das instruções permanecem literalmente idênticos às fontes.
+
+## Acesso direto a valores
+
+- [Duração dos efeitos mágicos](valores/duracao_dos_efeitos.md)
+- [Dano e cura mágicos](valores/dano_e_cura_magicos.md)
+- [Dificuldades e modificadores de mágika](valores/dificuldades_magika.md)
+- [Alcance e conexão com o alvo](valores/alcance_e_conexoes.md)
+- [Graduação da Película](valores/graduacao_pelicula.md)
+- [Manobras de Artes Marciais](valores/tabela_manobras.md)
+- [Técnicas especiais de Do](valores/tabela_tecnicas_do.md)
+- [Níveis de Vitalidade](valores/niveis_vitalidade.md)
+
+## Procedimentos das regras
+
 
 ## Combate e ações
 

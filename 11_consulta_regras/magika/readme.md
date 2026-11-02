@@ -4,9 +4,11 @@ summary: "Consulta de mágika e Umbra por intenção, com textos de regras prese
 tags: [magika, umbra, consulta, necessidades, navegacao]
 status: experimental
 ---
-# Mágika e Umbra — o que você precisa resolver?
+# Mágika e Umbra — valores e procedimentos
 
-Escolha a situação concreta. As consultas mostram **primeiro as instruções mais relevantes** e depois fontes relacionadas, reproduzidas literalmente. Nenhuma regra é reescrita.
+[Duração](../valores/duracao_dos_efeitos.md) · [Dano e cura](../valores/dano_e_cura_magicos.md) · [Dificuldades](../valores/dificuldades_magika.md) · [Alcance](../valores/alcance_e_conexoes.md) · [Película](../valores/graduacao_pelicula.md).
+
+Os procedimentos descritos nas regras seguem disponíveis abaixo.
 
 | Situação | Abrir |
 |---|---|

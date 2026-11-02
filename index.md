@@ -10,9 +10,9 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 
 ---
 
-## Consultar regras por necessidade (piloto)
+## Valores das regras — acesso direto (piloto)
 
-[Consultar por ação ou resultado desejado](11_consulta_regras/readme.md) · [Do por finalidade](11_consulta_regras/do/readme.md) · [Mágika e Umbra por necessidade](11_consulta_regras/magika/readme.md). Esta camada é experimental e não altera os textos de M20.
+[Tabelas e valores](11_consulta_regras/valores/readme.md) · [Índice geral](11_consulta_regras/readme.md) · [Do por finalidade](11_consulta_regras/do/readme.md) · [Mágika e Umbra por necessidade](11_consulta_regras/magika/readme.md). Esta camada é experimental e não altera os textos de M20.
 
 ---
 
