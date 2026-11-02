@@ -1,0 +1,462 @@
+{
+  "schema": 1,
+  "scope": "Catalogação de seções e tipos de valores — apenas títulos e metadados; revisão semântica posterior necessária",
+  "units": [
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_000",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/01_abertura_e_contexto.md",
+      "label": "Abertura e contexto",
+      "start_line": 1,
+      "end_line": 11,
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_001",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/02_1_fases_e_passos_de_criacao_de_ficha.md",
+      "label": "1. Fases e Passos de Criação de Ficha",
+      "start_line": 12,
+      "end_line": 14,
+      "kind": [
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_002",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/03_passo_1_conceito_e_identidade.md",
+      "label": "Passo 1: Conceito e Identidade",
+      "start_line": 15,
+      "end_line": 20,
+      "kind": [
+        "escalas",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_003",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/04_passo_2_distribuicao_de_atributos.md",
+      "label": "Passo 2: Distribuição de Atributos",
+      "start_line": 21,
+      "end_line": 25,
+      "kind": [
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_004",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/05_passo_3_distribuicao_de_habilidades.md",
+      "label": "Passo 3: Distribuição de Habilidades",
+      "start_line": 26,
+      "end_line": 30,
+      "kind": [
+        "custos",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_005",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/06_passo_4_selecao_de_vantagens.md",
+      "label": "Passo 4: Seleção de Vantagens",
+      "start_line": 31,
+      "end_line": 34,
+      "kind": [
+        "escalas",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_006",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/07_passo_5_toques_finais.md",
+      "label": "Passo 5: Toques Finais",
+      "start_line": 35,
+      "end_line": 42,
+      "kind": [
+        "custos",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_007",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/08_2_regra_de_especialidades_4_ou_mais_pontos.md",
+      "label": "2. Regra de Especialidades (4 ou mais pontos)",
+      "start_line": 43,
+      "end_line": 50,
+      "kind": [
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_008",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/09_3_tabela_de_custos_de_pontos_de_bonus.md",
+      "label": "3. Tabela de Custos de Pontos de Bônus",
+      "start_line": 51,
+      "end_line": 67,
+      "kind": [
+        "tabelas",
+        "custos",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_regras_criacao_de_personagem_009",
+      "source": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/regras_criacao_de_personagem/10_4_tabela_de_custos_de_evolucao_por_experiencia_xp.md",
+      "label": "4. Tabela de Custos de Evolução por Experiência (XP)",
+      "start_line": 68,
+      "end_line": 81,
+      "kind": [
+        "tabelas",
+        "custos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_000",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/01_abertura_e_contexto.md",
+      "label": "Abertura e contexto",
+      "start_line": 1,
+      "end_line": 11,
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_001",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/02_1_passo_a_passo_da_criacao_de_personagem.md",
+      "label": "1. Passo a Passo da Criação de Personagem",
+      "start_line": 12,
+      "end_line": 15,
+      "kind": [
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_002",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/03_passo_um_conceito_e_identidade.md",
+      "label": "Passo Um: Conceito e Identidade",
+      "start_line": 16,
+      "end_line": 21,
+      "kind": [
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_003",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/04_passo_dois_atributos.md",
+      "label": "Passo Dois: Atributos",
+      "start_line": 22,
+      "end_line": 27,
+      "kind": [
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_004",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/05_passo_tres_habilidades.md",
+      "label": "Passo Três: Habilidades",
+      "start_line": 28,
+      "end_line": 34,
+      "kind": [
+        "custos",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_005",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/06_passo_quatro_vantagens.md",
+      "label": "Passo Quatro: Vantagens",
+      "start_line": 35,
+      "end_line": 43,
+      "kind": [
+        "custos",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_006",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/07_passo_cinco_toques_finais.md",
+      "label": "Passo Cinco: Toques Finais",
+      "start_line": 44,
+      "end_line": 53,
+      "kind": [
+        "custos",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_007",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/08_2_pontos_de_bonus_15_pontos_iniciais.md",
+      "label": "2. Pontos de Bônus (15 Pontos Iniciais)",
+      "start_line": 54,
+      "end_line": 71,
+      "kind": [
+        "tabelas",
+        "custos",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_008",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/09_3_tabela_de_custos_de_experiencia_xp.md",
+      "label": "3. Tabela de Custos de Experiência (XP)",
+      "start_line": 72,
+      "end_line": 89,
+      "kind": [
+        "tabelas",
+        "custos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_009",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/10_4_copias_literais_do_livro_oficial.md",
+      "label": "4. Cópias Literais do Livro Oficial",
+      "start_line": 90,
+      "end_line": 91,
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_010",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/11_tabela_de_pontos_de_bonus_de_criacao.md",
+      "label": "Tabela de Pontos de Bônus de Criação",
+      "start_line": 92,
+      "end_line": 94,
+      "kind": [
+        "custos",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_011",
+      "source": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/06_capitulo_06_criacao_personagens/12_tabela_de_custos_de_experiencia_xp.md",
+      "label": "Tabela de Custos de Experiência (XP)",
+      "start_line": 95,
+      "end_line": 97,
+      "kind": [
+        "custos"
+      ]
+    },
+    {
+      "id": "integral_03_sistemas_e_regras_08_capitulo_08_regras_000",
+      "source": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
+      "path": "11_consulta_regras/corpus_integral/03_sistemas_e_regras/08_capitulo_08_regras/01_abertura_e_contexto.md",
+      "label": "Abertura e contexto",
+      "start_line": 1,
+      "end_line": 11,
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "integral_03_sistemas_e_regras_08_capitulo_08_regras_001",
+      "source": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
+      "path": "11_consulta_regras/corpus_integral/03_sistemas_e_regras/08_capitulo_08_regras/02_1_o_nucleo_do_sistema_rolar_d10.md",
+      "label": "1. O Núcleo do Sistema (Rolar d10)",
+      "start_line": 12,
+      "end_line": 26,
+      "kind": [
+        "dificuldades",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_03_sistemas_e_regras_08_capitulo_08_regras_002",
+      "source": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
+      "path": "11_consulta_regras/corpus_integral/03_sistemas_e_regras/08_capitulo_08_regras/03_2_falhas_falhas_criticas_e_a_regra_do_1.md",
+      "label": "2. Falhas, Falhas Críticas e a Regra do 1",
+      "start_line": 27,
+      "end_line": 36,
+      "kind": [
+        "dificuldades",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_03_sistemas_e_regras_08_capitulo_08_regras_003",
+      "source": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
+      "path": "11_consulta_regras/corpus_integral/03_sistemas_e_regras/08_capitulo_08_regras/04_3_tipos_de_acoes.md",
+      "label": "3. Tipos de Ações",
+      "start_line": 37,
+      "end_line": 51,
+      "kind": [
+        "tabelas",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_03_sistemas_e_regras_08_capitulo_08_regras_004",
+      "source": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
+      "path": "11_consulta_regras/corpus_integral/03_sistemas_e_regras/08_capitulo_08_regras/05_4_cooperacao_e_sinergia_regras_opcionais.md",
+      "label": "4. Cooperação e Sinergia (Regras Opcionais)",
+      "start_line": 52,
+      "end_line": 58,
+      "kind": [
+        "dificuldades",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_03_sistemas_e_regras_08_capitulo_08_regras_005",
+      "source": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
+      "path": "11_consulta_regras/corpus_integral/03_sistemas_e_regras/08_capitulo_08_regras/06_5_copias_literais_do_livro_oficial.md",
+      "label": "5. Cópias Literais do Livro Oficial",
+      "start_line": 59,
+      "end_line": 60,
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "integral_03_sistemas_e_regras_08_capitulo_08_regras_006",
+      "source": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
+      "path": "11_consulta_regras/corpus_integral/03_sistemas_e_regras/08_capitulo_08_regras/07_tabela_de_dificuldades_e_sucessos.md",
+      "label": "Tabela de Dificuldades e Sucessos",
+      "start_line": 61,
+      "end_line": 63,
+      "kind": [
+        "dificuldades"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_000",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/01_abertura_e_contexto.md",
+      "label": "Abertura e contexto",
+      "start_line": 1,
+      "end_line": 11,
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_001",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/02_1_niveis_de_vitalidade_e_penalidades_de_dano.md",
+      "label": "1. Níveis de Vitalidade e Penalidades de Dano",
+      "start_line": 12,
+      "end_line": 27,
+      "kind": [
+        "tabelas",
+        "dificuldades",
+        "escalas",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_002",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/03_2_tipos_de_dano_e_absorcao.md",
+      "label": "2. Tipos de Dano e Absorção",
+      "start_line": 28,
+      "end_line": 39,
+      "kind": [
+        "custos",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_003",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/04_3_combate_e_manobras_marciais.md",
+      "label": "3. Combate e Manobras Marciais",
+      "start_line": 40,
+      "end_line": 45,
+      "kind": [
+        "dificuldades",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_004",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/05_a_disciplina_do_do_irmaos_de_akasha.md",
+      "label": "A Disciplina do Do (Irmãos de Akasha)",
+      "start_line": 46,
+      "end_line": 56,
+      "kind": [
+        "dificuldades",
+        "escalas",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_005",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/06_4_duelos_magicos_e_virtuais.md",
+      "label": "4. Duelos Mágicos e Virtuais",
+      "start_line": 57,
+      "end_line": 65,
+      "kind": [
+        "custos",
+        "procedimentos"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_006",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/07_5_perigos_ambientais.md",
+      "label": "5. Perigos Ambientais",
+      "start_line": 66,
+      "end_line": 73,
+      "kind": [
+        "escalas",
+        "procedimentos",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_007",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/08_6_copias_literais_do_livro_oficial.md",
+      "label": "6. Cópias Literais do Livro Oficial",
+      "start_line": 74,
+      "end_line": 75,
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_008",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos/09_tabela_de_niveis_de_vitalidade_saude.md",
+      "label": "Tabela de Níveis de Vitalidade (Saúde)",
+      "start_line": 76,
+      "end_line": 78,
+      "kind": [
+        "escalas"
+      ]
+    }
+  ]
+}
