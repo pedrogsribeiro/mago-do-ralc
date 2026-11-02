@@ -863,9 +863,15 @@
       "path": "00_biblia/05_regras_de_magika/regras_magika_feitos_de_ilusao.md",
       "sha": "f692b3dc377e00b81fda010ac11fb56948341e11",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regra",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 2,
+      "candidate_units": [
+        "1. Tipos de Ilusão e Resolução Mecânica",
+        "2. Detecção e Resistência a Ilusões"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md",
@@ -911,17 +917,30 @@
       "path": "00_biblia/05_regras_de_magika/regras_magika_silencio_e_cura.md",
       "sha": "deb6eb9ad42cd173332c147dfabf3b1aff891d61",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regra",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 2,
+      "candidate_units": [
+        "1. Estados Psicóticos do Silêncio (Quiet)",
+        "2. A Cura do Silêncio por Meditação"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/regras_zonas_de_realidade_e_consenso.md",
       "sha": "87d87c39fae6323c0a5bfb1057b8af308c4fc853",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regra",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 3,
+      "candidate_units": [
+        "1. As Zonas de Realidade",
+        "2. A Licença Cinemática",
+        "3. O Desafio da Realidade (Alteração de Paradigma Local)"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas.md",
@@ -975,17 +994,38 @@
       "path": "00_biblia/07_parafernalia/12_capitulo_12_parafernalia.md",
       "sha": "bb22d65dd1dc8e6104bff741c234056fb233de4b",
       "group": "07_parafernalia",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "referencia_mista",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 5,
+      "candidate_units": [
+        "1. Qualidades e Defeitos (Vantagens Opcionais)",
+        "2. Classificação de Maravilhas (Itens de Poder)",
+        "Criação de Maravilhas:",
+        "3. Exemplos de Maravilhas Místicas",
+        "4. Dispositivos da Tecnocracia (Hardware)"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
       "sha": "123a4083a45ea325fb23334b4598da86e138c00f",
       "group": "07_parafernalia",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "equipamento",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 8,
+      "candidate_units": [
+        "1. Maravilhas Místicas",
+        "Trushades (Óculos da Verdade - Bugiganga)",
+        "Embaralhador (Scrambler - Talismã ou Dispositivo)",
+        "Capuz à Prova de Balas (Bugiganga)",
+        "2. Hardware e Dispositivos da Tecnocracia",
+        "Terno de Trabalho de Elite da Falconi (Invenção/Dispositivo)",
+        "IVAE (Informação Visual e Análise de Espectro - Dispositivo)",
+        "Armadura Alanson R-25 (Dispositivo)"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/07_parafernalia/readme.md",
@@ -999,22 +1039,52 @@
       "path": "00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md",
       "sha": "5f16ad0ab0d9f25c1849bcfac8217cbbfd35f8d4",
       "group": "07_parafernalia",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regra",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 4,
+      "candidate_units": [
+        "1. Classificação das Maravilhas",
+        "2. Regras de Uso de Maravilhas",
+        "3. Maravilhas e o Paradoxo",
+        "4. Algoritmo de Criação de Maravilhas"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
       "sha": "a6cfb10f19e1f0342143e95bdc06457d44114083",
       "group": "07_parafernalia",
-      "classification": "regras_confirmadas",
-      "inventory_status": "amostra_lida_unidades_identificadas",
+      "classification": "regra",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
       "source_in_manifest": false,
       "candidate_units": [
-        "Custos de Qualidades e Defeitos",
-        "Efeitos por característica",
-        "Tabela de perturbações"
-      ]
+        "1. Regras Gerais de Aquisição",
+        "2. As Qualidades (Vantagens)",
+        "Afinidade Umbral (4 pts - Sobrenatural)",
+        "Berserker (4 pts - Mental / Social)",
+        "Conexões (3 pts por grupo - Social)",
+        "Duro de Matar (5 pts - Física)",
+        "Fé Verdadeira (7 pts por nível; Níveis de 1 a 5 - Sobrenatural)",
+        "Guardião da Tempestade / Viajante Quântico (3 ou 5 pts - Sobrenatural)",
+        "Idiomas (1 pt por idioma - Mental)",
+        "Sentidos Aguçados (1 ou 3 pts - Física)",
+        "Tríade Negra (3 pts - Social)",
+        "3. Os Defeitos (Desvantagens)",
+        "Amaldiçoado (1 a 5 pts - Sobrenatural)",
+        "Atavismo de Estresse (4 pts - Mental / Social)",
+        "Construto (2 pts - Social / Físico)",
+        "Ecos (1 a 5 pts - Sobrenatural)",
+        "Inimigo (1 a 5 pts - Social)",
+        "Perturbação (3 ou 5 pts - Mental)",
+        "Transtorno de Estresse Pós-Traumático (TEPT) (2 a 5 pts - Mental)",
+        "Vício (1 ou 3 pts - Física)",
+        "4. Defeitos Genéticos (Aprimoramento / Genengenharia)",
+        "5. Tabela de Perturbações Psicológicas",
+        "Tabela em 5. Tabela de Perturbações Psicológicas"
+      ],
+      "unit_count": 23,
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/08_narracao/07_capitulo_07_contando_historia.md",

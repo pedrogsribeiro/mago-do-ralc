@@ -3973,6 +3973,570 @@
         "requisitos"
       ],
       "status": "texto_literal_publicado_revisao_intrassecao_pendente"
+    },
+    {
+      "id": "integral_05_regras_de_magika_regras_magika_feitos_de_ilusao_001",
+      "source": "00_biblia/05_regras_de_magika/regras_magika_feitos_de_ilusao.md",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/regras_magika_feitos_de_ilusao/02_1_tipos_de_ilusao_e_resolucao_mecanica.md",
+      "label": "1. Tipos de Ilusão e Resolução Mecânica",
+      "start_line": 12,
+      "end_line": 23,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_05_regras_de_magika_regras_magika_feitos_de_ilusao_002",
+      "source": "00_biblia/05_regras_de_magika/regras_magika_feitos_de_ilusao.md",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/regras_magika_feitos_de_ilusao/03_2_deteccao_e_resistencia_a_ilusoes.md",
+      "label": "2. Detecção e Resistência a Ilusões",
+      "start_line": 24,
+      "end_line": 26,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_05_regras_de_magika_regras_magika_silencio_e_cura_001",
+      "source": "00_biblia/05_regras_de_magika/regras_magika_silencio_e_cura.md",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/regras_magika_silencio_e_cura/02_1_estados_psicoticos_do_silencio_quiet.md",
+      "label": "1. Estados Psicóticos do Silêncio (Quiet)",
+      "start_line": 12,
+      "end_line": 20,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_05_regras_de_magika_regras_magika_silencio_e_cura_002",
+      "source": "00_biblia/05_regras_de_magika/regras_magika_silencio_e_cura.md",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/regras_magika_silencio_e_cura/03_2_a_cura_do_silencio_por_meditacao.md",
+      "label": "2. A Cura do Silêncio por Meditação",
+      "start_line": 21,
+      "end_line": 26,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_05_regras_de_magika_regras_zonas_de_realidade_e_consenso_001",
+      "source": "00_biblia/05_regras_de_magika/regras_zonas_de_realidade_e_consenso.md",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/regras_zonas_de_realidade_e_consenso/02_1_as_zonas_de_realidade.md",
+      "label": "1. As Zonas de Realidade",
+      "start_line": 12,
+      "end_line": 19,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_05_regras_de_magika_regras_zonas_de_realidade_e_consenso_002",
+      "source": "00_biblia/05_regras_de_magika/regras_zonas_de_realidade_e_consenso.md",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/regras_zonas_de_realidade_e_consenso/03_2_a_licenca_cinematica.md",
+      "label": "2. A Licença Cinemática",
+      "start_line": 20,
+      "end_line": 29,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_05_regras_de_magika_regras_zonas_de_realidade_e_consenso_003",
+      "source": "00_biblia/05_regras_de_magika/regras_zonas_de_realidade_e_consenso.md",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/regras_zonas_de_realidade_e_consenso/04_3_o_desafio_da_realidade_alteracao_de_paradigma_local.md",
+      "label": "3. O Desafio da Realidade (Alteração de Paradigma Local)",
+      "start_line": 30,
+      "end_line": 33,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_12_capitulo_12_parafernalia_001",
+      "source": "00_biblia/07_parafernalia/12_capitulo_12_parafernalia.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/12_capitulo_12_parafernalia/02_1_qualidades_e_defeitos_vantagens_opcionais.md",
+      "label": "1. Qualidades e Defeitos (Vantagens Opcionais)",
+      "start_line": 12,
+      "end_line": 27,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_12_capitulo_12_parafernalia_002",
+      "source": "00_biblia/07_parafernalia/12_capitulo_12_parafernalia.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/12_capitulo_12_parafernalia/03_2_classificacao_de_maravilhas_itens_de_poder.md",
+      "label": "2. Classificação de Maravilhas (Itens de Poder)",
+      "start_line": 28,
+      "end_line": 36,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_12_capitulo_12_parafernalia_003",
+      "source": "00_biblia/07_parafernalia/12_capitulo_12_parafernalia.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/12_capitulo_12_parafernalia/04_criacao_de_maravilhas.md",
+      "label": "Criação de Maravilhas:",
+      "start_line": 37,
+      "end_line": 41,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_12_capitulo_12_parafernalia_004",
+      "source": "00_biblia/07_parafernalia/12_capitulo_12_parafernalia.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/12_capitulo_12_parafernalia/05_3_exemplos_de_maravilhas_misticas.md",
+      "label": "3. Exemplos de Maravilhas Místicas",
+      "start_line": 42,
+      "end_line": 49,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_12_capitulo_12_parafernalia_005",
+      "source": "00_biblia/07_parafernalia/12_capitulo_12_parafernalia.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/12_capitulo_12_parafernalia/06_4_dispositivos_da_tecnocracia_hardware.md",
+      "label": "4. Dispositivos da Tecnocracia (Hardware)",
+      "start_line": 50,
+      "end_line": 58,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_hardware_e_dispositivos_001",
+      "source": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/hardware_e_dispositivos/02_1_maravilhas_misticas.md",
+      "label": "1. Maravilhas Místicas",
+      "start_line": 12,
+      "end_line": 13,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_hardware_e_dispositivos_002",
+      "source": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/hardware_e_dispositivos/03_trushades_oculos_da_verdade_bugiganga.md",
+      "label": "Trushades (Óculos da Verdade - Bugiganga)",
+      "start_line": 14,
+      "end_line": 22,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_hardware_e_dispositivos_003",
+      "source": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/hardware_e_dispositivos/04_embaralhador_scrambler_talisma_ou_dispositivo.md",
+      "label": "Embaralhador (Scrambler - Talismã ou Dispositivo)",
+      "start_line": 23,
+      "end_line": 31,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_hardware_e_dispositivos_004",
+      "source": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/hardware_e_dispositivos/05_capuz_a_prova_de_balas_bugiganga.md",
+      "label": "Capuz à Prova de Balas (Bugiganga)",
+      "start_line": 32,
+      "end_line": 41,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_hardware_e_dispositivos_005",
+      "source": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/hardware_e_dispositivos/06_2_hardware_e_dispositivos_da_tecnocracia.md",
+      "label": "2. Hardware e Dispositivos da Tecnocracia",
+      "start_line": 42,
+      "end_line": 43,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_hardware_e_dispositivos_006",
+      "source": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/hardware_e_dispositivos/07_terno_de_trabalho_de_elite_da_falconi_invencao_dispositivo.md",
+      "label": "Terno de Trabalho de Elite da Falconi (Invenção/Dispositivo)",
+      "start_line": 44,
+      "end_line": 52,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_hardware_e_dispositivos_007",
+      "source": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/hardware_e_dispositivos/08_ivae_informacao_visual_e_analise_de_espectro_dispositivo.md",
+      "label": "IVAE (Informação Visual e Análise de Espectro - Dispositivo)",
+      "start_line": 53,
+      "end_line": 61,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_hardware_e_dispositivos_008",
+      "source": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/hardware_e_dispositivos/09_armadura_alanson_r_25_dispositivo.md",
+      "label": "Armadura Alanson R-25 (Dispositivo)",
+      "start_line": 62,
+      "end_line": 71,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_maravilhas_e_criacao_001",
+      "source": "00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_maravilhas_e_criacao/02_1_classificacao_das_maravilhas.md",
+      "label": "1. Classificação das Maravilhas",
+      "start_line": 12,
+      "end_line": 22,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_maravilhas_e_criacao_002",
+      "source": "00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_maravilhas_e_criacao/03_2_regras_de_uso_de_maravilhas.md",
+      "label": "2. Regras de Uso de Maravilhas",
+      "start_line": 23,
+      "end_line": 31,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_maravilhas_e_criacao_003",
+      "source": "00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_maravilhas_e_criacao/04_3_maravilhas_e_o_paradoxo.md",
+      "label": "3. Maravilhas e o Paradoxo",
+      "start_line": 32,
+      "end_line": 41,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_maravilhas_e_criacao_004",
+      "source": "00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_maravilhas_e_criacao/05_4_algoritmo_de_criacao_de_maravilhas.md",
+      "label": "4. Algoritmo de Criação de Maravilhas",
+      "start_line": 42,
+      "end_line": 50,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_001",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/02_1_regras_gerais_de_aquisicao.md",
+      "label": "1. Regras Gerais de Aquisição",
+      "start_line": 12,
+      "end_line": 17,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_002",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/03_2_as_qualidades_vantagens.md",
+      "label": "2. As Qualidades (Vantagens)",
+      "start_line": 18,
+      "end_line": 19,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_003",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/04_afinidade_umbral_4_pts_sobrenatural.md",
+      "label": "Afinidade Umbral (4 pts - Sobrenatural)",
+      "start_line": 20,
+      "end_line": 22,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_004",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/05_berserker_4_pts_mental_social.md",
+      "label": "Berserker (4 pts - Mental / Social)",
+      "start_line": 23,
+      "end_line": 27,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_005",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/06_conexoes_3_pts_por_grupo_social.md",
+      "label": "Conexões (3 pts por grupo - Social)",
+      "start_line": 28,
+      "end_line": 32,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_006",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/07_duro_de_matar_5_pts_fisica.md",
+      "label": "Duro de Matar (5 pts - Física)",
+      "start_line": 33,
+      "end_line": 35,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_007",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/08_fe_verdadeira_7_pts_por_nivel_niveis_de_1_a_5_sobrenatural.md",
+      "label": "Fé Verdadeira (7 pts por nível; Níveis de 1 a 5 - Sobrenatural)",
+      "start_line": 36,
+      "end_line": 47,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_008",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/09_guardiao_da_tempestade_viajante_quantico_3_ou_5_pts_sobrenatural.md",
+      "label": "Guardião da Tempestade / Viajante Quântico (3 ou 5 pts - Sobrenatural)",
+      "start_line": 48,
+      "end_line": 50,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_009",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/10_idiomas_1_pt_por_idioma_mental.md",
+      "label": "Idiomas (1 pt por idioma - Mental)",
+      "start_line": 51,
+      "end_line": 53,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_010",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/11_sentidos_agucados_1_ou_3_pts_fisica.md",
+      "label": "Sentidos Aguçados (1 ou 3 pts - Física)",
+      "start_line": 54,
+      "end_line": 56,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_011",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/12_triade_negra_3_pts_social.md",
+      "label": "Tríade Negra (3 pts - Social)",
+      "start_line": 57,
+      "end_line": 61,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_012",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/13_3_os_defeitos_desvantagens.md",
+      "label": "3. Os Defeitos (Desvantagens)",
+      "start_line": 62,
+      "end_line": 63,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_013",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/14_amaldicoado_1_a_5_pts_sobrenatural.md",
+      "label": "Amaldiçoado (1 a 5 pts - Sobrenatural)",
+      "start_line": 64,
+      "end_line": 71,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_014",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/15_atavismo_de_estresse_4_pts_mental_social.md",
+      "label": "Atavismo de Estresse (4 pts - Mental / Social)",
+      "start_line": 72,
+      "end_line": 74,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_015",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/16_construto_2_pts_social_fisico.md",
+      "label": "Construto (2 pts - Social / Físico)",
+      "start_line": 75,
+      "end_line": 77,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_016",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/17_ecos_1_a_5_pts_sobrenatural.md",
+      "label": "Ecos (1 a 5 pts - Sobrenatural)",
+      "start_line": 78,
+      "end_line": 85,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_017",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/18_inimigo_1_a_5_pts_social.md",
+      "label": "Inimigo (1 a 5 pts - Social)",
+      "start_line": 86,
+      "end_line": 88,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_018",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/19_perturbacao_3_ou_5_pts_mental.md",
+      "label": "Perturbação (3 ou 5 pts - Mental)",
+      "start_line": 89,
+      "end_line": 91,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_019",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/20_transtorno_de_estresse_pos_traumatico_tept_2_a_5_pts_mental.md",
+      "label": "Transtorno de Estresse Pós-Traumático (TEPT) (2 a 5 pts - Mental)",
+      "start_line": 92,
+      "end_line": 98,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_020",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/21_vicio_1_ou_3_pts_fisica.md",
+      "label": "Vício (1 ou 3 pts - Física)",
+      "start_line": 99,
+      "end_line": 103,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_021",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/22_4_defeitos_geneticos_aprimoramento_genengenharia.md",
+      "label": "4. Defeitos Genéticos (Aprimoramento / Genengenharia)",
+      "start_line": 104,
+      "end_line": 115,
+      "kind": [
+        "valor_mecanico"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_022",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/23_5_tabela_de_perturbacoes_psicologicas.md",
+      "label": "5. Tabela de Perturbações Psicológicas",
+      "start_line": 116,
+      "end_line": 117,
+      "kind": [
+        "procedimento_ou_descricao"
+      ],
+      "status": "localizado_a_revisar_semantica"
+    },
+    {
+      "id": "integral_07_parafernalia_regras_qualidades_e_defeitos_023",
+      "source": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "path": "11_consulta_regras/corpus_integral/07_parafernalia/regras_qualidades_e_defeitos/24_tabela_em_5_tabela_de_perturbacoes_psicologicas.md",
+      "label": "Tabela em 5. Tabela de Perturbações Psicológicas",
+      "start_line": 118,
+      "end_line": 129,
+      "kind": [
+        "tabela"
+      ],
+      "status": "localizado_a_revisar_semantica"
     }
   ]
 }
