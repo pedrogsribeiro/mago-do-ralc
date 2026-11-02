@@ -582,17 +582,39 @@
       "path": "00_biblia/05_regras_de_magika/esfera_correspondencia.md",
       "sha": "41cc0801274247fb6bd357bb051d79037313e0c6",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_de_esfera_confirmadas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Visão Geral e Conceito",
+        "2. Níveis de Maestria (Bolinhas)",
+        "• Sentir Espaços Imediatos / Paisagem da Mente",
+        "•• Sentir, Tocar e Alcançar Através do Espaço / Sensibilidade",
+        "••• Perfurar Espaço / Abrir ou Fechar Portais / Co-localidade Sensorial",
+        "•••• Dividir Espaço / Proteger / Co-localizar a Si Mesmo",
+        "••••• Mutação Espacial / Co-localização Multidimensional"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/esfera_entropia.md",
       "sha": "b7cc52915a1b78f7408f441473b9b58b9ab7765c",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_de_esfera_confirmadas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Visão Geral e Conceito",
+        "2. Níveis de Maestria (Bolinhas)",
+        "• Sentir Falha, Destino e Fortuna / Anel da Verdade",
+        "•• Controlar Probabilidades / Desviar o Azar",
+        "••• Afetar Padrões Preditivos / Decomposição Material",
+        "•••• Afetar Coisas Vivas / Bênçãos e Maldições Biológicas",
+        "••••• Afetar Pensamento / Forjar Memes / Caos Social"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/esfera_espirito.md",
@@ -606,49 +628,115 @@
       "path": "00_biblia/05_regras_de_magika/esfera_forcas.md",
       "sha": "4577b0b537ce366965f432c43e8fbae51cdb0b66",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_de_esfera_confirmadas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Visão Geral e Conceito",
+        "2. Níveis de Maestria (Bolinhas)",
+        "• Sentir Forças / Percepção de Espectros",
+        "•• Controlar Forças / Desviar Energias",
+        "••• Transmutar Forças / Criar Energia",
+        "•••• Controlar Forças Maiores / Tempestades e Gravidade",
+        "••••• Criar Forças Maiores / Fusão e Fissão Nuclear"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/esfera_materia.md",
       "sha": "bed8ef96d9e7a5209c0d133c034db4f444097cea",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_de_esfera_confirmadas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Visão Geral e Conceito",
+        "2. Níveis de Maestria (Bolinhas)",
+        "• Sentir Matéria / Análise Alquímica",
+        "•• Alterar Matéria / Transmutação Simples",
+        "••• Transmutar Matéria / Criar Ligas Impossíveis",
+        "•••• Controlar Matéria Complexa / Animação e Modelagem",
+        "••••• Alterar Estrutura Atômica / Transmutação de Elementos Raros"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/esfera_mente.md",
       "sha": "540c1adc47d2d51fd9bcf418046c657d89cc7fcf",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_de_esfera_confirmadas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Visão Geral e Conceito",
+        "2. Níveis de Maestria (Bolinhas)",
+        "• Sentir Pensamentos / Leitura de Aura",
+        "•• Ler Mentes / Empatia Avançada / Ilusão Mental",
+        "••• Alterar Pensamentos / Telepatia Contínua / Controle Emocional",
+        "•••• Controlar Mentes / Modificar Memórias / Hipnose Total",
+        "••••• Possessão Psíquica / Projeção Mental / Criação de Mentes"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/esfera_primordio.md",
       "sha": "7dd3be0bd7993b547221042b2d18bcccddbf1e04",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_de_esfera_confirmadas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Visão Geral e Conceito",
+        "2. Níveis de Maestria (Bolinhas)",
+        "• Sentir Quintessência / Assinatura de Sorvo",
+        "•• Canalizar Quintessência / Consagrar Objetos",
+        "••• Canalizar Padrões / Criar Armas de Força",
+        "•••• Alimentar Maravilhas Maiores / Criar Matrizes",
+        "••••• Transmutar Quintessência / Fluxo Cósmico"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/esfera_tempo.md",
       "sha": "45be52433af17671b853f259be0de18ff36d46f0",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_de_esfera_confirmadas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Visão Geral e Conceito",
+        "2. Níveis de Maestria (Bolinhas)",
+        "• Sentir o Tempo / Percepção Cronológica",
+        "•• Ver o Passado e o Futuro / Pós-cognição e Pré-cognição",
+        "••• Distorcer o Tempo / Dilatação e Contração",
+        "•••• Congelar o Tempo / Passo Fora do Tempo",
+        "••••• Viagem Temporal / Paradoxo Cronológico"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/esfera_vida.md",
       "sha": "8ae514727fcc85d72efc8763fdc3af88bdcc97f6",
       "group": "05_regras_de_magika",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "regras_de_esfera_confirmadas",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Visão Geral e Conceito",
+        "2. Níveis de Maestria (Bolinhas)",
+        "• Sentir Vida / Leitura Biológica",
+        "•• Alterar Padrões Simples / Cura Rápida Pessoal",
+        "••• Alterar Padrões Complexos / Transformação Pessoal / Cura Alheia",
+        "•••• Controlar Padrões de Vida Maiores / Metamorfose Alheia / Cura Agravada",
+        "••••• Alteração Biológica Permanente / Criar Vida"
+      ],
+      "unit_catalog_path": "11_consulta_regras/auditoria/unidades_valor.json"
     },
     {
       "path": "00_biblia/05_regras_de_magika/readme.md",

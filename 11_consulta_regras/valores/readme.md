@@ -20,3 +20,14 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 | Níveis de Vitalidade | [Consultar](niveis_vitalidade.md) |
 
 [Origem e integridade](../metodo_e_integridade.md) · [Divergências entre fontes](../divergencias_documentais.md) · [Índice geral](../readme.md).
+
+## Capacidades e níveis das Esferas
+
+- [Capacidades e níveis — correspondencia](esfera_correspondencia.md)
+- [Capacidades e níveis — entropia](esfera_entropia.md)
+- [Capacidades e níveis — forcas](esfera_forcas.md)
+- [Capacidades e níveis — materia](esfera_materia.md)
+- [Capacidades e níveis — mente](esfera_mente.md)
+- [Capacidades e níveis — primordio](esfera_primordio.md)
+- [Capacidades e níveis — tempo](esfera_tempo.md)
+- [Capacidades e níveis — vida](esfera_vida.md)

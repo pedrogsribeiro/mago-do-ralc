@@ -664,6 +664,126 @@
         "acervo_05_regras_de_magika_regras_focos_e_instrumentos_008",
         "acervo_05_regras_de_magika_regras_focos_e_instrumentos_009"
       ]
+    },
+    {
+      "key": "esfera_esfera_correspondencia",
+      "path": "00_biblia/05_regras_de_magika/esfera_correspondencia.md",
+      "git_blob_sha": "41cc0801274247fb6bd357bb051d79037313e0c6",
+      "segment_ids": [
+        "esfera_esfera_correspondencia_000",
+        "esfera_esfera_correspondencia_001",
+        "esfera_esfera_correspondencia_002",
+        "esfera_esfera_correspondencia_003",
+        "esfera_esfera_correspondencia_004",
+        "esfera_esfera_correspondencia_005",
+        "esfera_esfera_correspondencia_006",
+        "esfera_esfera_correspondencia_007"
+      ]
+    },
+    {
+      "key": "esfera_esfera_entropia",
+      "path": "00_biblia/05_regras_de_magika/esfera_entropia.md",
+      "git_blob_sha": "b7cc52915a1b78f7408f441473b9b58b9ab7765c",
+      "segment_ids": [
+        "esfera_esfera_entropia_000",
+        "esfera_esfera_entropia_001",
+        "esfera_esfera_entropia_002",
+        "esfera_esfera_entropia_003",
+        "esfera_esfera_entropia_004",
+        "esfera_esfera_entropia_005",
+        "esfera_esfera_entropia_006",
+        "esfera_esfera_entropia_007"
+      ]
+    },
+    {
+      "key": "esfera_esfera_forcas",
+      "path": "00_biblia/05_regras_de_magika/esfera_forcas.md",
+      "git_blob_sha": "4577b0b537ce366965f432c43e8fbae51cdb0b66",
+      "segment_ids": [
+        "esfera_esfera_forcas_000",
+        "esfera_esfera_forcas_001",
+        "esfera_esfera_forcas_002",
+        "esfera_esfera_forcas_003",
+        "esfera_esfera_forcas_004",
+        "esfera_esfera_forcas_005",
+        "esfera_esfera_forcas_006",
+        "esfera_esfera_forcas_007"
+      ]
+    },
+    {
+      "key": "esfera_esfera_materia",
+      "path": "00_biblia/05_regras_de_magika/esfera_materia.md",
+      "git_blob_sha": "bed8ef96d9e7a5209c0d133c034db4f444097cea",
+      "segment_ids": [
+        "esfera_esfera_materia_000",
+        "esfera_esfera_materia_001",
+        "esfera_esfera_materia_002",
+        "esfera_esfera_materia_003",
+        "esfera_esfera_materia_004",
+        "esfera_esfera_materia_005",
+        "esfera_esfera_materia_006",
+        "esfera_esfera_materia_007"
+      ]
+    },
+    {
+      "key": "esfera_esfera_mente",
+      "path": "00_biblia/05_regras_de_magika/esfera_mente.md",
+      "git_blob_sha": "540c1adc47d2d51fd9bcf418046c657d89cc7fcf",
+      "segment_ids": [
+        "esfera_esfera_mente_000",
+        "esfera_esfera_mente_001",
+        "esfera_esfera_mente_002",
+        "esfera_esfera_mente_003",
+        "esfera_esfera_mente_004",
+        "esfera_esfera_mente_005",
+        "esfera_esfera_mente_006",
+        "esfera_esfera_mente_007"
+      ]
+    },
+    {
+      "key": "esfera_esfera_primordio",
+      "path": "00_biblia/05_regras_de_magika/esfera_primordio.md",
+      "git_blob_sha": "7dd3be0bd7993b547221042b2d18bcccddbf1e04",
+      "segment_ids": [
+        "esfera_esfera_primordio_000",
+        "esfera_esfera_primordio_001",
+        "esfera_esfera_primordio_002",
+        "esfera_esfera_primordio_003",
+        "esfera_esfera_primordio_004",
+        "esfera_esfera_primordio_005",
+        "esfera_esfera_primordio_006",
+        "esfera_esfera_primordio_007"
+      ]
+    },
+    {
+      "key": "esfera_esfera_tempo",
+      "path": "00_biblia/05_regras_de_magika/esfera_tempo.md",
+      "git_blob_sha": "45be52433af17671b853f259be0de18ff36d46f0",
+      "segment_ids": [
+        "esfera_esfera_tempo_000",
+        "esfera_esfera_tempo_001",
+        "esfera_esfera_tempo_002",
+        "esfera_esfera_tempo_003",
+        "esfera_esfera_tempo_004",
+        "esfera_esfera_tempo_005",
+        "esfera_esfera_tempo_006",
+        "esfera_esfera_tempo_007"
+      ]
+    },
+    {
+      "key": "esfera_esfera_vida",
+      "path": "00_biblia/05_regras_de_magika/esfera_vida.md",
+      "git_blob_sha": "8ae514727fcc85d72efc8763fdc3af88bdcc97f6",
+      "segment_ids": [
+        "esfera_esfera_vida_000",
+        "esfera_esfera_vida_001",
+        "esfera_esfera_vida_002",
+        "esfera_esfera_vida_003",
+        "esfera_esfera_vida_004",
+        "esfera_esfera_vida_005",
+        "esfera_esfera_vida_006",
+        "esfera_esfera_vida_007"
+      ]
     }
   ],
   "segments": [
@@ -5135,6 +5255,870 @@
       "kind": [
         "procedimento"
       ]
+    },
+    {
+      "id": "esfera_esfera_correspondencia_000",
+      "source_key": "esfera_esfera_correspondencia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_correspondencia/01_introducao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "esfera_esfera_correspondencia_001",
+      "source_key": "esfera_esfera_correspondencia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_correspondencia/02_1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 19,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito",
+      "kind": [
+        "secao_de_esfera"
+      ]
+    },
+    {
+      "id": "esfera_esfera_correspondencia_002",
+      "source_key": "esfera_esfera_correspondencia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_correspondencia/03_2_niveis_de_maestria_bolinhas.md",
+      "start_line": 20,
+      "end_line": 21,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_correspondencia_003",
+      "source_key": "esfera_esfera_correspondencia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_correspondencia/04_sentir_espacos_imediatos_paisagem_da_mente.md",
+      "start_line": 22,
+      "end_line": 29,
+      "first_line": "### • Sentir Espaços Imediatos / Paisagem da Mente",
+      "label": "• Sentir Espaços Imediatos / Paisagem da Mente",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_correspondencia_004",
+      "source_key": "esfera_esfera_correspondencia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_correspondencia/05_sentir_tocar_e_alcancar_atraves_do_espaco_sensibilidade.md",
+      "start_line": 30,
+      "end_line": 36,
+      "first_line": "### •• Sentir, Tocar e Alcançar Através do Espaço / Sensibilidade",
+      "label": "•• Sentir, Tocar e Alcançar Através do Espaço / Sensibilidade",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_correspondencia_005",
+      "source_key": "esfera_esfera_correspondencia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_correspondencia/06_perfurar_espaco_abrir_ou_fechar_portais_co_localidade_sensorial.md",
+      "start_line": 37,
+      "end_line": 43,
+      "first_line": "### ••• Perfurar Espaço / Abrir ou Fechar Portais / Co-localidade Sensorial",
+      "label": "••• Perfurar Espaço / Abrir ou Fechar Portais / Co-localidade Sensorial",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_correspondencia_006",
+      "source_key": "esfera_esfera_correspondencia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_correspondencia/07_dividir_espaco_proteger_co_localizar_a_si_mesmo.md",
+      "start_line": 44,
+      "end_line": 50,
+      "first_line": "### •••• Dividir Espaço / Proteger / Co-localizar a Si Mesmo",
+      "label": "•••• Dividir Espaço / Proteger / Co-localizar a Si Mesmo",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_correspondencia_007",
+      "source_key": "esfera_esfera_correspondencia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_correspondencia/08_mutacao_espacial_co_localizacao_multidimensional.md",
+      "start_line": 51,
+      "end_line": 56,
+      "first_line": "### ••••• Mutação Espacial / Co-localização Multidimensional",
+      "label": "••••• Mutação Espacial / Co-localização Multidimensional",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_entropia_000",
+      "source_key": "esfera_esfera_entropia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_entropia/01_introducao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "esfera_esfera_entropia_001",
+      "source_key": "esfera_esfera_entropia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_entropia/02_1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 18,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito",
+      "kind": [
+        "secao_de_esfera"
+      ]
+    },
+    {
+      "id": "esfera_esfera_entropia_002",
+      "source_key": "esfera_esfera_entropia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_entropia/03_2_niveis_de_maestria_bolinhas.md",
+      "start_line": 19,
+      "end_line": 20,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_entropia_003",
+      "source_key": "esfera_esfera_entropia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_entropia/04_sentir_falha_destino_e_fortuna_anel_da_verdade.md",
+      "start_line": 21,
+      "end_line": 27,
+      "first_line": "### • Sentir Falha, Destino e Fortuna / Anel da Verdade",
+      "label": "• Sentir Falha, Destino e Fortuna / Anel da Verdade",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_entropia_004",
+      "source_key": "esfera_esfera_entropia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_entropia/05_controlar_probabilidades_desviar_o_azar.md",
+      "start_line": 28,
+      "end_line": 34,
+      "first_line": "### •• Controlar Probabilidades / Desviar o Azar",
+      "label": "•• Controlar Probabilidades / Desviar o Azar",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_entropia_005",
+      "source_key": "esfera_esfera_entropia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_entropia/06_afetar_padroes_preditivos_decomposicao_material.md",
+      "start_line": 35,
+      "end_line": 41,
+      "first_line": "### ••• Afetar Padrões Preditivos / Decomposição Material",
+      "label": "••• Afetar Padrões Preditivos / Decomposição Material",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_entropia_006",
+      "source_key": "esfera_esfera_entropia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_entropia/07_afetar_coisas_vivas_bencaos_e_maldicoes_biologicas.md",
+      "start_line": 42,
+      "end_line": 48,
+      "first_line": "### •••• Afetar Coisas Vivas / Bênçãos e Maldições Biológicas",
+      "label": "•••• Afetar Coisas Vivas / Bênçãos e Maldições Biológicas",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_entropia_007",
+      "source_key": "esfera_esfera_entropia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_entropia/08_afetar_pensamento_forjar_memes_caos_social.md",
+      "start_line": 49,
+      "end_line": 54,
+      "first_line": "### ••••• Afetar Pensamento / Forjar Memes / Caos Social",
+      "label": "••••• Afetar Pensamento / Forjar Memes / Caos Social",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_forcas_000",
+      "source_key": "esfera_esfera_forcas",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_forcas/01_introducao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "esfera_esfera_forcas_001",
+      "source_key": "esfera_esfera_forcas",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_forcas/02_1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 19,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito",
+      "kind": [
+        "secao_de_esfera"
+      ]
+    },
+    {
+      "id": "esfera_esfera_forcas_002",
+      "source_key": "esfera_esfera_forcas",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_forcas/03_2_niveis_de_maestria_bolinhas.md",
+      "start_line": 20,
+      "end_line": 21,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_forcas_003",
+      "source_key": "esfera_esfera_forcas",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_forcas/04_sentir_forcas_percepcao_de_espectros.md",
+      "start_line": 22,
+      "end_line": 28,
+      "first_line": "### • Sentir Forças / Percepção de Espectros",
+      "label": "• Sentir Forças / Percepção de Espectros",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_forcas_004",
+      "source_key": "esfera_esfera_forcas",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_forcas/05_controlar_forcas_desviar_energias.md",
+      "start_line": 29,
+      "end_line": 35,
+      "first_line": "### •• Controlar Forças / Desviar Energias",
+      "label": "•• Controlar Forças / Desviar Energias",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_forcas_005",
+      "source_key": "esfera_esfera_forcas",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_forcas/06_transmutar_forcas_criar_energia.md",
+      "start_line": 36,
+      "end_line": 41,
+      "first_line": "### ••• Transmutar Forças / Criar Energia",
+      "label": "••• Transmutar Forças / Criar Energia",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_forcas_006",
+      "source_key": "esfera_esfera_forcas",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_forcas/07_controlar_forcas_maiores_tempestades_e_gravidade.md",
+      "start_line": 42,
+      "end_line": 48,
+      "first_line": "### •••• Controlar Forças Maiores / Tempestades e Gravidade",
+      "label": "•••• Controlar Forças Maiores / Tempestades e Gravidade",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_forcas_007",
+      "source_key": "esfera_esfera_forcas",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_forcas/08_criar_forcas_maiores_fusao_e_fissao_nuclear.md",
+      "start_line": 49,
+      "end_line": 54,
+      "first_line": "### ••••• Criar Forças Maiores / Fusão e Fissão Nuclear",
+      "label": "••••• Criar Forças Maiores / Fusão e Fissão Nuclear",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_materia_000",
+      "source_key": "esfera_esfera_materia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_materia/01_introducao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "esfera_esfera_materia_001",
+      "source_key": "esfera_esfera_materia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_materia/02_1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 18,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito",
+      "kind": [
+        "secao_de_esfera"
+      ]
+    },
+    {
+      "id": "esfera_esfera_materia_002",
+      "source_key": "esfera_esfera_materia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_materia/03_2_niveis_de_maestria_bolinhas.md",
+      "start_line": 19,
+      "end_line": 20,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_materia_003",
+      "source_key": "esfera_esfera_materia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_materia/04_sentir_materia_analise_alquimica.md",
+      "start_line": 21,
+      "end_line": 27,
+      "first_line": "### • Sentir Matéria / Análise Alquímica",
+      "label": "• Sentir Matéria / Análise Alquímica",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_materia_004",
+      "source_key": "esfera_esfera_materia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_materia/05_alterar_materia_transmutacao_simples.md",
+      "start_line": 28,
+      "end_line": 34,
+      "first_line": "### •• Alterar Matéria / Transmutação Simples",
+      "label": "•• Alterar Matéria / Transmutação Simples",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_materia_005",
+      "source_key": "esfera_esfera_materia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_materia/06_transmutar_materia_criar_ligas_impossiveis.md",
+      "start_line": 35,
+      "end_line": 40,
+      "first_line": "### ••• Transmutar Matéria / Criar Ligas Impossíveis",
+      "label": "••• Transmutar Matéria / Criar Ligas Impossíveis",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_materia_006",
+      "source_key": "esfera_esfera_materia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_materia/07_controlar_materia_complexa_animacao_e_modelagem.md",
+      "start_line": 41,
+      "end_line": 46,
+      "first_line": "### •••• Controlar Matéria Complexa / Animação e Modelagem",
+      "label": "•••• Controlar Matéria Complexa / Animação e Modelagem",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_materia_007",
+      "source_key": "esfera_esfera_materia",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_materia/08_alterar_estrutura_atomica_transmutacao_de_elementos_raros.md",
+      "start_line": 47,
+      "end_line": 52,
+      "first_line": "### ••••• Alterar Estrutura Atômica / Transmutação de Elementos Raros",
+      "label": "••••• Alterar Estrutura Atômica / Transmutação de Elementos Raros",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_mente_000",
+      "source_key": "esfera_esfera_mente",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_mente/01_introducao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "esfera_esfera_mente_001",
+      "source_key": "esfera_esfera_mente",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_mente/02_1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 19,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito",
+      "kind": [
+        "secao_de_esfera"
+      ]
+    },
+    {
+      "id": "esfera_esfera_mente_002",
+      "source_key": "esfera_esfera_mente",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_mente/03_2_niveis_de_maestria_bolinhas.md",
+      "start_line": 20,
+      "end_line": 21,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_mente_003",
+      "source_key": "esfera_esfera_mente",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_mente/04_sentir_pensamentos_leitura_de_aura.md",
+      "start_line": 22,
+      "end_line": 28,
+      "first_line": "### • Sentir Pensamentos / Leitura de Aura",
+      "label": "• Sentir Pensamentos / Leitura de Aura",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_mente_004",
+      "source_key": "esfera_esfera_mente",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_mente/05_ler_mentes_empatia_avancada_ilusao_mental.md",
+      "start_line": 29,
+      "end_line": 35,
+      "first_line": "### •• Ler Mentes / Empatia Avançada / Ilusão Mental",
+      "label": "•• Ler Mentes / Empatia Avançada / Ilusão Mental",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_mente_005",
+      "source_key": "esfera_esfera_mente",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_mente/06_alterar_pensamentos_telepatia_continua_controle_emocional.md",
+      "start_line": 36,
+      "end_line": 42,
+      "first_line": "### ••• Alterar Pensamentos / Telepatia Contínua / Controle Emocional",
+      "label": "••• Alterar Pensamentos / Telepatia Contínua / Controle Emocional",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_mente_006",
+      "source_key": "esfera_esfera_mente",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_mente/07_controlar_mentes_modificar_memorias_hipnose_total.md",
+      "start_line": 43,
+      "end_line": 49,
+      "first_line": "### •••• Controlar Mentes / Modificar Memórias / Hipnose Total",
+      "label": "•••• Controlar Mentes / Modificar Memórias / Hipnose Total",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_mente_007",
+      "source_key": "esfera_esfera_mente",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_mente/08_possessao_psiquica_projecao_mental_criacao_de_mentes.md",
+      "start_line": 50,
+      "end_line": 55,
+      "first_line": "### ••••• Possessão Psíquica / Projeção Mental / Criação de Mentes",
+      "label": "••••• Possessão Psíquica / Projeção Mental / Criação de Mentes",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_primordio_000",
+      "source_key": "esfera_esfera_primordio",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_primordio/01_introducao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "esfera_esfera_primordio_001",
+      "source_key": "esfera_esfera_primordio",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_primordio/02_1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 19,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito",
+      "kind": [
+        "secao_de_esfera"
+      ]
+    },
+    {
+      "id": "esfera_esfera_primordio_002",
+      "source_key": "esfera_esfera_primordio",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_primordio/03_2_niveis_de_maestria_bolinhas.md",
+      "start_line": 20,
+      "end_line": 21,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_primordio_003",
+      "source_key": "esfera_esfera_primordio",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_primordio/04_sentir_quintessencia_assinatura_de_sorvo.md",
+      "start_line": 22,
+      "end_line": 29,
+      "first_line": "### • Sentir Quintessência / Assinatura de Sorvo",
+      "label": "• Sentir Quintessência / Assinatura de Sorvo",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_primordio_004",
+      "source_key": "esfera_esfera_primordio",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_primordio/05_canalizar_quintessencia_consagrar_objetos.md",
+      "start_line": 30,
+      "end_line": 36,
+      "first_line": "### •• Canalizar Quintessência / Consagrar Objetos",
+      "label": "•• Canalizar Quintessência / Consagrar Objetos",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_primordio_005",
+      "source_key": "esfera_esfera_primordio",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_primordio/06_canalizar_padroes_criar_armas_de_forca.md",
+      "start_line": 37,
+      "end_line": 42,
+      "first_line": "### ••• Canalizar Padrões / Criar Armas de Força",
+      "label": "••• Canalizar Padrões / Criar Armas de Força",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_primordio_006",
+      "source_key": "esfera_esfera_primordio",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_primordio/07_alimentar_maravilhas_maiores_criar_matrizes.md",
+      "start_line": 43,
+      "end_line": 48,
+      "first_line": "### •••• Alimentar Maravilhas Maiores / Criar Matrizes",
+      "label": "•••• Alimentar Maravilhas Maiores / Criar Matrizes",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_primordio_007",
+      "source_key": "esfera_esfera_primordio",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_primordio/08_transmutar_quintessencia_fluxo_cosmico.md",
+      "start_line": 49,
+      "end_line": 54,
+      "first_line": "### ••••• Transmutar Quintessência / Fluxo Cósmico",
+      "label": "••••• Transmutar Quintessência / Fluxo Cósmico",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_tempo_000",
+      "source_key": "esfera_esfera_tempo",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_tempo/01_introducao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "esfera_esfera_tempo_001",
+      "source_key": "esfera_esfera_tempo",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_tempo/02_1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 18,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito",
+      "kind": [
+        "secao_de_esfera"
+      ]
+    },
+    {
+      "id": "esfera_esfera_tempo_002",
+      "source_key": "esfera_esfera_tempo",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_tempo/03_2_niveis_de_maestria_bolinhas.md",
+      "start_line": 19,
+      "end_line": 20,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_tempo_003",
+      "source_key": "esfera_esfera_tempo",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_tempo/04_sentir_o_tempo_percepcao_cronologica.md",
+      "start_line": 21,
+      "end_line": 27,
+      "first_line": "### • Sentir o Tempo / Percepção Cronológica",
+      "label": "• Sentir o Tempo / Percepção Cronológica",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_tempo_004",
+      "source_key": "esfera_esfera_tempo",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_tempo/05_ver_o_passado_e_o_futuro_pos_cognicao_e_pre_cognicao.md",
+      "start_line": 28,
+      "end_line": 33,
+      "first_line": "### •• Ver o Passado e o Futuro / Pós-cognição e Pré-cognição",
+      "label": "•• Ver o Passado e o Futuro / Pós-cognição e Pré-cognição",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_tempo_005",
+      "source_key": "esfera_esfera_tempo",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_tempo/06_distorcer_o_tempo_dilatacao_e_contracao.md",
+      "start_line": 34,
+      "end_line": 39,
+      "first_line": "### ••• Distorcer o Tempo / Dilatação e Contração",
+      "label": "••• Distorcer o Tempo / Dilatação e Contração",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_tempo_006",
+      "source_key": "esfera_esfera_tempo",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_tempo/07_congelar_o_tempo_passo_fora_do_tempo.md",
+      "start_line": 40,
+      "end_line": 45,
+      "first_line": "### •••• Congelar o Tempo / Passo Fora do Tempo",
+      "label": "•••• Congelar o Tempo / Passo Fora do Tempo",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_tempo_007",
+      "source_key": "esfera_esfera_tempo",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_tempo/08_viagem_temporal_paradoxo_cronologico.md",
+      "start_line": 46,
+      "end_line": 51,
+      "first_line": "### ••••• Viagem Temporal / Paradoxo Cronológico",
+      "label": "••••• Viagem Temporal / Paradoxo Cronológico",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_vida_000",
+      "source_key": "esfera_esfera_vida",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_vida/01_introducao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "esfera_esfera_vida_001",
+      "source_key": "esfera_esfera_vida",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_vida/02_1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 18,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito",
+      "kind": [
+        "secao_de_esfera"
+      ]
+    },
+    {
+      "id": "esfera_esfera_vida_002",
+      "source_key": "esfera_esfera_vida",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_vida/03_2_niveis_de_maestria_bolinhas.md",
+      "start_line": 19,
+      "end_line": 20,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_vida_003",
+      "source_key": "esfera_esfera_vida",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_vida/04_sentir_vida_leitura_biologica.md",
+      "start_line": 21,
+      "end_line": 27,
+      "first_line": "### • Sentir Vida / Leitura Biológica",
+      "label": "• Sentir Vida / Leitura Biológica",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_vida_004",
+      "source_key": "esfera_esfera_vida",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_vida/05_alterar_padroes_simples_cura_rapida_pessoal.md",
+      "start_line": 28,
+      "end_line": 34,
+      "first_line": "### •• Alterar Padrões Simples / Cura Rápida Pessoal",
+      "label": "•• Alterar Padrões Simples / Cura Rápida Pessoal",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_vida_005",
+      "source_key": "esfera_esfera_vida",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_vida/06_alterar_padroes_complexos_transformacao_pessoal_cura_alheia.md",
+      "start_line": 35,
+      "end_line": 41,
+      "first_line": "### ••• Alterar Padrões Complexos / Transformação Pessoal / Cura Alheia",
+      "label": "••• Alterar Padrões Complexos / Transformação Pessoal / Cura Alheia",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_vida_006",
+      "source_key": "esfera_esfera_vida",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_vida/07_controlar_padroes_de_vida_maiores_metamorfose_alheia_cura_agravada.md",
+      "start_line": 42,
+      "end_line": 48,
+      "first_line": "### •••• Controlar Padrões de Vida Maiores / Metamorfose Alheia / Cura Agravada",
+      "label": "•••• Controlar Padrões de Vida Maiores / Metamorfose Alheia / Cura Agravada",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
+    },
+    {
+      "id": "esfera_esfera_vida_007",
+      "source_key": "esfera_esfera_vida",
+      "path": "11_consulta_regras/corpus_integral/05_regras_de_magika/esfera_vida/08_alteracao_biologica_permanente_criar_vida.md",
+      "start_line": 49,
+      "end_line": 54,
+      "first_line": "### ••••• Alteração Biológica Permanente / Criar Vida",
+      "label": "••••• Alteração Biológica Permanente / Criar Vida",
+      "kind": [
+        "nivel_de_esfera",
+        "capacidades",
+        "requisitos"
+      ]
     }
   ],
   "views": [
@@ -6097,6 +7081,206 @@
         }
       ],
       "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_correspondencia.md",
+      "title": "Capacidades e níveis — correspondencia",
+      "aliases": [
+        "Capacidades e níveis — correspondencia"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — correspondencia\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_correspondencia.md)\n\n",
+      "groups": [
+        {
+          "prefix": "",
+          "parts": [
+            "esfera_esfera_correspondencia_000",
+            "esfera_esfera_correspondencia_001",
+            "esfera_esfera_correspondencia_002",
+            "esfera_esfera_correspondencia_003",
+            "esfera_esfera_correspondencia_004",
+            "esfera_esfera_correspondencia_005",
+            "esfera_esfera_correspondencia_006",
+            "esfera_esfera_correspondencia_007"
+          ],
+          "suffix": ""
+        }
+      ],
+      "suffix": "\n[Índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_entropia.md",
+      "title": "Capacidades e níveis — entropia",
+      "aliases": [
+        "Capacidades e níveis — entropia"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — entropia\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_entropia.md)\n\n",
+      "groups": [
+        {
+          "prefix": "",
+          "parts": [
+            "esfera_esfera_entropia_000",
+            "esfera_esfera_entropia_001",
+            "esfera_esfera_entropia_002",
+            "esfera_esfera_entropia_003",
+            "esfera_esfera_entropia_004",
+            "esfera_esfera_entropia_005",
+            "esfera_esfera_entropia_006",
+            "esfera_esfera_entropia_007"
+          ],
+          "suffix": ""
+        }
+      ],
+      "suffix": "\n[Índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_forcas.md",
+      "title": "Capacidades e níveis — forcas",
+      "aliases": [
+        "Capacidades e níveis — forcas"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — forcas\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_forcas.md)\n\n",
+      "groups": [
+        {
+          "prefix": "",
+          "parts": [
+            "esfera_esfera_forcas_000",
+            "esfera_esfera_forcas_001",
+            "esfera_esfera_forcas_002",
+            "esfera_esfera_forcas_003",
+            "esfera_esfera_forcas_004",
+            "esfera_esfera_forcas_005",
+            "esfera_esfera_forcas_006",
+            "esfera_esfera_forcas_007"
+          ],
+          "suffix": ""
+        }
+      ],
+      "suffix": "\n[Índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_materia.md",
+      "title": "Capacidades e níveis — materia",
+      "aliases": [
+        "Capacidades e níveis — materia"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — materia\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_materia.md)\n\n",
+      "groups": [
+        {
+          "prefix": "",
+          "parts": [
+            "esfera_esfera_materia_000",
+            "esfera_esfera_materia_001",
+            "esfera_esfera_materia_002",
+            "esfera_esfera_materia_003",
+            "esfera_esfera_materia_004",
+            "esfera_esfera_materia_005",
+            "esfera_esfera_materia_006",
+            "esfera_esfera_materia_007"
+          ],
+          "suffix": ""
+        }
+      ],
+      "suffix": "\n[Índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_mente.md",
+      "title": "Capacidades e níveis — mente",
+      "aliases": [
+        "Capacidades e níveis — mente"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — mente\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_mente.md)\n\n",
+      "groups": [
+        {
+          "prefix": "",
+          "parts": [
+            "esfera_esfera_mente_000",
+            "esfera_esfera_mente_001",
+            "esfera_esfera_mente_002",
+            "esfera_esfera_mente_003",
+            "esfera_esfera_mente_004",
+            "esfera_esfera_mente_005",
+            "esfera_esfera_mente_006",
+            "esfera_esfera_mente_007"
+          ],
+          "suffix": ""
+        }
+      ],
+      "suffix": "\n[Índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_primordio.md",
+      "title": "Capacidades e níveis — primordio",
+      "aliases": [
+        "Capacidades e níveis — primordio"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — primordio\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_primordio.md)\n\n",
+      "groups": [
+        {
+          "prefix": "",
+          "parts": [
+            "esfera_esfera_primordio_000",
+            "esfera_esfera_primordio_001",
+            "esfera_esfera_primordio_002",
+            "esfera_esfera_primordio_003",
+            "esfera_esfera_primordio_004",
+            "esfera_esfera_primordio_005",
+            "esfera_esfera_primordio_006",
+            "esfera_esfera_primordio_007"
+          ],
+          "suffix": ""
+        }
+      ],
+      "suffix": "\n[Índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_tempo.md",
+      "title": "Capacidades e níveis — tempo",
+      "aliases": [
+        "Capacidades e níveis — tempo"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — tempo\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_tempo.md)\n\n",
+      "groups": [
+        {
+          "prefix": "",
+          "parts": [
+            "esfera_esfera_tempo_000",
+            "esfera_esfera_tempo_001",
+            "esfera_esfera_tempo_002",
+            "esfera_esfera_tempo_003",
+            "esfera_esfera_tempo_004",
+            "esfera_esfera_tempo_005",
+            "esfera_esfera_tempo_006",
+            "esfera_esfera_tempo_007"
+          ],
+          "suffix": ""
+        }
+      ],
+      "suffix": "\n[Índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_vida.md",
+      "title": "Capacidades e níveis — vida",
+      "aliases": [
+        "Capacidades e níveis — vida"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — vida\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_vida.md)\n\n",
+      "groups": [
+        {
+          "prefix": "",
+          "parts": [
+            "esfera_esfera_vida_000",
+            "esfera_esfera_vida_001",
+            "esfera_esfera_vida_002",
+            "esfera_esfera_vida_003",
+            "esfera_esfera_vida_004",
+            "esfera_esfera_vida_005",
+            "esfera_esfera_vida_006",
+            "esfera_esfera_vida_007"
+          ],
+          "suffix": ""
+        }
+      ],
+      "suffix": "\n[Índice de valores](readme.md)\n"
     }
   ]
 }
