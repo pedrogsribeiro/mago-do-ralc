@@ -1,6 +1,6 @@
 {
-  "schema": 2,
-  "nature": "piloto_organizado_por_necessidade_com_blocos_textuais_intactos",
+  "schema": 3,
+  "nature": "consulta_por_necessidade_com_corpus_literal_e_proveniencia",
   "baseline_ref": "master",
   "baseline_sources": [
     {
@@ -94,6 +94,107 @@
         "acoes_000",
         "acoes_001",
         "acoes_002"
+      ]
+    },
+    {
+      "key": "conjuracao",
+      "path": "00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md",
+      "git_blob_sha": "9127b6afc8c646c9a2d4e027434d28db8519f7f5",
+      "segment_ids": [
+        "conjuracao_000",
+        "conjuracao_001",
+        "conjuracao_002",
+        "conjuracao_003",
+        "conjuracao_004",
+        "conjuracao_005"
+      ]
+    },
+    {
+      "key": "classificacao",
+      "path": "00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md",
+      "git_blob_sha": "ab3fec5c599937d92f75aae1c664a103b7ba266a",
+      "segment_ids": [
+        "classificacao_000",
+        "classificacao_001",
+        "classificacao_002",
+        "classificacao_003",
+        "classificacao_004"
+      ]
+    },
+    {
+      "key": "modificadores",
+      "path": "00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md",
+      "git_blob_sha": "52180a8d58b3f9449273cbe1ec92280dfdbb1f4f",
+      "segment_ids": [
+        "modificadores_000",
+        "modificadores_001",
+        "modificadores_002"
+      ]
+    },
+    {
+      "key": "quintessencia",
+      "path": "00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md",
+      "git_blob_sha": "6238fbfa9d9c7dbc6d3099318e1a151a8439aa02",
+      "segment_ids": [
+        "quintessencia_000",
+        "quintessencia_001",
+        "quintessencia_002"
+      ]
+    },
+    {
+      "key": "paradoxo",
+      "path": "00_biblia/05_regras_de_magika/regras_magika_paradoxo_e_reacao.md",
+      "git_blob_sha": "5a3813714d89eb31549bba597286ecb6c551397c",
+      "segment_ids": [
+        "paradoxo_000",
+        "paradoxo_001",
+        "paradoxo_002"
+      ]
+    },
+    {
+      "key": "espirito",
+      "path": "00_biblia/05_regras_de_magika/esfera_espirito.md",
+      "git_blob_sha": "65722439b2e1afc0d4b2048c161979622181d052",
+      "segment_ids": [
+        "espirito_000",
+        "espirito_001",
+        "espirito_002",
+        "espirito_003",
+        "espirito_004",
+        "espirito_005",
+        "espirito_006",
+        "espirito_007"
+      ]
+    },
+    {
+      "key": "pelicula",
+      "path": "00_biblia/05_regras_de_magika/regras_magika_pelicula_e_viagem_espiritual.md",
+      "git_blob_sha": "dc5c57320a7b9218b225773e3bb9cd1e8efc855e",
+      "segment_ids": [
+        "pelicula_000",
+        "pelicula_001",
+        "pelicula_002"
+      ]
+    },
+    {
+      "key": "travessia",
+      "path": "00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md",
+      "git_blob_sha": "55f8190cb6111539530149231f67bb66d4ba8291",
+      "segment_ids": [
+        "travessia_000",
+        "travessia_001",
+        "travessia_002",
+        "travessia_003"
+      ]
+    },
+    {
+      "key": "correspondencia",
+      "path": "00_biblia/05_regras_de_magika/regras_magika_alcance_e_conexoes.md",
+      "git_blob_sha": "7e2241c1779b402e3237b904baa1e8f94a4389a9",
+      "segment_ids": [
+        "correspondencia_000",
+        "correspondencia_001",
+        "correspondencia_002"
       ]
     }
   ],
@@ -619,6 +720,348 @@
       "end_line": 28,
       "first_line": "## 2. Regras de Cooperação",
       "label": "Regras de Cooperação"
+    },
+    {
+      "id": "conjuracao_000",
+      "source_key": "conjuracao",
+      "path": "11_consulta_regras/corpus/conjuracao/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "conjuracao_001",
+      "source_key": "conjuracao",
+      "path": "11_consulta_regras/corpus/conjuracao/1_passo_1_declaracao_de_efeito.md",
+      "start_line": 12,
+      "end_line": 17,
+      "first_line": "## 1. Passo 1: Declaração de Efeito",
+      "label": "1. Passo 1: Declaração de Efeito"
+    },
+    {
+      "id": "conjuracao_002",
+      "source_key": "conjuracao",
+      "path": "11_consulta_regras/corpus/conjuracao/2_passo_2_definicao_de_dificuldade_e_alvo.md",
+      "start_line": 18,
+      "end_line": 23,
+      "first_line": "## 2. Passo 2: Definição de Dificuldade e Alvo",
+      "label": "2. Passo 2: Definição de Dificuldade e Alvo"
+    },
+    {
+      "id": "conjuracao_003",
+      "source_key": "conjuracao",
+      "path": "11_consulta_regras/corpus/conjuracao/3_passo_3_a_rolagem_de_arete.md",
+      "start_line": 24,
+      "end_line": 29,
+      "first_line": "## 3. Passo 3: A Rolagem de Arete",
+      "label": "3. Passo 3: A Rolagem de Arete"
+    },
+    {
+      "id": "conjuracao_004",
+      "source_key": "conjuracao",
+      "path": "11_consulta_regras/corpus/conjuracao/4_passo_4_contagem_de_sucessos.md",
+      "start_line": 30,
+      "end_line": 36,
+      "first_line": "## 4. Passo 4: Contagem de Sucessos",
+      "label": "4. Passo 4: Contagem de Sucessos"
+    },
+    {
+      "id": "conjuracao_005",
+      "source_key": "conjuracao",
+      "path": "11_consulta_regras/corpus/conjuracao/5_passo_5_resolucao_de_falhas.md",
+      "start_line": 37,
+      "end_line": 39,
+      "first_line": "## 5. Passo 5: Resolução de Falhas",
+      "label": "5. Passo 5: Resolução de Falhas"
+    },
+    {
+      "id": "classificacao_000",
+      "source_key": "classificacao",
+      "path": "11_consulta_regras/corpus/classificacao/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "classificacao_001",
+      "source_key": "classificacao",
+      "path": "11_consulta_regras/corpus/classificacao/1_magika_coincidente.md",
+      "start_line": 12,
+      "end_line": 18,
+      "first_line": "## 1. Mágika Coincidente",
+      "label": "1. Mágika Coincidente"
+    },
+    {
+      "id": "classificacao_002",
+      "source_key": "classificacao",
+      "path": "11_consulta_regras/corpus/classificacao/2_magika_vulgar_sem_testemunhas.md",
+      "start_line": 19,
+      "end_line": 26,
+      "first_line": "## 2. Mágika Vulgar Sem Testemunhas",
+      "label": "2. Mágika Vulgar Sem Testemunhas"
+    },
+    {
+      "id": "classificacao_003",
+      "source_key": "classificacao",
+      "path": "11_consulta_regras/corpus/classificacao/3_magika_vulgar_com_testemunhas.md",
+      "start_line": 27,
+      "end_line": 33,
+      "first_line": "## 3. Mágika Vulgar Com Testemunhas",
+      "label": "3. Mágika Vulgar Com Testemunhas"
+    },
+    {
+      "id": "classificacao_004",
+      "source_key": "classificacao",
+      "path": "11_consulta_regras/corpus/classificacao/4_dificuldade_limite.md",
+      "start_line": 34,
+      "end_line": 35,
+      "first_line": "## 4. Dificuldade Limite",
+      "label": "4. Dificuldade Limite"
+    },
+    {
+      "id": "modificadores_000",
+      "source_key": "modificadores",
+      "path": "11_consulta_regras/corpus/modificadores/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "modificadores_001",
+      "source_key": "modificadores",
+      "path": "11_consulta_regras/corpus/modificadores/1_redutores_de_dificuldade_ate_o_limite_de_3.md",
+      "start_line": 12,
+      "end_line": 20,
+      "first_line": "## 1. Redutores de Dificuldade (Até o limite de -3)",
+      "label": "1. Redutores de Dificuldade (Até o limite de -3)"
+    },
+    {
+      "id": "modificadores_002",
+      "source_key": "modificadores",
+      "path": "11_consulta_regras/corpus/modificadores/2_aumentadores_de_dificuldade_ate_o_limite_de_3.md",
+      "start_line": 21,
+      "end_line": 26,
+      "first_line": "## 2. Aumentadores de Dificuldade (Até o limite de +3)",
+      "label": "2. Aumentadores de Dificuldade (Até o limite de +3)"
+    },
+    {
+      "id": "quintessencia_000",
+      "source_key": "quintessencia",
+      "path": "11_consulta_regras/corpus/quintessencia/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "quintessencia_001",
+      "source_key": "quintessencia",
+      "path": "11_consulta_regras/corpus/quintessencia/1_uso_mecanico_de_quintessencia.md",
+      "start_line": 12,
+      "end_line": 20,
+      "first_line": "## 1. Uso Mecânico de Quintessência",
+      "label": "1. Uso Mecânico de Quintessência"
+    },
+    {
+      "id": "quintessencia_002",
+      "source_key": "quintessencia",
+      "path": "11_consulta_regras/corpus/quintessencia/2_ressonancia_mistica.md",
+      "start_line": 21,
+      "end_line": 25,
+      "first_line": "## 2. Ressonância Mística",
+      "label": "2. Ressonância Mística"
+    },
+    {
+      "id": "paradoxo_000",
+      "source_key": "paradoxo",
+      "path": "11_consulta_regras/corpus/paradoxo/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "paradoxo_001",
+      "source_key": "paradoxo",
+      "path": "11_consulta_regras/corpus/paradoxo/1_geracao_e_acumulo_de_paradoxo.md",
+      "start_line": 12,
+      "end_line": 24,
+      "first_line": "## 1. Geração e Acúmulo de Paradoxo",
+      "label": "1. Geração e Acúmulo de Paradoxo"
+    },
+    {
+      "id": "paradoxo_002",
+      "source_key": "paradoxo",
+      "path": "11_consulta_regras/corpus/paradoxo/2_reacao_ao_paradoxo_a_rolagem_de_descarga.md",
+      "start_line": 25,
+      "end_line": 32,
+      "first_line": "## 2. Reação ao Paradoxo (A Rolagem de Descarga)",
+      "label": "2. Reação ao Paradoxo (A Rolagem de Descarga)"
+    },
+    {
+      "id": "espirito_000",
+      "source_key": "espirito",
+      "path": "11_consulta_regras/corpus/espirito/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "espirito_001",
+      "source_key": "espirito",
+      "path": "11_consulta_regras/corpus/espirito/1_visao_geral_e_conceito.md",
+      "start_line": 12,
+      "end_line": 19,
+      "first_line": "## 1. Visão Geral e Conceito",
+      "label": "1. Visão Geral e Conceito"
+    },
+    {
+      "id": "espirito_002",
+      "source_key": "espirito",
+      "path": "11_consulta_regras/corpus/espirito/2_niveis_de_maestria_bolinhas.md",
+      "start_line": 20,
+      "end_line": 21,
+      "first_line": "## 2. Níveis de Maestria (Bolinhas)",
+      "label": "2. Níveis de Maestria (Bolinhas)"
+    },
+    {
+      "id": "espirito_003",
+      "source_key": "espirito",
+      "path": "11_consulta_regras/corpus/espirito/ver_espiritos_sentir_espiritos_vidare.md",
+      "start_line": 22,
+      "end_line": 29,
+      "first_line": "### • Ver Espíritos / Sentir Espíritos / Vidare",
+      "label": "• Ver Espíritos / Sentir Espíritos / Vidare"
+    },
+    {
+      "id": "espirito_004",
+      "source_key": "espirito",
+      "path": "11_consulta_regras/corpus/espirito/tocar_espirito_manipular_pelicula.md",
+      "start_line": 30,
+      "end_line": 36,
+      "first_line": "### •• Tocar Espírito / Manipular Película",
+      "label": "•• Tocar Espírito / Manipular Película"
+    },
+    {
+      "id": "espirito_005",
+      "source_key": "espirito",
+      "path": "11_consulta_regras/corpus/espirito/perfurar_pelicula_percorrer_atalho_despertar_espiritos.md",
+      "start_line": 37,
+      "end_line": 43,
+      "first_line": "### ••• Perfurar Película / Percorrer Atalho / Despertar Espíritos",
+      "label": "••• Perfurar Película / Percorrer Atalho / Despertar Espíritos"
+    },
+    {
+      "id": "espirito_006",
+      "source_key": "espirito",
+      "path": "11_consulta_regras/corpus/espirito/prender_e_libertar_espiritos_portais_umbrais.md",
+      "start_line": 44,
+      "end_line": 49,
+      "first_line": "### •••• Prender e Libertar Espíritos / Portais Umbrais",
+      "label": "•••• Prender e Libertar Espíritos / Portais Umbrais"
+    },
+    {
+      "id": "espirito_007",
+      "source_key": "espirito",
+      "path": "11_consulta_regras/corpus/espirito/viagem_astral_profunda_mutacao_umbral.md",
+      "start_line": 50,
+      "end_line": 54,
+      "first_line": "### ••••• Viagem Astral Profunda / Mutação Umbral",
+      "label": "••••• Viagem Astral Profunda / Mutação Umbral"
+    },
+    {
+      "id": "pelicula_000",
+      "source_key": "pelicula",
+      "path": "11_consulta_regras/corpus/pelicula/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "pelicula_001",
+      "source_key": "pelicula",
+      "path": "11_consulta_regras/corpus/pelicula/1_graduacao_da_pelicula_dificuldade_base.md",
+      "start_line": 12,
+      "end_line": 22,
+      "first_line": "## 1. Graduação da Película (Dificuldade Base)",
+      "label": "1. Graduação da Película (Dificuldade Base)"
+    },
+    {
+      "id": "pelicula_002",
+      "source_key": "pelicula",
+      "path": "11_consulta_regras/corpus/pelicula/2_viagem_espiritual_cruzar_a_pelicula.md",
+      "start_line": 23,
+      "end_line": 26,
+      "first_line": "## 2. Viagem Espiritual (Cruzar a Película)",
+      "label": "2. Viagem Espiritual (Cruzar a Película)"
+    },
+    {
+      "id": "travessia_000",
+      "source_key": "travessia",
+      "path": "11_consulta_regras/corpus/travessia/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 8,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "travessia_001",
+      "source_key": "travessia",
+      "path": "11_consulta_regras/corpus/travessia/1_atravessando_a_pelicula.md",
+      "start_line": 9,
+      "end_line": 11,
+      "first_line": "## 1. Atravessando a Película",
+      "label": "1. Atravessando a Película"
+    },
+    {
+      "id": "travessia_002",
+      "source_key": "travessia",
+      "path": "11_consulta_regras/corpus/travessia/tabela_de_dificuldade_da_pelicula_por_local.md",
+      "start_line": 12,
+      "end_line": 21,
+      "first_line": "### Tabela de Dificuldade da Película por Local",
+      "label": "Tabela de Dificuldade da Película por Local"
+    },
+    {
+      "id": "travessia_003",
+      "source_key": "travessia",
+      "path": "11_consulta_regras/corpus/travessia/2_metodos_e_esferas_de_travessia.md",
+      "start_line": 22,
+      "end_line": 30,
+      "first_line": "## 2. Métodos e Esferas de Travessia",
+      "label": "2. Métodos e Esferas de Travessia"
+    },
+    {
+      "id": "correspondencia_000",
+      "source_key": "correspondencia",
+      "path": "11_consulta_regras/corpus/correspondencia/introducao_metadados_e_apresentacao.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Introdução, metadados e apresentação"
+    },
+    {
+      "id": "correspondencia_001",
+      "source_key": "correspondencia",
+      "path": "11_consulta_regras/corpus/correspondencia/1_niveis_de_alcance_da_esfera.md",
+      "start_line": 12,
+      "end_line": 22,
+      "first_line": "## 1. Níveis de Alcance da Esfera",
+      "label": "1. Níveis de Alcance da Esfera"
+    },
+    {
+      "id": "correspondencia_002",
+      "source_key": "correspondencia",
+      "path": "11_consulta_regras/corpus/correspondencia/2_niveis_de_conexao_com_o_alvo_modificadores.md",
+      "start_line": 23,
+      "end_line": 29,
+      "first_line": "## 2. Níveis de Conexão com o Alvo (Modificadores)",
+      "label": "2. Níveis de Conexão com o Alvo (Modificadores)"
     }
   ],
   "views": [
@@ -1113,6 +1556,269 @@
         }
       ],
       "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/conjurar_um_efeito.md",
+      "title": "Como realizar um efeito de mágika?",
+      "aliases": [
+        "conjurar",
+        "lançar mágica",
+        "efeito mágico",
+        "rolagem de Arete",
+        "sucessos"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como realizar um efeito de mágika?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Procedimento completo de conjuração\n\n[Fonte — regras_magika_passo_a_passo.md](../../00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md)\n\n",
+          "parts": [
+            "conjuracao_001",
+            "conjuracao_002",
+            "conjuracao_003",
+            "conjuracao_004",
+            "conjuracao_005"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Classificar o efeito\n\n[Fonte — regras_magika_classificacao_e_testemunhas.md](../../00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md)\n\n",
+          "parts": [
+            "classificacao_001",
+            "classificacao_002",
+            "classificacao_003",
+            "classificacao_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Modificar a dificuldade\n\n[Fonte — regras_magika_modificadores_dificuldade.md](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)\n\n",
+          "parts": [
+            "modificadores_001",
+            "modificadores_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/determinar_dificuldade_magika.md",
+      "title": "Como determinar a dificuldade de uma mágika?",
+      "aliases": [
+        "dificuldade",
+        "coincidente",
+        "vulgar",
+        "testemunhas",
+        "instrumentos",
+        "modificadores"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como determinar a dificuldade de uma mágika?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Coincidente, vulgar e testemunhas\n\n[Fonte — regras_magika_classificacao_e_testemunhas.md](../../00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md)\n\n",
+          "parts": [
+            "classificacao_001",
+            "classificacao_002",
+            "classificacao_003",
+            "classificacao_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Redutores e aumentadores\n\n[Fonte — regras_magika_modificadores_dificuldade.md](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)\n\n",
+          "parts": [
+            "modificadores_001",
+            "modificadores_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Quintessência e Ressonância\n\n[Fonte — regras_magika_quintessencia_e_ressonancia.md](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_001",
+            "quintessencia_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/usar_quintessencia.md",
+      "title": "Como usar Quintessência e Ressonância?",
+      "aliases": [
+        "gastar Quintessência",
+        "ressonância",
+        "recursos mágicos",
+        "assinatura mística"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como usar Quintessência e Ressonância?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Quintessência e Ressonância\n\n[Fonte — regras_magika_quintessencia_e_ressonancia.md](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_001",
+            "quintessencia_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Dificuldade e ajustes da mágika\n\n[Fonte — regras_magika_modificadores_dificuldade.md](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)\n\n",
+          "parts": [
+            "modificadores_001",
+            "modificadores_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/alcancar_um_alvo_distante.md",
+      "title": "Como alcançar um alvo distante com mágika?",
+      "aliases": [
+        "alcance",
+        "distância",
+        "Correspondência",
+        "conexão",
+        "vínculo com alvo"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como alcançar um alvo distante com mágika?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Alcance e conexões de Correspondência\n\n[Fonte — regras_magika_alcance_e_conexoes.md](../../00_biblia/05_regras_de_magika/regras_magika_alcance_e_conexoes.md)\n\n",
+          "parts": [
+            "correspondencia_001",
+            "correspondencia_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Declaração e resolução do efeito\n\n[Fonte — regras_magika_passo_a_passo.md](../../00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md)\n\n",
+          "parts": [
+            "conjuracao_001",
+            "conjuracao_002",
+            "conjuracao_003",
+            "conjuracao_004"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/perceber_ou_tocar_espiritos.md",
+      "title": "Como perceber, tocar ou conversar com espíritos?",
+      "aliases": [
+        "perceber espíritos",
+        "falar com espíritos",
+        "ver espírito",
+        "Espírito 1",
+        "Espírito 2",
+        "evocação"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como perceber, tocar ou conversar com espíritos?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n\n> **Limite de cobertura:** estes textos descrevem percepção, contato e outras capacidades da Esfera Espírito. Eles não definem um procedimento completo para convocar uma entidade nomeada ou confirmar sua identidade. A consulta não preenche essa lacuna com regras inventadas.\n",
+      "groups": [
+        {
+          "prefix": "\n### Detectar e ver espíritos\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Tocar ou conversar através da Película\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Outras capacidades e limites da Esfera\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_006"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/atravessar_pelicula.md",
+      "title": "Como atravessar a Película e entrar na Umbra?",
+      "aliases": [
+        "Película",
+        "Gauntlet",
+        "entrar na Umbra",
+        "passar para o lado",
+        "travessia",
+        "Espírito 3"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como atravessar a Película e entrar na Umbra?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n\n> **Divergência documental identificada:** a fonte de travessia umbral apresenta exigências de sucessos conforme o local, enquanto a fonte de mágika sobre a Película descreve um sucesso líquido como mínimo. **Os textos abaixo são mantidos como estão; esta página não escolhe nem reconcilia as versões.** [Ver registro da divergência](../divergencias_documentais.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Métodos e Esferas de travessia\n\n[Fonte — umbra_travessia_e_pelicula.md](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
+          "parts": [
+            "travessia_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Perfurar a Película com Espírito\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_005"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Tabela de dificuldades e sucessos por local\n\n[Fonte — umbra_travessia_e_pelicula.md](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
+          "parts": [
+            "travessia_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Outra formulação da mecânica de travessia\n\n[Fonte — regras_magika_pelicula_e_viagem_espiritual.md](../../00_biblia/05_regras_de_magika/regras_magika_pelicula_e_viagem_espiritual.md)\n\n",
+          "parts": [
+            "pelicula_001",
+            "pelicula_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/lidar_com_paradoxo.md",
+      "title": "Quando recebo Paradoxo e quais são as consequências?",
+      "aliases": [
+        "Paradoxo",
+        "botch",
+        "falha crítica",
+        "descarga",
+        "reação",
+        "Silêncio"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Quando recebo Paradoxo e quais são as consequências?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n\n> **Atenção à camada de regras:** o procedimento original citado abaixo prevê rolagem do Narrador, enquanto o [contrato player-faced do projeto](../../08_estudos_player_faced/contrato_produto_player_faced_total.md) proíbe rolagens do Narrador. Esta consulta documenta a fonte sem reinterpretar nem converter sua operação.\n",
+      "groups": [
+        {
+          "prefix": "\n### Acúmulo e reação de Paradoxo\n\n[Fonte — regras_magika_paradoxo_e_reacao.md](../../00_biblia/05_regras_de_magika/regras_magika_paradoxo_e_reacao.md)\n\n",
+          "parts": [
+            "paradoxo_001",
+            "paradoxo_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Relação com sucesso e falha no efeito\n\n[Fonte — regras_magika_passo_a_passo.md](../../00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md)\n\n",
+          "parts": [
+            "conjuracao_004",
+            "conjuracao_005"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
     }
   ]
 }

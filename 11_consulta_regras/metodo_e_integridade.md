@@ -10,7 +10,11 @@ Este piloto distingue **interface de consulta** de **corpus técnico**. As consu
 
 Os títulos das consultas, o agrupamento e as referências são texto editorial de **navegação**, sem qualquer força de regra. Os conteúdos das instruções são reproduzidos literalmente da `00_biblia/`, inclusive números e eventuais contradições. Nenhuma correção, simplificação ou interpretação é permitida na transposição.
 
-As cinco fontes originais **não foram movidas nem editadas**. Cada trecho corresponde à faixa de linhas declarada em `manifesto.json`. A ordem total dos segmentos reconstrói os arquivos originais, sem perda. As tabelas selecionadas incluem literalmente suas linhas de cabeçalho, alinhamento e dados, com a definição de termos quando necessário.
+As fontes originais (combate, Do, mágika e Umbra) **não foram movidas nem editadas**. Cada trecho corresponde à faixa de linhas declarada em `manifesto.json`. A ordem total dos segmentos reconstrói os arquivos originais, sem perda. As tabelas selecionadas incluem literalmente suas linhas de cabeçalho, alinhamento e dados, com a definição de termos quando necessário.
+
+## Valor na mesa
+
+O índice principal e os índices específicos de Do, mágika e Umbra tornam possível buscar regras pelos verbos e objetivos do jogador ou Narrador. As consultas reúnem blocos por necessidade e apresentam primeiro o material mais diretamente relevante. Divergências permanecem identificadas em [registro separado](divergencias_documentais.md), sem qualquer alteração das regras.
 
 ## Verificação automatizada
 

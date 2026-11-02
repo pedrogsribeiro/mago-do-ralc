@@ -30,6 +30,20 @@ status: experimental
 
 [Acessar também o índice de Do](do/readme.md).
 
+## Mágika e Umbra — situações que surgem na mesa
+
+| Quero... | Abrir |
+|---|---|
+| Como realizar um efeito de mágika? | [Consultar](consultas/conjurar_um_efeito.md) |
+| Como determinar a dificuldade de uma mágika? | [Consultar](consultas/determinar_dificuldade_magika.md) |
+| Como usar Quintessência e Ressonância? | [Consultar](consultas/usar_quintessencia.md) |
+| Como alcançar um alvo distante com mágika? | [Consultar](consultas/alcancar_um_alvo_distante.md) |
+| Como perceber, tocar ou conversar com espíritos? | [Consultar](consultas/perceber_ou_tocar_espiritos.md) |
+| Como atravessar a Película e entrar na Umbra? | [Consultar](consultas/atravessar_pelicula.md) |
+| Quando recebo Paradoxo e quais são as consequências? | [Consultar](consultas/lidar_com_paradoxo.md) |
+
+[Índice específico de mágika e Umbra](magika/readme.md) · [Divergências documentais conhecidas](divergencias_documentais.md).
+
 ## Buscar por palavras
 
 - **rasteira · derrubar · sweep · cauda do dragão · arremessar** → [Como derrubar alguém? Rasteira e arremesso](consultas/derrubar_alguem.md)
