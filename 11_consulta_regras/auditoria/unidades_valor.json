@@ -457,6 +457,762 @@
       "kind": [
         "escalas"
       ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_001",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/02_1_o_que_sao_antecedentes.md",
+      "label": "1. O que são Antecedentes?",
+      "start_line": 12,
+      "end_line": 16,
+      "kind": [
+        "descricao"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_002",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/03_2_lista_detalhada_de_antecedentes_e_mecanicas_exatas.md",
+      "label": "2. Lista Detalhada de Antecedentes e Mecânicas Exatas",
+      "start_line": 17,
+      "end_line": 18,
+      "kind": [
+        "descricao"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_003",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/04_aliados_allies.md",
+      "label": "Aliados (Allies)",
+      "start_line": 19,
+      "end_line": 27,
+      "kind": [
+        "escala",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_004",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/05_apoio_reforco_backing_backup.md",
+      "label": "Apoio / Reforço (Backing / Backup)",
+      "start_line": 28,
+      "end_line": 36,
+      "kind": [
+        "escala",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_005",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/06_arcano_camuflagem_arcane.md",
+      "label": "Arcano / Camuflagem (Arcane)",
+      "start_line": 37,
+      "end_line": 45,
+      "kind": [
+        "escala",
+        "modificador",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_006",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/07_avatar_genio_avatar_geni.md",
+      "label": "Avatar / Gênio (Avatar / Geni)",
+      "start_line": 46,
+      "end_line": 54,
+      "kind": [
+        "escala",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_007",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/08_biblioteca_library.md",
+      "label": "Biblioteca (Library)",
+      "start_line": 55,
+      "end_line": 63,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_008",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/09_contatos_contacts.md",
+      "label": "Contatos (Contacts)",
+      "start_line": 64,
+      "end_line": 72,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_009",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/10_culto_cult.md",
+      "label": "Culto (Cult)",
+      "start_line": 73,
+      "end_line": 81,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_010",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/11_destino_destiny.md",
+      "label": "Destino (Destiny)",
+      "start_line": 82,
+      "end_line": 90,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_011",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/12_fama_fame.md",
+      "label": "Fama (Fame)",
+      "start_line": 91,
+      "end_line": 99,
+      "kind": [
+        "escala",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_012",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/13_mentor_mentor.md",
+      "label": "Mentor (Mentor)",
+      "start_line": 100,
+      "end_line": 108,
+      "kind": [
+        "custo",
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_013",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/14_recursos_resources.md",
+      "label": "Recursos (Resources)",
+      "start_line": 109,
+      "end_line": 117,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_014",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/15_seita_status_faction_status.md",
+      "label": "Seita / Status (Faction / Status)",
+      "start_line": 118,
+      "end_line": 125,
+      "kind": [
+        "escala",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_001",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/02_1_natureza_e_comportamento.md",
+      "label": "1. Natureza e Comportamento",
+      "start_line": 12,
+      "end_line": 19,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_002",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/03_2_os_20_arquetipos_de_personalidade_oficiais.md",
+      "label": "2. Os 20 Arquétipos de Personalidade Oficiais",
+      "start_line": 20,
+      "end_line": 21,
+      "kind": [
+        "descricao"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_003",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/04_antagonista_antagonist.md",
+      "label": "Antagonista (Antagonist)",
+      "start_line": 22,
+      "end_line": 27,
+      "kind": [
+        "custo",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_004",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/05_ativista_activist.md",
+      "label": "Ativista (Activist)",
+      "start_line": 28,
+      "end_line": 33,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_005",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/06_benfeitor_caregiver.md",
+      "label": "Benfeitor (Caregiver)",
+      "start_line": 34,
+      "end_line": 39,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_006",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/07_cientista_louco_mad_scientist.md",
+      "label": "Cientista Louco (Mad Scientist)",
+      "start_line": 40,
+      "end_line": 45,
+      "kind": [
+        "custo",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_007",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/08_crianca_child.md",
+      "label": "Criança (Child)",
+      "start_line": 46,
+      "end_line": 51,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_008",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/09_cruzado_crusader.md",
+      "label": "Cruzado (Crusader)",
+      "start_line": 52,
+      "end_line": 57,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_009",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/10_enganador_joker_con_artist.md",
+      "label": "Enganador (Joker / Con Artist)",
+      "start_line": 58,
+      "end_line": 63,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_010",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/11_hacker.md",
+      "label": "Hacker",
+      "start_line": 64,
+      "end_line": 69,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_011",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/12_idealista_idealist.md",
+      "label": "Idealista (Idealist)",
+      "start_line": 70,
+      "end_line": 75,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_012",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/13_inovador_innovator.md",
+      "label": "Inovador (Innovator)",
+      "start_line": 76,
+      "end_line": 81,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_013",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/14_malandro_rogue.md",
+      "label": "Malandro (Rogue)",
+      "start_line": 82,
+      "end_line": 87,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_014",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/15_martir_martyr.md",
+      "label": "Mártir (Martyr)",
+      "start_line": 88,
+      "end_line": 93,
+      "kind": [
+        "custo",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_015",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/16_maquina_machine.md",
+      "label": "Máquina (Machine)",
+      "start_line": 94,
+      "end_line": 99,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_016",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/17_monstro_monster.md",
+      "label": "Monstro (Monster)",
+      "start_line": 100,
+      "end_line": 105,
+      "kind": [
+        "custo",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_017",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/18_profeta_prophet.md",
+      "label": "Profeta (Prophet)",
+      "start_line": 106,
+      "end_line": 111,
+      "kind": [
+        "custo",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_018",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/19_sensual_sensualist.md",
+      "label": "Sensual (Sensualist)",
+      "start_line": 112,
+      "end_line": 117,
+      "kind": [
+        "custo",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_019",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/20_sobrevivente_survivor.md",
+      "label": "Sobrevivente (Survivor)",
+      "start_line": 118,
+      "end_line": 123,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_020",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/21_solitario_loner.md",
+      "label": "Solitário (Loner)",
+      "start_line": 124,
+      "end_line": 129,
+      "kind": [
+        "custo",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_021",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/22_tradicionalista_traditionalist.md",
+      "label": "Tradicionalista (Traditionalist)",
+      "start_line": 130,
+      "end_line": 135,
+      "kind": [
+        "modificador",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_022",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/23_visionario_visionary.md",
+      "label": "Visionário (Visionary)",
+      "start_line": 136,
+      "end_line": 140,
+      "kind": [
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_001",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/02_1_atributos_fisicos.md",
+      "label": "1. Atributos Físicos",
+      "start_line": 12,
+      "end_line": 14,
+      "kind": [
+        "descricao"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_002",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/03_forca_strength.md",
+      "label": "Força (Strength)",
+      "start_line": 15,
+      "end_line": 24,
+      "kind": [
+        "escala",
+        "requisito"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_003",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/04_destreza_dexterity.md",
+      "label": "Destreza (Dexterity)",
+      "start_line": 25,
+      "end_line": 34,
+      "kind": [
+        "escala",
+        "requisito",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_004",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/05_vigor_stamina.md",
+      "label": "Vigor (Stamina)",
+      "start_line": 35,
+      "end_line": 46,
+      "kind": [
+        "escala",
+        "requisito",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_005",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/06_2_atributos_sociais.md",
+      "label": "2. Atributos Sociais",
+      "start_line": 47,
+      "end_line": 49,
+      "kind": [
+        "descricao"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_006",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/07_carisma_charisma.md",
+      "label": "Carisma (Charisma)",
+      "start_line": 50,
+      "end_line": 59,
+      "kind": [
+        "escala",
+        "requisito"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_007",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/08_manipulacao_manipulation.md",
+      "label": "Manipulação (Manipulation)",
+      "start_line": 60,
+      "end_line": 69,
+      "kind": [
+        "escala",
+        "requisito",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_008",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/09_aparencia_appearance.md",
+      "label": "Aparência (Appearance)",
+      "start_line": 70,
+      "end_line": 81,
+      "kind": [
+        "escala",
+        "requisito"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_009",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/10_3_atributos_mentais.md",
+      "label": "3. Atributos Mentais",
+      "start_line": 82,
+      "end_line": 84,
+      "kind": [
+        "descricao"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_010",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/11_percepcao_perception.md",
+      "label": "Percepção (Perception)",
+      "start_line": 85,
+      "end_line": 94,
+      "kind": [
+        "escala",
+        "requisito"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_011",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/12_inteligencia_intelligence.md",
+      "label": "Inteligência (Intelligence)",
+      "start_line": 95,
+      "end_line": 104,
+      "kind": [
+        "escala",
+        "requisito"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_012",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/13_raciocinio_wits.md",
+      "label": "Raciocínio (Wits)",
+      "start_line": 105,
+      "end_line": 113,
+      "kind": [
+        "escala",
+        "requisito",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_001",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/02_1_o_que_sao_conhecimentos.md",
+      "label": "1. O que são Conhecimentos?",
+      "start_line": 12,
+      "end_line": 16,
+      "kind": [
+        "requisito",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_002",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/03_2_lista_de_conhecimentos_niveis_bolinhas_e_sugestoes.md",
+      "label": "2. Lista de Conhecimentos, Níveis (Bolinhas) e Sugestões",
+      "start_line": 17,
+      "end_line": 18,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_003",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/04_academicos_erudicao_academia.md",
+      "label": "Acadêmicos / Erudição (Academia)",
+      "start_line": 19,
+      "end_line": 29,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_004",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/05_computacao_computer.md",
+      "label": "Computação (Computer)",
+      "start_line": 30,
+      "end_line": 40,
+      "kind": [
+        "escala",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_005",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/06_cosmologia_cosmology.md",
+      "label": "Cosmologia (Cosmology)",
+      "start_line": 41,
+      "end_line": 51,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_006",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/07_enigmas_enigmas.md",
+      "label": "Enigmas (Enigmas)",
+      "start_line": 52,
+      "end_line": 62,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_007",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/08_investigacao_investigation.md",
+      "label": "Investigação (Investigation)",
+      "start_line": 63,
+      "end_line": 73,
+      "kind": [
+        "custo",
+        "escala",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_008",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/09_direito_law.md",
+      "label": "Direito (Law)",
+      "start_line": 74,
+      "end_line": 84,
+      "kind": [
+        "custo",
+        "escala",
+        "procedimento"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_009",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/10_medicina_medicine.md",
+      "label": "Medicina (Medicine)",
+      "start_line": 85,
+      "end_line": 95,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_010",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/11_ocultismo_occult.md",
+      "label": "Ocultismo (Occult)",
+      "start_line": 96,
+      "end_line": 106,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_011",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/12_politica_politics.md",
+      "label": "Política (Politics)",
+      "start_line": 107,
+      "end_line": 117,
+      "kind": [
+        "custo",
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_012",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/13_ciencia_science.md",
+      "label": "Ciência (Science)",
+      "start_line": 118,
+      "end_line": 127,
+      "kind": [
+        "escala"
+      ],
+      "status": "localizado_por_cabecalho_a_validar_semantica"
     }
   ]
 }

@@ -291,6 +291,98 @@
         "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_007",
         "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_008"
       ]
+    },
+    {
+      "key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "git_blob_sha": "b1e5f312ff7239e76bc15ba82fc3bcbd313566e3",
+      "segment_ids": [
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_000",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_001",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_002",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_003",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_004",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_005",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_006",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_007",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_008",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_009",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_010",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_011",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_012",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_013",
+        "valor_02_criacao_de_personagem_descritivo_antecedentes_014"
+      ]
+    },
+    {
+      "key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "git_blob_sha": "03110319f2d1c8d07a1c027a1bff8af3687d47e4",
+      "segment_ids": [
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_000",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_001",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_002",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_003",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_004",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_005",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_006",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_007",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_008",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_009",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_010",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_011",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_012",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_013",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_014",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_015",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_016",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_017",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_018",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_019",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_020",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_021",
+        "valor_02_criacao_de_personagem_descritivo_arquetipos_022"
+      ]
+    },
+    {
+      "key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "git_blob_sha": "69e4d48129d4201d75538551ea869074bba8a47f",
+      "segment_ids": [
+        "valor_02_criacao_de_personagem_descritivo_atributos_000",
+        "valor_02_criacao_de_personagem_descritivo_atributos_001",
+        "valor_02_criacao_de_personagem_descritivo_atributos_002",
+        "valor_02_criacao_de_personagem_descritivo_atributos_003",
+        "valor_02_criacao_de_personagem_descritivo_atributos_004",
+        "valor_02_criacao_de_personagem_descritivo_atributos_005",
+        "valor_02_criacao_de_personagem_descritivo_atributos_006",
+        "valor_02_criacao_de_personagem_descritivo_atributos_007",
+        "valor_02_criacao_de_personagem_descritivo_atributos_008",
+        "valor_02_criacao_de_personagem_descritivo_atributos_009",
+        "valor_02_criacao_de_personagem_descritivo_atributos_010",
+        "valor_02_criacao_de_personagem_descritivo_atributos_011",
+        "valor_02_criacao_de_personagem_descritivo_atributos_012"
+      ]
+    },
+    {
+      "key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "git_blob_sha": "77fa19999d47d84d54597843506b24f8ed720813",
+      "segment_ids": [
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_000",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_001",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_002",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_003",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_004",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_005",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_006",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_007",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_008",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_009",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_010",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_011",
+        "valor_02_criacao_de_personagem_descritivo_conhecimentos_012"
+      ]
     }
   ],
   "segments": [
@@ -1785,6 +1877,810 @@
       "label": "Tabela de Níveis de Vitalidade (Saúde)",
       "kind": [
         "escalas"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_000",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/01_apresentacao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Apresentação original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_001",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/02_1_o_que_sao_antecedentes.md",
+      "start_line": 12,
+      "end_line": 16,
+      "first_line": "## 1. O que são Antecedentes?",
+      "label": "1. O que são Antecedentes?",
+      "kind": [
+        "descricao"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_002",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/03_2_lista_detalhada_de_antecedentes_e_mecanicas_exatas.md",
+      "start_line": 17,
+      "end_line": 18,
+      "first_line": "## 2. Lista Detalhada de Antecedentes e Mecânicas Exatas",
+      "label": "2. Lista Detalhada de Antecedentes e Mecânicas Exatas",
+      "kind": [
+        "descricao"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_003",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/04_aliados_allies.md",
+      "start_line": 19,
+      "end_line": 27,
+      "first_line": "### Aliados (Allies)",
+      "label": "Aliados (Allies)",
+      "kind": [
+        "escala",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_004",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/05_apoio_reforco_backing_backup.md",
+      "start_line": 28,
+      "end_line": 36,
+      "first_line": "### Apoio / Reforço (Backing / Backup)",
+      "label": "Apoio / Reforço (Backing / Backup)",
+      "kind": [
+        "escala",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_005",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/06_arcano_camuflagem_arcane.md",
+      "start_line": 37,
+      "end_line": 45,
+      "first_line": "### Arcano / Camuflagem (Arcane)",
+      "label": "Arcano / Camuflagem (Arcane)",
+      "kind": [
+        "escala",
+        "modificador",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_006",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/07_avatar_genio_avatar_geni.md",
+      "start_line": 46,
+      "end_line": 54,
+      "first_line": "### Avatar / Gênio (Avatar / Geni)",
+      "label": "Avatar / Gênio (Avatar / Geni)",
+      "kind": [
+        "escala",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_007",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/08_biblioteca_library.md",
+      "start_line": 55,
+      "end_line": 63,
+      "first_line": "### Biblioteca (Library)",
+      "label": "Biblioteca (Library)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_008",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/09_contatos_contacts.md",
+      "start_line": 64,
+      "end_line": 72,
+      "first_line": "### Contatos (Contacts)",
+      "label": "Contatos (Contacts)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_009",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/10_culto_cult.md",
+      "start_line": 73,
+      "end_line": 81,
+      "first_line": "### Culto (Cult)",
+      "label": "Culto (Cult)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_010",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/11_destino_destiny.md",
+      "start_line": 82,
+      "end_line": 90,
+      "first_line": "### Destino (Destiny)",
+      "label": "Destino (Destiny)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_011",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/12_fama_fame.md",
+      "start_line": 91,
+      "end_line": 99,
+      "first_line": "### Fama (Fame)",
+      "label": "Fama (Fame)",
+      "kind": [
+        "escala",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_012",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/13_mentor_mentor.md",
+      "start_line": 100,
+      "end_line": 108,
+      "first_line": "### Mentor (Mentor)",
+      "label": "Mentor (Mentor)",
+      "kind": [
+        "custo",
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_013",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/14_recursos_resources.md",
+      "start_line": 109,
+      "end_line": 117,
+      "first_line": "### Recursos (Resources)",
+      "label": "Recursos (Resources)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_antecedentes_014",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_antecedentes",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_antecedentes/15_seita_status_faction_status.md",
+      "start_line": 118,
+      "end_line": 125,
+      "first_line": "### Seita / Status (Faction / Status)",
+      "label": "Seita / Status (Faction / Status)",
+      "kind": [
+        "escala",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_000",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/01_apresentacao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Apresentação original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_001",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/02_1_natureza_e_comportamento.md",
+      "start_line": 12,
+      "end_line": 19,
+      "first_line": "## 1. Natureza e Comportamento",
+      "label": "1. Natureza e Comportamento",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_002",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/03_2_os_20_arquetipos_de_personalidade_oficiais.md",
+      "start_line": 20,
+      "end_line": 21,
+      "first_line": "## 2. Os 20 Arquétipos de Personalidade Oficiais",
+      "label": "2. Os 20 Arquétipos de Personalidade Oficiais",
+      "kind": [
+        "descricao"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_003",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/04_antagonista_antagonist.md",
+      "start_line": 22,
+      "end_line": 27,
+      "first_line": "### Antagonista (Antagonist)",
+      "label": "Antagonista (Antagonist)",
+      "kind": [
+        "custo",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_004",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/05_ativista_activist.md",
+      "start_line": 28,
+      "end_line": 33,
+      "first_line": "### Ativista (Activist)",
+      "label": "Ativista (Activist)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_005",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/06_benfeitor_caregiver.md",
+      "start_line": 34,
+      "end_line": 39,
+      "first_line": "### Benfeitor (Caregiver)",
+      "label": "Benfeitor (Caregiver)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_006",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/07_cientista_louco_mad_scientist.md",
+      "start_line": 40,
+      "end_line": 45,
+      "first_line": "### Cientista Louco (Mad Scientist)",
+      "label": "Cientista Louco (Mad Scientist)",
+      "kind": [
+        "custo",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_007",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/08_crianca_child.md",
+      "start_line": 46,
+      "end_line": 51,
+      "first_line": "### Criança (Child)",
+      "label": "Criança (Child)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_008",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/09_cruzado_crusader.md",
+      "start_line": 52,
+      "end_line": 57,
+      "first_line": "### Cruzado (Crusader)",
+      "label": "Cruzado (Crusader)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_009",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/10_enganador_joker_con_artist.md",
+      "start_line": 58,
+      "end_line": 63,
+      "first_line": "### Enganador (Joker / Con Artist)",
+      "label": "Enganador (Joker / Con Artist)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_010",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/11_hacker.md",
+      "start_line": 64,
+      "end_line": 69,
+      "first_line": "### Hacker",
+      "label": "Hacker",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_011",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/12_idealista_idealist.md",
+      "start_line": 70,
+      "end_line": 75,
+      "first_line": "### Idealista (Idealist)",
+      "label": "Idealista (Idealist)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_012",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/13_inovador_innovator.md",
+      "start_line": 76,
+      "end_line": 81,
+      "first_line": "### Inovador (Innovator)",
+      "label": "Inovador (Innovator)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_013",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/14_malandro_rogue.md",
+      "start_line": 82,
+      "end_line": 87,
+      "first_line": "### Malandro (Rogue)",
+      "label": "Malandro (Rogue)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_014",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/15_martir_martyr.md",
+      "start_line": 88,
+      "end_line": 93,
+      "first_line": "### Mártir (Martyr)",
+      "label": "Mártir (Martyr)",
+      "kind": [
+        "custo",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_015",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/16_maquina_machine.md",
+      "start_line": 94,
+      "end_line": 99,
+      "first_line": "### Máquina (Machine)",
+      "label": "Máquina (Machine)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_016",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/17_monstro_monster.md",
+      "start_line": 100,
+      "end_line": 105,
+      "first_line": "### Monstro (Monster)",
+      "label": "Monstro (Monster)",
+      "kind": [
+        "custo",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_017",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/18_profeta_prophet.md",
+      "start_line": 106,
+      "end_line": 111,
+      "first_line": "### Profeta (Prophet)",
+      "label": "Profeta (Prophet)",
+      "kind": [
+        "custo",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_018",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/19_sensual_sensualist.md",
+      "start_line": 112,
+      "end_line": 117,
+      "first_line": "### Sensual (Sensualist)",
+      "label": "Sensual (Sensualist)",
+      "kind": [
+        "custo",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_019",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/20_sobrevivente_survivor.md",
+      "start_line": 118,
+      "end_line": 123,
+      "first_line": "### Sobrevivente (Survivor)",
+      "label": "Sobrevivente (Survivor)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_020",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/21_solitario_loner.md",
+      "start_line": 124,
+      "end_line": 129,
+      "first_line": "### Solitário (Loner)",
+      "label": "Solitário (Loner)",
+      "kind": [
+        "custo",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_021",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/22_tradicionalista_traditionalist.md",
+      "start_line": 130,
+      "end_line": 135,
+      "first_line": "### Tradicionalista (Traditionalist)",
+      "label": "Tradicionalista (Traditionalist)",
+      "kind": [
+        "modificador",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_arquetipos_022",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_arquetipos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_arquetipos/23_visionario_visionary.md",
+      "start_line": 136,
+      "end_line": 140,
+      "first_line": "### Visionário (Visionary)",
+      "label": "Visionário (Visionary)",
+      "kind": [
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_000",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/01_apresentacao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Apresentação original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_001",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/02_1_atributos_fisicos.md",
+      "start_line": 12,
+      "end_line": 14,
+      "first_line": "## 1. Atributos Físicos",
+      "label": "1. Atributos Físicos",
+      "kind": [
+        "descricao"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_002",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/03_forca_strength.md",
+      "start_line": 15,
+      "end_line": 24,
+      "first_line": "### Força (Strength)",
+      "label": "Força (Strength)",
+      "kind": [
+        "escala",
+        "requisito"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_003",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/04_destreza_dexterity.md",
+      "start_line": 25,
+      "end_line": 34,
+      "first_line": "### Destreza (Dexterity)",
+      "label": "Destreza (Dexterity)",
+      "kind": [
+        "escala",
+        "requisito",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_004",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/05_vigor_stamina.md",
+      "start_line": 35,
+      "end_line": 46,
+      "first_line": "### Vigor (Stamina)",
+      "label": "Vigor (Stamina)",
+      "kind": [
+        "escala",
+        "requisito",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_005",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/06_2_atributos_sociais.md",
+      "start_line": 47,
+      "end_line": 49,
+      "first_line": "## 2. Atributos Sociais",
+      "label": "2. Atributos Sociais",
+      "kind": [
+        "descricao"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_006",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/07_carisma_charisma.md",
+      "start_line": 50,
+      "end_line": 59,
+      "first_line": "### Carisma (Charisma)",
+      "label": "Carisma (Charisma)",
+      "kind": [
+        "escala",
+        "requisito"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_007",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/08_manipulacao_manipulation.md",
+      "start_line": 60,
+      "end_line": 69,
+      "first_line": "### Manipulação (Manipulation)",
+      "label": "Manipulação (Manipulation)",
+      "kind": [
+        "escala",
+        "requisito",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_008",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/09_aparencia_appearance.md",
+      "start_line": 70,
+      "end_line": 81,
+      "first_line": "### Aparência (Appearance)",
+      "label": "Aparência (Appearance)",
+      "kind": [
+        "escala",
+        "requisito"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_009",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/10_3_atributos_mentais.md",
+      "start_line": 82,
+      "end_line": 84,
+      "first_line": "## 3. Atributos Mentais",
+      "label": "3. Atributos Mentais",
+      "kind": [
+        "descricao"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_010",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/11_percepcao_perception.md",
+      "start_line": 85,
+      "end_line": 94,
+      "first_line": "### Percepção (Perception)",
+      "label": "Percepção (Perception)",
+      "kind": [
+        "escala",
+        "requisito"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_011",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/12_inteligencia_intelligence.md",
+      "start_line": 95,
+      "end_line": 104,
+      "first_line": "### Inteligência (Intelligence)",
+      "label": "Inteligência (Intelligence)",
+      "kind": [
+        "escala",
+        "requisito"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_atributos_012",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_atributos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_atributos/13_raciocinio_wits.md",
+      "start_line": 105,
+      "end_line": 113,
+      "first_line": "### Raciocínio (Wits)",
+      "label": "Raciocínio (Wits)",
+      "kind": [
+        "escala",
+        "requisito",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_000",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/01_apresentacao_original.md",
+      "start_line": 1,
+      "end_line": 11,
+      "first_line": "---",
+      "label": "Apresentação original",
+      "kind": [
+        "contexto"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_001",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/02_1_o_que_sao_conhecimentos.md",
+      "start_line": 12,
+      "end_line": 16,
+      "first_line": "## 1. O que são Conhecimentos?",
+      "label": "1. O que são Conhecimentos?",
+      "kind": [
+        "requisito",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_002",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/03_2_lista_de_conhecimentos_niveis_bolinhas_e_sugestoes.md",
+      "start_line": 17,
+      "end_line": 18,
+      "first_line": "## 2. Lista de Conhecimentos, Níveis (Bolinhas) e Sugestões",
+      "label": "2. Lista de Conhecimentos, Níveis (Bolinhas) e Sugestões",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_003",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/04_academicos_erudicao_academia.md",
+      "start_line": 19,
+      "end_line": 29,
+      "first_line": "### Acadêmicos / Erudição (Academia)",
+      "label": "Acadêmicos / Erudição (Academia)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_004",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/05_computacao_computer.md",
+      "start_line": 30,
+      "end_line": 40,
+      "first_line": "### Computação (Computer)",
+      "label": "Computação (Computer)",
+      "kind": [
+        "escala",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_005",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/06_cosmologia_cosmology.md",
+      "start_line": 41,
+      "end_line": 51,
+      "first_line": "### Cosmologia (Cosmology)",
+      "label": "Cosmologia (Cosmology)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_006",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/07_enigmas_enigmas.md",
+      "start_line": 52,
+      "end_line": 62,
+      "first_line": "### Enigmas (Enigmas)",
+      "label": "Enigmas (Enigmas)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_007",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/08_investigacao_investigation.md",
+      "start_line": 63,
+      "end_line": 73,
+      "first_line": "### Investigação (Investigation)",
+      "label": "Investigação (Investigation)",
+      "kind": [
+        "custo",
+        "escala",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_008",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/09_direito_law.md",
+      "start_line": 74,
+      "end_line": 84,
+      "first_line": "### Direito (Law)",
+      "label": "Direito (Law)",
+      "kind": [
+        "custo",
+        "escala",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_009",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/10_medicina_medicine.md",
+      "start_line": 85,
+      "end_line": 95,
+      "first_line": "### Medicina (Medicine)",
+      "label": "Medicina (Medicine)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_010",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/11_ocultismo_occult.md",
+      "start_line": 96,
+      "end_line": 106,
+      "first_line": "### Ocultismo (Occult)",
+      "label": "Ocultismo (Occult)",
+      "kind": [
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_011",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/12_politica_politics.md",
+      "start_line": 107,
+      "end_line": 117,
+      "first_line": "### Política (Politics)",
+      "label": "Política (Politics)",
+      "kind": [
+        "custo",
+        "escala"
+      ]
+    },
+    {
+      "id": "valor_02_criacao_de_personagem_descritivo_conhecimentos_012",
+      "source_key": "valor_02_criacao_de_personagem_descritivo_conhecimentos",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_conhecimentos/13_ciencia_science.md",
+      "start_line": 118,
+      "end_line": 127,
+      "first_line": "### Ciência (Science)",
+      "label": "Ciência (Science)",
+      "kind": [
+        "escala"
       ]
     }
   ],
