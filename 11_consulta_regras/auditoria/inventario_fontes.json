@@ -1,0 +1,711 @@
+{
+  "schema": 1,
+  "branch": "chatgpt/consulta-regras-por-valor-piloto-2026-10-31",
+  "baseline_commit": "ac3f477c35fb134261dd51d4f513cb0e0dac94c4",
+  "rule": "Levantamento inicial por caminho; categorias provisórias, não constituem auditoria de conteúdo",
+  "file_count": 87,
+  "classifications": {
+    "contexto_a_verificar": 9,
+    "indice": 12,
+    "regras_a_verificar": 61,
+    "elenco_a_verificar": 5
+  },
+  "files": [
+    {
+      "path": "00_biblia/00_introducao/introducao.md",
+      "sha": "88cd1ef9b841b4f084cf6b7de97936baf58f7ec0",
+      "group": "00_introducao",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/01_cenario_e_ambientacao/01_capitulo_01_caminho_do_mago.md",
+      "sha": "b8ad165793142bbabfd2505ccdea970f6d9120fa",
+      "group": "01_cenario_e_ambientacao",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/01_cenario_e_ambientacao/02_capitulo_02_magika_realidade.md",
+      "sha": "1776668aa290808adf6cf14149ed33a9e7762cda",
+      "group": "01_cenario_e_ambientacao",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/01_cenario_e_ambientacao/03_capitulo_03_mundo_das_sombras.md",
+      "sha": "0a777f9c6f926fbd5810c414a21c64743de01615",
+      "group": "01_cenario_e_ambientacao",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/01_cenario_e_ambientacao/04_capitulo_04_mundos_alem.md",
+      "sha": "22fdf7db22fa523ed3d44855bbf0a8eaf765f91c",
+      "group": "01_cenario_e_ambientacao",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
+      "sha": "a9ea67fbb42935274ea2b0f136e2f4d061d0e028",
+      "group": "01_cenario_e_ambientacao",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/01_cenario_e_ambientacao/readme.md",
+      "sha": "fcc34a7377ffcaaa7cf83fd50e3bc605b482c6b0",
+      "group": "01_cenario_e_ambientacao",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md",
+      "sha": "4edda3472c72bb84d39c893d4aa2174117ba1f9b",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md",
+      "sha": "b1e5f312ff7239e76bc15ba82fc3bcbd313566e3",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md",
+      "sha": "03110319f2d1c8d07a1c027a1bff8af3687d47e4",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_atributos.md",
+      "sha": "69e4d48129d4201d75538551ea869074bba8a47f",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md",
+      "sha": "77fa19999d47d84d54597843506b24f8ed720813",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "sha": "5cadaad0489753bb3e5fda1333cf9ee1e9481b93",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "sha": "85773b0d6cc5fc70d36a5bf6f92404a04b0b06df",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "sha": "c151f1500a6177ee82c87c92b589addefd87114c",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/readme.md",
+      "sha": "f57142d757c3526d11dbac3f1e6d30a57f59672d",
+      "group": "02_criacao_de_personagem",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md",
+      "sha": "e1a87d17dd464921457f196d2095e185b93aa86c",
+      "group": "02_criacao_de_personagem",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md",
+      "sha": "b7e1822e12fde04f63cf54ad73cd9d2f924b1484",
+      "group": "03_sistemas_e_regras",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/03_sistemas_e_regras/readme.md",
+      "sha": "d6339674e7138b24793be278ecc2ca2e6df5bfa3",
+      "group": "03_sistemas_e_regras",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md",
+      "sha": "70e162bd24a059d43a1f54976fb3911d0b3de550",
+      "group": "03_sistemas_e_regras",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md",
+      "sha": "a5ac83c2bc4c6e29b8a75ee14597e98fcbe58087",
+      "group": "03_sistemas_e_regras",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md",
+      "sha": "a36ec771bc1934ea36f223618999875f585a353d",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/readme.md",
+      "sha": "71fe2b70ab91ba41ba55f78c7c06d25a4af3979d",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md",
+      "sha": "c6272dd5ec6418b04f5151b5be070d9e910e86cb",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md",
+      "sha": "97e1cb60051499941527a32ca22ed20b487e5e0c",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_desafios_e_provacoes.md",
+      "sha": "6724784411b030127f9800101d22714f5ca0375e",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md",
+      "sha": "7d74558658c16355ce847a5d6936869bb0b72d0e",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_duelos_magicos_e_virtuais.md",
+      "sha": "9acd66acf09d5a721376dea395753ff7e92ce912",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md",
+      "sha": "5b8345835ce1b07fc2c0d578e3db9af59b770b2f",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md",
+      "sha": "a5d66f3c125a0a769e0a46bd2a5f2af02d304066",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "sha": "e229811ab5ca98f8e64854375ab82c23c6b162d7",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fogo_e_calor.md",
+      "sha": "02904b88453955063f333e7c06527b964cca997d",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento.md",
+      "sha": "802e59f4706b4e05859f69547f9ba01ae95bfdf7",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto.md",
+      "sha": "15e92171fca083ad9f0566da16c05cde72346ab2",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_radiacao_e_toxinas.md",
+      "sha": "4c4d67cdb177c8da397a50a3b6eea3e07b79004c",
+      "group": "04_sistemas_dramaticos_e_combate",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md",
+      "sha": "d285aaca17d25e4a4eb334b19735f6af786cb654",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_correspondencia.md",
+      "sha": "41cc0801274247fb6bd357bb051d79037313e0c6",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_entropia.md",
+      "sha": "b7cc52915a1b78f7408f441473b9b58b9ab7765c",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_espirito.md",
+      "sha": "65722439b2e1afc0d4b2048c161979622181d052",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_forcas.md",
+      "sha": "4577b0b537ce366965f432c43e8fbae51cdb0b66",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_materia.md",
+      "sha": "bed8ef96d9e7a5209c0d133c034db4f444097cea",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_mente.md",
+      "sha": "540c1adc47d2d51fd9bcf418046c657d89cc7fcf",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_primordio.md",
+      "sha": "7dd3be0bd7993b547221042b2d18bcccddbf1e04",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_tempo.md",
+      "sha": "45be52433af17671b853f259be0de18ff36d46f0",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/esfera_vida.md",
+      "sha": "8ae514727fcc85d72efc8763fdc3af88bdcc97f6",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/readme.md",
+      "sha": "f61842b54dcb6992985a28ec55af62f9d1c1708d",
+      "group": "05_regras_de_magika",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_ajustes_procedimentos_e_rotinas.md",
+      "sha": "856545953e237953fee0fe5f0d1938eedb8a632c",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_contramagika.md",
+      "sha": "cbafa5825f5548ce374414865db13165ced257f4",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_focos_e_instrumentos.md",
+      "sha": "7e99702cbbe9b2676ba2b6a6b865e00d94a9e4eb",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_alcance_e_conexoes.md",
+      "sha": "7e2241c1779b402e3237b904baa1e8f94a4389a9",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md",
+      "sha": "ab3fec5c599937d92f75aae1c664a103b7ba266a",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md",
+      "sha": "9dc9b53b24dc2ef66d41a05758001ea872ce1d0d",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_feitos_de_ilusao.md",
+      "sha": "f692b3dc377e00b81fda010ac11fb56948341e11",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md",
+      "sha": "52180a8d58b3f9449273cbe1ec92280dfdbb1f4f",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_paradoxo_e_reacao.md",
+      "sha": "5a3813714d89eb31549bba597286ecb6c551397c",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md",
+      "sha": "9127b6afc8c646c9a2d4e027434d28db8519f7f5",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_pelicula_e_viagem_espiritual.md",
+      "sha": "dc5c57320a7b9218b225773e3bb9cd1e8efc855e",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md",
+      "sha": "6238fbfa9d9c7dbc6d3099318e1a151a8439aa02",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_magika_silencio_e_cura.md",
+      "sha": "deb6eb9ad42cd173332c147dfabf3b1aff891d61",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/05_regras_de_magika/regras_zonas_de_realidade_e_consenso.md",
+      "sha": "87d87c39fae6323c0a5bfb1057b8af308c4fc853",
+      "group": "05_regras_de_magika",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/06_aliados_e_antagonistas/11_capitulo_11_aliados_antagonistas.md",
+      "sha": "dee04ccf4e54e46df0ff12a5ca11ec1fc14ec71f",
+      "group": "06_aliados_e_antagonistas",
+      "classification": "elenco_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md",
+      "sha": "0715ddaaa5818294ab7f224284795eb0be226892",
+      "group": "06_aliados_e_antagonistas",
+      "classification": "elenco_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md",
+      "sha": "a97386b21b3cafdda2932bbb7f313089c4bd0a9b",
+      "group": "06_aliados_e_antagonistas",
+      "classification": "elenco_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md",
+      "sha": "070babdc75ebb24df3d44433a42e635aa187758d",
+      "group": "06_aliados_e_antagonistas",
+      "classification": "elenco_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md",
+      "sha": "210d657bfa4c26142939e7098aa9754c529afc68",
+      "group": "06_aliados_e_antagonistas",
+      "classification": "elenco_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/06_aliados_e_antagonistas/readme.md",
+      "sha": "63e9c39ece387fb05e4aa586dcdf061e5d2ff648",
+      "group": "06_aliados_e_antagonistas",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/07_parafernalia/12_capitulo_12_parafernalia.md",
+      "sha": "bb22d65dd1dc8e6104bff741c234056fb233de4b",
+      "group": "07_parafernalia",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/07_parafernalia/hardware_e_dispositivos.md",
+      "sha": "123a4083a45ea325fb23334b4598da86e138c00f",
+      "group": "07_parafernalia",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/07_parafernalia/readme.md",
+      "sha": "a07f5ab714df39c30e9bf4f302f6b8ed544c0bbc",
+      "group": "07_parafernalia",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md",
+      "sha": "5f16ad0ab0d9f25c1849bcfac8217cbbfd35f8d4",
+      "group": "07_parafernalia",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md",
+      "sha": "a6cfb10f19e1f0342143e95bdc06457d44114083",
+      "group": "07_parafernalia",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/08_narracao/07_capitulo_07_contando_historia.md",
+      "sha": "8fe02baaa0655e649f8e07c4ecd486b191ee44e5",
+      "group": "08_narracao",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/08_narracao/readme.md",
+      "sha": "c195ca9e54b10cf03410bf6ca0405b20b9b3cc89",
+      "group": "08_narracao",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/fatos_do_cenario.md",
+      "sha": "f3aad86591964cfed53dcfd70764d1f34026a279",
+      "group": "fatos_do_cenario.md",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/readme.md",
+      "sha": "de8197767fcacf99495520b0e59aa9ee56286cde",
+      "group": "readme.md",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/regras_combate_e_do.md",
+      "sha": "1ad4348c666983f541387196f81ce937d6744f02",
+      "group": "regras_combate_e_do.md",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/antecedentes.md",
+      "sha": "05eb0161c625ef536c7e56a9e86e231c01403c19",
+      "group": "resumos",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/framework_de_historias_mago.md",
+      "sha": "663a42688de73df71fd78261c5ddc8604f25eb17",
+      "group": "resumos",
+      "classification": "contexto_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/readme.md",
+      "sha": "8be4fff5c05137be517f42ffff74b63084fdb92c",
+      "group": "resumos",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/recuperacao_forca_de_vontade.md",
+      "sha": "91e54f6e2adc9e4072b72541201d40754bb13ccc",
+      "group": "resumos",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/umbra/readme.md",
+      "sha": "351eacc7ea4d937d65fefd142a5bb622a6356bd2",
+      "group": "resumos",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/umbra/umbra.md",
+      "sha": "33b10794813ab784f19666e3d2fcefc4a84be471",
+      "group": "resumos",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/umbra/umbra_camadas_e_vidare.md",
+      "sha": "aced88513951a052228b2be1ed16ae54dc268529",
+      "group": "resumos",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/umbra/umbra_combate_e_espiritos.md",
+      "sha": "4cfb91cd4be0ad2213f5aaee054e2a45f652a13a",
+      "group": "resumos",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md",
+      "sha": "597b5a5558b65bd69c8388631a44cc491141a6d1",
+      "group": "resumos",
+      "classification": "regras_a_verificar",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    },
+    {
+      "path": "00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md",
+      "sha": "55f8190cb6111539530149231f67bb66d4ba8291",
+      "group": "resumos",
+      "classification": "regras_a_verificar",
+      "inventory_status": "baseline_extraida_validar_valores",
+      "source_in_manifest": true
+    },
+    {
+      "path": "00_biblia/sumario_mago_20.md",
+      "sha": "421ed907c86180581adc2eb5d7ab13e6463088e2",
+      "group": "sumario_mago_20.md",
+      "classification": "indice",
+      "inventory_status": "pendente_leitura",
+      "source_in_manifest": false
+    }
+  ]
+}
