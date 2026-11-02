@@ -1,6 +1,6 @@
 {
-  "schema": 1,
-  "nature": "piloto_documental_sem_alteracao_de_texto",
+  "schema": 2,
+  "nature": "piloto_organizado_por_necessidade_com_blocos_textuais_intactos",
   "baseline_ref": "master",
   "baseline_sources": [
     {
@@ -101,466 +101,524 @@
     {
       "id": "combate_000",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/000.md",
+      "path": "11_consulta_regras/corpus/combate/apresentacao_e_metadados_da_fonte.md",
       "start_line": 1,
       "end_line": 11,
-      "first_line": "---"
+      "first_line": "---",
+      "label": "Apresentação e metadados da fonte"
     },
     {
       "id": "combate_001",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/001.md",
+      "path": "11_consulta_regras/corpus/combate/iniciativa_no_turno_de_combate.md",
       "start_line": 12,
       "end_line": 19,
-      "first_line": "## 1. Iniciativa no Turno de Combate"
+      "first_line": "## 1. Iniciativa no Turno de Combate",
+      "label": "Iniciativa no Turno de Combate"
     },
     {
       "id": "combate_002",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/002.md",
+      "path": "11_consulta_regras/corpus/combate/combate_corpo_a_corpo.md",
       "start_line": 20,
       "end_line": 26,
-      "first_line": "## 2. Combate Corpo-a-Corpo"
+      "first_line": "## 2. Combate Corpo-a-Corpo",
+      "label": "Combate Corpo-a-Corpo"
     },
     {
       "id": "combate_003",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/003.md",
+      "path": "11_consulta_regras/corpus/combate/combate_a_distancia_armas_de_fogo.md",
       "start_line": 27,
       "end_line": 32,
-      "first_line": "## 3. Combate à Distância (Armas de Fogo)"
+      "first_line": "## 3. Combate à Distância (Armas de Fogo)",
+      "label": "Combate à Distância (Armas de Fogo)"
     },
     {
       "id": "combate_004",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/004.md",
+      "path": "11_consulta_regras/corpus/combate/manobras_de_artes_marciais_tabela_e_estatisticas.md",
       "start_line": 33,
       "end_line": 36,
-      "first_line": "## 4. Manobras de Artes Marciais (Tabela e Estatísticas)"
+      "first_line": "## 4. Manobras de Artes Marciais (Tabela e Estatísticas)",
+      "label": "Manobras de Artes Marciais (Tabela e Estatísticas)"
     },
     {
       "id": "combate_005",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/005.md",
+      "path": "11_consulta_regras/corpus/combate/cabecalho_da_tabela_de_manobras.md",
       "start_line": 37,
       "end_line": 38,
-      "first_line": "| Manobra | Dificuldade | Dano | Efeito / Notas |"
+      "first_line": "| Manobra | Dificuldade | Dano | Efeito / Notas |",
+      "label": "Cabeçalho da tabela de manobras"
     },
     {
       "id": "combate_006",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/006.md",
+      "path": "11_consulta_regras/corpus/combate/aperto_fulminante_clinch.md",
       "start_line": 39,
       "end_line": 39,
-      "first_line": "| **Aperto Fulminante (Clinch)** | 7 | Força / C | Agarra e imobiliza o alvo. Permite aplicar dano por turno ou tentar desarmar o oponente. "
+      "first_line": "| **Aperto Fulminante (Clinch)** | 7 | Força / C | Agarra e imobiliza o alvo. Permite aplicar dano por turno ou tentar desarmar o oponente. ",
+      "label": "Aperto Fulminante (Clinch)"
     },
     {
       "id": "combate_007",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/007.md",
+      "path": "11_consulta_regras/corpus/combate/bloqueio_defletor_deflecting_block.md",
       "start_line": 40,
       "end_line": 40,
-      "first_line": "| **Bloqueio Defletor (Deflecting Block)** | 6 | Força do Atacante / C | Teste resistido contra o ataque. O sucesso desvia o golpe e pode pe"
+      "first_line": "| **Bloqueio Defletor (Deflecting Block)** | 6 | Força do Atacante / C | Teste resistido contra o ataque. O sucesso desvia o golpe e pode pe",
+      "label": "Bloqueio Defletor (Deflecting Block)"
     },
     {
       "id": "combate_008",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/008.md",
+      "path": "11_consulta_regras/corpus/combate/contra_ataque_counterattack.md",
       "start_line": 41,
       "end_line": 41,
-      "first_line": "| **Contra-Ataque (Counterattack)** | 6 | Especial | Permite atacar imediatamente após esquivar-se de um ataque corporal com sucesso (anulan"
+      "first_line": "| **Contra-Ataque (Counterattack)** | 6 | Especial | Permite atacar imediatamente após esquivar-se de um ataque corporal com sucesso (anulan",
+      "label": "Contra-Ataque (Counterattack)"
     },
     {
       "id": "combate_009",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/009.md",
+      "path": "11_consulta_regras/corpus/combate/chute_direto_direct_kick.md",
       "start_line": 42,
       "end_line": 42,
-      "first_line": "| **Chute Direto (Direct Kick)** | 5 | Força + 1 / C | Ataque rápido com os pés. |"
+      "first_line": "| **Chute Direto (Direct Kick)** | 5 | Força + 1 / C | Ataque rápido com os pés. |",
+      "label": "Chute Direto (Direct Kick)"
     },
     {
       "id": "combate_010",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/010.md",
+      "path": "11_consulta_regras/corpus/combate/chute_giratorio_spinning_kick.md",
       "start_line": 43,
       "end_line": 43,
-      "first_line": "| **Chute Giratório (Spinning Kick)** | 6 | Força + 3 / C | Ataque circular com grande impacto. |"
+      "first_line": "| **Chute Giratório (Spinning Kick)** | 6 | Força + 3 / C | Ataque circular com grande impacto. |",
+      "label": "Chute Giratório (Spinning Kick)"
     },
     {
       "id": "combate_011",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/011.md",
+      "path": "11_consulta_regras/corpus/combate/chute_trovao_thunder_kick.md",
       "start_line": 44,
       "end_line": 44,
-      "first_line": "| **Chute Trovão (Thunder Kick)** | 7 | Força + 3 + Sucessos / C | Ataque concentrado devastador. Exige foco total; não pode ser executado m"
+      "first_line": "| **Chute Trovão (Thunder Kick)** | 7 | Força + 3 + Sucessos / C | Ataque concentrado devastador. Exige foco total; não pode ser executado m",
+      "label": "Chute Trovão (Thunder Kick)"
     },
     {
       "id": "combate_012",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/012.md",
+      "path": "11_consulta_regras/corpus/combate/chute_voador_flying_kick.md",
       "start_line": 45,
       "end_line": 45,
-      "first_line": "| **Chute Voador (Flying Kick)** | 7 | Força + 2 / C | Exige que o personagem corra pelo menos 2 metros antes do salto. O jogador deve passa"
+      "first_line": "| **Chute Voador (Flying Kick)** | 7 | Força + 2 / C | Exige que o personagem corra pelo menos 2 metros antes do salto. O jogador deve passa",
+      "label": "Chute Voador (Flying Kick)"
     },
     {
       "id": "combate_013",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/013.md",
+      "path": "11_consulta_regras/corpus/combate/derrubar_cauda_do_dragao_sweep.md",
       "start_line": 46,
       "end_line": 46,
-      "first_line": "| **Derrubar Cauda do Dragão (Sweep)** | 8 | Força do Oponente / C | Rasteira circular. Se for bem-sucedida, derruba o oponente no chão (adi"
+      "first_line": "| **Derrubar Cauda do Dragão (Sweep)** | 8 | Força do Oponente / C | Rasteira circular. Se for bem-sucedida, derruba o oponente no chão (adi",
+      "label": "Derrubar Cauda do Dragão (Sweep)"
     },
     {
       "id": "combate_014",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/014.md",
+      "path": "11_consulta_regras/corpus/combate/desarme_disarm.md",
       "start_line": 47,
       "end_line": 47,
-      "first_line": "| **Desarme (Disarm)** | 7 | Especial | Teste resistido de ataque vs. parada do oponente. Em caso de vitória, desarma o oponente de sua arma"
+      "first_line": "| **Desarme (Disarm)** | 7 | Especial | Teste resistido de ataque vs. parada do oponente. Em caso de vitória, desarma o oponente de sua arma",
+      "label": "Desarme (Disarm)"
     },
     {
       "id": "combate_015",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/015.md",
+      "path": "11_consulta_regras/corpus/combate/golpe_de_cotovelo_joelho.md",
       "start_line": 48,
       "end_line": 48,
-      "first_line": "| **Golpe de Cotovelo/Joelho** | 5 | Força + 1 / C | Golpe a curta distância com as articulações. |"
+      "first_line": "| **Golpe de Cotovelo/Joelho** | 5 | Força + 1 / C | Golpe a curta distância com as articulações. |",
+      "label": "Golpe de Cotovelo/Joelho"
     },
     {
       "id": "combate_016",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/016.md",
+      "path": "11_consulta_regras/corpus/combate/golpe_mortal_killing_blow.md",
       "start_line": 49,
       "end_line": 49,
-      "first_line": "| **Golpe Mortal (Killing Blow)** | 5 | Força + 2 / L | Golpe de precisão letal focado em pontos vitais (causa dano Letal diretamente, sem n"
+      "first_line": "| **Golpe Mortal (Killing Blow)** | 5 | Força + 2 / L | Golpe de precisão letal focado em pontos vitais (causa dano Letal diretamente, sem n",
+      "label": "Golpe Mortal (Killing Blow)"
     },
     {
       "id": "combate_017",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/017.md",
+      "path": "11_consulta_regras/corpus/combate/golpear_nervos_nerve_strike.md",
       "start_line": 50,
       "end_line": 50,
-      "first_line": "| **Golpear Nervos (Nerve Strike)** | 7 | Força + 3 / C | Golpe nos centros nervosos que pode paralisar ou atordoar o alvo temporariamente. "
+      "first_line": "| **Golpear Nervos (Nerve Strike)** | 7 | Força + 3 / C | Golpe nos centros nervosos que pode paralisar ou atordoar o alvo temporariamente. ",
+      "label": "Golpear Nervos (Nerve Strike)"
     },
     {
       "id": "combate_018",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/018.md",
+      "path": "11_consulta_regras/corpus/combate/golpe_rigido_suave.md",
       "start_line": 51,
       "end_line": 51,
-      "first_line": "| **Golpe Rígido / Suave** | 5 ou 6 | Especial | Alterna entre golpes baseados em força direta (Rígido) ou redirecionamento de energia cinét"
+      "first_line": "| **Golpe Rígido / Suave** | 5 ou 6 | Especial | Alterna entre golpes baseados em força direta (Rígido) ou redirecionamento de energia cinét",
+      "label": "Golpe Rígido / Suave"
     },
     {
       "id": "combate_019",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/019.md",
+      "path": "11_consulta_regras/corpus/combate/golpe_vital_vital_strike.md",
       "start_line": 52,
       "end_line": 52,
-      "first_line": "| **Golpe Vital (Vital Strike)** | 7 | Força + 1 / C | Golpe focado em áreas vulneráveis do corpo. |"
+      "first_line": "| **Golpe Vital (Vital Strike)** | 7 | Força + 1 / C | Golpe focado em áreas vulneráveis do corpo. |",
+      "label": "Golpe Vital (Vital Strike)"
     },
     {
       "id": "combate_020",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/020.md",
+      "path": "11_consulta_regras/corpus/combate/lancamento_throw.md",
       "start_line": 53,
       "end_line": 53,
-      "first_line": "| **Lançamento (Throw)** | 7 ou 6 | Força / L | Arremessa o oponente. Dano é acrescido de +1 dado para cada 3 metros que o oponente se moveu"
+      "first_line": "| **Lançamento (Throw)** | 7 ou 6 | Força / L | Arremessa o oponente. Dano é acrescido de +1 dado para cada 3 metros que o oponente se moveu",
+      "label": "Lançamento (Throw)"
     },
     {
       "id": "combate_021",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/021.md",
+      "path": "11_consulta_regras/corpus/combate/passo_da_cobra_snake_step.md",
       "start_line": 54,
       "end_line": 54,
-      "first_line": "| **Passo da Cobra (Snake Step)** | 6 ou 5 | N/A | Movimento defensivo. Concede **+3 dados adicionais** para a parada de dados de Esquiva. |"
+      "first_line": "| **Passo da Cobra (Snake Step)** | 6 ou 5 | N/A | Movimento defensivo. Concede **+3 dados adicionais** para a parada de dados de Esquiva. |",
+      "label": "Passo da Cobra (Snake Step)"
     },
     {
       "id": "combate_022",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/022.md",
+      "path": "11_consulta_regras/corpus/combate/quebrar_juntas_joint_break.md",
       "start_line": 55,
       "end_line": 56,
-      "first_line": "| **Quebrar Juntas (Joint Break)** | 5 | Agarrar + Sucessos / L | Executada imediatamente após imobilizar (agarrar) o oponente. Desloca ou q"
+      "first_line": "| **Quebrar Juntas (Joint Break)** | 5 | Agarrar + Sucessos / L | Executada imediatamente após imobilizar (agarrar) o oponente. Desloca ou q",
+      "label": "Quebrar Juntas (Joint Break)"
     },
     {
       "id": "combate_023",
       "source_key": "combate",
-      "path": "11_consulta_regras/corpus/combate/023.md",
+      "path": "11_consulta_regras/corpus/combate/legenda_dos_tipos_de_dano.md",
       "start_line": 57,
       "end_line": 58,
-      "first_line": "*Nota: \"C\" indica dano Contundente; \"L\" indica dano Letal.*"
+      "first_line": "*Nota: \"C\" indica dano Contundente; \"L\" indica dano Letal.*",
+      "label": "Legenda dos tipos de dano"
     },
     {
       "id": "do_000",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/000.md",
+      "path": "11_consulta_regras/corpus/do/apresentacao_e_metadados_da_fonte.md",
       "start_line": 1,
       "end_line": 11,
-      "first_line": "---"
+      "first_line": "---",
+      "label": "Apresentação e metadados da fonte"
     },
     {
       "id": "do_001",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/001.md",
+      "path": "11_consulta_regras/corpus/do/vantagens_e_dedicacao_ao_do.md",
       "start_line": 12,
       "end_line": 14,
-      "first_line": "## 1. Vantagens e Dedicação ao Do"
+      "first_line": "## 1. Vantagens e Dedicação ao Do",
+      "label": "Vantagens e Dedicação ao Do"
     },
     {
       "id": "do_002",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/002.md",
+      "path": "11_consulta_regras/corpus/do/precisao_akashica.md",
       "start_line": 15,
       "end_line": 15,
-      "first_line": "* **Precisão Akáshica:** A dificuldade base de todas as manobras físicas, esquivas e de combate corporal é reduzida em -1 (a dificuldade pad"
+      "first_line": "* **Precisão Akáshica:** A dificuldade base de todas as manobras físicas, esquivas e de combate corporal é reduzida em -1 (a dificuldade pad",
+      "label": "Precisão Akáshica:"
     },
     {
       "id": "do_003",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/003.md",
+      "path": "11_consulta_regras/corpus/do/dano_letal_desarmado.md",
       "start_line": 16,
       "end_line": 16,
-      "first_line": "* **Dano Letal Desarmado:** O praticante pode escolher causar dano Letal (L) em seus socos e chutes desarmados à vontade, em vez de dano con"
+      "first_line": "* **Dano Letal Desarmado:** O praticante pode escolher causar dano Letal (L) em seus socos e chutes desarmados à vontade, em vez de dano con",
+      "label": "Dano Letal Desarmado:"
     },
     {
       "id": "do_004",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/004.md",
+      "path": "11_consulta_regras/corpus/do/aparar_armas.md",
       "start_line": 17,
       "end_line": 17,
-      "first_line": "* **Aparar Armas:** O praticante pode aparar ataques letais armados (garras, espadas, machados) desarmado e sem sofrer penalidades de dano p"
+      "first_line": "* **Aparar Armas:** O praticante pode aparar ataques letais armados (garras, espadas, machados) desarmado e sem sofrer penalidades de dano p",
+      "label": "Aparar Armas:"
     },
     {
       "id": "do_005",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/005.md",
+      "path": "11_consulta_regras/corpus/do/pratica_diaria.md",
       "start_line": 18,
       "end_line": 21,
-      "first_line": "* **Prática Diária:** O praticante deve passar pelo menos 1 hora diária treinando Do. Caso passe mais de duas semanas sem treinar, perde tem"
+      "first_line": "* **Prática Diária:** O praticante deve passar pelo menos 1 hora diária treinando Do. Caso passe mais de duas semanas sem treinar, perde tem",
+      "label": "Prática Diária:"
     },
     {
       "id": "do_006",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/006.md",
+      "path": "11_consulta_regras/corpus/do/os_oito_membros_do_do.md",
       "start_line": 22,
       "end_line": 41,
-      "first_line": "## 2. Os Oito Membros do Do"
+      "first_line": "## 2. Os Oito Membros do Do",
+      "label": "Os Oito Membros do Do"
     },
     {
       "id": "do_007",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/007.md",
+      "path": "11_consulta_regras/corpus/do/regra_opcional_o_caminho_pacifico.md",
       "start_line": 42,
       "end_line": 46,
-      "first_line": "### Regra Opcional - O Caminho Pacífico:"
+      "first_line": "### Regra Opcional - O Caminho Pacífico:",
+      "label": "Regra Opcional - O Caminho Pacífico"
     },
     {
       "id": "do_008",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/008.md",
+      "path": "11_consulta_regras/corpus/do/tecnicas_especiais_de_do.md",
       "start_line": 47,
       "end_line": 49,
-      "first_line": "## 3. Técnicas Especiais de Do"
+      "first_line": "## 3. Técnicas Especiais de Do",
+      "label": "Técnicas Especiais de Do"
     },
     {
       "id": "do_009",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/009.md",
+      "path": "11_consulta_regras/corpus/do/cabecalho_da_tabela_de_tecnicas_de_do.md",
       "start_line": 50,
       "end_line": 51,
-      "first_line": "| Técnica Especial | Dificuldade | Dano / Efeito | Descrição |"
+      "first_line": "| Técnica Especial | Dificuldade | Dano / Efeito | Descrição |",
+      "label": "Cabeçalho da tabela de técnicas de Do"
     },
     {
       "id": "do_010",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/010.md",
+      "path": "11_consulta_regras/corpus/do/artemis_arte_armada.md",
       "start_line": 52,
       "end_line": 52,
-      "first_line": "| **Artemis/Arte Armada** | N/A | Especial | Permite aplicar os bônus e manobras do Do utilizando uma arma branca consagrada. |"
+      "first_line": "| **Artemis/Arte Armada** | N/A | Especial | Permite aplicar os bônus e manobras do Do utilizando uma arma branca consagrada. |",
+      "label": "Artemis/Arte Armada"
     },
     {
       "id": "do_011",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/011.md",
+      "path": "11_consulta_regras/corpus/do/arremesso_do_furacao.md",
       "start_line": 53,
       "end_line": 53,
-      "first_line": "| **Arremesso do Furacão** | 8 | Força + 3 + Sucessos / C | Arremesso violento de longo alcance que atordoa o oponente. |"
+      "first_line": "| **Arremesso do Furacão** | 8 | Força + 3 + Sucessos / C | Arremesso violento de longo alcance que atordoa o oponente. |",
+      "label": "Arremesso do Furacão"
     },
     {
       "id": "do_012",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/012.md",
+      "path": "11_consulta_regras/corpus/do/cortar_flechas.md",
       "start_line": 54,
       "end_line": 54,
-      "first_line": "| **Cortar Flechas** | 7 / 9 | Deflexão / Arma | Dificuldade 7 para desviar ou aparar projéteis lentos (flechas, facas arremessadas); dificu"
+      "first_line": "| **Cortar Flechas** | 7 / 9 | Deflexão / Arma | Dificuldade 7 para desviar ou aparar projéteis lentos (flechas, facas arremessadas); dificu",
+      "label": "Cortar Flechas"
     },
     {
       "id": "do_013",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/013.md",
+      "path": "11_consulta_regras/corpus/do/chute_do_tufao.md",
       "start_line": 55,
       "end_line": 55,
-      "first_line": "| **Chute do Tufão** | 8 | Força + 5 + Sucessos / L ou C | Direciona o chi no golpe. Pode quebrar pedras. Executável apenas uma vez a cada 5"
+      "first_line": "| **Chute do Tufão** | 8 | Força + 5 + Sucessos / L ou C | Direciona o chi no golpe. Pode quebrar pedras. Executável apenas uma vez a cada 5",
+      "label": "Chute do Tufão"
     },
     {
       "id": "do_014",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/014.md",
+      "path": "11_consulta_regras/corpus/do/dez_mil_armas.md",
       "start_line": 56,
       "end_line": 56,
-      "first_line": "| **Dez Mil Armas** | N/A | Especial | Multiplica os ataques com armas improvisadas. Dano é 1 dado por ponto em Do (C), Arma (L) ou Arma +1 "
+      "first_line": "| **Dez Mil Armas** | N/A | Especial | Multiplica os ataques com armas improvisadas. Dano é 1 dado por ponto em Do (C), Arma (L) ou Arma +1 ",
+      "label": "Dez Mil Armas"
     },
     {
       "id": "do_015",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/015.md",
+      "path": "11_consulta_regras/corpus/do/flor_de_ameixa.md",
       "start_line": 57,
       "end_line": 57,
-      "first_line": "| **Flor de Ameixa** | 6 | Saltos / Especial | Movimentos de esquiva acrobática e saltos rápidos na luta. |"
+      "first_line": "| **Flor de Ameixa** | 6 | Saltos / Especial | Movimentos de esquiva acrobática e saltos rápidos na luta. |",
+      "label": "Flor de Ameixa"
     },
     {
       "id": "do_016",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/016.md",
+      "path": "11_consulta_regras/corpus/do/kiaijutsu_grito_de_ferro.md",
       "start_line": 58,
       "end_line": 58,
-      "first_line": "| **Kiaijutsu (Grito de Ferro)** | 7 / N/A / 8 | Especial | Rola Vigor + Do (dif 7) para ganhar pontos de Vigor por 3 turnos; ou rola Manipu"
+      "first_line": "| **Kiaijutsu (Grito de Ferro)** | 7 / N/A / 8 | Especial | Rola Vigor + Do (dif 7) para ganhar pontos de Vigor por 3 turnos; ou rola Manipu",
+      "label": "Kiaijutsu (Grito de Ferro)"
     },
     {
       "id": "do_017",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/017.md",
+      "path": "11_consulta_regras/corpus/do/pele_de_ferro.md",
       "start_line": 59,
       "end_line": 59,
-      "first_line": "| **Pele de Ferro** | 6 | Especial | Técnica passiva. Adiciona **+1 dado de absorção extra** por ponto de Do contra todos os ataques físicos"
+      "first_line": "| **Pele de Ferro** | 6 | Especial | Técnica passiva. Adiciona **+1 dado de absorção extra** por ponto de Do contra todos os ataques físicos",
+      "label": "Pele de Ferro"
     },
     {
       "id": "do_018",
       "source_key": "do",
-      "path": "11_consulta_regras/corpus/do/018.md",
+      "path": "11_consulta_regras/corpus/do/soco_suave_soft_fist.md",
       "start_line": 60,
       "end_line": 61,
-      "first_line": "| **Soco Suave (Soft Fist)** | 7 | Força do Atacante + Arma | Redireciona o ataque físico corporal ou com arma branca do próprio oponente co"
+      "first_line": "| **Soco Suave (Soft Fist)** | 7 | Força do Atacante + Arma | Redireciona o ataque físico corporal ou com arma branca do próprio oponente co",
+      "label": "Soco Suave (Soft Fist)"
     },
     {
       "id": "dano_000",
       "source_key": "dano",
-      "path": "11_consulta_regras/corpus/dano/000.md",
+      "path": "11_consulta_regras/corpus/dano/apresentacao_e_metadados_da_fonte.md",
       "start_line": 1,
       "end_line": 11,
-      "first_line": "---"
+      "first_line": "---",
+      "label": "Apresentação e metadados da fonte"
     },
     {
       "id": "dano_001",
       "source_key": "dano",
-      "path": "11_consulta_regras/corpus/dano/001.md",
+      "path": "11_consulta_regras/corpus/dano/niveis_de_vitalidade.md",
       "start_line": 12,
       "end_line": 24,
-      "first_line": "## 1. Níveis de Vitalidade"
+      "first_line": "## 1. Níveis de Vitalidade",
+      "label": "Níveis de Vitalidade"
     },
     {
       "id": "dano_002",
       "source_key": "dano",
-      "path": "11_consulta_regras/corpus/dano/002.md",
+      "path": "11_consulta_regras/corpus/dano/tipos_de_dano.md",
       "start_line": 25,
       "end_line": 31,
-      "first_line": "## 2. Tipos de Dano"
+      "first_line": "## 2. Tipos de Dano",
+      "label": "Tipos de Dano"
     },
     {
       "id": "dano_003",
       "source_key": "dano",
-      "path": "11_consulta_regras/corpus/dano/003.md",
+      "path": "11_consulta_regras/corpus/dano/absorcao_de_dano.md",
       "start_line": 32,
       "end_line": 40,
-      "first_line": "## 3. Absorção de Dano"
+      "first_line": "## 3. Absorção de Dano",
+      "label": "Absorção de Dano"
     },
     {
       "id": "dano_004",
       "source_key": "dano",
-      "path": "11_consulta_regras/corpus/dano/004.md",
+      "path": "11_consulta_regras/corpus/dano/cura_e_regeneracao.md",
       "start_line": 41,
       "end_line": 44,
-      "first_line": "## 4. Cura e Regeneração"
+      "first_line": "## 4. Cura e Regeneração",
+      "label": "Cura e Regeneração"
     },
     {
       "id": "resolucao_000",
       "source_key": "resolucao",
-      "path": "11_consulta_regras/corpus/resolucao/000.md",
+      "path": "11_consulta_regras/corpus/resolucao/apresentacao_e_metadados_da_fonte.md",
       "start_line": 1,
       "end_line": 11,
-      "first_line": "---"
+      "first_line": "---",
+      "label": "Apresentação e metadados da fonte"
     },
     {
       "id": "resolucao_001",
       "source_key": "resolucao",
-      "path": "11_consulta_regras/corpus/resolucao/001.md",
+      "path": "11_consulta_regras/corpus/resolucao/o_teste_basico.md",
       "start_line": 12,
       "end_line": 19,
-      "first_line": "## 1. O Teste Básico"
+      "first_line": "## 1. O Teste Básico",
+      "label": "O Teste Básico"
     },
     {
       "id": "resolucao_002",
       "source_key": "resolucao",
-      "path": "11_consulta_regras/corpus/resolucao/002.md",
+      "path": "11_consulta_regras/corpus/resolucao/modificadores_de_teste.md",
       "start_line": 20,
       "end_line": 25,
-      "first_line": "## 2. Modificadores de Teste"
+      "first_line": "## 2. Modificadores de Teste",
+      "label": "Modificadores de Teste"
     },
     {
       "id": "resolucao_003",
       "source_key": "resolucao",
-      "path": "11_consulta_regras/corpus/resolucao/003.md",
+      "path": "11_consulta_regras/corpus/resolucao/tentando_de_novo_retries.md",
       "start_line": 26,
       "end_line": 31,
-      "first_line": "## 3. Tentando de Novo (Retries)"
+      "first_line": "## 3. Tentando de Novo (Retries)",
+      "label": "Tentando de Novo (Retries)"
     },
     {
       "id": "resolucao_004",
       "source_key": "resolucao",
-      "path": "11_consulta_regras/corpus/resolucao/004.md",
+      "path": "11_consulta_regras/corpus/resolucao/regra_opcional_limiares_thresholds.md",
       "start_line": 32,
       "end_line": 37,
-      "first_line": "## 4. Regra Opcional - Limiares (Thresholds)"
+      "first_line": "## 4. Regra Opcional - Limiares (Thresholds)",
+      "label": "Regra Opcional - Limiares (Thresholds)"
     },
     {
       "id": "resolucao_005",
       "source_key": "resolucao",
-      "path": "11_consulta_regras/corpus/resolucao/005.md",
+      "path": "11_consulta_regras/corpus/resolucao/a_regra_do_1_e_falha_critica_botch.md",
       "start_line": 38,
       "end_line": 47,
-      "first_line": "## 5. A Regra do 1 e Falha Crítica (Botch)"
+      "first_line": "## 5. A Regra do 1 e Falha Crítica (Botch)",
+      "label": "A Regra do 1 e Falha Crítica (Botch)"
     },
     {
       "id": "resolucao_006",
       "source_key": "resolucao",
-      "path": "11_consulta_regras/corpus/resolucao/006.md",
+      "path": "11_consulta_regras/corpus/resolucao/graus_de_sucesso_e_sucesso_automatico.md",
       "start_line": 48,
       "end_line": 56,
-      "first_line": "## 6. Graus de Sucesso e Sucesso Automático"
+      "first_line": "## 6. Graus de Sucesso e Sucesso Automático",
+      "label": "Graus de Sucesso e Sucesso Automático"
     },
     {
       "id": "acoes_000",
       "source_key": "acoes",
-      "path": "11_consulta_regras/corpus/acoes/000.md",
+      "path": "11_consulta_regras/corpus/acoes/apresentacao_e_metadados_da_fonte.md",
       "start_line": 1,
       "end_line": 11,
-      "first_line": "---"
+      "first_line": "---",
+      "label": "Apresentação e metadados da fonte"
     },
     {
       "id": "acoes_001",
       "source_key": "acoes",
-      "path": "11_consulta_regras/corpus/acoes/001.md",
+      "path": "11_consulta_regras/corpus/acoes/tipos_de_acao.md",
       "start_line": 12,
       "end_line": 25,
-      "first_line": "## 1. Tipos de Ação"
+      "first_line": "## 1. Tipos de Ação",
+      "label": "Tipos de Ação"
     },
     {
       "id": "acoes_002",
       "source_key": "acoes",
-      "path": "11_consulta_regras/corpus/acoes/002.md",
+      "path": "11_consulta_regras/corpus/acoes/regras_de_cooperacao.md",
       "start_line": 26,
       "end_line": 28,
-      "first_line": "## 2. Regras de Cooperação"
+      "first_line": "## 2. Regras de Cooperação",
+      "label": "Regras de Cooperação"
     }
   ],
   "views": [
@@ -574,24 +632,10 @@
         "cauda do dragão",
         "arremessar"
       ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade; trechos literais do corpus, sem reformulação das regras.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como derrubar alguém? Rasteira e arremesso\n\n**Consulta editorial, gerada automaticamente.** A seleção, a ordem e os títulos de agrupamento são navegação; o texto das instruções é inserido literalmente, sem qualquer revisão. Quando houver conflito, os dois trechos são preservados e não reconciliados aqui.\n\n",
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como derrubar alguém? Rasteira e arremesso\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
       "groups": [
         {
-          "prefix": "\n### Teste e contagem de sucessos\n\n**Fonte original:** [00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md) · **Blocos intactos:** [`resolucao_001`](../corpus/resolucao/001.md).\n\n",
-          "parts": [
-            "resolucao_001"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Ataque e defesa corpo a corpo\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_002`](../corpus/combate/002.md).\n\n",
-          "parts": [
-            "combate_002"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Manobra: Derrubar Cauda do Dragão (Sweep)\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_004`](../corpus/combate/004.md), [`combate_005`](../corpus/combate/005.md), [`combate_013`](../corpus/combate/013.md), [`combate_023`](../corpus/combate/023.md).\n\n",
+          "prefix": "\n### Rasteira: Derrubar Cauda do Dragão (Sweep)\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_004",
             "combate_005",
@@ -601,7 +645,15 @@
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Outra manobra relacionada: Lançamento (Throw)\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_004`](../corpus/combate/004.md), [`combate_005`](../corpus/combate/005.md), [`combate_020`](../corpus/combate/020.md), [`combate_023`](../corpus/combate/023.md).\n\n",
+          "prefix": "\n### Para praticantes de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_001",
+            "do_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Alternativa: Lançamento (Throw)\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_004",
             "combate_005",
@@ -611,15 +663,21 @@
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Aplicação especial para praticantes de Do\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md) · **Blocos intactos:** [`do_001`](../corpus/do/001.md), [`do_002`](../corpus/do/002.md).\n\n",
+          "prefix": "\n### Ataque e defesa corpo a corpo\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
-            "do_001",
-            "do_002"
+            "combate_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Teste e contagem de sucessos\n\n[Fonte original — regras_resolucao_e_dificuldades.md](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_001"
           ],
           "suffix": "\n\n"
         }
       ],
-      "suffix": "---\n\n[Outras consultas por necessidade](../readme.md) · [Método e auditoria](../metodo_e_integridade.md)\n"
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
     },
     {
       "path": "11_consulta_regras/consultas/agarrar_ou_imobilizar.md",
@@ -631,17 +689,10 @@
         "clinch",
         "quebrar juntas"
       ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade; trechos literais do corpus, sem reformulação das regras.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como agarrar ou imobilizar alguém?\n\n**Consulta editorial, gerada automaticamente.** A seleção, a ordem e os títulos de agrupamento são navegação; o texto das instruções é inserido literalmente, sem qualquer revisão. Quando houver conflito, os dois trechos são preservados e não reconciliados aqui.\n\n",
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como agarrar ou imobilizar alguém?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
       "groups": [
         {
-          "prefix": "\n### Ataque corpo a corpo\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_002`](../corpus/combate/002.md).\n\n",
-          "parts": [
-            "combate_002"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Aperto Fulminante (Clinch)\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_004`](../corpus/combate/004.md), [`combate_005`](../corpus/combate/005.md), [`combate_006`](../corpus/combate/006.md), [`combate_023`](../corpus/combate/023.md).\n\n",
+          "prefix": "\n### Aperto Fulminante (Clinch)\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_004",
             "combate_005",
@@ -651,7 +702,7 @@
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Quebrar Juntas (Joint Break)\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_004`](../corpus/combate/004.md), [`combate_005`](../corpus/combate/005.md), [`combate_022`](../corpus/combate/022.md), [`combate_023`](../corpus/combate/023.md).\n\n",
+          "prefix": "\n### Quebrar Juntas (Joint Break)\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_004",
             "combate_005",
@@ -661,35 +712,35 @@
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Sucessos e resolução\n\n**Fonte original:** [00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md) · **Blocos intactos:** [`resolucao_001`](../corpus/resolucao/001.md).\n\n",
-          "parts": [
-            "resolucao_001"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "---\n\n[Outras consultas por necessidade](../readme.md) · [Método e auditoria](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/consultas/desarmar_alguem.md",
-      "title": "Como desarmar alguém?",
-      "aliases": [
-        "desarmar",
-        "desarme",
-        "disarm",
-        "tirar arma"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade; trechos literais do corpus, sem reformulação das regras.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como desarmar alguém?\n\n**Consulta editorial, gerada automaticamente.** A seleção, a ordem e os títulos de agrupamento são navegação; o texto das instruções é inserido literalmente, sem qualquer revisão. Quando houver conflito, os dois trechos são preservados e não reconciliados aqui.\n\n",
-      "groups": [
-        {
-          "prefix": "\n### Procedimento geral de ataques\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_002`](../corpus/combate/002.md).\n\n",
+          "prefix": "\n### Ataque corpo a corpo\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_002"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Desarme (Disarm)\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_004`](../corpus/combate/004.md), [`combate_005`](../corpus/combate/005.md), [`combate_014`](../corpus/combate/014.md), [`combate_023`](../corpus/combate/023.md).\n\n",
+          "prefix": "\n### Teste e contagem de sucessos\n\n[Fonte original — regras_resolucao_e_dificuldades.md](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_001"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/desarmar_alguem.md",
+      "title": "Como desarmar alguém?",
+      "aliases": [
+        "desarme",
+        "desarmar",
+        "disarm",
+        "tirar uma arma"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como desarmar alguém?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Manobra de desarme\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_004",
             "combate_005",
@@ -699,7 +750,7 @@
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Aperto Fulminante como opção relacionada\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_004`](../corpus/combate/004.md), [`combate_005`](../corpus/combate/005.md), [`combate_006`](../corpus/combate/006.md), [`combate_023`](../corpus/combate/023.md).\n\n",
+          "prefix": "\n### Aperto Fulminante como alternativa\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_004",
             "combate_005",
@@ -709,14 +760,21 @@
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Ação resistida\n\n**Fonte original:** [00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md) · **Blocos intactos:** [`acoes_001`](../corpus/acoes/001.md).\n\n",
+          "prefix": "\n### Ação resistida\n\n[Fonte original — regras_acoes_e_cooperacao.md](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md)\n\n",
           "parts": [
             "acoes_001"
           ],
           "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Ataque corpo a corpo\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
+          "parts": [
+            "combate_002"
+          ],
+          "suffix": "\n\n"
         }
       ],
-      "suffix": "---\n\n[Outras consultas por necessidade](../readme.md) · [Método e auditoria](../metodo_e_integridade.md)\n"
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
     },
     {
       "path": "11_consulta_regras/consultas/evitar_um_ataque.md",
@@ -729,24 +787,17 @@
         "defesa",
         "cobertura"
       ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade; trechos literais do corpus, sem reformulação das regras.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como evitar um ataque?\n\n**Consulta editorial, gerada automaticamente.** A seleção, a ordem e os títulos de agrupamento são navegação; o texto das instruções é inserido literalmente, sem qualquer revisão. Quando houver conflito, os dois trechos são preservados e não reconciliados aqui.\n\n",
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como evitar um ataque?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
       "groups": [
         {
-          "prefix": "\n### Defesa e esquiva corpo a corpo\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_002`](../corpus/combate/002.md).\n\n",
+          "prefix": "\n### Esquiva e defesa corpo a corpo\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_002"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Esquiva e cobertura contra armas de fogo\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_003`](../corpus/combate/003.md).\n\n",
-          "parts": [
-            "combate_003"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Bloqueio Defletor e Passo da Cobra\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_004`](../corpus/combate/004.md), [`combate_005`](../corpus/combate/005.md), [`combate_007`](../corpus/combate/007.md), [`combate_021`](../corpus/combate/021.md), [`combate_023`](../corpus/combate/023.md).\n\n",
+          "prefix": "\n### Bloqueio Defletor e Passo da Cobra\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_004",
             "combate_005",
@@ -757,7 +808,14 @@
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Aparar armas e precisão com Do\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md) · **Blocos intactos:** [`do_001`](../corpus/do/001.md), [`do_002`](../corpus/do/002.md), [`do_004`](../corpus/do/004.md).\n\n",
+          "prefix": "\n### Esquiva e cobertura contra armas de fogo\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
+          "parts": [
+            "combate_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Precisão Akáshica e aparar armas com Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
           "parts": [
             "do_001",
             "do_002",
@@ -766,7 +824,7 @@
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Pele de Ferro de Do\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md) · **Blocos intactos:** [`do_008`](../corpus/do/008.md), [`do_009`](../corpus/do/009.md), [`do_017`](../corpus/do/017.md).\n\n",
+          "prefix": "\n### Pele de Ferro\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
           "parts": [
             "do_008",
             "do_009",
@@ -775,7 +833,7 @@
           "suffix": "\n\n"
         }
       ],
-      "suffix": "---\n\n[Outras consultas por necessidade](../readme.md) · [Método e auditoria](../metodo_e_integridade.md)\n"
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
     },
     {
       "path": "11_consulta_regras/consultas/atacar_em_combate.md",
@@ -788,45 +846,45 @@
         "arma",
         "combate"
       ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade; trechos literais do corpus, sem reformulação das regras.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como atacar em combate?\n\n**Consulta editorial, gerada automaticamente.** A seleção, a ordem e os títulos de agrupamento são navegação; o texto das instruções é inserido literalmente, sem qualquer revisão. Quando houver conflito, os dois trechos são preservados e não reconciliados aqui.\n\n",
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como atacar em combate?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
       "groups": [
         {
-          "prefix": "\n### Iniciativa\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_001`](../corpus/combate/001.md).\n\n",
-          "parts": [
-            "combate_001"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Ataque corpo a corpo\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_002`](../corpus/combate/002.md).\n\n",
+          "prefix": "\n### Ataque corpo a corpo\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_002"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Armas de fogo\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_003`](../corpus/combate/003.md).\n\n",
+          "prefix": "\n### Armas de fogo\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_003"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Ações e múltiplas ações\n\n**Fonte original:** [00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md) · **Blocos intactos:** [`acoes_001`](../corpus/acoes/001.md).\n\n",
+          "prefix": "\n### Iniciativa\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
+          "parts": [
+            "combate_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Ações e múltiplas ações\n\n[Fonte original — regras_acoes_e_cooperacao.md](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md)\n\n",
           "parts": [
             "acoes_001"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Teste básico e sucessos\n\n**Fonte original:** [00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md) · **Blocos intactos:** [`resolucao_001`](../corpus/resolucao/001.md).\n\n",
+          "prefix": "\n### Teste básico e sucessos\n\n[Fonte original — regras_resolucao_e_dificuldades.md](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
           "parts": [
             "resolucao_001"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Praticantes de Do\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md) · **Blocos intactos:** [`do_001`](../corpus/do/001.md), [`do_002`](../corpus/do/002.md), [`do_003`](../corpus/do/003.md).\n\n",
+          "prefix": "\n### Ataques com Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
           "parts": [
             "do_001",
             "do_002",
@@ -835,7 +893,7 @@
           "suffix": "\n\n"
         }
       ],
-      "suffix": "---\n\n[Outras consultas por necessidade](../readme.md) · [Método e auditoria](../metodo_e_integridade.md)\n"
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
     },
     {
       "path": "11_consulta_regras/consultas/resolver_dano_e_cura.md",
@@ -848,45 +906,213 @@
         "ferimento",
         "proteção"
       ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade; trechos literais do corpus, sem reformulação das regras.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como resolver dano, absorção e cura?\n\n**Consulta editorial, gerada automaticamente.** A seleção, a ordem e os títulos de agrupamento são navegação; o texto das instruções é inserido literalmente, sem qualquer revisão. Quando houver conflito, os dois trechos são preservados e não reconciliados aqui.\n\n",
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como resolver dano, absorção e cura?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
       "groups": [
         {
-          "prefix": "\n### Dano no ataque\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_002`](../corpus/combate/002.md).\n\n",
+          "prefix": "\n### Cálculo de dano do ataque\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
           "parts": [
             "combate_002"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Níveis de vitalidade\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md) · **Blocos intactos:** [`dano_001`](../corpus/dano/001.md).\n\n",
-          "parts": [
-            "dano_001"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Tipos de dano\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md) · **Blocos intactos:** [`dano_002`](../corpus/dano/002.md).\n\n",
+          "prefix": "\n### Tipos de dano\n\n[Fonte original — regras_dano_e_saude.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md)\n\n",
           "parts": [
             "dano_002"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Absorção de dano\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md) · **Blocos intactos:** [`dano_003`](../corpus/dano/003.md).\n\n",
+          "prefix": "\n### Absorção de dano\n\n[Fonte original — regras_dano_e_saude.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md)\n\n",
           "parts": [
             "dano_003"
           ],
           "suffix": "\n\n"
         },
         {
-          "prefix": "\n### Cura e regeneração\n\n**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md) · **Blocos intactos:** [`dano_004`](../corpus/dano/004.md).\n\n",
+          "prefix": "\n### Vitalidade\n\n[Fonte original — regras_dano_e_saude.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md)\n\n",
+          "parts": [
+            "dano_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Cura e regeneração\n\n[Fonte original — regras_dano_e_saude.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md)\n\n",
           "parts": [
             "dano_004"
           ],
           "suffix": "\n\n"
         }
       ],
-      "suffix": "---\n\n[Outras consultas por necessidade](../readme.md) · [Método e auditoria](../metodo_e_integridade.md)\n"
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/usar_do_para_atacar.md",
+      "title": "Como atacar ou contra-atacar utilizando Do?",
+      "aliases": [
+        "do",
+        "akasha",
+        "soco suave",
+        "chute do tufão",
+        "arremesso do furacão",
+        "artemis",
+        "dez mil armas"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como atacar ou contra-atacar utilizando Do?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Vantagens do praticante de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_001",
+            "do_002",
+            "do_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Técnicas ofensivas de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_008",
+            "do_009",
+            "do_010",
+            "do_011",
+            "do_013",
+            "do_014",
+            "do_016",
+            "do_018"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Ataque corporal e resolução\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
+          "parts": [
+            "combate_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/usar_do_para_defender.md",
+      "title": "Como defender-me utilizando Do?",
+      "aliases": [
+        "do",
+        "aparar armas",
+        "pele de ferro",
+        "flor de ameixa",
+        "cortar flechas",
+        "esquivar"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como defender-me utilizando Do?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Precisão e defesa próprias de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_001",
+            "do_002",
+            "do_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Técnicas defensivas de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_008",
+            "do_009",
+            "do_012",
+            "do_015",
+            "do_017",
+            "do_018"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Esquiva corporal\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
+          "parts": [
+            "combate_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/aprender_e_treinar_do.md",
+      "title": "Como treinar, manter e aprender técnicas de Do?",
+      "aliases": [
+        "treinar",
+        "progredir",
+        "aprender",
+        "oito membros",
+        "dedicação",
+        "prática diária"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como treinar, manter e aprender técnicas de Do?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Prática diária e condições\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_001",
+            "do_005"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Oito Membros de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Técnicas especiais disponíveis\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_008",
+            "do_009",
+            "do_010",
+            "do_011",
+            "do_012",
+            "do_013",
+            "do_014",
+            "do_015",
+            "do_016",
+            "do_017",
+            "do_018"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/consultas/usar_do_fora_do_combate.md",
+      "title": "Como usar Do fora do combate?",
+      "aliases": [
+        "do",
+        "tarefa pacífica",
+        "oito membros",
+        "harmonia",
+        "caminho pacífico"
+      ],
+      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como usar Do fora do combate?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
+      "groups": [
+        {
+          "prefix": "\n### Membros e habilidades associadas\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Caminho Pacífico — regra opcional\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_007"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
     }
   ]
 }

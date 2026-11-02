@@ -1,32 +1,16 @@
 ---
 type: consulta_gerada
-summary: "Consulta por necessidade; trechos literais do corpus, sem reformulação das regras."
+summary: "Consulta por necessidade com trechos literais das regras existentes."
 tags: [consulta, combate, piloto, texto_intacto]
 status: experimental
 ---
 # Como atacar em combate?
 
-**Consulta editorial, gerada automaticamente.** A seleção, a ordem e os títulos de agrupamento são navegação; o texto das instruções é inserido literalmente, sem qualquer revisão. Quando houver conflito, os dois trechos são preservados e não reconciliados aqui.
-
-
-### Iniciativa
-
-**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_001`](../corpus/combate/001.md).
-
-## 1. Iniciativa no Turno de Combate
-A iniciativa determina a ordem de declaração e execução das ações no combate:
-* **Fórmula:** Rola-se **1d10 + Iniciativa Base** (Iniciativa Base = Destreza + Raciocínio).
-* **Ordem de Declaração:** Os personagens declaram suas intenções de ação do menor resultado de iniciativa para o maior (quem agiu pior declara primeiro, revelando sua tática aos combatentes mais rápidos).
-* **Ordem de Resolução:** As ações declaradas são executadas e resolvidas do maior resultado de iniciativa para o menor (o mais rápido ataca e resolve primeiro).
-
----
-
-
-
+**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).
 
 ### Ataque corpo a corpo
 
-**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_002`](../corpus/combate/002.md).
+[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)
 
 ## 2. Combate Corpo-a-Corpo
 * **Ataque:** Rola-se a parada de dados de **Destreza + Briga** (para socos, chutes e agarres desarmados) ou **Destreza + Armas Brancas** (para espadas, bastões e facas) contra a dificuldade padrão **6**.
@@ -40,7 +24,7 @@ A iniciativa determina a ordem de declaração e execução das ações no comba
 
 ### Armas de fogo
 
-**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md) · **Blocos intactos:** [`combate_003`](../corpus/combate/003.md).
+[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)
 
 ## 3. Combate à Distância (Armas de Fogo)
 * **Ataque:** Rola-se **Destreza + Armas de Fogo** contra a dificuldade baseada no alcance da arma (Curto Alcance = dificuldade 6; Médio Alcance = dificuldade 8; Longo Alcance = dificuldade 10).
@@ -51,9 +35,24 @@ A iniciativa determina a ordem de declaração e execução das ações no comba
 
 
 
+### Iniciativa
+
+[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)
+
+## 1. Iniciativa no Turno de Combate
+A iniciativa determina a ordem de declaração e execução das ações no combate:
+* **Fórmula:** Rola-se **1d10 + Iniciativa Base** (Iniciativa Base = Destreza + Raciocínio).
+* **Ordem de Declaração:** Os personagens declaram suas intenções de ação do menor resultado de iniciativa para o maior (quem agiu pior declara primeiro, revelando sua tática aos combatentes mais rápidos).
+* **Ordem de Resolução:** As ações declaradas são executadas e resolvidas do maior resultado de iniciativa para o menor (o mais rápido ataca e resolve primeiro).
+
+---
+
+
+
+
 ### Ações e múltiplas ações
 
-**Fonte original:** [00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md) · **Blocos intactos:** [`acoes_001`](../corpus/acoes/001.md).
+[Fonte original — regras_acoes_e_cooperacao.md](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md)
 
 ## 1. Tipos de Ação
 * **Ação Simples:** Consome 1 turno e requer obter pelo menos 1 sucesso líquido.
@@ -74,7 +73,7 @@ A iniciativa determina a ordem de declaração e execução das ações no comba
 
 ### Teste básico e sucessos
 
-**Fonte original:** [00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md) · **Blocos intactos:** [`resolucao_001`](../corpus/resolucao/001.md).
+[Fonte original — regras_resolucao_e_dificuldades.md](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)
 
 ## 1. O Teste Básico
 * **Resolução padrão:** Rola-se uma quantidade de dados de 10 lados (d10) igual à soma de **Atributo + Habilidade** do personagem (Parada de Dados).
@@ -87,9 +86,9 @@ A iniciativa determina a ordem de declaração e execução das ações no comba
 
 
 
-### Praticantes de Do
+### Ataques com Do
 
-**Fonte original:** [00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md) · **Blocos intactos:** [`do_001`](../corpus/do/001.md), [`do_002`](../corpus/do/002.md), [`do_003`](../corpus/do/003.md).
+[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)
 
 ## 1. Vantagens e Dedicação ao Do
 A disciplina mítica e marcial do Do altera as regras físicas do combate desarmado para o mago praticante (exclusivo para Akashayana):
@@ -98,6 +97,5 @@ A disciplina mítica e marcial do Do altera as regras físicas do combate desarm
 * **Dano Letal Desarmado:** O praticante pode escolher causar dano Letal (L) em seus socos e chutes desarmados à vontade, em vez de dano contundente. Essa alteração é uma ação reflexiva.
 
 
----
 
-[Outras consultas por necessidade](../readme.md) · [Método e auditoria](../metodo_e_integridade.md)
+[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)

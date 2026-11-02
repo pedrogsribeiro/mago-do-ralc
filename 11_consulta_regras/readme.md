@@ -1,24 +1,48 @@
 ---
 type: indice
-summary: "Consultas funcionais de combate com extração literal de cinco fontes M20, auditáveis por manifesto."
-tags: [regras, consulta, combate, piloto, integridade]
+summary: "Consulta por necessidade a textos literais de cinco fontes M20, incluindo as ações de Do."
+tags: [consulta, combate, do, regras, piloto, texto_intacto]
 status: experimental
 ---
-# Consultar regras pela ação que quero realizar
+# Regras para o que você quer fazer
 
-Este piloto prioriza perguntas de mesa sem exigir que se saiba em qual capítulo a regra está. **Nenhuma instrução foi reescrita.** As páginas de consulta são composições **geradas** de blocos extraídos literalmente das cinco fontes originais. A redação que existe fora desses blocos é apenas metadado de navegação.
+**Escolha a ação que você quer realizar.** As instruções abaixo são transcrições literais dos documentos existentes; a organização das consultas facilita encontrá-las.
 
-| Quero… | Consulta |
+## Combate e ações
+
+| Quero... | Abrir |
 |---|---|
-| Como derrubar alguém? Rasteira e arremesso | [Abrir consulta](consultas/derrubar_alguem.md) |
-| Como agarrar ou imobilizar alguém? | [Abrir consulta](consultas/agarrar_ou_imobilizar.md) |
-| Como desarmar alguém? | [Abrir consulta](consultas/desarmar_alguem.md) |
-| Como evitar um ataque? | [Abrir consulta](consultas/evitar_um_ataque.md) |
-| Como atacar em combate? | [Abrir consulta](consultas/atacar_em_combate.md) |
-| Como resolver dano, absorção e cura? | [Abrir consulta](consultas/resolver_dano_e_cura.md) |
+| Como derrubar alguém? Rasteira e arremesso | [Consultar](consultas/derrubar_alguem.md) |
+| Como agarrar ou imobilizar alguém? | [Consultar](consultas/agarrar_ou_imobilizar.md) |
+| Como desarmar alguém? | [Consultar](consultas/desarmar_alguem.md) |
+| Como evitar um ataque? | [Consultar](consultas/evitar_um_ataque.md) |
+| Como atacar em combate? | [Consultar](consultas/atacar_em_combate.md) |
+| Como resolver dano, absorção e cura? | [Consultar](consultas/resolver_dano_e_cura.md) |
 
-**Busca por termos:** [rasteira / derrubar / sweep / cauda do dragão / arremessar](consultas/derrubar_alguem.md) · [agarrar / imobilizar / aperto / clinch / quebrar juntas](consultas/agarrar_ou_imobilizar.md) · [desarmar / desarme / disarm / tirar arma](consultas/desarmar_alguem.md) · [esquivar / esquiva / bloquear / aparar / defesa / cobertura](consultas/evitar_um_ataque.md) · [iniciativa / ataque / soco / chute / arma / combate](consultas/atacar_em_combate.md) · [dano / absorção / vitalidade / cura / ferimento / proteção](consultas/resolver_dano_e_cura.md).
+## Do — Irmãos de Akasha
 
-[Ver método e restrições](metodo_e_integridade.md) · [Manifesto de origem e blocos](manifesto.json).
+| Quero... | Abrir |
+|---|---|
+| Como atacar ou contra-atacar utilizando Do? | [Consultar](consultas/usar_do_para_atacar.md) |
+| Como defender-me utilizando Do? | [Consultar](consultas/usar_do_para_defender.md) |
+| Como treinar, manter e aprender técnicas de Do? | [Consultar](consultas/aprender_e_treinar_do.md) |
+| Como usar Do fora do combate? | [Consultar](consultas/usar_do_fora_do_combate.md) |
 
-**Preservação:** os arquivos `00_biblia/` não foram movidos, excluídos nem editados; servem como testemunho de comparação. Os blocos em `corpus/` contêm apenas conteúdo original, até os sinais de Markdown e espaçamento. Os títulos e caminhos das consultas podem ser editoriais; nenhuma regra nova é criada.
+[Acessar também o índice de Do](do/readme.md).
+
+## Buscar por palavras
+
+- **rasteira · derrubar · sweep · cauda do dragão · arremessar** → [Como derrubar alguém? Rasteira e arremesso](consultas/derrubar_alguem.md)
+- **agarrar · imobilizar · aperto · clinch · quebrar juntas** → [Como agarrar ou imobilizar alguém?](consultas/agarrar_ou_imobilizar.md)
+- **desarme · desarmar · disarm · tirar uma arma** → [Como desarmar alguém?](consultas/desarmar_alguem.md)
+- **esquivar · esquiva · bloquear · aparar · defesa · cobertura** → [Como evitar um ataque?](consultas/evitar_um_ataque.md)
+- **iniciativa · ataque · soco · chute · arma · combate** → [Como atacar em combate?](consultas/atacar_em_combate.md)
+- **dano · absorção · vitalidade · cura · ferimento · proteção** → [Como resolver dano, absorção e cura?](consultas/resolver_dano_e_cura.md)
+- **do · akasha · soco suave · chute do tufão · arremesso do furacão · artemis · dez mil armas** → [Como atacar ou contra-atacar utilizando Do?](consultas/usar_do_para_atacar.md)
+- **do · aparar armas · pele de ferro · flor de ameixa · cortar flechas · esquivar** → [Como defender-me utilizando Do?](consultas/usar_do_para_defender.md)
+- **treinar · progredir · aprender · oito membros · dedicação · prática diária** → [Como treinar, manter e aprender técnicas de Do?](consultas/aprender_e_treinar_do.md)
+- **do · tarefa pacífica · oito membros · harmonia · caminho pacífico** → [Como usar Do fora do combate?](consultas/usar_do_fora_do_combate.md)
+
+## Sobre a integridade dos textos
+
+Os arquivos em `00_biblia/` foram mantidos integralmente; não há reescrita, revisão de números nem alteração mecânica das regras. Os fragmentos rastreáveis, agora com **nomes descritivos**, ficam em `corpus/` para auditoria; não são a interface principal para consultar regras. [Ver método de integridade](metodo_e_integridade.md).

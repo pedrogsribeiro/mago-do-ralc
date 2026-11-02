@@ -1,46 +1,29 @@
 ---
 type: guia
-summary: "Procedimento de extração, navegação, rastreabilidade e prova de integridade literal da reorganização por valor."
-tags: [regras, integridade, extração, migração, auditoria, piloto]
+summary: "Método de auditoria literal e organização por necessidade de uso."
+tags: [integridade, consulta, regras, piloto, metodo]
 status: experimental
 ---
-# Piloto de reorganização por valor — princípios e prova
+# Regras por valor de uso — método e integridade
 
-## Objetivo
+Este piloto distingue **interface de consulta** de **corpus técnico**. As consultas em `consultas/` respondem a perguntas da mesa; os blocos em `corpus/` existem para rastrear e reconstruir os textos originais. Cada bloco possui **nome descritivo**, mas conserva todos os seus bytes, incluindo quebras de linha e pontuação.
 
-Responder à pergunta do jogador/Narrador (por exemplo, “como faço uma rasteira?”), recuperando, no mesmo local, **trechos de instrução existentes**, sem exigir que ele encontre primeiro o capítulo ou assunto que o livro utilizou.
+Os títulos das consultas, o agrupamento e as referências são texto editorial de **navegação**, sem qualquer força de regra. Os conteúdos das instruções são reproduzidos literalmente da `00_biblia/`, inclusive números e eventuais contradições. Nenhuma correção, simplificação ou interpretação é permitida na transposição.
 
-## Invariantes absolutos
+As cinco fontes originais **não foram movidas nem editadas**. Cada trecho corresponde à faixa de linhas declarada em `manifesto.json`. A ordem total dos segmentos reconstrói os arquivos originais, sem perda. As tabelas selecionadas incluem literalmente suas linhas de cabeçalho, alinhamento e dados, com a definição de termos quando necessário.
 
-1. **Proibido reescrever** instruções: nenhuma alteração de palavra, pontuação, número, fórmula, ordem interna de frases ou Markdown original de cada fragmento.
-2. **Proibido corrigir** contradições, erros, omissões ou sobreposições durante a reorganização.
-3. **Proibido promover** interpretações dos estudos player-faced a regras de M20. Este piloto seleciona somente as cinco fontes em `00_biblia/`.
-4. Tabelas recortadas preservam **literalmente** o cabeçalho, a linha de alinhamento, a linha selecionada e a legenda. A seleção pode **omitir linhas não pertinentes**, sem as modificar.
-5. Títulos de consulta, organização dos grupos e hyperlinks editoriais são **metadados de navegação**, separados do texto extraído, e não têm força normativa.
+## Verificação automatizada
 
-## Camadas
-
-- **Fontes originais**: cinco arquivos em `00_biblia/`, congelados como referência de comparação durante o piloto. O SHA do blob Git de cada um consta no manifesto.
-- **Corpus de blocos**: `corpus/{combate,do,dano,resolucao,acoes}/*.md`, onde cada arquivo é **uma fatia literal e contígua** da sua fonte. Não possui frontmatter injetado nem edição textual.
-- **Manifesto**: `manifesto.json` liga cada bloco a uma fonte, SHA do blob, linhas 1-based e posição ordenada; inclui a receita exata de montagem de cada consulta.
-- **Consultas por necessidade**: `consultas/*.md` são vistas geradas. Possuem um cabeçalho e legendas editoriais e copiam exclusivamente os trechos originais apontados, sem parafraseá-los.
-
-## Prova automática de integridade
-
-Executar na raiz do clone:
+Na raiz do clone:
 
 ```bash
 python3 11_consulta_regras/ferramentas/validar_integridade.py
 ```
 
-O teste compara o **hash de blob Git** de cada fonte com o valor registrado, compara cada fragmento à faixa literal de linhas da fonte, concatena todos os blocos **na ordem original para reconstruir exatamente os bytes do arquivo de entrada**, e regenera as consultas a partir do manifesto para comparar seus bytes ao arquivo versionado. Sai com código 1 se qualquer comparação falhar.
+O validador compara o Git blob SHA das fontes, confere cada segmento byte a byte, reconstrói cada fonte original pela concatenação dos segmentos e confere a reprodução literal das vistas, geradas a partir do manifesto.
 
-**Atenção:** preservar o corpo da regra não significa que as fontes originalmente consolidadas são idênticas ao livro comercial. Verificação contra publicação de origem e resolução de divergências de regras estão **fora do escopo**.
+## Política de edição
 
-## Cuidado com referências relativas
+Se for necessário melhorar a consulta, alterar apenas os metadados editoriais, a seleção, a posição dos trechos e os caminhos de navegação. Se desejar corrigir uma regra, isso é **outro processo**, fora deste piloto. A reorganização física dos originais depende de auditoria prévia dos links relativos e não foi feita.
 
-Não movemos nem corrigimos os arquivos `00_biblia/` neste piloto. Arquivos originários com links relativos só poderiam ser fisicamente movidos sem quebrar vínculos após análise de dependências; mudar a string do link violaria a regra de edição zero. Links editoriais das consultas apontam para as fontes e blocos; não são alterações nos textos das instruções.
-
-## Porta de expansão
-
-O piloto permite medir: tempo para encontrar uma manobra, número de arquivos abertos para resolver a dúvida, suficiência do recorte, integridade literal. Se aprovado, repetir o método em mágika, Umbra, investigação e demais ações. **Não integrar ou substituir o corpus existente automaticamente** sem auditoria específica por conjunto de textos.
+**Esta biblioteca ainda é experimental, sem merge na `master`.** A verificação mecânica comprova fidelidade textual, não a exatidão das regras em relação ao livro publicado.

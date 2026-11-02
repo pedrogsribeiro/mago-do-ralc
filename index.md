@@ -10,6 +10,12 @@ Este documento é o **ponto de entrada primário para agentes de IA** e jogadore
 
 ---
 
+## Consultar regras por necessidade (piloto)
+
+[Consultar por ação ou resultado desejado](11_consulta_regras/readme.md) · [Do por finalidade](11_consulta_regras/do/readme.md). Esta camada é experimental e não altera os textos de M20.
+
+---
+
 ## Gestão de histórias por frentes e elementos
 
 [[Frentes ativas e futuras]](01_problemas/frentes/readme.md) · [[Gestão de entidades e referências]](01_problemas/frentes/04_gestao_referencias.md) · [[Acontecimentos confirmados]](10_acontecimentos/readme.md).
