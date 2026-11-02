@@ -15,41 +15,80 @@
       "path": "00_biblia/00_introducao/introducao.md",
       "sha": "88cd1ef9b841b4f084cf6b7de97936baf58f7ec0",
       "group": "00_introducao",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 2,
+      "candidate_units": [
+        "1. O Clima e o Tema da Crônica",
+        "2. Léxico de Termos Comuns"
+      ]
     },
     {
       "path": "00_biblia/01_cenario_e_ambientacao/01_capitulo_01_caminho_do_mago.md",
       "sha": "b8ad165793142bbabfd2505ccdea970f6d9120fa",
       "group": "01_cenario_e_ambientacao",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 6,
+      "candidate_units": [
+        "1. As Três Etapas da Jornada (O Caminho Frágil)",
+        "A. Consciência (O Acordar)",
+        "B. Conflito (A Provação das Sombras)",
+        "C. Resolução (A Ascensão ou a Queda)",
+        "2. O Avatar e as Essências",
+        "3. Parâmetros de Jogo"
+      ]
     },
     {
       "path": "00_biblia/01_cenario_e_ambientacao/02_capitulo_02_magika_realidade.md",
       "sha": "1776668aa290808adf6cf14149ed33a9e7762cda",
       "group": "01_cenario_e_ambientacao",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 4,
+      "candidate_units": [
+        "1. Mágika Estática vs. Mágika Dinâmica",
+        "2. A Realidade Consensual e as Consequências",
+        "3. O Ciclo de Efeito e as Nove Esferas",
+        "As Nove Esferas da Mágika"
+      ]
     },
     {
       "path": "00_biblia/01_cenario_e_ambientacao/03_capitulo_03_mundo_das_sombras.md",
       "sha": "0a777f9c6f926fbd5810c414a21c64743de01615",
       "group": "01_cenario_e_ambientacao",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 5,
+      "candidate_units": [
+        "1. O Mundo de Pesadelo e a Realidade Subjetiva",
+        "2. Refúgios Mágicos",
+        "3. Sangue Vital: Nodos e Mananciais",
+        "4. Quintessência e Sorvo",
+        "5. Periferia, Vidare e Película"
+      ]
     },
     {
       "path": "00_biblia/01_cenario_e_ambientacao/04_capitulo_04_mundos_alem.md",
       "sha": "22fdf7db22fa523ed3d44855bbf0a8eaf765f91c",
       "group": "01_cenario_e_ambientacao",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 7,
+      "candidate_units": [
+        "1. Métodos de Acesso e Viagem Dimensional",
+        "2. A Estrutura das Três Umbras",
+        "A. A Umbra Alta (Astral - O Reino das Ideias)",
+        "B. A Umbra Média (Spiritus - O Reino da Vida)",
+        "C. A Umbra Baixa (Mortem - O Submundo/Terras das Sombras)",
+        "3. Zonas e Regiões de Fronteira",
+        "4. A Teia Digital (Digital Web)"
+      ]
     },
     {
       "path": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
