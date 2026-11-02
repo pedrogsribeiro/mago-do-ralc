@@ -1,0 +1,2 @@
+### Infinito (Infinite)
+* **Descrição:** Uma quinta força rara e enigmática que os sábios dizem que deve existir, mas que ninguém realmente a viu. Ela olha para o mundo com olhos e coração que vão além da mera compreensão humana comum, habitando em reinos que nem os magos podem compreender plenamente. Não é recomendada para personagens de jogadores, servindo apenas para enigmáticas e raras entidades do Narrador.

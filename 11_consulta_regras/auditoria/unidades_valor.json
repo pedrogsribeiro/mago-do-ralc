@@ -1213,6 +1213,582 @@
         "escala"
       ],
       "status": "localizado_por_cabecalho_a_validar_semantica"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_essencias_avatar_001",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_essencias_avatar/02_1_o_que_e_a_essencia.md",
+      "label": "1. O que é a Essência?",
+      "start_line": 12,
+      "end_line": 18,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_essencias_avatar_002",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_essencias_avatar/03_2_as_quatro_essencias_oficiais.md",
+      "label": "2. As Quatro Essências Oficiais",
+      "start_line": 19,
+      "end_line": 20,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_essencias_avatar_003",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_essencias_avatar/04_dinamica_dynamic.md",
+      "label": "Dinâmica (Dynamic)",
+      "start_line": 21,
+      "end_line": 24,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_essencias_avatar_004",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_essencias_avatar/05_estatica_static_pattern.md",
+      "label": "Estática (Static / Pattern)",
+      "start_line": 25,
+      "end_line": 28,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_essencias_avatar_005",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_essencias_avatar/06_investigadora_questing.md",
+      "label": "Investigadora (Questing)",
+      "start_line": 29,
+      "end_line": 32,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_essencias_avatar_006",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_essencias_avatar/07_primordial_primordial.md",
+      "label": "Primordial (Primordial)",
+      "start_line": 33,
+      "end_line": 38,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_essencias_avatar_007",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_essencias_avatar/08_3_a_quinta_forca_mitica.md",
+      "label": "3. A Quinta Força Mítica",
+      "start_line": 39,
+      "end_line": 40,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_essencias_avatar_008",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_essencias_avatar/09_infinito_infinite.md",
+      "label": "Infinito (Infinite)",
+      "start_line": 41,
+      "end_line": 42,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_001",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/02_1_o_que_sao_pericias.md",
+      "label": "1. O que são Perícias?",
+      "start_line": 12,
+      "end_line": 16,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_002",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/03_2_lista_de_pericias_niveis_bolinhas_e_sugestoes.md",
+      "label": "2. Lista de Perícias, Níveis (Bolinhas) e Sugestões",
+      "start_line": 17,
+      "end_line": 18,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_003",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/04_empatia_com_animais_animal_ken.md",
+      "label": "Empatia com Animais (Animal Ken)",
+      "start_line": 19,
+      "end_line": 29,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_004",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/05_oficios_crafts.md",
+      "label": "Ofícios (Crafts)",
+      "start_line": 30,
+      "end_line": 40,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_005",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/06_conducao_drive.md",
+      "label": "Condução (Drive)",
+      "start_line": 41,
+      "end_line": 51,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_006",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/07_etiqueta_etiquette.md",
+      "label": "Etiqueta (Etiquette)",
+      "start_line": 52,
+      "end_line": 62,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_007",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/08_armas_de_fogo_firearms.md",
+      "label": "Armas de Fogo (Firearms)",
+      "start_line": 63,
+      "end_line": 73,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_008",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/09_armas_brancas_melee.md",
+      "label": "Armas Brancas (Melee)",
+      "start_line": 74,
+      "end_line": 84,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_009",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/10_meditacao_meditation.md",
+      "label": "Meditação (Meditation)",
+      "start_line": 85,
+      "end_line": 95,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_010",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/11_performance_performance.md",
+      "label": "Performance (Performance)",
+      "start_line": 96,
+      "end_line": 106,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_011",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/12_furtividade_stealth.md",
+      "label": "Furtividade (Stealth)",
+      "start_line": 107,
+      "end_line": 117,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_pericias_012",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_pericias.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_pericias/13_sobrevivencia_pesquisa_survival.md",
+      "label": "Sobrevivência / Pesquisa (Survival)",
+      "start_line": 118,
+      "end_line": 127,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_001",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/02_1_o_que_sao_talentos.md",
+      "label": "1. O que são Talentos?",
+      "start_line": 12,
+      "end_line": 16,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_002",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/03_2_lista_de_talentos_niveis_bolinhas_e_sugestoes.md",
+      "label": "2. Lista de Talentos, Níveis (Bolinhas) e Sugestões",
+      "start_line": 17,
+      "end_line": 18,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_003",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/04_consciencia_awareness.md",
+      "label": "Consciência (Awareness)",
+      "start_line": 19,
+      "end_line": 29,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_004",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/05_esportes_athletics.md",
+      "label": "Esportes (Athletics)",
+      "start_line": 30,
+      "end_line": 40,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_005",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/06_briga_brawl.md",
+      "label": "Briga (Brawl)",
+      "start_line": 41,
+      "end_line": 51,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_006",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/07_esquiva_dodge.md",
+      "label": "Esquiva (Dodge)",
+      "start_line": 52,
+      "end_line": 62,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_007",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/08_expressao_expression.md",
+      "label": "Expressão (Expression)",
+      "start_line": 63,
+      "end_line": 73,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_008",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/09_intimidacao_intimidation.md",
+      "label": "Intimidação (Intimidation)",
+      "start_line": 74,
+      "end_line": 84,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_009",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/10_lideranca_leadership.md",
+      "label": "Liderança (Leadership)",
+      "start_line": 85,
+      "end_line": 95,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_010",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/11_manha_streetwise.md",
+      "label": "Manha (Streetwise)",
+      "start_line": 96,
+      "end_line": 106,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_011",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/12_labia_subterfuge.md",
+      "label": "Lábia (Subterfuge)",
+      "start_line": 107,
+      "end_line": 117,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_02_criacao_de_personagem_descritivo_talentos_012",
+      "source": "00_biblia/02_criacao_de_personagem/descritivo_talentos.md",
+      "path": "11_consulta_regras/corpus_integral/02_criacao_de_personagem/descritivo_talentos/13_prontidao_alertness.md",
+      "label": "Prontidão (Alertness)",
+      "start_line": 118,
+      "end_line": 127,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_001",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes/02_1_explosao_como_dano_ambiental.md",
+      "label": "1. Explosão como dano ambiental",
+      "start_line": 11,
+      "end_line": 25,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_002",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes/03_2_escala_do_blast.md",
+      "label": "2. Escala do blast",
+      "start_line": 26,
+      "end_line": 39,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_003",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes/04_3_dodging_the_blast.md",
+      "label": "3. Dodging the Blast",
+      "start_line": 40,
+      "end_line": 52,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_004",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes/05_consequencia_player_facing.md",
+      "label": "Consequência player-facing",
+      "start_line": 53,
+      "end_line": 64,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_005",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes/06_4_armadura.md",
+      "label": "4. Armadura",
+      "start_line": 65,
+      "end_line": 78,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_006",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes/07_5_objetos_e_cobertura.md",
+      "label": "5. Objetos e cobertura",
+      "start_line": 79,
+      "end_line": 93,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_007",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes/08_6_estados_e_consequencias.md",
+      "label": "6. Estados e consequências",
+      "start_line": 94,
+      "end_line": 110,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_008",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes/09_7_gate.md",
+      "label": "7. Gate",
+      "start_line": 111,
+      "end_line": 123,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fogo_e_calor_001",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fogo_e_calor.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_fogo_e_calor/02_1_dano_por_exposicao_ao_fogo.md",
+      "label": "1. Dano por Exposição ao Fogo",
+      "start_line": 12,
+      "end_line": 20,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fogo_e_calor_002",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fogo_e_calor.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_fogo_e_calor/03_2_combustao_e_propagacao.md",
+      "label": "2. Combustão e Propagação",
+      "start_line": 21,
+      "end_line": 23,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_001",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento/02_1_privacao_de_alimentos_fome.md",
+      "label": "1. Privação de Alimentos (Fome)",
+      "start_line": 12,
+      "end_line": 17,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_002",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento/03_2_privacao_de_agua_sede.md",
+      "label": "2. Privação de Água (Sede)",
+      "start_line": 18,
+      "end_line": 23,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_003",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento/04_3_sufocamento_e_asfixia.md",
+      "label": "3. Sufocamento e Asfixia",
+      "start_line": 24,
+      "end_line": 26,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_001",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto/02_1_calculo_de_dano_de_queda.md",
+      "label": "1. Cálculo de Dano de Queda",
+      "start_line": 12,
+      "end_line": 18,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_002",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto/03_2_modificadores_de_dano.md",
+      "label": "2. Modificadores de Dano",
+      "start_line": 19,
+      "end_line": 24,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
+    },
+    {
+      "id": "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_003",
+      "source": "00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto.md",
+      "path": "11_consulta_regras/corpus_integral/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto/04_3_absorcao.md",
+      "label": "3. Absorção",
+      "start_line": 25,
+      "end_line": 26,
+      "kind": [
+        "secao_de_regras"
+      ],
+      "status": "localizado_a_revisar_valores_internos"
     }
   ]
 }
