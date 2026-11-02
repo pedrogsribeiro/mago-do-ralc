@@ -5989,6 +5989,330 @@
         "contexto_com_mecanica_a_revisar"
       ],
       "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_01_cenario_e_ambientacao_05_capitulo_05_guerreiros_ascensao_001",
+      "source": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
+      "path": "11_consulta_regras/corpus_integral/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao/02_1_cronologia_e_eras_do_mundo_desperto.md",
+      "label": "1. Cronologia e Eras do Mundo Desperto",
+      "start_line": 12,
+      "end_line": 23,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_01_cenario_e_ambientacao_05_capitulo_05_guerreiros_ascensao_002",
+      "source": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
+      "path": "11_consulta_regras/corpus_integral/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao/03_2_a_fundacao_da_ordem_da_razao_tecnocracia.md",
+      "label": "2. A Fundação da Ordem da Razão (Tecnocracia)",
+      "start_line": 24,
+      "end_line": 41,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_01_cenario_e_ambientacao_05_capitulo_05_guerreiros_ascensao_003",
+      "source": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
+      "path": "11_consulta_regras/corpus_integral/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao/04_3_o_conselho_das_nove_tradicoes_misticas.md",
+      "label": "3. O Conselho das Nove Tradições Místicas",
+      "start_line": 42,
+      "end_line": 59,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_01_cenario_e_ambientacao_05_capitulo_05_guerreiros_ascensao_004",
+      "source": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
+      "path": "11_consulta_regras/corpus_integral/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao/05_4_as_forcas_da_escuridao_e_do_caos.md",
+      "label": "4. As Forças da Escuridão e do Caos",
+      "start_line": 60,
+      "end_line": 63,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_01_cenario_e_ambientacao_05_capitulo_05_guerreiros_ascensao_005",
+      "source": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
+      "path": "11_consulta_regras/corpus_integral/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao/06_a_os_caidos_nefandos.md",
+      "label": "A. Os Caídos (Nefandos)",
+      "start_line": 64,
+      "end_line": 69,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_01_cenario_e_ambientacao_05_capitulo_05_guerreiros_ascensao_006",
+      "source": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
+      "path": "11_consulta_regras/corpus_integral/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao/07_b_os_loucos_desauridos_marauders.md",
+      "label": "B. Os Loucos (Desauridos / Marauders)",
+      "start_line": 70,
+      "end_line": 73,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_08_narracao_07_capitulo_07_contando_historia_001",
+      "source": "00_biblia/08_narracao/07_capitulo_07_contando_historia.md",
+      "path": "11_consulta_regras/corpus_integral/08_narracao/07_capitulo_07_contando_historia/02_1_narracao_cooperativa_e_improvisada.md",
+      "label": "1. Narração Cooperativa e Improvisada",
+      "start_line": 12,
+      "end_line": 20,
+      "kind": [
+        "contexto_com_mecanica_a_revisar"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_08_narracao_07_capitulo_07_contando_historia_002",
+      "source": "00_biblia/08_narracao/07_capitulo_07_contando_historia.md",
+      "path": "11_consulta_regras/corpus_integral/08_narracao/07_capitulo_07_contando_historia/03_2_preparacao_e_o_espaco_de_jogo.md",
+      "label": "2. Preparação e o Espaço de Jogo",
+      "start_line": 21,
+      "end_line": 30,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_08_narracao_07_capitulo_07_contando_historia_003",
+      "source": "00_biblia/08_narracao/07_capitulo_07_contando_historia.md",
+      "path": "11_consulta_regras/corpus_integral/08_narracao/07_capitulo_07_contando_historia/04_3_seguranca_na_mesa_e_limites.md",
+      "label": "3. Segurança na Mesa e Limites",
+      "start_line": 31,
+      "end_line": 43,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_08_narracao_07_capitulo_07_contando_historia_004",
+      "source": "00_biblia/08_narracao/07_capitulo_07_contando_historia.md",
+      "path": "11_consulta_regras/corpus_integral/08_narracao/07_capitulo_07_contando_historia/05_4_estrutura_do_misterio_epico_vs_intimo.md",
+      "label": "4. Estrutura do Mistério: Épico vs. Íntimo",
+      "start_line": 44,
+      "end_line": 49,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_fatos_do_cenario_001",
+      "source": "00_biblia/fatos_do_cenario.md",
+      "path": "11_consulta_regras/corpus_integral/fatos_do_cenario/02_escopo_do_cenario.md",
+      "label": "Escopo do Cenário",
+      "start_line": 8,
+      "end_line": 11,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_fatos_do_cenario_002",
+      "source": "00_biblia/fatos_do_cenario.md",
+      "path": "11_consulta_regras/corpus_integral/fatos_do_cenario/03_verdades_imutaveis_fatos_do_mundo.md",
+      "label": "Verdades Imutáveis (Fatos do Mundo)",
+      "start_line": 12,
+      "end_line": 20,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_001",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/02_pilares_do_framework_narrativo.md",
+      "label": "🧭 Pilares do Framework Narrativo",
+      "start_line": 13,
+      "end_line": 23,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_002",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/03_1_o_conceito_da_situacao_compartilhada.md",
+      "label": "1. O Conceito da Situação Compartilhada",
+      "start_line": 24,
+      "end_line": 34,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_003",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/04_2_jogando_as_iscas_os_ganchos_afiados_hooks.md",
+      "label": "2. Jogando as Iscas: Os Ganchos Afiados (Hooks)",
+      "start_line": 35,
+      "end_line": 45,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_004",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/05_3_as_6_perguntas_fundamentais_de_construcao_do_enredo.md",
+      "label": "3. As 6 Perguntas Fundamentais de Construção do Enredo",
+      "start_line": 46,
+      "end_line": 49,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_005",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/06_1_quem_as_entidades_e_o_conflito.md",
+      "label": "1. QUEM? (As Entidades e o Conflito)",
+      "start_line": 50,
+      "end_line": 53,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_006",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/07_2_o_que_o_objeto_de_disputa.md",
+      "label": "2. O QUE? (O Objeto de Disputa)",
+      "start_line": 54,
+      "end_line": 57,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_007",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/08_3_por_que_as_motivacoes_profundas.md",
+      "label": "3. POR QUE? (As Motivações Profundas)",
+      "start_line": 58,
+      "end_line": 61,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_008",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/09_4_onde_o_palco_da_crise.md",
+      "label": "4. ONDE? (O Palco da Crise)",
+      "start_line": 62,
+      "end_line": 65,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_009",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/10_5_quando_o_fator_tempo.md",
+      "label": "5. QUANDO? (O Fator Tempo)",
+      "start_line": 66,
+      "end_line": 69,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_010",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/11_6_como_a_trilha_de_pistas.md",
+      "label": "6. COMO? (A Trilha de Pistas)",
+      "start_line": 70,
+      "end_line": 75,
+      "kind": [
+        "contexto_com_mecanica_a_revisar"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_011",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/12_4_a_estrutura_em_4_atos_da_historia.md",
+      "label": "4. A Estrutura em 4 Atos da História",
+      "start_line": 76,
+      "end_line": 86,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_012",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/13_ato_i_o_gancho_abertura_disruptiva.md",
+      "label": "ATO I: O Gancho (Abertura Disruptiva)",
+      "start_line": 87,
+      "end_line": 91,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_013",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/14_ato_ii_a_investigacao_desenvolvimento_e_escalada.md",
+      "label": "ATO II: A Investigação (Desenvolvimento e Escalada)",
+      "start_line": 92,
+      "end_line": 96,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_014",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/15_ato_iii_o_climax_a_virada_e_o_confronto.md",
+      "label": "ATO III: O Clímax (A Virada e o Confronto)",
+      "start_line": 97,
+      "end_line": 101,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
+    },
+    {
+      "id": "contexto_resumos_framework_de_historias_mago_015",
+      "source": "00_biblia/resumos/framework_de_historias_mago.md",
+      "path": "11_consulta_regras/corpus_integral/resumos/framework_de_historias_mago/16_ato_iv_as_sequelas_resolucao_e_consequencias.md",
+      "label": "ATO IV: As Sequelas (Resolução e Consequências)",
+      "start_line": 102,
+      "end_line": 106,
+      "kind": [
+        "contexto"
+      ],
+      "status": "revisao_intrassecao_pendente"
     }
   ]
 }

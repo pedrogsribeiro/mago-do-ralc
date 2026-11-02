@@ -94,9 +94,10 @@
       "path": "00_biblia/01_cenario_e_ambientacao/05_capitulo_05_guerreiros_ascensao.md",
       "sha": "a9ea67fbb42935274ea2b0f136e2f4d061d0e028",
       "group": "01_cenario_e_ambientacao",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 6
     },
     {
       "path": "00_biblia/01_cenario_e_ambientacao/readme.md",
@@ -1205,9 +1206,10 @@
       "path": "00_biblia/08_narracao/07_capitulo_07_contando_historia.md",
       "sha": "8fe02baaa0655e649f8e07c4ecd486b191ee44e5",
       "group": "08_narracao",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 4
     },
     {
       "path": "00_biblia/08_narracao/readme.md",
@@ -1222,9 +1224,10 @@
       "path": "00_biblia/fatos_do_cenario.md",
       "sha": "f3aad86591964cfed53dcfd70764d1f34026a279",
       "group": "fatos_do_cenario.md",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 2
     },
     {
       "path": "00_biblia/readme.md",
@@ -1239,8 +1242,8 @@
       "path": "00_biblia/regras_combate_e_do.md",
       "sha": "1ad4348c666983f541387196f81ce937d6744f02",
       "group": "regras_combate_e_do.md",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
+      "classification": "indice_ou_ponteiro",
+      "inventory_status": "ponteiro_catalogado_com_fonte_preservada",
       "source_in_manifest": false
     },
     {
@@ -1278,9 +1281,10 @@
       "path": "00_biblia/resumos/framework_de_historias_mago.md",
       "sha": "663a42688de73df71fd78261c5ddc8604f25eb17",
       "group": "resumos",
-      "classification": "contexto_a_verificar",
-      "inventory_status": "pendente_leitura",
-      "source_in_manifest": false
+      "classification": "contexto_com_mecanicas_potenciais",
+      "inventory_status": "extraido_integral_com_unidades_catalogadas",
+      "source_in_manifest": false,
+      "unit_count": 15
     },
     {
       "path": "00_biblia/resumos/readme.md",
@@ -1317,8 +1321,8 @@
       "path": "00_biblia/resumos/umbra/umbra.md",
       "sha": "33b10794813ab784f19666e3d2fcefc4a84be471",
       "group": "resumos",
-      "classification": "regras_a_verificar",
-      "inventory_status": "pendente_leitura",
+      "classification": "indice_ou_ponteiro",
+      "inventory_status": "ponteiro_catalogado_com_fonte_preservada",
       "source_in_manifest": false
     },
     {
