@@ -16,10 +16,10 @@
 
 ## Dimensionamento e etapas (gates verificáveis)
 
-**P0 — Congelar baseline e dimensionar (iniciado).**
+**P0 — Congelar baseline e dimensionar (CONCLUÍDO).**
 Inventariar árvore do `00_biblia/`; distinguir índices, narrativa e fontes de instruções; registrar SHA de cada arquivo e 16 fontes já no manifesto. Critério: relação completa de candidatos, estado de classificação e versões de origem.
 
-**P1 — Inventariar as unidades de valor do acervo (próximo).**
+**P1 — Inventariar as unidades de valor do acervo (EM EXECUÇÃO).**
 Ler cada fonte candidata, capturar títulos, tabelas, listas, fórmulas, parâmetros e blocos implícitos; atribuir tipo de unidade e caminho. Armazenar inventário persistente em `11_consulta_regras/auditoria/` (não no plano transitório). Não assumir que só títulos identificam unidades. Critério: 100% dos documentos classificados; todas as fontes de regras mapeadas e cada seção com status (unidade, contextual ou revisão).
 
 **P2 — Converter em lotes pequenos, com prova de reversibilidade.**
@@ -37,3 +37,6 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 ## Registro de execução
 
 - **2026-11-02 — P0 iniciado:** branch confirmada em `d718aad118620d3097b3b7bb4f530eb5546b889d`. Árvore contém **87 arquivos Markdown em `00_biblia/`**, incluindo índices, documentos literários, resumos e regras; **16 fontes**, **111 segmentos**, **25 consultas** no piloto anterior. Contagens não representam cobertura do acervo. Próxima ação: criar inventário integral classificado por conteúdo com SHA e títulos, e começar primeiro lote de fontes não cobertas.
+
+- **2026-11-02 — P0 concluído:** inventário persistente criado em `11_consulta_regras/auditoria/inventario_fontes.json`, com os 87 caminhos e SHAs do baseline, 16 fontes do manifesto e categorias **provisórias por localização**. P0 cobre catálogo/SHAs, sem fingir que a classificação semântica está encerrada.
+- **2026-11-02 — P1 em execução:** oito fontes lidas e classificadas, com unidades identificadas: tabelas de custos de bônus e XP, dificuldade e sucessos, vitalidade, valores de veículos/colisões, segurança e dano digital, fogo e qualidades/defeitos. Nas fontes de veículos e Teia Digital há mistura de regras com notas de design player-facing, a preservar como camadas distintas. **Próximo lote:** demais fontes de criação, tabelas das Esferas e riscos ambientais; registrar cada achado no inventário antes da extração.
