@@ -11941,6 +11941,239 @@
         }
       ],
       "suffix": "\n[Índice de fichas](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/teste_basico_modificadores.md",
+      "title": "Teste básico e modificadores",
+      "aliases": [
+        "Teste básico e modificadores"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Teste básico e modificadores.\"\nstatus: experimental\n---\n# Teste básico e modificadores\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Teste básico e modificadores\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_001",
+            "resolucao_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/repeticao_testes.md",
+      "title": "Repetição de testes (Retries)",
+      "aliases": [
+        "Repetição de testes (Retries)"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Repetição de testes (Retries).\"\nstatus: experimental\n---\n# Repetição de testes (Retries)\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Tentando de Novo\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_003"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/limiares_e_graus_sucesso.md",
+      "title": "Limiares e graus de sucesso",
+      "aliases": [
+        "Limiares e graus de sucesso"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Limiares e graus de sucesso.\"\nstatus: experimental\n---\n# Limiares e graus de sucesso\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Limiares e graus de sucesso\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_004",
+            "resolucao_006"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/falha_critica_regra_um.md",
+      "title": "Regra do 1 e falha crítica",
+      "aliases": [
+        "Regra do 1 e falha crítica"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Regra do 1 e falha crítica.\"\nstatus: experimental\n---\n# Regra do 1 e falha crítica\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Regra do 1\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_005"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/cooperacao_sinergia.md",
+      "title": "Cooperação e ações",
+      "aliases": [
+        "Cooperação e ações"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Cooperação e ações.\"\nstatus: experimental\n---\n# Cooperação e ações\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Tipos de ação e cooperação\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md)\n\n",
+          "parts": [
+            "acoes_001",
+            "acoes_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/classificacao_magika_testemunhas.md",
+      "title": "Classificação da mágika e testemunhas",
+      "aliases": [
+        "Classificação da mágika e testemunhas"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Classificação da mágika e testemunhas.\"\nstatus: experimental\n---\n# Classificação da mágika e testemunhas\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Coincidente, vulgar e testemunhas\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md)\n\n",
+          "parts": [
+            "classificacao_001",
+            "classificacao_002",
+            "classificacao_003",
+            "classificacao_004"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/quintessencia_consumo.md",
+      "title": "Uso mecânico de Quintessência",
+      "aliases": [
+        "Uso mecânico de Quintessência"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Uso mecânico de Quintessência.\"\nstatus: experimental\n---\n# Uso mecânico de Quintessência\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Quintessência\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_001"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/ressonancia_mistica.md",
+      "title": "Ressonância mística",
+      "aliases": [
+        "Ressonância mística"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Ressonância mística.\"\nstatus: experimental\n---\n# Ressonância mística\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Ressonância\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/paradoxo_geracao_descarga.md",
+      "title": "Geração, acúmulo e descarga do Paradoxo",
+      "aliases": [
+        "Geração, acúmulo e descarga do Paradoxo"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Geração, acúmulo e descarga do Paradoxo.\"\nstatus: experimental\n---\n# Geração, acúmulo e descarga do Paradoxo\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Paradoxo\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_paradoxo_e_reacao.md)\n\n",
+          "parts": [
+            "paradoxo_001",
+            "paradoxo_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esfera_espirito_niveis.md",
+      "title": "Níveis da Esfera de Espírito",
+      "aliases": [
+        "Níveis da Esfera de Espírito"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Níveis da Esfera de Espírito.\"\nstatus: experimental\n---\n# Níveis da Esfera de Espírito\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Níveis de maestria\n\n[Fonte original](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_002",
+            "espirito_003",
+            "espirito_004",
+            "espirito_005",
+            "espirito_006",
+            "espirito_007"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/focos_instrumentos_requisitos.md",
+      "title": "Focos e instrumentos — requisitos e ausência",
+      "aliases": [
+        "Focos e instrumentos — requisitos e ausência"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Focos e instrumentos — requisitos e ausência.\"\nstatus: experimental\n---\n# Focos e instrumentos — requisitos e ausência\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Mecânica dos focos\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_focos_e_instrumentos.md)\n\n",
+          "parts": [
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_002",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_003",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_004",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_005"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/radiacao_toxinas_doencas.md",
+      "title": "Radiação, toxinas e doenças",
+      "aliases": [
+        "Radiação, toxinas e doenças"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Radiação, toxinas e doenças.\"\nstatus: experimental\n---\n# Radiação, toxinas e doenças\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Riscos ambientais\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_radiacao_e_toxinas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_001",
+            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_002",
+            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_003"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
     }
   ]
 }

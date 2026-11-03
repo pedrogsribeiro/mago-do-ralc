@@ -74,3 +74,18 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 ## Fichas, criaturas e dispositivos
 
 - [Consultar fichas e dispositivos por nome](fichas/readme.md)
+
+## Valores fundamentais, mágika e riscos
+
+- [Teste básico e modificadores](teste_basico_modificadores.md)
+- [Repetição de testes (Retries)](repeticao_testes.md)
+- [Limiares e graus de sucesso](limiares_e_graus_sucesso.md)
+- [Regra do 1 e falha crítica](falha_critica_regra_um.md)
+- [Cooperação e ações](cooperacao_sinergia.md)
+- [Classificação da mágika e testemunhas](classificacao_magika_testemunhas.md)
+- [Uso mecânico de Quintessência](quintessencia_consumo.md)
+- [Ressonância mística](ressonancia_mistica.md)
+- [Geração, acúmulo e descarga do Paradoxo](paradoxo_geracao_descarga.md)
+- [Níveis da Esfera de Espírito](esfera_espirito_niveis.md)
+- [Focos e instrumentos — requisitos e ausência](focos_instrumentos_requisitos.md)
+- [Radiação, toxinas e doenças](radiacao_toxinas_doencas.md)
