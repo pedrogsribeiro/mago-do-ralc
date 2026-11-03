@@ -10160,78 +10160,6 @@
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/qualidades_valores_custos.md",
-      "title": "Qualidades — custos e efeitos",
-      "aliases": [
-        "Qualidades — custos e efeitos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Qualidades — custos e efeitos.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Qualidades — custos e efeitos\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Regras gerais de aquisição\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_001"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Qualidades disponíveis\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_003",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_004",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_005",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_006",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_007",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_008",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_009",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_010",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_011"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/defeitos_valores_custos.md",
-      "title": "Defeitos — custos e efeitos",
-      "aliases": [
-        "Defeitos — custos e efeitos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Defeitos — custos e efeitos.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Defeitos — custos e efeitos\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Regras gerais de aquisição\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_001"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Defeitos disponíveis\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_013",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_014",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_015",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_016",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_017",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_018",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_019",
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_020"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Defeitos genéticos\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_qualidades_e_defeitos_021"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/perturbacoes_psicologicas.md",
       "title": "Tabela de perturbações psicológicas",
       "aliases": [
@@ -11060,6 +10988,68 @@
           "prefix": "\n## Tipos de ações e seus valores\n\n## Tabela de tipos de ação\n\n[Documento original: 08_capitulo_08_regras.md](../../00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md)\n\n",
           "parts": [
             "integral_03_sistemas_e_regras_08_capitulo_08_regras_003"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/qualidades_e_defeitos.md",
+      "title": "Qualidades e Defeitos",
+      "aliases": [
+        "Qualidades — custos e efeitos",
+        "Defeitos — custos e efeitos"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Qualidades e Defeitos.\"\ntags: [regras, valores, qualidades, defeitos, personagens]\nstatus: experimental\n---\n# Qualidades e Defeitos\n\nQualidades e Defeitos são reunidos em um mesmo assunto para referência de custos, requisitos e efeitos. Os trechos de regras permanecem literais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Qualidades — custos e efeitos\n\n## Regras gerais de aquisição\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Qualidades disponíveis\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_003",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_004",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_005",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_006",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_007",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_008",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_009",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_010",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_011"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Defeitos — custos e efeitos\n\n## Regras gerais de aquisição\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Defeitos disponíveis\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_013",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_014",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_015",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_016",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_017",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_018",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_019",
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_020"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Defeitos genéticos\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_qualidades_e_defeitos_021"
           ],
           "suffix": "\n\n"
         }
