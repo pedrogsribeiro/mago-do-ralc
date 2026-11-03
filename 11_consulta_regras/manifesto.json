@@ -10142,49 +10142,6 @@
       "suffix": "\n[Índice de valores](readme.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/tipos_acoes.md",
-      "title": "Tipos de ações e seus valores",
-      "aliases": [
-        "Tipos de ações e seus valores"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Tipos de ações e seus valores.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Tipos de ações e seus valores\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Tabela de tipos de ação\n\n[Documento original: 08_capitulo_08_regras.md](../../00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md)\n\n",
-          "parts": [
-            "integral_03_sistemas_e_regras_08_capitulo_08_regras_003"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/nucleo_dados_dificuldades.md",
-      "title": "Testes, dificuldades e sucessos",
-      "aliases": [
-        "Testes, dificuldades e sucessos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Testes, dificuldades e sucessos.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Testes, dificuldades e sucessos\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## O núcleo do sistema\n\n[Documento original: 08_capitulo_08_regras.md](../../00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md)\n\n",
-          "parts": [
-            "integral_03_sistemas_e_regras_08_capitulo_08_regras_001"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Falhas e regra do 1\n\n[Documento original: 08_capitulo_08_regras.md](../../00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md)\n\n",
-          "parts": [
-            "integral_03_sistemas_e_regras_08_capitulo_08_regras_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/vitalidade_penalidades_movimento.md",
       "title": "Penalidades de Vitalidade e movimentação",
       "aliases": [
@@ -10317,99 +10274,6 @@
         }
       ],
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/teste_basico_modificadores.md",
-      "title": "Teste básico e modificadores",
-      "aliases": [
-        "Teste básico e modificadores"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Teste básico e modificadores.\"\nstatus: experimental\n---\n# Teste básico e modificadores\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Teste básico e modificadores\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
-          "parts": [
-            "resolucao_001",
-            "resolucao_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/repeticao_testes.md",
-      "title": "Repetição de testes (Retries)",
-      "aliases": [
-        "Repetição de testes (Retries)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Repetição de testes (Retries).\"\nstatus: experimental\n---\n# Repetição de testes (Retries)\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Tentando de Novo\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
-          "parts": [
-            "resolucao_003"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/limiares_e_graus_sucesso.md",
-      "title": "Limiares e graus de sucesso",
-      "aliases": [
-        "Limiares e graus de sucesso"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Limiares e graus de sucesso.\"\nstatus: experimental\n---\n# Limiares e graus de sucesso\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Limiares e graus de sucesso\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
-          "parts": [
-            "resolucao_004",
-            "resolucao_006"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/falha_critica_regra_um.md",
-      "title": "Regra do 1 e falha crítica",
-      "aliases": [
-        "Regra do 1 e falha crítica"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Regra do 1 e falha crítica.\"\nstatus: experimental\n---\n# Regra do 1 e falha crítica\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Regra do 1\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
-          "parts": [
-            "resolucao_005"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/cooperacao_sinergia.md",
-      "title": "Cooperação e ações",
-      "aliases": [
-        "Cooperação e ações"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Cooperação e ações.\"\nstatus: experimental\n---\n# Cooperação e ações\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Tipos de ação e cooperação\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md)\n\n",
-          "parts": [
-            "acoes_001",
-            "acoes_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
     },
     {
       "path": "11_consulta_regras/valores/classificacao_magika_testemunhas.md",
@@ -11120,6 +10984,82 @@
           "prefix": "\n## Especialidades de Atributos e Habilidades\n\n## Regra de especialidades\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
           "parts": [
             "integral_02_criacao_de_personagem_regras_criacao_de_personagem_007"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/resolucao_de_acoes.md",
+      "title": "Resolução de ações e testes",
+      "aliases": [
+        "Testes, dificuldades e sucessos",
+        "Teste básico e modificadores",
+        "Limiares e graus de sucesso",
+        "Regra do 1 e falha crítica",
+        "Repetição de testes (Retries)",
+        "Cooperação e ações",
+        "Tipos de ações e seus valores"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Resolução de ações e testes.\"\ntags: [regras, valores, testes, resolucao, acoes]\nstatus: experimental\n---\n# Resolução de ações e testes\n\nRegras reunidas por assunto. Os textos das regras permanecem literais, com subtítulos de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Testes, dificuldades e sucessos\n\n## O núcleo do sistema\n\n[Documento original: 08_capitulo_08_regras.md](../../00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md)\n\n",
+          "parts": [
+            "integral_03_sistemas_e_regras_08_capitulo_08_regras_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Falhas e regra do 1\n\n[Documento original: 08_capitulo_08_regras.md](../../00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md)\n\n",
+          "parts": [
+            "integral_03_sistemas_e_regras_08_capitulo_08_regras_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Teste básico e modificadores\n\n## Teste básico e modificadores\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_001",
+            "resolucao_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Limiares e graus de sucesso\n\n## Limiares e graus de sucesso\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_004",
+            "resolucao_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Regra do 1 e falha crítica\n\n## Regra do 1\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_005"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Repetição de testes (Retries)\n\n## Tentando de Novo\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_resolucao_e_dificuldades.md)\n\n",
+          "parts": [
+            "resolucao_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Cooperação e ações\n\n## Tipos de ação e cooperação\n\n[Fonte original](../../00_biblia/03_sistemas_e_regras/regras_acoes_e_cooperacao.md)\n\n",
+          "parts": [
+            "acoes_001",
+            "acoes_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Tipos de ações e seus valores\n\n## Tabela de tipos de ação\n\n[Documento original: 08_capitulo_08_regras.md](../../00_biblia/03_sistemas_e_regras/08_capitulo_08_regras.md)\n\n",
+          "parts": [
+            "integral_03_sistemas_e_regras_08_capitulo_08_regras_003"
           ],
           "suffix": "\n\n"
         }

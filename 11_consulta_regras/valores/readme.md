@@ -35,8 +35,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 ## Criação de personagem, ações e riscos
 
 - [Criação e evolução — distribuição, bônus, XP e especialidades](criacao_e_evolucao.md)
-- [Tipos de ações e seus valores](tipos_acoes.md)
-- [Testes, dificuldades e sucessos](nucleo_dados_dificuldades.md)
+- [Resolução de ações e testes — dificuldades, sucessos, falhas, repetição e cooperação](resolucao_de_acoes.md)
 - [Penalidades de Vitalidade e movimentação](vitalidade_penalidades_movimento.md)
 - [Qualidades — custos e efeitos](qualidades_valores_custos.md)
 - [Defeitos — custos e efeitos](defeitos_valores_custos.md)
@@ -57,11 +56,6 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 ## Valores fundamentais, mágika e riscos
 
-- [Teste básico e modificadores](teste_basico_modificadores.md)
-- [Repetição de testes (Retries)](repeticao_testes.md)
-- [Limiares e graus de sucesso](limiares_e_graus_sucesso.md)
-- [Regra do 1 e falha crítica](falha_critica_regra_um.md)
-- [Cooperação e ações](cooperacao_sinergia.md)
 - [Classificação da mágika e testemunhas](classificacao_magika_testemunhas.md)
 - [Uso mecânico de Quintessência](quintessencia_consumo.md)
 - [Ressonância mística](ressonancia_mistica.md)
