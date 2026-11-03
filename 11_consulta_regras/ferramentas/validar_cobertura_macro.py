@@ -36,7 +36,7 @@ def main() -> int:
     index = (DIR / "valores/readme.md").read_text(encoding="utf-8")
     for path in views:
         assert (ROOT / path).is_file(), ("Vista sem arquivo", path)
-        relative = Path(path).relative_to(DIR / "valores").as_posix()
+        relative = Path(path).relative_to("11_consulta_regras/valores").as_posix()
         assert re.search(r"\]\(" + re.escape(relative) + r"\)", index), ("Vista não indexada", path)
 
     original_sources = {s["path"] for s in manifest["baseline_sources"]}
