@@ -116,3 +116,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Complementação Umbra:** textos de camadas e Vidare, combate espiritual e navegação incorporados à consulta macro existente. Três origens verificadas por reconstrução; P4 revalidação automática, P1 restante aberto.
 
 - **2026-11-02 — Complementação Paradoxo:** Silêncio (Quiet), sua recuperação e trechos pertinentes do capítulo de Mágika foram incorporados à consulta de Paradoxo, com proveniência por fonte e reprodução literal. P1/P4 ainda exigem revisão final.
+
+- **2026-11-02 — Complementação de procedimentos:** duelos mágicos/virtuais incorporados a Combate e desafios/provações incorporados a Resolução de ações, sem criar novas páginas. Quatro blocos normativos adicionais, fontes intactas.
