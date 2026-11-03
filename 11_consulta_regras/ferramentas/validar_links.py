@@ -10,7 +10,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[2]
 CONSULTAS = ROOT / "11_consulta_regras"
 IGNORE = {"corpus", "corpus_integral", "auditoria", "_execucao_temporaria", "ferramentas"}
-LINK = re.compile(r"(?<!!)\[[^\]\n]+\]\(([^)\n]+)\)")
+LINK = re.compile(r"!?\[[^\]\n]+\]\(([^)\n]+)\)")
 
 def main() -> int:
     files = sorted(
