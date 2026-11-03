@@ -106,3 +106,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Navegação macro:** índices principais da consulta, de valores e de mágika foram regenerados a partir da lista de 24 vistas em manifesto. Nomes e links conferidos programaticamente; auditoria de links externos a esses índices ainda pendente. P4 continua aberto.
 
 - **2026-11-02 — Prova reproduzível preparada:** verificação de links internos de todas as páginas publicadas mais execução automática de `validar_integridade.py` em push da branch experimental. P4 será concluída apenas após prova efetiva em CI e revisão do resultado; P5 permanece aberto.
+
+- **2026-11-02 — Diagnóstico CI:** verificação literal PASS (73 fontes, 674 fragmentos, 24 consultas). Links: 11 falhas em 250, concentradas em links editoriais de divergências e um link relativo literal copiado da fonte Umbra. Correção: links editoriais ajustados; compatibilidade para link original da Umbra por symlink, sem modificar o fragmento fonte. Reexecutar prova P4.
