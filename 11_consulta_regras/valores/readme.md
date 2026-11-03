@@ -52,11 +52,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 ## Veículos, Teia Digital, contramágika e Maravilhas
 
-- [Velocidade segura e máxima de veículos](velocidade_veiculos.md)
-- [Manobrabilidade e manobras de direção](manobrabilidade_veiculos.md)
-- [Durability e Structure de veículos](durabilidade_estrutura_veiculos.md)
-- [Perseguições de veículos](perseguicoes_veiculos.md)
-- [Colisões, massa e dano de veículos](colisoes_e_dano_veiculos.md)
+- [Veículos — condução, perseguições, resistência e colisões](veiculos.md)
 - [Acesso à Teia Digital](acesso_teia_digital.md)
 - [Segurança passiva e ativa na Teia Digital](seguranca_teia_digital.md)
 - [Hacking e perseguições na Teia Digital](hacking_teia_digital.md)

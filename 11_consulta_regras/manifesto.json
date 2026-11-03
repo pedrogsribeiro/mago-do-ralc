@@ -10506,129 +10506,6 @@
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/velocidade_veiculos.md",
-      "title": "Velocidade segura e máxima de veículos",
-      "aliases": [
-        "Velocidade segura e máxima de veículos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Velocidade segura e máxima de veículos.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Velocidade segura e máxima de veículos\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Safe Speed e Max Speed\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_002",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_003"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/manobrabilidade_veiculos.md",
-      "title": "Manobrabilidade e manobras de direção",
-      "aliases": [
-        "Manobrabilidade e manobras de direção"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Manobrabilidade e manobras de direção.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Manobrabilidade e manobras de direção\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Maneuverability\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_004"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Direção e manobras\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_007"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Stunt driving\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_019"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/durabilidade_estrutura_veiculos.md",
-      "title": "Durability e Structure de veículos",
-      "aliases": [
-        "Durability e Structure de veículos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Durability e Structure de veículos.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Durability e Structure de veículos\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Durability e Structure\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_005",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_006",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_010"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/perseguicoes_veiculos.md",
-      "title": "Perseguições de veículos",
-      "aliases": [
-        "Perseguições de veículos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Perseguições de veículos.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Perseguições de veículos\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Perseguições\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_009"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/colisoes_e_dano_veiculos.md",
-      "title": "Colisões, massa e dano de veículos",
-      "aliases": [
-        "Colisões, massa e dano de veículos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Colisões, massa e dano de veículos.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Colisões, massa e dano de veículos\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Colisão contra personagem ou objeto\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_011"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Dano aos ocupantes e ao veículo\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_013",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_015"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Colisão entre veículos e massa\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_017",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_018"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/acesso_teia_digital.md",
       "title": "Acesso à Teia Digital",
       "aliases": [
@@ -11335,6 +11212,89 @@
         }
       ],
       "suffix": "[Voltar ao índice de valores](../readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/veiculos.md",
+      "title": "Veículos",
+      "aliases": [
+        "Velocidade segura e máxima de veículos",
+        "Manobrabilidade e manobras de direção",
+        "Durability e Structure de veículos",
+        "Perseguições de veículos",
+        "Colisões, massa e dano de veículos"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro por assunto: veículos, condução, perseguições, resistência e colisões.\"\ntags: [regras, valores, veiculos, consulta]\nstatus: experimental\n---\n# Veículos\n\nReúne, em uma única consulta, as regras disponíveis para veículos. Os trechos normativos são reproduzidos literalmente a partir das fontes; os subtítulos são navegação editorial.\n",
+      "groups": [
+        {
+          "prefix": "\n## Velocidade segura e máxima de veículos\n\n## Safe Speed e Max Speed\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_002",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Manobrabilidade e manobras de direção\n\n## Maneuverability\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Direção e manobras\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_007"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Stunt driving\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_019"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Durability e Structure de veículos\n\n## Durability e Structure\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_005",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_006",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_010"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Perseguições de veículos\n\n## Perseguições\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_009"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Colisões, massa e dano de veículos\n\n## Colisão contra personagem ou objeto\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_011"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Dano aos ocupantes e ao veículo\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_013",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_015"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Colisão entre veículos e massa\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_017",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_018"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
     }
   ]
 }
