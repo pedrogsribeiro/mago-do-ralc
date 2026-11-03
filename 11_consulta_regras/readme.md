@@ -1,6 +1,6 @@
 ---
 type: indice
-summary: "Consulta por necessidade a textos literais de cinco fontes M20, incluindo as ações de Do."
+summary: "Consulta por macroassunto aos textos literais das regras M20."
 tags: [consulta, combate, do, regras, piloto, texto_intacto]
 status: experimental
 ---
@@ -16,7 +16,7 @@ status: experimental
 - [Alcance e conexão com o alvo](valores/alcance_e_conexoes.md)
 - [Graduação da Película](valores/graduacao_pelicula.md)
 - [Manobras de Artes Marciais](valores/tabela_manobras.md)
-- [Técnicas especiais de Do](valores/tabela_tecnicas_do.md)
+- [Técnicas especiais de Do](valores/do.md)
 - [Níveis de Vitalidade](valores/niveis_vitalidade.md)
 
 ## Procedimentos das regras
@@ -33,14 +33,14 @@ status: experimental
 | Como atacar em combate? | [Consultar](consultas/atacar_em_combate.md) |
 | Como resolver dano, absorção e cura? | [Consultar](consultas/resolver_dano_e_cura.md) |
 
-## Do — Irmãos de Akasha
+## Do — Irmãos de Akasha (consulta única)
 
 | Quero... | Abrir |
 |---|---|
-| Como atacar ou contra-atacar utilizando Do? | [Consultar](consultas/usar_do_para_atacar.md) |
-| Como defender-me utilizando Do? | [Consultar](consultas/usar_do_para_defender.md) |
-| Como treinar, manter e aprender técnicas de Do? | [Consultar](consultas/aprender_e_treinar_do.md) |
-| Como usar Do fora do combate? | [Consultar](consultas/usar_do_fora_do_combate.md) |
+| Como atacar ou contra-atacar utilizando Do? | [Consultar](valores/do.md) |
+| Como defender-me utilizando Do? | [Consultar](valores/do.md) |
+| Como treinar, manter e aprender técnicas de Do? | [Consultar](valores/do.md) |
+| Como usar Do fora do combate? | [Consultar](valores/do.md) |
 
 [Acessar também o índice de Do](do/readme.md).
 
@@ -66,10 +66,10 @@ status: experimental
 - **esquivar · esquiva · bloquear · aparar · defesa · cobertura** → [Como evitar um ataque?](consultas/evitar_um_ataque.md)
 - **iniciativa · ataque · soco · chute · arma · combate** → [Como atacar em combate?](consultas/atacar_em_combate.md)
 - **dano · absorção · vitalidade · cura · ferimento · proteção** → [Como resolver dano, absorção e cura?](consultas/resolver_dano_e_cura.md)
-- **do · akasha · soco suave · chute do tufão · arremesso do furacão · artemis · dez mil armas** → [Como atacar ou contra-atacar utilizando Do?](consultas/usar_do_para_atacar.md)
-- **do · aparar armas · pele de ferro · flor de ameixa · cortar flechas · esquivar** → [Como defender-me utilizando Do?](consultas/usar_do_para_defender.md)
-- **treinar · progredir · aprender · oito membros · dedicação · prática diária** → [Como treinar, manter e aprender técnicas de Do?](consultas/aprender_e_treinar_do.md)
-- **do · tarefa pacífica · oito membros · harmonia · caminho pacífico** → [Como usar Do fora do combate?](consultas/usar_do_fora_do_combate.md)
+- **do · akasha · soco suave · chute do tufão · arremesso do furacão · artemis · dez mil armas** → [Como atacar ou contra-atacar utilizando Do?](valores/do.md)
+- **do · aparar armas · pele de ferro · flor de ameixa · cortar flechas · esquivar** → [Como defender-me utilizando Do?](valores/do.md)
+- **treinar · progredir · aprender · oito membros · dedicação · prática diária** → [Como treinar, manter e aprender técnicas de Do?](valores/do.md)
+- **do · tarefa pacífica · oito membros · harmonia · caminho pacífico** → [Como usar Do fora do combate?](valores/do.md)
 
 ## Sobre a integridade dos textos
 
