@@ -10,10 +10,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 | Referência | Link |
 |---|---|
-| Duração dos efeitos mágicos | [Consultar](duracao_dos_efeitos.md) |
-| Dano e cura mágicos | [Consultar](dano_e_cura_magicos.md) |
-| Dificuldades e modificadores de mágika | [Consultar](dificuldades_magika.md) |
-| Alcance e conexão com o alvo | [Consultar](alcance_e_conexoes.md) |
+| Mágika — parâmetros, classificação, alcance, duração, dano e focos | [Consultar](magika_efeitos.md) |
 | Graduação da Película | [Consultar](graduacao_pelicula.md) |
 | Manobras de Artes Marciais | [Consultar](tabela_manobras.md) |
 | Técnicas especiais de Do | [Consultar](do.md) |
@@ -49,8 +46,6 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 ## Valores fundamentais, mágika e riscos
 
-- [Classificação da mágika e testemunhas](classificacao_magika_testemunhas.md)
 - [Uso mecânico de Quintessência](quintessencia_consumo.md)
 - [Ressonância mística](ressonancia_mistica.md)
 - [Geração, acúmulo e descarga do Paradoxo](paradoxo_geracao_descarga.md)
-- [Focos e instrumentos — requisitos e ausência](focos_instrumentos_requisitos.md)

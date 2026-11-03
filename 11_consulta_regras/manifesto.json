@@ -9766,102 +9766,6 @@
       "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/duracao_dos_efeitos.md",
-      "title": "Duração dos efeitos mágicos",
-      "aliases": [
-        "Duração dos efeitos mágicos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Duração dos efeitos mágicos.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Duração dos efeitos mágicos\n\n[Diferença entre fontes DVG-003](../divergencias_documentais.md): as versões são apresentadas literalmente, sem escolha ou correção.\n\n",
-      "groups": [
-        {
-          "prefix": "\n### Tabela de Duração de Efeitos\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md)\n\n",
-          "parts": [
-            "duracao_002"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Duração equivalente no quadro do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
-          "parts": [
-            "capitulo_magika_006"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/dano_e_cura_magicos.md",
-      "title": "Dano e cura mágicos",
-      "aliases": [
-        "Dano e cura mágicos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Dano e cura mágicos.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Dano e cura mágicos\n\n[Diferença entre fontes DVG-004](../divergencias_documentais.md): as versões são apresentadas literalmente, sem escolha ou correção.\n\n",
-      "groups": [
-        {
-          "prefix": "\n### Cálculo de Dano e Cura Mística\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md)\n\n",
-          "parts": [
-            "duracao_001"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Dano e cura no quadro do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
-          "parts": [
-            "capitulo_magika_006"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/dificuldades_magika.md",
-      "title": "Dificuldades e modificadores de mágika",
-      "aliases": [
-        "Dificuldades e modificadores de mágika"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Dificuldades e modificadores de mágika.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Dificuldades e modificadores de mágika\n\n",
-      "groups": [
-        {
-          "prefix": "\n### Dificuldades do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
-          "parts": [
-            "capitulo_magika_002",
-            "capitulo_magika_003"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Redutores e aumentadores\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)\n\n",
-          "parts": [
-            "modificadores_001",
-            "modificadores_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/alcance_e_conexoes.md",
-      "title": "Alcance e conexão com o alvo",
-      "aliases": [
-        "Alcance e conexão com o alvo"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Alcance e conexão com o alvo.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Alcance e conexão com o alvo\n\n",
-      "groups": [
-        {
-          "prefix": "\n### Níveis de alcance e conexão\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_alcance_e_conexoes.md)\n\n",
-          "parts": [
-            "correspondencia_001",
-            "correspondencia_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/graduacao_pelicula.md",
       "title": "Graduação da Película",
       "aliases": [
@@ -10004,27 +9908,6 @@
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/classificacao_magika_testemunhas.md",
-      "title": "Classificação da mágika e testemunhas",
-      "aliases": [
-        "Classificação da mágika e testemunhas"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Classificação da mágika e testemunhas.\"\nstatus: experimental\n---\n# Classificação da mágika e testemunhas\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Coincidente, vulgar e testemunhas\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md)\n\n",
-          "parts": [
-            "classificacao_001",
-            "classificacao_002",
-            "classificacao_003",
-            "classificacao_004"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/quintessencia_consumo.md",
       "title": "Uso mecânico de Quintessência",
       "aliases": [
@@ -10073,27 +9956,6 @@
           "parts": [
             "paradoxo_001",
             "paradoxo_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/focos_instrumentos_requisitos.md",
-      "title": "Focos e instrumentos — requisitos e ausência",
-      "aliases": [
-        "Focos e instrumentos — requisitos e ausência"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Focos e instrumentos — requisitos e ausência.\"\nstatus: experimental\n---\n# Focos e instrumentos — requisitos e ausência\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Mecânica dos focos\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_focos_e_instrumentos.md)\n\n",
-          "parts": [
-            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_002",
-            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_003",
-            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_004",
-            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_005"
           ],
           "suffix": "\n\n"
         }
@@ -10970,6 +10832,94 @@
             "espirito_005",
             "espirito_006",
             "espirito_007"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/magika_efeitos.md",
+      "title": "Mágika — efeitos e parâmetros",
+      "aliases": [
+        "Classificação da mágika e testemunhas",
+        "Dificuldades e modificadores de mágika",
+        "Duração dos efeitos mágicos",
+        "Dano e cura mágicos",
+        "Alcance e conexão com o alvo",
+        "Focos e instrumentos — requisitos e ausência"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: parâmetros, classificação, efeitos e requisitos da mágika.\"\ntags: [regras, valores, magika, efeitos]\nstatus: experimental\n---\n# Mágika — efeitos e parâmetros\n\nConcentra parâmetros de efeitos e condições da conjuração. Os textos normativos são literais, organizados por subtítulos editoriais.\n",
+      "groups": [
+        {
+          "prefix": "\n## Classificação da mágika e testemunhas\n\n## Coincidente, vulgar e testemunhas\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md)\n\n",
+          "parts": [
+            "classificacao_001",
+            "classificacao_002",
+            "classificacao_003",
+            "classificacao_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Dificuldades e modificadores de mágika\n\n### Dificuldades do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
+          "parts": [
+            "capitulo_magika_002",
+            "capitulo_magika_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Redutores e aumentadores\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)\n\n",
+          "parts": [
+            "modificadores_001",
+            "modificadores_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Duração dos efeitos mágicos\n\n### Tabela de Duração de Efeitos\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md)\n\n",
+          "parts": [
+            "duracao_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Duração equivalente no quadro do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
+          "parts": [
+            "capitulo_magika_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Dano e cura mágicos\n\n### Cálculo de Dano e Cura Mística\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_dano_cura_duracao.md)\n\n",
+          "parts": [
+            "duracao_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Dano e cura no quadro do Capítulo 10\n\n[Origem](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
+          "parts": [
+            "capitulo_magika_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Alcance e conexão com o alvo\n\n### Níveis de alcance e conexão\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_alcance_e_conexoes.md)\n\n",
+          "parts": [
+            "correspondencia_001",
+            "correspondencia_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Focos e instrumentos — requisitos e ausência\n\n## Mecânica dos focos\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_focos_e_instrumentos.md)\n\n",
+          "parts": [
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_002",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_003",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_004",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_005"
           ],
           "suffix": "\n\n"
         }
