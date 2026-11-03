@@ -1,12 +1,14 @@
 ---
 type: consulta_valor
-summary: "Consulta macro: parâmetros, classificação, efeitos e requisitos da mágika."
-tags: [regras, valores, magika, efeitos]
+summary: "Consulta macro: Mágika, procedimentos de conjuração, parâmetros e efeitos."
+tags: [regras, magika, conjuracao, efeitos, parametros]
 status: experimental
 ---
-# Mágika — efeitos e parâmetros
+# Mágika — conjuração, parâmetros e efeitos
 
-Concentra parâmetros de efeitos e condições da conjuração. Os textos normativos são literais, organizados por subtítulos editoriais.
+Reúne os procedimentos de conjuração e os valores da mágika. Trechos de regras preservados literalmente; subdivisões são editoriais.
+
+## Mágika — efeitos e parâmetros
 
 ## Classificação da mágika e testemunhas
 
@@ -233,6 +235,231 @@ Se o mago possuir seu foco básico, mas estiver sem uma ferramenta específica n
 * **Arete 1 e 2:** Todos os 7 instrumentos são estritamente obrigatórios.
 * **Arete 3 a 9:** A cada ponto de Arete adquirido acima do nível 2, o mago pode escolher **um instrumento de sua lista para descartar permanentemente**. Ele torna-se capaz de realizar qualquer efeito místico que exigia aquela ferramenta sem sofrer penalidades de dificuldade ou custos de Força de Vontade.
 * **Arete 10 (Ascensão):** O mago transcende a necessidade de qualquer ferramenta física, realizando mágika puramente por Vontade.
+
+---
+
+
+
+
+## Como realizar um efeito de mágika?
+
+### Procedimento completo de conjuração
+
+[Fonte — regras_magika_passo_a_passo.md](../../00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md)
+
+## 1. Passo 1: Declaração de Efeito
+* O jogador descreve a intenção narrativa da mágica que deseja realizar.
+* O jogador identifica quais **Esferas** do seu personagem são exigidas para a realização do efeito.
+
+---
+
+## 2. Passo 2: Definição de Dificuldade e Alvo
+* O Narrador define se o efeito é **Coincidente** ou **Vulgar** (com ou sem testemunhas Adormecidas).
+* A dificuldade base do teste é igual ao **nível da Esfera mais alta utilizada no efeito + modificador de tipo de efeito** (+3 para coincidente, +4 para vulgar sem testemunhas, +5 para vulgar com testemunhas).
+
+---
+
+## 3. Passo 3: A Rolagem de Arete
+* O jogador rola uma quantidade de dados de 10 lados (d10) igual ao atributo **Arete** do personagem.
+* A dificuldade do teste é a dificuldade base calculada no Passo 2, ajustada por modificadores de conjuração (instrumentos, tempo extra, gastar Quintessência).
+
+---
+
+## 4. Passo 4: Contagem de Sucessos
+* Cada dado com resultado igual ou maior que a dificuldade conta como **1 sucesso**.
+* Cada dado com resultado **1** anula um sucesso obtido na rolagem.
+* Se for acumulada pelo menos a quantidade mínima de sucessos exigida pelo efeito: a mágica é bem-sucedida.
+
+---
+
+## 5. Passo 5: Resolução de Falhas
+* **Falha Simples:** Se o teste obtiver zero sucessos líquidos após anulações, o efeito místico dissipa sem gerar resultados.
+* **Falha Crítica (Botch):** Se o teste obtiver zero sucessos líquidos e contiver pelo menos um dado com o resultado **1**, ocorre uma Falha Crítica, gerando descarga ou ganho violento de Paradoxo místico imediatamente.
+
+
+
+### Classificar o efeito
+
+[Fonte — regras_magika_classificacao_e_testemunhas.md](../../00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md)
+
+## 1. Mágika Coincidente
+Efeitos que fingem respeitar as leis normais da física, probabilidade ou lógica da ciência consensual perante observadores mortais:
+* **Fórmula de Dificuldade Base:** Nível da Esfera mais alta utilizada **+ 3**.
+* **Exemplos:** Um raio cair sobre um alvo durante uma tempestade de raios; uma fechadura emperrar ou quebrar ao ser forçada; um pneu estourar ao perseguir um veículo.
+
+---
+
+## 2. Mágika Vulgar Sem Testemunhas
+Efeitos obviamente mágicos que violam as leis naturais da realidade, ocorrendo em locais ocultos ou sem nenhum mortal Adormecido avistando:
+* **Fórmula de Dificuldade Base:** Nível da Esfera mais alta utilizada **+ 4**.
+* **Exemplos:** Levitar dentro de um quarto trancado; conjurar chamas a partir de mãos nuas em um beco deserto; teletransportar-se sem ser observado.
+* **Nota sobre Observadores:** Magos, criaturas sobrenaturais e cidadãos extraordinários da Tecnocracia **não** contam como testemunhas Adormecidas.
+
+---
+
+## 3. Mágika Vulgar Com Testemunhas
+Efeitos obviamente mágicos que violam as leis da realidade e que ocorrem sob a observação direta de um ou mais mortais Adormecidos:
+* **Fórmula de Dificuldade Base:** Nível da Esfera mais alta utilizada **+ 5**.
+* **Exemplos:** Levitar na frente de civis em uma praça pública; atravessar uma parede sólida sob a vigilância de pedestres comuns.
+
+---
+
+## 4. Dificuldade Limite
+* Independentemente da aplicação de penalidades e modificadores de Arete, o valor final calculado da dificuldade da jogada de mágika não pode ultrapassar o limite máximo de **10**.
+
+
+
+### Modificar a dificuldade
+
+[Fonte — regras_magika_modificadores_dificuldade.md](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)
+
+## 1. Redutores de Dificuldade (Até o limite de -3)
+A dificuldade base calculada pode ser diminuída pelos seguintes fatores:
+
+* **Gastar Quintessência:** Gastar pontos de Quintessência da reserva pessoal reduz a dificuldade em **-1 para cada ponto de energia gasto** (limite máximo de **-3 de redução**).
+* **Tempo Adicional:** Concentrar-se por turnos adicionais antes de lançar o efeito místico reduz a dificuldade em **-1 por turno extra de preparação** (limite máximo de **-3 de redução**).
+* **Foco Especializado / Instrumento Único:** Utilizar ferramentas exclusivas ou consagradas da Tradição do mago reduz em **-1 na dificuldade**.
+
+---
+
+## 2. Aumentadores de Dificuldade (Até o limite de +3)
+A dificuldade base calculada é acrescida pelos seguintes fatores:
+
+* **Conjurar Sem Instrumentos (Focos):** Tentar realizar mágika sem utilizar os instrumentos/focos obrigatórios de sua graduação de Arete adiciona **+1 a +3 na dificuldade**.
+* **Distração e Pressão Dramática:** Conjurar em meio a combates ativos, sob fogo inimigo ou sofrendo penalidades de ferimentos adiciona **+1 ou +2 na dificuldade**.
+* **Mágika Rápida (Fast-Casting):** Tentar lançar um efeito místico instantaneamente em combate sem gastar 1 turno completo de concentração soma **+1 de dificuldade**.
+
+
+
+## Como determinar a dificuldade de uma mágika?
+
+### Coincidente, vulgar e testemunhas
+
+[Fonte — regras_magika_classificacao_e_testemunhas.md](../../00_biblia/05_regras_de_magika/regras_magika_classificacao_e_testemunhas.md)
+
+## 1. Mágika Coincidente
+Efeitos que fingem respeitar as leis normais da física, probabilidade ou lógica da ciência consensual perante observadores mortais:
+* **Fórmula de Dificuldade Base:** Nível da Esfera mais alta utilizada **+ 3**.
+* **Exemplos:** Um raio cair sobre um alvo durante uma tempestade de raios; uma fechadura emperrar ou quebrar ao ser forçada; um pneu estourar ao perseguir um veículo.
+
+---
+
+## 2. Mágika Vulgar Sem Testemunhas
+Efeitos obviamente mágicos que violam as leis naturais da realidade, ocorrendo em locais ocultos ou sem nenhum mortal Adormecido avistando:
+* **Fórmula de Dificuldade Base:** Nível da Esfera mais alta utilizada **+ 4**.
+* **Exemplos:** Levitar dentro de um quarto trancado; conjurar chamas a partir de mãos nuas em um beco deserto; teletransportar-se sem ser observado.
+* **Nota sobre Observadores:** Magos, criaturas sobrenaturais e cidadãos extraordinários da Tecnocracia **não** contam como testemunhas Adormecidas.
+
+---
+
+## 3. Mágika Vulgar Com Testemunhas
+Efeitos obviamente mágicos que violam as leis da realidade e que ocorrem sob a observação direta de um ou mais mortais Adormecidos:
+* **Fórmula de Dificuldade Base:** Nível da Esfera mais alta utilizada **+ 5**.
+* **Exemplos:** Levitar na frente de civis em uma praça pública; atravessar uma parede sólida sob a vigilância de pedestres comuns.
+
+---
+
+## 4. Dificuldade Limite
+* Independentemente da aplicação de penalidades e modificadores de Arete, o valor final calculado da dificuldade da jogada de mágika não pode ultrapassar o limite máximo de **10**.
+
+
+
+### Redutores e aumentadores
+
+[Fonte — regras_magika_modificadores_dificuldade.md](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)
+
+## 1. Redutores de Dificuldade (Até o limite de -3)
+A dificuldade base calculada pode ser diminuída pelos seguintes fatores:
+
+* **Gastar Quintessência:** Gastar pontos de Quintessência da reserva pessoal reduz a dificuldade em **-1 para cada ponto de energia gasto** (limite máximo de **-3 de redução**).
+* **Tempo Adicional:** Concentrar-se por turnos adicionais antes de lançar o efeito místico reduz a dificuldade em **-1 por turno extra de preparação** (limite máximo de **-3 de redução**).
+* **Foco Especializado / Instrumento Único:** Utilizar ferramentas exclusivas ou consagradas da Tradição do mago reduz em **-1 na dificuldade**.
+
+---
+
+## 2. Aumentadores de Dificuldade (Até o limite de +3)
+A dificuldade base calculada é acrescida pelos seguintes fatores:
+
+* **Conjurar Sem Instrumentos (Focos):** Tentar realizar mágika sem utilizar os instrumentos/focos obrigatórios de sua graduação de Arete adiciona **+1 a +3 na dificuldade**.
+* **Distração e Pressão Dramática:** Conjurar em meio a combates ativos, sob fogo inimigo ou sofrendo penalidades de ferimentos adiciona **+1 ou +2 na dificuldade**.
+* **Mágika Rápida (Fast-Casting):** Tentar lançar um efeito místico instantaneamente em combate sem gastar 1 turno completo de concentração soma **+1 de dificuldade**.
+
+
+
+### Quintessência e Ressonância
+
+[Fonte — regras_magika_quintessencia_e_ressonancia.md](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)
+
+## 1. Uso Mecânico de Quintessência
+A Quintessência representa a energia pura do cosmos utilizada para alimentar e estabilizar a mágica:
+
+* **Redução de Dificuldade:** O mago pode gastar pontos de sua reserva de Quintessência antes de realizar uma rolagem de Arete. Cada ponto gasto reduz a dificuldade do teste de mágika em **-1** (limite máximo de **-3 de redução**).
+* **Criação de Padrões (Materialização):** É obrigatório canalizar Quintessência (via Esfera de Primórdio 2) para criar padrões físicos (Matéria ou Vida) do nada ou para curar ferimentos de forma mística direta.
+* **Recarga de Maravilhas:** Pontos de Quintessência são investidos para reabastecer Amuletos, Matrizes e alimentar o funcionamento de Dispositivos e Fetiches.
+
+---
+
+## 2. Ressonância Mística
+A Ressonância é a assinatura de energia indelével que o mago imprime em suas mágikas de acordo com suas emoções, paradigma e mentalidade habitual (exemplos: Dinâmica, Estática ou Entrópica).
+
+* **Dados Extras:** Se a Ressonância do mago estiver alinhada tematicamente com o efeito conjurado (ex: Ressonância Dinâmica de "Fúria" em um feitiço destrutivo de Forças), o jogador ganha dados adicionais em sua rolagem de Arete.
+* **Acréscimos de Dificuldade:** Se a Ressonância for contrária ao efeito pretendido (ex: Ressonância Entrópica de "Morte" em um feitiço de cura de Vida), a dificuldade do teste de Arete aumenta.
+
+
+
+## Como alcançar um alvo distante com mágika?
+
+### Alcance e conexões de Correspondência
+
+[Fonte — regras_magika_alcance_e_conexoes.md](../../00_biblia/05_regras_de_magika/regras_magika_alcance_e_conexoes.md)
+
+## 1. Níveis de Alcance da Esfera
+A graduação na Esfera de Correspondência determina os limites físicos de alcance espacial para os efeitos místicos do mago:
+
+* **Correspondência 1:** Linha de visão direta do personagem.
+* **Correspondência 2:** Um local familiar ou visualizado em tempo real pelo personagem.
+* **Correspondência 3:** Qualquer local na superfície da Terra (sem barreiras físicas de distância).
+* **Correspondência 4:** Co-localização espacial (o mago consegue estar fisicamente em dois ou mais lugares terrestres simultaneamente).
+* **Correspondência 5:** Dobra espacial total.
+
+---
+
+## 2. Níveis de Conexão com o Alvo (Modificadores)
+A dificuldade ou quantidade de sucessos exigida para atingir um alvo fora da linha de visão do mago é modificada pelo seu nível de ligação com o objeto ou pessoa:
+
+* **Possessão Física Direta** (Possuir uma amostra de sangue, cabelo, DNA ou um objeto pessoal muito íntimo do alvo): **Dificuldade padrão** (sem acréscimos).
+* **Conhecimento Visual Detalhado** (Conhecer o rosto do alvo ou possuir uma fotografia recente detalhada): **+1 na dificuldade** do teste.
+* **Conhecimento Indireto** (Possuir apenas uma descrição física, nome escrito ou saber de sua existência indiretamente): **+3 na dificuldade** do teste.
+* **Nenhuma Conexão Anterior** (Tentar atingir um desconhecido sem nenhuma informação prévia ou ligação física): **+5 na dificuldade** do teste.
+
+
+
+### Declaração e resolução do efeito
+
+[Fonte — regras_magika_passo_a_passo.md](../../00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md)
+
+## 1. Passo 1: Declaração de Efeito
+* O jogador descreve a intenção narrativa da mágica que deseja realizar.
+* O jogador identifica quais **Esferas** do seu personagem são exigidas para a realização do efeito.
+
+---
+
+## 2. Passo 2: Definição de Dificuldade e Alvo
+* O Narrador define se o efeito é **Coincidente** ou **Vulgar** (com ou sem testemunhas Adormecidas).
+* A dificuldade base do teste é igual ao **nível da Esfera mais alta utilizada no efeito + modificador de tipo de efeito** (+3 para coincidente, +4 para vulgar sem testemunhas, +5 para vulgar com testemunhas).
+
+---
+
+## 3. Passo 3: A Rolagem de Arete
+* O jogador rola uma quantidade de dados de 10 lados (d10) igual ao atributo **Arete** do personagem.
+* A dificuldade do teste é a dificuldade base calculada no Passo 2, ajustada por modificadores de conjuração (instrumentos, tempo extra, gastar Quintessência).
+
+---
+
+## 4. Passo 4: Contagem de Sucessos
+* Cada dado com resultado igual ou maior que a dificuldade conta como **1 sucesso**.
+* Cada dado com resultado **1** anula um sucesso obtido na rolagem.
+* Se for acumulada pelo menos a quantidade mínima de sucessos exigida pelo efeito: a mágica é bem-sucedida.
 
 ---
 
