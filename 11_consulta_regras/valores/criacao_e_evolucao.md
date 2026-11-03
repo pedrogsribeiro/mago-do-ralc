@@ -1075,4 +1075,20 @@ Embora certas Essências tenham afinidades históricas com certas facções (Din
   * **Resistência a Controle Mental:** Concede **+1 a +3 dados** de resistência em testes contra feitiçarias de controle da Mente que tentem reescrever as memórias ou a identidade do mago.
 
 
+
+## Etapas de criação de personagem
+
+[Fonte original](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)
+
+## 1. Fases e Passos de Criação de Ficha
+A criação de um personagem jogador Desperto segue os seguintes passos sequenciais:
+
+### Passo 1: Conceito e Identidade
+* Definição do Conceito do personagem (profissão, histórico, estilo de vida).
+* Escolha da **Natureza** (quem o personagem realmente é internamente) e **Comportamento** (a fachada que ele apresenta à sociedade) entre os Arquétipos disponíveis.
+* Escolha da **Essência** do Avatar (Dinâmica, Estática, Primordial ou Coesiva).
+* Escolha da Tradição (ou Convenção/Disparidade) e a respectiva Esfera de Afinidade.
+
+
+
 [Voltar ao índice de valores](readme.md)
