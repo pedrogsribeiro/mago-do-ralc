@@ -10830,6 +10830,24 @@
             "conjuracao_005"
           ],
           "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n\n## Silêncio (Quiet) e recuperação\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_silencio_e_cura.md)\n\n",
+          "parts": [
+            "integral_05_regras_de_magika_regras_magika_silencio_e_cura_001",
+            "integral_05_regras_de_magika_regras_magika_silencio_e_cura_002"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Paradoxo e Silêncio — capítulo de Mágika\n\n[Fonte original](../../00_biblia/05_regras_de_magika/10_capitulo_10_livro_da_magika.md)\n\n",
+          "parts": [
+            "capitulo_magika_007",
+            "capitulo_magika_008",
+            "capitulo_magika_009",
+            "capitulo_magika_010"
+          ],
+          "suffix": "\n"
         }
       ],
       "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
