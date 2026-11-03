@@ -10506,126 +10506,6 @@
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/acesso_teia_digital.md",
-      "title": "Acesso à Teia Digital",
-      "aliases": [
-        "Acesso à Teia Digital"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Acesso à Teia Digital.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Acesso à Teia Digital\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Modalidades de acesso\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_002",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_003",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_004"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/seguranca_teia_digital.md",
-      "title": "Segurança passiva e ativa na Teia Digital",
-      "aliases": [
-        "Segurança passiva e ativa na Teia Digital"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Segurança passiva e ativa na Teia Digital.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Segurança passiva e ativa na Teia Digital\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Segurança passiva\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_008"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Segurança ativa\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_009",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_010",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_011",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_012"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/hacking_teia_digital.md",
-      "title": "Hacking e perseguições na Teia Digital",
-      "aliases": [
-        "Hacking e perseguições na Teia Digital"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Hacking e perseguições na Teia Digital.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Hacking e perseguições na Teia Digital\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Hacking dentro e fora da Web\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_007"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Hacking e perseguição\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_022"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/combate_dano_digital.md",
-      "title": "Combate e dano digital",
-      "aliases": [
-        "Combate e dano digital"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Combate e dano digital.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Combate e dano digital\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Combate na Web e dano digital\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_014",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_015"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/soft_hard_de_rez.md",
-      "title": "Soft De-Rez, Hard De-Rez, Icon Death e Whiteout",
-      "aliases": [
-        "Soft De-Rez, Hard De-Rez, Icon Death e Whiteout"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Soft De-Rez, Hard De-Rez, Icon Death e Whiteout.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Soft De-Rez, Hard De-Rez, Icon Death e Whiteout\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Soft De-Rez e função\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_016",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_017"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Hard De-Rez e estados associados\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_018",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_019",
-            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_020"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/contramagika_basica.md",
       "title": "Contramágika básica — requisitos, rolagem e resultado",
       "aliases": [
@@ -11290,6 +11170,86 @@
           "parts": [
             "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_017",
             "acervo_04_sistemas_dramaticos_e_combate_regras_veiculos_e_colisoes_018"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/teia_digital.md",
+      "title": "Teia Digital",
+      "aliases": [
+        "Acesso à Teia Digital",
+        "Segurança passiva e ativa na Teia Digital",
+        "Hacking e perseguições na Teia Digital",
+        "Combate e dano digital",
+        "Soft De-Rez, Hard De-Rez, Icon Death e Whiteout"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Teia Digital.\"\ntags: [regras, valores, teia_digital, consulta]\nstatus: experimental\n---\n# Teia Digital\n\nRegras reunidas por assunto, com textos normativos literais e divisões editoriais de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Acesso à Teia Digital\n\n## Modalidades de acesso\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_002",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_003",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Segurança passiva e ativa na Teia Digital\n\n## Segurança passiva\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_008"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Segurança ativa\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_009",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_010",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_011",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_012"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Hacking e perseguições na Teia Digital\n\n## Hacking dentro e fora da Web\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_007"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Hacking e perseguição\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_022"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Combate e dano digital\n\n## Combate na Web e dano digital\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_014",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_015"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Soft De-Rez, Hard De-Rez, Icon Death e Whiteout\n\n## Soft De-Rez e função\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_016",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_017"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Hard De-Rez e estados associados\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_018",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_019",
+            "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_020"
           ],
           "suffix": "\n\n"
         }

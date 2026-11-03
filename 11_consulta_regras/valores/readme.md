@@ -53,11 +53,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 ## Veículos, Teia Digital, contramágika e Maravilhas
 
 - [Veículos — condução, perseguições, resistência e colisões](veiculos.md)
-- [Acesso à Teia Digital](acesso_teia_digital.md)
-- [Segurança passiva e ativa na Teia Digital](seguranca_teia_digital.md)
-- [Hacking e perseguições na Teia Digital](hacking_teia_digital.md)
-- [Combate e dano digital](combate_dano_digital.md)
-- [Soft De-Rez, Hard De-Rez, Icon Death e Whiteout](soft_hard_de_rez.md)
+- [Teia Digital — acesso, segurança, hacking, combate e de-rez](teia_digital.md)
 - [Contramágika básica — requisitos, rolagem e resultado](contramagika_basica.md)
 - [Contramágika inata](contramagika_inata.md)
 - [Contramágika protetora e ofensiva](contramagika_protetora_ofensiva.md)
