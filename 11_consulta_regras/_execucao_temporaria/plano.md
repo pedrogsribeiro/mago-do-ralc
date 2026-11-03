@@ -102,3 +102,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Macroassunto Umbra e Espíritos:** Película, percepção/interação espiritual e travessia reunidos na mesma consulta; fragmentos originais preservados. Índices procedurais devem ser atualizados e P4 auditado.
 
 - **2026-11-02 — Macroassunto Vitalidade:** níveis, penalidades e movimentação reunidos em página única. P4 ainda aberto.
+
+- **2026-11-02 — Navegação macro:** índices principais da consulta, de valores e de mágika foram regenerados a partir da lista de 24 vistas em manifesto. Nomes e links conferidos programaticamente; auditoria de links externos a esses índices ainda pendente. P4 continua aberto.

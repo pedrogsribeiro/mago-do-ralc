@@ -1,50 +1,47 @@
 ---
 type: indice
-summary: "Tabelas, escalas e valores extraídos literalmente das regras existentes."
-tags: [regras, tabelas, valores, consulta]
+summary: "Índice por macroassuntos das regras M20."
+tags: [regras, macroassuntos, consulta]
 status: experimental
 ---
-# Valores das regras
+# Regras por assunto
 
-Acesse diretamente as referências já presentes nos documentos originais. Os trechos são reproduzidos sem alteração.
+Cada página corresponde a um assunto completo. Técnicas, números, manobras, criaturas e subtópicos estão reunidos dentro dela, sem novas páginas individuais. Os textos normativos são transcritos literalmente das fontes do repositório.
 
-| Referência | Link |
-|---|---|
-| Mágika — parâmetros, classificação, alcance, duração, dano e focos | [Consultar](magika_efeitos.md) |
-| Umbra e Espíritos — Película, percepção, interação e travessia | [Consultar](umbra_e_espiritos.md) |
-| Combate — ações, manobras, defesa e consequências | [Consultar](combate.md) |
-| Técnicas especiais de Do | [Consultar](do.md) |
-- [Vitalidade — níveis, penalidades e movimento](vitalidade.md)
+## Núcleo e personagens
 
-[Origem e integridade](../metodo_e_integridade.md) · [Divergências entre fontes](../divergencias_documentais.md) · [Índice geral](../readme.md).
+- [Resolução de ações e testes](resolucao_de_acoes.md)
+- [Criação e evolução](criacao_e_evolucao.md)
+- [Qualidades e Defeitos](qualidades_e_defeitos.md)
+- [Vitalidade](vitalidade.md)
+- [Força de Vontade](recuperacao_forca_vontade.md)
+- [Perturbações psicológicas](perturbacoes_psicologicas.md)
 
-## Capacidades e níveis das Esferas
+## Combate e desafios
 
-- [Esferas — nove Esferas, capacidades e níveis](esferas.md)
+- [Combate](combate.md)
+- [Armas de fogo](armas_de_fogo.md)
+- [Do](do.md)
+- [Riscos ambientais](riscos_ambientais.md)
+- [Veículos](veiculos.md)
 
+## Mágika e Umbra
 
-## Criação de personagem, ações e riscos
+- [Mágika](magika_efeitos.md)
+- [Esferas](esferas.md)
+- [Quintessência e Ressonância](quintessencia_e_ressonancia.md)
+- [Paradoxo](paradoxo_geracao_descarga.md)
+- [Contramágika](contramagika.md)
+- [Umbra e Espíritos](umbra_e_espiritos.md)
 
-- [Criação e evolução — distribuição, bônus, XP e especialidades](criacao_e_evolucao.md)
-- [Resolução de ações e testes — dificuldades, sucessos, falhas, repetição e cooperação](resolucao_de_acoes.md)
-- [Qualidades e Defeitos — custos e efeitos](qualidades_e_defeitos.md)
-- [Tabela de perturbações psicológicas](perturbacoes_psicologicas.md)
-- [Recuperação de Força de Vontade](recuperacao_forca_vontade.md)
-- [Riscos ambientais — explosões, fogo, sufocamento, quedas, radiação e toxinas](riscos_ambientais.md)
+## Tecnologia e equipamentos
 
-## Veículos, Teia Digital, contramágika e Maravilhas
+- [Teia Digital](teia_digital.md)
+- [Maravilhas](maravilhas.md)
+- [Animais](fichas/animais.md)
+- [Adormecidos](fichas/adormecidos.md)
+- [Tecnocracia](fichas/tecnocracia.md)
+- [Despertos e sobrenaturais](fichas/despertos_e_sobrenaturais.md)
+- [Dispositivos](fichas/dispositivos.md)
 
-- [Veículos — condução, perseguições, resistência e colisões](veiculos.md)
-- [Teia Digital — acesso, segurança, hacking, combate e de-rez](teia_digital.md)
-- [Contramágika — formas, requisitos, efeitos e desfiamento](contramagika.md)
-- [Maravilhas — classificação, utilização, Paradoxo e criação](maravilhas.md)
-
-## Fichas, criaturas e dispositivos
-
-- [Consultar fichas e dispositivos por nome](fichas/readme.md)
-
-## Valores fundamentais, mágika e riscos
-
-- [Quintessência e Ressonância — utilização e propriedades](quintessencia_e_ressonancia.md)
-
-- [Geração, acúmulo e descarga do Paradoxo](paradoxo_geracao_descarga.md)
+[Índice geral](../readme.md) · [Método e integridade](../metodo_e_integridade.md) · [Divergências](../divergencias_documentais.md).
