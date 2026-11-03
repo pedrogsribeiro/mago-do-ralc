@@ -118,3 +118,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Complementação Paradoxo:** Silêncio (Quiet), sua recuperação e trechos pertinentes do capítulo de Mágika foram incorporados à consulta de Paradoxo, com proveniência por fonte e reprodução literal. P1/P4 ainda exigem revisão final.
 
 - **2026-11-02 — Complementação de procedimentos:** duelos mágicos/virtuais incorporados a Combate e desafios/provações incorporados a Resolução de ações, sem criar novas páginas. Quatro blocos normativos adicionais, fontes intactas.
+
+- **2026-11-02 — Checkpoint validado:** CI verde no commit `f07459e` (73 fontes preservadas, 674 fragmentos, 24 consultas macro e links verificáveis). 470/674 fragmentos constam ao menos uma vez das vistas; os 204 restantes incluem contexto, metadados, materiais redundantes, registros de design player-faced e alguns conteúdos a reavaliar semanticamente. A tentativa seguinte de incluir oito antecedentes adicionais foi bloqueada antes de commit (HEAD permanece `f07459e`); **não** registrar essa inclusão como concluída. P1/P4 semânticos e P5 permanecem abertos; manter plano temporário.
