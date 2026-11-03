@@ -10683,6 +10683,62 @@
             "conjuracao_004"
           ],
           "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n\n## Rotinas, Ajustes e Procedimentos\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_ajustes_procedimentos_e_rotinas.md)\n\n",
+          "parts": [
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_001",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_002",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_003",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_004",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_005",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_006",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_007",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_008",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_009",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_010",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_011",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_012",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_013",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_014",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_015",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_016",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_017",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_018",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_019",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_020",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_021",
+            "acervo_05_regras_de_magika_regras_ajustes_procedimentos_e_rotinas_022"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Consenso e Zonas de Realidade\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_zonas_de_realidade_e_consenso.md)\n\n",
+          "parts": [
+            "integral_05_regras_de_magika_regras_zonas_de_realidade_e_consenso_001",
+            "integral_05_regras_de_magika_regras_zonas_de_realidade_e_consenso_002",
+            "integral_05_regras_de_magika_regras_zonas_de_realidade_e_consenso_003"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Focos, Práticas e Instrumentos\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_focos_e_instrumentos.md)\n\n",
+          "parts": [
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_001",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_006",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_007",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_008",
+            "acervo_05_regras_de_magika_regras_focos_e_instrumentos_009"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Ilusões\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_feitos_de_ilusao.md)\n\n",
+          "parts": [
+            "integral_05_regras_de_magika_regras_magika_feitos_de_ilusao_001",
+            "integral_05_regras_de_magika_regras_magika_feitos_de_ilusao_002"
+          ],
+          "suffix": "\n"
         }
       ],
       "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
