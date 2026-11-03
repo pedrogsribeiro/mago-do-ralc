@@ -96,3 +96,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Mágika com procedimentos:** conjugação, determinação de dificuldade e alcance passam para o macroassunto Mágika já existente. Três páginas de pergunta removidas da interface; conteúdo textual preservado. Atualizar índices e auditar P4.
 
 - **2026-11-02 — Quintessência/Ressonância com procedimento:** a consulta de uso foi incorporada à página macro, sem perda de trechos. P4 aberto.
+
+- **2026-11-02 — Paradoxo com procedimentos:** a consulta de consequências e reação foi absorvida pela página de Paradoxo, mantendo texto literal. P4 pendente.

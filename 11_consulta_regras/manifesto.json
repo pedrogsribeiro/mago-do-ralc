@@ -9261,38 +9261,6 @@
       "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
     },
     {
-      "path": "11_consulta_regras/consultas/lidar_com_paradoxo.md",
-      "title": "Quando recebo Paradoxo e quais são as consequências?",
-      "aliases": [
-        "Paradoxo",
-        "botch",
-        "falha crítica",
-        "descarga",
-        "reação",
-        "Silêncio"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Quando recebo Paradoxo e quais são as consequências?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n\n> **Atenção à camada de regras:** o procedimento original citado abaixo prevê rolagem do Narrador, enquanto o [contrato player-faced do projeto](../../08_estudos_player_faced/contrato_produto_player_faced_total.md) proíbe rolagens do Narrador. Esta consulta documenta a fonte sem reinterpretar nem converter sua operação.\n",
-      "groups": [
-        {
-          "prefix": "\n### Acúmulo e reação de Paradoxo\n\n[Fonte — regras_magika_paradoxo_e_reacao.md](../../00_biblia/05_regras_de_magika/regras_magika_paradoxo_e_reacao.md)\n\n",
-          "parts": [
-            "paradoxo_001",
-            "paradoxo_002"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Relação com sucesso e falha no efeito\n\n[Fonte — regras_magika_passo_a_passo.md](../../00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md)\n\n",
-          "parts": [
-            "conjuracao_004",
-            "conjuracao_005"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/graduacao_pelicula.md",
       "title": "Graduação da Película",
       "aliases": [
@@ -9396,25 +9364,6 @@
         }
       ],
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/paradoxo_geracao_descarga.md",
-      "title": "Geração, acúmulo e descarga do Paradoxo",
-      "aliases": [
-        "Geração, acúmulo e descarga do Paradoxo"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Geração, acúmulo e descarga do Paradoxo.\"\nstatus: experimental\n---\n# Geração, acúmulo e descarga do Paradoxo\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Paradoxo\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_paradoxo_e_reacao.md)\n\n",
-          "parts": [
-            "paradoxo_001",
-            "paradoxo_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
     },
     {
       "path": "11_consulta_regras/valores/do.md",
@@ -10790,6 +10739,49 @@
           "parts": [
             "modificadores_001",
             "modificadores_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/paradoxo_geracao_descarga.md",
+      "title": "Paradoxo",
+      "aliases": [
+        "Geração, acúmulo e descarga do Paradoxo",
+        "Geração, acúmulo e descarga do Paradoxo",
+        "Quando recebo Paradoxo e quais são as consequências?",
+        "Paradoxo",
+        "botch",
+        "falha crítica",
+        "descarga",
+        "reação",
+        "Silêncio"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Paradoxo: geração, acúmulo, descarga e consequências.\"\ntags: [regras, paradoxo, magika]\nstatus: experimental\n---\n# Paradoxo\n\nConsulta integrada do assunto, com textos das regras literais e divisões editoriais de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Geração, acúmulo e descarga do Paradoxo\n\n## Paradoxo\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_paradoxo_e_reacao.md)\n\n",
+          "parts": [
+            "paradoxo_001",
+            "paradoxo_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Quando recebo Paradoxo e quais são as consequências?\n\n### Acúmulo e reação de Paradoxo\n\n[Fonte — regras_magika_paradoxo_e_reacao.md](../../00_biblia/05_regras_de_magika/regras_magika_paradoxo_e_reacao.md)\n\n",
+          "parts": [
+            "paradoxo_001",
+            "paradoxo_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Relação com sucesso e falha no efeito\n\n[Fonte — regras_magika_passo_a_passo.md](../../00_biblia/05_regras_de_magika/regras_magika_passo_a_passo.md)\n\n",
+          "parts": [
+            "conjuracao_004",
+            "conjuracao_005"
           ],
           "suffix": "\n\n"
         }
