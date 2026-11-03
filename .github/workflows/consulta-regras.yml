@@ -1,0 +1,20 @@
+name: Integridade das consultas M20
+
+on:
+  push:
+    branches:
+      - chatgpt/consulta-regras-por-valor-piloto-2026-10-31
+  pull_request:
+    paths:
+      - '11_consulta_regras/**'
+      - '00_biblia/**'
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Conferir reprodução literal das fontes, fragmentos e consultas
+        run: python3 11_consulta_regras/ferramentas/validar_integridade.py
+      - name: Conferir links das consultas
+        run: python3 11_consulta_regras/ferramentas/validar_links.py
