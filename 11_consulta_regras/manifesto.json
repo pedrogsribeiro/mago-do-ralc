@@ -9178,36 +9178,6 @@
   ],
   "views": [
     {
-      "path": "11_consulta_regras/consultas/usar_quintessencia.md",
-      "title": "Como usar Quintessência e Ressonância?",
-      "aliases": [
-        "gastar Quintessência",
-        "ressonância",
-        "recursos mágicos",
-        "assinatura mística"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como usar Quintessência e Ressonância?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n",
-      "groups": [
-        {
-          "prefix": "\n### Quintessência e Ressonância\n\n[Fonte — regras_magika_quintessencia_e_ressonancia.md](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
-          "parts": [
-            "quintessencia_001",
-            "quintessencia_002"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Dificuldade e ajustes da mágika\n\n[Fonte — regras_magika_modificadores_dificuldade.md](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)\n\n",
-          "parts": [
-            "modificadores_001",
-            "modificadores_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/consultas/perceber_ou_tocar_espiritos.md",
       "title": "Como perceber, tocar ou conversar com espíritos?",
       "aliases": [
@@ -10323,32 +10293,6 @@
       "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/quintessencia_e_ressonancia.md",
-      "title": "Quintessência e Ressonância",
-      "aliases": [
-        "Uso mecânico de Quintessência",
-        "Ressonância mística"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Quintessência e Ressonância.\"\ntags: [regras, valores, quintessencia, ressonancia]\nstatus: experimental\n---\n# Quintessência e Ressonância\n\nAs regras sobre Quintessência e Ressonância são reunidas, mantendo o texto de cada fonte literalmente reproduzido.\n",
-      "groups": [
-        {
-          "prefix": "\n## Uso mecânico de Quintessência\n\n## Quintessência\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
-          "parts": [
-            "quintessencia_001"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Ressonância mística\n\n## Ressonância\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
-          "parts": [
-            "quintessencia_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/combate.md",
       "title": "Combate",
       "aliases": [
@@ -10798,6 +10742,54 @@
             "conjuracao_002",
             "conjuracao_003",
             "conjuracao_004"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/quintessencia_e_ressonancia.md",
+      "title": "Quintessência e Ressonância",
+      "aliases": [
+        "Quintessência e Ressonância",
+        "Uso mecânico de Quintessência",
+        "Ressonância mística",
+        "Como usar Quintessência e Ressonância?",
+        "gastar Quintessência",
+        "ressonância",
+        "recursos mágicos",
+        "assinatura mística"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Quintessência e Ressonância — valores e procedimentos de uso.\"\ntags: [regras, quintessencia, ressonancia, magika]\nstatus: experimental\n---\n# Quintessência e Ressonância\n\nConsulta integrada do assunto, com textos das regras literais e divisões editoriais de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Quintessência e Ressonância\n\n## Uso mecânico de Quintessência\n\n## Quintessência\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Ressonância mística\n\n## Ressonância\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Como usar Quintessência e Ressonância?\n\n### Quintessência e Ressonância\n\n[Fonte — regras_magika_quintessencia_e_ressonancia.md](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_001",
+            "quintessencia_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Dificuldade e ajustes da mágika\n\n[Fonte — regras_magika_modificadores_dificuldade.md](../../00_biblia/05_regras_de_magika/regras_magika_modificadores_dificuldade.md)\n\n",
+          "parts": [
+            "modificadores_001",
+            "modificadores_002"
           ],
           "suffix": "\n\n"
         }

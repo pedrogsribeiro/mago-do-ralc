@@ -94,3 +94,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Macroassunto Combate:** seis consultas procedurais e a tabela de manobras reunidas em página única. Do e armas de fogo seguem como assuntos próprios. Textos originais e corpus não alterados. Atualizar os índices procedurais e executar auditoria P4.
 
 - **2026-11-02 — Mágika com procedimentos:** conjugação, determinação de dificuldade e alcance passam para o macroassunto Mágika já existente. Três páginas de pergunta removidas da interface; conteúdo textual preservado. Atualizar índices e auditar P4.
+
+- **2026-11-02 — Quintessência/Ressonância com procedimento:** a consulta de uso foi incorporada à página macro, sem perda de trechos. P4 aberto.
