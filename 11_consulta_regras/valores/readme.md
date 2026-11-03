@@ -45,10 +45,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 - [Defeitos — custos e efeitos](defeitos_valores_custos.md)
 - [Tabela de perturbações psicológicas](perturbacoes_psicologicas.md)
 - [Recuperação de Força de Vontade](recuperacao_forca_vontade.md)
-- [Explosões — escala, dano, cobertura e absorção](riscos_explosoes.md)
-- [Fogo — dano e propagação](riscos_fogo_calor.md)
-- [Fome, sede e sufocamento](riscos_fome_sede_sufocamento.md)
-- [Quedas — dano, modificadores e absorção](riscos_quedas_impacto.md)
+- [Riscos ambientais — explosões, fogo, sufocamento, quedas, radiação e toxinas](riscos_ambientais.md)
 
 ## Veículos, Teia Digital, contramágika e Maravilhas
 
@@ -74,4 +71,3 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 - [Geração, acúmulo e descarga do Paradoxo](paradoxo_geracao_descarga.md)
 - [Níveis da Esfera de Espírito](esfera_espirito_niveis.md)
 - [Focos e instrumentos — requisitos e ausência](focos_instrumentos_requisitos.md)
-- [Radiação, toxinas e doenças](radiacao_toxinas_doencas.md)

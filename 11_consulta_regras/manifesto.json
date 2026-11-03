@@ -10418,94 +10418,6 @@
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/riscos_explosoes.md",
-      "title": "Explosões — escala, dano, cobertura e absorção",
-      "aliases": [
-        "Explosões — escala, dano, cobertura e absorção"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Explosões — escala, dano, cobertura e absorção.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Explosões — escala, dano, cobertura e absorção\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Explosão e escala\n\n[Documento original: riscos_ambientais_explosoes.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md)\n\n",
-          "parts": [
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_001",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_002",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_003"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Armadura, cobertura e estados\n\n[Documento original: riscos_ambientais_explosoes.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md)\n\n",
-          "parts": [
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_005",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_006",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_007"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/riscos_fogo_calor.md",
-      "title": "Fogo — dano e propagação",
-      "aliases": [
-        "Fogo — dano e propagação"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Fogo — dano e propagação.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Fogo — dano e propagação\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Dano por exposição e propagação\n\n[Documento original: riscos_ambientais_fogo_e_calor.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fogo_e_calor.md)\n\n",
-          "parts": [
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fogo_e_calor_001",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fogo_e_calor_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/riscos_fome_sede_sufocamento.md",
-      "title": "Fome, sede e sufocamento",
-      "aliases": [
-        "Fome, sede e sufocamento"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Fome, sede e sufocamento.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Fome, sede e sufocamento\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Privação de alimentos, água e asfixia\n\n[Documento original: riscos_ambientais_fome_sede_e_sufocamento.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento.md)\n\n",
-          "parts": [
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_001",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_002",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_003"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/riscos_quedas_impacto.md",
-      "title": "Quedas — dano, modificadores e absorção",
-      "aliases": [
-        "Quedas — dano, modificadores e absorção"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Quedas — dano, modificadores e absorção.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Quedas — dano, modificadores e absorção\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Dano de queda, modificadores e absorção\n\n[Documento original: riscos_ambientais_quedas_e_impacto.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto.md)\n\n",
-          "parts": [
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_001",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_002",
-            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_003"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/teste_basico_modificadores.md",
       "title": "Teste básico e modificadores",
       "aliases": [
@@ -10712,26 +10624,6 @@
             "acervo_05_regras_de_magika_regras_focos_e_instrumentos_003",
             "acervo_05_regras_de_magika_regras_focos_e_instrumentos_004",
             "acervo_05_regras_de_magika_regras_focos_e_instrumentos_005"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/radiacao_toxinas_doencas.md",
-      "title": "Radiação, toxinas e doenças",
-      "aliases": [
-        "Radiação, toxinas e doenças"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Radiação, toxinas e doenças.\"\nstatus: experimental\n---\n# Radiação, toxinas e doenças\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Riscos ambientais\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_radiacao_e_toxinas.md)\n\n",
-          "parts": [
-            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_001",
-            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_002",
-            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_003"
           ],
           "suffix": "\n\n"
         }
@@ -11190,6 +11082,74 @@
           "prefix": "\n## Criação de Maravilhas — requisitos e custos\n\n## Algoritmo de criação\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
           "parts": [
             "integral_07_parafernalia_regras_maravilhas_e_criacao_004"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/riscos_ambientais.md",
+      "title": "Riscos ambientais",
+      "aliases": [
+        "Explosões — escala, dano, cobertura e absorção",
+        "Fogo — dano e propagação",
+        "Fome, sede e sufocamento",
+        "Quedas — dano, modificadores e absorção",
+        "Radiação, toxinas e doenças"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Riscos ambientais.\"\ntags: [regras, valores, riscos, consulta]\nstatus: experimental\n---\n# Riscos ambientais\n\nRegras reunidas por assunto, com textos normativos literais e divisões editoriais de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Explosões — escala, dano, cobertura e absorção\n\n## Explosão e escala\n\n[Documento original: riscos_ambientais_explosoes.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md)\n\n",
+          "parts": [
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_001",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_002",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Armadura, cobertura e estados\n\n[Documento original: riscos_ambientais_explosoes.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_explosoes.md)\n\n",
+          "parts": [
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_005",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_006",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_explosoes_007"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Fogo — dano e propagação\n\n## Dano por exposição e propagação\n\n[Documento original: riscos_ambientais_fogo_e_calor.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fogo_e_calor.md)\n\n",
+          "parts": [
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fogo_e_calor_001",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fogo_e_calor_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Fome, sede e sufocamento\n\n## Privação de alimentos, água e asfixia\n\n[Documento original: riscos_ambientais_fome_sede_e_sufocamento.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_fome_sede_e_sufocamento.md)\n\n",
+          "parts": [
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_001",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_002",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_fome_sede_e_sufocam_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Quedas — dano, modificadores e absorção\n\n## Dano de queda, modificadores e absorção\n\n[Documento original: riscos_ambientais_quedas_e_impacto.md](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_quedas_e_impacto.md)\n\n",
+          "parts": [
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_001",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_002",
+            "full_04_sistemas_dramaticos_e_combate_riscos_ambientais_quedas_e_impacto_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Radiação, toxinas e doenças\n\n## Riscos ambientais\n\n[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/riscos_ambientais_radiacao_e_toxinas.md)\n\n",
+          "parts": [
+            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_001",
+            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_002",
+            "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_003"
           ],
           "suffix": "\n\n"
         }

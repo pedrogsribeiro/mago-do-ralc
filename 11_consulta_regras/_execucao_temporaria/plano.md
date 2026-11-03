@@ -76,3 +76,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Macroassunto Contramágika:** quatro vistas operacionais reunidas em uma única página, corpus e fontes intactos. Demais macroassuntos e auditoria P4 pendentes.
 
 - **2026-11-02 — Macroassunto Maravilhas:** quatro vistas operacionais reunidas em uma única página, corpus e fontes intactos. Demais macroassuntos e auditoria P4 pendentes.
+
+- **2026-11-02 — Macroassunto Riscos ambientais:** cinco vistas operacionais reunidas em uma única página, corpus e fontes intactos. Auditoria P4 pendente.
