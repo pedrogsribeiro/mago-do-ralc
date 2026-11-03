@@ -1,30 +1,25 @@
 ---
-type: consulta_gerada
-summary: "Consulta por necessidade com trechos literais das regras existentes."
-tags: [consulta, combate, piloto, texto_intacto]
+type: consulta_valor
+summary: "Referência literal organizada por macroassunto: Do — princípios, progressão, Oito Membros e técnicas."
 status: experimental
 ---
-# Como treinar, manter e aprender técnicas de Do?
+# Do — princípios, progressão, Oito Membros e técnicas
 
-**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).
+Os valores e instruções abaixo são reproduzidos literalmente, preservando a forma da fonte. As divisões editoriais servem apenas à navegação.
 
-### Prática diária e condições
+## Disciplina do Do
 
-[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)
+[Documento original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)
 
 ## 1. Vantagens e Dedicação ao Do
 A disciplina mítica e marcial do Do altera as regras físicas do combate desarmado para o mago praticante (exclusivo para Akashayana):
 
+* **Precisão Akáshica:** A dificuldade base de todas as manobras físicas, esquivas e de combate corporal é reduzida em -1 (a dificuldade padrão passa a ser **5**).
+* **Dano Letal Desarmado:** O praticante pode escolher causar dano Letal (L) em seus socos e chutes desarmados à vontade, em vez de dano contundente. Essa alteração é uma ação reflexiva.
+* **Aparar Armas:** O praticante pode aparar ataques letais armados (garras, espadas, machados) desarmado e sem sofrer penalidades de dano por aparar. (Não protege contra projéteis e balas).
 * **Prática Diária:** O praticante deve passar pelo menos 1 hora diária treinando Do. Caso passe mais de duas semanas sem treinar, perde temporariamente 1 ponto de Do a cada duas semanas subsequentes de inatividade.
 
 ---
-
-
-
-
-### Oito Membros de Do
-
-[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)
 
 ## 2. Os Oito Membros do Do
 Para progredir na perícia Do, o devoto deve compreender os campos pacíficos de especialização que complementam a Arte. Para cada ponto investido em Do, o mago deve possuir no mínimo dois pontos nas habilidades associadas de um dos Oito Membros:
@@ -46,12 +41,10 @@ Para progredir na perícia Do, o devoto deve compreender os campos pacíficos de
 * **Tricanmarga (Luta Tripla):** O equilíbrio das forças internas de Dinamismo, Estase e Entropia (Tigre, Fênix e Dragão).
   * *Habilidades Associadas:* Acrobacias, Esportes, Esoterismo (Controle Corporal, Ioga).
 
+### Regra Opcional - O Caminho Pacífico:
+Ao aplicar os princípios a tarefas pacíficas dos Oito Membros, o jogador gasta 1 ponto de Força de Vontade e testa **Do contra dificuldade 8**. Cada sucesso obtido adiciona 1 sucesso automático em um teste mundano de Atributo + Habilidade das tabelas de habilidades associadas acima. (Não se aplica a tarefas de Shastamarga ou de combate).
 
-
-
-### Técnicas especiais disponíveis
-
-[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)
+---
 
 ## 3. Técnicas Especiais de Do
 O mago pode aprender **uma técnica especial para cada ponto de Do que possui além de 1** (ex: com Do 4, possui 3 técnicas). Todas usam a parada de **Destreza + Do** por padrão:
@@ -70,5 +63,4 @@ O mago pode aprender **uma técnica especial para cada ponto de Do que possui al
 
 
 
-
-[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)
+[Voltar ao índice de valores](readme.md)

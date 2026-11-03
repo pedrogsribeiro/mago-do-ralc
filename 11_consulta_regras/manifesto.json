@@ -9502,174 +9502,6 @@
       "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
     },
     {
-      "path": "11_consulta_regras/consultas/usar_do_para_atacar.md",
-      "title": "Como atacar ou contra-atacar utilizando Do?",
-      "aliases": [
-        "do",
-        "akasha",
-        "soco suave",
-        "chute do tufão",
-        "arremesso do furacão",
-        "artemis",
-        "dez mil armas"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como atacar ou contra-atacar utilizando Do?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
-      "groups": [
-        {
-          "prefix": "\n### Vantagens do praticante de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_001",
-            "do_002",
-            "do_003"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Técnicas ofensivas de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_008",
-            "do_009",
-            "do_010",
-            "do_011",
-            "do_013",
-            "do_014",
-            "do_016",
-            "do_018"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Ataque corporal e resolução\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
-          "parts": [
-            "combate_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/consultas/usar_do_para_defender.md",
-      "title": "Como defender-me utilizando Do?",
-      "aliases": [
-        "do",
-        "aparar armas",
-        "pele de ferro",
-        "flor de ameixa",
-        "cortar flechas",
-        "esquivar"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como defender-me utilizando Do?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
-      "groups": [
-        {
-          "prefix": "\n### Precisão e defesa próprias de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_001",
-            "do_002",
-            "do_004"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Técnicas defensivas de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_008",
-            "do_009",
-            "do_012",
-            "do_015",
-            "do_017",
-            "do_018"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Esquiva corporal\n\n[Fonte original — regras_combate.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
-          "parts": [
-            "combate_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/consultas/aprender_e_treinar_do.md",
-      "title": "Como treinar, manter e aprender técnicas de Do?",
-      "aliases": [
-        "treinar",
-        "progredir",
-        "aprender",
-        "oito membros",
-        "dedicação",
-        "prática diária"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como treinar, manter e aprender técnicas de Do?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
-      "groups": [
-        {
-          "prefix": "\n### Prática diária e condições\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_001",
-            "do_005"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Oito Membros de Do\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_006"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Técnicas especiais disponíveis\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_008",
-            "do_009",
-            "do_010",
-            "do_011",
-            "do_012",
-            "do_013",
-            "do_014",
-            "do_015",
-            "do_016",
-            "do_017",
-            "do_018"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/consultas/usar_do_fora_do_combate.md",
-      "title": "Como usar Do fora do combate?",
-      "aliases": [
-        "do",
-        "tarefa pacífica",
-        "oito membros",
-        "harmonia",
-        "caminho pacífico"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por necessidade com trechos literais das regras existentes.\"\ntags: [consulta, combate, piloto, texto_intacto]\nstatus: experimental\n---\n# Como usar Do fora do combate?\n\n**Textos das regras reproduzidos literalmente.** Os títulos e links organizam a consulta; nenhuma instrução foi reescrita. [Ver proveniência e validação](../metodo_e_integridade.md).\n",
-      "groups": [
-        {
-          "prefix": "\n### Membros e habilidades associadas\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_006"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Caminho Pacífico — regra opcional\n\n[Fonte original — regras_do.md](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_007"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar às consultas](../readme.md) · [Consultar Do por finalidade](../do/readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/consultas/conjurar_um_efeito.md",
       "title": "Como realizar um efeito de mágika?",
       "aliases": [
@@ -10085,34 +9917,6 @@
             "combate_021",
             "combate_022",
             "combate_023"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/tabela_tecnicas_do.md",
-      "title": "Técnicas especiais de Do",
-      "aliases": [
-        "Técnicas especiais de Do"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Técnicas especiais de Do.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Técnicas especiais de Do\n\n",
-      "groups": [
-        {
-          "prefix": "\n### Tabela integral de técnicas\n\n[Origem](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
-          "parts": [
-            "do_008",
-            "do_009",
-            "do_010",
-            "do_011",
-            "do_012",
-            "do_013",
-            "do_014",
-            "do_015",
-            "do_016",
-            "do_017",
-            "do_018"
           ],
           "suffix": "\n\n"
         }
@@ -11097,852 +10901,6 @@
       "suffix": "[Índice de valores](readme.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_gato_domestico_tamanho_comum.md",
-      "title": "Gato Doméstico (Tamanho Comum)",
-      "aliases": [
-        "Gato Doméstico (Tamanho Comum)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Gato Doméstico (Tamanho Comum).\"\nstatus: experimental\n---\n# Gato Doméstico (Tamanho Comum)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_003"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_cachorro_pequeno_chihuahua_pug_etc.md",
-      "title": "Cachorro Pequeno (Chihuahua, Pug, etc.)",
-      "aliases": [
-        "Cachorro Pequeno (Chihuahua, Pug, etc.)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Cachorro Pequeno (Chihuahua, Pug, etc.).\"\nstatus: experimental\n---\n# Cachorro Pequeno (Chihuahua, Pug, etc.)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_004"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_cachorro_medio_beagle_border_collie_etc.md",
-      "title": "Cachorro Médio (Beagle, Border Collie, etc.)",
-      "aliases": [
-        "Cachorro Médio (Beagle, Border Collie, etc.)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Cachorro Médio (Beagle, Border Collie, etc.).\"\nstatus: experimental\n---\n# Cachorro Médio (Beagle, Border Collie, etc.)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_005"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_cachorro_grande_pastor_alemao_dogue_alemao_etc.md",
-      "title": "Cachorro Grande (Pastor Alemão, Dogue Alemão, etc.)",
-      "aliases": [
-        "Cachorro Grande (Pastor Alemão, Dogue Alemão, etc.)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Cachorro Grande (Pastor Alemão, Dogue Alemão, etc.).\"\nstatus: experimental\n---\n# Cachorro Grande (Pastor Alemão, Dogue Alemão, etc.)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_006"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_lobo.md",
-      "title": "Lobo",
-      "aliases": [
-        "Lobo"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Lobo.\"\nstatus: experimental\n---\n# Lobo\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_leopardo_jaguar_pantera_ou_puma.md",
-      "title": "Leopardo, Jaguar, Pantera ou Puma",
-      "aliases": [
-        "Leopardo, Jaguar, Pantera ou Puma"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Leopardo, Jaguar, Pantera ou Puma.\"\nstatus: experimental\n---\n# Leopardo, Jaguar, Pantera ou Puma\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_008"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_lince_ou_gato_selvagem.md",
-      "title": "Lince ou Gato Selvagem",
-      "aliases": [
-        "Lince ou Gato Selvagem"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Lince ou Gato Selvagem.\"\nstatus: experimental\n---\n# Lince ou Gato Selvagem\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_009"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_tigre_ou_leao.md",
-      "title": "Tigre ou Leão",
-      "aliases": [
-        "Tigre ou Leão"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Tigre ou Leão.\"\nstatus: experimental\n---\n# Tigre ou Leão\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_010"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_cavalo.md",
-      "title": "Cavalo",
-      "aliases": [
-        "Cavalo"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Cavalo.\"\nstatus: experimental\n---\n# Cavalo\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_011"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_chimpanze.md",
-      "title": "Chimpanzé",
-      "aliases": [
-        "Chimpanzé"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Chimpanzé.\"\nstatus: experimental\n---\n# Chimpanzé\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_012"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_crocodilo.md",
-      "title": "Crocodilo",
-      "aliases": [
-        "Crocodilo"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Crocodilo.\"\nstatus: experimental\n---\n# Crocodilo\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_013"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_passaro_pequeno_tentilhao_pardal_pombo_etc.md",
-      "title": "Pássaro Pequeno (Tentilhão, Pardal, Pombo, etc.)",
-      "aliases": [
-        "Pássaro Pequeno (Tentilhão, Pardal, Pombo, etc.)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Pássaro Pequeno (Tentilhão, Pardal, Pombo, etc.).\"\nstatus: experimental\n---\n# Pássaro Pequeno (Tentilhão, Pardal, Pombo, etc.)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_014"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_passaro_substancial_falcao_coruja_etc.md",
-      "title": "Pássaro Substancial (Falcão, Coruja, etc.)",
-      "aliases": [
-        "Pássaro Substancial (Falcão, Coruja, etc.)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Pássaro Substancial (Falcão, Coruja, etc.).\"\nstatus: experimental\n---\n# Pássaro Substancial (Falcão, Coruja, etc.)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_015"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_bestiario_passaro_grande_aguia_cisne_abutre_etc.md",
-      "title": "Pássaro Grande (Águia, Cisne, Abutre, etc.)",
-      "aliases": [
-        "Pássaro Grande (Águia, Cisne, Abutre, etc.)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Pássaro Grande (Águia, Cisne, Abutre, etc.).\"\nstatus: experimental\n---\n# Pássaro Grande (Águia, Cisne, Abutre, etc.)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_bestiario_016"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_adormecidos_cidadao_tipico_recepcionista_estudante_assistente_de_laboratorio_etc.md",
-      "title": "Cidadão Típico (Recepcionista, Estudante, Assistente de Laboratório, etc.)",
-      "aliases": [
-        "Cidadão Típico (Recepcionista, Estudante, Assistente de Laboratório, etc.)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Cidadão Típico (Recepcionista, Estudante, Assistente de Laboratório, etc.).\"\nstatus: experimental\n---\n# Cidadão Típico (Recepcionista, Estudante, Assistente de Laboratório, etc.)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_adormecidos_003"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_adormecidos_bandido_comum.md",
-      "title": "Bandido Comum",
-      "aliases": [
-        "Bandido Comum"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Bandido Comum.\"\nstatus: experimental\n---\n# Bandido Comum\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_adormecidos_004"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_adormecidos_durao_profissional_mafia_mercenario_seguranca_de_elite.md",
-      "title": "Durão Profissional (Máfia, Mercenário, Segurança de Elite)",
-      "aliases": [
-        "Durão Profissional (Máfia, Mercenário, Segurança de Elite)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Durão Profissional (Máfia, Mercenário, Segurança de Elite).\"\nstatus: experimental\n---\n# Durão Profissional (Máfia, Mercenário, Segurança de Elite)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_adormecidos_005"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_adormecidos_policial_de_rua_ronda_comum.md",
-      "title": "Policial de Rua (Ronda Comum)",
-      "aliases": [
-        "Policial de Rua (Ronda Comum)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Policial de Rua (Ronda Comum).\"\nstatus: experimental\n---\n# Policial de Rua (Ronda Comum)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_adormecidos_006"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_adormecidos_agente_do_governo_fbi_cia_nsa.md",
-      "title": "Agente do Governo (FBI, CIA, NSA)",
-      "aliases": [
-        "Agente do Governo (FBI, CIA, NSA)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Agente do Governo (FBI, CIA, NSA).\"\nstatus: experimental\n---\n# Agente do Governo (FBI, CIA, NSA)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_adormecidos_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_testemunhas_plausiveis_procedimentos.md",
-      "title": "Testemunhas Plausíveis (Procedimentos)",
-      "aliases": [
-        "Testemunhas Plausíveis (Procedimentos)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Testemunhas Plausíveis (Procedimentos).\"\nstatus: experimental\n---\n# Testemunhas Plausíveis (Procedimentos)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_002"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_aura_de_medo_ternos_pretos.md",
-      "title": "Aura de Medo (Ternos Pretos)",
-      "aliases": [
-        "Aura de Medo (Ternos Pretos)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Aura de Medo (Ternos Pretos).\"\nstatus: experimental\n---\n# Aura de Medo (Ternos Pretos)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_003"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_dissolucao_corporal_ternos_pretos.md",
-      "title": "Dissolução Corporal (Ternos Pretos)",
-      "aliases": [
-        "Dissolução Corporal (Ternos Pretos)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Dissolução Corporal (Ternos Pretos).\"\nstatus: experimental\n---\n# Dissolução Corporal (Ternos Pretos)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_004"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_reprogramacao_e_hacking_de_hit_marks.md",
-      "title": "Reprogramação e Hacking de HIT Marks",
-      "aliases": [
-        "Reprogramação e Hacking de HIT Marks"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Reprogramação e Hacking de HIT Marks.\"\nstatus: experimental\n---\n# Reprogramação e Hacking de HIT Marks\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_005"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_autodestruicao_hit_mark_x.md",
-      "title": "Autodestruição (HIT Mark X)",
-      "aliases": [
-        "Autodestruição (HIT Mark X)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Autodestruição (HIT Mark X).\"\nstatus: experimental\n---\n# Autodestruição (HIT Mark X)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_006"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_cientista_extraordinario_nao_iluminado.md",
-      "title": "Cientista Extraordinário (Não Iluminado)",
-      "aliases": [
-        "Cientista Extraordinário (Não Iluminado)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Cientista Extraordinário (Não Iluminado).\"\nstatus: experimental\n---\n# Cientista Extraordinário (Não Iluminado)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_008"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_agente_de_campo_extraordinario.md",
-      "title": "Agente de Campo Extraordinário",
-      "aliases": [
-        "Agente de Campo Extraordinário"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Agente de Campo Extraordinário.\"\nstatus: experimental\n---\n# Agente de Campo Extraordinário\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_009"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_ciborgue_metalico_comum_iteracao_x.md",
-      "title": "Ciborgue Metálico Comum (Iteração X)",
-      "aliases": [
-        "Ciborgue Metálico Comum (Iteração X)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Ciborgue Metálico Comum (Iteração X).\"\nstatus: experimental\n---\n# Ciborgue Metálico Comum (Iteração X)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_010"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_victor_clones_progenitores.md",
-      "title": "Victor (Clones Progenitores)",
-      "aliases": [
-        "Victor (Clones Progenitores)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Victor (Clones Progenitores).\"\nstatus: experimental\n---\n# Victor (Clones Progenitores)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_011"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_hit_mark_v_rusty_chassi_cibernetico_classico.md",
-      "title": "HIT Mark V (\"Rusty\" - Chassi Cibernético Clássico)",
-      "aliases": [
-        "HIT Mark V (\"Rusty\" - Chassi Cibernético Clássico)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: HIT Mark V (\"Rusty\" - Chassi Cibernético Clássico).\"\nstatus: experimental\n---\n# HIT Mark V (\"Rusty\" - Chassi Cibernético Clássico)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_012"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_hit_mark_x_o_soldado_invisivel_biomecanico.md",
-      "title": "HIT Mark X (\"O Soldado Invisível\" - Biomecânico)",
-      "aliases": [
-        "HIT Mark X (\"O Soldado Invisível\" - Biomecânico)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: HIT Mark X (\"O Soldado Invisível\" - Biomecânico).\"\nstatus: experimental\n---\n# HIT Mark X (\"O Soldado Invisível\" - Biomecânico)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_013"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_tecnocracia_terno_preto_agente_iluminado_nom.md",
-      "title": "Terno Preto (Agente Iluminado NOM)",
-      "aliases": [
-        "Terno Preto (Agente Iluminado NOM)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Terno Preto (Agente Iluminado NOM).\"\nstatus: experimental\n---\n# Terno Preto (Agente Iluminado NOM)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_014"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_imunidade_a_paradoxo_e_delirio_dinamico_desauridos.md",
-      "title": "Imunidade a Paradoxo e Delírio Dinâmico (Desauridos)",
-      "aliases": [
-        "Imunidade a Paradoxo e Delírio Dinâmico (Desauridos)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Imunidade a Paradoxo e Delírio Dinâmico (Desauridos).\"\nstatus: experimental\n---\n# Imunidade a Paradoxo e Delírio Dinâmico (Desauridos)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_002"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_conectividade_co_localizada_de_mente_colmeia.md",
-      "title": "Conectividade Co-localizada de Mente (Colmeia)",
-      "aliases": [
-        "Conectividade Co-localizada de Mente (Colmeia)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Conectividade Co-localizada de Mente (Colmeia).\"\nstatus: experimental\n---\n# Conectividade Co-localizada de Mente (Colmeia)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_003"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_encanto_inato_espiritual_sentir_pelo_ar.md",
-      "title": "Encanto Inato Espiritual (Sentir pelo Ar)",
-      "aliases": [
-        "Encanto Inato Espiritual (Sentir pelo Ar)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Encanto Inato Espiritual (Sentir pelo Ar).\"\nstatus: experimental\n---\n# Encanto Inato Espiritual (Sentir pelo Ar)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_004"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_hacktivista_desperto_tradicoes_adeptos_da_virtualidade.md",
-      "title": "Hacktivista Desperto (Tradições / Adeptos da Virtualidade)",
-      "aliases": [
-        "Hacktivista Desperto (Tradições / Adeptos da Virtualidade)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Hacktivista Desperto (Tradições / Adeptos da Virtualidade).\"\nstatus: experimental\n---\n# Hacktivista Desperto (Tradições / Adeptos da Virtualidade)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_006"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_musico_xama_urbano_oradores_dos_sonhos_verbena.md",
-      "title": "Músico Xamã Urbano (Oradores dos Sonhos / Verbena)",
-      "aliases": [
-        "Músico Xamã Urbano (Oradores dos Sonhos / Verbena)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Músico Xamã Urbano (Oradores dos Sonhos / Verbena).\"\nstatus: experimental\n---\n# Músico Xamã Urbano (Oradores dos Sonhos / Verbena)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_pelourinho_desaurida_hostil.md",
-      "title": "Pelourinho (Desaurida Hostil)",
-      "aliases": [
-        "Pelourinho (Desaurida Hostil)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Pelourinho (Desaurida Hostil).\"\nstatus: experimental\n---\n# Pelourinho (Desaurida Hostil)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_008"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_colmeia_desaurido_co_localizado.md",
-      "title": "Colmeia (Desaurido Co-localizado)",
-      "aliases": [
-        "Colmeia (Desaurido Co-localizado)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Colmeia (Desaurido Co-localizado).\"\nstatus: experimental\n---\n# Colmeia (Desaurido Co-localizado)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_009"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_cultista_widderslainte_nefandus_nato.md",
-      "title": "Cultista Widderslainte (Nefandus Nato)",
-      "aliases": [
-        "Cultista Widderslainte (Nefandus Nato)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Cultista Widderslainte (Nefandus Nato).\"\nstatus: experimental\n---\n# Cultista Widderslainte (Nefandus Nato)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_010"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_infiltrado_na_nom_homem_de_cinza_nefandus.md",
-      "title": "Infiltrado na NOM / Homem de Cinza (Nefandus)",
-      "aliases": [
-        "Infiltrado na NOM / Homem de Cinza (Nefandus)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Infiltrado na NOM / Homem de Cinza (Nefandus).\"\nstatus: experimental\n---\n# Infiltrado na NOM / Homem de Cinza (Nefandus)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_011"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/elenco_despertos_e_sobrenaturais_coracao_da_floresta_ancestral_grand_natura_espirito.md",
-      "title": "Coração-da-Floresta Ancestral (Grand Natura - Espírito)",
-      "aliases": [
-        "Coração-da-Floresta Ancestral (Grand Natura - Espírito)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Coração-da-Floresta Ancestral (Grand Natura - Espírito).\"\nstatus: experimental\n---\n# Coração-da-Floresta Ancestral (Grand Natura - Espírito)\n\n[Fonte original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_012"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/hardware_e_dispositivos_trushades_oculos_da_verdade_bugiganga.md",
-      "title": "Trushades (Óculos da Verdade - Bugiganga)",
-      "aliases": [
-        "Trushades (Óculos da Verdade - Bugiganga)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Trushades (Óculos da Verdade - Bugiganga).\"\nstatus: experimental\n---\n# Trushades (Óculos da Verdade - Bugiganga)\n\n[Fonte original](../../../00_biblia/07_parafernalia/hardware_e_dispositivos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_07_parafernalia_hardware_e_dispositivos_002"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/hardware_e_dispositivos_embaralhador_scrambler_talisma_ou_dispositivo.md",
-      "title": "Embaralhador (Scrambler - Talismã ou Dispositivo)",
-      "aliases": [
-        "Embaralhador (Scrambler - Talismã ou Dispositivo)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Embaralhador (Scrambler - Talismã ou Dispositivo).\"\nstatus: experimental\n---\n# Embaralhador (Scrambler - Talismã ou Dispositivo)\n\n[Fonte original](../../../00_biblia/07_parafernalia/hardware_e_dispositivos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_07_parafernalia_hardware_e_dispositivos_003"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/hardware_e_dispositivos_capuz_a_prova_de_balas_bugiganga.md",
-      "title": "Capuz à Prova de Balas (Bugiganga)",
-      "aliases": [
-        "Capuz à Prova de Balas (Bugiganga)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Capuz à Prova de Balas (Bugiganga).\"\nstatus: experimental\n---\n# Capuz à Prova de Balas (Bugiganga)\n\n[Fonte original](../../../00_biblia/07_parafernalia/hardware_e_dispositivos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_07_parafernalia_hardware_e_dispositivos_004"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/hardware_e_dispositivos_terno_de_trabalho_de_elite_da_falconi_invencao_dispositivo.md",
-      "title": "Terno de Trabalho de Elite da Falconi (Invenção/Dispositivo)",
-      "aliases": [
-        "Terno de Trabalho de Elite da Falconi (Invenção/Dispositivo)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Terno de Trabalho de Elite da Falconi (Invenção/Dispositivo).\"\nstatus: experimental\n---\n# Terno de Trabalho de Elite da Falconi (Invenção/Dispositivo)\n\n[Fonte original](../../../00_biblia/07_parafernalia/hardware_e_dispositivos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_07_parafernalia_hardware_e_dispositivos_006"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/hardware_e_dispositivos_ivae_informacao_visual_e_analise_de_espectro_dispositivo.md",
-      "title": "IVAE (Informação Visual e Análise de Espectro - Dispositivo)",
-      "aliases": [
-        "IVAE (Informação Visual e Análise de Espectro - Dispositivo)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: IVAE (Informação Visual e Análise de Espectro - Dispositivo).\"\nstatus: experimental\n---\n# IVAE (Informação Visual e Análise de Espectro - Dispositivo)\n\n[Fonte original](../../../00_biblia/07_parafernalia/hardware_e_dispositivos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_07_parafernalia_hardware_e_dispositivos_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/fichas/hardware_e_dispositivos_armadura_alanson_r_25_dispositivo.md",
-      "title": "Armadura Alanson R-25 (Dispositivo)",
-      "aliases": [
-        "Armadura Alanson R-25 (Dispositivo)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Ficha e valores literais: Armadura Alanson R-25 (Dispositivo).\"\nstatus: experimental\n---\n# Armadura Alanson R-25 (Dispositivo)\n\n[Fonte original](../../../00_biblia/07_parafernalia/hardware_e_dispositivos.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "integral_07_parafernalia_hardware_e_dispositivos_008"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de fichas](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/teste_basico_modificadores.md",
       "title": "Teste básico e modificadores",
       "aliases": [
@@ -12174,6 +11132,209 @@
         }
       ],
       "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/do.md",
+      "title": "Do — princípios, progressão, Oito Membros e técnicas",
+      "aliases": [
+        "Do — princípios, progressão, Oito Membros e técnicas"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal organizada por macroassunto: Do — princípios, progressão, Oito Membros e técnicas.\"\nstatus: experimental\n---\n# Do — princípios, progressão, Oito Membros e técnicas\n\nOs valores e instruções abaixo são reproduzidos literalmente, preservando a forma da fonte. As divisões editoriais servem apenas à navegação.\n\n",
+      "groups": [
+        {
+          "prefix": "## Disciplina do Do\n\n[Documento original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_do.md)\n\n",
+          "parts": [
+            "do_001",
+            "do_002",
+            "do_003",
+            "do_004",
+            "do_005",
+            "do_006",
+            "do_007",
+            "do_008",
+            "do_009",
+            "do_010",
+            "do_011",
+            "do_012",
+            "do_013",
+            "do_014",
+            "do_015",
+            "do_016",
+            "do_017",
+            "do_018"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/armas_de_fogo.md",
+      "title": "Armas de fogo e combate à distância",
+      "aliases": [
+        "Armas de fogo e combate à distância"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal organizada por macroassunto: Armas de fogo e combate à distância.\"\nstatus: experimental\n---\n# Armas de fogo e combate à distância\n\nOs valores e instruções abaixo são reproduzidos literalmente, preservando a forma da fonte. As divisões editoriais servem apenas à navegação.\n\n",
+      "groups": [
+        {
+          "prefix": "## Regras de armas de fogo\n\n[Documento original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_combate.md)\n\n",
+          "parts": [
+            "combate_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "## Dano e absorção\n\n[Documento original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md)\n\n",
+          "parts": [
+            "dano_002",
+            "dano_003"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/fichas/animais.md",
+      "title": "Animais — fichas e estatísticas",
+      "aliases": [
+        "Animais — fichas e estatísticas"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal organizada por macroassunto: Animais — fichas e estatísticas.\"\nstatus: experimental\n---\n# Animais — fichas e estatísticas\n\nOs valores e instruções abaixo são reproduzidos literalmente, preservando a forma da fonte. As divisões editoriais servem apenas à navegação.\n\n",
+      "groups": [
+        {
+          "prefix": "## Registros e informações do conjunto\n\n[Documento original](../../../00_biblia/06_aliados_e_antagonistas/elenco_bestiario.md)\n\n",
+          "parts": [
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_001",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_002",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_003",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_004",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_005",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_006",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_007",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_008",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_009",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_010",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_011",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_012",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_013",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_014",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_015",
+            "integral_06_aliados_e_antagonistas_elenco_bestiario_016"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](../readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/fichas/adormecidos.md",
+      "title": "Adormecidos — fichas e estatísticas",
+      "aliases": [
+        "Adormecidos — fichas e estatísticas"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal organizada por macroassunto: Adormecidos — fichas e estatísticas.\"\nstatus: experimental\n---\n# Adormecidos — fichas e estatísticas\n\nOs valores e instruções abaixo são reproduzidos literalmente, preservando a forma da fonte. As divisões editoriais servem apenas à navegação.\n\n",
+      "groups": [
+        {
+          "prefix": "## Registros e informações do conjunto\n\n[Documento original](../../../00_biblia/06_aliados_e_antagonistas/elenco_adormecidos.md)\n\n",
+          "parts": [
+            "integral_06_aliados_e_antagonistas_elenco_adormecidos_001",
+            "integral_06_aliados_e_antagonistas_elenco_adormecidos_002",
+            "integral_06_aliados_e_antagonistas_elenco_adormecidos_003",
+            "integral_06_aliados_e_antagonistas_elenco_adormecidos_004",
+            "integral_06_aliados_e_antagonistas_elenco_adormecidos_005",
+            "integral_06_aliados_e_antagonistas_elenco_adormecidos_006",
+            "integral_06_aliados_e_antagonistas_elenco_adormecidos_007"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](../readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/fichas/tecnocracia.md",
+      "title": "Tecnocracia — agentes, mecanismos e estatísticas",
+      "aliases": [
+        "Tecnocracia — agentes, mecanismos e estatísticas"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal organizada por macroassunto: Tecnocracia — agentes, mecanismos e estatísticas.\"\nstatus: experimental\n---\n# Tecnocracia — agentes, mecanismos e estatísticas\n\nOs valores e instruções abaixo são reproduzidos literalmente, preservando a forma da fonte. As divisões editoriais servem apenas à navegação.\n\n",
+      "groups": [
+        {
+          "prefix": "## Registros e informações do conjunto\n\n[Documento original](../../../00_biblia/06_aliados_e_antagonistas/elenco_tecnocracia.md)\n\n",
+          "parts": [
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_001",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_002",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_003",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_004",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_005",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_006",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_007",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_008",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_009",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_010",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_011",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_012",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_013",
+            "integral_06_aliados_e_antagonistas_elenco_tecnocracia_014"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](../readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/fichas/despertos_e_sobrenaturais.md",
+      "title": "Despertos e sobrenaturais — fichas e estatísticas",
+      "aliases": [
+        "Despertos e sobrenaturais — fichas e estatísticas"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal organizada por macroassunto: Despertos e sobrenaturais — fichas e estatísticas.\"\nstatus: experimental\n---\n# Despertos e sobrenaturais — fichas e estatísticas\n\nOs valores e instruções abaixo são reproduzidos literalmente, preservando a forma da fonte. As divisões editoriais servem apenas à navegação.\n\n",
+      "groups": [
+        {
+          "prefix": "## Registros e informações do conjunto\n\n[Documento original](../../../00_biblia/06_aliados_e_antagonistas/elenco_despertos_e_sobrenaturais.md)\n\n",
+          "parts": [
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_001",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_002",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_003",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_004",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_005",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_006",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_007",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_008",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_009",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_010",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_011",
+            "integral_06_aliados_e_antagonistas_elenco_despertos_e_sobrenaturais_012"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](../readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/fichas/dispositivos.md",
+      "title": "Dispositivos e equipamentos — estatísticas e efeitos",
+      "aliases": [
+        "Dispositivos e equipamentos — estatísticas e efeitos"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal organizada por macroassunto: Dispositivos e equipamentos — estatísticas e efeitos.\"\nstatus: experimental\n---\n# Dispositivos e equipamentos — estatísticas e efeitos\n\nOs valores e instruções abaixo são reproduzidos literalmente, preservando a forma da fonte. As divisões editoriais servem apenas à navegação.\n\n",
+      "groups": [
+        {
+          "prefix": "## Registros e informações do conjunto\n\n[Documento original](../../../00_biblia/07_parafernalia/hardware_e_dispositivos.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_hardware_e_dispositivos_001",
+            "integral_07_parafernalia_hardware_e_dispositivos_002",
+            "integral_07_parafernalia_hardware_e_dispositivos_003",
+            "integral_07_parafernalia_hardware_e_dispositivos_004",
+            "integral_07_parafernalia_hardware_e_dispositivos_005",
+            "integral_07_parafernalia_hardware_e_dispositivos_006",
+            "integral_07_parafernalia_hardware_e_dispositivos_007",
+            "integral_07_parafernalia_hardware_e_dispositivos_008"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "[Voltar ao índice de valores](../readme.md)\n"
     }
   ]
 }
