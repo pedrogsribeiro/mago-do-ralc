@@ -108,3 +108,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Prova reproduzível preparada:** verificação de links internos de todas as páginas publicadas mais execução automática de `validar_integridade.py` em push da branch experimental. P4 será concluída apenas após prova efetiva em CI e revisão do resultado; P5 permanece aberto.
 
 - **2026-11-02 — Diagnóstico CI:** verificação literal PASS (73 fontes, 674 fragmentos, 24 consultas). Links: 11 falhas em 250, concentradas em links editoriais de divergências e um link relativo literal copiado da fonte Umbra. Correção: links editoriais ajustados; compatibilidade para link original da Umbra por symlink, sem modificar o fragmento fonte. Reexecutar prova P4.
+
+- **2026-11-02 — Cobertura semântica adicional, sem novas páginas:** sete documentos de descritores de criação (Arquétipos, Atributos, Antecedentes, Conhecimentos, Perícias, Talentos, Essências/Avatar) foram incorporados literalmente a `Criação e evolução`. Os 7 conjuntos têm prova de reconstrução local no momento da edição; a prova global continua automatizada. Reavaliar outras fontes ainda não publicadas antes de P5.

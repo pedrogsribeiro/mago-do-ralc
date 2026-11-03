@@ -9812,6 +9812,140 @@
             "integral_02_criacao_de_personagem_regras_criacao_de_personagem_007"
           ],
           "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n\n## Arquetipos\n\n[Fonte original](../../00_biblia/02_criacao_de_personagem/descritivo_arquetipos.md)\n\n",
+          "parts": [
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_001",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_002",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_003",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_004",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_005",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_006",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_007",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_008",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_009",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_010",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_011",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_012",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_013",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_014",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_015",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_016",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_017",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_018",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_019",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_020",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_021",
+            "valor_02_criacao_de_personagem_descritivo_arquetipos_022"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Atributos\n\n[Fonte original](../../00_biblia/02_criacao_de_personagem/descritivo_atributos.md)\n\n",
+          "parts": [
+            "valor_02_criacao_de_personagem_descritivo_atributos_001",
+            "valor_02_criacao_de_personagem_descritivo_atributos_002",
+            "valor_02_criacao_de_personagem_descritivo_atributos_003",
+            "valor_02_criacao_de_personagem_descritivo_atributos_004",
+            "valor_02_criacao_de_personagem_descritivo_atributos_005",
+            "valor_02_criacao_de_personagem_descritivo_atributos_006",
+            "valor_02_criacao_de_personagem_descritivo_atributos_007",
+            "valor_02_criacao_de_personagem_descritivo_atributos_008",
+            "valor_02_criacao_de_personagem_descritivo_atributos_009",
+            "valor_02_criacao_de_personagem_descritivo_atributos_010",
+            "valor_02_criacao_de_personagem_descritivo_atributos_011",
+            "valor_02_criacao_de_personagem_descritivo_atributos_012"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Antecedentes\n\n[Fonte original](../../00_biblia/02_criacao_de_personagem/descritivo_antecedentes.md)\n\n",
+          "parts": [
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_001",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_002",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_003",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_004",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_005",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_006",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_007",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_008",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_009",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_010",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_011",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_012",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_013",
+            "valor_02_criacao_de_personagem_descritivo_antecedentes_014"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Conhecimentos\n\n[Fonte original](../../00_biblia/02_criacao_de_personagem/descritivo_conhecimentos.md)\n\n",
+          "parts": [
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_001",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_002",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_003",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_004",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_005",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_006",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_007",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_008",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_009",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_010",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_011",
+            "valor_02_criacao_de_personagem_descritivo_conhecimentos_012"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Pericias\n\n[Fonte original](../../00_biblia/02_criacao_de_personagem/descritivo_pericias.md)\n\n",
+          "parts": [
+            "full_02_criacao_de_personagem_descritivo_pericias_001",
+            "full_02_criacao_de_personagem_descritivo_pericias_002",
+            "full_02_criacao_de_personagem_descritivo_pericias_003",
+            "full_02_criacao_de_personagem_descritivo_pericias_004",
+            "full_02_criacao_de_personagem_descritivo_pericias_005",
+            "full_02_criacao_de_personagem_descritivo_pericias_006",
+            "full_02_criacao_de_personagem_descritivo_pericias_007",
+            "full_02_criacao_de_personagem_descritivo_pericias_008",
+            "full_02_criacao_de_personagem_descritivo_pericias_009",
+            "full_02_criacao_de_personagem_descritivo_pericias_010",
+            "full_02_criacao_de_personagem_descritivo_pericias_011",
+            "full_02_criacao_de_personagem_descritivo_pericias_012"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Talentos\n\n[Fonte original](../../00_biblia/02_criacao_de_personagem/descritivo_talentos.md)\n\n",
+          "parts": [
+            "full_02_criacao_de_personagem_descritivo_talentos_001",
+            "full_02_criacao_de_personagem_descritivo_talentos_002",
+            "full_02_criacao_de_personagem_descritivo_talentos_003",
+            "full_02_criacao_de_personagem_descritivo_talentos_004",
+            "full_02_criacao_de_personagem_descritivo_talentos_005",
+            "full_02_criacao_de_personagem_descritivo_talentos_006",
+            "full_02_criacao_de_personagem_descritivo_talentos_007",
+            "full_02_criacao_de_personagem_descritivo_talentos_008",
+            "full_02_criacao_de_personagem_descritivo_talentos_009",
+            "full_02_criacao_de_personagem_descritivo_talentos_010",
+            "full_02_criacao_de_personagem_descritivo_talentos_011",
+            "full_02_criacao_de_personagem_descritivo_talentos_012"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Essencias avatar\n\n[Fonte original](../../00_biblia/02_criacao_de_personagem/descritivo_essencias_avatar.md)\n\n",
+          "parts": [
+            "full_02_criacao_de_personagem_descritivo_essencias_avatar_001",
+            "full_02_criacao_de_personagem_descritivo_essencias_avatar_002",
+            "full_02_criacao_de_personagem_descritivo_essencias_avatar_003",
+            "full_02_criacao_de_personagem_descritivo_essencias_avatar_004",
+            "full_02_criacao_de_personagem_descritivo_essencias_avatar_005",
+            "full_02_criacao_de_personagem_descritivo_essencias_avatar_006",
+            "full_02_criacao_de_personagem_descritivo_essencias_avatar_007",
+            "full_02_criacao_de_personagem_descritivo_essencias_avatar_008"
+          ],
+          "suffix": "\n"
         }
       ],
       "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
