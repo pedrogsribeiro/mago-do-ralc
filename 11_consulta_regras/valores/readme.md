@@ -11,7 +11,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 | Referência | Link |
 |---|---|
 | Mágika — parâmetros, classificação, alcance, duração, dano e focos | [Consultar](magika_efeitos.md) |
-| Graduação da Película | [Consultar](graduacao_pelicula.md) |
+| Umbra e Espíritos — Película, percepção, interação e travessia | [Consultar](umbra_e_espiritos.md) |
 | Combate — ações, manobras, defesa e consequências | [Consultar](combate.md) |
 | Técnicas especiais de Do | [Consultar](do.md) |
 | Níveis de Vitalidade | [Consultar](niveis_vitalidade.md) |

@@ -9178,114 +9178,6 @@
   ],
   "views": [
     {
-      "path": "11_consulta_regras/consultas/perceber_ou_tocar_espiritos.md",
-      "title": "Como perceber, tocar ou conversar com espíritos?",
-      "aliases": [
-        "perceber espíritos",
-        "falar com espíritos",
-        "ver espírito",
-        "Espírito 1",
-        "Espírito 2",
-        "evocação"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como perceber, tocar ou conversar com espíritos?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n\n> **Limite de cobertura:** estes textos descrevem percepção, contato e outras capacidades da Esfera Espírito. Eles não definem um procedimento completo para convocar uma entidade nomeada ou confirmar sua identidade. A consulta não preenche essa lacuna com regras inventadas.\n",
-      "groups": [
-        {
-          "prefix": "\n### Detectar e ver espíritos\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
-          "parts": [
-            "espirito_003"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Tocar ou conversar através da Película\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
-          "parts": [
-            "espirito_004"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Outras capacidades e limites da Esfera\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
-          "parts": [
-            "espirito_006"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/consultas/atravessar_pelicula.md",
-      "title": "Como atravessar a Película e entrar na Umbra?",
-      "aliases": [
-        "Película",
-        "Gauntlet",
-        "entrar na Umbra",
-        "passar para o lado",
-        "travessia",
-        "Espírito 3"
-      ],
-      "prefix": "---\ntype: consulta_gerada\nsummary: \"Consulta por intenção com transcrição literal das regras já existentes.\"\ntags: [consulta, magika, umbra, piloto, texto_intacto]\nstatus: experimental\n---\n# Como atravessar a Película e entrar na Umbra?\n\n**Trechos das regras reproduzidos literalmente.** Títulos, ordem, avisos e links são metadados editoriais. [Método e validação](../metodo_e_integridade.md).\n\n> **Divergência documental identificada:** a fonte de travessia umbral apresenta exigências de sucessos conforme o local, enquanto a fonte de mágika sobre a Película descreve um sucesso líquido como mínimo. **Os textos abaixo são mantidos como estão; esta página não escolhe nem reconcilia as versões.** [Ver registro da divergência](../divergencias_documentais.md).\n",
-      "groups": [
-        {
-          "prefix": "\n### Métodos e Esferas de travessia\n\n[Fonte — umbra_travessia_e_pelicula.md](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
-          "parts": [
-            "travessia_003"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Perfurar a Película com Espírito\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
-          "parts": [
-            "espirito_005"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Tabela de dificuldades e sucessos por local\n\n[Fonte — umbra_travessia_e_pelicula.md](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
-          "parts": [
-            "travessia_001",
-            "travessia_002"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Outra formulação da mecânica de travessia\n\n[Fonte — regras_magika_pelicula_e_viagem_espiritual.md](../../00_biblia/05_regras_de_magika/regras_magika_pelicula_e_viagem_espiritual.md)\n\n",
-          "parts": [
-            "pelicula_001",
-            "pelicula_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "\n[Voltar às consultas](../readme.md) · [Mágika e Umbra por necessidade](../magika/readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/graduacao_pelicula.md",
-      "title": "Graduação da Película",
-      "aliases": [
-        "Graduação da Película"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Graduação da Película.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Graduação da Película\n\n[Diferença entre fontes DVG-001](../divergencias_documentais.md): as versões são apresentadas literalmente, sem escolha ou correção.\n\n",
-      "groups": [
-        {
-          "prefix": "\n### Tabela por local\n\n[Origem](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
-          "parts": [
-            "travessia_002"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n### Graduação em outra fonte\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_pelicula_e_viagem_espiritual.md)\n\n",
-          "parts": [
-            "pelicula_001"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/niveis_vitalidade.md",
       "title": "Níveis de Vitalidade",
       "aliases": [
@@ -10782,6 +10674,97 @@
           "parts": [
             "conjuracao_004",
             "conjuracao_005"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/umbra_e_espiritos.md",
+      "title": "Umbra e Espíritos",
+      "aliases": [
+        "Graduação da Película",
+        "Graduação da Película",
+        "Como perceber, tocar ou conversar com espíritos?",
+        "perceber espíritos",
+        "falar com espíritos",
+        "ver espírito",
+        "Espírito 1",
+        "Espírito 2",
+        "evocação",
+        "Como atravessar a Película e entrar na Umbra?",
+        "Película",
+        "Gauntlet",
+        "entrar na Umbra",
+        "passar para o lado",
+        "travessia",
+        "Espírito 3"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Umbra e espíritos — percepção, interação, Película e travessia.\"\ntags: [regras, umbra, espiritos, pelicula]\nstatus: experimental\n---\n# Umbra e Espíritos\n\nConsulta por assunto, com textos das regras literais e divisões editoriais de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Graduação da Película\n\n### Tabela por local\n\n[Origem](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
+          "parts": [
+            "travessia_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Graduação em outra fonte\n\n[Origem](../../00_biblia/05_regras_de_magika/regras_magika_pelicula_e_viagem_espiritual.md)\n\n",
+          "parts": [
+            "pelicula_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Como perceber, tocar ou conversar com espíritos?\n\n### Detectar e ver espíritos\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Tocar ou conversar através da Película\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Outras capacidades e limites da Esfera\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Como atravessar a Película e entrar na Umbra?\n\n### Métodos e Esferas de travessia\n\n[Fonte — umbra_travessia_e_pelicula.md](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
+          "parts": [
+            "travessia_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Perfurar a Película com Espírito\n\n[Fonte — esfera_espirito.md](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_005"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Tabela de dificuldades e sucessos por local\n\n[Fonte — umbra_travessia_e_pelicula.md](../../00_biblia/resumos/umbra/umbra_travessia_e_pelicula.md)\n\n",
+          "parts": [
+            "travessia_001",
+            "travessia_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n### Outra formulação da mecânica de travessia\n\n[Fonte — regras_magika_pelicula_e_viagem_espiritual.md](../../00_biblia/05_regras_de_magika/regras_magika_pelicula_e_viagem_espiritual.md)\n\n",
+          "parts": [
+            "pelicula_001",
+            "pelicula_002"
           ],
           "suffix": "\n\n"
         }
