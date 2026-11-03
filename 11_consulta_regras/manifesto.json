@@ -9942,206 +9942,6 @@
       "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/esfera_correspondencia.md",
-      "title": "Capacidades e níveis — correspondencia",
-      "aliases": [
-        "Capacidades e níveis — correspondencia"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — correspondencia\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_correspondencia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "esfera_esfera_correspondencia_000",
-            "esfera_esfera_correspondencia_001",
-            "esfera_esfera_correspondencia_002",
-            "esfera_esfera_correspondencia_003",
-            "esfera_esfera_correspondencia_004",
-            "esfera_esfera_correspondencia_005",
-            "esfera_esfera_correspondencia_006",
-            "esfera_esfera_correspondencia_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/esfera_entropia.md",
-      "title": "Capacidades e níveis — entropia",
-      "aliases": [
-        "Capacidades e níveis — entropia"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — entropia\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_entropia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "esfera_esfera_entropia_000",
-            "esfera_esfera_entropia_001",
-            "esfera_esfera_entropia_002",
-            "esfera_esfera_entropia_003",
-            "esfera_esfera_entropia_004",
-            "esfera_esfera_entropia_005",
-            "esfera_esfera_entropia_006",
-            "esfera_esfera_entropia_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/esfera_forcas.md",
-      "title": "Capacidades e níveis — forcas",
-      "aliases": [
-        "Capacidades e níveis — forcas"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — forcas\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_forcas.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "esfera_esfera_forcas_000",
-            "esfera_esfera_forcas_001",
-            "esfera_esfera_forcas_002",
-            "esfera_esfera_forcas_003",
-            "esfera_esfera_forcas_004",
-            "esfera_esfera_forcas_005",
-            "esfera_esfera_forcas_006",
-            "esfera_esfera_forcas_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/esfera_materia.md",
-      "title": "Capacidades e níveis — materia",
-      "aliases": [
-        "Capacidades e níveis — materia"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — materia\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_materia.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "esfera_esfera_materia_000",
-            "esfera_esfera_materia_001",
-            "esfera_esfera_materia_002",
-            "esfera_esfera_materia_003",
-            "esfera_esfera_materia_004",
-            "esfera_esfera_materia_005",
-            "esfera_esfera_materia_006",
-            "esfera_esfera_materia_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/esfera_mente.md",
-      "title": "Capacidades e níveis — mente",
-      "aliases": [
-        "Capacidades e níveis — mente"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — mente\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_mente.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "esfera_esfera_mente_000",
-            "esfera_esfera_mente_001",
-            "esfera_esfera_mente_002",
-            "esfera_esfera_mente_003",
-            "esfera_esfera_mente_004",
-            "esfera_esfera_mente_005",
-            "esfera_esfera_mente_006",
-            "esfera_esfera_mente_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/esfera_primordio.md",
-      "title": "Capacidades e níveis — primordio",
-      "aliases": [
-        "Capacidades e níveis — primordio"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — primordio\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_primordio.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "esfera_esfera_primordio_000",
-            "esfera_esfera_primordio_001",
-            "esfera_esfera_primordio_002",
-            "esfera_esfera_primordio_003",
-            "esfera_esfera_primordio_004",
-            "esfera_esfera_primordio_005",
-            "esfera_esfera_primordio_006",
-            "esfera_esfera_primordio_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/esfera_tempo.md",
-      "title": "Capacidades e níveis — tempo",
-      "aliases": [
-        "Capacidades e níveis — tempo"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — tempo\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_tempo.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "esfera_esfera_tempo_000",
-            "esfera_esfera_tempo_001",
-            "esfera_esfera_tempo_002",
-            "esfera_esfera_tempo_003",
-            "esfera_esfera_tempo_004",
-            "esfera_esfera_tempo_005",
-            "esfera_esfera_tempo_006",
-            "esfera_esfera_tempo_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/esfera_vida.md",
-      "title": "Capacidades e níveis — vida",
-      "aliases": [
-        "Capacidades e níveis — vida"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal das capacidades e graduações de uma Esfera.\"\nstatus: experimental\n---\n# Capacidades e níveis — vida\n\n[Documento de origem](../../00_biblia/05_regras_de_magika/esfera_vida.md)\n\n",
-      "groups": [
-        {
-          "prefix": "",
-          "parts": [
-            "esfera_esfera_vida_000",
-            "esfera_esfera_vida_001",
-            "esfera_esfera_vida_002",
-            "esfera_esfera_vida_003",
-            "esfera_esfera_vida_004",
-            "esfera_esfera_vida_005",
-            "esfera_esfera_vida_006",
-            "esfera_esfera_vida_007"
-          ],
-          "suffix": ""
-        }
-      ],
-      "suffix": "\n[Índice de valores](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/vitalidade_penalidades_movimento.md",
       "title": "Penalidades de Vitalidade e movimentação",
       "aliases": [
@@ -10273,29 +10073,6 @@
           "parts": [
             "paradoxo_001",
             "paradoxo_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/esfera_espirito_niveis.md",
-      "title": "Níveis da Esfera de Espírito",
-      "aliases": [
-        "Níveis da Esfera de Espírito"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Níveis da Esfera de Espírito.\"\nstatus: experimental\n---\n# Níveis da Esfera de Espírito\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Níveis de maestria\n\n[Fonte original](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
-          "parts": [
-            "espirito_002",
-            "espirito_003",
-            "espirito_004",
-            "espirito_005",
-            "espirito_006",
-            "espirito_007"
           ],
           "suffix": "\n\n"
         }
@@ -11050,6 +10827,149 @@
           "prefix": "\n## Defeitos genéticos\n\n[Documento original: regras_qualidades_e_defeitos.md](../../00_biblia/07_parafernalia/regras_qualidades_e_defeitos.md)\n\n",
           "parts": [
             "integral_07_parafernalia_regras_qualidades_e_defeitos_021"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/esferas.md",
+      "title": "Esferas",
+      "aliases": [
+        "Capacidades e níveis — correspondencia",
+        "Capacidades e níveis — entropia",
+        "Capacidades e níveis — forcas",
+        "Capacidades e níveis — materia",
+        "Capacidades e níveis — mente",
+        "Capacidades e níveis — primordio",
+        "Capacidades e níveis — tempo",
+        "Capacidades e níveis — vida",
+        "Níveis da Esfera de Espírito"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Níveis, capacidades e efeitos das nove Esferas.\"\ntags: [regras, valores, esferas, magika]\nstatus: experimental\n---\n# Esferas — capacidades e níveis\n\nAs nove Esferas estão reunidas para consulta por assunto. Cada Esfera permanece como seção interna; a transcrição literal das regras e a origem de cada trecho são preservadas.\n",
+      "groups": [
+        {
+          "prefix": "\n## Capacidades e níveis — correspondencia\n",
+          "parts": [
+            "esfera_esfera_correspondencia_000",
+            "esfera_esfera_correspondencia_001",
+            "esfera_esfera_correspondencia_002",
+            "esfera_esfera_correspondencia_003",
+            "esfera_esfera_correspondencia_004",
+            "esfera_esfera_correspondencia_005",
+            "esfera_esfera_correspondencia_006",
+            "esfera_esfera_correspondencia_007"
+          ],
+          "suffix": ""
+        },
+        {
+          "prefix": "\n## Capacidades e níveis — entropia\n",
+          "parts": [
+            "esfera_esfera_entropia_000",
+            "esfera_esfera_entropia_001",
+            "esfera_esfera_entropia_002",
+            "esfera_esfera_entropia_003",
+            "esfera_esfera_entropia_004",
+            "esfera_esfera_entropia_005",
+            "esfera_esfera_entropia_006",
+            "esfera_esfera_entropia_007"
+          ],
+          "suffix": ""
+        },
+        {
+          "prefix": "\n## Capacidades e níveis — forcas\n",
+          "parts": [
+            "esfera_esfera_forcas_000",
+            "esfera_esfera_forcas_001",
+            "esfera_esfera_forcas_002",
+            "esfera_esfera_forcas_003",
+            "esfera_esfera_forcas_004",
+            "esfera_esfera_forcas_005",
+            "esfera_esfera_forcas_006",
+            "esfera_esfera_forcas_007"
+          ],
+          "suffix": ""
+        },
+        {
+          "prefix": "\n## Capacidades e níveis — materia\n",
+          "parts": [
+            "esfera_esfera_materia_000",
+            "esfera_esfera_materia_001",
+            "esfera_esfera_materia_002",
+            "esfera_esfera_materia_003",
+            "esfera_esfera_materia_004",
+            "esfera_esfera_materia_005",
+            "esfera_esfera_materia_006",
+            "esfera_esfera_materia_007"
+          ],
+          "suffix": ""
+        },
+        {
+          "prefix": "\n## Capacidades e níveis — mente\n",
+          "parts": [
+            "esfera_esfera_mente_000",
+            "esfera_esfera_mente_001",
+            "esfera_esfera_mente_002",
+            "esfera_esfera_mente_003",
+            "esfera_esfera_mente_004",
+            "esfera_esfera_mente_005",
+            "esfera_esfera_mente_006",
+            "esfera_esfera_mente_007"
+          ],
+          "suffix": ""
+        },
+        {
+          "prefix": "\n## Capacidades e níveis — primordio\n",
+          "parts": [
+            "esfera_esfera_primordio_000",
+            "esfera_esfera_primordio_001",
+            "esfera_esfera_primordio_002",
+            "esfera_esfera_primordio_003",
+            "esfera_esfera_primordio_004",
+            "esfera_esfera_primordio_005",
+            "esfera_esfera_primordio_006",
+            "esfera_esfera_primordio_007"
+          ],
+          "suffix": ""
+        },
+        {
+          "prefix": "\n## Capacidades e níveis — tempo\n",
+          "parts": [
+            "esfera_esfera_tempo_000",
+            "esfera_esfera_tempo_001",
+            "esfera_esfera_tempo_002",
+            "esfera_esfera_tempo_003",
+            "esfera_esfera_tempo_004",
+            "esfera_esfera_tempo_005",
+            "esfera_esfera_tempo_006",
+            "esfera_esfera_tempo_007"
+          ],
+          "suffix": ""
+        },
+        {
+          "prefix": "\n## Capacidades e níveis — vida\n",
+          "parts": [
+            "esfera_esfera_vida_000",
+            "esfera_esfera_vida_001",
+            "esfera_esfera_vida_002",
+            "esfera_esfera_vida_003",
+            "esfera_esfera_vida_004",
+            "esfera_esfera_vida_005",
+            "esfera_esfera_vida_006",
+            "esfera_esfera_vida_007"
+          ],
+          "suffix": ""
+        },
+        {
+          "prefix": "\n## Níveis da Esfera de Espírito\n\n## Níveis de maestria\n\n[Fonte original](../../00_biblia/05_regras_de_magika/esfera_espirito.md)\n\n",
+          "parts": [
+            "espirito_002",
+            "espirito_003",
+            "espirito_004",
+            "espirito_005",
+            "espirito_006",
+            "espirito_007"
           ],
           "suffix": "\n\n"
         }

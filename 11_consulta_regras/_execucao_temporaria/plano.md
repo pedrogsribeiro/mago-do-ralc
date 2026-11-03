@@ -84,3 +84,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Macroassunto Resolução de ações:** sete vistas operacionais reunidas em uma única página, fontes intactas. Auditoria P4 pendente.
 
 - **2026-11-02 — Macroassunto Qualidades e Defeitos:** duas vistas de catálogo unificadas em uma única página preservando os fragmentos literais e suas origens. P4 ainda não concluída.
+
+- **2026-11-02 — Macroassunto Esferas:** nove vistas de Esferas reunidas em página única, cada uma como subseção com valores literais e proveniência; corpus e textos originais intactos. P4 segue aberto.

@@ -23,14 +23,8 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 ## Capacidades e níveis das Esferas
 
-- [Capacidades e níveis — correspondencia](esfera_correspondencia.md)
-- [Capacidades e níveis — entropia](esfera_entropia.md)
-- [Capacidades e níveis — forcas](esfera_forcas.md)
-- [Capacidades e níveis — materia](esfera_materia.md)
-- [Capacidades e níveis — mente](esfera_mente.md)
-- [Capacidades e níveis — primordio](esfera_primordio.md)
-- [Capacidades e níveis — tempo](esfera_tempo.md)
-- [Capacidades e níveis — vida](esfera_vida.md)
+- [Esferas — nove Esferas, capacidades e níveis](esferas.md)
+
 
 ## Criação de personagem, ações e riscos
 
@@ -59,5 +53,4 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 - [Uso mecânico de Quintessência](quintessencia_consumo.md)
 - [Ressonância mística](ressonancia_mistica.md)
 - [Geração, acúmulo e descarga do Paradoxo](paradoxo_geracao_descarga.md)
-- [Níveis da Esfera de Espírito](esfera_espirito_niveis.md)
 - [Focos e instrumentos — requisitos e ausência](focos_instrumentos_requisitos.md)
