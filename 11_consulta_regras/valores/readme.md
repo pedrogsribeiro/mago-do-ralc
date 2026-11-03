@@ -55,10 +55,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 - [Veículos — condução, perseguições, resistência e colisões](veiculos.md)
 - [Teia Digital — acesso, segurança, hacking, combate e de-rez](teia_digital.md)
 - [Contramágika — formas, requisitos, efeitos e desfiamento](contramagika.md)
-- [Classificação e capacidades das Maravilhas](classificacao_maravilhas.md)
-- [Ativação e utilização de Maravilhas](uso_maravilhas.md)
-- [Paradoxo e Maravilhas](paradoxo_maravilhas.md)
-- [Criação de Maravilhas — requisitos e custos](criacao_custos_maravilhas.md)
+- [Maravilhas — classificação, utilização, Paradoxo e criação](maravilhas.md)
 
 ## Fichas, criaturas e dispositivos
 

@@ -10506,78 +10506,6 @@
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/classificacao_maravilhas.md",
-      "title": "Classificação e capacidades das Maravilhas",
-      "aliases": [
-        "Classificação e capacidades das Maravilhas"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Classificação e capacidades das Maravilhas.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Classificação e capacidades das Maravilhas\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Tipos de Maravilhas\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_maravilhas_e_criacao_001"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/uso_maravilhas.md",
-      "title": "Ativação e utilização de Maravilhas",
-      "aliases": [
-        "Ativação e utilização de Maravilhas"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Ativação e utilização de Maravilhas.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Ativação e utilização de Maravilhas\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Regras de uso\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_maravilhas_e_criacao_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/paradoxo_maravilhas.md",
-      "title": "Paradoxo e Maravilhas",
-      "aliases": [
-        "Paradoxo e Maravilhas"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Paradoxo e Maravilhas.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Paradoxo e Maravilhas\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Paradoxo\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_maravilhas_e_criacao_003"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/criacao_custos_maravilhas.md",
-      "title": "Criação de Maravilhas — requisitos e custos",
-      "aliases": [
-        "Criação de Maravilhas — requisitos e custos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Criação de Maravilhas — requisitos e custos.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Criação de Maravilhas — requisitos e custos\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Algoritmo de criação\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
-          "parts": [
-            "integral_07_parafernalia_regras_maravilhas_e_criacao_004"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/teste_basico_modificadores.md",
       "title": "Teste básico e modificadores",
       "aliases": [
@@ -11220,6 +11148,48 @@
             "acervo_05_regras_de_magika_regras_contramagika_013",
             "acervo_05_regras_de_magika_regras_contramagika_014",
             "acervo_05_regras_de_magika_regras_contramagika_015"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/maravilhas.md",
+      "title": "Maravilhas",
+      "aliases": [
+        "Classificação e capacidades das Maravilhas",
+        "Ativação e utilização de Maravilhas",
+        "Paradoxo e Maravilhas",
+        "Criação de Maravilhas — requisitos e custos"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Maravilhas.\"\ntags: [regras, valores, maravilhas, consulta]\nstatus: experimental\n---\n# Maravilhas\n\nRegras reunidas por assunto, com textos normativos literais e divisões editoriais de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Classificação e capacidades das Maravilhas\n\n## Tipos de Maravilhas\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_maravilhas_e_criacao_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Ativação e utilização de Maravilhas\n\n## Regras de uso\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_maravilhas_e_criacao_002"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Paradoxo e Maravilhas\n\n## Paradoxo\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_maravilhas_e_criacao_003"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Criação de Maravilhas — requisitos e custos\n\n## Algoritmo de criação\n\n[Fonte original](../../00_biblia/07_parafernalia/regras_maravilhas_e_criacao.md)\n\n",
+          "parts": [
+            "integral_07_parafernalia_regras_maravilhas_e_criacao_004"
           ],
           "suffix": "\n\n"
         }
