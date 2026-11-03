@@ -9908,42 +9908,6 @@
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/quintessencia_consumo.md",
-      "title": "Uso mecânico de Quintessência",
-      "aliases": [
-        "Uso mecânico de Quintessência"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Uso mecânico de Quintessência.\"\nstatus: experimental\n---\n# Uso mecânico de Quintessência\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Quintessência\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
-          "parts": [
-            "quintessencia_001"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/ressonancia_mistica.md",
-      "title": "Ressonância mística",
-      "aliases": [
-        "Ressonância mística"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência direta: Ressonância mística.\"\nstatus: experimental\n---\n# Ressonância mística\n\nTrechos reproduzidos literalmente; títulos de agrupamento e links são editoriais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Ressonância\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
-          "parts": [
-            "quintessencia_002"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar ao índice de valores](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/paradoxo_geracao_descarga.md",
       "title": "Geração, acúmulo e descarga do Paradoxo",
       "aliases": [
@@ -10920,6 +10884,32 @@
             "acervo_05_regras_de_magika_regras_focos_e_instrumentos_003",
             "acervo_05_regras_de_magika_regras_focos_e_instrumentos_004",
             "acervo_05_regras_de_magika_regras_focos_e_instrumentos_005"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/quintessencia_e_ressonancia.md",
+      "title": "Quintessência e Ressonância",
+      "aliases": [
+        "Uso mecânico de Quintessência",
+        "Ressonância mística"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Quintessência e Ressonância.\"\ntags: [regras, valores, quintessencia, ressonancia]\nstatus: experimental\n---\n# Quintessência e Ressonância\n\nAs regras sobre Quintessência e Ressonância são reunidas, mantendo o texto de cada fonte literalmente reproduzido.\n",
+      "groups": [
+        {
+          "prefix": "\n## Uso mecânico de Quintessência\n\n## Quintessência\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Ressonância mística\n\n## Ressonância\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_magika_quintessencia_e_ressonancia.md)\n\n",
+          "parts": [
+            "quintessencia_002"
           ],
           "suffix": "\n\n"
         }

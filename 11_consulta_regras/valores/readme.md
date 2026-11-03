@@ -46,6 +46,6 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 ## Valores fundamentais, mágika e riscos
 
-- [Uso mecânico de Quintessência](quintessencia_consumo.md)
-- [Ressonância mística](ressonancia_mistica.md)
+- [Quintessência e Ressonância — utilização e propriedades](quintessencia_e_ressonancia.md)
+
 - [Geração, acúmulo e descarga do Paradoxo](paradoxo_geracao_descarga.md)

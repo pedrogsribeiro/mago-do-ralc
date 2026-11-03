@@ -88,3 +88,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Macroassunto Esferas:** nove vistas de Esferas reunidas em página única, cada uma como subseção com valores literais e proveniência; corpus e textos originais intactos. P4 segue aberto.
 
 - **2026-11-02 — Macroassunto Mágika:** classificação, dificuldades, duração, dano/cura, alcance/conexões e focos passam a uma consulta temática, sem reescrever regras. P4 pendente.
+
+- **2026-11-02 — Macroassunto Quintessência e Ressonância:** duas vistas consolidadas. P4 pendente.
