@@ -12,7 +12,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 |---|---|
 | Mágika — parâmetros, classificação, alcance, duração, dano e focos | [Consultar](magika_efeitos.md) |
 | Graduação da Película | [Consultar](graduacao_pelicula.md) |
-| Manobras de Artes Marciais | [Consultar](tabela_manobras.md) |
+| Combate — ações, manobras, defesa e consequências | [Consultar](combate.md) |
 | Técnicas especiais de Do | [Consultar](do.md) |
 | Níveis de Vitalidade | [Consultar](niveis_vitalidade.md) |
 

@@ -90,3 +90,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Macroassunto Mágika:** classificação, dificuldades, duração, dano/cura, alcance/conexões e focos passam a uma consulta temática, sem reescrever regras. P4 pendente.
 
 - **2026-11-02 — Macroassunto Quintessência e Ressonância:** duas vistas consolidadas. P4 pendente.
+
+- **2026-11-02 — Macroassunto Combate:** seis consultas procedurais e a tabela de manobras reunidas em página única. Do e armas de fogo seguem como assuntos próprios. Textos originais e corpus não alterados. Atualizar os índices procedurais e executar auditoria P4.
