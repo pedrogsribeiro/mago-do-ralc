@@ -70,3 +70,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 - [Ativação e utilização de Maravilhas](uso_maravilhas.md)
 - [Paradoxo e Maravilhas](paradoxo_maravilhas.md)
 - [Criação de Maravilhas — requisitos e custos](criacao_custos_maravilhas.md)
+
+## Fichas, criaturas e dispositivos
+
+- [Consultar fichas e dispositivos por nome](fichas/readme.md)
