@@ -16,7 +16,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 | Alcance e conexão com o alvo | [Consultar](alcance_e_conexoes.md) |
 | Graduação da Película | [Consultar](graduacao_pelicula.md) |
 | Manobras de Artes Marciais | [Consultar](tabela_manobras.md) |
-| Técnicas especiais de Do | [Consultar](tabela_tecnicas_do.md) |
+| Técnicas especiais de Do | [Consultar](do.md) |
 | Níveis de Vitalidade | [Consultar](niveis_vitalidade.md) |
 
 [Origem e integridade](../metodo_e_integridade.md) · [Divergências entre fontes](../divergencias_documentais.md) · [Índice geral](../readme.md).
