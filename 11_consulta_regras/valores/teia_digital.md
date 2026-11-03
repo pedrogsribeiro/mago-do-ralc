@@ -279,29 +279,4 @@ Sua severidade pode afetar:
 
 
 
-
-## Conceitos e propriedades
-
-[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_teia_digital_sistemas.md)
-
-## 1. Acesso à Teia Digital
-
-M20 diferencia formas de acesso à Web.
-
-## 2. Icons
-
-A presença digital do usuário é representada por um **Icon**.
-
-A criação e alteração do Icon usam testes de computador e podem modificar sua aparência ou capacidade de presença na Web.
-
-Para o método player-facing:
-
-* Icon não é ficha paralela completa;
-* mantém apenas os Traits que a regra da Web realmente substitui ou modifica;
-* dano ao Icon continua usando a estrutura de dano apropriada à forma de imersão.
-
----
-
-
-
 [Voltar ao índice de valores](readme.md)

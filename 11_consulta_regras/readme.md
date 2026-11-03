@@ -49,5 +49,3 @@ O acesso está organizado por **assuntos completos**, não por cada técnica ou 
 [Índice de valores](valores/readme.md) · [Divergências documentais](divergencias_documentais.md) · [Método e integridade literal](metodo_e_integridade.md).
 
 Os originais permanecem em `00_biblia/`. O `corpus/` e o `corpus_integral/` servem apenas à rastreabilidade e auditoria.
-
-[Fontes paralelas e auditoria de cobertura](auditoria/relatorio_cobertura_macro.md).

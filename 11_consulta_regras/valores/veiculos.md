@@ -253,15 +253,4 @@ A tabela exata deve ser consultada na fonte final.
 
 
 
-
-## Conceitos e propriedades
-
-[Fonte original](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_veiculos_e_colisoes.md)
-
-## 1. Traits de veículo
-
-M20 usa cinco propriedades operacionais principais.
-
-
-
 [Voltar ao índice de valores](readme.md)
