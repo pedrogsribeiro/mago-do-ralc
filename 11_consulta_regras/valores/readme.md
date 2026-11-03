@@ -54,10 +54,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 - [Veículos — condução, perseguições, resistência e colisões](veiculos.md)
 - [Teia Digital — acesso, segurança, hacking, combate e de-rez](teia_digital.md)
-- [Contramágika básica — requisitos, rolagem e resultado](contramagika_basica.md)
-- [Contramágika inata](contramagika_inata.md)
-- [Contramágika protetora e ofensiva](contramagika_protetora_ofensiva.md)
-- [Desfiar um efeito existente (Unweaving)](desfiar_magika_unweaving.md)
+- [Contramágika — formas, requisitos, efeitos e desfiamento](contramagika.md)
 - [Classificação e capacidades das Maravilhas](classificacao_maravilhas.md)
 - [Ativação e utilização de Maravilhas](uso_maravilhas.md)
 - [Paradoxo e Maravilhas](paradoxo_maravilhas.md)

@@ -72,3 +72,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Agrupamento por macro significado:** confirmado no histórico autoral: nenhum tipo individual de manobra, arma, ficha, ou subtópico operacional deve virar página por conta própria. Primeiro grupo reorganizado: **Veículos** reúne condução, velocidade, manobras, perseguições, durabilidade e colisões. Manter as fontes e o corpus técnico intactos; continuar agrupando por domínios semânticos genuínos. P4/P5 ainda abertos.
 
 - **2026-11-02 — Macroassunto Teia Digital:** cinco vistas operacionais reunidas em uma única página, corpus e fontes intactos. Demais macroassuntos e auditoria P4 pendentes.
+
+- **2026-11-02 — Macroassunto Contramágika:** quatro vistas operacionais reunidas em uma única página, corpus e fontes intactos. Demais macroassuntos e auditoria P4 pendentes.

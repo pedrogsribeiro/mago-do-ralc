@@ -10506,86 +10506,6 @@
       "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/contramagika_basica.md",
-      "title": "Contramágika básica — requisitos, rolagem e resultado",
-      "aliases": [
-        "Contramágika básica — requisitos, rolagem e resultado"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Contramágika básica — requisitos, rolagem e resultado.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Contramágika básica — requisitos, rolagem e resultado\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Contramágika Básica\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_contramagika.md)\n\n",
-          "parts": [
-            "acervo_05_regras_de_magika_regras_contramagika_001",
-            "acervo_05_regras_de_magika_regras_contramagika_002",
-            "acervo_05_regras_de_magika_regras_contramagika_003",
-            "acervo_05_regras_de_magika_regras_contramagika_004"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/contramagika_inata.md",
-      "title": "Contramágika inata",
-      "aliases": [
-        "Contramágika inata"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Contramágika inata.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Contramágika inata\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Contramágika Inata\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_contramagika.md)\n\n",
-          "parts": [
-            "acervo_05_regras_de_magika_regras_contramagika_006"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/contramagika_protetora_ofensiva.md",
-      "title": "Contramágika protetora e ofensiva",
-      "aliases": [
-        "Contramágika protetora e ofensiva"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Contramágika protetora e ofensiva.\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Contramágika protetora e ofensiva\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Contramágika Protetora/Ofensiva\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_contramagika.md)\n\n",
-          "parts": [
-            "acervo_05_regras_de_magika_regras_contramagika_008",
-            "acervo_05_regras_de_magika_regras_contramagika_009",
-            "acervo_05_regras_de_magika_regras_contramagika_010",
-            "acervo_05_regras_de_magika_regras_contramagika_011"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/desfiar_magika_unweaving.md",
-      "title": "Desfiar um efeito existente (Unweaving)",
-      "aliases": [
-        "Desfiar um efeito existente (Unweaving)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Desfiar um efeito existente (Unweaving).\"\ntags: [valores, consulta, regras]\nstatus: experimental\n---\n# Desfiar um efeito existente (Unweaving)\n\nTrechos literais das fontes; apenas títulos de agrupamento e proveniência são editoriais. Seções analíticas player-facing permanecem nos documentos originais.\n",
-      "groups": [
-        {
-          "prefix": "\n## Unweaving\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_contramagika.md)\n\n",
-          "parts": [
-            "acervo_05_regras_de_magika_regras_contramagika_013",
-            "acervo_05_regras_de_magika_regras_contramagika_014",
-            "acervo_05_regras_de_magika_regras_contramagika_015"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/classificacao_maravilhas.md",
       "title": "Classificação e capacidades das Maravilhas",
       "aliases": [
@@ -11250,6 +11170,56 @@
             "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_018",
             "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_019",
             "acervo_04_sistemas_dramaticos_e_combate_regras_teia_digital_sistemas_020"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/contramagika.md",
+      "title": "Contramágika",
+      "aliases": [
+        "Contramágika básica — requisitos, rolagem e resultado",
+        "Contramágika inata",
+        "Contramágika protetora e ofensiva",
+        "Desfiar um efeito existente (Unweaving)"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Contramágika.\"\ntags: [regras, valores, contramagika, consulta]\nstatus: experimental\n---\n# Contramágika\n\nRegras reunidas por assunto, com textos normativos literais e divisões editoriais de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Contramágika básica — requisitos, rolagem e resultado\n\n## Contramágika Básica\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_contramagika.md)\n\n",
+          "parts": [
+            "acervo_05_regras_de_magika_regras_contramagika_001",
+            "acervo_05_regras_de_magika_regras_contramagika_002",
+            "acervo_05_regras_de_magika_regras_contramagika_003",
+            "acervo_05_regras_de_magika_regras_contramagika_004"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Contramágika inata\n\n## Contramágika Inata\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_contramagika.md)\n\n",
+          "parts": [
+            "acervo_05_regras_de_magika_regras_contramagika_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Contramágika protetora e ofensiva\n\n## Contramágika Protetora/Ofensiva\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_contramagika.md)\n\n",
+          "parts": [
+            "acervo_05_regras_de_magika_regras_contramagika_008",
+            "acervo_05_regras_de_magika_regras_contramagika_009",
+            "acervo_05_regras_de_magika_regras_contramagika_010",
+            "acervo_05_regras_de_magika_regras_contramagika_011"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Desfiar um efeito existente (Unweaving)\n\n## Unweaving\n\n[Fonte original](../../00_biblia/05_regras_de_magika/regras_contramagika.md)\n\n",
+          "parts": [
+            "acervo_05_regras_de_magika_regras_contramagika_013",
+            "acervo_05_regras_de_magika_regras_contramagika_014",
+            "acervo_05_regras_de_magika_regras_contramagika_015"
           ],
           "suffix": "\n\n"
         }
