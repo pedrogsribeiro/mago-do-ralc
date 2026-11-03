@@ -10921,6 +10921,45 @@
             "pelicula_002"
           ],
           "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n\n## Camadas da Umbra e Vidare\n\n[Fonte original](../../00_biblia/resumos/umbra/umbra_camadas_e_vidare.md)\n\n",
+          "parts": [
+            "integral_resumos_umbra_umbra_camadas_e_vidare_001",
+            "integral_resumos_umbra_umbra_camadas_e_vidare_002",
+            "integral_resumos_umbra_umbra_camadas_e_vidare_003",
+            "integral_resumos_umbra_umbra_camadas_e_vidare_004",
+            "integral_resumos_umbra_umbra_camadas_e_vidare_005",
+            "integral_resumos_umbra_umbra_camadas_e_vidare_006",
+            "integral_resumos_umbra_umbra_camadas_e_vidare_007",
+            "integral_resumos_umbra_umbra_camadas_e_vidare_008"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Combate e entidades espirituais\n\n[Fonte original](../../00_biblia/resumos/umbra/umbra_combate_e_espiritos.md)\n\n",
+          "parts": [
+            "integral_resumos_umbra_umbra_combate_e_espiritos_001",
+            "integral_resumos_umbra_umbra_combate_e_espiritos_002",
+            "integral_resumos_umbra_umbra_combate_e_espiritos_003",
+            "integral_resumos_umbra_umbra_combate_e_espiritos_004",
+            "integral_resumos_umbra_umbra_combate_e_espiritos_005",
+            "integral_resumos_umbra_umbra_combate_e_espiritos_006",
+            "integral_resumos_umbra_umbra_combate_e_espiritos_007"
+          ],
+          "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Navegação e rotas espirituais\n\n[Fonte original](../../00_biblia/resumos/umbra/umbra_navegacao_e_rotas.md)\n\n",
+          "parts": [
+            "integral_resumos_umbra_umbra_navegacao_e_rotas_001",
+            "integral_resumos_umbra_umbra_navegacao_e_rotas_002",
+            "integral_resumos_umbra_umbra_navegacao_e_rotas_003",
+            "integral_resumos_umbra_umbra_navegacao_e_rotas_004",
+            "integral_resumos_umbra_umbra_navegacao_e_rotas_005",
+            "integral_resumos_umbra_umbra_navegacao_e_rotas_006"
+          ],
+          "suffix": "\n"
         }
       ],
       "suffix": "\n[Voltar ao índice de valores](readme.md)\n"

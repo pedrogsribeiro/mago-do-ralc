@@ -112,3 +112,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Cobertura semântica adicional, sem novas páginas:** sete documentos de descritores de criação (Arquétipos, Atributos, Antecedentes, Conhecimentos, Perícias, Talentos, Essências/Avatar) foram incorporados literalmente a `Criação e evolução`. Os 7 conjuntos têm prova de reconstrução local no momento da edição; a prova global continua automatizada. Reavaliar outras fontes ainda não publicadas antes de P5.
 
 - **2026-11-02 — Complementação macro de Mágika:** procedimentos/rotinas, zonas de realidade, focos e ilusões foram incorporados a Mágika, mantendo as mesmas 24 páginas macro; texto normativo copiado da fonte sem reformular e conferido por reconstrução. P1 requer revisar todas as outras fontes ainda sem vistas.
+
+- **2026-11-02 — Complementação Umbra:** textos de camadas e Vidare, combate espiritual e navegação incorporados à consulta macro existente. Três origens verificadas por reconstrução; P4 revalidação automática, P1 restante aberto.
