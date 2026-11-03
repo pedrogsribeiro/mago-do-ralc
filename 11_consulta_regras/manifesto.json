@@ -9946,6 +9946,20 @@
             "full_02_criacao_de_personagem_descritivo_essencias_avatar_008"
           ],
           "suffix": "\n"
+        },
+        {
+          "prefix": "\n\n## Outros Antecedentes registrados no acervo\n\n[Fonte dos Antecedentes adicionais](../../00_biblia/resumos/antecedentes.md)\n\n",
+          "parts": [
+            "integral_resumos_antecedentes_006",
+            "integral_resumos_antecedentes_010",
+            "integral_resumos_antecedentes_012",
+            "integral_resumos_antecedentes_013",
+            "integral_resumos_antecedentes_015",
+            "integral_resumos_antecedentes_017",
+            "integral_resumos_antecedentes_019",
+            "integral_resumos_antecedentes_020"
+          ],
+          "suffix": "\n"
         }
       ],
       "suffix": "\n[Voltar ao índice de valores](readme.md)\n"

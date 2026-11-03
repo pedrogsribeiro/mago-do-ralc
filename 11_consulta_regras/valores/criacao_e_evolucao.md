@@ -967,4 +967,112 @@ Embora certas Essências tenham afinidades históricas com certas facções (Din
 * **Descrição:** Uma quinta força rara e enigmática que os sábios dizem que deve existir, mas que ninguém realmente a viu. Ela olha para o mundo com olhos e coração que vão além da mera compreensão humana comum, habitando em reinos que nem os magos podem compreender plenamente. Não é recomendada para personagens de jogadores, servindo apenas para enigmáticas e raras entidades do Narrador.
 
 
+
+## Outros Antecedentes registrados no acervo
+
+[Fonte dos Antecedentes adicionais](../../00_biblia/resumos/antecedentes.md)
+
+## 6. Capela / Construto (Chantry / Construct)
+* **Medida por Bolinha:**
+  * **●:** Capela local menor (2 pontos de Recursos de Capela).
+  * **●●:** Capela notável (4 pontos de Recursos de Capela).
+  * **●●●:** Capela regional respeitada (6 pontos de Recursos de Capela).
+  * **●●●●:** Capela/Construto influente de grande porte (8 pontos de Recursos de Capela).
+  * **●●●●●:** Capela/Construto lendário ou fortaleza (10 pontos de Recursos de Capela).
+* **Efeitos em Jogo (Aplicações Práticas):**
+  * **Pool de Recursos Compartilhados:** A pontuação é somada à dos outros membros da cabala para comprar estruturas internas da Capela (Nodos internos, Película protegida, laboratórios, defesas e dormitórios).
+  * **Afinamento Controlado da Película:** Dentro da Capela, a Película (Gauntlet) é tipicamente 1 a 2 pontos mais fina ou mantida estabilizada contra intrusões.
+
+---
+
+## 10. Espiões (Spies)
+* **Medida por Bolinha:**
+  * **●:** 1 espião simples em organização neutra ou rival.
+  * **●●:** 2 espiões simples ou 1 espião bem posicionado.
+  * **●●●:** 3 espiões ou 1 espião em cargo administrativo de confiança.
+  * **●●●●:** 4 espiões ou rede infiltrada em canal confidencial.
+  * **●●●●●:** 5 espiões de alto nível em postos estratégicos de comando inimigo.
+* **Efeitos em Jogo (Aplicações Práticas):**
+  * **Interceptação de Dados Inimigos:** Rolagem de **Percepção/Raciocínio + Investigação/Manha (Dif 6)** antes de operações para descobrir planos, senhas ou rotas de patrulha de facções rivais (ABIN, Tecnocracia, Tradições inimigas).
+
+---
+
+## 12. Lenda (Legend)
+* **Medida por Bolinha:**
+  * **●:** Reputação folclórica local (+1 dado em testes de reputação mística).
+  * **●●:** Reputação regional notável (+2 dados em testes de reputação mística).
+  * **●●●:** Lenda mística de amplo alcance (+3 dados em testes de autoridade mística).
+  * **●●●●:** Status lendário nacional (+4 dados em testes de prestígio místico).
+  * **●●●●●:** Mito vivo da Guerra da Ascensão (+5 dados em testes de autoridade mística global).
+* **Efeitos em Jogo (Aplicações Práticas):**
+  * **Bônus Social Místico:** Adiciona **+1 a +5 dados** em interações sociais com magos, lobisomens, fadas e espíritos que conhecem sua reputação.
+  * **Renovação de Quintessência por Mito:** O mago pode rolar **Raciocínio + Lenda (Dificuldade 7)** para absorver a fé/ressonância da história contada sobre ele e **restaurar pontos de Quintessência** da própria ressonância mística local, sem a necessidade de estar em um Nodo.
+  * **Imbuir Objetos com Ressonância:** O mago pode rolar **Lenda (Dificuldade 8)** para imbuir um objeto pessoal com 1 ponto de Quintessência estática/lendária, transformando-o temporariamente em um foco de poder ou fetiche menor.
+
+---
+
+## 13. Maravilha / Invenção (Wonder)
+* **Medida por Bolinha:**
+  * **●:** Item mágico menor (Talismã/Fetiche/Trinket) com Efeito de Nível 1 ou 5 pontos de Quintessência armazenados.
+  * **●●:** Item mágico moderado com Efeito de Nível 2 ou 10 pontos de Quintessência armazenados.
+  * **●●●:** Item místico poderoso com Efeito de Nível 3 ou 15 pontos de Quintessência armazenados.
+  * **●●●●:** Artefato/Aparelho místico de grande porte com Efeito de Nível 4 ou 20 pontos de Quintessência armazenados.
+  * **●●●●●:** Grão-Artefato/Maravilha lendária com Efeito de Nível 5 ou 25 pontos de Quintessência armazenados.
+* **Efeitos em Jogo (Aplicações Práticas):**
+  * **Efeito Inato sem Gasto de Arete:** A Maravilha canaliza um Efeito de Esfera pré-fixado usando sua própria parada de dados ou a Arete do criador definida na confecção.
+  * **Bateria Portátil de Quintessência:** Funciona como reservatório místico que o mago pode descarregar para alimentar seus próprios feitiços no meio do combate.
+
+---
+
+## 15. Nodo (Node)
+* **Medida por Bolinha:**
+  * **●:** Produz 1 ponto de Quintessência por semana e 1 Tass por semana. Película -1 na área imediata.
+  * **●●:** Produz 2 pontos de Quintessência por semana e 2 Tass por semana. Película -1.
+  * **●●●:** Produz 3 pontos de Quintessência por semana e 3 Tass por semana. Película -2.
+  * **●●●●:** Produz 4 pontos de Quintessência por semana e 4 Tass por semana. Película -2.
+  * **●●●●●:** Produz 5 pontos de Quintessência por semana e 5 Tass por semana. Película -3.
+* **Efeitos em Jogo (Aplicações Práticas):**
+  * **Recarga de Quintessência:** O mago pode meditar no Nodo rolando **Meditação + Primórdio (Dif 7)** para absorver Quintessência diretamente para sua roda até o limite semanal do Nodo ou limite do seu Avatar por turno.
+  * **Afinamento da Película:** A Película (Gauntlet) na área de domínio do Nodo é reduzida em **-1 a -3**, facilitando a travessia para a Umbra (*Stepping Sideways*).
+
+---
+
+## 17. Santuário (Sanctuary)
+* **Medida por Bolinha:**
+  * **●:** Refúgio isolado com proteção básica (+1 de Dificuldade para invasores/rastreadores).
+  * **●●:** Refúgio protegido com armadilhas/feitiços simples (+2 de Dificuldade).
+  * **●●●:** Santuário fortificado misticamente (+3 de Dificuldade).
+  * **●●●●:** Refúgio de alta segurança com barreiras contra Espíritos/Mente (+4 de Dificuldade).
+  * **●●●●●:** Fortaleza/Refúgio inexpugnável oculta da realidade mundana e umbral (+5 de Dificuldade).
+* **Efeitos em Jogo (Aplicações Práticas):**
+  * **Resistência a Rastreamento e Invasão:** Aumenta em **+1 a +5 a Dificuldade** de qualquer teste de rastreamento mundano, vigilância eletrônica ou feitiçaria de Correspondência/Mente/Espírito que tente espionar ou localizar o interior do Santuário.
+  * **Dissipação Acelerada de Paradoxo:** Descansar no Santuário fortificado permite remover **1 ponto adicional de Paradoxo** acumulado por dia de repouso.
+
+---
+
+## 19. Totem / Aprimoramento (Totem / Enhancement) *(Custo Duplo)*
+* **Medida por Bolinha:**
+  * **● (Custa 2 pts):** Espírito Totem patrono menor ou aprimoramento cibernético/genético básico (+1 dado em parada específica).
+  * **●● (Custa 4 pts):** Totem de cabala moderado ou aprimoramento físico/biológico notável.
+  * **●●● (Custa 6 pts):** Totem respeitado com dádivas arcanas ou aprimoramento cibernético pesado.
+  * **●●●● (Custa 8 pts):** Totem maior com vastos poderes efêmeros ou modificação trans-humana severa.
+  * **●●●●● (Custa 10 pts):** Totem lendário patrono de cabalas inteiras ou aprimoramento ciborgue/trans-humano total.
+* **Efeitos em Jogo (Aplicações Práticas):**
+  * **Dádivas Espirituais / Bônus Cibernéticos:** Concede bônus diretos em Atributos, Armadura ou Paradas de Dados específicas (ex: Visão Noturna, Absorção Cibernética de Dano, dados extras em Furtividade/Briga).
+  * **Custo Duplo:** Exige o dobro de Pontos de Bônus (2 por bolinha na criação) e o dobro de XP (Nível x 6) para ser elevado.
+
+---
+
+## 20. Vidas Passadas / Sonho (Past Lives / Dream)
+* **Medida por Bolinha:**
+  * **●:** Role 1 dado de Vidas Passadas por sessão para obter auxílio de perícia (Dif 8).
+  * **●●:** Role 2 dados de Vidas Passadas por sessão para auxílio de perícia.
+  * **●●●:** Role 3 dados de Vidas Passadas por sessão para auxílio de perícia.
+  * **●●●●:** Role 4 dados de Vidas Passadas por sessão para auxílio de perícia.
+  * **●●●●●:** Role 5 dados de Vidas Passadas por sessão para auxílio de perícia.
+* **Efeitos em Jogo (Aplicações Práticas):**
+  * **Acesso Temporário a Perícias do Passado:** Uma vez por sessão (ou por cena dramática), o jogador rola **Vidas Passadas (Dificuldade 8)**. Cada sucesso concede **1 ponto temporário em qualquer Habilidade (Perícia/Talento/Conhecimento)** que o personagem não possua na ficha durante aquela cena.
+  * **Resistência a Controle Mental:** Concede **+1 a +3 dados** de resistência em testes contra feitiçarias de controle da Mente que tentem reescrever as memórias ou a identidade do mago.
+
+
 [Voltar ao índice de valores](readme.md)
