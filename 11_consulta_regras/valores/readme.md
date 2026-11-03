@@ -34,10 +34,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 ## Criação de personagem, ações e riscos
 
-- [Custos de pontos de bônus](custos_pontos_bonus.md)
-- [Distribuição inicial de pontos](distribuicao_pontos_iniciais.md)
-- [Custos de evolução por experiência (XP)](custos_experiencia_xp.md)
-- [Especialidades de Atributos e Habilidades](especialidades_atributos_habilidades.md)
+- [Criação e evolução — distribuição, bônus, XP e especialidades](criacao_e_evolucao.md)
 - [Tipos de ações e seus valores](tipos_acoes.md)
 - [Testes, dificuldades e sucessos](nucleo_dados_dificuldades.md)
 - [Penalidades de Vitalidade e movimentação](vitalidade_penalidades_movimento.md)

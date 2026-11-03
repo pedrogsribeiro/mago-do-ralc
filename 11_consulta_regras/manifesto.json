@@ -10142,105 +10142,6 @@
       "suffix": "\n[Índice de valores](readme.md)\n"
     },
     {
-      "path": "11_consulta_regras/valores/custos_pontos_bonus.md",
-      "title": "Custos de pontos de bônus",
-      "aliases": [
-        "Custos de pontos de bônus"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Custos de pontos de bônus.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Custos de pontos de bônus\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Tabela de pontos de bônus\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
-          "parts": [
-            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_008"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Outra fonte de custos de criação\n\n[Documento original: 06_capitulo_06_criacao_personagens.md](../../00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md)\n\n",
-          "parts": [
-            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_007"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/distribuicao_pontos_iniciais.md",
-      "title": "Distribuição inicial de pontos",
-      "aliases": [
-        "Distribuição inicial de pontos"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Distribuição inicial de pontos.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Distribuição inicial de pontos\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Atributos, Habilidades, Vantagens e valores iniciais\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
-          "parts": [
-            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_003",
-            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_004",
-            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_005",
-            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_006"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Distribuição no Capítulo 6\n\n[Documento original: 06_capitulo_06_criacao_personagens.md](../../00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md)\n\n",
-          "parts": [
-            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_003",
-            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_004",
-            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_005",
-            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_006"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/custos_experiencia_xp.md",
-      "title": "Custos de evolução por experiência (XP)",
-      "aliases": [
-        "Custos de evolução por experiência (XP)"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Custos de evolução por experiência (XP).\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Custos de evolução por experiência (XP)\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Custos de experiência\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
-          "parts": [
-            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_009"
-          ],
-          "suffix": "\n\n"
-        },
-        {
-          "prefix": "\n## Custos no Capítulo 6\n\n[Documento original: 06_capitulo_06_criacao_personagens.md](../../00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md)\n\n",
-          "parts": [
-            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_008"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/especialidades_atributos_habilidades.md",
-      "title": "Especialidades de Atributos e Habilidades",
-      "aliases": [
-        "Especialidades de Atributos e Habilidades"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Especialidades de Atributos e Habilidades.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Especialidades de Atributos e Habilidades\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Regra de especialidades\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
-          "parts": [
-            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_007"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/tipos_acoes.md",
       "title": "Tipos de ações e seus valores",
       "aliases": [
@@ -11150,6 +11051,75 @@
             "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_001",
             "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_002",
             "acervo_04_sistemas_dramaticos_e_combate_riscos_ambientais_radiacao_e_toxinas_003"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/criacao_e_evolucao.md",
+      "title": "Criação e evolução de personagens",
+      "aliases": [
+        "Distribuição inicial de pontos",
+        "Custos de pontos de bônus",
+        "Custos de evolução por experiência (XP)",
+        "Especialidades de Atributos e Habilidades"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Consulta macro: Criação e evolução de personagens.\"\ntags: [regras, valores, personagens, criacao, evolucao]\nstatus: experimental\n---\n# Criação e evolução de personagens\n\nRegras reunidas por assunto. Os textos das regras permanecem literais, com subtítulos de navegação.\n",
+      "groups": [
+        {
+          "prefix": "\n## Distribuição inicial de pontos\n\n## Atributos, Habilidades, Vantagens e valores iniciais\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
+          "parts": [
+            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_003",
+            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_004",
+            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_005",
+            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Distribuição no Capítulo 6\n\n[Documento original: 06_capitulo_06_criacao_personagens.md](../../00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md)\n\n",
+          "parts": [
+            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_003",
+            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_004",
+            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_005",
+            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_006"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Custos de pontos de bônus\n\n## Tabela de pontos de bônus\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
+          "parts": [
+            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_008"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Outra fonte de custos de criação\n\n[Documento original: 06_capitulo_06_criacao_personagens.md](../../00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md)\n\n",
+          "parts": [
+            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_007"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Custos de evolução por experiência (XP)\n\n## Custos de experiência\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
+          "parts": [
+            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_009"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Custos no Capítulo 6\n\n[Documento original: 06_capitulo_06_criacao_personagens.md](../../00_biblia/02_criacao_de_personagem/06_capitulo_06_criacao_personagens.md)\n\n",
+          "parts": [
+            "integral_02_criacao_de_personagem_06_capitulo_06_criacao_personagens_008"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Especialidades de Atributos e Habilidades\n\n## Regra de especialidades\n\n[Documento original: regras_criacao_de_personagem.md](../../00_biblia/02_criacao_de_personagem/regras_criacao_de_personagem.md)\n\n",
+          "parts": [
+            "integral_02_criacao_de_personagem_regras_criacao_de_personagem_007"
           ],
           "suffix": "\n\n"
         }
