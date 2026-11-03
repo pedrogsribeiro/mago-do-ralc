@@ -14,7 +14,7 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 | Umbra e Espíritos — Película, percepção, interação e travessia | [Consultar](umbra_e_espiritos.md) |
 | Combate — ações, manobras, defesa e consequências | [Consultar](combate.md) |
 | Técnicas especiais de Do | [Consultar](do.md) |
-| Níveis de Vitalidade | [Consultar](niveis_vitalidade.md) |
+- [Vitalidade — níveis, penalidades e movimento](vitalidade.md)
 
 [Origem e integridade](../metodo_e_integridade.md) · [Divergências entre fontes](../divergencias_documentais.md) · [Índice geral](../readme.md).
 
@@ -27,7 +27,6 @@ Acesse diretamente as referências já presentes nos documentos originais. Os tr
 
 - [Criação e evolução — distribuição, bônus, XP e especialidades](criacao_e_evolucao.md)
 - [Resolução de ações e testes — dificuldades, sucessos, falhas, repetição e cooperação](resolucao_de_acoes.md)
-- [Penalidades de Vitalidade e movimentação](vitalidade_penalidades_movimento.md)
 - [Qualidades e Defeitos — custos e efeitos](qualidades_e_defeitos.md)
 - [Tabela de perturbações psicológicas](perturbacoes_psicologicas.md)
 - [Recuperação de Força de Vontade](recuperacao_forca_vontade.md)

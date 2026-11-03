@@ -100,3 +100,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Paradoxo com procedimentos:** a consulta de consequências e reação foi absorvida pela página de Paradoxo, mantendo texto literal. P4 pendente.
 
 - **2026-11-02 — Macroassunto Umbra e Espíritos:** Película, percepção/interação espiritual e travessia reunidos na mesma consulta; fragmentos originais preservados. Índices procedurais devem ser atualizados e P4 auditado.
+
+- **2026-11-02 — Macroassunto Vitalidade:** níveis, penalidades e movimentação reunidos em página única. P4 ainda aberto.

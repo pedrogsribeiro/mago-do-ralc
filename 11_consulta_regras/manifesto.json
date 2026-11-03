@@ -9178,42 +9178,6 @@
   ],
   "views": [
     {
-      "path": "11_consulta_regras/valores/niveis_vitalidade.md",
-      "title": "Níveis de Vitalidade",
-      "aliases": [
-        "Níveis de Vitalidade"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Referência literal: Níveis de Vitalidade.\"\ntags: [valor, consulta, regras, texto_intacto]\nstatus: experimental\n---\n# Níveis de Vitalidade\n\n",
-      "groups": [
-        {
-          "prefix": "\n### Vitalidade e penalidades\n\n[Origem](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md)\n\n",
-          "parts": [
-            "dano_001"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Índice de valores](readme.md) · [Proveniência](../metodo_e_integridade.md)\n"
-    },
-    {
-      "path": "11_consulta_regras/valores/vitalidade_penalidades_movimento.md",
-      "title": "Penalidades de Vitalidade e movimentação",
-      "aliases": [
-        "Penalidades de Vitalidade e movimentação"
-      ],
-      "prefix": "---\ntype: consulta_valor\nsummary: \"Acesso direto à referência literal Penalidades de Vitalidade e movimentação.\"\ntags: [referencia, valor, texto_intacto]\nstatus: experimental\n---\n# Penalidades de Vitalidade e movimentação\n\nOs trechos das regras abaixo são reproduzidos **literalmente** das fontes. Apenas os títulos editoriais e links organizam a consulta; eventuais versões diferentes permanecem intactas.\n",
-      "groups": [
-        {
-          "prefix": "\n## Tabela de penalidades e movimentos\n\n[Documento original: 09_capitulo_09_sistemas_dramaticos.md](../../00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md)\n\n",
-          "parts": [
-            "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_001"
-          ],
-          "suffix": "\n\n"
-        }
-      ],
-      "suffix": "[Voltar às referências de valores](readme.md) · [Origem e integridade](../metodo_e_integridade.md)\n"
-    },
-    {
       "path": "11_consulta_regras/valores/perturbacoes_psicologicas.md",
       "title": "Tabela de perturbações psicológicas",
       "aliases": [
@@ -10765,6 +10729,32 @@
           "parts": [
             "pelicula_001",
             "pelicula_002"
+          ],
+          "suffix": "\n\n"
+        }
+      ],
+      "suffix": "\n[Voltar ao índice de valores](readme.md)\n"
+    },
+    {
+      "path": "11_consulta_regras/valores/vitalidade.md",
+      "title": "Vitalidade",
+      "aliases": [
+        "Níveis de Vitalidade",
+        "Penalidades de Vitalidade e movimentação"
+      ],
+      "prefix": "---\ntype: consulta_valor\nsummary: \"Vitalidade — níveis, penalidades e movimento.\"\ntags: [regras, vitalidade, penalidades, movimento]\nstatus: experimental\n---\n# Vitalidade\n\nNíveis de Vitalidade, penalidades e movimento estão na mesma consulta. Textos das regras preservados literalmente.\n",
+      "groups": [
+        {
+          "prefix": "\n## Níveis de Vitalidade\n\n### Vitalidade e penalidades\n\n[Origem](../../00_biblia/04_sistemas_dramaticos_e_combate/regras_dano_e_saude.md)\n\n",
+          "parts": [
+            "dano_001"
+          ],
+          "suffix": "\n\n"
+        },
+        {
+          "prefix": "\n## Penalidades de Vitalidade e movimentação\n\n## Tabela de penalidades e movimentos\n\n[Documento original: 09_capitulo_09_sistemas_dramaticos.md](../../00_biblia/04_sistemas_dramaticos_e_combate/09_capitulo_09_sistemas_dramaticos.md)\n\n",
+          "parts": [
+            "integral_04_sistemas_dramaticos_e_combate_09_capitulo_09_sistemas_dramaticos_001"
           ],
           "suffix": "\n\n"
         }
