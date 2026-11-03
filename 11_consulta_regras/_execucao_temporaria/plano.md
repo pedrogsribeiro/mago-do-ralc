@@ -124,3 +124,5 @@ Emitir relatório final com universo escaneado, coberturas, fontes excluídas e 
 - **2026-11-02 — Revisão semântica:** etapas de criação, escala de feitos mágicos e visão geral de Espírito acrescentadas aos macroassuntos existentes (sem páginas extras); fragmentos reconstruídos diretamente das fontes. Validação CI pendente desta revisão.
 
 - **2026-11-02 — Lacunas operacionais:** acesso/Ícones da Teia Digital e atributos dos veículos adicionados às páginas macro correspondentes. Procedimentos de tradução player-faced continuam fora da consulta normativa; auditoria integral automatizada preservada.
+
+- **2026-11-02 — Inventário residual:** 187 fragmentos não publicados receberam categoria editorial, justificativa e referência de origem no arquivo `auditoria/classificacao_residual_macro.json`. Os itens de capítulos-síntese e Antecedentes paralelos são explicitamente classificados como fontes paralelas, sem pressupor igualdade textual. A auditoria semântica de equivalência permanece aberta. P4 e P5 não podem ser concluídos somente com essa classificação.
