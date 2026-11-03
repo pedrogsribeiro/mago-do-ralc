@@ -15,7 +15,7 @@ LINK = re.compile(r"(?<!!)\[[^\]\n]+\]\(([^)\n]+)\)")
 def main() -> int:
     files = sorted(
         p for p in CONSULTAS.rglob("*.md")
-        if not any(part in IGNORE for part in p.relative_to(CONSULTAS).parts)
+        if not p.is_symlink() and not any(part in IGNORE for part in p.relative_to(CONSULTAS).parts)
     )
     checked = 0
     problems = []
