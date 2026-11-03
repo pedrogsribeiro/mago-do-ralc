@@ -16,5 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Conferir reprodução literal das fontes, fragmentos e consultas
         run: python3 11_consulta_regras/ferramentas/validar_integridade.py
+      - name: Conferir cobertura e organização por macroassuntos
+        run: python3 11_consulta_regras/ferramentas/validar_cobertura_macro.py
       - name: Conferir links das consultas
         run: python3 11_consulta_regras/ferramentas/validar_links.py
