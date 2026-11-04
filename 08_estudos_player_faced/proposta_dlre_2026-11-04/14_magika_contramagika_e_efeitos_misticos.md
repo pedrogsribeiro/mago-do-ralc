@@ -1,0 +1,484 @@
+---
+type: regra
+summary: "Estudo 14: mágika, contramágika e efeitos místicos sob o olhar player-facing, preservando a conjuração do jogador e identificando operações do ST que podem ou não ser comprimidas."
+tags: [estudo, player-faced, magika, contramagika, arete, paradoxo, certamen, efeitos-persistentes, regras]
+---
+
+> **ESPELHO DLRE DE TRABALHO — NÃO HOMOLOGADO.** [Fonte íntegra](../14_magika_contramagika_e_efeitos_misticos.md) · [Gramática e decisões](BASE_DLRE_E_STATUS.md). O corpo herdado conserva o caráter histórico de seus números e afirmações de estado.
+
+## Notas de conversão e sugestões
+
+A antiga dificuldade corresponde a D; o cancelamento pela oposição é candidato a L = R_antigo+1 somente quando um sucesso efetivo era suficiente; a proteção quantitativa posterior é candidata a R com escopo tipado; reservas persistentes podem ser E sem apagar regras próprias. **Cada correspondência exige confirmação funcional**, mantendo as operações dos jogadores de M20 e zero rolagens do Storyteller.
+
+**Movimentos possíveis, não definidos:** Mágika de NPC segue sucesso-base de Arete e ajuste ±1S homologados; distorções podem preceder agravamento, sem substituir contramágika. Leves podem ferir e prejudicar já no presente; sua função, quando aplicável, é preparar a causa de um movimento pesado significativamente maior depois, com oportunidade de intervenção. Esta seção é para o autor selecionar, alterar ou descartar, não para homologar.
+
+---
+
+
+# Estudo 14: Mágika, Contramágika e Efeitos Místicos
+
+Este estudo trata um domínio transversal: **mágika e resistência mística**.
+
+Seu objetivo não é redesenhar a conjuração de M20. A maior parte da experiência do jogador já é naturalmente player-facing:
+
+1. o jogador declara o Efeito;
+2. identifica Esferas;
+3. o ST classifica Coincidente/Vulgar e define a dificuldade;
+4. o jogador rola Arete;
+5. os sucessos determinam eficácia, dano, duração ou outro efeito;
+6. Quintessência, Paradoxo, instrumentos e modificadores continuam funcionando normalmente.
+
+O problema deste estudo é mais estreito:
+
+> **quais operações mágickas ainda pertencem ao Storyteller e quais delas podem ser comprimidas sem alterar a experiência do jogador?**
+
+---
+
+## 1. Gate de fidelidade
+
+A experiência do jogador precisa preservar:
+
+* declaração livre do Efeito;
+* Esferas necessárias;
+* Arete;
+* dificuldade Coincidente/Vulgar;
+* testemunhas;
+* Quintessência;
+* instrumentos;
+* graus de sucesso;
+* dano/duração mágickos;
+* Paradoxo;
+* resistências e contramágika que o personagem realmente possuir;
+* economia de ações.
+
+A camada player-facing pode reduzir operações do ST, mas não deve:
+
+* criar uma defesa que o PJ não possuía;
+* retirar uma defesa que o PJ possuía;
+* transformar toda mágika hostil em uma única dificuldade genérica;
+* substituir Arete e Esferas pelas quatro dimensões da ficha achatada;
+* apagar recursos como Quintessência ou Paradoxo.
+
+---
+
+## 2. Conjuração do PJ: já passa sem conversão
+
+A conjuração normal do personagem jogador já concentra a incerteza principal na própria rolagem de Arete.
+
+Portanto:
+
+> **nenhuma conversão é necessária.**
+
+A classificação do Efeito e os modificadores continuam sendo trabalho de arbitragem do ST, mas não exigem uma segunda máquina probabilística de NPC.
+
+Isso vale também para:
+
+* dano mágicko;
+* cura;
+* duração;
+* travessia da Película;
+* uso de Quintessência;
+* modificadores de instrumentos;
+* muitos testes de rotina/procedimento.
+
+### Gate
+
+**PASSA.**
+
+A melhor intervenção do produto é reorganizar e tornar consultável o procedimento, não substituí-lo.
+
+---
+
+## 3. Mágika hostil do NPC contra PJ
+
+Aqui existem dois casos diferentes.
+
+### 3.1. O PJ já possui resistência própria
+
+Se a regra original já concede ao jogador uma rolagem pertinente — defesa ativa, Força de Vontade, contramágika, Avatar, resistência de Esfera ou outra — essa rolagem deve ser preservada.
+
+A competência mágicka do NPC pode ser tratada como **Ameaça/Oposição** somente quando a transformação tiver correspondência clara com a operação original.
+
+Exemplo já documentado no corpus:
+
+* dano de espírito;
+* mago com Espírito pode usar Arete contra Dificuldade 6 para absorver/anular;
+* sem Espírito, pode usar Avatar contra Dificuldade 8;
+* Adormecidos não possuem essa defesa.
+
+Esse caso já é fortemente player-facing porque a resistência está do lado do jogador.
+
+### 3.2. O PJ não possui resistência própria
+
+Se a mágika hostil dependia de uma rolagem de Arete do NPC e o PJ não possuía uma rolagem correspondente, aplica-se a regra de precedência dos Estudos 00/02:
+
+> **quando a mágika hostil unilateral ainda depender de rolagem do Storyteller, o procedimento permanece dívida aberta de transformação. Não se cria reação nova para o jogador nem se transfere a ele a rolagem hostil.**
+
+### Gate
+
+**AINDA ABERTO COMO TRANSFORMAÇÃO PLAYER-FACED.**
+
+O produto exige zero dados do ST também na mágika ofensiva; quando a transformação ainda não existe, o caso permanece aberto.
+
+---
+
+## 4. Contramágika contra o PJ
+
+O corpus atual possui vários indícios de uma lógica de cancelamento:
+
+* no Certámen, sucessos do **Aegis** anulam sucessos do **Gladius**;
+* na resistência a ilusões, sucessos de Percepção + Consciência anulam sucessos da Arete que sustentam a ilusão;
+* HIT Marks e Victors possuem pools explícitos de **Contramágika Inata**;
+* certos alvos especiais possuem sua própria contramágika.
+
+A regra geral foi posteriormente recuperada e consolidada na bíblia em `regras_contramagika.md`.
+
+A estrutura relevante é:
+
+* contramágika básica: **Arete D7**, ação completa, percepção do Efeito e conhecimento de ao menos uma Esfera pertinente;
+* cada sucesso defensivo **cancela 1 sucesso** do Efeito;
+* contramágika protetora/ofensiva exige requisitos adicionais;
+* contramágika inata é proteção intrínseca;
+* unweaving é procedimento estendido contra Efeito já existente.
+
+A redação comercial final ainda deve conferir detalhes contra a fonte licenciada/possuída.
+
+### Estado de tradução
+
+Por decisão autoral explícita de 2026-09-28, a **contramágika ativa do NPC** usa a mesma graduação homologada de Arete da conjuração:
+
+```text
+Arete 1–3  → 1S
+Arete 4–6  → 2S
+Arete 7–8  → 3S
+Arete 9–10 → 4S
+```
+
+O NPC precisa cumprir os requisitos normais e gastar a ação completa. Cada S cancela 1 sucesso do Efeito. O ST pode ajustar ±1S quando as condições claramente ajudarem ou atrapalharem.
+
+A **Contramágika Inata** permanece distinta: por decisão autoral anterior, seu pool reduz diretamente a parada do PJ quando aplicável.
+
+### Gate
+
+**CONTRAMÁGIKA ATIVA E INATA RESOLVIDAS PARA O MODELO PLAYER-FACED.**
+
+Permanece apenas a conferência editorial contra a fonte licenciada antes da publicação.
+
+---
+
+## 5. Efeitos persistentes e wards
+
+Um Efeito mágicko persistente não precisa virar NPC.
+
+Se sua criação já produziu uma quantidade de sucessos de Arete, esses sucessos podem funcionar como informação estática sempre que a própria regra original mandar:
+
+* detectar;
+* penetrar;
+* cancelar;
+* desfazer;
+* resistir;
+* superar duração ou alcance.
+
+Exemplo documentado:
+
+> uma ilusão já criada conserva os sucessos de Arete da conjuração; quem suspeita dela rola Percepção + Consciência e cada sucesso anula um sucesso da ilusão.
+
+Esse é um Obstáculo quase naturalmente player-facing:
+
+```
+ILUSÃO PERSISTENTE
+
+Fonte:
+sucessos originais de Arete
+
+Oposição:
+sucessos ainda ativos da ilusão
+
+Ação do PJ:
+Percepção + Consciência
+
+Resultado:
+sucessos do PJ anulam sucessos da ilusão
+```
+
+### Gate
+
+**PASSA quando a regra original usa sucessos armazenados.**
+
+Isso não autoriza transformar todo ward ou feitiço sustentado em Relógio. A estrutura deve vir da regra específica do Efeito.
+
+---
+
+## 6. Paradoxo
+
+A geração de Paradoxo ligada à própria conjuração do PJ já é player-facing:
+
+* tipo do Efeito;
+* testemunhas;
+* sucesso/falha crítica;
+* Esfera mais alta;
+* reserva do personagem.
+
+A **Reação de Paradoxo**, porém, é diferente.
+
+A bíblia determina que, a partir do acúmulo relevante, o **Narrador rola uma quantidade de d10 igual à reserva de Paradoxo contra Dificuldade 6**, e os sucessos determinam descarga e severidade.
+
+Toda a aleatoriedade dessa reação está do lado do ST.
+
+Pela regra de precedência já homologada:
+
+> **não se cria uma nova rolagem do jogador apenas para eliminar essa rolagem do Narrador; a operação precisa ser convertida do lado do Storyteller.**
+
+### Gate
+
+**DÍVIDA ABERTA DE TRANSFORMAÇÃO PLAYER-FACED.**
+
+A Reação de Paradoxo permanece aberta até existir transformação que preserve a experiência sem transferir custo ou nova operação ao jogador.
+
+---
+
+## 7. Certámen
+
+O Certámen já oferece um modelo útil porque explicita uma oposição de sucessos:
+
+* Gladius: Arete Dificuldade 6;
+* cada sucesso reduz Quintessência do Locus adversário;
+* Aegis: defesa ativa que consome a ação;
+* sucessos do Aegis anulam sucessos do Gladius.
+
+Quando o **PJ ataca**, a defesa do NPC é uma candidata natural à compressão por Oposição, porque:
+
+1. existe uma parada defensiva explícita;
+2. ela cancela sucessos;
+3. a ação do PJ permanece intacta.
+
+Quando o **NPC ataca** e o PJ escolhe Aegis, a rolagem de defesa já pertence ao jogador e deve ser preservada.
+
+Quando o PJ **não escolhe Aegis**, não se concede defesa grátis; aplica-se a mesma regra de precedência usada no restante do motor.
+
+### Gate
+
+**ARQUITETURA COMPATÍVEL.**
+
+A calibração exata depende de validar a transformação da defesa ativa do NPC; o procedimento do Aegis permanece preservado conforme a regra de Certámen.
+
+---
+
+## 8. Maravilhas
+
+Maravilhas não formam uma única categoria mecânica.
+
+### Bugigangas
+São passivas. Normalmente não exigem conversão.
+
+### Amuletos/Matrizes
+São reservas de Quintessência. Preservam o recurso.
+
+### Talismãs/Dispositivos
+Possuem seu próprio Arete/Iluminação e usam essa parada para conjurar seus Efeitos.
+
+Se o item está nas mãos de um PJ, a rolagem continua com o jogador.
+
+Se um Talismã autônomo ou NPC usa seu próprio Arete para produzir um Efeito contra o grupo, aplica-se a mesma distinção deste estudo:
+
+* com resistência do PJ → preservar essa resistência;
+* sem resistência do PJ → dívida aberta de transformação do lado do ST.
+
+### Gate
+
+**PASSA por composição.**
+
+Não é necessário inventar um subsistema player-facing separado para Maravilhas.
+
+---
+
+## 9. Matriz de decisão do subsistema
+
+| Situação | Tratamento |
+| :--- | :--- |
+| PJ conjura | Preservar M20 |
+| PJ causa dano mágicko | Preservar M20 |
+| PJ atravessa Película | Preservar M20 |
+| PJ usa Quintessência | Preservar M20 |
+| PJ resiste mágika hostil com rolagem própria | Preservar a rolagem do PJ |
+| NPC conjura e PJ não possui reação equivalente | Dívida aberta de transformação player-faced |
+| Contramágika explícita que cancela sucessos | Candidata a Oposição player-facing |
+| Contramágika apenas citada por pool, sem procedimento | Preservar dado; recuperar regra original |
+| Ilusão persistente | Sucessos armazenados como oposição estática |
+| Reação de Paradoxo | Dívida aberta de transformação player-faced |
+| Certámen | Preservar ações; comprimir apenas a defesa do NPC quando validado |
+| Maravilha usada por PJ | Preservar Arete/Iluminação do item |
+| Maravilha autônoma/NPC | Aplicar a mesma regra de agência/fidelidade |
+
+---
+
+## 10. Impacto na ficha achatada multidimensional
+
+Na dimensão **Mágicko**, a ficha achatada pode guardar:
+
+* Oposição mágicka;
+* Ameaça mágicka;
+* Consequência mágicka;
+* Integridade/recursos pertinentes;
+* Limiar de Efetividade;
+* Arete;
+* Esferas relevantes;
+* Contramágika;
+* Quintessência;
+* estados/efeitos sustentados.
+
+Isso não significa substituir Arete/Esferas por números achatados.
+
+A dimensão Mágicko funciona como **índice operacional**: mostra ao ST quais propriedades consultar quando aquela frente entra em jogo.
+
+Exemplo:
+
+```
+HIT MARK V
+
+Mágicko:
+- Oposição: derivada da defesa pertinente
+- Contramágika Inata: 5d
+- Limiar: conforme Primium/efeito aplicável
+- Arete: 0
+- Esferas: —
+```
+
+Outro:
+
+```
+MAG0 ANTAGONISTA
+
+Mágicko:
+- Arete: 4
+- Esferas: Forças 3, Primórdio 2, Correspondência 2
+- Quintessência: 7
+- Contramágika: conforme regra aplicável
+- Efeitos sustentados: [listar]
+```
+
+---
+
+## 11. Gate do Estudo 14
+
+O subsistema de mágika passa parcialmente.
+
+### Já preservado sem redesign
+
+* conjuração do PJ;
+* classificação Coincidente/Vulgar;
+* Arete;
+* Esferas;
+* Quintessência;
+* dano/duração;
+* Película;
+* resistências que já pertencem ao jogador;
+* Maravilhas usadas pelo jogador.
+
+### Traduzível pela arquitetura existente
+
+* resistências mágickas que funcionam por cancelamento de sucessos;
+* ilusões e outros Efeitos persistentes que guardam sucessos;
+* Aegis/defesas equivalentes quando o procedimento original estiver consolidado;
+* propriedades mágickas dentro da matriz multidimensional.
+
+### Ainda exige transformação player-faced
+
+* mágika hostil unilateral sem reação equivalente do PJ;
+* Reação de Paradoxo;
+* qualquer outro procedimento cuja aleatoriedade exista apenas no lado do ST e que ainda não possua compressão suficientemente fiel.
+
+### Verificação de fonte
+
+A regra geral de contramágika já foi consolidada na bíblia. Antes da publicação comercial, conferir os detalhes contra M20 pp. 545–547 na fonte licenciada/possuída e redigir por paráfrase.
+
+---
+
+## 12. Próxima propagação
+
+As conclusões deste estudo precisam retroagir sobre:
+
+* Estudo 10 — mapa de procedimentos;
+* Estudo 11 — antagonistas Despertos/Tecnocratas;
+* Estudo 12 — constructos com Primium/contramágika;
+* Estudo 13 — espíritos e resistências mágickas.
+
+Depois disso, o próximo subsistema mais natural é **espíritos/Encantos**, porque agora podemos separar claramente:
+
+* o que já é resistência player-facing;
+* o que usa Fúria/Gnose no lado do ST;
+* e o que ainda permanece como dívida de transformação.
+
+
+---
+
+## 13. Propagação do Estudo 15
+
+O domínio espiritual fornece um caso concreto para as regras deste estudo:
+
+* resistência do PJ por **Arete/Espírito** ou **Avatar** já é player-facing e deve ser preservada;
+* **Fúria** sem reação equivalente do jogador permanece dívida aberta de transformação;
+* **Força de Vontade** defensiva pode alimentar Oposição;
+* **Força de Vontade** como soak pode alimentar Limiar de Efetividade;
+* **Gnose** permanece parada-fonte e é tratada conforme o Encanto;
+* Encantos de estado, portal, controle e consequência direta exigem tratamentos distintos.
+
+Isso confirma que “mágika” e “Encantos” não devem receber uma única mecânica universal de conversão.
+
+
+---
+
+## 14. Propagação do Estudo 16
+
+Teia Digital confirma outro caso em que a melhor tradução é preservar o procedimento do jogador:
+
+* **Computação + Arete** continua sendo a parada do PJ;
+* Quintessência continua sendo recurso próprio;
+* hacking prolongado usa a estrutura normal de testes estendidos;
+* feedback permanece Consequência física;
+* oposição ativa entra apenas quando existe agente real;
+* ICE não recebe uma ficha genérica sem base na regra original.
+
+Isso reforça que a dimensão Mental/Técnico ou Mágicko funciona como índice operacional, não como substituta de Computação, Arete ou Correspondência/Dados.
+
+
+---
+
+## 15. Propagação do Estudo 18 — Certámen
+
+O Certámen oferece um exemplo normativo da diferença entre:
+
+* **defesa ativa por sucessos** → Aegis / Oposição;
+* **resistência passiva** → Limiar de Efetividade.
+
+O Locus deve ser preservado como reserva canônica de Quintessência. Gladius do PJ e Aegis do PJ permanecem intactos. Quando o PJ não escolhe Aegis contra Gladius do NPC, não se cria uma reação gratuita; a operação ofensiva do NPC permanece dívida aberta de transformação.
+
+
+---
+
+## 16. Propagação do Estudo 19 — Maravilhas
+
+Maravilhas confirmam que muita mágika de item já é naturalmente player-facing:
+
+* Talismãs/Dispositivos → jogador rola Arete/Iluminação do item;
+* Fetiches → jogador rola Força de Vontade D7 contra Gnose;
+* Amuletos/Matrizes → preservam Quintessência;
+* criação → teste estendido;
+* Paradoxo → continua recaindo no usuário.
+
+Não há justificativa para criar uma mecânica genérica adicional de “ativação player-facing”.
+
+
+---
+
+## 17. Propagação do Estudo 20 — Paradoxo, Silêncio e Consenso
+
+O subsistema de realidade consensual reforça três padrões:
+
+* **geração de Paradoxo** nasce das rolagens do PJ e permanece intacta;
+* **Reação de Paradoxo** permanece dívida aberta de transformação player-faced;
+* **Silêncio** já possui reserva e cura player-facing;
+* **Zonas de Realidade** são condições/classificações do mundo;
+* **Desafio da Realidade** já é resolução pelo jogador.
+
+Nenhuma mecânica genérica adicional de Obstáculo é necessária.

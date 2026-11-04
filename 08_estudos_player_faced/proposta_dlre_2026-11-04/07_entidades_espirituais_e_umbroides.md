@@ -1,0 +1,208 @@
+---
+type: regra
+summary: "Estudo 07: aplicação do player-facing a espíritos e Umbra preservando a ficha espiritual já compacta de M20, suas imunidades, recursos e Encantos."
+tags: [estudo, game-design, player-faced, umbra, espiritos, umbrood, gaffling, jaggling, incarna, materializacao, slumber, regras]
+---
+
+> **ESPELHO DLRE DE TRABALHO — NÃO HOMOLOGADO.** [Fonte íntegra](../07_entidades_espirituais_e_umbroides.md) · [Gramática e decisões](BASE_DLRE_E_STATUS.md). O corpo herdado conserva o caráter histórico de seus números e afirmações de estado.
+
+## Notas de conversão e sugestões
+
+A antiga dificuldade corresponde a D; o cancelamento pela oposição é candidato a L = R_antigo+1 somente quando um sucesso efetivo era suficiente; a proteção quantitativa posterior é candidata a R com escopo tipado; reservas persistentes podem ser E sem apagar regras próprias. **Cada correspondência exige confirmação funcional**, mantendo as operações dos jogadores de M20 e zero rolagens do Storyteller.
+
+**Movimentos possíveis, não definidos:** Espíritos podem mostrar sinais, sofrer mudanças de estado ou empregar Encantos antes de manifestação maior, quando houver fundamento. Leves podem ferir e prejudicar já no presente; sua função, quando aplicável, é preparar a causa de um movimento pesado significativamente maior depois, com oportunidade de intervenção. Esta seção é para o autor selecionar, alterar ou descartar, não para homologar.
+
+---
+
+
+# Estudo 07: Entidades Espirituais, Umbra e o Limite da Compressão
+## 🌌 1. O que M20 Já Simplifica
+
+Segundo a base de regras do próprio workspace:
+
+* **Força de Vontade:** iniciativa, esquiva e contra-ataque.
+* **Fúria:** capacidade ofensiva e dano.
+* **Gnose:** inteligência espiritual, rituais e Encantos.
+* **Essência:** saúde e reserva energética.
+
+Isso significa que o problema de ergonomia não é o mesmo encontrado em um mago, agente tecnocrata ou mortal com dezenas de Atributos e Habilidades.
+
+### Consequência de design
+
+A camada player-facing deve ser **mínima**:
+
+1. manter as quatro características espirituais como fonte normativa;
+2. converter apenas as rolagens do espírito que o ST deixará de realizar;
+3. preservar Essência e Encantos quando eles tiverem função mecânica própria;
+4. evitar traduzir automaticamente tudo para Oposição/Ameaça/Consequência/Relógio.
+
+A melhor compressão possível pode ser simplesmente uma **interface mais rápida para as quatro estatísticas já existentes**, em vez de uma nova ficha.
+
+---
+
+## 👁️ 2. Interação, Materialidade e Efeito Zero
+
+Aqui o conceito de **Efeito Zero** encontra um caso canônico claro.
+
+Um espírito desmaterializado não é afetado por ataques físicos mundanos. Para percebê-lo, tocá-lo ou feri-lo, os personagens precisam possuir meios compatíveis com as regras de Espírito, Primórdio, armas encantadas ou outros recursos apropriados.
+
+Portanto:
+
+> **Efeito Zero representa impossibilidade real estabelecida pela ficção ou pelas regras, não uma camada de resistência acrescentada para tornar a ameaça mais difícil.**
+
+Quando o espírito usa **Materializar**, ele passa a interagir com o mundo físico conforme as regras do Encanto. A mudança de estado deve alterar quais ações são possíveis, sem inventar um “Limiar 2” genérico apenas por ele ser um espírito poderoso.
+
+---
+
+## 🎯 3. Os 3 Níveis de Carga Narrativa para Espíritos
+
+A taxonomia continua útil como quantidade de atenção do Storyteller.
+
+### Nível 1 — Desafio Rápido / Oposição Pontual
+
+Um espírito participa de uma interação breve: perceber sua presença, convencê-lo, atravessar sua vigilância, obter passagem ou resistir a uma influência pontual.
+
+O ST identifica qual característica espiritual seria relevante na resolução original e aplica a transformação player-facing apropriada **somente se M20 pedir oposição ativa**.
+
+Uma ação simples continua podendo ser resolvida com 1 sucesso.
+
+### Nível 2 — Ameaça Ativa
+
+O espírito permanece em cena, age em iniciativa e usa suas capacidades repetidamente.
+
+Ele continua sendo representado por:
+
+* Força de Vontade;
+* Fúria;
+* Gnose;
+* Essência;
+* Encantos relevantes.
+
+A camada player-facing precisa responder, operação por operação:
+
+* Força de Vontade defensiva pode alimentar Oposição;
+* Força de Vontade usada como soak pode alimentar Limiar de Efetividade;
+* Fúria ofensiva sem reação equivalente do PJ permanece **dívida de transformação**; a rolagem do ST precisa ser eliminada sem criar nova operação para o jogador;
+* Gnose e Encantos devem ser tratados conforme a função específica;
+* Essência permanece saúde/recurso e não é comprimida arbitrariamente.
+
+### Nível 3 — Ação Espiritual Telegrafada / Alto Impacto
+
+Grandes Encantos, rituais, possessões, tempestades efêmeras ou ações de consequência excepcional podem usar a lógica de telegrafia já estabelecida:
+
+* preparação visível;
+* ação efetiva que cria estado;
+* escalada enquanto o estado persiste.
+
+Exemplo: uma entidade pode primeiro **possuir parcialmente** um hospedeiro, produzindo efeitos imediatos, e tornar legível que uma tomada completa ocorrerá se o vínculo não for rompido.
+
+A telegrafia nasce do comportamento e do Encanto, não de uma “fase de chefe” genérica.
+
+---
+
+## ⚔️ 4. Ataque e Defesa Espiritual
+
+As regras do workspace estabelecem:
+
+* espíritos usam **Força de Vontade** para esquiva;
+* usam **Fúria** para causar dano;
+* espíritos absorvem dano com **Força de Vontade**;
+* magos podem absorver dano espiritual por meios específicos, como contramágika com Espírito ou Avatar em determinadas condições.
+
+Isso cria três problemas de conversão diferentes.
+
+### 4.1. Esquiva / oposição do espírito
+
+É estruturalmente semelhante à dívida já estudada para rolagens resistidas. A parada de Força de Vontade do espírito pode ser testada contra o modelo provisório **Dificuldade + Limiar oculto**, mas precisa ser calibrada especificamente se as condições/dificuldades forem diferentes do baseline usado nos Estudos 02 e 05.
+
+### 4.2. Fúria e dano causado pelo espírito
+
+Não deve ser substituído automaticamente por “4 de dano fixo”.
+
+Quando o PJ possui resistência própria, ela é preservada. Quando não possui, não se inventa defesa nem se transfere custo ao jogador; a Fúria ofensiva permanece dívida aberta até existir transformação do lado do Storyteller suficientemente fiel.
+
+### 4.3. Absorção do espírito
+
+A Força de Vontade usada como soak pode alimentar o **Limiar de Efetividade**. O baseline experimental geral é 0–1d→0; 2–3d→1; 4–6d→2; 7–9d→3; 10d→4.
+
+Essa aplicação ainda merece validação específica para espíritos, mas já é uma hipótese mais sólida do que a antiga RD fixa arbitrária.
+
+---
+
+## 🧬 5. Essência: Saúde e Recurso, não Relógio Arbitrário
+
+Essência possui função dupla em M20:
+
+* representa integridade/saúde espiritual;
+* pode estar ligada ao uso de poderes e à existência da entidade.
+
+Por isso, transformar “10 Essência” em “4–5 caixas”, “25 Essência” em “7–8 caixas” ou valores semelhantes precisa de justificativa matemática e experiencial que ainda não existe.
+
+Até essa validação:
+
+> **Essência permanece Essência.**
+
+Um relógio pode ser usado pelo ST como interface visual se representar exatamente a mesma quantidade/progresso que a regra original exige. Ele não deve comprimir a reserva para acelerar o confronto apenas porque isso produz uma duração considerada melhor.
+
+O mesmo princípio vale para Vitalidade quando um espírito materializado possuir uma forma física definida pelas regras aplicáveis.
+
+---
+
+## 🔮 6. Encantos são Ações e Mudanças de Estado
+
+Encantos não devem ser reduzidos a simples modificadores dos quatro parâmetros genéricos do antigo modelo.
+
+Eles podem:
+
+* permitir Materialização;
+* produzir ataque;
+* criar estado;
+* alterar mobilidade;
+* possuir ou controlar;
+* mudar quais tipos de ação conseguem afetar a entidade;
+* iniciar movimentos telegrafados.
+
+O Storyteller precisa preservar **o que o Encanto faz** e comprimir somente a operação matemática que for onerosa.
+
+Isso é especialmente importante porque Encantos são parte relevante da identidade ficcional dos espíritos. Uma ficha curta que apaga seus Encantos pode ser cognitivamente leve, mas empobrece justamente a experiência que se pretende preservar.
+
+---
+
+## 🧭 7. As Quatro Dimensões não Substituem as Quatro Características Espirituais
+
+O Estudo 06 introduziu físico, social, intelectual e místico como **mapa de competências** para fichas extensas.
+
+Para espíritos, isso não deve substituir automaticamente:
+
+* Força de Vontade;
+* Fúria;
+* Gnose;
+* Essência.
+
+Pode ser útil ao ST dizer que determinada entidade é socialmente negociável, intelectualmente alienígena ou fisicamente incapaz de agir enquanto desmaterializada. Mas esses rótulos são **campos semânticos**, não novas estatísticas.
+
+A regra efetiva vem da natureza do espírito, de suas quatro características e de seus Encantos.
+
+---
+
+## 💡 8. Resultado do Estudo
+
+O caso espiritual produz uma correção importante para todo o projeto:
+
+> **compressão não é um valor em si. O objetivo é remover operações desnecessárias do Storyteller preservando informação que já está compacta e funcional.**
+
+Para NPCs humanos, isso pode exigir reduzir uma ficha enorme.
+
+Para espíritos, o M20 já fez grande parte dessa redução.
+
+Assim, o caminho mais promissor é:
+
+* preservar a ficha espiritual canônica;
+* retirar ou transformar apenas as rolagens que recaem sobre o ST;
+* manter as decisões e rolagens dos jogadores segundo M20;
+* aplicar Efeito Zero apenas quando houver impossibilidade real;
+* usar telegrafia para Encantos e ações de alto impacto quando sua causalidade justificar;
+* preservar Essência;
+* usar o baseline de Limiar para Vontade/soak como hipótese experimental;
+* tratar Fúria/Gnose que ainda dependam de rolagem do ST como dívidas abertas de transformação;
+* classificar Encantos por função em vez de convertê-los todos para a mesma gramática.
