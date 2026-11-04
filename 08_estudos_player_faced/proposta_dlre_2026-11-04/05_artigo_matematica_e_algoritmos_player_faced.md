@@ -1,0 +1,827 @@
+---
+type: regra
+summary: "Estudo técnico sobre a matemática do player-facing em M20, limites da conversão por Dificuldade e refinamento por Dificuldade + Resistência."
+tags: [srd, artigo, design, probabilidade, algoritmos, python, monte-carlo, estatistica, player-faced]
+---
+
+> **VERSÃO DERIVADA DLRE — PROPOSTA NÃO HOMOLOGADA (04/11/2026).** Fonte intacta: [05_artigo_matematica_e_algoritmos_player_faced.md](../05_artigo_matematica_e_algoritmos_player_faced.md), commit `aad1bf0aae85`. Para operadores, limites e Paradoxo, consulte [BASE_DLRE_E_STATUS.md](BASE_DLRE_E_STATUS.md). O corpo abaixo deriva do texto existente; suas passagens históricas, seus exemplos e seus antigos rótulos de homologação não homologam por si a arquitetura DLRE.
+
+### Leitura e ajustes candidatos deste documento
+
+**A leitura DLRE é uma proposta editorial e mecânica para conferência.** Antigos R de oposição devem ser lidos como L apenas após verificar a função; antigos P de proteção como R tipada; recursos persistentes só recebem E quando mantêm suas regras específicas. As conclusões matemáticas históricas não se tornam homologadas por mudança de letra.
+
+**Atenção à matemática:** fórmulas, scripts e números de experimentos antigos são corpus histórico. Não renomear variáveis de experimentos como se a operação nova estivesse validada; comparar a transformação L=R_antigo+1 e R_novo=P_antigo por função e somente com os mesmos testes/botches originais.
+
+---
+
+
+# Artigo Técnico: Da Variância Dupla à Resolução Player-Faced
+### Análise Probabilística e Algoritmos de Simulação Aplicados ao Sistema Storyteller (Mago: A Ascensão 20 Anos)
+## 📄 Abstract (Resumo)
+
+Este artigo formaliza matematicamente a tentativa de converter oposições de *Mago: A Ascensão 20 Anos* para resolução player-facing. A primeira hipótese testada — representar a competência do NPC apenas pela **Dificuldade do d10 do jogador** — mostrou-se insuficiente para reproduzir a distribuição de uma rolagem resistida clássica.
+
+A pesquisa posterior refinou a hipótese para **Dificuldade + Resistência**, reduzindo fortemente o erro, mas ainda identificando viés sistemático na curva de competência dos PJs. Portanto, este estudo deve ser lido como **etapa de calibração**, não como prova final de equivalência.
+
+---
+
+## 🎯 1. O Problema Ludológico: O Gargalo de Variância Dupla
+
+No *Storyteller System* clássico, quando dois personagens realizam uma ação contestada ou resistida (ex: *Manipulação + Lábia* de ambos a Dificuldade 6), cada lado rola uma variável aleatória independente de contagem de sucessos líquidos:
+
+$$X_{PJ} \sim \text{Trinomial}(N_{PJ}, p_s, p_1, p_0)$$
+$$X_{NPC} \sim \text{Trinomial}(N_{NPC}, p_s, p_1, p_0)$$
+
+A margem de vitória do jogador é dada por $D = X_{PJ} - X_{NPC}$. A variância da diferença entre duas variáveis aleatórias independentes é a **soma das variâncias**:
+
+$$\sigma^2_{Total} = \text{Var}(X_{PJ}) + \text{Var}(X_{NPC})$$
+
+### O Efeito Matemático e a Questão de Design
+Como a variância da diferença soma as variâncias das duas rolagens, disputas simétricas produzem muitos empates e resultados em que o PJ não supera o NPC. Para duas paradas de 4 dados em Dificuldade 6, a margem $D \le 0$ ocorre em aproximadamente **60,5\%** dos casos segundo o modelo adotado.
+
+Esse número descreve uma propriedade estatística; ele **não prova por si só “travamento narrativo”** nem autoriza chamar a variância do NPC de redundante. A questão correta é se essa segunda fonte de variância é importante para a experiência de M20 ou se pode ser comprimida sem distorção perceptível.
+
+---
+
+## 📐 2. Formalização do Modelo Player-Faced
+
+No modelo player-facing investigado, a rolagem do NPC é eliminada quando a incerteza pode ser ancorada na agência de um jogador. O NPC continua agindo na ficção e na iniciativa.
+
+A leitura dos resultados permanece ancorada nos graus de sucesso de M20:
+
+$R(S) = \begin{cases}
+\text{Sucesso sólido}, & \text{se } S \ge 2 \\
+\text{Sucesso marginal que move a ficção}, & \text{se } S = 1 \\
+\text{Falha simples}, & \text{se } S = 0 \\
+\text{Falha crítica}, & \text{quando a regra de botch de M20 for satisfeita}
+\end{cases}$
+
+**1 sucesso não exige automaticamente custo ou complicação.** O Storyteller interpreta a qualidade marginal do êxito de acordo com a ficção.
+
+---
+
+## 💻 3. Algoritmos de Simulação e Auditoria Estatística
+
+Os algoritmos abaixo registram etapas da pesquisa. Eles são úteis para entender o comportamento das hipóteses, mas os algoritmos 3–5 simulam o **motor proposto**, não um baseline completo de M20, e portanto não constituem prova de equivalência.
+
+### Algoritmo 1: Cálculo Trinomial Exato de Probabilidades Storyteller
+
+```python
+import math
+
+def exact_storyteller(N, D=6):
+    """
+    Calcula analiticamente a probabilidade exata de cada faixa de resultado 
+    para uma parada de N dados d10 em Dificuldade D.
+    Considera a regra onde dados com valor 1 anulam sucessos.
+    """
+    p_s = (11 - D) / 10.0  # Probabilidade de Sucesso por dado
+    p_1 = 0.10             # Probabilidade de valor 1 por dado
+    p_0 = 1.0 - p_s - p_1  # Probabilidade de valor Neutro
+
+    botch = 0.0
+    fail = 0.0
+    partial = 0.0
+    full = 0.0
+
+    for s in range(N + 1):
+        for o in range(N - s + 1):
+            z = N - s - o
+            # Coeficiente Multinomial N! / (s! * o! * z!)
+            prob = (math.factorial(N) / (math.factorial(s) * math.factorial(o) * math.factorial(z))) * (p_s**s) * (p_1**o) * (p_0**z)
+            net = s - o
+            
+            if net < 0 and s == 0:
+                botch += prob
+            elif net <= 0:
+                fail += prob
+            elif net == 1:
+                partial += prob
+            else: # net >= 2
+                full += prob
+
+    return botch, fail, partial, full
+
+# Exemplo de execução para 4 dados em Dificuldade 6:
+b, f, p, ful = exact_storyteller(4, 6)
+print(f"Botch: {b*100:.1f}%, Falha: {f*100:.1f}%, Marginal (1s): {p*100:.1f}%, Total (>=2s): {ful*100:.1f}%")
+```
+
+---
+
+### Algoritmo 2: Simulador Monte Carlo Comparativo (Resistido Clássico vs. Player-Faced)
+
+```python
+import numpy as np
+
+def sim_comparative_opposed(p_dice, npc_dice, target_diff_pf, n_sims=100000):
+    """
+    Simula 100.000 iterações comparando a rolagem contestada dupla clássica do M20
+    contra a rolagem única Player-Faced com Dificuldade Ajustada.
+    """
+    np.random.seed(42)
+    
+    # 1. Simulação do Modelo Clássico M20 (Rolagem Dupla)
+    p_rolls = np.random.randint(1, 11, size=(n_sims, p_dice))
+    p_net = np.sum(p_rolls >= 6, axis=1) - np.sum(p_rolls == 1, axis=1)
+    
+    npc_rolls = np.random.randint(1, 11, size=(n_sims, npc_dice))
+    npc_net = np.sum(npc_rolls >= 6, axis=1) - np.sum(npc_rolls == 1, axis=1)
+    
+    margin = p_net - npc_net
+    c_clean = np.mean(margin >= 2)
+    c_marginal = np.mean(margin == 1)
+    c_fail = np.mean(margin <= 0)
+    
+    # 2. Simulação do Modelo Player-Faced (Rolagem Única)
+    pf_rolls = np.random.randint(1, 11, size=(n_sims, p_dice))
+    pf_net = np.sum(pf_rolls >= target_diff_pf, axis=1) - np.sum(pf_rolls == 1, axis=1)
+    
+    pf_clean = np.mean(pf_net >= 2)
+    pf_marginal = np.mean(pf_net == 1)
+    pf_fail = np.mean(pf_net <= 0)
+    
+    return {
+        'classic': (c_clean, c_marginal, c_fail),
+        'player_faced': (pf_clean, pf_marginal, pf_fail)
+    }
+```
+
+---
+
+### Algoritmo 3: Simulador de Resposta Tática em Movimentos Telegrafados
+
+```python
+import numpy as np
+
+def sim_telegraphed_decision(choice='A', player_pool=5, n_sims=10000):
+    """
+    Simula as 3 decisões táticas do jogador diante de um Ataque Telegrafado de Chefe (5 de Dano):
+      - Opção A: Tentar Interromper a Carga (Diff 7)
+      - Opção B: Focar 100% em Defesa/Esquiva (Diff 6)
+      - Opção C: Ignorar o Aviso e Atacar com Tudo (Troca de Dano Fixo)
+    """
+    np.random.seed(42)
+    diff = 7 if choice in ['A', 'C'] else 6
+    rolls = np.random.randint(1, 11, size=(n_sims, player_pool))
+    succs = np.sum(rolls >= diff, axis=1) - np.sum(rolls == 1, axis=1)
+    
+    boss_damage_taken = []
+    player_damage_taken = []
+    
+    for net in succs:
+        if choice == 'A': # Interromper
+            if net >= 2:
+                boss_damage_taken.append(2)
+                player_damage_taken.append(0)
+            elif net == 1:
+                boss_damage_taken.append(1)
+                player_damage_taken.append(1)
+            else:
+                boss_damage_taken.append(0)
+                player_damage_taken.append(5)
+        elif choice == 'B': # Esquivar 100%
+            boss_damage_taken.append(0)
+            if net >= 2:
+                player_damage_taken.append(0)
+            elif net == 1:
+                player_damage_taken.append(1)
+            else:
+                player_damage_taken.append(5)
+    return np.mean(boss_damage_taken), np.mean(player_damage_taken)
+```
+
+---
+
+### Algoritmo 4: Simulador Histórico de Ameaça Ativa Simétrica (Monte Carlo)
+
+```python
+import numpy as np
+
+def sim_active_threat_level3(p_atk_dice=5, p_def_dice=5, threat_diff_atk=7, threat_diff_def=7, threat_damage=4, threat_clock=6, n_sims=50000):
+    """
+    Simula 50.000 confrontos usando uma versão histórica da hipótese de ameaça ativa
+    baseada em Diff_Atk, Diff_Def, Dano_Fixo e Relógio_Resistência.
+    Este modelo não deve ser tratado como equivalência validada com M20.
+    """
+    np.random.seed(42)
+    wins = 0
+    total_rounds = 0
+    hp_rem_list = []
+    
+    for _ in range(n_sims):
+        clock = threat_clock
+        hp = 7  # Trilha de Vitalidade do Mago (7 níveis)
+        rounds = 0
+        
+        while clock > 0 and hp > 0:
+            rounds += 1
+            # Turno do PJ: Ataca a Dificuldade de Imposição (Diff_Atk)
+            a_rolls = np.random.randint(1, 11, size=p_atk_dice)
+            a_net = np.sum(a_rolls >= threat_diff_atk) - np.sum(a_rolls == 1)
+            
+            if a_net >= 2:
+                clock -= 2  # Sucesso Total: 2 Impactos no Relógio
+            elif a_net == 1:
+                clock -= 1  # Sucesso Marginal: 1 Impacto no Relógio, 1 Dano de raspão no PJ
+                hp -= 1
+            else:
+                # Turno da Ameaça: PJ resiste à Dificuldade de Pressão (Diff_Def)
+                d_rolls = np.random.randint(1, 11, size=p_def_dice)
+                d_net = np.sum(d_rolls >= threat_diff_def) - np.sum(d_rolls == 1)
+                
+                if d_net >= 2:
+                    pass  # Esquiva Plena: 0 Dano
+                elif d_net == 1:
+                    hp -= 1  # Esquiva Marginal: 1 Dano de raspão
+                else:
+                    hp -= threat_damage  # Falha: Recebe Dano Fixo em cheio
+                    
+            if rounds > 20: break
+            
+        if hp > 0:
+            wins += 1
+            hp_rem_list.append(hp)
+        total_rounds += rounds
+
+    return {
+        'win_rate': wins / n_sims,
+        'avg_rounds': total_rounds / n_sims,
+        'avg_hp_remaining': np.mean(hp_rem_list)
+    }
+
+# Execução da Simulação de Monte Carlo (50.000 iterações):
+res3 = sim_active_threat_level3()
+print(f"Taxa de Vitória do PJ: {res3['win_rate']*100:.1f}%")
+print(f"Duração Média do Confronto: {res3['avg_rounds']:.2f} rodadas")
+print(f"HP Restante do Vencedor: {res3['avg_hp_remaining']:.2f} de 7")
+```
+
+---
+
+### Algoritmo 5: Simulador Histórico em 4 Domínios (Físico, Social, Intelectual, Místico)
+
+```python
+import numpy as np
+
+def sim_multidim_threat(p_dice, diff_imp, diff_pres, threat_damage, threat_clock, n_sims=50000):
+    """
+    Simula o desempenho de PJs de diferentes Tiers (Inepto 3d, Hábil 5d, Mestre 7d) 
+    em confrontos multidimensionais (Social, Intelectual, Místico, Físico).
+    """
+    np.random.seed(42)
+    wins = 0
+    total_rounds = 0
+    hp_rem_list = []
+    
+    for _ in range(n_sims):
+        clock = threat_clock
+        player_res = 7  # HP ou Vontade
+        rounds = 0
+        
+        while clock > 0 and player_res > 0:
+            rounds += 1
+            # Turno do PJ: Tenta impor ação no Domínio
+            a_rolls = np.random.randint(1, 11, size=p_dice)
+            a_net = np.sum(a_rolls >= diff_imp) - np.sum(a_rolls == 1)
+            
+            if a_net >= 2:
+                clock -= 2
+            elif a_net == 1:
+                clock -= 1
+                player_res -= 1
+            else:
+                # Turno da Ameaça: PJ resiste à Pressão no Domínio
+                d_rolls = np.random.randint(1, 11, size=p_dice)
+                d_net = np.sum(d_rolls >= diff_pres) - np.sum(d_rolls == 1)
+                
+                if d_net >= 2:
+                    pass
+                elif d_net == 1:
+                    player_res -= 1
+                else:
+                    player_res -= threat_damage
+                    
+            if rounds > 20: break
+            
+        if player_res > 0:
+            wins += 1
+            hp_rem_list.append(player_res)
+        total_rounds += rounds
+
+    return (wins / n_sims) * 100, total_rounds / n_sims, np.mean(hp_rem_list)
+```
+
+---
+
+## 📊 4. Resultados Históricos das Hipóteses Simuladas
+
+### 4.1. Resolução em Oposição Rápida (Nível 2)
+
+| Parada do PJ | Perfil do NPC Opositor | Dificuldade $D_{PF}$ | Sucesso Total ($\ge 2s$) | Sucesso Marginal (1s) | Taxa Ativa ($\ge 1s$) | Falha / Complicação |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **3 Dados** | Inepto (2d) | **Diff 5** | $54,1\%$ | $27,0\%$ | **$81,1\%$** | $18,9\%$ |
+| **4 Dados** | Médio (4d) | **Diff 6** | $55,2\%$ | $24,9\%$ | **$80,1\%$** | $19,9\%$ |
+| **5 Dados** | Treinado (6d) | **Diff 7** | $51,0\%$ | $25,4\%$ | **$76,4\%$** | $23,6\%$ |
+| **6 Dados** | Perito (8d) | **Diff 8** | $41,8\%$ | $27,0\%$ | **$68,8\%$** | $31,2\%$ |
+
+---
+
+### 4.2. Simulação Histórica em Ameaças Ativas
+
+| Antagonista do Livro M20 | Domínio de Conflito | Tier do PJ | Dificuldades (Imp / Pres) | Taxa de Vitória | Rodadas Médias | Recurso Restante |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
+| **Cientista Extraordinário** | **Intelectual** | PJ Inepto (3d) | Diff 7 / Diff 6 | **$81,5\%$** | 5,16 r | 4,06 / 7 |
+| **Cientista Extraordinário** | **Intelectual** | PJ Hábil (5d) | Diff 7 / Diff 6 | **$98,1\%$** | 4,24 r | 5,36 / 7 |
+| **Cientista Extraordinário** | **Físico (Ponto Fraco)** | PJ Inepto (3d) | Diff 5 / Diff 5 | **$99,9\%$** | 2,59 r | 5,99 / 7 |
+| **Agente Terno Preto** | **Físico** | PJ Inepto (3d) | Diff 7 / Diff 7 | **$67,7\%$** | 4,73 r | 4,07 / 7 |
+| **Agente Terno Preto** | **Físico** | PJ Hábil (5d) | Diff 7 / Diff 7 | **$93,5\%$** | 4,16 r | 5,15 / 7 |
+| **Agente Terno Preto** | **Social (Brecha)** | PJ Inepto (3d) | Diff 6 / Diff 6 | **$97,3\%$** | 2,90 r | 5,42 / 7 |
+| **Mestre Hermético** | **Místico (Supremacia)**| PJ Inepto (3d) | Diff 8 / Diff 7 | **$33,8\%$** | 5,64 r | 3,21 / 7 |
+| **Mestre Hermético** | **Místico (Supremacia)**| PJ Hábil (5d) | Diff 8 / Diff 7 | **$75,9\%$** | 5,61 r | 4,15 / 7 |
+| **Mestre Hermético** | **Místico (Supremacia)**| PJ Mestre (7d) | Diff 8 / Diff 7 | **$91,8\%$** | 5,13 r | 4,93 / 7 |
+| **Mestre Hermético** | **Intelectual (Brecha)**| PJ Inepto (3d) | Diff 7 / Diff 6 | **$88,1\%$** | 4,27 r | 4,47 / 7 |
+
+
+---
+
+## 💡 5. Conclusões e Estado Atual da Hipótese
+
+1. **A conversão por Dificuldade isolada foi rejeitada como equivalência suficiente.** Auditoria exata posterior encontrou grandes diferenças de distribuição e de taxa de sucesso.
+2. **Dificuldade + Resistência é muito mais promissor.** Para PJs de 2–10 dados contra NPCs de 2–12 dados, o melhor ajuste global reduziu fortemente a distância entre as distribuições, mas ainda apresentou erro residual e viés.
+3. **Viés observado:** com a conversão global, PJs de paradas menores tendem a ser levemente prejudicados e PJs de paradas maiores tendem a ser levemente favorecidos; parte dos sucessos sólidos também migra para resultados marginais.
+4. **A equivalência matemática continua aberta.** Uma transformação determinística de dois números não pode reproduzir perfeitamente toda a variância de uma segunda rolagem independente. O critério futuro deve combinar distância probabilística, preservação da curva de competência e playtest perceptual.
+5. **Ganhos de tempo e carga cognitiva ainda são hipóteses.** Simulação não mede tempo real de mesa; a magnitude desses ganhos precisa de playtests controlados.
+6. **A experiência do jogador não pode ser declarada preservada apenas porque os mesmos d10 e dificuldades familiares continuam visíveis.** A promessa exige preservar de forma suficientemente próxima as relações de competência e risco de M20.
+7. **A leitura 2+/1/0 permanece válida.** Ela descreve a qualidade do resultado em M20. Em Obstáculos persistentes, 1 sucesso continua sendo sucesso marginal e normalmente produz 1 Impacto/1 caixa antes de qualquer Proteção legítimo.
+8. **Ameaça + Consequência ainda não possuem transformação universal suficientemente calibrada.** A auditoria V3 rejeitou uma regra fixa para todos os casos. Quando o PJ não possui defesa ativa ou reação equivalente, o caso permanece dívida prioritária: o contrato proíbe reintroduzir a rolagem ofensiva do Storyteller e também proíbe criar nova operação para o jogador.
+
+
+---
+
+## 6. Refinamento Posterior: Dificuldade + Resistência
+
+A auditoria exata posterior testou PJs de 2 a 10 dados contra NPCs de 2 a 12 dados. A hipótese “parada do NPC → Dificuldade” apresentou erro agregado muito alto. A inclusão de um **Resistência** aproximou muito melhor a estrutura subtrativa da rolagem resistida.
+
+Melhor ajuste global encontrado até aqui:
+
+| NPC | Dificuldade | Resistência |
+| :---: | :---: | :---: |
+| 2d | 6 | 1 |
+| 3d | 6 | 1 |
+| 4d | 7 | 1 |
+| 5d | 6 | 2 |
+| 6d | 6 | 2 |
+| 7d | 7 | 2 |
+| 8d | 7 | 2 |
+| 9d | 6 | 3 |
+| 10d | 7 | 3 |
+| 11d | 7 | 3 |
+| 12d | 7 | 3 |
+
+Esse resultado é **experimental**. Uma nova auditoria exata encontrou ajustes pontuais ligeiramente melhores para alguns pools, mas a tabela regular acima permanece um baseline operacional útil porque preserva uma progressão simples e perde pouco em distância probabilística. Na auditoria mais recente, a TV média por parada ficou aproximadamente entre **3,4% e 9,4%**, com alguns piores casos na faixa de **15–16%**.
+
+A leitura operacional passa a usar a notação **D/R**: o primeiro número é a **Dificuldade** da rolagem do PJ e o segundo é a **Resistência**, isto é, a quantidade fixa de sucessos cancelados pela oposição. Assim, `7/2` significa **Dificuldade 7, Resistência 2**. Quando existir também resistência passiva ao efeito produzido, acrescenta-se **Proteção** como terceiro número, formando **D/R/P**, por exemplo `7/2/2`.
+
+
+---
+
+## 7. Propagação do Estudo 06
+
+O Estudo 06 refinou uma premissa importante deste artigo: as quatro dimensões (física, social, intelectual e mística) são úteis como **mapa de competência do NPC**, mas não implicam um motor universal simétrico.
+
+Dano físico, absorção, mágika, oposição social, hacking e testes estendidos possuem procedimentos próprios em M20. Consequentemente:
+
+* **Consequência fixa** não é assumida como equivalente universal a ataque+dano do NPC em conflitos persistentes;
+* **Proteção** é a generalização da antiga RD fixa e mostrou comportamento promissor como substituto determinístico de soak;
+* **relógios** não são automaticamente equivalentes a Vitalidade, Essência, Força de Vontade ou outros recursos;
+* **1 sucesso em conflito persistente** continua produzindo avanço ficcional e, quando a regra o converte diretamente em efeito quantitativo, normalmente produz 1 Impacto antes da Proteção;
+* **Efeito Zero por impossibilidade** deve decorrer de impossibilidade ficcional ou regra efetiva, não de um simples status de “chefe”.
+
+Os algoritmos históricos deste artigo continuam úteis para estudar comportamento interno de hipóteses antigas, mas qualquer validação futura precisa comparar cada subsistema comprimido contra o procedimento original correspondente de M20.
+
+
+---
+
+## 8. Auditorias V2/V3: estado atual da ficha achatada
+
+### Oposição
+
+A conversão **Dificuldade + Resistência** continua sendo a parte mais madura da ficha achatada. Os erros residuais são suficientemente baixos para tratá-la como baseline experimental, mas ainda não como equivalência exata.
+
+### Proteção
+
+A auditoria exata do **Bloco B — Proteção** comparou, para dano de 1d–15d e soak de 0d–10d, a distribuição final de `dano rolado − soak rolado` contra `dano rolado − Proteção fixa`. O personagem jogador mantém integralmente sua rolagem de dano; apenas a resistência passiva do Obstáculo é comprimida.
+
+A curva operacional fica:
+
+| Soak original | Proteção |
+| :---: | :---: |
+| 0–1d | 0 |
+| 2–3d | 1 |
+| 4–6d | 2 |
+| 7–9d | 3 |
+| 10d | 4 |
+
+No espaço auditado, o baseline apresentou **TV média agregada de 8,593%**. Para 2d–10d de soak, a tabela histórica coincide com o melhor Limiar fixo encontrado para cada parada. O pior caso global foi **25%**, concentrado no caso extremo de dano 1d contra soak 1d.
+
+O caso de **1d** é estruturalmente ambíguo: L0 e L1 apresentam a mesma TV média e o mesmo pior caso, mas com vieses de dano opostos. Adota-se **1d → L0** como aproximação operacional porque L1 tornaria impossível que um pool de dano de 1d produzisse dano contra esse alvo, criando uma imunidade absoluta que o procedimento original não possui.
+
+Esse resultado homologa a **Proteção** como aproximação de baixa carga cognitiva, não como equivalência probabilística exata.
+
+**Impacto** é a quantidade de efeito produzida pela ação antes da Proteção. **Impacto efetivo** é o que resta depois da subtração da Proteção. Em combate físico, por exemplo, os sucessos obtidos na rolagem de dano do PJ constituem Impacto; a Proteção substitui o soak do NPC e o restante alcança a Vitalidade/Integridade pertinente.
+
+### Bloco C — composição D/R/P no ataque físico do PJ
+
+O primeiro teste vertical completo combinou os dois operadores já calibrados em um único pipeline: **ataque D6 do PJ + defesa ativa do NPC + dano rolado pelo PJ + soak do NPC**. No player-facing, a defesa ativa do NPC foi convertida em **Dificuldade/Resistência (D/R)** e o soak em **Proteção (P)**, sem acrescentar qualquer nova operação ao jogador.
+
+Na faixa auditada — ataque do PJ de 2d–10d, defesa ativa do NPC de 2d–12d, dano-base de 2d–10d e soak de 0d–10d — a distribuição final de dano apresentou **TV média de 5,182%**, pior caso de **16,859%**, erro médio absoluto de **0,1232 nível** no dano esperado e viés médio de **−0,0550 nível**. A chance de botch permaneceu preservada exatamente.
+
+O resultado passa como **aproximação operacional do pipeline completo** para esse recorte. Os piores casos concentram-se nos mesmos pontos em que os operadores isolados já apresentavam maior erro, sobretudo combinações como defesa 3d→6/1 ou 6d→6/2 com soak 1d→P0. Isso indica composição de erros conhecidos, não uma nova falha estrutural do modelo.
+
+O **Perfil DRP**, expresso em D/R/P, deve ser tratado como baseline de conversão. Na futura calibração por NPC, os três valores podem receber ajustes pontuais quando a comparação com a ficha original mostrar que isso melhora a equivalência local sem quebrar a ordem funcional **Dificuldade → Resistência → Proteção**. Esses ajustes devem ser documentados como derivados da ficha e do comportamento original do NPC, e não como balanceamento arbitrário.
+
+Este resultado não se extrapola automaticamente para armas de fogo, ataques sem defesa ativa, manobras com dificuldade-base diferente de 6, dano não absorvível ou ações ofensivas do NPC.
+
+### Bloco D — armas de fogo e consulta funcional de D/R/P
+
+O segundo teste vertical isolou armas de fogo. Nesse procedimento, a **Dificuldade do ataque já pertence ao próprio M20**, derivada de alcance e cobertura, e não existe uma defesa ativa genérica do NPC a ser comprimida. Portanto, o player-facing preservou integralmente a Dificuldade e a rolagem de ataque do jogador, omitiu Resistência quando não havia oposição ativa prevista pela regra e substituiu apenas o soak do NPC por **Proteção**.
+
+Na faixa auditada — ataque do PJ de 2d–10d, Dificuldades 6–10, dano-base de 2d–10d e soak de 0d–10d — a distribuição final apresentou **TV média de 5,043%**, pior caso de **13,398%**, erro médio absoluto de **0,1199 nível** no dano esperado e viés médio de **−0,0377 nível**. Como o ataque foi preservado integralmente, o erro na chance de acertar e no botch foi **zero**.
+
+Esse resultado homologa, para este recorte, uma regra arquitetural: **D/R/P é uma assinatura consultada por função, não uma sequência obrigatória aplicada integralmente a toda ação**. A Dificuldade e a Resistência entram apenas quando o procedimento original possui funções correspondentes; a Proteção pode ser usada independentemente quando existe soak ou resistência passiva equivalente.
+
+A consequência imediata é abrir uma auditoria separada para ações que possuam **Dificuldade própria e oposição ativa simultaneamente**. A tabela D/R atual foi calibrada a partir de Dificuldade-base 6 e não pode ser simplesmente sobreposta a Dificuldades 5–10 sem nova verificação matemática.
+
+### Bloco E — Dificuldade própria + oposição ativa
+
+O Bloco E testou se a tabela D/R calibrada em D6 poderia ser transportada mecanicamente para ações resistidas com Dificuldade original entre 3 e 9. Foram comparados três modelos: transposição direta, transposição com overflow do teto D9 convertido em Resistência e melhor D/R local encontrado por busca exata.
+
+A **transposição direta foi rejeitada como regra geral**. Ela apresentou **TV média de 9,927%** e pior caso de **39,680%**. Converter overflow em Resistência não melhorou o conjunto: TV média de **10,150%**, com o mesmo pior caso. O melhor D/R local reduziu a TV média para **8,210%**, mas ainda apresentou pior caso de **31,040%**.
+
+A regra transposta coincidiu exatamente com o ótimo local em apenas **32 de 77 perfis Dificuldade×NPC (41,6%)**. Os maiores desvios concentraram-se sobretudo nas Dificuldades-base baixas, mostrando que **Dificuldade da ação e oposição do NPC interagem de forma não linear**. Portanto, o D da assinatura do NPC não deve ser simplesmente somado, deslocado ou transportado sobre a Dificuldade própria da ação.
+
+O resultado preserva a utilidade do **Perfil DRP** como interface compacta, mas rejeita a necessidade de uma **fórmula universal de composição em tempo de jogo**. A direção homologada passa a ser um **Perfil DRP pré-convertido de NPCs/Obstáculos**: a ficha recebe um **Perfil DRP** derivado das capacidades originais e calibrada antecipadamente. Cada procedimento de M20 consulta apenas os componentes pertinentes dessa assinatura; Dificuldades próprias da ação permanecem próprias do subsistema quando a regra original assim determina.
+
+A calibração futura será feita sobre NPCs concretos. Parte-se do baseline matemático, converte-se a ficha original para uma assinatura como `7/2/2`, compara-se o comportamento clássico com o convertido e, quando necessário, ajusta-se D, R ou P de forma pequena e rastreável. O objetivo passa a ser construir uma **escala graduada de perfis**, do NPC mais fraco ao mais forte, em vez de calcular uma fórmula universal durante a cena.
+
+### Bloco H — sucessos fixos ofensivos e ciclo físico bidirecional
+
+O Bloco H testou a metade ofensiva do **Perfil DRP**: quando o Obstáculo age contra o PJ, as rolagens originalmente feitas pelo Storyteller são substituídas por **sucessos fixos (S)**, preservando as rolagens que já pertencem ao jogador.
+
+O pipeline auditado foi:
+
+```
+ação do Obstáculo nasce com S
+→ PJ faz sua defesa original, quando existir
+→ se nenhum sucesso ofensivo restar, não há efeito
+→ se ao menos 1 sucesso restar, entra o dano/efeito
+→ o dano/efeito do Obstáculo também nasce com S fixo
+→ PJ mantém soak/resistência original quando M20 permitir
+```
+
+Os sucessos excedentes da ação acima do primeiro continuam alimentando o pool de dano antes de sua conversão para S, preservando a ligação original entre qualidade do acerto e potencial de dano.
+
+#### Conversão candidata em D6
+
+Na faixa 1d–20d, o teste comparou duas curvas para **ação** — arredondamento da média intrínseca e calibração pela interação com defesas do PJ — e uma curva específica para **dano/efeito**, calibrada após soak.
+
+Para os ataques concretos extraídos do corpus, todos os pools de ação testados ficaram entre 4d e 8d. Nesse intervalo, as duas curvas de ação coincidem:
+
+| Pool original | S de ação |
+| :---: | :---: |
+| 1–3d | S1 |
+| 4–6d | S2 |
+| 7–8d | S3 |
+
+A divergência começa em 9d e acima; portanto o Bloco H **não fecha ainda a curva ofensiva de ação para pools altos**.
+
+A curva de dano/efeito testada produziu, no intervalo relevante da amostra concreta:
+
+| Pool de dano original | S de dano/efeito |
+| :---: | :---: |
+| 1–3d | S1 |
+| 4–5d | S2 |
+| 6–8d | S3 |
+| 9–10d | S4 |
+| 11–13d | S5 |
+| 14–15d | S6 |
+| 16–18d | S7 |
+| 19–20d | S8 |
+
+No conjunto de 22 ataques concretos auditados, o ciclo completo apresentou erro médio de **4,782 pp** em P(dano zero), **0,1472 nível** em dano esperado, **4,791 pp** em P(3+ dano), **2,672 pp** em P(5+ dano) e **9,942%** de TV média. Como as duas curvas de ação coincidiam em todos os pools usados nessa amostra, seus resultados foram idênticos.
+
+Esse resultado torna a curva de dano/efeito uma candidata forte para o Físico, mas ainda não autoriza congelar toda a ofensiva: é necessário testar ações concretas de 9d ou mais e/ou perfis de alta competência antes de escolher a curva de ação nesses patamares.
+
+#### Proveniência mundana + mágicka
+
+O Bloco H comparou três maneiras de decompor um efeito misto em parcela mundana e parcela mágicka.
+
+O método **incremental** preservou exatamente tanto o total convertido quanto a parcela mundana isolada após a remoção da mágika:
+
+```
+S_mundano = f(dados mundanos)
+S_total = f(dados mundanos + dados mágickos)
+S_mágicko = S_total - S_mundano
+```
+
+Sua limitação é a quantização: em **8,421%** dos splits testados, havia contribuição mágicka positiva em dados, mas ela não atravessava um degrau suficiente para gerar +1S mágicko.
+
+Os métodos que garantem mais frequentemente pelo menos 1S mágicko reduzem esse problema, mas alteram a parcela mundana que deveria sobreviver intacta à contramágika. Como preservar o componente mundano é requisito funcional do produto, o método incremental permanece estruturalmente preferível, ainda com a dívida de representar de forma legível uma contribuição mágicka real que resulte em +0S.
+
+#### Estado
+
+O Bloco H confirma a arquitetura bidirecional do Perfil DRP:
+
+- **PJ → Obstáculo:** D/R/P descreve a resistência da dimensão;
+- **Obstáculo → PJ:** ações e efeitos usam sucessos fixos pré-convertidos, mantendo as rolagens originais do PJ;
+- **proveniência:** componentes mundanos e mágickos precisam permanecer separáveis quando a regra original os distingue;
+- **Persistência e características** continuam eixos independentes.
+
+A tabela ofensiva ainda não está homologada integralmente. O próximo gate matemático é resolver pools de ação altos e testar a proveniência também na **etapa de ação**, não apenas no dano/efeito.
+
+### Ameaça + Consequência
+
+A auditoria V3 comparou três modelos para ataques do NPC:
+
+* a regra histórica de uma única rolagem `2+/1/0`;
+* defesa ativa do PJ preservada + soak preservado;
+* ausência de defesa ativa com Consequência fixa + soak.
+
+A leitura `2+/1/0` **não foi invalidada** como leitura geral de sucessos. O que falhou foi usá-la sozinha como compressão universal de todo o pipeline ataque+dano de uma Ameaça persistente.
+
+Preservar defesa ativa + soak foi a melhor aproximação entre os modelos testados, especialmente em ameaças fracas e médias, mas o erro cresce em antagonistas fortes.
+
+Quando não existe defesa ativa, o problema é estrutural: M20 possui variância em ataque e dano no lado do NPC, enquanto o jogador pode não possuir nenhuma rolagem anterior ao soak — e alguns tipos de dano sequer permitem soak. Uma compressão totalmente determinística necessariamente elimina parte dessa variância.
+
+Portanto, o caso sem defesa ativa continua **metodologicamente aberto**. A auditoria demonstrou que as transformações testadas até aqui são insuficientes; ela não autoriza abandonar a premissa player-faced total. A dívida matemática inclui justamente encontrar uma representação do lado do ST que preserve suficientemente o perigo sem criar nova operação para o PJ.
+
+
+---
+
+## 9. Teorema prático de conservação da aleatoriedade
+
+As auditorias de Ameaça + Consequência expuseram um limite estrutural do projeto.
+
+Quando o procedimento original possui uma variável aleatória exclusivamente do lado do NPC e não existe rolagem correspondente do jogador, eliminar a rolagem do ST exige uma de três concessões:
+
+1. **determinizar/comprimir a variável**, alterando sua distribuição;
+2. **criar ou reaproveitar uma rolagem do jogador**, alterando seu procedimento ou economia de ações;
+3. **transferir a própria rolagem do NPC ao jogador**, preservando a matemática mas transferindo carga operacional e informação.
+
+Nenhuma dessas opções preserva simultaneamente distribuição, procedimento do jogador e zero rolagens do ST.
+
+Logo, sob a hierarquia definida no contrato do produto, a ausência de uma transformação suficientemente fiel mantém o problema aberto. A operação original do Storyteller não pode ser mantida como solução final.
+
+Isso não invalida a ficha achatada: **Ameaça** e **Consequência** continuam reduzindo consulta e reconstrução de ficha. Todo campo comprimido destinado ao produto final precisa eliminar a rolagem correspondente do ST sem alterar a interface operacional do PJ.
+
+
+---
+
+## 10. Auditoria de botch e ordem de resolução
+
+A validação final identificou um problema que não aparecia quando se comparavam apenas sucesso/falha: elevar diretamente a dificuldade do PJ para representar Oposição também eleva sua chance de **botch**.
+
+Isso é uma distorção, porque na ação resistida clássica:
+
+1. o PJ faz sua própria rolagem;
+2. o botch pertence a essa rolagem;
+3. só depois os sucessos do oponente cancelam sucessos do PJ.
+
+### Correção
+
+A conversão de Oposição passa a preservar essa ordem:
+
+```
+rolagem do PJ
+→ julgar botch pela dificuldade-base original
+→ se não houve botch, aplicar a compressão da Oposição
+→ Dificuldade equivalente + Resistência
+→ determinar sucessos líquidos
+```
+
+Essa leitura permite manter a tabela regular já usada nos Estudos 02/09 sem aumentar artificialmente a frequência de falhas críticas.
+
+### Resultado exato no espaço auditado
+
+Para PJs de 2–10 dados contra NPCs de 2–12 dados:
+
+* TV média agregada da tabela regular: **~6,75%**;
+* pior TV por par observado: **~15,05%**;
+* viés médio absoluto de chance de sucesso por faixa de NPC: **~2,7 pontos percentuais**;
+* erro de botch: **essencialmente zero**.
+
+A alternativa de usar apenas D6 + Resistência preserva botch naturalmente, mas piora a aproximação para cerca de **8% de TV média** e produz casos próximos de **19%**.
+
+### Estado
+
+A tabela regular atual permanece a candidata principal para playtest perceptual.
+
+Ela ainda não é declarada equivalência exata; o gate restante é **experiencial**, não mais correção de botch.
+
+
+---
+
+## 11. Blocos J–M — ofensiva intrínseca e validação
+
+A revisão conceitual posterior aos Blocos H/I fixou uma regra metodológica: valores ofensivos do Obstáculo são derivados exclusivamente de sua própria ficha e de seus procedimentos originais. Características do PJ podem entrar apenas depois, para validar o comportamento da ficha já congelada.
+
+### Bloco J — pool + Dificuldade → sucessos fixos
+
+O Bloco J comparou média, mediana e moda da distribuição exata de sucessos do PNJ em D3–D10 e 1d–20d. A mediana minimizou erro absoluto em 160/160 casos; a média arredondada minimizou RMSE em 160/160. A moda foi menos estável.
+
+A Dificuldade original mostrou-se indispensável. Não existe uma conversão universal `dados → S`; a transformação ofensiva precisa considerar `pool + Dificuldade → S`.
+
+### Bloco K — corpus físico real
+
+O Bloco K aplicou essa transformação ao corpus canônico. Foram convertidas 39 ações físicas únicas, com 54 variantes. A forma `S de ação + efeito C/L/A` apareceu naturalmente.
+
+Média e mediana divergiram pouco no corpus, mas a mediana apagou efeitos pequenos de 1d em alguns casos. A média arredondada permaneceu como candidata principal. Sem piso artificial de S1, S0 apareceu em ataques de arma de fogo a D10; como esses ataques ainda possuíam chance real de sucesso no M20, o caso unilateral permaneceu aberto.
+
+### Bloco L — sucessos excedentes e dano
+
+O Bloco L recompilou a regra de M20 em que sucessos de ataque acima do primeiro acrescentam dados ao dano. Ignorar essa contribuição subestimou o efeito, sobretudo em pools ofensivos maiores.
+
+Três modelos foram comparados: dano-base convertido, margem fixa derivada do S da ação e efeito condicional pré-compilado. O efeito condicional foi o melhor representante intrínseco da severidade do PNJ no conjunto auditado, mas sua relação com defesa ativa ainda precisava ser validada.
+
+### Bloco M V2 — defesa e absorção do PJ como validação
+
+O Bloco M V2 congelou primeiro os valores do Obstáculo e só então introduziu as rolagens normais do jogador.
+
+A sequência auditada foi:
+
+```
+S de ação do Obstáculo
+→ defesa ativa normal do PJ, quando existir
+→ sucessos ofensivos restantes
+→ dano/efeito fixo
+→ absorção normal do PJ, quando permitida
+→ dano final
+```
+
+A absorção permaneceu integralmente do lado do jogador e nunca participou da calibração do Obstáculo.
+
+Em corpo a corpo com defesa ativa, o modelo de efeito condicional pré-compilado apresentou TV média de 9,019%, erro médio de dano de 0,0998 nível e viés de −0,0401. O modelo de margem líquida teve TV ligeiramente menor, 8,717%, porém erro médio de dano maior, 0,1484, e viés de −0,1390. Portanto, a hipótese de que reduzir mecanicamente o efeito conforme os sucessos defensivos sempre seria mais fiel não foi confirmada pelo agregado.
+
+Sem defesa ativa, os três modelos permaneceram fracos: erro médio de chance de acerto de 17,837% e TV aproximadamente 25–26%. Armas de fogo em D8 e D10 expuseram especialmente a perda da aleatoriedade do ataque. Essa família continua dívida estrutural.
+
+### Gate após M
+
+Ainda não se homologa uma regra ofensiva final. O próximo teste deve verificar a robustez local dos resultados de defesa ativa — por ação, defesa, absorção e tipo de dano — e comparar uma compressão mínima da contribuição dos sucessos excedentes antes de escolher entre efeito condicional pré-compilado e uma regra dependente da margem líquida.
+
+A tabela empírica de níveis de potência e qualquer clustering permanecem posteriores ao fechamento dessas equivalências básicas.
+
+
+### Bloco N — robustez local com defesa ativa
+
+O Bloco N abriu o agregado do Bloco M V2 em 34 variantes ofensivas corpo a corpo, 3.366 células únicas de ação × defesa × absorção e 10.098 linhas matemáticas entre os três modelos.
+
+No confronto direto entre **CONDICIONAL_PRECOMPILADO** e **MARGEM_LÍQUIDA**, o resultado não produziu vencedor universal. Em TV, o Condicional venceu 1.150 células, a Margem 830 e houve 1.386 empates. Em erro de dano médio, porém, o Condicional venceu 1.737 células, a Margem apenas 243, com os mesmos 1.386 empates.
+
+A decomposição por defesa mostrou uma transição clara. Com defesa baixa do PJ (2d–4d), a Margem Líquida teve TV menor, embora o Condicional preservasse melhor o dano médio. A partir de aproximadamente 5d de defesa, o Condicional passou a ser também igual ou melhor em TV e manteve erro de dano menor. A absorção exibiu padrão semelhante: com soak 0d–4d a Margem frequentemente teve TV menor; a partir de 5d, o Condicional passou a dominar também essa métrica.
+
+Por tipo de dano, a Margem apresentou TV ligeiramente menor em Contundente e Letal, mas o Condicional preservou substancialmente melhor o dano médio, especialmente em Letal. No recorte de Letal sem absorção, a Margem teve TV menor (26,347% contra 30,106%), mas erro de dano maior (0,2393 contra 0,1775).
+
+A análise por ação mostrou três famílias:
+
+1. quando efeito-base e efeito-condicional coincidem, Condicional e Margem são matematicamente idênticos;
+2. em vários perfis intermediários, o Condicional preserva muito melhor a expectativa de dano, enquanto a Margem pode reduzir TV;
+3. em alguns ataques de alta competência e baixa defesa/absorção, ambos os modelos apresentam piores casos locais muito altos, revelando perda de variância que nenhuma das duas formas resolve sozinha.
+
+Os piores casos concentram-se em ataques fortes contra PJs com defesa baixa e sem absorção. Portanto, a diferença entre Condicional e Margem não explica sozinha o erro residual; parte importante decorre da compressão determinística das antigas rolagens do PNJ.
+
+#### Estado após N
+
+Nenhum dos dois modelos deve ainda ser homologado como regra única.
+
+O próximo gate deve testar uma **regra intermediária de baixa carga cognitiva**, pré-compilada na ação e ainda independente da ficha do PJ, capaz de preservar a contribuição dos sucessos excedentes sem entregar sempre o pacote condicional inteiro nem exigir reconstruir os dados-base de dano em tempo de jogo.
+
+A candidata a estudar é uma ação com **efeito-base + bônus condicionado à margem líquida**, com número mínimo de degraus. Exemplo estrutural, ainda não homologado:
+
+```
+3S + 2L
++1L se 2+ sucessos ofensivos permanecerem
+```
+
+A quantidade de degraus, seus gatilhos e a eventual necessidade de mais de um bônus devem ser derivados por teste; não devem ser escolhidos por intuição.
+
+A família sem defesa ativa continua dívida separada.
+
+
+### Bloco O — dano-base mínimo e sucessos excedentes
+
+O Bloco O corrigiu a interpretação do segundo termo da ação ofensiva. No M20, o dano indicado pela arma ou ataque é o **pool-base de dano**; sucessos líquidos de ataque acima do primeiro acrescentam dados a esse pool. Portanto, a ficha player-faced deve preservar a mesma relação causal:
+
+```
+S de ação
+→ defesa normal do PJ, quando houver
+→ sucessos líquidos
+→ 0S: sem efeito
+→ 1S: efeito-base
+→ cada sucesso líquido adicional acrescenta +1 dado equivalente ao dano-base
+→ conversão do pool total para efeito fixo
+→ absorção normal do PJ, quando permitida
+```
+
+Isso reinterpreta corretamente a antiga ideia de “margem líquida”. O bônus condicionado à margem não é um híbrido arbitrário entre dano-base e dano condicional; ele é a transposição direta da regra original de sucessos excedentes.
+
+#### Decomposição do erro
+
+Em 34 variantes corpo a corpo e 3.366 células ação × defesa × absorção:
+
+- comprimir somente o dano, mantendo o ataque original como diagnóstico, produziu TV média de **6,630%**, erro médio de dano de **0,0671** e erro de P0 de **2,671 pp**;
+- comprimir somente o ataque, mantendo o dano original como diagnóstico, produziu TV média de **4,044%**, erro médio de dano de **0,1013** e erro de P0 de **3,798 pp**;
+- comprimir ambos no candidato player-faced produziu TV média de **8,717%**, erro médio de dano de **0,1484**, viés de **−0,1390** e erro de P0 de **4,657 pp**.
+
+Logo, as duas compressões contribuem para o erro residual. A compressão do dano pesa mais na forma da distribuição; a compressão do ataque pesa mais no erro médio de dano. O modelo completo permanece sistematicamente um pouco conservador.
+
+#### Degraus do dano-base
+
+A conversão em sucessos inteiros quantiza o bônus dos excedentes. No corpus auditado, em que o valor ofensivo chegou a S3, os degraus observados foram:
+
+| pool-base | efeito-base | +1 sucesso excedente | +2 sucessos excedentes |
+| :---: | :---: | :---: | :---: |
+| 1d | 1 | 1 | 1 |
+| 2d | 1 | 1 | 2 |
+| 3d | 1 | 2 | 2 |
+| 4d | 2 | 2 | 2 |
+| 5d | 2 | 2 | 3 |
+| 6d | 2 | 3 | 3 |
+| 7d | 3 | 3 | 4 |
+| 8d | 3 | 4 | 4 |
+
+Esses degraus podem ser **pré-compilados na ação**, de modo que o Storyteller não precise conservar nem reconstruir o pool original de dano. Por exemplo, um ataque cujo dano-base converta para 3L e que suba para 4L com o primeiro sucesso excedente pode ser apresentado editorialmente como uma ação de base 3L com um único degrau de escalada ligado à margem líquida.
+
+#### Robustez e limite
+
+O candidato completo melhora à medida que defesa e absorção do PJ aumentam. Com defesa 2d, a TV média foi 17,577%; com defesa 10d, 3,830%. Com absorção 0d, a TV média foi 25,381%; com absorção 10d, 2,992%.
+
+Em Letal sem absorção, a TV média permaneceu alta, **26,347%**, embora o erro médio de dano tenha sido **0,2393**. Os piores casos locais continuam concentrados em ataques fortes contra PJs com pouca defesa e nenhuma absorção.
+
+Essa divergência não invalida a relação causal dano-base + excedentes; ela expõe o custo inevitável de remover duas fontes aleatórias do lado do PNJ. O próximo estudo deve reaplicar a arquitetura corrigida aos casos **sem defesa ativa**, separando situações em que ainda existe absorção normal do PJ daquelas em que nenhuma rolagem do jogador existe depois da ação.
+
+#### Estado após O
+
+Para ações com defesa ativa, a arquitetura normativa candidata passa a ser:
+
+```
+Ação do Obstáculo = S de ação + efeito-base
+sucessos líquidos além do primeiro = incremento sobre o efeito-base
+absorção do PJ = preservada quando M20 permitir
+```
+
+O antigo **CONDICIONAL_PRECOMPILADO** deixa de ser candidato normativo porque embute antecipadamente uma margem média de ataque que, no procedimento original, depende dos sucessos líquidos após a defesa.
+
+A homologação final da família ofensiva aguarda o recorte sem defesa ativa e a decisão autoral sobre o erro residual aceitável.
+
+
+### Bloco P — sem defesa ativa: com absorção vs. sem rolagem do PJ
+
+O Bloco P isolou o principal limite restante da ofensiva player-faced: situações em que o PNJ age sem uma defesa ativa do jogador. Foram analisadas 54 variantes físicas, com três representações derivadas exclusivamente do PNJ:
+
+- **PF_DANO_MINIMO**, usando S de ação + dano-base + excedentes;
+- **EFEITO_INCONDICIONAL_MEDIA**, comprimindo chance de falha e dano em um único efeito médio;
+- **EFEITO_INCONDICIONAL_MEDIANA**, fazendo a mesma compressão pela mediana.
+
+#### Sem defesa, mas com absorção normal do PJ
+
+A existência de uma rolagem posterior de absorção não recompõe satisfatoriamente a aleatoriedade perdida no ataque. No agregado de absorção 1d–10d:
+
+- PF_DANO_MINIMO: TV média **19,876%**, erro médio de dano **0,2502**;
+- EFEITO_INCONDICIONAL_MEDIA: TV média **19,361%**, erro médio de dano **0,2567**;
+- EFEITO_INCONDICIONAL_MEDIANA: TV média **19,020%**, erro médio de dano **0,2916**.
+
+O erro cai quando a absorção aumenta, mas isso ocorre porque a própria absorção apaga parte crescente da distribuição de dano. Em absorção baixa, o desvio permanece muito alto. Portanto, soak preservado não é substituto funcional para a incerteza perdida na etapa de acerto.
+
+#### Sem defesa e sem qualquer rolagem posterior do PJ
+
+Quando nenhuma rolagem do jogador existe depois da ação, a determinização produz divergência extrema:
+
+- PF_DANO_MINIMO: TV média **74,869%**;
+- EFEITO_INCONDICIONAL_MEDIA: TV média **81,531%**;
+- EFEITO_INCONDICIONAL_MEDIANA: TV média **75,373%**.
+
+A média incondicional preserva melhor o dano esperado agregado, mas destrói a probabilidade de zero em vários casos. A mediana preserva melhor alguns ataques de baixa probabilidade ao convertê-los em zero, mas então elimina ameaças reais. O problema é estrutural, não uma escolha ruim de estatística-resumo.
+
+Armas de fogo tornam o limite especialmente visível. Em D10, os ataques originais do corpus ainda tinham cerca de 23–27% de probabilidade de causar dano. PF_DANO_MINIMO e mediana convertem esses casos em efeito zero; a média incondicional os converte em 1L determinístico. A primeira opção apaga a ameaça; a segunda transforma uma ameaça rara em consequência certa.
+
+#### Conclusão do ramo determinístico
+
+O Bloco P encerra a busca por um **único escalar determinístico por ação** capaz de substituir satisfatoriamente, sem defesa ativa, a aleatoriedade do PNJ.
+
+Quando existe defesa ativa, a arquitetura candidata continua:
+
+```
+S de ação
+→ defesa normal do PJ
+→ sucessos líquidos
+→ efeito-base + incremento por excedentes
+→ absorção normal do PJ, quando permitida
+```
+
+Quando não existe defesa ativa, duas subfamílias permanecem:
+
+1. **há absorção do PJ**: a rolagem preservada reduz parte do erro, mas não recompõe adequadamente a chance de o ataque falhar;
+2. **não há rolagem do PJ**: nenhum escalar determinístico testado preserva simultaneamente chance de zero, dano médio e forma da distribuição.
+
+Qualquer solução futura para essa segunda família precisa aceitar explicitamente uma troca entre fidelidade estatística e carga operacional do Storyteller. Ela não deve contaminar a família com defesa ativa, que possui solução muito mais estável.
